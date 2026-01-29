@@ -1,26 +1,173 @@
 [
-  {
-    "subject": "General Knowledge",
-    "lang": "en", 
-    "questions": [
-      {
-        "q": "What is the capital of France?",
-        "options": ["Berlin", "Madrid", "Paris", "Rome"],
-        "correct": 2,
-        "feedback": "Paris is the capital of France."
-      }
-    ]
-  },
-  {
-    "subject": "تاريخ إسلامي",
-    "lang": "ar",
-    "questions": [
-      {
-        "q": "من هو أول الخلفاء الراشدين؟",
-        "options": ["عمر بن الخطاب", "أبو بكر الصديق", "علي بن أبي طالب", "عثمان بن عفان"],
-        "correct": 1,
-        "feedback": "أبو بكر الصديق هو أول الخلفاء الراشدين."
-      }
-    ]
-  }
+ {
+  "subject": "American Literature - The Adventures of Huckleberry Finn",
+  "lang": "en",
+  "questions": [
+    {
+      "q": "What is the real name of the author known as 'Mark Twain'?",
+      "options": [
+        "Samuel Langhorne Clemens",
+        "Abraham Lincoln",
+        "Tom Sawyer",
+        "Judge Thatcher"
+      ],
+      "correct": 0,
+      "feedback": "الإجابة هي صمويل كليمنس؛ حيث اعتمد الكاتب الاسم المستعار 'مارك توين' لاحقاً، وهو مصطلح ملاحي يعني قياس عمق المياه[cite: 30, 31]."
+    },
+    {
+      "q": "In which year is the novel's setting primarily placed?",
+      "options": [
+        "1861",
+        "1840",
+        "1910",
+        "1835"
+      ],
+      "correct": 1,
+      "feedback": "تدور أحداث الرواية في عام 1840، أي قبل اندلاع الحرب الأهلية الأمريكية التي بدأت عام 1861[cite: 5, 40]."
+    },
+    {
+      "q": "What does the pseudonym 'Mark Twain' signify in riverboat terms?",
+      "options": [
+        "A type of steamboat",
+        "Two fathoms depth for anchoring",
+        "A riverboat pilot's rank",
+        "The name of a famous river"
+      ],
+      "correct": 1,
+      "feedback": "الاسم مستمد من عمله كقبطان سفينة بخارية، ويعني وصول عمق المياه إلى قامتين، وهو العمق المناسب لرسو السفينة[cite: 31]."
+    },
+    {
+      "q": "How did Huck Finn fake his own death to escape from his father?",
+      "options": [
+        "By drowning in the Mississippi River",
+        "By killing a pig and spreading its blood in the cabin",
+        "By leaving a suicide note for the townspeople",
+        "By hiding in a sugar-hogshead barrel"
+      ],
+      "correct": 1,
+      "feedback": "استخدم هك ذكاءه الفطري وقتل خنزيراً ونثر دمه في الكوخ ليوهم والده والبلدة بأنه قُتل، مما مكنه من الهروب إلى جزيرة جاكسون[cite: 22, 180]."
+    },
+    {
+      "q": "What was the amount of money Huck and Tom found in the cave?",
+      "options": [
+        "Six thousand dollars each",
+        "One dollar a day",
+        "Ten thousand dollars total",
+        "A stash of silver coins"
+      ],
+      "correct": 0,
+      "feedback": "وفقاً للنص، وجد الصبيان ذهباً بقيمة ستة آلاف دولار لكل منهما، وقام القاضي ثاتشر باستثمارها لهما[cite: 102, 103]."
+    },
+    {
+      "q": "Which character is described as a 'runaway slave' belonging to Miss Watson?",
+      "options": [
+        "Pap",
+        "Jim",
+        "Ben Rogers",
+        "Tom Sawyer"
+      ],
+      "correct": 1,
+      "feedback": "جيم هو الشخصية المركزية التي تمثل تعقيدات العبودية والصداقة، وقد هرب بعد سماعه نية الآنسة واتسون لبيعه[cite: 12, 24, 25]."
+    },
+    {
+      "q": "Why does Huck prefer the 'Widow's Providence' over 'Miss Watson's'?",
+      "options": [
+        "Because it promised him more money",
+        "Because it felt more hopeful and beautiful",
+        "Because it allowed him to smoke",
+        "Because it was based on pirate books"
+      ],
+      "correct": 1,
+      "feedback": "لاحظ هك وجود رؤيتين للعناية الإلهية؛ رؤية الأرملة التي جعلت 'ريقه يسيل' لجمالها، ورؤية الآنسة واتسون الصارمة التي لم يجد فيها أي فائدة[cite: 163, 165]."
+    },
+    {
+      "q": "What historical event caused the abolition of slavery mentioned in the text context?",
+      "options": [
+        "The Jim Crow Laws",
+        "The American Civil War",
+        "The emergence of the Ku Klux Klan",
+        "The publication of Mark Twain's books"
+      ],
+      "correct": 1,
+      "feedback": "انتهت العبودية بانتصار الشمال في الحرب الأهلية الأمريكية بقيادة أبراهام لينكولن، رغم استمرار التمييز العنصري بعدها[cite: 40, 41, 42]."
+    },
+    {
+      "q": "What is the 'hair-ball' used for by Jim?",
+      "options": [
+        "To clean the ox's stomach",
+        "To perform magic and talk to a spirit",
+        "To pay Huck's father",
+        "To fix the raft"
+      ],
+      "correct": 1,
+      "feedback": "كان جيم يستخدم 'كرة الشعر' التي استخرجت من معدة ثور للقيام بأعمال السحر والتنبؤ، مدعياً أن بداخلها روحاً تعرف كل شيء[cite: 125]."
+    },
+    {
+      "q": "What does Mark Twain's use of local dialects in the novel signify?",
+      "options": [
+        "That he was a Romantic writer",
+        "That he was a Regionalist and a Realist",
+        "That he did not know proper English",
+        "That the novel was only for poor people"
+      ],
+      "correct": 1,
+      "feedback": "استخدام اللهجات اليومية للسود والبيض يُصنف مارك توين ككاتب 'إقليمي' (Regionalist) و'واقعي' (Realist) لأنه يعكس الواقع كما هو[cite: 187, 188]."
+    },
+    {
+      "q": "How did Huck know that the drowned body found in the river was not his father?",
+      "options": [
+        "The body was wearing a new coat",
+        "The body was floating on its back",
+        "The body had short hair",
+        "The face was clearly visible"
+      ],
+      "correct": 1,
+      "feedback": "استنتج هك أن الجثة لامرأة بملابس رجل؛ لأن الرجل الغريق يطفو على وجهه لا على ظهره[cite: 172, 173]."
+    },
+    {
+      "q": "What was the 'Tom Sawyer's Gang' oath written in?",
+      "options": [
+        "Ink",
+        "Lead pencil",
+        "Blood",
+        "Gold dust"
+      ],
+      "correct": 2,
+      "feedback": "اشترط توم سوير على كل من يريد الانضمام للعصابة أن يقسم ويوقع اسمه بالدم[cite: 45, 59]."
+    },
+    {
+      "q": "Who did Huck offer as a 'family member' to be killed by the gang if he told secrets?",
+      "options": [
+        "Widow Douglas",
+        "Miss Watson",
+        "Judge Thatcher",
+        "Aunt Polly"
+      ],
+      "correct": 1,
+      "feedback": "بما أن هك لم يملك عائلة مستقرة، فقد عرض عليهم الآنسة واتسون كبديل ليتمكن من الانضمام للعصابة[cite: 57, 58]."
+    },
+    {
+      "q": "What revelation did Tom make about Jim's status at the end of the journey?",
+      "options": [
+        "Jim was still a slave to the Phelps family",
+        "Jim had been a free man for two months",
+        "Jim was Huck's long-lost uncle",
+        "Jim was going to be sold to Orleans"
+      ],
+      "correct": 1,
+      "feedback": "كشف توم أن الآنسة واتسون قد أعتقت جيم في وصيتها قبل وفاتها بشهرين، فكان حراً طوال فترة محاولات إنقاذه الأخيرة[cite: 92]."
+    },
+    {
+      "q": "Why did Huck decide to 'head out west' at the end of the novel?",
+      "options": [
+        "To find more gold in the caves",
+        "To escape being 'civilized' by Aunt Sally",
+        "To find his father, Pap",
+        "To join a new gang of robbers"
+      ],
+      "correct": 1,
+      "feedback": "رفض هك محاولات الخالة سالي لتبنيه و'تمدينه' مرة أخرى، مفضلاً الحرية والهروب من القيود الاجتماعية[cite: 95, 413]."
+    }
+  ]
+}
 ]
