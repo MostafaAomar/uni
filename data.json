@@ -1,0 +1,9 @@
+[
+    {
+        "subject": "Geography",
+        "questions": [
+            { "q": "What is the capital of France?", "options": ["Berlin", "Madrid", "Paris"], "correct": 2 },
+            {" q": "Which ocean is the largest?", "options": ["Atlantic", "Indian", "Pacific"], "correct": 2 }
+        ]
+    }
+]

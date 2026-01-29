@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MCQ & Study App</title>
+    <style>
+        :root { --primary: #4a90e2; --success: #2ecc71; --error: #e74c3c; --dark: #2c3e50; }
+        body { font-family: 'Segoe UI', sans-serif; background: #f0f2f5; display: flex; justify-content: center; padding: 40px; }
+        #app-container { background: white; padding: 2rem; border-radius: 12px; box-shadow: 0 10px 25px rgba(0,0,0,0.1); width: 100%; max-width: 500px; text-align: center; }
+        .hidden { display: none; }
+        button { margin: 8px; padding: 12px 20px; cursor: pointer; border: 1px solid #ddd; border-radius: 8px; background: white; font-size: 1rem; transition: all 0.2s; }
+        button:hover { background: #f8f9fa; transform: translateY(-2px); }
+        .subject-btn { background: var(--primary); color: white; border: none; width: 80%; }
+        .option-btn { display: block; width: 100%; text-align: left; }
+        
+        /* Feedback Classes */
+        .correct { background-color: var(--success) !important; color: white; border-color: var(--success); }
+        .wrong { background-color: var(--error) !important; color: white; border-color: var(--error); }
+        .disabled { pointer-events: none; opacity: 0.7; }
+
+        /* Study Card Styling */
+        .card { padding: 40px; border: 2px dashed var(--primary); border-radius: 15px; margin: 20px 0; cursor: pointer; background: #fdfdfd; }
+        .answer-text { color: var(--success); font-weight: bold; margin-top: 15px; font-size: 1.2rem; }
+    </style>
+</head>
+<body>
+
+<div id="app-container">
+    <div id="setup-screen">
+        <h1>Select Subject</h1>
+        <div id="subject-list"></div>
+    </div>
+
+    <div id="mode-screen" class="hidden">
+        <h2 id="selected-subject-name"></h2>
+        <button onclick="setMode('study')">Study Cards</button>
+        <button onclick="setMode('quiz')">Take Quiz</button>
+    </div>
+
+    <div id="quiz-screen" class="hidden">
+        <h3 id="question-text"></h3>
+        <div id="options-container"></div>
+    </div>
+
+    <div id="study-screen" class="hidden">
+        <div class="card" onclick="toggleStudyAnswer()">
+            <p id="study-question"></p>
+            <p id="study-answer" class="answer-text hidden"></p>
+        </div>
+        <button onclick="nextStudyCard()">Next Card →</button>
+    </div>
+
+    <div id="result-screen" class="hidden">
+        <h2>Finished!</h2>
+        <p id="final-result"></p>
+        <button onclick="location.reload()">Back to Home</button>
+    </div>
+</div>
+
+<script  >
+    const quizData = [
+    {
+        subject: "Geography",
+        questions: [
+            { q: "What is the capital of France?", options: ["Berlin", "Madrid", "Paris"], correct: 2 },
+            { q: "Which ocean is the largest?", options: ["Atlantic", "Indian", "Pacific"], correct: 2 }
+        ]
+    },
+    {
+        subject: "Science",
+        questions: [
+            { q: "What planet is known as the Red Planet?", options: ["Mars", "Jupiter", "Venus"], correct: 0 },
+            { q: "What is H2O?", options: ["Oxygen", "Water", "Helium"], correct: 1 }
+        ]
+    }
+];
+
+let currentSubject = null;
+let currentIndex = 0;
+let score = 0;
+
+const screens = {
+    setup: document.getElementById('setup-screen'),
+    mode: document.getElementById('mode-screen'),
+    quiz: document.getElementById('quiz-screen'),
+    study: document.getElementById('study-screen'),
+    result: document.getElementById('result-screen')
+};
+
+function showScreen(screenName) {
+    Object.values(screens).forEach(s => s.classList.add('hidden'));
+    screens[screenName].classList.remove('hidden');
+}
+
+// 1. Load Subject Buttons
+function init() {
+    const list = document.getElementById('subject-list');
+    quizData.forEach((data, index) => {
+        const btn = document.createElement('button');
+        btn.innerText = data.subject;
+        btn.classList.add('subject-btn');
+        btn.onclick = () => {
+            currentSubject = quizData[index];
+            document.getElementById('selected-subject-name').innerText = currentSubject.subject;
+            showScreen('mode');
+        };
+        list.appendChild(btn);
+    });
+}
+
+// 2. Choose Mode
+function setMode(mode) {
+    currentIndex = 0;
+    score = 0;
+    if (mode === 'quiz') {
+        showScreen('quiz');
+        loadQuizQuestion();
+    } else {
+        showScreen('study');
+        loadStudyCard();
+    }
+}
+
+/** --- QUIZ LOGIC --- **/
+function loadQuizQuestion() {
+    const qData = currentSubject.questions[currentIndex];
+    const container = document.getElementById('options-container');
+    document.getElementById('question-text').innerText = qData.q;
+    container.innerHTML = '';
+
+    qData.options.forEach((opt, i) => {
+        const btn = document.createElement('button');
+        btn.innerText = opt;
+        btn.classList.add('option-btn');
+        btn.onclick = (e) => handleQuizAnswer(e.target, i);
+        container.appendChild(btn);
+    });
+}
+
+function handleQuizAnswer(btn, index) {
+    const correctIndex = currentSubject.questions[currentIndex].correct;
+    const allBtns = document.querySelectorAll('.option-btn');
+    
+    // Disable all buttons so user can't click twice
+    allBtns.forEach(b => b.classList.add('disabled'));
+
+    if (index === correctIndex) {
+        btn.classList.add('correct');
+        score++;
+    } else {
+        btn.classList.add('wrong');
+        allBtns[correctIndex].classList.add('correct'); // Show the right one
+    }
+
+    // Wait 1.5 seconds so user can see feedback
+    setTimeout(() => {
+        currentIndex++;
+        if (currentIndex < currentSubject.questions.length) {
+            loadQuizQuestion();
+        } else {
+            showResults();
+        }
+    }, 1500);
+}
+
+/** --- STUDY MODE LOGIC --- **/
+function loadStudyCard() {
+    const qData = currentSubject.questions[currentIndex];
+    document.getElementById('study-question').innerText = qData.q;
+    document.getElementById('study-answer').innerText = `Answer: ${qData.options[qData.correct]}`;
+    document.getElementById('study-answer').classList.add('hidden');
+}
+
+function toggleStudyAnswer() {
+    document.getElementById('study-answer').classList.toggle('hidden');
+}
+
+function nextStudyCard() {
+    currentIndex++;
+    if (currentIndex < currentSubject.questions.length) {
+        loadStudyCard();
+    } else {
+        showResults();
+    }
+}
+
+function showResults() {
+    showScreen('result');
+    document.getElementById('final-result').innerText = `Completed ${currentSubject.subject}! Your score: ${score}/${currentSubject.questions.length}`;
+}
+
+init();
+</script>
+</body>
+</html>
