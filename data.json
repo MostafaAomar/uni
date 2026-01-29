@@ -1,9 +1,19 @@
 [
-    {
-        "subject": "Geography",
-        "questions": [
-            { "q": "What is the capital of France?", "options": ["Berlin", "Madrid", "Paris"], "correct": 2 },
-            {" q": "Which ocean is the largest?", "options": ["Atlantic", "Indian", "Pacific"], "correct": 2 }
-        ]
-    }
+  {
+    "subject": "General Knowledge",
+    "questions": [
+      {
+        "q": "ما هي عاصمة فرنسا؟",
+        "options": ["برلين", "مدريد", "باريس", "روما"],
+        "correct": 2,
+        "feedback": "باريس هي العاصمة وأكبر مدن فرنسا." 
+      },
+      {
+        "q": "كم عدد كواكب المجموعة الشمسية؟",
+        "options": ["7", "8", "9", "10"],
+        "correct": 1,
+        "feedback": "يوجد 8 كواكب معترف بها في مجموعتنا الشمسية."
+      }
+    ]
+  }
 ]
