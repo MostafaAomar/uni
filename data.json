@@ -1,18 +1,25 @@
 [
   {
     "subject": "General Knowledge",
+    "lang": "en", 
     "questions": [
       {
-        "q": "ما هي عاصمة فرنسا؟",
-        "options": ["برلين", "مدريد", "باريس", "روما"],
+        "q": "What is the capital of France?",
+        "options": ["Berlin", "Madrid", "Paris", "Rome"],
         "correct": 2,
-        "feedback": "باريس هي العاصمة وأكبر مدن فرنسا." 
-      },
+        "feedback": "Paris is the capital of France."
+      }
+    ]
+  },
+  {
+    "subject": "تاريخ إسلامي",
+    "lang": "ar",
+    "questions": [
       {
-        "q": "كم عدد كواكب المجموعة الشمسية؟",
-        "options": ["7", "8", "9", "10"],
+        "q": "من هو أول الخلفاء الراشدين؟",
+        "options": ["عمر بن الخطاب", "أبو بكر الصديق", "علي بن أبي طالب", "عثمان بن عفان"],
         "correct": 1,
-        "feedback": "يوجد 8 كواكب معترف بها في مجموعتنا الشمسية."
+        "feedback": "أبو بكر الصديق هو أول الخلفاء الراشدين."
       }
     ]
   }

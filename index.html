@@ -1,9 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="ar" dir="rtl"> <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Modern MCQ & Study Pro</title>
+    <title>تطبيق الدراسة الاحترافي</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -11,16 +10,16 @@
 <div id="app-container">
     
     <div id="setup-screen">
-        <h1>Welcome</h1>
-        <p>Choose a subject to begin:</p>
-        <div id="subject-list">Loading subjects...</div>
+        <h1>مرحباً بك 👋</h1>
+        <p style="color:#718096">اختر مادة للبدء في الاختبار أو الدراسة</p>
+        <div id="subject-list">جاري تحميل المواد...</div>
     </div>
 
     <div id="mode-screen" class="hidden">
         <h2 id="selected-subject-name"></h2>
-        <button class="subject-btn" onclick="setMode('study')">📖 Study Mode</button>
-        <button class="subject-btn" onclick="setMode('quiz')">📝 Quiz Mode</button>
-        <button onclick="showScreen('setup')" style="border:none; color: #64748b; font-size: 0.9rem; margin-top:10px;">← Back to Subjects</button>
+        <button class="subject-btn" onclick="setMode('study')">📖 وضع الدراسة (بطاقات)</button>
+        <button class="subject-btn" onclick="setMode('quiz')">📝 وضع الاختبار (كويز)</button>
+        <button onclick="showScreen('setup')" style="background:transparent; color: #718096; box-shadow:none; margin-top:10px;">← العودة للمواد</button>
     </div>
 
     <div id="quiz-screen" class="hidden">
@@ -28,7 +27,7 @@
             <div id="quiz-progress" class="progress-fill"></div>
         </div>
 
-        <div id="quiz-header" style="display:flex; justify-content: space-between; margin-bottom: 15px; color: #64748b; font-size: 0.9rem;">
+        <div id="quiz-header" style="display:flex; justify-content: space-between; margin-bottom: 15px; color: #718096; font-size: 0.9rem;">
             <span id="question-count"></span>
             <span id="score-display"></span>
         </div>
@@ -40,8 +39,8 @@
         <div id="quiz-feedback" class="feedback-box hidden"></div>
 
         <div class="nav-container">
-            <button id="quiz-prev-btn" class="nav-btn" onclick="prevQuestion()">Back</button>
-            <button id="quiz-next-btn" class="nav-btn" onclick="nextQuestion()">Next</button>
+            <button id="quiz-prev-btn" class="nav-btn" onclick="prevQuestion()">سابق</button>
+            <button id="quiz-next-btn" class="nav-btn" onclick="nextQuestion()">التالي</button>
         </div>
     </div>
 
@@ -54,27 +53,28 @@
             <div class="flip-card-inner" id="card-inner">
                 <div class="flip-card-front">
                     <p id="study-question"></p>
-                    <small>Click to see answer</small>
+                    <small style="color:#a0aec0; margin-top:15px">اضغط لإظهار الإجابة</small>
                 </div>
                 <div class="flip-card-back">
                     <p id="study-answer"></p>
-                    <small>Click to see question</small>
+                    <small style="opacity:0.8; margin-top:15px">اضغط للعودة للسؤال</small>
                 </div>
             </div>
         </div>
 
         <div class="nav-container">
-            <button class="nav-btn" onclick="prevQuestion()">Previous</button>
-            <button class="nav-btn" onclick="nextQuestion()">Next</button>
+            <button class="nav-btn" onclick="prevQuestion()">سابق</button>
+            <button class="nav-btn" onclick="nextQuestion()">التالي</button>
         </div>
         
-        <button onclick="showScreen('mode')" style="margin-top: 20px; background:transparent; border:none; color:#64748b;">Exit Study Mode</button>
+        <button onclick="showScreen('mode')" style="margin-top: 20px; background:transparent; color:#718096; box-shadow:none;">خروج من الدراسة</button>
     </div>
 
     <div id="result-screen" class="hidden">
-        <h2 id="result-title">Quiz Complete!</h2>
-        <p id="final-result" style="font-size: 1.2rem; margin: 20px 0;"></p>
-        <button class="subject-btn" onclick="location.reload()">Try Another Subject</button>
+        <h2>اكتمل الاختبار! 🎉</h2>
+        <div style="font-size: 3rem; margin: 20px 0;">🏆</div>
+        <p id="final-result" style="font-size: 1.2rem; font-weight:bold; margin-bottom: 30px;"></p>
+        <button class="subject-btn" onclick="location.reload()">جرب مادة أخرى</button>
     </div>
 
 </div>

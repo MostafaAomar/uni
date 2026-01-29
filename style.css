@@ -1,142 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&family=Poppins:wght@400;600&display=swap');
+
 :root {
-    --primary: #4f46e5;
-    --primary-hover: #3730a3;
-    --success: #16a34a;
-    --error: #dc2626;
-    --bg: #f1f5f9;
-    --card-bg: #ffffff;
-    --text: #1e293b;
+    --primary-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    --secondary-gradient: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+    --bg-color: #f3f4f6;
+    --card-bg: rgba(255, 255, 255, 0.9);
+    --text-main: #2d3748;
+    --text-light: #718096;
+    --success: #48bb78;
+    --error: #f56565;
+    --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
 }
 
 * { box-sizing: border-box; }
 
 body { 
-    font-family: 'Inter', system-ui, sans-serif; 
-    background: var(--bg); 
+    font-family: 'Cairo', 'Poppins', sans-serif; 
+    background: var(--bg-color);
+    background-image: 
+        radial-gradient(at 0% 0%, hsla(253,16%,7%,1) 0, transparent 50%), 
+        radial-gradient(at 50% 0%, hsla(225,39%,30%,1) 0, transparent 50%), 
+        radial-gradient(at 100% 0%, hsla(339,49%,30%,1) 0, transparent 50%);
     display: flex; 
     justify-content: center; 
-    align-items: center; /* Centers vertically too */
+    align-items: center;
     min-height: 100vh;
     margin: 0;
     padding: 20px;
+    color: var(--text-main);
 }
 
 #app-container { 
     background: var(--card-bg); 
+    backdrop-filter: blur(20px); /* تأثير الزجاج */
+    -webkit-backdrop-filter: blur(20px);
     padding: 2.5rem; 
-    border-radius: 16px; 
-    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+    border-radius: 24px; 
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
     width: 100%; 
-    max-width: 500px; 
+    max-width: 550px; 
     text-align: center;
-    position: relative;
+    border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 .hidden { display: none !important; }
 
-h1, h2, h3 { color: var(--text); margin-top: 0; }
+h1, h2 { 
+    background: var(--primary-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+}
+
+h3 { color: var(--text-main); font-weight: 600; margin-bottom: 20px; line-height: 1.6;}
 
 /* --- Progress Bar --- */
 .progress-container {
     width: 100%;
-    height: 6px;
+    height: 8px;
     background-color: #e2e8f0;
-    border-radius: 10px;
-    margin-bottom: 25px;
+    border-radius: 20px;
+    margin-bottom: 30px;
     overflow: hidden;
 }
 
 .progress-fill {
     height: 100%;
-    background-color: var(--primary);
+    background: var(--primary-gradient);
     width: 0%;
-    transition: width 0.3s ease;
+    transition: width 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+    border-radius: 20px;
 }
 
 /* --- Buttons --- */
 button { 
-    margin: 8px 0; 
-    padding: 12px 16px; 
+    margin: 10px 0; 
+    padding: 16px 24px; 
     cursor: pointer; 
-    border: 2px solid #e2e8f0; 
-    border-radius: 8px; 
+    border: none; 
+    border-radius: 12px; 
     background: white; 
     font-size: 1rem; 
     font-weight: 600;
-    color: var(--text);
+    color: var(--text-main);
     width: 100%;
-    transition: all 0.2s ease;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    position: relative;
+    overflow: hidden;
+    font-family: inherit;
 }
 
 button:hover:not(:disabled) { 
-    background: #f8fafc; 
-    border-color: var(--primary);
-    color: var(--primary);
-    transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    transform: translateY(-3px);
+    box-shadow: 0 10px 15px rgba(0,0,0,0.1);
 }
 
 .subject-btn { 
-    background: var(--primary); 
+    background: var(--primary-gradient); 
     color: white; 
-    border: none; 
 }
 
 .subject-btn:hover { 
-    background: var(--primary-hover) !important; 
-    color: white !important; 
-    box-shadow: 0 6px 15px rgba(79, 70, 229, 0.3);
+    opacity: 0.9;
+    color: white;
 }
 
-/* Navigation Container - Keeps buttons safe */
+/* --- Quiz Specific --- */
+.option-btn {
+    text-align: right; /* لمحاذاة النص العربي */
+    padding-right: 20px;
+    border: 2px solid transparent;
+}
+
+.option-btn:hover:not(:disabled) {
+    border-color: #667eea;
+}
+
+.correct { 
+    background-color: #c6f6d5 !important; 
+    color: #22543d !important; 
+    border: 2px solid var(--success) !important;
+}
+.wrong { 
+    background-color: #fed7d7 !important; 
+    color: #742a2a !important; 
+    border: 2px solid var(--error) !important;
+}
+.disabled { cursor: not-allowed; opacity: 0.8; }
+
+/* --- Feedback Box --- */
+.feedback-box {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 12px;
+    font-size: 0.95rem;
+    text-align: right;
+    animation: fadeIn 0.4s ease;
+}
+@keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+
+.feedback-success { background: #f0fff4; color: #22543d; border-right: 4px solid var(--success); }
+.feedback-error { background: #fff5f5; color: #742a2a; border-right: 4px solid var(--error); }
+
+/* --- Navigation --- */
 .nav-container {
     display: flex;
-    gap: 10px;
-    margin-top: 20px;
+    gap: 15px;
+    margin-top: 25px;
+    z-index: 10;
     position: relative;
-    z-index: 10; /* Ensures buttons are above the flip card 3D space */
 }
 
 .nav-btn {
-    background: #334155;
-    color: white;
-    border: none;
-}
-
-.nav-btn:hover:not(:disabled) {
-    background: #1e293b;
+    background: #4a5568;
     color: white;
 }
-
-.nav-btn:disabled {
-    opacity: 0.5;
-    cursor: not-allowed;
-    transform: none;
-}
-
-/* --- Quiz Feedback Colors --- */
-.correct { background-color: #dcfce7 !important; border-color: var(--success) !important; color: #166534 !important; }
-.wrong { background-color: #fee2e2 !important; border-color: var(--error) !important; color: #991b1b !important; }
-.disabled { pointer-events: none; }
-
-.feedback-box {
-    margin: 15px 0;
-    padding: 12px;
-    border-radius: 8px;
-    font-weight: 600;
-    font-size: 0.95rem;
-    text-align: left;
-}
-.feedback-success { background: #dcfce7; color: #166534; border-left: 5px solid var(--success); }
-.feedback-error { background: #fee2e2; color: #991b1b; border-left: 5px solid var(--error); }
+.nav-btn:hover:not(:disabled) { background: #2d3748; color: white; }
+.nav-btn:disabled { opacity: 0.4; transform: none; box-shadow: none;}
 
 /* --- 3D Flip Card --- */
 .flip-card {
     background-color: transparent;
     width: 100%;
-    height: 300px; /* Fixed height to prevent overflow */
+    height: 320px;
     perspective: 1000px;
-    margin-bottom: 20px; /* Space between card and buttons */
+    margin-bottom: 20px;
     cursor: pointer;
 }
 
@@ -145,10 +175,10 @@ button:hover:not(:disabled) {
     width: 100%;
     height: 100%;
     text-align: center;
-    transition: transform 0.6s;
+    transition: transform 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275); /* حركة نطاطة جميلة */
     transform-style: preserve-3d;
-    box-shadow: 0 10px 30px -10px rgba(0,0,0,0.1);
-    border-radius: 16px;
+    border-radius: 20px;
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
 }
 
 .is-flipped { transform: rotateY(180deg); }
@@ -157,26 +187,64 @@ button:hover:not(:disabled) {
     position: absolute;
     width: 100%;
     height: 100%;
-    -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 30px;
-    border-radius: 16px;
-    border: 1px solid #e2e8f0;
-    background: white;
+    border-radius: 20px;
+    font-size: 1.3rem;
 }
 
-.flip-card-front { color: var(--text); }
+.flip-card-front { 
+    background: white; 
+    color: var(--text-main);
+}
 
 .flip-card-back {
-    background-color: var(--primary);
+    background: var(--primary-gradient);
     color: white;
     transform: rotateY(180deg);
-    border: none;
 }
 
-/* Typography for Card */
-#study-question, #study-answer { font-size: 1.25rem; line-height: 1.5; font-weight: 500; }
+/* ... (نفس المتغيرات والأنماط الأساسية السابقة) ... */
+
+/* --- تحديث هام: قائمة المواد (Grid) --- */
+#subject-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 15px;
+    margin-top: 20px;
+}
+
+/* --- دعم الاتجاهات --- */
+/* عند تفعيل الإنجليزية */
+[dir="ltr"] {
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+}
+[dir="ltr"] .option-btn {
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+[dir="ltr"] .feedback-box {
+    text-align: left;
+    border-right: none;
+    border-left-width: 5px;
+    border-left-style: solid;
+}
+[dir="ltr"] .feedback-success { border-left-color: var(--success); }
+[dir="ltr"] .feedback-error { border-left-color: var(--error); }
+
+/* عند تفعيل العربية */
+[dir="rtl"] {
+    font-family: 'Cairo', sans-serif;
+    text-align: right;
+}
+[dir="rtl"] .option-btn {
+    text-align: right;
+    padding-right: 20px;
+    padding-left: 10px;
+}
