@@ -33,14 +33,31 @@
         </div>
 
         <h3 id="question-text"></h3>
+        <div class="inline-controls" style="display:flex; gap:8px; justify-content:flex-end; margin-bottom:10px;">
+            <select id="translate-target" style="padding:6px 8px; border-radius:8px; border:1px solid #e2e8f0; background:white;">
+                <option value="en">English</option>
+                <option value="ar">العربية</option>
+                <option value="fr">Français</option>
+                <option value="es">Español</option>
+            </select>
+            <button class="subject-btn" style="padding:8px 12px; height:36px; min-width:44px;" onclick="translateCurrent()">🔁 ترجمة</button>
+            <button class="subject-btn" style="padding:8px 12px; height:36px; min-width:44px;" onclick="speakCurrent()">🔊 نطق</button>
+        </div>
         
         <div id="options-container"></div>
         
         <div id="quiz-feedback" class="feedback-box hidden"></div>
+        <div id="translation-box" class="feedback-box hidden" style="margin-top:8px"></div>
 
         <div class="nav-container">
             <button id="quiz-prev-btn" class="nav-btn" onclick="prevQuestion()">سابق</button>
             <button id="quiz-next-btn" class="nav-btn" onclick="nextQuestion()">التالي</button>
+        </div>
+        <div style="display:flex; gap:8px; margin-top:12px;">
+            <button class="subject-btn" onclick="saveProgress()">💾 حفظ التقدم</button>
+            <button class="subject-btn" onclick="loadProgress()">🔁 تحميل التقدم</button>
+            <button style="background:#eee; color:#333; border:none; padding:8px 12px; border-radius:6px;" onclick="clearProgress(true)">🗑️ مسح التقدم</button>
+            <span id="save-status" style="color:#4a5568; font-size:0.9rem; align-self:center; margin-left:6px"></span>
         </div>
     </div>
 
@@ -62,9 +79,27 @@
             </div>
         </div>
 
+        <div class="inline-controls" style="display:flex; gap:8px; justify-content:flex-end; margin-top:8px;">
+            <select id="translate-target-study" style="padding:6px 8px; border-radius:8px; border:1px solid #e2e8f0; background:white;">
+                <option value="en">English</option>
+                <option value="ar">العربية</option>
+                <option value="fr">Français</option>
+                <option value="es">Español</option>
+            </select>
+            <button class="subject-btn" style="padding:8px 12px; height:36px; min-width:44px;" onclick="translateCurrent(true)">🔁 ترجمة</button>
+            <button class="subject-btn" style="padding:8px 12px; height:36px; min-width:44px;" onclick="speakCurrent(true)">🔊 نطق</button>
+        </div>
+        <div id="translation-box-study" class="feedback-box hidden" style="margin-top:8px"></div>
+
         <div class="nav-container">
             <button class="nav-btn" onclick="prevQuestion()">سابق</button>
             <button class="nav-btn" onclick="nextQuestion()">التالي</button>
+        </div>
+        <div style="display:flex; gap:8px; margin-top:12px;">
+            <button class="subject-btn" onclick="saveProgress()">💾 حفظ التقدم</button>
+            <button class="subject-btn" onclick="loadProgress()">🔁 تحميل التقدم</button>
+            <button style="background:#eee; color:#333; border:none; padding:8px 12px; border-radius:6px;" onclick="clearProgress(true)">🗑️ مسح التقدم</button>
+            <span id="save-status" style="color:#4a5568; font-size:0.9rem; align-self:center; margin-left:6px"></span>
         </div>
         
         <button onclick="showScreen('mode')" style="margin-top: 20px; background:transparent; color:#718096; box-shadow:none;">خروج من الدراسة</button>

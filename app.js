@@ -41,28 +41,51 @@ async function init() {
         quizData = await response.json();
         list.innerHTML = ""; 
 
-        // إنشاء شبكة المواد
+        // إنشاء شبكة المواد مع شاشات تقدم لكل مادة
         quizData.forEach((data, index) => {
+            const row = document.createElement('div');
+            row.className = 'subject-row';
+            row.style.display = 'flex';
+            row.style.alignItems = 'center';
+            row.style.justifyContent = 'space-between';
+            row.style.marginBottom = '8px';
+
             const btn = document.createElement('button');
             btn.innerText = data.subject;
             btn.className = 'subject-btn';
-            
+            btn.style.flex = '1';
+            btn.style.textAlign = 'right';
+
+            const prog = document.createElement('div');
+            prog.id = `subject-progress-${index}`;
+            prog.className = 'subject-progress-wrap';
+            prog.innerHTML = `
+                <div class="subject-progress-line"><div class="subject-progress-fill" style="width:0%"></div></div>
+                <div class="subject-pct-text"></div>
+            `;
+
             btn.onclick = () => {
                 currentSubject = quizData[index];
-                
+
                 // تحديد اللغة والاتجاه بناءً على المادة
                 const lang = currentSubject.lang || 'ar';
                 const dir = lang === 'ar' ? 'rtl' : 'ltr';
-                
+
                 document.documentElement.setAttribute('lang', lang);
                 document.documentElement.setAttribute('dir', dir);
                 document.getElementById('app-container').setAttribute('dir', dir);
-                
+
                 document.getElementById('selected-subject-name').innerText = currentSubject.subject;
                 showScreen('mode');
             };
-            list.appendChild(btn);
+
+            row.appendChild(btn);
+            row.appendChild(prog);
+            list.appendChild(row);
         });
+
+        // بعد إنشاء القائمة، عرض تقدم كل مادة إن وُجد
+        updateAllSubjectProgress();
     } catch (error) {
         list.innerHTML = "خطأ في تحميل البيانات. تأكد من اتصالك بالإنترنت وصحة ملف JSON.";
         console.error("Fetch error:", error);
@@ -74,7 +97,229 @@ function setMode(chosenMode) {
     mode = chosenMode;
     currentIndex = 0;
     userAnswers = new Array(currentSubject.questions.length).fill(null);
+
+    // If there's saved progress for this subject+mode, offer to load it
+    try {
+        const key = storageKey();
+        const raw = localStorage.getItem(key);
+        if (raw) {
+            const want = confirm((currentSubject.lang || 'ar') === 'ar' ? 'تم العثور على تقدم محفوظ. هل ترغب بتحميله؟' : 'Saved progress found. Load it?');
+            if (want) {
+                loadProgress();
+                return;
+            }
+        }
+    } catch (e) {
+        console.warn('load check failed', e);
+    }
+
     renderStep();
+}
+
+// Helper: storage key per subject + mode
+function storageKey() {
+    const subj = currentSubject ? currentSubject.subject : 'unknown';
+    return `study_progress::${subj}::${mode}`;
+}
+
+// Compute saved progress percentage for a subject (by index in quizData)
+function computeProgressForSubject(idx) {
+    try {
+        const subjName = quizData[idx].subject;
+        const total = quizData[idx].questions.length || 0;
+        if (!total) return 0;
+
+        const keyStudy = `study_progress::${subjName}::study`;
+        const keyQuiz = `study_progress::${subjName}::quiz`;
+
+        let best = 0;
+
+        const rawStudy = localStorage.getItem(keyStudy);
+        if (rawStudy) {
+            try {
+                const o = JSON.parse(rawStudy);
+                const idxSaved = typeof o.index === 'number' ? o.index : 0;
+                const pct = Math.round(((idxSaved + 1) / total) * 100);
+                if (pct > best) best = pct;
+            } catch (e) { /* ignore parse */ }
+        }
+
+        const rawQuiz = localStorage.getItem(keyQuiz);
+        if (rawQuiz) {
+            try {
+                const o = JSON.parse(rawQuiz);
+                const answers = Array.isArray(o.userAnswers) ? o.userAnswers : [];
+                const answered = answers.filter(a => a !== null && a !== undefined).length;
+                const pct = Math.round((answered / total) * 100);
+                if (pct > best) best = pct;
+            } catch (e) { /* ignore parse */ }
+        }
+
+        return Math.min(100, Math.max(0, best));
+    } catch (e) {
+        return 0;
+    }
+}
+
+// Update all progress spans in the subject list
+function updateAllSubjectProgress() {
+    const list = document.getElementById('subject-list');
+    if (!list) return;
+    // children are rows we created earlier
+    Array.from(list.children).forEach((row, idx) => {
+        const wrap = row.querySelector(`#subject-progress-${idx}`);
+        if (!wrap) return;
+        const pct = computeProgressForSubject(idx);
+        const fill = wrap.querySelector('.subject-progress-fill');
+        const txt = wrap.querySelector('.subject-pct-text');
+        if (fill) fill.style.width = pct + '%';
+        if (txt) txt.innerText = pct > 0 ? pct + '%' : '';
+    });
+}
+
+// Show a short status message near the save buttons
+function showSaveStatus(msg) {
+    const els = document.querySelectorAll('#save-status');
+    if (!els || els.length === 0) return;
+    els.forEach(el => el.innerText = msg);
+    setTimeout(() => { els.forEach(el => { if (el.innerText === msg) el.innerText = ''; }); }, 3000);
+}
+
+// --- Translation & Speech helpers ---
+function speakText(text, lang) {
+    if (!window.speechSynthesis) return alert('Speech Synthesis not supported in this browser');
+    const utter = new SpeechSynthesisUtterance(text);
+    // prefer target lang, else subject lang, else en
+    utter.lang = lang || (currentSubject && currentSubject.lang) || 'en';
+    // try to pick a voice that matches lang
+    const voices = window.speechSynthesis.getVoices();
+    const match = voices.find(v => v.lang && v.lang.startsWith(utter.lang));
+    if (match) utter.voice = match;
+    window.speechSynthesis.cancel();
+    window.speechSynthesis.speak(utter);
+}
+
+async function translateText(text, target, source) {
+    // Try a public LibreTranslate instance that usually supports CORS
+    const payload = { q: text, source: source || 'auto', target: target, format: 'text' };
+    // Try a local proxy first (run server.js) to avoid CORS, then public endpoints
+    const endpoints = [
+        'http://127.0.0.1:3000/translate',
+        'http://localhost:3000/translate',
+        'https://translate.argosopentech.com/translate',
+        'https://libretranslate.de/translate',
+        'https://libretranslate.com/translate'
+    ];
+
+    for (const url of endpoints) {
+        try {
+            const resp = await fetch(url, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(payload) });
+            if (!resp.ok) throw new Error(`Bad response ${resp.status}`);
+            const j = await resp.json();
+            if (j && j.translatedText) return j.translatedText;
+        } catch (e) {
+            // try next endpoint
+            console.warn('translate endpoint failed', url, e);
+            continue;
+        }
+    }
+
+    // If we reach here, all endpoints failed (likely CORS). Throw and let caller show inline guidance.
+    throw new Error('All translate endpoints failed (CORS or network)');
+}
+
+function speakCurrent(isStudy) {
+    const qData = currentSubject.questions[currentIndex];
+    if (!qData) return;
+    const text = qData.q;
+    // choose language from select if available
+    const selId = isStudy ? 'translate-target-study' : 'translate-target';
+    const sel = document.getElementById(selId);
+    const lang = sel ? sel.value : (currentSubject.lang || 'ar');
+    speakText(text, lang);
+}
+
+async function translateCurrent(isStudy) {
+    const qData = currentSubject.questions[currentIndex];
+    if (!qData) return;
+    const text = qData.q;
+    const selId = isStudy ? 'translate-target-study' : 'translate-target';
+    const boxId = isStudy ? 'translation-box-study' : 'translation-box';
+    const sel = document.getElementById(selId);
+    const box = document.getElementById(boxId);
+    if (!sel || !box) return;
+    const target = sel.value || 'en';
+    box.classList.remove('hidden');
+    box.innerText = (currentSubject.lang || 'ar') === 'ar' ? '...جاري الترجمة' : 'Translating...';
+    try {
+        const translated = await translateText(text, target, currentSubject.lang || 'auto');
+        box.innerHTML = `<strong>Translation (${target}):</strong> <div style="margin-top:6px">${translated}</div>`;
+    } catch (e) {
+        box.innerHTML = (currentSubject.lang || 'ar') === 'ar' ? 'تعذر الترجمة (تم فتح مترجم خارجي).' : 'Translation failed (opened external translator).';
+    }
+}
+
+// Save current progress to localStorage
+function saveProgress() {
+    if (!currentSubject) return alert('اختر مادة أولاً');
+    const key = storageKey();
+    const payload = {
+        index: currentIndex,
+        userAnswers: userAnswers,
+        mode: mode
+    };
+    try {
+        localStorage.setItem(key, JSON.stringify(payload));
+        showSaveStatus((currentSubject.lang || 'ar') === 'ar' ? 'تم الحفظ' : 'Saved');
+        updateAllSubjectProgress();
+    } catch (e) {
+        console.error('Save failed', e);
+        alert((currentSubject.lang || 'ar') === 'ar' ? 'فشل الحفظ' : 'Save failed');
+    }
+}
+
+// Load saved progress (if exists)
+function loadProgress() {
+    if (!currentSubject) return alert('اختر مادة أولاً');
+    const key = storageKey();
+    const raw = localStorage.getItem(key);
+    if (!raw) return alert((currentSubject.lang || 'ar') === 'ar' ? 'لا يوجد تقدم محفوظ لهذه المادة' : 'No saved progress for this subject');
+    try {
+        const obj = JSON.parse(raw);
+        // Ensure answers array matches current length
+        const len = currentSubject.questions.length;
+        if (!obj.userAnswers || !Array.isArray(obj.userAnswers)) obj.userAnswers = new Array(len).fill(null);
+        if (obj.userAnswers.length !== len) {
+            // pad or trim
+            obj.userAnswers = obj.userAnswers.slice(0, len);
+            while (obj.userAnswers.length < len) obj.userAnswers.push(null);
+        }
+        userAnswers = obj.userAnswers;
+        currentIndex = Math.min(Math.max(0, obj.index || 0), len - 1);
+        mode = obj.mode || mode;
+        renderStep();
+        showSaveStatus((currentSubject.lang || 'ar') === 'ar' ? 'تم تحميل التقدم' : 'Progress loaded');
+        updateAllSubjectProgress();
+    } catch (e) {
+        console.error('Load failed', e);
+        alert((currentSubject.lang || 'ar') === 'ar' ? 'فشل تحميل التقدم' : 'Load failed');
+    }
+}
+
+// Clear saved progress (if confirmClear true, ask user)
+function clearProgress(confirmClear) {
+    if (!currentSubject) return alert('اختر مادة أولاً');
+    if (confirmClear) {
+        const ok = confirm((currentSubject.lang || 'ar') === 'ar' ? 'هل تريد مسح التقدم المحفوظ؟' : 'Clear saved progress?');
+        if (!ok) return;
+    }
+    const key = storageKey();
+    localStorage.removeItem(key);
+    userAnswers = new Array(currentSubject.questions.length).fill(null);
+    currentIndex = 0;
+    renderStep();
+    showSaveStatus((currentSubject.lang || 'ar') === 'ar' ? 'تم مسح التقدم' : 'Progress cleared');
+    updateAllSubjectProgress();
 }
 
 function renderStep() {
