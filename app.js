@@ -232,31 +232,99 @@ function speakCurrent(isStudy) {
     const qData = currentSubject.questions[currentIndex];
     if (!qData) return;
     const text = qData.q;
-    // choose language from select if available
-    const selId = isStudy ? 'translate-target-study' : 'translate-target';
-    const sel = document.getElementById(selId);
-    const lang = sel ? sel.value : (currentSubject.lang || 'ar');
-    speakText(text, lang);
+    // If there's an active manual translation textarea, speak that; otherwise speak the original.
+    const ta = document.getElementById('manual-translate-input');
+    if (ta && ta.value.trim()) {
+        const manual = ta.value.trim();
+        const detect = detectLangFromText(manual);
+        speakText(manual, detect);
+    } else {
+        speakText(text, currentSubject.lang || 'ar');
+    }
 }
 
 async function translateCurrent(isStudy) {
+    // Show a transient manual translation editor for the current question.
     const qData = currentSubject.questions[currentIndex];
     if (!qData) return;
-    const text = qData.q;
-    const selId = isStudy ? 'translate-target-study' : 'translate-target';
     const boxId = isStudy ? 'translation-box-study' : 'translation-box';
-    const sel = document.getElementById(selId);
     const box = document.getElementById(boxId);
-    if (!sel || !box) return;
-    const target = sel.value || 'en';
+    if (!box) return;
     box.classList.remove('hidden');
-    box.innerText = (currentSubject.lang || 'ar') === 'ar' ? '...جاري الترجمة' : 'Translating...';
-    try {
-        const translated = await translateText(text, target, currentSubject.lang || 'auto');
-        box.innerHTML = `<strong>Translation (${target}):</strong> <div style="margin-top:6px">${translated}</div>`;
-    } catch (e) {
-        box.innerHTML = (currentSubject.lang || 'ar') === 'ar' ? 'تعذر الترجمة (تم فتح مترجم خارجي).' : 'Translation failed (opened external translator).';
+    box.innerHTML = `
+        <div style="text-align:right">
+            <label style="font-weight:600">${(currentSubject.lang||'ar')==='ar' ? 'أدخل ترجمتك هنا للسؤال الحالي' : 'Enter your translation for this question'}</label>
+            <textarea id="manual-translate-input" class="manual-translate" placeholder="${(currentSubject.lang||'ar')==='ar' ? 'أدخل الترجمة هنا...' : 'Type translation here...'}"></textarea>
+            <div style="display:flex; gap:8px; justify-content:flex-end; margin-top:8px;">
+                <button class="mini-btn" onclick="applyManualTranslation(${isStudy})">✔️ تطبيق</button>
+                <button class="mini-btn" onclick="speakCurrent(${isStudy})">🔊 نطق</button>
+            </div>
+        </div>
+    `;
+}
+
+function applyManualTranslation(isStudy) {
+    const ta = document.getElementById('manual-translate-input');
+    if (!ta) return;
+    const val = ta.value.trim();
+    const boxId = isStudy ? 'translation-box-study' : 'translation-box';
+    const box = document.getElementById(boxId);
+    if (!box) return;
+    if (!val) {
+        box.innerHTML = '';
+        box.classList.add('hidden');
+        return;
     }
+    box.innerHTML = `<strong>${(currentSubject.lang||'ar')==='ar' ? 'الترجمة:' : 'Translation:'}</strong><div style="margin-top:6px">${escapeHtml(val)}</div>`;
+}
+
+function detectLangFromText(s) {
+    if (!s) return '';
+    // crude detection: Arabic Unicode range
+    if (/[\u0600-\u06FF]/.test(s)) return 'ar';
+    return 'en';
+}
+
+function escapeHtml(s) {
+    if (!s) return '';
+    return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+}
+
+// Manual translation storage: key format translation::subject::index::lang
+function manualTranslationKey(subject, index, lang) {
+    return `translation::${subject}::${index}::${lang}`;
+}
+
+function saveManualTranslation(subject, index, lang, text, isAuto=false) {
+    const key = manualTranslationKey(subject, index, lang);
+    const payload = { text: text, auto: !!isAuto, ts: Date.now() };
+    try { localStorage.setItem(key, JSON.stringify(payload)); updateAllSubjectProgress(); } catch(e){console.warn('save manual translation failed', e)}
+}
+
+function loadManualTranslation(subject, index, lang) {
+    const key = manualTranslationKey(subject, index, lang);
+    try { const raw = localStorage.getItem(key); if (!raw) return null; return JSON.parse(raw).text; } catch(e){return null}
+}
+
+// Called from the inline Save button
+function saveManualFromBox(subject, index, lang, isStudy) {
+    const ta = document.getElementById('manual-translate-input');
+    if (!ta) return;
+    const val = ta.value.trim();
+    if (!val) return alert((currentSubject.lang||'ar')==='ar' ? 'لا يوجد نص للحفظ' : 'No text to save');
+    saveManualTranslation(subject, index, lang, val, false);
+    const boxId = isStudy ? 'translation-box-study' : 'translation-box';
+    const box = document.getElementById(boxId);
+    if (box) box.innerHTML = `<strong>Translation (${lang}):</strong> <div style="margin-top:6px">${escapeHtml(val)}</div>`;
+    showSaveStatus((currentSubject.lang||'ar')==='ar' ? 'تم حفظ الترجمة محلياً' : 'Translation saved locally');
+}
+
+function speakManualFromBox(isStudy, lang) {
+    const ta = document.getElementById('manual-translate-input');
+    if (!ta) return;
+    const val = ta.value.trim();
+    if (!val) return alert((currentSubject.lang||'ar')==='ar' ? 'لا يوجد نص للنطق' : 'No text to speak');
+    speakText(val, lang);
 }
 
 // Save current progress to localStorage
@@ -361,6 +429,9 @@ function loadQuiz() {
     
     container.innerHTML = '';
     feedback.classList.add('hidden'); 
+    // clear any previous translation input/display for this question
+    const tbox = document.getElementById('translation-box');
+    if (tbox) { tbox.innerHTML = ''; tbox.classList.add('hidden'); }
 
     qData.options.forEach((opt, i) => {
         const btn = document.createElement('button');
@@ -426,6 +497,9 @@ function loadStudy() {
             btn.disabled = (currentIndex === 0);
         }
     });
+    // clear translation box for study view
+    const tbox = document.getElementById('translation-box-study');
+    if (tbox) { tbox.innerHTML = ''; tbox.classList.add('hidden'); }
 }
 
 function toggleFlip() {

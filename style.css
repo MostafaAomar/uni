@@ -153,6 +153,13 @@ button:hover:not(:disabled) {
     position: relative;
 }
 
+/* Inline controls (translate/speak) */
+.inline-controls { display:flex; gap:8px; justify-content:flex-end; margin-bottom:10px; }
+.inline-controls .mini-btn { padding:8px 12px; height:36px; min-width:44px; background:#fff; color:var(--text-main); border-radius:8px; box-shadow:none; width:unset; }
+.inline-controls .mini-btn:hover { transform:none; box-shadow:0 6px 10px rgba(0,0,0,0.06); }
+
+.manual-translate { width:100%; min-height:90px; padding:10px; border-radius:10px; border:1px solid #e6eef8; background:#fff; resize:vertical; font-size:1rem; }
+
 .nav-btn {
     background: #4a5568;
     color: white;
@@ -287,3 +294,5 @@ button:hover:not(:disabled) {
     padding-right: 20px;
     padding-left: 10px;
 }
+
+.feedback-box { text-align:right; }

@@ -33,15 +33,9 @@
         </div>
 
         <h3 id="question-text"></h3>
-        <div class="inline-controls" style="display:flex; gap:8px; justify-content:flex-end; margin-bottom:10px;">
-            <select id="translate-target" style="padding:6px 8px; border-radius:8px; border:1px solid #e2e8f0; background:white;">
-                <option value="en">English</option>
-                <option value="ar">العربية</option>
-                <option value="fr">Français</option>
-                <option value="es">Español</option>
-            </select>
-            <button class="subject-btn" style="padding:8px 12px; height:36px; min-width:44px;" onclick="translateCurrent()">🔁 ترجمة</button>
-            <button class="subject-btn" style="padding:8px 12px; height:36px; min-width:44px;" onclick="speakCurrent()">🔊 نطق</button>
+        <div class="inline-controls">
+            <button class="mini-btn" onclick="translateCurrent()">🔁 ترجمة</button>
+            <button class="mini-btn" onclick="speakCurrent()">🔊 نطق</button>
         </div>
         
         <div id="options-container"></div>
@@ -79,15 +73,9 @@
             </div>
         </div>
 
-        <div class="inline-controls" style="display:flex; gap:8px; justify-content:flex-end; margin-top:8px;">
-            <select id="translate-target-study" style="padding:6px 8px; border-radius:8px; border:1px solid #e2e8f0; background:white;">
-                <option value="en">English</option>
-                <option value="ar">العربية</option>
-                <option value="fr">Français</option>
-                <option value="es">Español</option>
-            </select>
-            <button class="subject-btn" style="padding:8px 12px; height:36px; min-width:44px;" onclick="translateCurrent(true)">🔁 ترجمة</button>
-            <button class="subject-btn" style="padding:8px 12px; height:36px; min-width:44px;" onclick="speakCurrent(true)">🔊 نطق</button>
+        <div class="inline-controls">
+            <button class="mini-btn" onclick="translateCurrent(true)">🔁 ترجمة</button>
+            <button class="mini-btn" onclick="speakCurrent(true)">🔊 نطق</button>
         </div>
         <div id="translation-box-study" class="feedback-box hidden" style="margin-top:8px"></div>
 
