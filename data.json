@@ -7,103 +7,103 @@
     "q": "The river best serves as a symbol of",
     "options": ["slavery", "freedom", "equality", "both b & c"],
     "correct": 1,
-    "feedback": "يمثل النهر في الرواية الهروب من قيود المجتمع والوصول إلى الحرية والسكينة[cite: 73, 74]."
+    "feedback": "يمثل النهر في الرواية الهروب من قيود المجتمع والوصول إلى الحرية والسكينة."
   },
   {
     "q": "The river provides all the following except",
     "options": ["food", "transportation", "escape", "a permanent home"],
     "correct": 3,
-    "feedback": "بينما يوفر النهر الغذاء والحماية، فإنه يظل مكاناً للعبور وليس مستقراً دائماً[cite: 73, 74]."
+    "feedback": "بينما يوفر النهر الغذاء والحماية، فإنه يظل مكاناً للعبور وليس مستقراً دائماً."
   },
   {
     "q": "Mark Twain was the first American writer to use everyday language.",
     "options": ["True", "False"],
     "correct": 0,
-    "feedback": "يُعتبر مارك توين رائد استخدام اللغة العامية واللهجات المحلية في الأدب الأمريكي[cite: 73, 74]."
+    "feedback": "يُعتبر مارك توين رائد استخدام اللغة العامية واللهجات المحلية في الأدب الأمريكي."
   },
   {
     "q": "Huck kills a ....... to fake his own death.",
     "options": ["pig", "cow", "bear", "fox"],
     "correct": 0,
-    "feedback": "ذبح هك خنزيراً واستخدم دمه ليوهم الجميع بأنه قُتل ليتمكن من الهروب[cite: 73, 74]."
+    "feedback": "ذبح هك خنزيراً واستخدم دمه ليوهم الجميع بأنه قُتل ليتمكن من الهروب."
   },
   {
     "q": "Who demands Huck's money?",
     "options": ["Pap Finn", "Tom", "Jim", "Judge Thatcher"],
     "correct": 0,
-    "feedback": "يعود والد هك (Pap) فقط من أجل الاستيلاء على ثروة ابنه لإنفاقها على الكحول[cite: 73, 74]."
+    "feedback": "يعود والد هك (Pap) فقط من أجل الاستيلاء على ثروة ابنه لإنفاقها على الكحول."
   },
   {
     "q": "Jim's friendship with Huck demonstrates that humanity has nothing to do with",
     "options": ["space", "race", "gender", "time"],
     "correct": 1,
-    "feedback": "تكسر صداقة هك وجيم الحواجز العرقية التي وضعها المجتمع في ذلك الوقت[cite: 13, 81]."
+    "feedback": "تكسر صداقة هك وجيم الحواجز العرقية التي وضعها المجتمع في ذلك الوقت"
   },
   {
     "q": "What are the Grangerfords and the Shepherdsons fighting about?",
     "options": ["the death of an infant", "the theft of cattle", "Nobody really remembers", "inheritance disputes"],
     "correct": 2,
-    "feedback": "يسخر توين من الثأر القبلي حيث يستمر القتال لأجيال دون معرفة السبب الأصلي[cite: 8, 81]."
+    "feedback": "يسخر توين من الثأر القبلي حيث يستمر القتال لأجيال دون معرفة السبب الأصلي."
   },
   {
     "q": "The Duke and the Dauphin are primarily",
     "options": ["con men", "actors", "beggars", "merchants"],
     "correct": 0,
-    "feedback": "الدوق والدوفين هما محتالان يخدعان الناس من خلال عروض وهمية[cite: 3, 81]."
+    "feedback": "الدوق والدوفين هما محتالان يخدعان الناس من خلال عروض وهمية."
   },
   {
     "q": "Huck is a ....... character.",
     "options": ["White trash", "mulatto", "middle class", "high class"],
     "correct": 0,
-    "feedback": "يوصف هك بأنه من طبقة 'White trash' بسبب فقره الشديد وافتقاره للتعليم التقليدي[cite: 12, 81]."
+    "feedback": "يوصف هك بأنه من طبقة 'White trash' بسبب فقره الشديد وافتقاره للتعليم التقليدي ."
   },
   {
     "q": "....... focuses on characters, their dialects and values.",
     "options": ["Humor", "Mimicry", "Regionalism", "Musicality"],
     "correct": 2,
-    "feedback": "الإقليمية هي حركة أدبية تركز على تصوير واقع منطقة معينة بصدق[cite: 16, 81]."
+    "feedback": "الإقليمية هي حركة أدبية تركز على تصوير واقع منطقة معينة بصدق ."
   },
   {
     "q": "I was playing double... The word 'Sin' refers to",
     "options": ["helping Jim", "running away from Pap", "Stealing money", "Disobeying Miss Watson"],
     "correct": 0,
-    "feedback": "بسبب تربية المجتمع، ظن هك أن مساعدته لعبد على الهرب هي خطيئة كبرى[cite: 30, 81]."
+    "feedback": "بسبب تربية المجتمع، ظن هك أن مساعدته لعبد على الهرب هي خطيئة كبرى ."
   },
   {
     "q": "A person's conscience ain't got no sense and just goes for him anyway.",
     "options": ["conscious", "family", "luck", "conscience"],
     "correct": 3,
-    "feedback": "يعبر هك عن حيرته من ضميره الذي يؤنبه حتى عندما يفعل الشيء الصحيح إنسانياً[cite: 40, 81]."
+    "feedback": "يعبر هك عن حيرته من ضميره الذي يؤنبه حتى عندما يفعل الشيء الصحيح إنسانياً ."
   },
   {
     "q": "I knowed he was white inside, and I reckoned he'd say what he did say.",
     "options": ["black", "white", "different", "hostile"],
     "correct": 1,
-    "feedback": "قال هك ذلك عندما ضحى جيم بحريته لإنقاذ توم، مما أثبت نبل أخلاقه[cite: 37, 81]."
+    "feedback": "قال هك ذلك عندما ضحى جيم بحريته لإنقاذ توم، مما أثبت نبل أخلاقه."
   },
   {
     "q": "Why does Jim run away from Miss Watson?",
     "options": ["She treats him poorly.", "She wants to sell him.", "He wants to meet his family.", "He wants to help Huck escape."],
     "correct": 1,
-    "feedback": "هرب جيم عندما سمع أن ميس واتسون تنوي بيعه لتاجر في الجنوب (أورليانز)[cite: 73, 74]."
+    "feedback": "هرب جيم عندما سمع أن ميس واتسون تنوي بيعه لتاجر في الجنوب (أورليانز)."
   },
   {
     "q": "What does Huck mean when he says, 'All right, then, I'll go to hell'?",
     "options": ["He is giving up on life.", "He is rejecting society's morality to help Jim.", "He is joking with Tom Sawyer.", "He is afraid of dying."],
     "correct": 1,
-    "feedback": "هذه هي ذروة التطور الأخلاقي لهك، حيث يختار إنقاذ صديقه حتى لو كلفه ذلك عقاباً دينياً حسب ظنه[cite: 104, 105]."
+    "feedback": "هذه هي ذروة التطور الأخلاقي لهك، حيث يختار إنقاذ صديقه حتى لو كلفه ذلك عقاباً دينياً حسب ظنه."
   },
   {
     "q": "Huck always comes to his own conclusions which ....... society's norms.",
     "options": ["support", "contradict", "praise", "both a & c"],
     "correct": 1,
-    "feedback": "يعتمد هك على تجاربه الشخصية بدلاً من اتباع قواعد المجتمع، مما يضعه غالباً في تعارض مع الأعراف السائدة[cite: 104]."
+    "feedback": "يعتمد هك على تجاربه الشخصية بدلاً من اتباع قواعد المجتمع، مما يضعه غالباً في تعارض مع الأعراف السائدة."
   },
   {
     "q": "Widow Douglas attempts to '.......' Huck.",
     "options": ["change", "criticize", "reform", "patronize"],
     "correct": 2,
-    "feedback": "تحاول الأرملة دوغلاس 'إصلاح' هك لجعله طفلاً متحضراً ومقبولاً اجتماعياً[cite: 104]."
+    "feedback": "تحاول الأرملة دوغلاس 'إصلاح' هك لجعله طفلاً متحضراً ومقبولاً اجتماعياً."
   },
   {
     "q": "Why does Huck fake his own death?",
@@ -114,7 +114,7 @@
       "To trick Jim"
     ],
     "correct": 1,
-    "feedback": "قام هك بتزييف موته هرباً من والده 'باب' الذي كان يختطفه ويسيء معاملته[cite: 104]."
+    "feedback": "قام هك بتزييف موته هرباً من والده 'باب' الذي كان يختطفه ويسيء معاملته."
   },
   {
     "q": "What is Jim's main goal in the novel?",
@@ -125,7 +125,7 @@
       "To help Huck become rich"
     ],
     "correct": 2,
-    "feedback": "الهدف الأساسي لجيم طوال الرواية هو نيل حريته ولم شمل عائلته مرة أخرى[cite: 104]."
+    "feedback": "الهدف الأساسي لجيم طوال الرواية هو نيل حريته ولم شمل عائلته مرة أخرى."
   },
   {
     "q": "Which theme is most central to Huckleberry Finn?",
@@ -136,7 +136,7 @@
       "The hypocrisy of civilized society"
     ],
     "correct": 3,
-    "feedback": "تنتقد الرواية نفاق 'المجتمع المتحضر' الذي يدعي الأخلاق بينما يشرع العبودية والظلم[cite: 104]."
+    "feedback": "تنتقد الرواية نفاق 'المجتمع المتحضر' الذي يدعي الأخلاق بينما يشرع العبودية والظلم."
   },
   {
     "q": "How does Mark Twain use satire in Huckleberry Finn?",
@@ -147,7 +147,7 @@
       "By avoiding controversial topics."
     ],
     "correct": 0,
-    "feedback": "يستخدم توين السخرية كأداة قوية لانتقاد المجتمع والعنصرية والعبودية[cite: 104]."
+    "feedback": "يستخدم توين السخرية كأداة قوية لانتقاد المجتمع والعنصرية والعبودية."
   },
   {
     "q": "Who is Widow Douglas to Huck?",
@@ -158,13 +158,13 @@
       "A con artist."
     ],
     "correct": 2,
-    "feedback": "الأرملة دوغلاس هي الوصية القانونية على هك وتحاول تربيته[cite: 104]."
+    "feedback": "الأرملة دوغلاس هي الوصية القانونية على هك وتحاول تربيته."
   },
   {
     "q": "Jim said it made him all over trembly and feverish to be so close to.....",
     "options": ["freedom", "adventure", "the duke", "Tom Sawyer"],
     "correct": 0,
-    "feedback": "كان جيم يشعر بالإثارة والخوف مع اقترابه من تحقيق حريته المنشودة[cite: 104]."
+    "feedback": "كان جيم يشعر بالإثارة والخوف مع اقترابه من تحقيق حريته المنشودة."
   },
   {
     "q": "What is Pap Finn's attitude toward Huck's education?",
@@ -175,7 +175,7 @@
       "He ignores it."
     ],
     "correct": 1,
-    "feedback": "كان والد هك يكره التعليم ويضرب ابنه لأنه تعلم القراءة، معتبراً ذلك تمرداً عليه[cite: 104]."
+    "feedback": "كان والد هك يكره التعليم ويضرب ابنه لأنه تعلم القراءة، معتبراً ذلك تمرداً عليه."
   },
   {
     "q": "Why does Huck give his fortune to Judge Thatcher?",
@@ -186,7 +186,7 @@
       "To impress Tom Sawyer."
     ],
     "correct": 1,
-    "feedback": "قام هك بالتنازل عن أمواله للقاضي ثاتشر لمنع والده من أخذها[cite: 104]."
+    "feedback": "قام هك بالتنازل عن أمواله للقاضي ثاتشر لمنع والده من أخذها."
   },
   {
     "q": "What crime do the Duke and King commit at the Wilks family funeral?",
@@ -197,13 +197,13 @@
       "They kidnap Mary Jane."
     ],
     "correct": 1,
-    "feedback": "انتحل الدوق والدوفين صفة أشقاء المتوفي للاستيلاء على الميراث[cite: 104]."
+    "feedback": "انتحل الدوق والدوفين صفة أشقاء المتوفي للاستيلاء على الميراث."
   },
   {
     "q": "Huck hides the Wilks family's gold in the:",
     "options": ["coffin", "mattress", "humanity", "woods"],
     "correct": 0,
-    "feedback": "قام هك بإخفاء الذهب داخل التابوت لمنع المحتالين من سرقته[cite: 73]."
+    "feedback": "قام هك بإخفاء الذهب داخل التابوت لمنع المحتالين من سرقته."
   },
   {
     "q": "'You can't pray a lie.' - What does Huck realize here?",
@@ -214,7 +214,7 @@
       "Tom is dishonest."
     ],
     "correct": 1,
-    "feedback": "أدرك هك أنه لا يمكنه الصلاة من أجل 'التوبة' عن مساعدة جيم بينما قلبه يريد مساعدته حقاً[cite: 77]."
+    "feedback": "أدرك هك أنه لا يمكنه الصلاة من أجل 'التوبة' عن مساعدة جيم بينما قلبه يريد مساعدته حقاً."
   },
   {
     "q": "'I reckon I got to light out for the Territory ahead of the rest...' - What does this reveal about Huck?",
@@ -225,372 +225,372 @@
       "All of the above."
     ],
     "correct": 3,
-    "feedback": "تعبر هذه الخاتمة عن رفض هك التام للمجتمع ورغبته في الحفاظ على حريته بعيداً عن 'التحضر'[cite: 77]."
+    "feedback": "تعبر هذه الخاتمة عن رفض هك التام للمجتمع ورغبته في الحفاظ على حريته بعيداً عن 'التحضر'."
   },
   {
     "q": "Who tells Huck that Pap is dead?",
     "options": ["Tom", "Sally Phelps", "Jim", "Aunt Polly"],
     "correct": 2,
-    "feedback": "جيم هو من رأى جثة والده في المنزل العائم ولكنه أخفى الأمر عن هك لحمايته حتى نهاية الرحلة[cite: 73]."
+    "feedback": "جيم هو من رأى جثة والده في المنزل العائم ولكنه أخفى الأمر عن هك لحمايته حتى نهاية الرحلة."
   },
     {
       "q": "What is the real name of the author known as Mark Twain?",
       "options": ["Samuel Langhorne Clemens", "Tom Sawyer", "Huckleberry Finn", "Abraham Lincoln"],
       "correct": 0,
-      "feedback": "الاسم الحقيقي للكاتب هو صموئيل كليمنس، وقد اختار 'مارك توين' كاسم مستعار مستوحى من عمله في السفن البخارية[cite: 54, 55]."
+      "feedback": "الاسم الحقيقي للكاتب هو صموئيل كليمنس، وقد اختار 'مارك توين' كاسم مستعار مستوحى من عمله في السفن البخارية."
     },
     {
       "q": "In what year is the novel 'The Adventures of Huckleberry Finn' set?",
       "options": ["1861", "1835", "1840", "1910"],
       "correct": 2,
-      "feedback": "تدور أحداث الرواية في عام 1840، أي قبل اندلاع الحرب الأهلية الأمريكية[cite: 13, 28]."
+      "feedback": "تدور أحداث الرواية في عام 1840، أي قبل اندلاع الحرب الأهلية الأمريكية."
     },
     {
       "q": "Which river serves as the main setting and route for the characters?",
       "options": ["Missouri River", "Mississippi River", "Nile River", "Amazon River"],
       "correct": 1,
-      "feedback": "نهر المسيسيبي هو المسرح الرئيسي للأحداث وطريق الهروب للعبيد نحو الشمال[cite: 14, 21]."
+      "feedback": "نهر المسيسيبي هو المسرح الرئيسي للأحداث وطريق الهروب للعبيد نحو الشمال."
     },
     {
       "q": "What does the pseudonym 'Mark Twain' signify?",
       "options": ["A type of bird", "A famous explorer", "Two fathoms (water depth)", "A riverboat captain"],
       "correct": 2,
-      "feedback": "المصطلح يعني 'قامتان' (حوالي 12 قدماً)، وهو العمق المناسب لرسو السفن البخارية بأمان[cite: 55, 56]."
+      "feedback": "المصطلح يعني 'قامتان' (حوالي 12 قدماً)، وهو العمق المناسب لرسو السفن البخارية بأمان."
     },
     {
       "q": "How is Huckleberry Finn's social status often described?",
       "options": ["Middle-class", "Wealthy elite", "White trash", "Royal descent"],
       "correct": 2,
-      "feedback": "يوصف هك بأنه 'white trash' لكونه صبياً فقيراً مهمشاً اجتماعياً رغم ثروته المفاجئة[cite: 7, 19]."
+      "feedback": "يوصف هك بأنه 'white trash' لكونه صبياً فقيراً مهمشاً اجتماعياً رغم ثروته المفاجئة."
     },
     {
       "q": "Who is Jim in the novel?",
       "options": ["Huck's father", "A runaway slave", "A member of Tom's gang", "A local judge"],
       "correct": 1,
-      "feedback": "جيم هو عبد هارب يسعى للحرية ويصبح الصديق المقرب لهك خلال الرحلة[cite: 24, 37]."
+      "feedback": "جيم هو عبد هارب يسعى للحرية ويصبح الصديق المقرب لهك خلال الرحلة."
     },
     {
       "q": "What characterizes Tom Sawyer's approach to adventure?",
       "options": ["Realism", "Romanticism", "Indifference", "Scientific method"],
       "correct": 1,
-      "feedback": "توم ساير شخصية 'رومانسية' تعتمد على كتب المغامرات والخيال بعكس هك الواقعي[cite: 20, 25]."
+      "feedback": "توم ساير شخصية 'رومانسية' تعتمد على كتب المغامرات والخيال بعكس هك الواقعي."
     },
     {
       "q": "The Jim Crow laws were enforced to ensure:",
       "options": ["Economic equality", "Religious freedom", "Racial segregation", "Voting rights for all"],
       "correct": 2,
-      "feedback": "قوانين 'جيم كرو' فرضت الفصل العنصري بين البيض والسود في الأماكن العامة[cite: 2, 78, 81]."
+      "feedback": "قوانين 'جيم كرو' فرضت الفصل العنصري بين البيض والسود في الأماكن العامة."
     },
     {
       "q": "What was the Ku Klux Klan's primary goal?",
       "options": ["Supporting black civil rights", "Opposing black civil rights", "Promoting education", "Ending the Civil War"],
       "correct": 1,
-      "feedback": "ظهرت هذه الجماعة كمنظمة عنصرية تعارض الحقوق المدنية للسود[cite: 4]."
+      "feedback": "ظهرت هذه الجماعة كمنظمة عنصرية تعارض الحقوق المدنية للسود."
     },
     {
       "q": "How did Huck fake his own death to escape his father?",
       "options": ["By drowning in the river", "By killing a pig and spreading its blood", "By leaving a note", "By burning down the cabin"],
       "correct": 1,
-      "feedback": "استخدم هك دم خنزير ليخدع الناس ويظنوا أنه قُتل، مما مكنه من الهروب[cite: 35]."
+      "feedback": "استخدم هك دم خنزير ليخدع الناس ويظنوا أنه قُتل، مما مكنه من الهروب."
     },
     {
       "q": "Why did Jim run away from Miss Watson?",
       "options": ["He wanted to find gold", "He heard plans to sell him", "He was tired of education", "He wanted to join a gang"],
       "correct": 1,
-      "feedback": "هرب جيم بعد سماعه خططاً لبيعه، مما كان سيعني انفصاله عن عائلته[cite: 38]."
+      "feedback": "هرب جيم بعد سماعه خططاً لبيعه، مما كان سيعني انفصاله عن عائلته."
     },
     {
       "q": "What is the name of the fictional town where the story begins?",
       "options": ["Florida", "St. Petersburg", "Jackson's Island", "Mississippi"],
       "correct": 1,
-      "feedback": "تبدأ الأحداث في بلدة خيالية تسمى سانت بيترسبرغ في ميزوري[cite: 21]."
+      "feedback": "تبدأ الأحداث في بلدة خيالية تسمى سانت بيترسبرغ في ميزوري."
     },
     {
       "q": "Mark Twain is often referred to as:",
       "options": ["The King of Comedy", "The Father of American Literature", "The Romantic Poet", "The Civil War Hero"],
       "correct": 1,
-      "feedback": "يُلقب بـ 'أب الأدب الأمريكي' نظراً لمساهماته الكبيرة وتأثيره الواسع[cite: 59]."
+      "feedback": "يُلقب بـ 'أب الأدب الأمريكي' نظراً لمساهماته الكبيرة وتأثيره الواسع."
     },
     {
       "q": "What did Tom Sawyer require from everyone who joined his gang?",
       "options": ["To pay a fee", "To take an oath and sign in blood", "To bring a gun", "To be a student"],
       "correct": 1,
-      "feedback": "فرض توم قسماً غليظاً وتوقيع الأسماء بالدم لإضفاء طابع درامي على عصابته[cite: 92, 112]."
+      "feedback": "فرض توم قسماً غليظاً وتوقيع الأسماء بالدم لإضفاء طابع درامي على عصابته."
     },
     {
       "q": "According to Tom, what is the difference between 'burglary' and 'robbery'?",
       "options": ["There is no difference", "Burglary is stealing cattle; Robbery is highway robbery", "Burglary is for heroes; Robbery is for villains", "Robbery is stealing from houses"],
       "correct": 1,
-      "feedback": "بالنسبة لتوم، سرقة الماشية هي 'سطو' (burglary)، أما هم فهم 'قطاع طرق' (highwaymen)[cite: 115, 117]."
+      "feedback": "بالنسبة لتوم، سرقة الماشية هي 'سطو' (burglary)، أما هم فهم 'قطاع طرق' (highwaymen)."
     },
     {
       "q": "Whom did Huck offer as a 'family member' to be killed if he broke the gang's oath?",
       "options": ["His father, Pap", "Tom Sawyer", "Miss Watson", "Widow Douglas"],
       "correct": 2,
-      "feedback": "لأنه لم يجد والده، عرض هك التضحية بـ 'الآنسة واتسون' لينضم للعصابة[cite: 109, 111]."
+      "feedback": "لأنه لم يجد والده، عرض هك التضحية بـ 'الآنسة واتسون' لينضم للعصابة."
     },
     {
       "q": "What celestial event occurred on both the birth and death of Mark Twain?",
       "options": ["Solar Eclipse", "Lunar Eclipse", "Halley's Comet", "Meteor Shower"],
       "correct": 2,
-      "feedback": "ارتبطت حياة مارك توين بظهور مذنب هالي عند ولادته ووفاته[cite: 70]."
+      "feedback": "ارتبطت حياة مارك توين بظهور مذنب هالي عند ولادته ووفاته."
     },
     {
       "q": "What did the North (Union) fight for during the Civil War?",
       "options": ["To keep slavery", "To abolish slavery", "To separate from the USA", "To expand to the West"],
       "correct": 1,
-      "feedback": "حارب الشمال بقيادة لينكولن لإلغاء العبودية، بينما دعم الجنوب استمرارها[cite: 77, 78]."
+      "feedback": "حارب الشمال بقيادة لينكولن لإلغاء العبودية، بينما دعم الجنوب استمرارها."
     },
     {
       "q": "Why did Huck lose interest in the story of Moses?",
       "options": ["It was too difficult to read", "Because Moses was dead", "Because he didn't like religion", "Because Miss Watson told it"],
       "correct": 1,
-      "feedback": "بمجرد معرفته أن موسى مات منذ زمن، فقد هك الاهتمام لأنه لا يهتم بالأموات[cite: 129, 130]."
+      "feedback": "بمجرد معرفته أن موسى مات منذ زمن، فقد هك الاهتمام لأنه لا يهتم بالأموات."
     },
     {
       "q": "Which of Mark Twain's works is considered his masterpiece?",
       "options": ["The Adventures of Tom Sawyer", "The Adventures of Huckleberry Finn", "Life on the Mississippi", "The Golden Papers"],
       "correct": 1,
-      "feedback": "تعتبر رواية 'مغامرات هكلبري فين' هي التحفة الفنية الكبرى لمارك توين[cite: 60]."
+      "feedback": "تعتبر رواية 'مغامرات هكلبري فين' هي التحفة الفنية الكبرى لمارك توين."
     },
     {
       "q": "Who tried to 'civilize' Huck through manners and education?",
       "options": ["His father, Pap", "Jim", "Widow Douglas and Miss Watson", "Tom Sawyer"],
       "correct": 2,
-      "feedback": "الأرملة دوغلاس وأختها الآنسة واتسون حاولتا تهذيب هك وتعليمه[cite: 29, 123]."
+      "feedback": "الأرملة دوغلاس وأختها الآنسة واتسون حاولتا تهذيب هك وتعليمه."
     },
     {
       "q": "What was Huck's reaction to the 'good place' (heaven) described by Miss Watson?",
       "options": ["He desperately wanted to go there", "He decided he didn't want to go if she was going there", "He didn't believe in it", "He thought it was for robbers"],
       "correct": 1,
-      "feedback": "فضل هك ألا يذهب للجنة إذا كانت الآنسة واتسون ستكون هناك، وفضل رفقة توم ساير[cite: 146, 148, 150]."
+      "feedback": "فضل هك ألا يذهب للجنة إذا كانت الآنسة واتسون ستكون هناك، وفضل رفقة توم ساير."
     },
     {
       "q": "What was Pap Finn's motivation for returning to Huck?",
       "options": ["To be a good father", "To take Huck's money", "To find Jim", "To join the army"],
       "correct": 1,
-      "feedback": "عاد والد هك السكير طمعاً في المال الذي عثر عليه هك مع توم[cite: 33]."
+      "feedback": "عاد والد هك السكير طمعاً في المال الذي عثر عليه هك مع توم."
     },
     {
       "q": "What is the main theme explored through Huck and Jim's relationship?",
       "options": ["The struggle for wealth", "The complexities of race and friendship", "The importance of education", "The history of the Mississippi River"],
       "correct": 1,
-      "feedback": "تمثل علاقتهما تعقيدات العرق والصداقة في مجتمع عنصري[cite: 10, 11]."
+      "feedback": "تمثل علاقتهما تعقيدات العرق والصداقة في مجتمع عنصري."
     },
     {
       "q": "What was Huck's 'sugar-hogshead' used for?",
       "options": ["Storing food", "A place to sleep when he felt free", "A trap for his father", "A boat for the river"],
       "correct": 1,
-      "feedback": "كان هك ينام في برميل السكر عندما يهرب من حياة 'التحضر' ليشعر بالحرية[cite: 124]."
+      "feedback": "كان هك ينام في برميل السكر عندما يهرب من حياة 'التحضر' ليشعر بالحرية."
     },
     {
       "q": "How many chapters does the novel consist of?",
       "options": ["10 chapters", "25 chapters", "43 chapters", "50 chapters"],
       "correct": 2,
-      "feedback": "تتكون الرواية من 43 فصلاً[cite: 17]."
+      "feedback": "تتكون الرواية من 43 فصلاً."
     },
     {
       "q": "Mark Twain was a strong supporter of which social cause?",
       "options": ["Anti-technology movement", "Women's rights", "Expanding slavery", "Monarchy"],
       "correct": 1,
-      "feedback": "على الرغم من نحافته عند الولادة التي لم ترضِ والدته، أصبح داعماً كبيراً لحقوق المرأة[cite: 71]."
+      "feedback": "على الرغم من نحافته عند الولادة التي لم ترضِ والدته، أصبح داعماً كبيراً لحقوق المرأة."
     },
     {
       "q": "What did Miss Watson use to try and educate Huck?",
       "options": ["A map of the river", "A spelling-book", "A pirate novel", "A book on technology"],
       "correct": 1,
-      "feedback": "استخدمت الآنسة واتسون كتاب تهجئة (spelling-book) لتعليم هك القراءة والكتابة[cite: 135]."
+      "feedback": "استخدمت الآنسة واتسون كتاب تهجئة (spelling-book) لتعليم هك القراءة والكتابة."
     },
     {
       "q": "In Tom Sawyer's gang, what happens to someone who tells the secrets?",
       "options": ["He is expelled", "He must pay a fine", "His throat is cut and carcass burnt", "He is sent to school"],
       "correct": 2,
-      "feedback": "كان قانون العصابة دموياً (خياليًا) يقضي بقتل الخائن وحرق جثته[cite: 97]."
+      "feedback": "كان قانون العصابة دموياً (خياليًا) يقضي بقتل الخائن وحرق جثته."
     },
     {
       "q": "Why did Huck return to live with the Widow Douglas after running away the first time?",
       "options": ["He missed the food", "Tom Sawyer said he could only join the gang if he was 'respectable'", "He was afraid of his father", "The police caught him"],
       "correct": 1,
-      "feedback": "أقنعه توم بالعودة لأن 'العصابة' تتطلب أشخاصاً محترمين اجتماعياً[cite: 124]."
+      "feedback": "أقنعه توم بالعودة لأن 'العصابة' تتطلب أشخاصاً محترمين اجتماعياً."
     },
     {"q": "What did Jim find inside the floating house that he kept Huck from seeing?",
       "options": ["A stash of gold", "The body of Huck's father", "A group of robbers", "A runaway slave"],
       "correct": 1,
-      "feedback": "اكتشف جيم جثة باب (والد هك) في البيت العائم لكنه منع هك من رؤية وجهه لحمايته مشاعرياً[cite: 158, 175]."
+      "feedback": "اكتشف جيم جثة باب (والد هك) في البيت العائم لكنه منع هك من رؤية وجهه لحمايته مشاعرياً."
     },
     {
       "q": "Why did Huck and Jim miss the town of Cairo in the fog?",
       "options": ["They fell asleep", "They were chased by the duke", "A heavy fog caused them to miss it", "The raft broke apart"],
       "correct": 2,
-      "feedback": "الضباب الكثيف كان عائقاً طبيعياً تسبب في تجاوزهما لمدينة كايرو التي كانت بوابتهما نحو الحرية[cite: 159]."
+      "feedback": "الضباب الكثيف كان عائقاً طبيعياً تسبب في تجاوزهما لمدينة كايرو التي كانت بوابتهما نحو الحرية."
     },
     {
       "q": "What is the name of the two families involved in a violent feud?",
       "options": ["The Wilks and the Phelps", "The Thatchers and the Douglases", "The Grangerfords and the Shepherdsons", "The Sawyers and the Finns"],
       "correct": 2,
-      "feedback": "عائلتا جرانجرفورد وشيبردسون تمثلان الصراع العائلي غير المنطقي الذي شهده هك[cite: 160]."
+      "feedback": "عائلتا جرانجرفورد وشيبردسون تمثلان الصراع العائلي غير المنطقي الذي شهده هك."
     },
     {
       "q": "Who are the two con men that Huck and Jim encounter on the river?",
       "options": ["Two runaway slaves", "A judge and a sheriff", "A duke and a king", "Tom Sawyer and Sid"],
       "correct": 2,
-      "feedback": "المحتالان اللذان ادعيا أنهما دوق وملك استغلا هك وجيم وقاما بعدة عمليات نصب[cite: 163, 164]."
+      "feedback": "المحتالان اللذان ادعيا أنهما دوق وملك استغلا هك وجيم وقاما بعدة عمليات نصب."
     },
     {
       "q": "To whom did the duke and king sell Jim?",
       "options": ["To Miss Watson", "To a local farmer at the Phelps's farm", "To Judge Thatcher", "To the Wilks sisters"],
       "correct": 1,
-      "feedback": "باع المحتالان جيم للمزارع في مزرعة فيلبس مدعين أنه عبد هارب[cite: 167, 168]."
+      "feedback": "باع المحتالان جيم للمزارع في مزرعة فيلبس مدعين أنه عبد هارب."
     },
     {
       "q": "When Huck arrived at the Phelps's farm, who was he mistaken for?",
       "options": ["A robber", "Tom Sawyer", "A runaway slave", "The king's son"],
       "correct": 1,
-      "feedback": "عائلة فيلبس (خالة توم وعمه) ظنوا أن هك هو توم ساير القادم لزيارتهم[cite: 168, 169]."
+      "feedback": "عائلة فيلبس (خالة توم وعمه) ظنوا أن هك هو توم ساير القادم لزيارتهم."
     },
     {
       "q": "How did Miss Watson ensure Jim's freedom before she died?",
       "options": ["She sold him to the North", "She gave him money to buy his freedom", "She freed him in her will", "She helped him escape"],
       "correct": 2,
-      "feedback": "كشف توم في النهاية أن جيم حر بالفعل لأن الآنسة واتسون أعتقته في وصيتها قبل وفاتها[cite: 173]."
+      "feedback": "كشف توم في النهاية أن جيم حر بالفعل لأن الآنسة واتسون أعتقته في وصيتها قبل وفاتها."
     },
     {
       "q": "At the end of the novel, what does Huck decide to do?",
       "options": ["Stay with Aunt Sally to be civilized", "Return to Miss Watson", "Head out West", "Stay on the Mississippi River"],
       "correct": 2,
-      "feedback": "رفض هك محاولات 'تحضيره' مرة أخرى وقرر الذهاب غرباً بحثاً عن الحرية[cite: 176]."
+      "feedback": "رفض هك محاولات 'تحضيره' مرة أخرى وقرر الذهاب غرباً بحثاً عن الحرية."
     },
     {
       "q": "According to the text, how much money did Huck and Tom find in the cave?",
       "options": ["One thousand dollars each", "Six thousand dollars apiece", "Twelve thousand dollars total", "A dollar a day"],
       "correct": 1,
-      "feedback": "وجد هك وتوم 6000 دولار لكل منهما، وهي الثروة التي جعلتهما أغنياء[cite: 185]."
+      "feedback": "وجد هك وتوم 6000 دولار لكل منهما، وهي الثروة التي جعلتهما أغنياء."
     },
     {
       "q": "What did Judge Thatcher do with Huck's money?",
       "options": ["He spent it on a new school", "He put it out at interest", "He gave it to Pap Finn", "He hid it in a cave"],
       "correct": 1,
-      "feedback": "وضع القاضي ثاتشر المال في البنك ليعود على هك بفائدة قدرها دولار واحد يومياً[cite: 186]."
+      "feedback": "وضع القاضي ثاتشر المال في البنك ليعود على هك بفائدة قدرها دولار واحد يومياً."
     },
     {
       "q": "Why did Pap Finn return to town to see Huck?",
       "options": ["Because he missed his son", "Because he heard Huck has money now", "To take Huck to school", "To work for the judge"],
       "correct": 1,
-      "feedback": "الدافع الوحيد لعودة الأب السكير كان الطمع في أموال ابنه هك[cite: 197, 198]."
+      "feedback": "الدافع الوحيد لعودة الأب السكير كان الطمع في أموال ابنه هك."
     },
     {
       "q": "How did Pap react to Huck's ability to read and write?",
       "options": ["He was proud of him", "He tore up Huck's school paper and felt insulted", "He asked Huck to teach him", "He gave him a reward"],
       "correct": 1,
-      "feedback": "شعر باب بالإهانة لأن ابنه أصبح أفضل منه ومن بقية العائلة الذين لا يقرأون[cite: 193, 249]."
+      "feedback": "شعر باب بالإهانة لأن ابنه أصبح أفضل منه ومن بقية العائلة الذين لا يقرأون."
     },
     {
       "q": "What did Pap do with the new coat the judge gave him?",
       "options": ["He wore it to church", "He gave it to Huck", "He traded it for a jug of whisky", "He lost it in the river"],
       "correct": 2,
-      "feedback": "رغم محاولة القاضي إصلاحه، قام باب ببيع المعطف الجديد ليشتري الخمر[cite: 211, 213]."
+      "feedback": "رغم محاولة القاضي إصلاحه، قام باب ببيع المعطف الجديد ليشتري الخمر."
     },
     {
       "q": "The judge eventually concluded that Pap could only be reformed with a:",
       "options": ["Bible", "New house", "Shotgun", "Good education"],
       "correct": 2,
-      "feedback": "بعد فشل كل المحاولات، يئس القاضي وقال إن الحل الوحيد لإصلاح باب هو 'بندقية صيد' (كناية عن استعصاء حالته)[cite: 214]."
+      "feedback": "بعد فشل كل المحاولات، يئس القاضي وقال إن الحل الوحيد لإصلاح باب هو 'بندقية صيد' (كناية عن استعصاء حالته)."
     },
     {
       "q": "What magical object did Jim use to tell fortunes?",
       "options": ["A crystal ball", "A hair-ball from an ox's stomach", "A deck of cards", "A gold coin"],
       "correct": 1,
-      "feedback": "كان جيم يستخدم 'كرة شعر' استُخرجت من معدة ثور، مدعياً أن بداخلها روحاً تعرف كل شيء[cite: 224, 226]."
+      "feedback": "كان جيم يستخدم 'كرة شعر' استُخرجت من معدة ثور، مدعياً أن بداخلها روحاً تعرف كل شيء."
     },
     {
       "q": "When Jim's hair-ball 'refused to talk,' what did it need?",
       "options": ["Food", "Water", "Money", "A prayer"],
       "correct": 2,
-      "feedback": "ادعى جيم أن الروح داخل كرة الشعر تحتاج إلى المال لكي تتحدث[cite: 230, 231]."
+      "feedback": "ادعى جيم أن الروح داخل كرة الشعر تحتاج إلى المال لكي تتحدث."
     },
     {
       "q": "What kind of English does Jim speak in the novel?",
       "options": ["Formal British English", "Broken or dialect English", "Old Shakespearean English", "Scientific English"],
       "correct": 1,
-      "feedback": "يستخدم جيم لغة 'مكسرة' أو لهجة محلية، وهو ما يعكس واقعية مارك توين في تصوير الشخصيات[cite: 237, 314]."
+      "feedback": "يستخدم جيم لغة 'مكسرة' أو لهجة محلية، وهو ما يعكس واقعية مارك توين في تصوير الشخصيات."
     },
     {
       "q": "Why did Huck believe the drowned man found in the river was not his father?",
       "options": ["The man was too tall", "The man was floating on his back", "The man had no hair", "The man was wearing a suit"],
       "correct": 1,
-      "feedback": "لاحظ هك أن الغريق يطفو على ظهره، وحسب معرفته، الرجال يطفون على وجوههم، مما يعني أن الجثة كانت لامرأة بملابس رجل[cite: 290, 291]."
+      "feedback": "لاحظ هك أن الغريق يطفو على ظهره، وحسب معرفته، الرجال يطفون على وجوههم، مما يعني أن الجثة كانت لامرأة بملابس رجل."
     },
     {
       "q": "When Jim first saw Huck on Jackson's Island, what did he think Huck was?",
       "options": ["A robber", "A ghost", "A runaway slave", "A spy for Miss Watson"],
       "correct": 1,
-      "feedback": "لأن الجميع ظنوا أن هك قُتل، اعتقد جيم في البداية أنه يرى شبحاً[cite: 303, 306]."
+      "feedback": "لأن الجميع ظنوا أن هك قُتل، اعتقد جيم في البداية أنه يرى شبحاً."
     },
     {
       "q": "Mark Twain's use of local dialects and everyday language is an example of:",
       "options": ["Romanticism", "Regionalism and Realism", "Science Fiction", "Historical Formalism"],
       "correct": 1,
-      "feedback": "استخدام اللهجات المحلية يجعل مارك توين كاتباً 'إقليمياً' (Regionalist) و 'واقعياً' (Realist)[cite: 315, 316]."
+      "feedback": "استخدام اللهجات المحلية يجعل مارك توين كاتباً 'إقليمياً' (Regionalist) و 'واقعياً' (Realist)."
     },
     {
       "q": "What term is used for someone who wanted to end slavery, which Huck feared people would call him?",
       "options": ["Confederate", "Abolitionist", "Regionalist", "Dandy"],
       "correct": 1,
-      "feedback": "خشي هك أن يلقب بـ 'Abolitionist' (دعاة إلغاء العبودية) لمساعدته جيم، وهو ما كان يعتبر وصمة عار في مجتمعه آنذاك[cite: 333]."
+      "feedback": "خشي هك أن يلقب بـ 'Abolitionist' (دعاة إلغاء العبودية) لمساعدته جيم، وهو ما كان يعتبر وصمة عار في مجتمعه آنذاك."
     },
     {
       "q": "Why did Jim decide to run away from Miss Watson?",
       "options": ["She didn't feed him", "He wanted to find gold", "He heard she was going to sell him to Orleans", "He wanted to join Tom's gang"],
       "correct": 2,
-      "feedback": "هرب جيم بعد سماعه أن الآنسة واتسون تنوي بيعه لتاجر في 'أورليانز' رغم وعودها السابقة[cite: 337]."
+      "feedback": "هرب جيم بعد سماعه أن الآنسة واتسون تنوي بيعه لتاجر في 'أورليانز' رغم وعودها السابقة."
     },
     {
       "q": "How did Huck feel about becoming an 'Abolitionist' in the eyes of society?",
       "options": ["He was proud of it", "He didn't care about the difference", "He was terrified but decided not to tell on Jim", "He wanted to change the law"],
       "correct": 2,
-      "feedback": "رغم خوفه من نظرة الناس، قرر هك الالتزام بوعده لجيم وعدم الوشاية به[cite: 333, 334]."
+      "feedback": "رغم خوفه من نظرة الناس، قرر هك الالتزام بوعده لجيم وعدم الوشاية به."
     },
     {
       "q": "What did Huck notice about the 'Providence' taught by Widow Douglas vs. Miss Watson?",
       "options": ["They were exactly the same", "The widow's was hopeful, while Miss Watson's was unhelpful", "They both encouraged him to smoke", "Neither of them mentioned God"],
       "correct": 1,
-      "feedback": "رأى هك 'عنايتين إلهيتين': واحدة رحيمة (الأرملة) وأخرى قاسية (الآنسة واتسون)[cite: 281, 283]."
+      "feedback": "رأى هك 'عنايتين إلهيتين': واحدة رحيمة (الأرملة) وأخرى قاسية (الآنسة واتсон)."
     },
     {
       "q": "Why did the boys decide not to start their gang's activities on a Sunday?",
       "options": ["They were too tired", "They said it would be 'wicked' (sinful) to do it on Sunday", "The police were watching", "Tom was busy reading"],
       "correct": 1,
-      "feedback": "رغم تخطيطهم للجرائم، رفض الأولاد العمل يوم الأحد واعتبروه 'حراماً' لأسباب دينية[cite: 271, 272]."
+      "feedback": "رغم تخطيطهم للجرائم، رفض الأولاد العمل يوم الأحد واعتبروه 'حراماً' لأسباب دينية."
     },
     {
       "q": "What does 'Ransomed' mean according to Tom Sawyer's books?",
       "options": ["Killing the prisoners", "Keeping prisoners until money is paid for them", "Freeing slaves", "Selling goods in the market"],
       "correct": 1,
-      "feedback": "حسب كتب المغامرات التي يقرأها توم، الفدية تعني الاحتفاظ بالأسرى حتى يُدفع مقابل إطلاق سراحهم[cite: 264, 268]."
+      "feedback": "حسب كتب المغامرات التي يقرأها توم، الفدية تعني الاحتفاظ بالأسرى حتى يُدفع مقابل إطلاق سراحهم."
     },
     {
       "q": "In Jim's dialect, what does 'Doan' hurt me' mean?",
       "options": ["Do not hurt me", "Doing it hurts me", "Down with the hurt", "Did he hurt me?"],
       "correct": 0,
-      "feedback": "هذا مثال على اللهجة التي استخدمها مارك توين لتصوير لغة العبيد في ذلك الوقت[cite: 303, 314]."
+      "feedback": "هذا مثال على اللهجة التي استخدمها مارك توين لتصوير لغة العبيد في ذلك الوقت."
     },
     {
       "q": "What was the occupation of Mark Twain before he became a famous writer?",
       "options": ["A soldier", "A riverboat pilot", "A gold miner", "A teacher"],
       "correct": 1,
-      "feedback": "عمل مارك توين كقائد لمركب نهري، ومن هنا استمد اسمه المستعار وخبرته بالمسيسيبي[cite: 57]."
+      "feedback": "عمل مارك توين كقائد لمركب نهري، ومن هنا استمد اسمه المستعار وخبرته بالمسيسيبي."
     },
     {
       "q": "How did Huck react when he found his father sitting in his room?",
       "options": ["He ran away immediately", "He stood looking at him while Pap sat in a chair", "He called the Widow Douglas", "He gave him all the money"],
       "correct": 1,
-      "feedback": "عندما عاد هك لغرفته، وجد والده جالساً هناك ينتظره في مواجهة مباشرة[cite: 240, 243]."
+      "feedback": "عندما عاد هك لغرفته، وجد والده جالساً هناك ينتظره في مواجهة مباشرة."
     },
     {
       "q": "What did Pap Finn call Huck because of his new clean clothes and lifestyle?",
       "options": ["A hero", "A starchy, sweet-scented dandy", "A scholar", "A young king"],
       "correct": 1,
-      "feedback": "سخر باب من ابنه واصفاً إياه بـ 'الغندور' بسبب ملابسه النظيفة وحياته الجديدة[cite: 195, 245]."
+      "feedback": "سخر باب من ابنه واصفاً إياه بـ 'الغندور' بسبب ملابسه النظيفة وحياته الجديدة."
     },
     {
       "q": "What did Pap Finn do every time he got money?",
@@ -1790,7 +1790,7 @@
         "sociolinguists"
       ],
       "correct": 0,
-      "feedback": "الهدف الأساسي لعلماء اللسانيات (Linguists) هو فهم طبيعة اللغة بشكل عام كمنظومة بشرية[cite: 144, 146]."
+      "feedback": "الهدف الأساسي لعلماء اللسانيات (Linguists) هو فهم طبيعة اللغة بشكل عام كمنظومة بشرية."
     },
     {
       "q": "The usual sequence of infant vocalizations is",
@@ -1801,7 +1801,7 @@
         "none of the above"
       ],
       "correct": 2,
-      "feedback": "يبدأ الرضيع بالبكاء أولاً، ثم المناغاة (Cooing)، ثم الثرثرة (Babbling)، وصولاً إلى استخدام الإيماءات[cite: 149, 151]."
+      "feedback": "يبدأ الرضيع بالبكاء أولاً، ثم المناغاة (Cooing)، ثم الثرثرة (Babbling)، وصولاً إلى استخدام الإيماءات."
     },
     {
       "q": "The simplified speech style adopted by someone that spends a lot of time interacting with a young child is called",
@@ -1812,7 +1812,7 @@
         "Both A & C"
       ],
       "correct": 2,
-      "feedback": "يُعرف الأسلوب المبسط الذي يستخدمه الكبار عند التحدث مع الأطفال بـ 'كلام مقدم الرعاية' (Caregiver speech)[cite: 153, 154]."
+      "feedback": "يُعرف الأسلوب المبسط الذي يستخدمه الكبار عند التحدث مع الأطفال بـ 'كلام مقدم الرعاية' (Caregiver speech)."
     },
     {
       "q": "Ahmad sees a small cat on the lawn, then says to his mother, 'Kitty'. The notion that Ahmad is using that one word to imply a whole sentence would be suggestive of the hypothesis:",
@@ -1823,7 +1823,7 @@
         "none"
       ],
       "correct": 2,
-      "feedback": "فرضية 'الكلمة الجملة' (Holophrase) تقترح أن الطفل يستخدم كلمة واحدة للتعبير عن فكرة أو جملة كاملة[cite: 175, 177, 181]."
+      "feedback": "فرضية 'الكلمة الجملة' (Holophrase) تقترح أن الطفل يستخدم كلمة واحدة للتعبير عن فكرة أو جملة كاملة."
     },
     {
       "q": "Innateness refers to the idea that human beings are genetically endowed to acquire language generally, though not any particular language.",
@@ -1832,7 +1832,7 @@
         "False"
       ],
       "correct": 0,
-      "feedback": "الفطرية تعني أن البشر مبرمجون وراثياً لاكتساب اللغة بشكل عام دون الارتباط بلغة محددة مسبقاً[cite: 178, 179]."
+      "feedback": "الفطرية تعني أن البشر مبرمجون وراثياً لاكتساب اللغة بشكل عام دون الارتباط بلغة محددة مسبقاً."
     },
     {
       "q": "A language situation in which markedly divergent varieties, each with its own set of social functions, coexist throughout a community is termed....",
@@ -1843,7 +1843,7 @@
         "Jargon"
       ],
       "correct": 0,
-      "feedback": "ازدواجية اللغة (Diglossia) تصف وجود مستويين لغويين مختلفين (مثل الفصحى والعامية) في نفس المجتمع، لكل منهما وظائفه الخاصة[cite: 185, 192]."
+      "feedback": "ازدواجية اللغة (Diglossia) تصف وجود مستويين لغويين مختلفين (مثل الفصحى والعامية) في نفس المجتمع، لكل منهما وظائفه الخاصة."
     },
     {
       "q": "The language that is used as L1 by an individual is often termed as....",
@@ -1854,7 +1854,7 @@
         "official language"
       ],
       "correct": 0,
-      "feedback": "اللغة الأولى (L1) التي يكتسبها الفرد منذ الولادة تسمى عادةً باللغة الأم (Mother tongue)[cite: 189, 193]."
+      "feedback": "اللغة الأولى (L1) التي يكتسبها الفرد منذ الولادة تسمى عادةً باللغة الأم (Mother tongue)."
     },
     {
       "q": "Which of the following terms refers to a type of language with no native speakers?",
@@ -1865,7 +1865,7 @@
         "none of the above"
       ],
       "correct": 3,
-      "feedback": "اللغة التي لا يملكها متحدثون أصليون هي عادةً 'لغة التواصل المشترك' (Pidgin)، وبما أنها غير موجودة في الخيارات، فالإجابة هي 'لا شيء مما سبق'[cite: 194, 224]."
+      "feedback": "اللغة التي لا يملكها متحدثون أصليون هي عادةً 'لغة التواصل المشترك' (Pidgin)، وبما أنها غير موجودة في الخيارات، فالإجابة هي 'لا شيء مما سبق'."
     },
     {
       "q": "The study of the development of Arabic, for example, over history is called:",
@@ -1876,7 +1876,7 @@
         "Applied linguistics"
       ],
       "correct": 0,
-      "feedback": "دراسة اللغة وتطورها عبر فترات زمنية تاريخية مختلفة تسمى اللسانيات التاريخية أو التزامنية (Diachronic)[cite: 195, 196]."
+      "feedback": "دراسة اللغة وتطورها عبر فترات زمنية تاريخية مختلفة تسمى اللسانيات التاريخية أو التزامنية (Diachronic)."
     },
     {
       "q": "The concept that specific language abilities correspond to specific brain locations is known as",
@@ -1887,7 +1887,7 @@
         "Cognitive linguistics"
       ],
       "correct": 1,
-      "feedback": "رؤية التحديد الموضعي (Localization view) هي النظرية التي تربط وظائف لغوية محددة بمناطق معينة في الدماغ[cite: 228, 229]."
+      "feedback": "رؤية التحديد الموضعي (Localization view) هي النظرية التي تربط وظائف لغوية محددة بمناطق معينة في الدماغ."
     },
     {
       "q": "The tip of the tongue phenomenon indicates that speakers often have:",
@@ -1898,7 +1898,7 @@
         "Difficulty with common words only"
       ],
       "correct": 1,
-      "feedback": "ظاهرة 'طرف اللسان' تشير إلى أن المتحدث يتذكر الشكل الصوتي العام للكلمة ولكنه لا يستطيع استحضارها بالكامل في تلك اللحظة[cite: 231, 233]."
+      "feedback": "ظاهرة 'طرف اللسان' تشير إلى أن المتحدث يتذكر الشكل الصوتي العام للكلمة ولكنه لا يستطيع استحضارها بالكامل في تلك اللحظة."
     },
     {
       "q": "In a dichotic listening test, what happens when a subject hears two different sounds simultaneously?",
@@ -1909,7 +1909,7 @@
         "They do not recognize either sound"
       ],
       "correct": 2,
-      "feedback": "في اختبار الاستماع الثنائي، غالباً ما يتم تمييز الأصوات القادمة من الأذن اليمنى بشكل أدق لدى الأشخاص الذين يسيطر لديهم الفص الأيسر لغوياً[cite: 242, 243]."
+      "feedback": "في اختبار الاستماع الثنائي، غالباً ما يتم تمييز الأصوات القادمة من الأذن اليمنى بشكل أدق لدى الأشخاص الذين يسيطر لديهم الفص الأيسر لغوياً."
     },
     {
       "q": "In Labov's study of department stores in the US, what pattern was observed regarding postvocalic /r/?",
@@ -1920,7 +1920,7 @@
         "There was no significant variation in pronunciation"
       ],
       "correct": 1,
-      "feedback": "أظهرت دراسة لابوف أن نطق حرف الـ /r/ في نهاية الكلمات يزداد كلما ارتفع المستوى الاجتماعي والاقتصادي للمتحدث[cite: 246, 248]."
+      "feedback": "أظهرت دراسة لابوف أن نطق حرف الـ /r/ في نهاية الكلمات يزداد كلما ارتفع المستوى الاجتماعي والاقتصادي للمتحدث."
     },
     {
       "q": "Changing your speech to emphasize social distance is known as:",
@@ -1931,7 +1931,7 @@
         "Divergence"
       ],
       "correct": 3,
-      "feedback": "التباعد اللغوي (Divergence) يحدث عندما يغير المتحدث أسلوبه ليزيد من المسافة الاجتماعية بينه وبين المستمع[cite: 122, 123]."
+      "feedback": "التباعد اللغوي (Divergence) يحدث عندما يغير المتحدث أسلوبه ليزيد من المسافة الاجتماعية بينه وبين المستمع."
     },
     {
       "q": "Pointing to a tree, young Rami says, 'bird flied away.' This inaccurate use shows he is trying to learn:",
@@ -1942,7 +1942,7 @@
         "syntactical"
       ],
       "correct": 0,
-      "feedback": "استخدام 'flied' بدلاً من 'flew' يدل على أن الطفل يحاول تطبيق القواعد الصرفية (Morphological rules) بتعميم قاعدة الماضي[cite: 290, 292]."
+      "feedback": "استخدام 'flied' بدلاً من 'flew' يدل على أن الطفل يحاول تطبيق القواعد الصرفية (Morphological rules) بتعميم قاعدة الماضي."
     },
     {
       "q": "To understand the relationship between language and society is the primary goal of......",
@@ -2092,181 +2092,181 @@
       "q": "\"Intention Floreat\" is an article by:",
       "options": ["Holland", "Fowler", "Rosenblatt", "Beardsley"],
       "correct": 1,
-      "feedback": "هذا المقال كتبه فاولر (Fowler) ويتناول موضوع القصدية في الأدب[cite: 24, 25]."
+      "feedback": "هذا المقال كتبه فاولر (Fowler) ويتناول موضوع القصدية في الأدب."
     },
     {
       "q": "To Watson, the only way to be objective is to be subjective.",
       "options": ["true", "false"],
       "correct": 0,
-      "feedback": "يرى واتسون أن الموضوعية الحقيقية تمر عبر فهم الذاتية[cite: 29]."
+      "feedback": "يرى واتسون أن الموضوعية الحقيقية تمر عبر فهم الذاتية."
     },
     {
       "q": "Critical procedures using the life to explain the work can easily get entangled with ... procedures.",
       "options": ["formal", "generic", "psychological", "biographical"],
       "correct": 2,
-      "feedback": "الإجراءات التي تستخدم حياة الكاتب غالباً ما تختلط بالإجراءات النفسية (psychological)[cite: 30, 31, 201]."
+      "feedback": "الإجراءات التي تستخدم حياة الكاتب غالباً ما تختلط بالإجراءات النفسية (psychological)."
     },
     {
       "q": "Formalists agree with genetic critics that meaning is indeterminate.",
       "options": ["true", "false"],
       "correct": 1,
-      "feedback": "الشكليون (Formalists) لا يتفقون مع النقاد الوراثيين؛ حيث يرى الشكليون أن المعنى محدد داخل النص[cite: 31, 36, 202]."
+      "feedback": "الشكليون (Formalists) لا يتفقون مع النقاد الوراثيين؛ حيث يرى الشكليون أن المعنى محدد داخل النص."
     },
     {
       "q": "... call for the study of the verbal construction of a poem.",
       "options": ["Formalists", "Old historicists", "Intertextualists", "A+B"],
       "correct": 0,
-      "feedback": "النقاد الشكليون (Formalists) يركزون دراستهم على البناء اللفظي للقصيدة[cite: 37, 38, 40, 203]."
+      "feedback": "النقاد الشكليون (Formalists) يركزون دراستهم على البناء اللفظي للقصيدة."
     },
     {
       "q": "To ... being objective requires isolating the text from all surrounding or extrinsic elements.",
       "options": ["Formalists", "Old historicists", "Intertextualists", "Reader-response critics"],
       "correct": 0,
-      "feedback": "تحقيق الموضوعية عند الشكليين يتطلب عزل النص عن أي عناصر خارجية[cite: 41, 42, 212]."
+      "feedback": "تحقيق الموضوعية عند الشكليين يتطلب عزل النص عن أي عناصر خارجية."
     },
     {
       "q": "Coleridge defined a poem as that species of composition that 'proposes to itself such delight from the whole as is compatible with the distinct gratification from each component part.'",
       "options": ["True", "false"],
       "correct": 0,
-      "feedback": "هذا التعريف للقصيدة منسوب للشاعر والناقد كولريدج (Coleridge)[cite: 46, 47, 237]."
+      "feedback": "هذا التعريف للقصيدة منسوب للشاعر والناقد كولريدج (Coleridge)."
     },
     {
       "q": "\"Are Poems Historical Acts\" is an article by:",
       "options": ["Watson", "Holland", "Beardsley", "Brooks"],
       "correct": 0,
-      "feedback": "واتسون (Watson) هو كاتب هذا المقال[cite: 48, 49]."
+      "feedback": "واتسون (Watson) هو كاتب هذا المقال."
     },
     {
       "q": "... means that every age has its own unique characteristics so that it needs a specialist to study and analyze those characteristics.",
       "options": ["Identity theme", "identity thesis", "the pastness of the past", "organic unity"],
       "correct": 2,
-      "feedback": "مصطلح (the pastness of the past) يشير إلى أن لكل عصر خصائصه الفريدة التي تتطلب مختصاً لدراستها[cite: 60, 62, 185, 190]."
+      "feedback": "مصطلح (the pastness of the past) يشير إلى أن لكل عصر خصائصه الفريدة التي تتطلب مختصاً لدراستها."
     },
     {
       "q": "To ... form and content or meaning are one and the same simply because the form decides the meaning or the content.",
       "options": ["formalists", "old historicists", "intertextualists", "organic unity"],
       "correct": 0,
-      "feedback": "عند الشكليين، الشكل والمحتوى وجهان لعملة واحدة لأن الشكل يحدد المعنى[cite: 63, 65, 217, 219]."
+      "feedback": "عند الشكليين، الشكل والمحتوى وجهان لعملة واحدة لأن الشكل يحدد المعنى."
     },
     {
       "q": "To ... complexity and coherence are the essential qualities of any poem.",
       "options": ["formalists", "old historicists", "intertextualists", "a and b"],
       "correct": 0,
-      "feedback": "يرى الشكليون أن التعقيد والتماسك هما الصفات الأساسية لأي قصيدة[cite: 66, 71, 225]."
+      "feedback": "يرى الشكليون أن التعقيد والتماسك هما الصفات الأساسية لأي قصيدة."
     },
     {
       "q": "... focus on placing the poem in the larger context of literature as a whole.",
       "options": ["Formalists", "Old historicists", "Intertextualists", "Reader-response critics"],
       "correct": 2,
-      "feedback": "النقاد التناصيون (Intertextualists) يركزون على وضع القصيدة في سياق الأدب ككل[cite: 83, 85, 226, 231]."
+      "feedback": "النقاد التناصيون (Intertextualists) يركزون على وضع القصيدة في سياق الأدب ككل."
     },
     {
       "q": "According to Old Historicists, we should study the writers within each period and the periods themselves in ... order.",
       "options": ["chronological", "spatial", "logical", "A and B"],
       "correct": 0,
-      "feedback": "يؤكد التاريخيون القدامى على دراسة الأدب وفق ترتيب زمني (chronological)[cite: 87, 89, 228, 229]."
+      "feedback": "يؤكد التاريخيون القدامى على دراسة الأدب وفق ترتيب زمني (chronological)."
     },
     {
       "q": "Old Historicists are accused of ignoring simple literary works.",
       "options": ["true", "false"],
       "correct": 0,
-      "feedback": "يُتهم التاريخيون القدامى بالتركيز على الأعمال المعقدة وتجاهل البسيطة[cite: 92]."
+      "feedback": "يُتهم التاريخيون القدامى بالتركيز على الأعمال المعقدة وتجاهل البسيطة."
     },
     {
       "q": "Unlike other formalists, ... has grounded his theory in the affective theory of value.",
       "options": ["Eliot", "Richards", "Watson", "Brooks"],
       "correct": 1,
-      "feedback": "ريتشاردز (Richards) هو من أسس نظريته على نظرية القيمة التأثيرية بخلاف الشكليين الآخرين[cite: 94, 97, 244, 246]."
+      "feedback": "ريتشاردز (Richards) هو من أسس نظريته على نظرية القيمة التأثيرية بخلاف الشكليين الآخرين."
     },
     {
       "q": "To Bleich, each person's most urgent motivations are to understand ...",
       "options": ["literature", "himself", "reality", "others"],
       "correct": 1,
-      "feedback": "بالنسبة لبليتش، الدافع الأهم للإنسان هو فهم نفسه[cite: 99, 100, 248, 249]."
+      "feedback": "بالنسبة لبليتش، الدافع الأهم للإنسان هو فهم نفسه."
     },
     {
       "q": "Formalists think that the definitions of genre are irrelevant and aim to distract our search for the uniqueness of a work of art.",
       "options": ["true", "false"],
       "correct": 0,
-      "feedback": "الشكليون يرون أن تصنيفات الأجناس الأدبية تشتت الانتباه عن فرادة العمل الفني[cite: 104, 105, 253, 255]."
+      "feedback": "الشكليون يرون أن تصنيفات الأجناس الأدبية تشتت الانتباه عن فرادة العمل الفني."
     },
     {
       "q": "A philosophy that stresses the perceiver's role in perception.",
       "options": ["Literariness", "Phenomenology", "Anthropology", "Perceptibility"],
       "correct": 1,
-      "feedback": "الظاهراتية (Phenomenology) هي الفلسفة التي تركز على دور المتلقي في الإدراك[cite: 111, 112, 262, 263]."
+      "feedback": "الظاهراتية (Phenomenology) هي الفلسفة التي تركز على دور المتلقي في الإدراك."
     },
     {
       "q": "... critics believe that meanings are, in fact, in words, and especially in the arrangement of words.",
       "options": ["Old Historical", "Formal", "Reader-response", "Intertextual"],
       "correct": 1,
-      "feedback": "النقاد الشكليون (Formal) يؤمنون أن المعنى يكمن في الكلمات وترتيبها[cite: 114, 118, 268, 270]."
+      "feedback": "النقاد الشكليون (Formal) يؤمنون أن المعنى يكمن في الكلمات وترتيبها."
     },
     {
       "q": "Poems do not imitate life; they imitate other poems. This is the central idea of ...",
       "options": ["affective criticism", "Intertextuality"],
       "correct": 1,
-      "feedback": "هذه هي الفكرة المركزية للنقد التناصي (Intertextuality) وليس النقد التأثيري[cite: 127, 128, 277, 278, 314]."
+      "feedback": "هذه هي الفكرة المركزية للنقد التناصي (Intertextuality) وليس النقد التأثيري."
     },
     {
       "q": "In simple words, criticism means ...",
       "options": ["evaluation", "judgement", "reasoning", "understanding"],
       "correct": 1,
-      "feedback": "ببساطة، النقد يعني إعطاء حكم (judgement)[cite: 129, 131, 279, 281]."
+      "feedback": "ببساطة، النقد يعني إعطاء حكم (judgement)."
     },
     {
       "q": "While he grants the relevance of most formalist criteria for meaning, ... argues that 'coherence' is not an absolute quality.",
       "options": ["Hirsch", "Watson", "Brooks", "Wimsatt"],
       "correct": 0,
-      "feedback": "هيرش (Hirsch) هو من جادل بأن التماسك ليس صفة مطلقة[cite: 135, 285, 297]."
+      "feedback": "هيرش (Hirsch) هو من جادل بأن التماسك ليس صفة مطلقة."
     },
     {
       "q": "To Keesey, the best approach is the one that caters for all contexts and builds comprehensive understanding.",
       "options": ["true", "false"],
       "correct": 0,
-      "feedback": "كيسي (Keesey) يدعو لمنهج شامل يراعي جميع السياقات[cite: 149, 151, 170, 172]."
+      "feedback": "كيسي (Keesey) يدعو لمنهج شامل يراعي جميع السياقات."
     },
     {
       "q": "... is the most comprehensive approach.",
       "options": ["New historicism", "Old historicism", "Intertextuality", "Literariness"],
       "correct": 0,
-      "feedback": "تعتبر التاريخانية الجديدة (New historicism) هي المنهج الأكثر شمولاً[cite: 140, 141, 289]."
+      "feedback": "تعتبر التاريخانية الجديدة (New historicism) هي المنهج الأكثر شمولاً."
     },
     {
       "q": "According to Hirsch, objectivity in textual interpretation requires explicit reference to the ... subjectivity.",
       "options": ["reader's", "receiver", "speaker's", "interpreter's"],
       "correct": 2,
-      "feedback": "يرى هيرش أن الموضوعية تتطلب الإشارة إلى ذاتية المتحدث (speaker's subjectivity)[cite: 292, 295, 327, 329]."
+      "feedback": "يرى هيرش أن الموضوعية تتطلب الإشارة إلى ذاتية المتحدث (speaker's subjectivity)."
     },
     {
       "q": "According to Keesey, every reader must bring to a text at least a basic understanding of the work's ...",
       "options": ["symbols", "context", "language", "references"],
       "correct": 2,
-      "feedback": "يرى كيسي أن على القارئ امتلاك فهم أساسي للغة العمل (language)[cite: 301, 307, 333, 334]."
+      "feedback": "يرى كيسي أن على القارئ امتلاك فهم أساسي للغة العمل (language)."
     },
     {
       "q": "To ... cultural poetics dissolve the distinction between what is within and what is outside the text.",
       "options": ["Watson", "Iser", "Greenblatt", "Foucault"],
       "correct": 2,
-      "feedback": "جرينبلات (Greenblatt) هو المرتبط بمفهوم الشعريات الثقافية التي تذيب الحدود بين داخل النص وخارجه[cite: 4, 5, 11, 36]."
+      "feedback": "جرينبلات (Greenblatt) هو المرتبط بمفهوم الشعريات الثقافية التي تذيب الحدود بين داخل النص وخارجه."
     },
     {
       "q": "... is a term used by New Critics in recognition of their belief that a work of art is a concrete entity.",
       "options": ["Paradox", "Organic Unity", "Ontological", "Extrinsic analysis"],
       "correct": 2,
-      "feedback": "مصطلح (Ontological) يستخدمه النقاد الجدد للإشارة إلى أن العمل الفني كينونة ملموسة[cite: 7, 10, 347, 352, 367]."
+      "feedback": "مصطلح (Ontological) يستخدمه النقاد الجدد للإشارة إلى أن العمل الفني كينونة ملموسة."
     },
     {
       "q": "... is the suggestive meaning of a word.",
       "options": ["Denotation", "Connotation", "Parole", "Literariness"],
       "correct": 1,
-      "feedback": "المعنى الإيحائي للكلمة يسمى (Connotation)[cite: 16, 355, 359]."
+      "feedback": "المعنى الإيحائي للكلمة يسمى (Connotation)."
     },
     {
       "q": "... means studying one language at one particular time in its evolution.",
       "options": ["Diachronic", "Synchronic", "Signifier", "Literariness"],
       "correct": 1,
-      "feedback": "الدراسة التزامنية (Synchronic) تعني دراسة اللغة في وقت محدد من تطورها[cite: 18, 21, 364, 368]."
+      "feedback": "الدراسة التزامنية (Synchronic) تعني دراسة اللغة في وقت محدد من تطورها."
     }
   ]
 }
