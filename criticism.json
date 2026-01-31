@@ -1,0 +1,186 @@
+{
+  "subject": "نقد",
+  "lang": "en",
+  "questions": [
+    {
+      "q": "\"Intention Floreat\" is an article by:",
+      "options": ["Holland", "Fowler", "Rosenblatt", "Beardsley"],
+      "correct": 1,
+      "feedback": "هذا المقال كتبه فاولر (Fowler) ويتناول موضوع القصدية في الأدب."
+    },
+    {
+      "q": "To Watson, the only way to be objective is to be subjective.",
+      "options": ["true", "false"],
+      "correct": 0,
+      "feedback": "يرى واتسون أن الموضوعية الحقيقية تمر عبر فهم الذاتية."
+    },
+    {
+      "q": "Critical procedures using the life to explain the work can easily get entangled with ... procedures.",
+      "options": ["formal", "generic", "psychological", "biographical"],
+      "correct": 2,
+      "feedback": "الإجراءات التي تستخدم حياة الكاتب غالباً ما تختلط بالإجراءات النفسية (psychological)."
+    },
+    {
+      "q": "Formalists agree with genetic critics that meaning is indeterminate.",
+      "options": ["true", "false"],
+      "correct": 1,
+      "feedback": "الشكليون (Formalists) لا يتفقون مع النقاد الوراثيين؛ حيث يرى الشكليون أن المعنى محدد داخل النص."
+    },
+    {
+      "q": "... call for the study of the verbal construction of a poem.",
+      "options": ["Formalists", "Old historicists", "Intertextualists", "A+B"],
+      "correct": 0,
+      "feedback": "النقاد الشكليون (Formalists) يركزون دراستهم على البناء اللفظي للقصيدة."
+    },
+    {
+      "q": "To ... being objective requires isolating the text from all surrounding or extrinsic elements.",
+      "options": ["Formalists", "Old historicists", "Intertextualists", "Reader-response critics"],
+      "correct": 0,
+      "feedback": "تحقيق الموضوعية عند الشكليين يتطلب عزل النص عن أي عناصر خارجية."
+    },
+    {
+      "q": "Coleridge defined a poem as that species of composition that 'proposes to itself such delight from the whole as is compatible with the distinct gratification from each component part.'",
+      "options": ["True", "false"],
+      "correct": 0,
+      "feedback": "هذا التعريف للقصيدة منسوب للشاعر والناقد كولريدج (Coleridge)."
+    },
+    {
+      "q": "\"Are Poems Historical Acts\" is an article by:",
+      "options": ["Watson", "Holland", "Beardsley", "Brooks"],
+      "correct": 0,
+      "feedback": "واتسون (Watson) هو كاتب هذا المقال."
+    },
+    {
+      "q": "... means that every age has its own unique characteristics so that it needs a specialist to study and analyze those characteristics.",
+      "options": ["Identity theme", "identity thesis", "the pastness of the past", "organic unity"],
+      "correct": 2,
+      "feedback": "مصطلح (the pastness of the past) يشير إلى أن لكل عصر خصائصه الفريدة التي تتطلب مختصاً لدراستها."
+    },
+    {
+      "q": "To ... form and content or meaning are one and the same simply because the form decides the meaning or the content.",
+      "options": ["formalists", "old historicists", "intertextualists", "organic unity"],
+      "correct": 0,
+      "feedback": "عند الشكليين، الشكل والمحتوى وجهان لعملة واحدة لأن الشكل يحدد المعنى."
+    },
+    {
+      "q": "To ... complexity and coherence are the essential qualities of any poem.",
+      "options": ["formalists", "old historicists", "intertextualists", "a and b"],
+      "correct": 0,
+      "feedback": "يرى الشكليون أن التعقيد والتماسك هما الصفات الأساسية لأي قصيدة."
+    },
+    {
+      "q": "... focus on placing the poem in the larger context of literature as a whole.",
+      "options": ["Formalists", "Old historicists", "Intertextualists", "Reader-response critics"],
+      "correct": 2,
+      "feedback": "النقاد التناصيون (Intertextualists) يركزون على وضع القصيدة في سياق الأدب ككل."
+    },
+    {
+      "q": "According to Old Historicists, we should study the writers within each period and the periods themselves in ... order.",
+      "options": ["chronological", "spatial", "logical", "A and B"],
+      "correct": 0,
+      "feedback": "يؤكد التاريخيون القدامى على دراسة الأدب وفق ترتيب زمني (chronological)."
+    },
+    {
+      "q": "Old Historicists are accused of ignoring simple literary works.",
+      "options": ["true", "false"],
+      "correct": 0,
+      "feedback": "يُتهم التاريخيون القدامى بالتركيز على الأعمال المعقدة وتجاهل البسيطة."
+    },
+    {
+      "q": "Unlike other formalists, ... has grounded his theory in the affective theory of value.",
+      "options": ["Eliot", "Richards", "Watson", "Brooks"],
+      "correct": 1,
+      "feedback": "ريتشاردز (Richards) هو من أسس نظريته على نظرية القيمة التأثيرية بخلاف الشكليين الآخرين."
+    },
+    {
+      "q": "To Bleich, each person's most urgent motivations are to understand ...",
+      "options": ["literature", "himself", "reality", "others"],
+      "correct": 1,
+      "feedback": "بالنسبة لبليتش، الدافع الأهم للإنسان هو فهم نفسه."
+    },
+    {
+      "q": "Formalists think that the definitions of genre are irrelevant and aim to distract our search for the uniqueness of a work of art.",
+      "options": ["true", "false"],
+      "correct": 0,
+      "feedback": "الشكليون يرون أن تصنيفات الأجناس الأدبية تشتت الانتباه عن فرادة العمل الفني."
+    },
+    {
+      "q": "A philosophy that stresses the perceiver's role in perception.",
+      "options": ["Literariness", "Phenomenology", "Anthropology", "Perceptibility"],
+      "correct": 1,
+      "feedback": "الظاهراتية (Phenomenology) هي الفلسفة التي تركز على دور المتلقي في الإدراك."
+    },
+    {
+      "q": "... critics believe that meanings are, in fact, in words, and especially in the arrangement of words.",
+      "options": ["Old Historical", "Formal", "Reader-response", "Intertextual"],
+      "correct": 1,
+      "feedback": "النقاد الشكليون (Formal) يؤمنون أن المعنى يكمن في الكلمات وترتيبها."
+    },
+    {
+      "q": "Poems do not imitate life; they imitate other poems. This is the central idea of ...",
+      "options": ["affective criticism", "Intertextuality"],
+      "correct": 1,
+      "feedback": "هذه هي الفكرة المركزية للنقد التناصي (Intertextuality) وليس النقد التأثيري."
+    },
+    {
+      "q": "In simple words, criticism means ...",
+      "options": ["evaluation", "judgement", "reasoning", "understanding"],
+      "correct": 1,
+      "feedback": "ببساطة، النقد يعني إعطاء حكم (judgement)."
+    },
+    {
+      "q": "While he grants the relevance of most formalist criteria for meaning, ... argues that 'coherence' is not an absolute quality.",
+      "options": ["Hirsch", "Watson", "Brooks", "Wimsatt"],
+      "correct": 0,
+      "feedback": "هيرش (Hirsch) هو من جادل بأن التماسك ليس صفة مطلقة."
+    },
+    {
+      "q": "To Keesey, the best approach is the one that caters for all contexts and builds comprehensive understanding.",
+      "options": ["true", "false"],
+      "correct": 0,
+      "feedback": "كيسي (Keesey) يدعو لمنهج شامل يراعي جميع السياقات."
+    },
+    {
+      "q": "... is the most comprehensive approach.",
+      "options": ["New historicism", "Old historicism", "Intertextuality", "Literariness"],
+      "correct": 0,
+      "feedback": "تعتبر التاريخانية الجديدة (New historicism) هي المنهج الأكثر شمولاً."
+    },
+    {
+      "q": "According to Hirsch, objectivity in textual interpretation requires explicit reference to the ... subjectivity.",
+      "options": ["reader's", "receiver", "speaker's", "interpreter's"],
+      "correct": 2,
+      "feedback": "يرى هيرش أن الموضوعية تتطلب الإشارة إلى ذاتية المتحدث (speaker's subjectivity)."
+    },
+    {
+      "q": "According to Keesey, every reader must bring to a text at least a basic understanding of the work's ...",
+      "options": ["symbols", "context", "language", "references"],
+      "correct": 2,
+      "feedback": "يرى كيسي أن على القارئ امتلاك فهم أساسي للغة العمل (language)."
+    },
+    {
+      "q": "To ... cultural poetics dissolve the distinction between what is within and what is outside the text.",
+      "options": ["Watson", "Iser", "Greenblatt", "Foucault"],
+      "correct": 2,
+      "feedback": "جرينبلات (Greenblatt) هو المرتبط بمفهوم الشعريات الثقافية التي تذيب الحدود بين داخل النص وخارجه."
+    },
+    {
+      "q": "... is a term used by New Critics in recognition of their belief that a work of art is a concrete entity.",
+      "options": ["Paradox", "Organic Unity", "Ontological", "Extrinsic analysis"],
+      "correct": 2,
+      "feedback": "مصطلح (Ontological) يستخدمه النقاد الجدد للإشارة إلى أن العمل الفني كينونة ملموسة."
+    },
+    {
+      "q": "... is the suggestive meaning of a word.",
+      "options": ["Denotation", "Connotation", "Parole", "Literariness"],
+      "correct": 1,
+      "feedback": "المعنى الإيحائي للكلمة يسمى (Connotation)."
+    },
+    {
+      "q": "... means studying one language at one particular time in its evolution.",
+      "options": ["Diachronic", "Synchronic", "Signifier", "Literariness"],
+      "correct": 1,
+      "feedback": "الدراسة التزامنية (Synchronic) تعني دراسة اللغة في وقت محدد من تطورها."
+    }
+  ]
+}

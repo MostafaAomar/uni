@@ -1,103 +1,141 @@
 <!DOCTYPE html>
-<html lang="ar" dir="rtl"> <head>
+<html lang="ar" dir="rtl">
+<head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>تطبيق الدراسة الاحترافي</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <meta name="theme-color" content="#0f172a">
+    <title>Future Study 2026</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;800&display=swap" rel="stylesheet">
 </head>
 <body>
 
 <div id="app-container">
     
-    <div id="setup-screen">
-        <h1>مرحباً بك 👋</h1>
-        <p style="color:#718096">اختر مادة للبدء في الاختبار أو الدراسة</p>
-        <div id="subject-list">جاري تحميل المواد...</div>
-    </div>
-
-    <div id="mode-screen" class="hidden">
-        <h2 id="selected-subject-name"></h2>
-        <button class="subject-btn" onclick="setMode('study')">📖 وضع الدراسة (بطاقات)</button>
-        <button class="subject-btn" onclick="setMode('quiz')">📝 وضع الاختبار (كويز)</button>
-        <button onclick="showScreen('setup')" style="background:transparent; color: #718096; box-shadow:none; margin-top:10px;">← العودة للمواد</button>
-    </div>
-
-    <div id="quiz-screen" class="hidden">
-        <div class="progress-container">
-            <div id="quiz-progress" class="progress-fill"></div>
+    <div id="setup-screen" class="screen">
+        <div class="header-box animate-pop">
+            <div class="logo-area">🚀</div>
+            <h2>المواد الدراسية</h2>
+            <p class="subtitle">اختر مادة وابدأ رحلة التعلم</p>
         </div>
 
-        <div id="quiz-header" style="display:flex; justify-content: space-between; margin-bottom: 15px; color: #718096; font-size: 0.9rem;">
-            <span id="question-count"></span>
-            <span id="score-display"></span>
+        <div id="repo-input-area" class="input-group hidden">
+            <input type="text" id="repo-url-input" placeholder="رابط مستودع GitHub (JSON)...">
+            <button onclick="saveRepoUrl()" class="action-btn">تحميل البيانات</button>
         </div>
 
-        <h3 id="question-text"></h3>
-        <div class="inline-controls">
-            <button class="mini-btn" onclick="translateCurrent()">🔁 ترجمة</button>
-            <button class="mini-btn" onclick="speakCurrent()">🔊 نطق</button>
+        <div id="subject-list" class="subject-grid">
+            <div class="loader hidden"></div>
         </div>
-        
-        <div id="options-container"></div>
-        
-        <div id="quiz-feedback" class="feedback-box hidden"></div>
-        <div id="translation-box" class="feedback-box hidden" style="margin-top:8px"></div>
 
-        <div class="nav-container">
-            <button id="quiz-prev-btn" class="nav-btn" onclick="prevQuestion()">سابق</button>
-            <button id="quiz-next-btn" class="nav-btn" onclick="nextQuestion()">التالي</button>
-        </div>
-        <div style="display:flex; gap:8px; margin-top:12px;">
-            <button class="subject-btn" onclick="saveProgress()">💾 حفظ التقدم</button>
-            <button class="subject-btn" onclick="loadProgress()">🔁 تحميل التقدم</button>
-            <button style="background:#eee; color:#333; border:none; padding:8px 12px; border-radius:6px;" onclick="clearProgress(true)">🗑️ مسح التقدم</button>
-            <span id="save-status" style="color:#4a5568; font-size:0.9rem; align-self:center; margin-left:6px"></span>
+        <div class="footer-controls">
+            <button class="danger-text-btn" onclick="fullReset()">إعادة ضبط التطبيق 🗑️</button>
         </div>
     </div>
 
-    <div id="study-screen" class="hidden">
-        <div class="progress-container">
-            <div id="study-progress" class="progress-fill"></div>
+    <div id="mode-screen" class="screen hidden">
+        <h2 id="selected-subject-name" class="gradient-text">المادة</h2>
+        <div class="mode-cards">
+            <div class="mode-card" onclick="setMode('study')">
+                <div class="icon">📖</div>
+                <h3>مذاكرة</h3>
+                <p>نظام البطاقات القلابة</p>
+            </div>
+            <div class="mode-card" onclick="setMode('quiz')">
+                <div class="icon">⚡</div>
+                <h3>اختبار</h3>
+                <p>تحدي الأسئلة والخيارات</p>
+            </div>
+        </div>
+        <button onclick="goBackToSubjects()" class="nav-btn ghost-btn">← العودة للقائمة</button>
+    </div>
+
+    <div id="study-screen" class="screen hidden">
+        <div class="top-header">
+            <button onclick="goBackToSubjects()" class="icon-btn glass-btn">🏠</button>
+            <div class="progress-pill">
+                <span id="study-count">0/0</span>
+                <div class="mini-bar"><div id="study-progress-bar" class="fill"></div></div>
+            </div>
         </div>
 
-        <div class="flip-card" onclick="toggleFlip()">
-            <div class="flip-card-inner" id="card-inner">
-                <div class="flip-card-front">
-                    <p id="study-question"></p>
-                    <small style="color:#a0aec0; margin-top:15px">اضغط لإظهار الإجابة</small>
-                </div>
-                <div class="flip-card-back">
-                    <p id="study-answer"></p>
-                    <small style="opacity:0.8; margin-top:15px">اضغط للعودة للسؤال</small>
+        <div class="card-container">
+            <div class="flip-card" onclick="toggleFlip()">
+                <div class="flip-card-inner" id="card-inner">
+                    <div class="flip-card-front">
+                        <span class="card-label">السؤال</span>
+                        <h3 id="study-question">...</h3>
+                        <p class="tap-hint">اضغط لعرض الإجابة</p>
+                    </div>
+                    <div class="flip-card-back">
+                        <span class="card-label">الإجابة</span>
+                        <h3 id="study-answer">...</h3>
+                    </div>
                 </div>
             </div>
         </div>
 
-        <div class="inline-controls">
-            <button class="mini-btn" onclick="translateCurrent(true)">🔁 ترجمة</button>
-            <button class="mini-btn" onclick="speakCurrent(true)">🔊 نطق</button>
+        <div class="controls-area">
+            <div class="voice-row">
+                <button class="icon-btn round" onclick="speakCurrent()">🔊</button>
+                <input type="range" class="slider" min="0.5" max="1.5" step="0.1" value="0.8" oninput="syncSpeed(this.value)">
+            </div>
+            
+            <div class="notes-row">
+                <input type="text" id="note-input" placeholder="اكتب ملاحظة..." class="glass-input">
+                <button onclick="saveUserNote()" class="small-btn">حفظ</button>
+            </div>
+            <div id="user-note-display" class="note-feedback hidden"></div>
         </div>
-        <div id="translation-box-study" class="feedback-box hidden" style="margin-top:8px"></div>
 
-        <div class="nav-container">
-            <button class="nav-btn" onclick="prevQuestion()">سابق</button>
-            <button class="nav-btn" onclick="nextQuestion()">التالي</button>
+        <div class="bottom-nav">
+            <button class="nav-btn prev" onclick="prevQuestion()">السابق</button>
+            <button class="nav-btn next" onclick="nextQuestion()">التالي</button>
         </div>
-        <div style="display:flex; gap:8px; margin-top:12px;">
-            <button class="subject-btn" onclick="saveProgress()">💾 حفظ التقدم</button>
-            <button class="subject-btn" onclick="loadProgress()">🔁 تحميل التقدم</button>
-            <button style="background:#eee; color:#333; border:none; padding:8px 12px; border-radius:6px;" onclick="clearProgress(true)">🗑️ مسح التقدم</button>
-            <span id="save-status" style="color:#4a5568; font-size:0.9rem; align-self:center; margin-left:6px"></span>
-        </div>
-        
-        <button onclick="showScreen('mode')" style="margin-top: 20px; background:transparent; color:#718096; box-shadow:none;">خروج من الدراسة</button>
     </div>
 
-    <div id="result-screen" class="hidden">
-        <h2>اكتمل الاختبار! 🎉</h2>
-        <div style="font-size: 3rem; margin: 20px 0;">🏆</div>
-        <p id="final-result" style="font-size: 1.2rem; font-weight:bold; margin-bottom: 30px;"></p>
-        <button class="subject-btn" onclick="location.reload()">جرب مادة أخرى</button>
+    <div id="quiz-screen" class="screen hidden">
+        <div class="top-header">
+            <button onclick="goBackToSubjects()" class="icon-btn glass-btn">🏠</button>
+            <div class="progress-pill">
+                <span id="quiz-count-display">0/0</span>
+                <div class="mini-bar"><div id="quiz-progress-bar" class="fill"></div></div>
+            </div>
+        </div>
+
+        <div class="quiz-content">
+            <div class="question-bubble">
+                <button class="mini-speak" onclick="speakCurrent()">🔊</button>
+                <h3 id="question-text">...</h3>
+            </div>
+
+            <div id="options-container" class="options-list"></div>
+            
+            <div id="quiz-feedback" class="feedback-toast hidden"></div>
+        </div>
+
+        <div class="notes-mini-section">
+             <div id="quiz-note-display" class="note-feedback hidden"></div>
+             <div class="input-row hidden" id="quiz-note-input-row"> <input type="text" id="quiz-note-input" placeholder="ملاحظة على هذا السؤال..." class="glass-input">
+                <button onclick="saveUserNote()" class="small-btn">حفظ</button>
+             </div>
+        </div>
+
+        <div class="bottom-nav">
+            <button class="nav-btn prev" onclick="prevQuestion()">السابق</button>
+            <button class="nav-btn next" onclick="nextQuestion()">التالي</button>
+        </div>
+    </div>
+
+    <div id="result-screen" class="screen hidden">
+        <div class="result-card animate-pop">
+            <div class="trophy">🏆</div>
+            <h2>اكتملت المادة!</h2>
+            <div id="final-stats" class="stats-box">
+                </div>
+            <button onclick="goBackToSubjects()" class="action-btn full-width">العودة للرئيسية</button>
+            <button onclick="restartSubject()" class="secondary-btn full-width">إعادة المادة</button>
+        </div>
     </div>
 
 </div>
