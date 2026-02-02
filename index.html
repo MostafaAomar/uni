@@ -105,7 +105,7 @@
 
         <div class="quiz-content">
             <div class="question-bubble">
-                <button class="mini-speak" onclick="speakCurrent()">🔊</button>
+                <!-- <button class="mini-speak" onclick="speakCurrent()">🔊</button> -->
                 <h3 id="question-text">...</h3>
             </div>
 
@@ -113,13 +113,26 @@
             
             <div id="quiz-feedback" class="feedback-toast hidden"></div>
         </div>
+<div class="controls-area">
+        <div class="voice-row">
+            <button class="icon-btn round" onclick="speakCurrent()">🔊</button>
+            <input type="range" class="slider" min="0.5" max="1.5" step="0.1" value="0.8" oninput="syncSpeed(this.value)">
+        </div>
+        
+        <div class="notes-row">
+            <input type="text" id="quiz-note-input" placeholder="اكتب ملاحظة..." class="glass-input">
+            <button onclick="saveUserNote()" class="small-btn">حفظ</button>
+        </div>
+        <div id="quiz-note-display" class="note-feedback hidden"></div>
+    </div>
 
-        <div class="notes-mini-section">
+
+        <!-- <div class="notes-mini-section">
              <div id="quiz-note-display" class="note-feedback hidden"></div>
              <div class="input-row hidden" id="quiz-note-input-row"> <input type="text" id="quiz-note-input" placeholder="ملاحظة على هذا السؤال..." class="glass-input">
                 <button onclick="saveUserNote()" class="small-btn">حفظ</button>
              </div>
-        </div>
+        </div> -->
 
         <div class="bottom-nav">
             <button class="nav-btn prev" onclick="prevQuestion()">السابق</button>

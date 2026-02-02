@@ -263,6 +263,9 @@ input[type="text"] {
     background: var(--card-bg);
     padding: 15px; border-radius: 20px; margin-top: 20px;
     border: 1px solid var(--glass-border);
+    display: flex;
+    flex-direction: column; /* يضمن ترتيب العناصر رأسياً */
+    gap: 10px;
 }
 .voice-row { display: flex; align-items: center; gap: 10px; margin-bottom: 15px; }
 .slider { flex: 1; accent-color: var(--primary); height: 4px; border-radius: 2px; cursor: pointer; }
@@ -284,8 +287,12 @@ input[type="text"] {
 .note-feedback {
     margin-top: 8px; font-size: 0.85rem; color: #fbbf24;
     background: rgba(251, 191, 36, 0.1); padding: 8px; border-radius: 8px;
+    order: 3; /* يجعلها تظهر في الترتيب الأخير داخل الحاوية */
+    margin-top: 5px;
+    width: 100%;
+    text-align: inherit; /* تتبع اتجاه اللغة */
 }
-
+.mini-speak { display: none; }
 /* --- أزرار التنقل السفلية --- */
 .bottom-nav {
     display: flex; gap: 15px; margin-top: auto; padding-top: 20px;
