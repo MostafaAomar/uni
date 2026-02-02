@@ -258,8 +258,14 @@ input[type="text"] {
     padding: 12px; border-radius: 12px; color: white;
 }
 .small-btn {
-    background: var(--success); border: none; padding: 0 20px;
-    border-radius: 12px; color: white; font-weight: bold; cursor: pointer;
+       background: var(--success);
+    border: none;
+    padding: 8px 20px;
+    border-radius: 6px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 7px 4px;
 }
 .note-feedback {
     margin-top: 8px; font-size: 0.85rem; color: #fbbf24;
