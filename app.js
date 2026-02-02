@@ -152,9 +152,8 @@ async function fetchRepoAndAddSubjects(repoUrl) {
 function getSubjectProgress(subjectName, totalQuestions) {
     if (!totalQuestions || totalQuestions === 0) return 0;
 
-    // البحث عن التقدم في وضعي "quiz" و "study" وأخذ أيهما أبعد
     const modes = ['study', 'quiz'];
-    let maxIndexReached = 0;
+    let maxProgress = 0;
 
     modes.forEach(m => {
         const key = `progress_${subjectName}_${m}`;
@@ -162,19 +161,21 @@ function getSubjectProgress(subjectName, totalQuestions) {
         if (savedData) {
             try {
                 const parsed = JSON.parse(savedData);
-                // نتأكد أن القيمة رقم
-                const idx = parsed.index || 0;
-                if (idx > maxIndexReached) {
-                    maxIndexReached = idx;
+                // نأخذ الفهرس الحالي ونضيف له 1 ليعبر عن عدد الأسئلة التي مر عليها المستخدم
+                const reached = (parsed.index || 0) + 1;
+                if (reached > maxProgress) {
+                    maxProgress = reached;
                 }
             } catch (e) { console.error(e); }
         }
     });
 
-    // حساب النسبة المئوية (index هو رقم السؤال الحالي، يعني أنجز ما قبله)
-    let percentage = (maxIndexReached / totalQuestions) * 100;
+    // حساب النسبة بدقة
+    let percentage = (maxProgress / totalQuestions) * 100;
     
-    // تقييد النسبة بين 0 و 100
+    // إذا وصل المستخدم لآخر سؤال، نعتبرها 100%
+    if (maxProgress >= totalQuestions) percentage = 100;
+
     return Math.min(100, Math.max(0, percentage));
 }
 // الدالة المحدثة لعرض قائمة المواد مع خط التقدم
