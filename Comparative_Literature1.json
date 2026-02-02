@@ -1,0 +1,361 @@
+{
+  "subject": "ادب مقارن سنه رابعه ف1",
+  "lang": "en",
+  "questions": [
+    {
+      "q": "What are people who work in the field of Comparative Literature called?",
+      "options": ["Comparatists", "Comparative Literarists", "Comparers", "All"],
+      "correct": 0,
+      "feedback": "يُطلق على المشتغلين في هذا المجال اسم 'Comparatists' أو المقارنون[cite: 1, 665]."
+    },
+    {
+      "q": "Traditionally, students and teachers in comparative literature have been:",
+      "options": ["Established critics", "Proficient in several languages", "Acquainted with literary traditions and major texts", "B and C"],
+      "correct": 3,
+      "feedback": "تقليدياً، يجب أن يتقن المقارن عدة لغات ويكون على دراية بالتقاليد النصوص الأدبية الكبرى[cite: 2, 665]."
+    },
+    {
+      "q": "Newer sub-fields of Comparative Literature are influenced by:",
+      "options": ["Theoretical acumen", "Ability to consider different arts concurrently", "High linguistic competence", "A and B"],
+      "correct": 3,
+      "feedback": "تتأثر الحقول الفرعية الجديدة بالفطنة النظرية والقدرة على دراسة أنواع مختلفة من الفنون في آن واحد[cite: 3, 666]."
+    },
+    {
+      "q": "Critics have charged that Comparative Literature is:",
+      "options": ["Too narrow minded", "Insufficiently well-defined and too broad", "Overall useless", "None of the above"],
+      "correct": 1,
+      "feedback": "اتهم النقاد الأدب المقارن بأنه غير محدد بدقة وواسع المجال بشكل مفرط[cite: 5, 670]."
+    },
+    {
+      "q": "The interdisciplinary nature of the field means comparatists exhibit acquaintance with:",
+      "options": ["Biochemistry", "Sociology and History", "Astrology", "Cybernetics"],
+      "correct": 1,
+      "feedback": "الطبيعة البينية للمجال تتطلب الاطلاع على علم الاجتماع والتاريخ والترجمة وغيرها[cite: 668, 939]."
+    },
+    {
+      "q": "Comparative Literature is defined in its broadest sense as:",
+      "options": ["Literature of one nation", "Literature without borders", "Universal Ideals", "Human Ethos"],
+      "correct": 1,
+      "feedback": "في أوسع تعريفاته، هو دراسة 'أدب بلا حدود'[cite: 7, 676]."
+    },
+    {
+      "q": "From the early 20th century until WWII, the field was dominated by the:",
+      "options": ["American School", "German School", "French School", "Positivist School"],
+      "correct": 2,
+      "feedback": "المدرسة الفرنسية هي التي هيمنت منذ مطلع القرن العشرين وحتى الحرب العالمية الثانية[cite: 9, 679]."
+    },
+    {
+      "q": "The French School approach is characterized as:",
+      "options": ["Empiricist and positivist", "Abstract and theoretical", "Linguistic only", "Nationalistic only"],
+      "correct": 0,
+      "feedback": "تتميز المدرسة الفرنسية بالمنهج التجريبي (Empiricist) والمنطقي (Positivist)[cite: 9, 681]."
+    },
+    {
+      "q": "French scholars examined works of different nations looking for evidence of:",
+      "options": ["Superiority", "Origins and influences", "Dogmatism", "Crimes"],
+      "correct": 1,
+      "feedback": "بحث علماء المدرسة الفرنسية عن أدلة حول 'الأصول' و 'التأثيرات' بين الأمم[cite: 12, 680]."
+    },
+    {
+      "q": "The study of 'mentalities' and 'influences' dominates the:",
+      "options": ["French School", "American School", "German School", "Both A and B"],
+      "correct": 0,
+      "feedback": "تهيمن دراسة العقليات والتأثيرات على أبحاث المدرسة الفرنسية[cite: 14, 683]."
+    },
+    {
+      "q": "The founding fathers of the French School define comparative literature as a branch of:",
+      "options": ["Linguistics", "Literary study/history", "Philosophy", "Sociology"],
+      "correct": 1,
+      "feedback": "عرف الآباء المؤسسون للمدرسة الفرنسية الأدب المقارن كفرع من دراسة أو تاريخ الأدب[cite: 686, 695]."
+    },
+    {
+      "q": "Who said: 'Comparative literature is a branch of literary history... international spiritual affinities'?",
+      "options": ["Henry Remak", "Jean Marie Carré", "Guyard", "Van Tieghem"],
+      "correct": 1,
+      "feedback": "هذه المقولة الشهيرة تنسب لجان ماري كاريه[cite: 696, 950]."
+    },
+    {
+      "q": "Because it emphasizes geographical boundaries, the French school shows a ______ propensity.",
+      "options": ["Universal", "National", "Interdisciplinary", "Scientific"],
+      "correct": 1,
+      "feedback": "بسبب تركيزها على الحدود الجغرافية واللغوية، تظهر المدرسة الفرنسية نزعة قومية (National)[cite: 698, 950]."
+    },
+    {
+      "q": "Which type of works are EXCLUDED from the French School of Comparative Literature?",
+      "options": ["Canonical works", "Anonymous and folkloric works", "Individual works", "Modern works"],
+      "correct": 1,
+      "feedback": "تستبعد المدرسة الفرنسية الأعمال مجهولة المؤلف والفلكلورية لأنها شفهية وغير شخصية[cite: 702, 952]."
+    },
+    {
+      "q": "Van Tieghem makes a rigid sharp distinction between:",
+      "options": ["Poetry and Prose", "General literature and Comparative literature", "French and German schools", "Influences and Origins"],
+      "correct": 1,
+      "feedback": "وضع فان تيجم تمييزاً حاداً بين الأدب العام والأدب المقارن[cite: 709, 953]."
+    },
+    {
+      "q": "For Van Tieghem, 'General Literature' is the research of:",
+      "options": ["Two entities or books", "Common properties of a number of literatures", "One national literature", "Modern trends"],
+      "correct": 1,
+      "feedback": "الأدب العام عند فان تيجم يبحث في الخصائص المشتركة لعدد من الآداب[cite: 714, 715]."
+    },
+    {
+      "q": "According to Remak, Tieghem's concept of 'general literature' is:",
+      "options": ["Helpful and clear", "Blurred and illegitimate", "The same as American school", "Revolutionary"],
+      "correct": 1,
+      "feedback": "يرى ريماك أن مفهوم فان تيجم للأدب العام غير شرعي ومبهم[cite: 721, 724]."
+    },
+    {
+      "q": "Henry Remak belongs to which school?",
+      "options": ["French School", "German School", "American School", "Oriental School"],
+      "correct": 2,
+      "feedback": "هنري ريماك هو الأب المؤسس للمدرسة الأمريكية[cite: 721, 1055]."
+    },
+    {
+      "q": "The French School has been criticized for ignoring ______ aspects of the texts.",
+      "options": ["Outside impacts", "Internal", "Historical", "Causality"],
+      "correct": 1,
+      "feedback": "انتقدت المدرسة الفرنسية لانشغالها بالأسباب الخارجية وتجاهلها للجوانب الداخلية للنص[cite: 752, 753]."
+    },
+    {
+      "q": "The movement (conscious or unconscious) of an idea or theme from one text to another is:",
+      "options": ["Reception", "Imitation", "Influence", "Borrowing"],
+      "correct": 2,
+      "feedback": "انتقال فكرة أو موضوع من نص لآخر بوعي أو بدون وعي يسمى 'التأثير'[cite: 783, 784]."
+    },
+    {
+      "q": "French School ignores 'non-literary influence' because the receiver writer:",
+      "options": ["Does not read", "Dexterously reshapes primary material", "Only plagiarizes", "Fails to understand"],
+      "correct": 1,
+      "feedback": "تتجاهل المدرسة الفرنسية التأثير غير الأدبي لأن الكاتب يعيد تشكيل المادة الخام ببراعة[cite: 789, 790]."
+    },
+    {
+      "q": "Direct influence is marked by:",
+      "options": ["Language barriers", "Actual contact between writers", "Translations only", "Reading journals"],
+      "correct": 1,
+      "feedback": "يتميز التأثير المباشر بوجود تواصل فعلي بين الكتاب[cite: 608, 609]."
+    },
+    {
+      "q": "What act as 'intermediaries' in indirect influence?",
+      "options": ["Salons and societies", "Journals/periodicals", "Translations", "All of the above"],
+      "correct": 3,
+      "feedback": "الوسطاء في التأثير غير المباشر تشمل الصالونات، الدوريات، والترجمات[cite: 612]."
+    },
+    {
+      "q": "What is 'False Influence'?",
+      "options": ["Direct contact", "Writer influenced by a countryman believing it is foreign", "Plagiarism", "Oral tradition"],
+      "correct": 1,
+      "feedback": "التأثير الزائف هو تأثر الكاتب بكاتب من بلده ظناً منه أنه يعكس نصوصاً أجنبية[cite: 614]."
+    },
+    {
+      "q": "The process that must occur before 'influence' takes place is:",
+      "options": ["Imitation", "Reception", "Borrowing", "Plagiarism"],
+      "correct": 1,
+      "feedback": "الاستقبال (Reception) هو الخطوة التي تسبق حدوث التأثير[cite: 616, 617]."
+    },
+    {
+      "q": "If a foreign work helps develop a new work in another country, this is a sign of:",
+      "options": ["Passive influence", "Positive influence", "Imitation", "Borrowing"],
+      "correct": 1,
+      "feedback": "تطوير عمل جديد بمساعدة عمل أجنبي يعد دليلاً على 'التأثير الإيجابي'[cite: 618, 630]."
+    },
+    {
+      "q": "Which of these is NOT a field of study in the French School?",
+      "options": ["Literary Schools/Genres", "Ideological Echoes", "Human Models", "Biochemistry in Literature"],
+      "correct": 3,
+      "feedback": "تشمل مجالات المدرسة الفرنسية المدارس الأدبية، الأصداء الفكرية، والنماذج البشرية[cite: 632]."
+    },
+    {
+      "q": "When they first appeared, epic and drama were confined to:",
+      "options": ["Prose", "Both verse and prose", "Verse only", "Oral tradition"],
+      "correct": 2,
+      "feedback": "في بدايتها، اقتصرت الملحمة والدراما على الشعر (Verse)[cite: 637, 638]."
+    },
+    {
+      "q": "Romanticism appeared in the Arab world in the:",
+      "options": ["19th Century", "First half of the 20th century", "After WWII", "Ancient times"],
+      "correct": 1,
+      "feedback": "ظهرت الرومانسية في العالم العربي في النصف الأول من القرن العشرين[cite: 635, 636]."
+    },
+    {
+      "q": "Borrowing from foreign works without referring to sources is:",
+      "options": ["Creative ability", "Plagiarism", "Imitation", "Influence"],
+      "correct": 1,
+      "feedback": "الاقتباس دون ذكر المصدر يسمى 'انتحال' (Plagiarism) وهو غير مقبول[cite: 629, 630]."
+    },
+    {
+      "q": "What does the term 'empiricist' mean in the context of the French School?",
+      "options": [
+        "Relating to empires and emperors",
+        "Derived from senses and experience",
+        "Logical reasoning only",
+        "Purely theoretical"
+      ],
+      "correct": 1,
+      "feedback": "كلمة 'empiricist' تعني تجريبي، أي ما يمكن فهمه من خلال الخبرة المستمدة من الحواس[cite: 64, 945]."
+    },
+    {
+      "q": "The French School defines Comparative Literature as a branch of:",
+      "options": ["Linguistics", "Literary History", "Sociology", "Philosophy"],
+      "correct": 1,
+      "feedback": "يعرّف الآباء المؤسسون للمدرسة الفرنسية الأدب المقارن كفرع من تاريخ الأدب[cite: 686, 949]."
+    },
+    {
+      "q": "According to the French School, why are anonymous and folkloric works excluded?",
+      "options": [
+        "They are too modern",
+        "They are oral and impersonal",
+        "They are not written in French",
+        "They are too difficult to translate"
+      ],
+      "correct": 1,
+      "feedback": "تُستبعد الأعمال الفلكلورية والمجهولة لأنها شفهية وغير شخصية بطبيعتها[cite: 703, 952]."
+    },
+    {
+      "q": "Who made a rigid sharp distinction between 'general literature' and 'comparative literature'?",
+      "options": ["Henry Remak", "Van Tieghem", "Jean Marie Carré", "Guyard"],
+      "correct": 1,
+      "feedback": "فان تيجم هو من وضع تمييزاً حاداً وصارماً بين الأدب العام والأدب المقارن[cite: 709, 953]."
+    },
+    {
+      "q": "What is 'General Literature' according to Van Tieghem?",
+      "options": [
+        "Study of two specific books",
+        "Common properties of a number of literatures",
+        "National literature only",
+        "The study of one writer"
+      ],
+      "correct": 1,
+      "feedback": "الأدب العام عند فان تيجم هو البحث في الخصائص المشتركة لمجموعة من الآداب[cite: 714, 954]."
+    },
+    {
+      "q": "Henry Remak argues that Tieghem's concept of 'general literature' is:",
+      "options": ["Legitimate and clear", "Illegitimate and blurred", "Scientific", "Traditional"],
+      "correct": 1,
+      "feedback": "يرى ريماك أن مفهوم فان تيجم غير شرعي ويجعل تعريف الأدب المقارن أكثر غموضاً[cite: 724, 592]."
+    },
+    {
+      "q": "In the French School, comparative literary study should take place between:",
+      "options": ["Large groups of texts", "Specific individuals (Binary studies)", "Oral traditions", "All world literatures"],
+      "correct": 1,
+      "feedback": "تركز المدرسة الفرنسية على الدراسات الثنائية بين أفراد أو نصوص محددة[cite: 702, 950]."
+    },
+    {
+      "q": "The movement of an idea or theme from one text to another, consciously or unconsciously, is:",
+      "options": ["Reception", "Influence", "Imitation", "Plagiarism"],
+      "correct": 1,
+      "feedback": "هذا هو تعريف 'التأثير' (Influence)[cite: 784, 605]."
+    },
+    {
+      "q": "Why does the French School ignore 'non-literary' influence?",
+      "options": [
+        "Because it is not important",
+        "Because the writer reshapes primary material into a new literary work",
+        "Because it is too easy to trace",
+        "Because culture is not related to literature"
+      ],
+      "correct": 1,
+      "feedback": "يتم تجاهله لأن الكاتب يعيد تشكيل المادة الأولية ببراعة في عمل أدبي جديد[cite: 789, 607]."
+    },
+    {
+      "q": "Direct influence is marked by:",
+      "options": ["Translation", "Actual contact between writers", "Journals", "Saloons"],
+      "correct": 1,
+      "feedback": "يتميز التأثير المباشر بوجود تواصل فعلي أو علاقة حقيقية بين الكتاب[cite: 794, 609]."
+    },
+    {
+      "q": "Which of the following is considered an 'intermediary' for indirect influence?",
+      "options": ["Personal letters", "Translations", "Face-to-face meetings", "Original manuscripts"],
+      "correct": 1,
+      "feedback": "تعتبر الترجمات والدوريات والصالونات من 'الوسطاء' في التأثير غير المباشر[cite: 612, 613]."
+    },
+    {
+      "q": "What is 'False Influence'?",
+      "options": [
+        "Direct contact between two writers",
+        "A writer influenced by a countryman believing they are foreign elements",
+        "Intentional plagiarism",
+        "Oral transmission of stories"
+      ],
+      "correct": 1,
+      "feedback": "التأثير الزائف هو تأثر الكاتب بكاتب من بلده ظناً منه أنها عناصر أجنبية[cite: 614, 615]."
+    },
+    {
+      "q": "No influence can take place outside national borders WITHOUT:",
+      "options": ["Imitation", "Reception", "Plagiarism", "Translation"],
+      "correct": 1,
+      "feedback": "لا يمكن حدوث تأثير دون عملية 'الاستقبال' (Reception)[cite: 616, 617]."
+    },
+    {
+      "q": "According to the French School, literary comparative studies are linked to:",
+      "options": ["History", "Physics", "Chemistry", "Mathematics"],
+      "correct": 0,
+      "feedback": "بما أن العلاقات بين الأمم لها جذور تاريخية، فإن الدراسات المقارنة ترتبط بالتاريخ[cite: 688, 950]."
+    },
+    {
+      "q": "The concept of 'literature WITHOUT borders' is associated with:",
+      "options": ["The French School", "The American School", "The Positivist School", "The Arabic School"],
+      "correct": 1,
+      "feedback": "هذا المفهوم هو جوهر تعريف المدرسة الأمريكية للأدب المقارن[cite: 676, 942]."
+    },
+    {
+      "q": "Who is considered the founding father of the American School?",
+      "options": ["Jean Marie Carré", "Van Tieghem", "Henry Remak", "Guyard"],
+      "correct": 2,
+      "feedback": "هنري ريماك هو الأب المؤسس للمدرسة الأمريكية[cite: 659, 1055]."
+    },
+    {
+      "q": "Borrowing from foreign works without referring to the source is called:",
+      "options": ["Influence", "Imitation", "Plagiarism", "Reception"],
+      "correct": 2,
+      "feedback": "الاقتباس دون ذكر المصدر يسمى 'انتحال' (Plagiarism) وهو غير مقبول[cite: 629, 630]."
+    },
+    {
+      "q": "When a national writer writes in reaction to an affront to national figures, this is:",
+      "options": ["Positive influence", "Passive influence", "False influence", "Direct influence"],
+      "correct": 1,
+      "feedback": "يسمى 'التأثير السلبي' (Passive influence) عندما يكون رد فعل لعمل أجنبي مهين[cite: 630, 631]."
+    },
+    {
+      "q": "The study of 'Image Echoes' is a field of study in the:",
+      "options": ["German School", "American School", "French School", "British School"],
+      "correct": 2,
+      "feedback": "دراسة أصداء الصور (Image Echoes) هي أحد مجالات دراسة المدرسة الفرنسية[cite: 632]."
+    },
+    {
+      "q": "Romanticism appeared in the Arab world in the:",
+      "options": ["19th Century", "First half of the 20th century", "After WWII", "Ancient times"],
+      "correct": 1,
+      "feedback": "ظهرت الرومانسية في العالم العربي في النصف الأول من القرن العشرين[cite: 636]."
+    },
+    {
+      "q": "Critics charge that Comparative Literature practitioners may fall into:",
+      "options": ["Professionalism", "Dilettantism", "Specialization", "Scientific rigour"],
+      "correct": 1,
+      "feedback": "يتهم النقاد المقارنين بالوقوع في 'الهواية' (Dilettantism) بسبب اتساع مجال عملهم[cite: 670, 941]."
+    },
+    {
+      "q": "The interdisciplinary nature of Comparative Literature includes links to:",
+      "options": ["Psychology", "Sociology", "Religion", "All of the above"],
+      "correct": 3,
+      "feedback": "يشمل الأدب المقارن الربط مع علم النفس والاجتماع والدين وغيرها[cite: 675, 942]."
+    },
+    {
+      "q": "For French comparatists, it is important to work on a writer's:",
+      "options": ["Wealth", "Popularity and influence", "Personal life only", "Political party"],
+      "correct": 1,
+      "feedback": "يهتم المقارنون الفرنسيون بدراسة شهرة وتأثير الكاتب في الدول الأجنبية[cite: 759, 601]."
+    },
+    {
+      "q": "The French School has been criticized for being:",
+      "options": ["Too global", "Eurocentric", "Too modern", "Unstructured"],
+      "correct": 1,
+      "feedback": "تعرضت المدرسة الفرنسية للنقد لكونها متمحورة حول أوروبا (Eurocentric)[cite: 779, 604]."
+    },
+    {
+      "q": "Ulrich Veisstein distinguishes 'influence' from 'imitation' based on:",
+      "options": ["Creative ability", "Language used", "Number of pages", "The genre of the work"],
+      "correct": 0,
+      "feedback": "يميز فايستاين بينهما بناءً على 'القدرة الإبداعية' للكاتب[cite: 622, 628]."
+    }
+  ]
+}

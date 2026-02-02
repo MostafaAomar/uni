@@ -1,0 +1,306 @@
+{
+  "subject": "ف1 - النثر في العصر الحديث",
+  "lang": "en",
+  "questions": [
+    {
+      "q": "James Joyce was an important pioneer of the stream of consciousness ------- technique.",
+      "options": ["etymological", "dramatic", "linguistic", "narrative"],
+      "correct": 3,
+      "feedback": "جيمس جويس رائد تقنية 'تيار الوعي' في السرد الروائي (narrative)."
+    },
+    {
+      "q": "Joyce's Ulysses exploits an elaborate system of ------ to make its situations applicable to people anywhere.",
+      "options": ["ways", "symbols", "abstracts", "extracts"],
+      "correct": 1,
+      "feedback": "استخدم جويس الرموز (symbols) لإضفاء طابع عالمي على أحداث الرواية."
+    },
+    {
+      "q": "\"White roses and red roses: those were ------ colours to think of\".",
+      "options": ["beautiful", "queer", "unfamiliar", "mysterious"],
+      "correct": 0,
+      "feedback": "في ذاكرة ستيفن ديدالوس، كانت ألوان الورد جميلة (beautiful)."
+    },
+    {
+      "q": "\"The cheers died away in the soft grey air. He was alone. He was ----\".",
+      "options": ["happy", "free", "disappointed", "D. B&C"],
+      "correct": 3,
+      "feedback": "شعر ستيفن بالحرية وخيبة الأمل في آن واحد (B&C)."
+    },
+    {
+      "q": "\"When the curtain fell on the last scene, he heard the void filled with ------\".",
+      "options": ["silence", "applause", "disapproval", "detestation"],
+      "correct": 1,
+      "feedback": "بعد انتهاء المشهد، ملأ التصفيق (applause) الفراغ."
+    },
+    {
+      "q": "At Belvedere, \"Stephen mistrusted the turbulence and ----- the sincerity of such comradeship\".",
+      "options": ["loved", "doubted", "prompted", "diagnosed"],
+      "correct": 1,
+      "feedback": "كان ستيفن يشكك (doubted) في إخلاص تلك الرفقة."
+    },
+    {
+      "q": "\"The memory of his childhood suddenly grew ------. He tried to call forth some of its vivid moments but could not\".",
+      "options": ["complex", "ambiguous", "dim", "D. A&B"],
+      "correct": 2,
+      "feedback": "تلاشت ذكريات طفولته وأصبحت باهتة (dim)."
+    },
+    {
+      "q": "\"-------', my dear boys, signifies a withdrawal for a while, in order to examine the state of our conscience\".",
+      "options": ["Solitude", "Alienation", "A retreat", "An interval"],
+      "correct": 2,
+      "feedback": "الخلوة الروحية (A retreat) تعني الانسحاب لمحاسبة الضمير."
+    },
+    {
+      "q": "Stephen Dedalus can be the personal voice of James Joyce because the novel is -----.",
+      "options": ["modern", "a viewpoint", "historical", "autobiography"],
+      "correct": 3,
+      "feedback": "الرواية تُعتبر سيرة ذاتية (autobiography) تعكس صوت الكاتب."
+    },
+    {
+      "q": "\"The faint glimmer of fear became ---- of spirit as the hoarse voice of the preacher blew death into his soul\".",
+      "options": ["a terror", "joy", "despair", "antagonism"],
+      "correct": 0,
+      "feedback": "تحول بصيص الخوف إلى رعب (terror) بسبب خطبة القس."
+    },
+    {
+      "q": "\"-------, said Stephen, is the first formal esthetic relation of part to part in any esthetic whole\".",
+      "options": ["rhyme", "pattern", "Rhythm", "tune"],
+      "correct": 2,
+      "feedback": "عرّف ستيفن الإيقاع (Rhythm) كعلاقة جمالية بين الأجزاء."
+    },
+    {
+      "q": "Joyce wrote an article on Ibsen (1900). It drew ------ comment from Ibsen himself.",
+      "options": ["a favourable", "a negative", "an ambiguous", "a disappointing"],
+      "correct": 0,
+      "feedback": "تلقى جويس تعليقاً إيجابياً (favourable) من إبسن على مقاله."
+    },
+    {
+      "q": "The far-reaching experiments with ---- which Joyce made in this work Finnegans Wake render it extremely difficult to read.",
+      "options": ["elegances", "distinctions", "language", "rhythm"],
+      "correct": 2,
+      "feedback": "تجارب جويس اللغوية (language) جعلت روايته 'يقظة فينيغان' صعبة القراءة."
+    },
+    {
+      "q": "\"He became the ally of a boy named Aubrey Mills and founded with him a gang of ----- in the avenue\".",
+      "options": ["provisions", "chances", "adventurers", "experiments"],
+      "correct": 2,
+      "feedback": "أسس ستيفن مع أوبري ميلز عصابة من المغامرين (adventurers)."
+    },
+    {
+      "q": "\"You apprehend it as one thing. You see it as one whole. You apprehend its ----. That is integritas\".",
+      "options": ["distinction", "wholeness", "specificity", "withdrawal"],
+      "correct": 1,
+      "feedback": "الـ 'integritas' تشير إلى إدراك الشيء ككل متكامل (wholeness)."
+    },
+    {
+      "q": "\"She prays now, 'that I may, learn in my own life and away, ------\".",
+      "options": ["what the heart is", "what the heart feels", "to be assure", "D. A&B"],
+      "correct": 3,
+      "feedback": "تتمنى أن تتعلم ما هو القلب وما يشعر به (D. A&B)."
+    },
+    {
+      "q": "It was ---- because the doctor had told him [Stephen] not to read without glasses.",
+      "options": ["unfair", "cruel", "logical", "D. A&B"],
+      "correct": 3,
+      "feedback": "كان عقاب الأب دولان غير عادل وقاسٍ (D. A&B)."
+    },
+    {
+      "q": "\"The coming of September did not trouble Stephen this year for he was not to be sent back to Clongowes\".",
+      "options": ["True", "False"],
+      "correct": 0,
+      "feedback": "صحيح، لم يعد ستيفن إلى مدرسة كلونغوز."
+    },
+    {
+      "q": "\"He recalled his own equivocal position at Belvedere ------, a free boy, a leader, proud and sensitive\".",
+      "options": ["at Clongowes", "at Belvedere", "at Dublin", "at London"],
+      "correct": 1,
+      "feedback": "كان يتذكر وضعه في مدرسة بلفيدير (at Belvedere)."
+    },
+    {
+      "q": "\"He was travelling with his father by the night mail to ------\".",
+      "options": ["Cork", "Dublin", "London", "Hull"],
+      "correct": 0,
+      "feedback": "سافر ستيفن مع والده إلى مدينة كورك (Cork)."
+    },
+    {
+      "q": "\"All the boys seemed to Stephen very ------\".",
+      "options": ["familiar", "strange", "likeable", "amiable"],
+      "correct": 1,
+      "feedback": "كان ستيفن يشعر بأن جميع الأولاد غرباء (strange) عنه."
+    },
+    {
+      "q": "\"Very well, it is a mistake and I shall speak to Father Dolan myself\". The rector said.",
+      "options": ["True", "False"],
+      "correct": 0,
+      "feedback": "صحيح، هذا ما قاله رئيس المدرسة لستيفن."
+    },
+    {
+      "q": "Joyce's novel presents a period of crisis in Ireland for a distinctive -------.",
+      "options": ["Irish identity", "home rule", "land reforms", "D. A&B&C"],
+      "correct": 3,
+      "feedback": "عالجت الرواية أزمات الهوية، الحكم الذاتي، وإصلاح الأراضي (D. A&B&C)."
+    },
+    {
+      "q": "\"Now that the play was over, Stephen --------\".",
+      "options": ["left the stage quickly", "made a speech", "talked to friends", "stayed with father Dolan"],
+      "correct": 0,
+      "feedback": "بمجرد انتهاء المسرحية، غادر ستيفن المسرح بسرعة."
+    },
+    {
+      "q": "James Joyce was -----.",
+      "options": ["Italian", "English", "Scottish", "Irish"],
+      "correct": 3,
+      "feedback": "جيمس جويس كاتب أيرلندي (Irish)."
+    },
+    {
+      "q": "Joseph Conrad spent some years on British ships, travelling frequently to the Far East.",
+      "options": ["True", "False"],
+      "correct": 0,
+      "feedback": "صحيح، خبرة كونراد البحرية شكلت خلفية رواياته."
+    },
+    {
+      "q": "Conrad starts his novel by introducing the Nellie, a cruising yawl.",
+      "options": ["True", "False"],
+      "correct": 0,
+      "feedback": "صحيح، الرواية تبدأ على متن السفينة 'نيلي'."
+    },
+    {
+      "q": "Heart of Darkness is full of ---- imagery.",
+      "options": ["foreign", "impassive", "poetic", "inexpressive"],
+      "correct": 2,
+      "feedback": "تتميز الرواية بصورها الشعرية (poetic) المكثفة."
+    },
+    {
+      "q": "Modernist novels use techniques like stream of consciousness and -----.",
+      "options": ["explanation", "internal monologue", "description", "D. A&B"],
+      "correct": 1,
+      "feedback": "المونولوج الداخلي (internal monologue) تقنية أساسية في الحداثة."
+    },
+    {
+      "q": "Light and white are not, then, associated with good, nor black with bad - the values are ------.",
+      "options": ["maintained", "confined", "confirmed", "reversed"],
+      "correct": 3,
+      "feedback": "في الرواية، يتم عكس (reversed) القيم التقليدية للألوان."
+    },
+    {
+      "q": "Conrad wrote out of no knowledge of the sea.",
+      "options": ["True", "False"],
+      "correct": 1,
+      "feedback": "خاطئ، كتب كونراد بناءً على معرفة عميقة بالبحر."
+    },
+    {
+      "q": "\"I would look for hours at South America, or Africa, or Australia, and lose myself in all the ------- of exploration.\"",
+      "options": ["hardships", "brilliance", "observations", "glories"],
+      "correct": 3,
+      "feedback": "كان مارلو يحلم بأمجاد الاستكشاف (glories)."
+    },
+    {
+      "q": "\"I watched the coast. Watching a coast as it slips by the ship is like thinking about ------\".",
+      "options": ["the unusual", "infrequency", "an enigma", "fear"],
+      "correct": 2,
+      "feedback": "شبه مارلو مراقبة الساحل بالتفكير في لغز (an enigma)."
+    },
+    {
+      "q": "The gloom of London ------ with the light on the Thames estuary.",
+      "options": ["analogized", "contrasted", "obscured", "decorated"],
+      "correct": 1,
+      "feedback": "كآبة لندن كانت تتباين (contrasted) مع الضوء."
+    },
+    {
+      "q": "\"He inspired neither love nor fear, nor even respect. He inspired uneasiness. That was it!\" He refers to ------.",
+      "options": ["Kurtz", "Marlow", "the manager", "the captain"],
+      "correct": 2,
+      "feedback": "هذا الوصف ينطبق على المدير (the manager) في المحطة."
+    },
+    {
+      "q": "\"and now and then I would give some thought to ----\".",
+      "options": ["the lawyer", "Kurtz", "the manager", "the narrator"],
+      "correct": 1,
+      "feedback": "كان مارلو يفكر بين الحين والآخر في كورتز (Kurtz)."
+    },
+    {
+      "q": "\"I kept the bundle of ------ given me by Kurtz, not knowing exactly what to do with it\".",
+      "options": ["bones", "works", "papers", "poems"],
+      "correct": 2,
+      "feedback": "احتفظ مارلو بحزمة الأوراق (papers) الخاصة بكورتز."
+    },
+    {
+      "q": "The natives hated Kurtz.",
+      "options": ["True", "False"],
+      "correct": 1,
+      "feedback": "خاطئ، السكان الأصليون عبدوا كورتز ولم يكرهوه."
+    },
+    {
+      "q": "The narrator of Heart of Darkness is the lawyer.",
+      "options": ["True", "False"],
+      "correct": 1,
+      "feedback": "خاطئ، الراوي المباشر غير مسمى، والراوي الأساسي هو مارلو."
+    },
+    {
+      "q": "\"I've seen the devil of violence, and the devil of greed\". Kurtz said.",
+      "options": ["True", "False"],
+      "correct": 1,
+      "feedback": "خاطئ، هذا الكلام قاله مارلو (الراوي) وليس كورتز."
+    },
+    {
+      "q": "\"We ------ deeper and deeper into the heart of darkness\".",
+      "options": ["penetrated", "arrived", "meditated", "crossed"],
+      "correct": 0,
+      "feedback": "اخترقوا (penetrated) أعماق قلب الظلام."
+    },
+    {
+      "q": "\"----------- was like travelling back to the earliest beginnings of the world\".",
+      "options": ["To tell a story", "To travel to Congo", "To be a sailor", "Going up that river"],
+      "correct": 3,
+      "feedback": "صعود النهر (Going up that river) كان رحلة للماضي البدائي."
+    },
+    {
+      "q": "\"They were no colonists; . . . They were conquerors\". The pronoun They refers to the -----.",
+      "options": ["natives", "Romans", "blacks", "strangers"],
+      "correct": 1,
+      "feedback": "كان مارلو يتحدث عن الرومان (Romans) وتاريخهم في بريطانيا."
+    },
+    {
+      "q": "Conrad was not constantly interested in the technique of writing.",
+      "options": ["True", "False"],
+      "correct": 1,
+      "feedback": "خاطئ، كان كونراد مهتماً جداً بتقنيات الكتابة."
+    },
+    {
+      "q": "In Heart of Darkness Conrad was using symbolism to suggest -------.",
+      "options": ["imitations", "conditions", "meanings", "designs"],
+      "correct": 2,
+      "feedback": "استخدم الرمزية للإيحاء بمعانٍ (meanings) أعمق."
+    },
+    {
+      "q": "\"I had plenty of time for -------\".",
+      "options": ["work", "meditation", "painting", "writing"],
+      "correct": 1,
+      "feedback": "كان لدى مارلو وقت للتأمل (meditation)."
+    },
+    {
+      "q": "The main symbol in Heart of Darkness is ---------.",
+      "options": ["darkness", "trees", "lands", "the sea"],
+      "correct": 0,
+      "feedback": "الرمز الأساسي هو الظلام (darkness)."
+    },
+    {
+      "q": "Marlow's journey into the interior is an inner voyage of self- -------.",
+      "options": ["doubt", "exploration", "identification", "certitude"],
+      "correct": 1,
+      "feedback": "تعتبر رحلة مارلو رحلة لاستكشاف الذات (exploration)."
+    },
+    {
+      "q": "Towards the end of the novel, Marlow declares that \"It was an affirmation, (49) ------ victory, paid for by innumerable (50) ------\". Q49:",
+      "options": ["a moral", "an unexpected", "an immoral", "a bitter"],
+      "correct": 0,
+      "feedback": "وصف مارلو كلمات كورتز الأخيرة بأنها انتصار أخلاقي (a moral)."
+    },
+    {
+      "q": "Continuation of previous quote: \"...paid for by innumerable (50) ------\". Q50:",
+      "options": ["beauty", "joys", "defeats", "gains"],
+      "correct": 2,
+      "feedback": "تحقق الانتصار بعد هزائم (defeats) لا تحصى."
+    }
+  ]
+}

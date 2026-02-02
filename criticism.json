@@ -1,5 +1,5 @@
 {
-  "subject": "نقد",
+  "subject": "نقد سنه رابعه ف1",
   "lang": "en",
   "questions": [
     {
@@ -181,6 +181,306 @@
       "options": ["Diachronic", "Synchronic", "Signifier", "Literariness"],
       "correct": 1,
       "feedback": "الدراسة التزامنية (Synchronic) تعني دراسة اللغة في وقت محدد من تطورها."
+    },
+    {
+      "q": "To Watson, the only way to be objective is to be subjective.",
+      "options": ["True", "False"],
+      "correct": 0,
+      "feedback": "وفقاً لواتسون، الموضوعية المطلقة في النقد مستحيلة؛ لذا فإن الاعتراف بذاتية الناقد وفهم انحيازاته هو الطريق الوحيد للوصول إلى تحليل منصف[cite: 29, 136]."
+    },
+    {
+      "q": "Which school of criticism focuses on placing the poem in the larger context of literature as a whole?",
+      "options": ["Formalists", "Old historicists", "Intertextualists", "Reader-response critics"],
+      "correct": 2,
+      "feedback": "النقاد التناصيون (Intertextualists) يرون أن النص لا يعيش في عزلة، بل هو نسيج من نصوص أخرى، لذا يجب دراسته ضمن سياق الأدب ككل[cite: 83, 85, 226]."
+    },
+    {
+      "q": "According to Hirsch, objectivity in textual interpretation requires explicit reference to the _______ subjectivity.",
+      "options": ["Reader's", "Receiver's", "Speaker's", "Interpreter's"],
+      "correct": 2,
+      "feedback": "هيرش يؤكد أن معنى النص مرتبط بقصد المؤلف (Speaker/Author)، وبالتالي فإن الموضوعية تقتضي العودة لذاتية المتحدث الأصلي لا القارئ[cite: 292, 295, 300]."
+    },
+    {
+      "q": "Formalists agree with genetic critics that meaning is indeterminate.",
+      "options": ["True", "False"],
+      "correct": 1,
+      "feedback": "خطأ؛ الشكليون يؤمنون أن المعنى محدد (Determinate) وموجود داخل البناء اللفظي للنص نفسه، على عكس النقاد الجينيين[cite: 31, 36, 202]."
+    },
+    {
+      "q": "The term used by New Critics to express their belief that a work of art is a concrete entity is:",
+      "options": ["Paradox", "Organic Unity", "Ontological", "Extrinsic analysis"],
+      "correct": 2,
+      "feedback": "المصطلح الأنطولوجي (Ontological) يعني دراسة كينونة النص كوجود مستقل بذاته، وهو جوهر فكر النقد الجديد[cite: 7, 10, 352, 367]."
+    },
+    {
+      "q": "Who defined a poem as a composition that 'proposes to itself such delight from the whole as is compatible with the distinct gratification from each component part'?",
+      "options": ["Aristotle", "Coleridge", "Brooks", "Wimsatt"],
+      "correct": 1,
+      "feedback": "هذا التعريف الشهير يعود لـ كولريدج (Coleridge)، ويؤكد على فكرة الوحدة العضوية حيث يخدم كل جزء المتعة الكلية للنص[cite: 46, 237]."
+    },
+    {
+      "q": "New Historicism declares that all history is objective.",
+      "options": ["True", "False"],
+      "correct": 1,
+      "feedback": "خطأ؛ التاريخانية الجديدة ترى أن التاريخ ذاتي (Subjective) ومكتوب من وجهات نظر معينة، ولا يوجد تاريخ حيادي تماماً[cite: 13, 76, 353]."
+    },
+    {
+      "q": "To _________, being objective requires isolating the text from all surrounding or extrinsic elements.",
+      "options": ["Formalists", "Old historicists", "Intertextualists", "Reader-response critics"],
+      "correct": 0,
+      "feedback": "الشكليون (Formalists) يرفضون أي عناصر خارجية كالسيرة الذاتية أو التاريخ، ويركزون فقط على النص كبناء مغلق[cite: 41, 42, 212, 213]."
+    },
+    {
+      "q": "The shift in the 19th century was from a poem reflecting nature to a poem expressing _________.",
+      "options": ["The community", "The individual", "Other poems", "Scientific facts"],
+      "correct": 1,
+      "feedback": "انتقل المفهوم من المحاكاة (Mimesis) للطبيعة إلى التعبير عن ذات وفردية الشاعر (Expressive theory)[cite: 309, 310, 313]."
+    },
+    {
+      "q": "The concept of 'the pastness of the past' means:",
+      "options": ["History repeats itself", "Every age has unique characteristics needing a specialist", "The past is irrelevant", "All of the above"],
+      "correct": 1,
+      "feedback": "هذا المفهوم يعني أن كل عصر له هويته الخاصة التي لا يمكن فهمها إلا عبر أدوات ذلك العصر وسياقه الفريد[cite: 62, 67, 185, 190]."
+    },
+    {
+      "q": "Who argued that 'Intention Floreat' (The intention flourishes)?",
+      "options": ["Holland", "Fowler", "Rosenblatt", "Beardsley"],
+      "correct": 1,
+      "feedback": "فاولر (Fowler) هو من كتب هذا المقال رداً على منكري القصدية، مؤكداً أهمية قصد المؤلف في التحليل[cite: 24, 25]."
+    },
+    {
+      "q": "Unlike other formalists, I.A. Richards grounded his theory in the _________ theory of value.",
+      "options": ["Objective", "Historical", "Affective", "Cognitive"],
+      "correct": 2,
+      "feedback": "ريتشاردز تميز عن بقية الشكليين بتركيزه على 'التأثير النفسي' (Affective) الذي يتركه النص في القارئ[cite: 96, 97, 244, 246]."
+    },
+    {
+      "q": "Which critic usually operates at a considerable distance from the textual end, focusing on the reader's psychology?",
+      "options": ["Wimsatt", "Holland", "Brooks", "Eliot"],
+      "correct": 1,
+      "feedback": "نورمان هولاند (Holland) يركز بشكل كبير على 'ثيمة الهوية' للقارئ وكيف يسقط القارئ نفسه على النص، مبتعداً عن التحليل النصي الصرف[cite: 265, 192]."
+    },
+    {
+      "q": "The term _________ is the dictionary definition of a word as distinct from its suggestive meaning.",
+      "options": ["Connotation", "Denotation", "Parole", "Signifier"],
+      "correct": 1,
+      "feedback": "الـ (Denotation) هو المعنى الحرفي القاموسي، بينما الـ (Connotation) هو المعنى الإيحائي أو العاطفي[cite: 14, 15, 359, 361]."
+    },
+    {
+      "q": "Synchronic study of language means studying language _________.",
+      "options": ["Through its historical evolution", "At one particular time", "In comparison with other languages", "Through its written form only"],
+      "correct": 1,
+      "feedback": "الدراسة التزامنية (Synchronic) تدرس اللغة في لحظة زمنية محددة كبناء ثابت، عكس الدراسة التطورية (Diachronic)[cite: 21, 18, 364, 368]."
+    },
+    {
+      "q": "Old Historicists are accused of ignoring _________.",
+      "options": ["Historical facts", "The author's life", "Simple literary works", "Political contexts"],
+      "correct": 2,
+      "feedback": "يُنتقد التاريخيون القدامى بتركيزهم فقط على 'التحف الأدبية' الكبرى وتجاهل النصوص البسيطة أو الشعبية[cite: 92, 243]."
+    },
+    {
+      "q": "To Keesey, the best approach is the one that caters for all contexts.",
+      "options": ["True", "False"],
+      "correct": 0,
+      "feedback": "كيسي يؤيد المنهج التعددي أو الشامل الذي يستفيد من جميع المدارس النقدية لفهم النص بعمق[cite: 149, 151, 170, 172]."
+    },
+    {
+      "q": "For Old Historicists, the poem's real meaning is always in the _________.",
+      "options": ["Future", "Present", "Past", "Mind of the reader"],
+      "correct": 2,
+      "feedback": "يرى التاريخيون القدامى أن المعنى ثابت ومرتبط باللحظة التاريخية التي كُتب فيها النص[cite: 153, 154]."
+    },
+    {
+      "q": "Which philosophy stresses the perceiver's role in perception?",
+      "options": ["Anthropology", "Phenomenology", "Literariness", "Structuralism"],
+      "correct": 1,
+      "feedback": "الظاهراتية (Phenomenology) هي الأساس الفلسفي لنقد استجابة القارئ، حيث النص لا 'يوجد' إلا عندما يدركه القارئ[cite: 111, 112, 262, 263]."
+    },
+    {
+      "q": "What do Formalists call for in the study of a poem?",
+      "options": ["The historical background", "The author's intention", "The verbal construction", "The reader's identity"],
+      "correct": 2,
+      "feedback": "الشكليون يهتمون بـ 'البناء اللفظي' (Verbal construction) وكيفية عمل الكلمات معاً لإنتاج المعنى[cite: 38, 40, 203]."
+    },
+    {
+      "q": "According to Old Historicists, we should study the writers and periods in _________ order.",
+      "options": ["Random", "Spatial", "Chronological", "Reverse"],
+      "correct": 2,
+      "feedback": "التاريخية القديمة تعتمد التسلسل الزمني (Chronological) كأساس لفهم تطور الأدب[cite: 87, 89, 228, 229]."
+    },
+    {
+      "q": "Who focuses on the idea of 'metaphor' as a central device?",
+      "options": ["Hirsch", "Wimsatt", "Holland", "Bleich"],
+      "correct": 1,
+      "feedback": "ويمسات (Wimsatt) كأحد أقطاب النقد الجديد، ركز على الأدوات البلاغية كالمجاز في تحليل النصوص[cite: 107, 108, 257, 259]."
+    },
+    {
+      "q": "The need for information about the author's milieu grows as the author is _________.",
+      "options": ["More famous", "More distant from us", "Less creative", "A and C"],
+      "correct": 3,
+      "feedback": "كلما ابتعد المؤلف زمنياً أو كان أقل إبداعاً (بحيث يعتمد على أعراف عصره فقط)، زادت حاجتنا للمعلومات التاريخية لفهمه[cite: 121, 123, 126, 271, 274]."
+    },
+    {
+      "q": "Intertextualists argue that poems imitate _________.",
+      "options": ["Life", "Nature", "Other poems", "Scientific laws"],
+      "correct": 2,
+      "feedback": "جوهر التناص هو أن النصوص تُبنى من نصوص سابقة، فالقصيدة تحاكي قصائد أخرى لا الحياة مباشرة[cite: 127, 277, 314]."
+    },
+    {
+      "q": "To Bleich, each person's most urgent motivations are to understand _________.",
+      "options": ["The text", "Reality", "Himself", "The author"],
+      "correct": 2,
+      "feedback": "ديفيد بليتش يرى أن القراءة هي عملية استكشاف ذاتي، فالقارئ يهدف لفهم نفسه من خلال النص[cite: 99, 100, 248, 249]."
+    },
+    {
+      "q": "Cultural poetics (Greenblatt) dissolve the distinction between _________.",
+      "options": ["Prose and poetry", "Inside and outside the text", "Author and reader", "Past and present"],
+      "correct": 1,
+      "feedback": "ستيفن جرينبلات يرى أن الأدب والثقافة يتبادلان التأثير، فلا وجود لحدود فاصلة بين النص وسياقه الثقافي[cite: 11, 36]."
+    },
+    {
+      "q": "In New Criticism, 'Organic Unity' refers to:",
+      "options": ["The author's life facts", "The harmony between form and content", "The historical accuracy", "The reader's emotional state"],
+      "correct": 1,
+      "feedback": "الوحدة العضوية تعني أن الشكل والمحتوى لا ينفصلان، كل جزء يخدم الكل والكل يتجلى في الأجزاء[cite: 13, 191, 351]."
+    },
+    {
+      "q": "The approach that believes meanings are in the arrangement of words is:",
+      "options": ["Reader-response", "Formal", "Old Historical", "Intertextual"],
+      "correct": 1,
+      "feedback": "المنهج الشكلي (Formal) يرى أن المعنى موضوعي وموجود داخل ترتيب الكلمات[cite: 114, 116, 118, 268, 270]."
+    },
+    {
+      "q": "Genetic criticism focuses on _________.",
+      "options": ["The origin of the author", "The circumstances of the poem's composition", "The reader's genes", "The future impact of the text"],
+      "correct": 1,
+      "feedback": "النقد الجيني يهتم بظروف نشأة النص ومراحل كتابته (Composition)[cite: 174, 175]."
+    },
+    {
+      "q": "Formalists believe the definition of 'genre' is _________.",
+      "options": ["The most important tool", "Irrelevant and distracting", "A historical necessity", "Necessary for objectivity"],
+      "correct": 1,
+      "feedback": "الشكليون يرون أن تصنيف النص ضمن 'جنس أدبي' يشتت الناقد عن رؤية فرادة العمل الفني ذاته[cite: 104, 105, 253, 255]."
+    },
+    {
+      "q": "The lack of biographical information ______ fatally handicap genetic criticism according to Old Historians.",
+      "options": ["does", "does not", "must", "can"],
+      "correct": 1,
+      "feedback": "يرى التاريخيون القدامى أن نقص المعلومات السيرية 'لا' يعيق النقد الجيني بشكل قاتل، لأنهم يعوضون ذلك بدراسة العصر والبيئة المحيطة."
+    },
+    {
+      "q": "Wimsatt and Beardsley coined the term 'Intentional Fallacy' to argue that:",
+      "options": ["Author's intention is essential", "Author's intention is irrelevant to meaning", "The reader creates the intention", "The poem has no meaning"],
+      "correct": 1,
+      "feedback": "مغالطة القصد (Intentional Fallacy) تعني أن محاولة معرفة ما كان يقصده الشاعر هي خطأ نقدي؛ لأن النص يجب أن يتحدث عن نفسه."
+    },
+    {
+      "q": "As we move back in time, the amount of information about authors rapidly ________.",
+      "options": ["increases", "stays the same", "diminishes", "becomes clearer"],
+      "correct": 2,
+      "feedback": "هذه حقيقة تاريخية ناقشها المنهج التاريخي؛ فكلما توغلنا في الماضي، قلّت المعلومات الموثقة عن حياة الكتاب."
+    },
+    {
+      "q": "Greenblatt reminds us that art ________ challenges the boundaries of its culture.",
+      "options": ["always", "never", "sometimes", "rarely"],
+      "correct": 2,
+      "feedback": "يؤكد ستيفن جرينبلات أن الفن 'أحياناً' يتحدى حدود ثقافته، لكنه غالباً ما يكون جزءاً من تداول القوى الثقافية والسياسية."
+    },
+    {
+      "q": "Simone de Beauvoir wrote the famous feminist book titled The ________ Sex.",
+      "options": ["Other", "Second", "First", "Fair"],
+      "correct": 1,
+      "feedback": "كتاب 'الجنس الثاني' (The Second Sex) هو المرجع الأساسي للحركة النسوية، حيث ناقشت فيه كيف يتم اعتبار المرأة 'آخر' بالنسبة للرجل."
+    },
+    {
+      "q": "The term ________ is used by Feminists to describe a society dominated by males.",
+      "options": ["Patriarchal", "Matriarchal", "Parental", "Socialist"],
+      "correct": 0,
+      "feedback": "المجتمع الأبوي (Patriarchal) هو المصطلح الذي تستخدمه النسويات لوصف هيمنة الذكور على السلطة والثقافة."
+    },
+    {
+      "q": "Moscow Linguistic Circle (MLC) and Opayaz share two main principles: literariness and ________.",
+      "options": ["alienation", "familiarization", "defamiliarization", "identification"],
+      "correct": 2,
+      "feedback": "الشكلانيون الروس ركزوا على 'التغريب' (Defamiliarization)، وهو جعل المألوف غريباً لإعادة إحساسنا باللغة الأدبية."
+    },
+    {
+      "q": "To ________, 'Great writers are precisely specialists in cultural exchange.'",
+      "options": ["Foucault", "Greenblatt", "Iser", "Brooks"],
+      "correct": 1,
+      "feedback": "هذه مقولة شهيرة لجرينبلات (عن التاريخانية الجديدة)، حيث يرى الكاتب كفرد يتلاعب بالرموز الثقافية المتاحة في عصره."
+    },
+    {
+      "q": "In Formalism, the poem is viewed as a/an ________ object, freeing it from historical context.",
+      "options": ["dependent", "independent", "emotional", "transient"],
+      "correct": 1,
+      "feedback": "الشكليون يحررون النص من التاريخ عبر اعتباره 'كائناً مستقلاً' بذاته لا يحتاج لما خارجه لتفسيره."
+    },
+    {
+      "q": "Reader-response is called the ________ context because it leans on the emotions of the reader.",
+      "options": ["objective", "affective", "genetic", "historical"],
+      "correct": 1,
+      "feedback": "يسمى سياق 'تأثيري' (Affective) لأنه يركز على المشاعر وردود الفعل التي يثيرها النص في نفس المتلقي."
+    },
+    {
+      "q": "When Ransom advertised for an 'ontological' critic, he was asking for ________ criticism.",
+      "options": ["subjective", "objective", "biographical", "impressionistic"],
+      "correct": 1,
+      "feedback": "جون كرو رانسوم أراد نقداً 'موضوعياً' يدرس وجود النص كحقيقة مادية ملموسة."
+    },
+    {
+      "q": "Formalism suggests a ________ mode of perception rather than a temporal one.",
+      "options": ["spatial", "logical", "historical", "psychological"],
+      "correct": 0,
+      "feedback": "الشكليون يرون النص كبناء 'مكاني' (Spatial) - أي نسيج من الصور والرموز المترابطة - وليس مجرد أحداث زمنية متتابعة."
+    },
+    {
+      "q": "According to Iser, the text is a ________ that the reader must fill during the act of reading.",
+      "options": ["fixed block", "set of gaps", "complete message", "historical record"],
+      "correct": 1,
+      "feedback": "إيسر يرى النص كـ 'فجوات' (Gaps)؛ القارئ هو من يملأ هذه الفجوات بخياله وتجربه ليكتمل المعنى."
+    },
+    {
+      "q": "The 'Identity Theme' is a concept developed by ________ in reader-response criticism.",
+      "options": ["Holland", "Fish", "Iser", "Bleich"],
+      "correct": 0,
+      "feedback": "نورمان هولاند يرى أن كل قارئ لديه 'ثيمة هوية' خاصة، تجعله يفسر كل ما يقرأه بناءً على شخصيته النفسية."
+    },
+    {
+      "q": "New Historicism differs from Old Historicism in that it ________.",
+      "options": ["is more objective", "believes in a single history", "sees history as a web of discourses", "ignores the author"],
+      "correct": 2,
+      "feedback": "التاريخية الجديدة ترى التاريخ 'شبكة من الخطابات' (Web of discourses) متداخلة، ولا تؤمن بوجود حقيقة تاريخية واحدة مطلقة."
+    },
+    {
+      "q": "The concept of 'Literariness' (Literaturnost) refers to:",
+      "options": ["The author's genius", "What makes a given work a literary work", "The social impact of a book", "The historical accuracy"],
+      "correct": 1,
+      "feedback": "الأدبية (Literariness) عند الشكلانيين الروس هي 'ما يجعل العمل أدبياً'، أي الخصائص اللغوية التي تميزه عن الكلام اليومي."
+    },
+    {
+      "q": "For the New Critics, 'Paradox' and 'Irony' are ________.",
+      "options": ["errors to be avoided", "minor decorative tools", "essential to poetic structure", "only found in modern poetry"],
+      "correct": 2,
+      "feedback": "المفارقة (Paradox) والتناقض هما جوهر الشعر عند النقاد الجدد، لأنهما يعكسان تعقيد التجربة الإنسانية."
+    },
+    {
+      "q": "Which critic is associated with the idea of 'Informed Reader'?",
+      "options": ["Stanley Fish", "Wolfgang Iser", "David Bleich", "Norman Holland"],
+      "correct": 0,
+      "feedback": "ستانلي فيش هو من طرح فكرة 'القارئ المطلع' الذي يمتلك الكفاءة اللغوية والأدبية لاستيعاب النص."
+    },
+    {
+      "q": "To the Formalist, 'Form' ________ 'Content'.",
+      "options": ["is less important than", "is the same as", "is separate from", "is a container for"],
+      "correct": 1,
+      "feedback": "في النقد الشكلي، الشكل 'هو' المحتوى؛ لا يمكنك فصل كيف قيل الشيء عما قيل فعلياً."
+    },
+    {
+      "q": "The 'Death of the Author' is a famous essay by ________ that influenced modern criticism.",
+      "options": ["Roland Barthes", "Michel Foucault", "Jacques Derrida", "T.S. Eliot"],
+      "correct": 0,
+      "feedback": "رولان بارت هو صاحب مقال 'موت المؤلف'، الذي يعلن أن سلطة المعنى تنتقل من الكاتب إلى القارئ بمجرد كتابة النص."
     }
   ]
 }
