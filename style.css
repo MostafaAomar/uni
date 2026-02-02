@@ -130,15 +130,27 @@ input[type="text"] {
     border: 1px solid var(--glass-border);
     padding: 20px; border-radius: 20px;
     color: white; font-size: 1.1rem; font-weight: 600;
-    text-align: right; cursor: pointer; transition: 0.3s;
+    text-align: start; cursor: pointer; transition: 0.3s;
     display: flex; justify-content: space-between; align-items: center;
+    position: relative; /* ضروري جداً لتموضع الخط */
+    overflow: hidden;   /* لقص الخط عند الزوايا المستديرة */
 }
 .subject-btn:after { content: '←'; opacity: 0.5; }
 .subject-btn:hover {
     background: linear-gradient(90deg, rgba(99, 102, 241, 0.2), rgba(30, 41, 59, 0.6));
     border-color: var(--primary); transform: translateX(-5px);
 }
-
+/* الكلاس الجديد للخط الأخضر */
+.subject-progress-line {
+    position: absolute;
+    bottom: 0;
+    left: 0; /* يبدأ من اليمين لأن التطبيق عربي RTL */
+    height: 5px; /* سمك الخط */
+    background-color: #10b981; /* نفس درجة اللون الأخضر (var(--success)) */
+    box-shadow: 0 0 10px rgba(16, 185, 129, 0.5); /* توهج بسيط */
+    transition: width 0.5s ease-out; /* حركة ناعمة عند التحميل */
+    z-index: 10;
+}
 /* --- كروت الوضع (Main Menu) --- */
 .mode-cards {
     display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin-top: 20px;
@@ -225,7 +237,7 @@ input[type="text"] {
     background: rgba(255, 255, 255, 0.05);
     border: 1px solid var(--glass-border);
     padding: 18px; border-radius: 16px;
-    color: var(--text-main); text-align: right;
+    color: var(--text-main); text-align: start;
     font-size: 1rem; transition: 0.2s; cursor: pointer; font-weight: 600;
 }
 .option-btn:active { transform: scale(0.98); background: rgba(255,255,255,0.1); }

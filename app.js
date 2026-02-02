@@ -148,23 +148,66 @@ async function fetchRepoAndAddSubjects(repoUrl) {
         localStorage.removeItem('user_repo_url'); // حذف الرابط الخاطئ
     }
 }
+// دالة مساعدة لحساب نسبة التقدم للمادة بناءً على الذاكرة
+function getSubjectProgress(subjectName, totalQuestions) {
+    if (!totalQuestions || totalQuestions === 0) return 0;
 
+    // البحث عن التقدم في وضعي "quiz" و "study" وأخذ أيهما أبعد
+    const modes = ['study', 'quiz'];
+    let maxIndexReached = 0;
+
+    modes.forEach(m => {
+        const key = `progress_${subjectName}_${m}`;
+        const savedData = localStorage.getItem(key);
+        if (savedData) {
+            try {
+                const parsed = JSON.parse(savedData);
+                // نتأكد أن القيمة رقم
+                const idx = parsed.index || 0;
+                if (idx > maxIndexReached) {
+                    maxIndexReached = idx;
+                }
+            } catch (e) { console.error(e); }
+        }
+    });
+
+    // حساب النسبة المئوية (index هو رقم السؤال الحالي، يعني أنجز ما قبله)
+    let percentage = (maxIndexReached / totalQuestions) * 100;
+    
+    // تقييد النسبة بين 0 و 100
+    return Math.min(100, Math.max(0, percentage));
+}
+// الدالة المحدثة لعرض قائمة المواد مع خط التقدم
 function renderSubjectList() {
     const list = document.getElementById('subject-list');
     list.innerHTML = "";
+    
     if(quizData.length === 0) {
         list.innerHTML = "<p style='text-align:center; color:#666;'>لا توجد مواد متاحة.</p>";
         return;
     }
+
     quizData.forEach((data, index) => {
         const btn = document.createElement('div');
         btn.className = 'subject-btn';
-        btn.innerText = data.subject;
+        
+        // حساب النسبة المئوية لهذه المادة
+        const progressPercent = getSubjectProgress(data.subject, data.questions.length);
+
+        // بناء محتوى الزر (الاسم + السهم + خط التقدم)
+      // بناء محتوى الزر (الاسم + السهم + خط التقدم)
+btn.innerHTML = `
+    <span style="z-index:2; position:relative;">${data.subject}</span>
+    <div class="subject-progress-line" style="width: ${progressPercent}%"></div>
+`;
+        
+        // إضافة حدث النقر
         btn.onclick = () => {
             currentSubject = quizData[index];
             document.getElementById('selected-subject-name').innerText = currentSubject.subject;
             showScreen('mode');
         };
+        
         list.appendChild(btn);
     });
 }
