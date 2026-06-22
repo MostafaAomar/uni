@@ -1,0 +1,111 @@
+{
+  "subject": "Modern Prose - To the Lighthouse",
+  "lang": "en",
+  "questions": [
+    {
+      "q": "The novel To the Lighthouse is mainly concerned with the inner thoughts of characters rather than external events.",
+      "options": ["True", "False"],
+      "correct": 0,
+      "feedback": "The file states: 'There are no events in To the Lighthouse. It is only thoughts here.'"
+    },
+    {
+      "q": "The setting of the novel is primarily located in:",
+      "options": ["Cornwall, England", "Isle of Skye, Hebrides, Scotland", "London", "Dublin"],
+      "correct": 1,
+      "feedback": "The file states: 'The setting: the Ramsay family beach-house on the Isle of Skye, Hebrides, Scotland.'"
+    },
+    {
+      "q": "Which part of the novel covers a period of ten years?",
+      "options": ["The Window", "Time Passes", "The Lighthouse", "None of the above"],
+      "correct": 1,
+      "feedback": "The file states: 'Time Passes: through 10 years.'"
+    },
+    {
+      "q": "Lily Briscoe’s profession in the novel is:",
+      "options": ["Writer", "Painter", "Philosopher", "Teacher"],
+      "correct": 1,
+      "feedback": "The file states: 'Lily Briscoe is a young Asian aspiring painting artist.'"
+    },
+    {
+      "q": "Which character is described as an opium-addict poet?",
+      "options": ["Charles Tansley", "William Bankes", "Augustus Carmichael", "Paul Rayley"],
+      "correct": 2,
+      "feedback": "The file states: 'Augustus Carmichael is an opium-addict poet in his 60s.'"
+    },
+    {
+      "q": "Stream of consciousness in the novel refers to:",
+      "options": [
+        "A chronological narration of events",
+        "A technique that expresses thoughts exactly as they occur in the mind",
+        "A dialogue-based narrative",
+        "A historical recount of events"
+      ],
+      "correct": 1,
+      "feedback": "The file states: 'Stream of consciousness is just like looking inside your head and see what you are thinking about.'"
+    },
+    {
+      "q": "Which writer used the stream of consciousness technique before Virginia Woolf?",
+      "options": ["Ernest Hemingway", "Marcel Proust", "George Orwell", "Emily Brontë"],
+      "correct": 1,
+      "feedback": "The file states: 'The technique was used by Marcel Proust and James Joyce before Woolf.'"
+    },
+    {
+      "q": "Mr. Ramsay derives his self-worth mainly from:",
+      "options": ["His family", "His philosophical achievements and social status", "His wealth", "His artistic abilities"],
+      "correct": 1,
+      "feedback": "The file states: 'Mr. Ramsay gets social-worth from his philosophy and social status.'"
+    },
+    {
+      "q": "Which character lacks self-worth because he wants to be appreciated by others?",
+      "options": ["Mr. Ramsay", "Charles Tansley", "William Bankes", "Roger Ramsay"],
+      "correct": 1,
+      "feedback": "The file states: 'Charles Tansley does not have self-worth because he wants to be appreciated by people around him.'"
+    },
+    {
+      "q": "The part of the novel that is stylistically different from the others is:",
+      "options": ["The Window", "Time Passes", "The Lighthouse", "All parts are stylistically identical"],
+      "correct": 1,
+      "feedback": "The file states: 'Time Passes is different in the style of narration from the first part and the third part.'"
+    },
+    {
+      "q": "Which of the following characters dies during the ten-year gap?",
+      "options": ["James", "Mrs. Ramsay", "Lily Briscoe", "Charles Tansley"],
+      "correct": 1,
+      "feedback": "The file states: 'Mrs. Ramsay dies suddenly one night.'"
+    },
+    {
+      "q": "The novel closes with:",
+      "options": [
+        "The death of Mr. Ramsay",
+        "The artistic triumph of Lily Briscoe",
+        "The marriage of Lily Briscoe",
+        "The destruction of the lighthouse"
+      ],
+      "correct": 1,
+      "feedback": "The file states: 'The novel closes with the artistic triumph of Lily Briscoe.'"
+    },
+    {
+      "q": "According to the notes, truth in the novel is:",
+      "options": [
+        "Fixed and objective",
+        "A universal fact shared by all characters",
+        "Highly subjective and based on personal interpretation",
+        "Irrelevant to the narrative"
+      ],
+      "correct": 2,
+      "feedback": "The file states: 'Truth is highly subjective. Your truth is different from my truth.'"
+    },
+    {
+      "q": "Which part of the novel returns to the slow detail of shifting points of view?",
+      "options": ["The Window", "Time Passes", "The Lighthouse", "None of the above"],
+      "correct": 2,
+      "feedback": "The file states: 'In The Lighthouse, time returns to the slow detail of shifting points of view.'"
+    },
+    {
+      "q": "Mrs. Ramsay gains social-worth mainly because of:",
+      "options": ["Her wealth", "Her beauty and charitable deeds", "Her education", "Her political influence"],
+      "correct": 1,
+      "feedback": "The file states: 'Mrs. Ramsay gets social-worth from the people around her for her beauty and charitable deeds.'"
+    }
+  ]
+}
