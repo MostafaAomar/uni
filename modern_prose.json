@@ -106,6 +106,12 @@
       "options": ["Her wealth", "Her beauty and charitable deeds", "Her education", "Her political influence"],
       "correct": 1,
       "feedback": "The file states: 'Mrs. Ramsay gets social-worth from the people around her for her beauty and charitable deeds.'"
+    },
+    {
+      "q": "Mrs. Ramsay gains social-worth mainly because of:",
+      "options": ["Her wealth", "Her beauty and charitable deeds", "Her education", "Her political influence"],
+      "correct": 1,
+      "feedback": "The file states: 'Mrs. Ramsay gets social-worth from the people around her for her beauty and charitable deeds.'"
     }
   ]
 }
