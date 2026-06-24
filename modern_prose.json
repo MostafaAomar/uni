@@ -2,6 +2,391 @@
   "subject": "Modern Prose - To the Lighthouse, Dr. Waha",
   "lang": "en",
   "questions": [
+ {
+    "q": "1. Mr. Ramsay succeeds in reconciling his role as a philosopher with that as a family man.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": 1,
+    "feedback": "Based on the exam sheet, this statement is False."
+  },
+  {
+    "q": "2. Mr. Bankes' respect for Mr. Ramsay ended since the latter's marriage.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": 1,
+    "feedback": "Based on the exam sheet, this statement is False."
+  },
+  {
+    "q": "3. The setting in the novel influences or sometimes reflects the mood of characters.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": 0,
+    "feedback": "Based on the exam sheet, this statement is True."
+  },
+  {
+    "q": "4. Mr. Ramsay prepares his children to face the reality of life by his constant gentle advice.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": 1,
+    "feedback": "Based on the exam sheet, this statement is False."
+  },
+  {
+    "q": "5. Mrs. Ramsay took Mr. Tansley with her to town to attend the circus.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": 1,
+    "feedback": "Based on the exam sheet, this statement is False."
+  },
+  {
+    "q": "6. Mrs. Ramsay is an expressive individual and is easy to read.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": 1,
+    "feedback": "Based on the exam sheet, this statement is False."
+  },
+  {
+    "q": "7. Lily Briscou secretly wishes that her life was like that of Mrs. Ramsay.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": 1,
+    "feedback": "Based on the exam sheet, this statement is False."
+  },
+  {
+    "q": "8. In \"The Lighthouse\", Cam and James were excited about visiting the lighthouse.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": 1,
+    "feedback": "Based on the exam sheet, this statement is False."
+  },
+  {
+    "q": "9. James thought that \"One needs fifty pairs of eyes\" to see people for who they truely are.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": 1,
+    "feedback": "Based on the exam sheet, this statement is False."
+  },
+  {
+    "q": "10. Mrs. Ramsay's method of \"knowing\" the world is presented as:",
+    "options": [
+      "abstract and intellectual",
+      "Delusional and irrational",
+      "Intuitive and rational"
+    ],
+    "correct": 2,
+    "feedback": "The correct answer is 'Intuitive and rational'."
+  },
+  {
+    "q": "11. Who described Mr. Ramsay as tyrannical?",
+    "options": [
+      "Mr. Bankes",
+      "Mrs. Ramsay",
+      "Lily Briscou"
+    ],
+    "correct": 2,
+    "feedback": "The correct answer is 'Lily Briscou'."
+  },
+  {
+    "q": "12. Where is Lily Briscoe's primary physical location for most of the afternoon in \"The Window\"?",
+    "options": [
+      "The kitchen",
+      "The lawn",
+      "The drawing room"
+    ],
+    "correct": 1,
+    "feedback": "The correct answer is 'The lawn'."
+  },
+  {
+    "q": "13. Who was afraid of the boar's skull in the nursery?",
+    "options": [
+      "Cam",
+      "James",
+      "Mrs. Ramsay"
+    ],
+    "correct": 0,
+    "feedback": "The correct answer is 'Cam'."
+  },
+  {
+    "q": "14. Mr. Ramsay's philosophical progress is symbolized by his movement through:",
+    "options": [
+      "The notes of a music scale",
+      "The sea waves",
+      "The alphabet"
+    ],
+    "correct": 2,
+    "feedback": "The correct answer is 'The alphabet'."
+  },
+  {
+    "q": "15. Which character delivers the line, \"Women can't paint, women can't write\"?",
+    "options": [
+      "Mr. Ramsay",
+      "William Bankes",
+      "Charles Tansley"
+    ],
+    "correct": 2,
+    "feedback": "The correct answer is 'Charles Tansley'."
+  },
+  {
+    "q": "16. Mrs. Ramsay's purpose behind the dinner gathering was:",
+    "options": [
+      "to create a lasting memory",
+      "to escape her dark thoughts",
+      "to please her husband"
+    ],
+    "correct": 0,
+    "feedback": "The correct answer is 'to create a lasting memory'."
+  },
+  {
+    "q": "17. How did the characters initially feel at the dinner table?",
+    "options": [
+      "dissociated",
+      "comfortable",
+      "embarassed"
+    ],
+    "correct": 0,
+    "feedback": "The correct answer is 'dissociated'."
+  },
+  {
+    "q": "18. What eased the tension later on in the dinner table scene?",
+    "options": [
+      "the delicious food",
+      "the storm",
+      "the candlelights"
+    ],
+    "correct": 2,
+    "feedback": "The correct answer is 'the candlelights'."
+  },
+  {
+    "q": "19. Who did Mrs. Ramsay want to impress with the food because he has no one to cook for him?",
+    "options": [
+      "Mr. Carmichael",
+      "Mr. Bankes",
+      "Mr. Tansley"
+    ],
+    "correct": 1,
+    "feedback": "The correct answer is 'Mr. Bankes'."
+  },
+  {
+    "q": "20. When Mrs. Ramsay expressed how she doesn't want her children to grow old, how did Mr. Ramsay describe her?",
+    "options": [
+      "pessimistic",
+      "controlling",
+      "sensitive"
+    ],
+    "correct": 0,
+    "feedback": "The correct answer is 'pessimistic'."
+  },
+  {
+    "q": "21. What did Mr. Ramsay never notice according to his wife?",
+    "options": [
+      "the changes in her mood",
+      "the alarming weather",
+      "the blooming flowers"
+    ],
+    "correct": 2,
+    "feedback": "The correct answer is 'the blooming flowers'."
+  },
+  {
+    "q": "22. Where do we see Mrs. Ramsay first in \"The Window\"?",
+    "options": [
+      "in the kitchen",
+      "by the window",
+      "on the terrace"
+    ],
+    "correct": 1,
+    "feedback": "The correct answer is 'by the window'."
+  },
+  {
+    "q": "23. Who did Mrs. Ramsay feel doesn't like her?",
+    "options": [
+      "Mr. Bankrs",
+      "Mr. Tansley",
+      "Mr. Carmichael"
+    ],
+    "correct": 2,
+    "feedback": "The correct answer is 'Mr. Carmichael'."
+  },
+  {
+    "q": "24. What ruined Mr. Ramsay's mood at the dinner table?",
+    "options": [
+      "James staying up late",
+      "the food was cold",
+      "Mr. Carmichael asking for more soup"
+    ],
+    "correct": 2,
+    "feedback": "The correct answer is 'Mr. Carmichael asking for more soup'."
+  },
+  {
+    "q": "25. What doest Mr. Ramsay want from everyone around him?",
+    "options": [
+      "protection",
+      "respect",
+      "attention"
+    ],
+    "correct": 2,
+    "feedback": "The correct answer is 'attention'."
+  },
+  {
+    "q": "26. The narrative voice in \"Time Passes\" describes an insomniac man who leaves his bed to seek answers from:",
+    "options": [
+      "the wind",
+      "the sky",
+      "the sea"
+    ],
+    "correct": 2,
+    "feedback": "The correct answer is 'the sea'."
+  },
+  {
+    "q": "27. Time Passes\" is the most (...) section of the novel:",
+    "options": [
+      "emotionally engaging",
+      "thematically profound",
+      "stylistically different"
+    ],
+    "correct": 2,
+    "feedback": "The correct answer is 'stylistically different'."
+  },
+  {
+    "q": "28. What made James eventually change the way he sees his father is:",
+    "options": [
+      "emotional isolation",
+      "spacial proximity",
+      "temporal distance"
+    ],
+    "correct": 1,
+    "feedback": "The correct answer is 'spacial proximity'."
+  },
+  {
+    "q": "29. What made Lily achieve her vision to complete the painting at the end is:",
+    "options": [
+      "spacial distance",
+      "temporal distance",
+      "both a and b"
+    ],
+    "correct": 2,
+    "feedback": "The correct answer is 'both a and b'."
+  },
+  {
+    "q": "30. What brings the remaining characters together at the end of the novel is their shared:",
+    "options": [
+      "loss and grief",
+      "love for life",
+      "curiosity for knowledge"
+    ],
+    "correct": 0,
+    "feedback": "The correct answer is 'loss and grief'."
+  },
+  {
+    "q": "31. According to Genette's theory, \"analepsis\" refers to a flashforward in the narrative.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": 1,
+    "feedback": "Based on the exam sheet, this statement is False."
+  },
+  {
+    "q": "32. The central ten-year gap in To the Lighthouse is an example of what Genette calls an \"ellipsis.\"",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": 0,
+    "feedback": "Based on the exam sheet, this statement is True."
+  },
+  {
+    "q": "33. In Genette's terminology, the main narrator in the novel is heterodiegetic.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": 1,
+    "feedback": "Based on the exam sheet, this statement is False."
+  },
+  {
+    "q": "34. A \"heterodiegetic\" narrator is a character in the story.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": 1,
+    "feedback": "Based on the exam sheet, this statement is False."
+  },
+  {
+    "q": "35. The \"iterative\" narrative mode means presenting a single event through the perception of multiple characters.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": 1,
+    "feedback": "Based on the exam sheet, this statement is False."
+  },
+  {
+    "q": "36. The narrative time a certain event takes in the story is called \"story time\".",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": 1,
+    "feedback": "Based on the exam sheet, this statement is False."
+  },
+  {
+    "q": "37. In \"Time Passes,\" the narrative duration matches the pace of the characters' daily lives.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": 1,
+    "feedback": "Based on the exam sheet, this statement is False."
+  },
+  {
+    "q": "38. The novel contains all but one of the following narrative techniques:",
+    "options": [
+      "foreshadowing",
+      "summary",
+      "pause"
+    ],
+    "correct": 2,
+    "feedback": "The correct answer is 'pause'."
+  },
+  {
+    "q": "39. In \"The Window,\" the narrative perspective shifts frequently between characters. This is an example of:",
+    "options": [
+      "Zero focalization",
+      "Variable internal focalization",
+      "External focalization"
+    ],
+    "correct": 1,
+    "feedback": "The correct answer is 'Variable internal focalization'."
+  },
+  {
+    "q": "40. In \"Time Passes\", the characters' fate is being told through (...) statements.",
+    "options": [
+      "brief parenthetical",
+      "long descriptive",
+      "indirect, allegorical"
+    ],
+    "correct": 0,
+    "feedback": "The correct answer is 'brief parenthetical'."
+  },
+    
     {
       "q": "Why does James feel lifelong resentment toward his father after the lighthouse incident?",
       "options": [
