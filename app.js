@@ -8,7 +8,7 @@ let userAnswers = [];
 let mode = ''; 
 let currentSpeed = 0.8;
 
-// الرابط التلقائي الثابت للمستودع الخاص بك
+// تم تحديث الرابط ليكون المستودع الجديد الخاص بالجامعة
 const DEFAULT_REPO_URL = 'https://github.com/MostafaAomar/uni';
 
 const screens = {
@@ -78,7 +78,9 @@ async function init() {
 }
 
 async function fetchRepoAndAddSubjects(repoUrl) {
+    // تنظيف الرابط بذكاء لاستخراج صاحب المستودع واسم المستودع فقط
     let cleanUrl = repoUrl.replace('https://github.com/', '');
+    cleanUrl = cleanUrl.split('/tree/')[0]; // إزالة /tree/main وما بعدها إن وُجدت
     if (cleanUrl.endsWith('.git')) cleanUrl = cleanUrl.slice(0, -4); 
     
     const parts = cleanUrl.split('/');
@@ -92,6 +94,8 @@ async function fetchRepoAndAddSubjects(repoUrl) {
         const resp = await fetch(api);
         if (!resp.ok) throw new Error("Repo not found");
         const tree = await resp.json();
+        
+        // جلب ملفات JSON وتجاهل ملف القاموس الخاص إن وُجد
         const jsonFiles = tree.tree.filter(t => t.path.endsWith('.json') && !t.path.includes('myOwnDic.json'));
 
         quizData = []; 
@@ -112,7 +116,7 @@ async function fetchRepoAndAddSubjects(repoUrl) {
         renderSubjectList();
     } catch (e) { 
         console.error("Load Error:", e);
-        alert("تعذر تحميل البيانات تلقائياً، يرجى التحقق من اتصال الإنترنت.");
+        alert("تعذر تحميل البيانات تلقائياً، يرجى التحقق من اتصال الإنترنت أو التأكد من احتواء المستودع على ملفات JSON صالحة.");
     }
 }
 
@@ -485,7 +489,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const wordInput = document.getElementById('wordInput');
     const dictionaryOutput = document.getElementById('dictionaryOutput');
 
-    const localDictionaryPath = 'https://raw.githubusercontent.com/MostafaAomar/school_project/refs/heads/main/data/subdata/myOwnDic.json'; 
+    // تم تحديث مسار القاموس المحلي ليتوافق مع المستودع الجديد (إن وُجد)
+    const localDictionaryPath = 'https://raw.githubusercontent.com/MostafaAomar/uni/refs/heads/main/data/subdata/myOwnDic.json'; 
     const apiEndpoint = 'https://api.dictionaryapi.dev/api/v2/entries/en/';
 
     let dictionaryData = []; 
