@@ -9,7 +9,7 @@ let mode = '';
 let currentSpeed = 0.8;
 
 // الرابط التلقائي الثابت للمستودع الخاص بك
-const DEFAULT_REPO_URL = 'https://github.com/MostafaAomar/school_project';
+const DEFAULT_REPO_URL = 'https://github.com/MostafaAomar/uni';
 
 const screens = {
     setup: document.getElementById('setup-screen'),
