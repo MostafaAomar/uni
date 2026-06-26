@@ -8,6 +8,9 @@ let userAnswers = [];
 let mode = ''; 
 let currentSpeed = 0.8;
 
+// الرابط التلقائي الثابت للمستودع الخاص بك
+const DEFAULT_REPO_URL = 'https://github.com/MostafaAomar/school_project';
+
 const screens = {
     setup: document.getElementById('setup-screen'),
     mode: document.getElementById('mode-screen'),
@@ -40,51 +43,38 @@ function saveDetailedProgress() {
 }
 
 /* ==========================================
-   3. التحميل والتهيئة (Initialization)
+   3. التحميل والتهيئة التلقائية (Initialization)
    ========================================== */
 async function init() {
-    const storedRepo = localStorage.getItem('user_repo_url');
     const loadingDiv = document.querySelector('.loader');
 
-    if (storedRepo) {
-        if(loadingDiv) loadingDiv.classList.remove('hidden');
-        await fetchRepoAndAddSubjects(storedRepo);
-        if(loadingDiv) loadingDiv.classList.add('hidden');
+    // إظهار مؤشر التحميل أثناء جلب البيانات تلقائياً
+    if (loadingDiv) loadingDiv.classList.remove('hidden');
+    await fetchRepoAndAddSubjects(DEFAULT_REPO_URL);
+    if (loadingDiv) loadingDiv.classList.add('hidden');
 
-        const savedPos = localStorage.getItem('app_last_position');
-        if (savedPos) {
-            try {
-                const pos = JSON.parse(savedPos);
-                const foundSub = quizData.find(s => s.subject === pos.subjectName);
-                if (foundSub) {
-                    currentSubject = foundSub;
-                    mode = pos.mode;
-                    currentIndex = pos.currentIndex;
-                    
-                    const subProgKey = `progress_${currentSubject.subject}_${mode}`;
-                    const savedProg = localStorage.getItem(subProgKey);
-                    if (savedProg) userAnswers = JSON.parse(savedProg).answers || [];
-                    
-                    renderStep();
-                    return;
-                }
-            } catch (e) { console.log("Error restoring session", e); }
-        }
-    } else {
-        document.getElementById('repo-input-area').classList.remove('hidden');
+    // استعادة آخر جلسة تصفح متوقفة إن وجدت
+    const savedPos = localStorage.getItem('app_last_position');
+    if (savedPos) {
+        try {
+            const pos = JSON.parse(savedPos);
+            const foundSub = quizData.find(s => s.subject === pos.subjectName);
+            if (foundSub) {
+                currentSubject = foundSub;
+                mode = pos.mode;
+                currentIndex = pos.currentIndex;
+                
+                const subProgKey = `progress_${currentSubject.subject}_${mode}`;
+                const savedProg = localStorage.getItem(subProgKey);
+                if (savedProg) userAnswers = JSON.parse(savedProg).answers || [];
+                
+                renderStep();
+                return;
+            }
+        } catch (e) { console.log("Error restoring session", e); }
     }
+    
     showScreen('setup');
-}
-
-function saveRepoUrl() {
-    const input = document.getElementById('repo-url-input');
-    const url = input.value.trim();
-    if (url) {
-        localStorage.setItem('user_repo_url', url);
-        location.reload(); 
-    } else {
-        alert("يرجى إدخال رابط صحيح!");
-    }
 }
 
 async function fetchRepoAndAddSubjects(repoUrl) {
@@ -102,7 +92,7 @@ async function fetchRepoAndAddSubjects(repoUrl) {
         const resp = await fetch(api);
         if (!resp.ok) throw new Error("Repo not found");
         const tree = await resp.json();
-        const jsonFiles = tree.tree.filter(t => t.path.endsWith('.json'));
+        const jsonFiles = tree.tree.filter(t => t.path.endsWith('.json') && !t.path.includes('myOwnDic.json'));
 
         quizData = []; 
         for (const file of jsonFiles) {
@@ -113,19 +103,16 @@ async function fetchRepoAndAddSubjects(repoUrl) {
             
             if (data && data.questions) {
                 quizData.push({
-                    subject: data.subject || file.path.replace('.json', ''),
+                    subject: data.subject || file.path.replace('.json', '').split('/').pop(),
                     lang: data.lang || 'en',
                     questions: data.questions
                 });
             }
         }
         renderSubjectList();
-        document.getElementById('repo-input-area').classList.add('hidden'); 
     } catch (e) { 
         console.error("Load Error:", e);
-        document.getElementById('repo-input-area').classList.remove('hidden'); 
-        alert("تعذر تحميل البيانات، تأكد من صحة الرابط أو اتصال الإنترنت.");
-        localStorage.removeItem('user_repo_url'); 
+        alert("تعذر تحميل البيانات تلقائياً، يرجى التحقق من اتصال الإنترنت.");
     }
 }
 
@@ -153,9 +140,10 @@ function getSubjectProgress(subjectName, totalQuestions) {
 
 function renderSubjectList() {
     const list = document.getElementById('subject-list');
+    if (!list) return;
     list.innerHTML = "";
     if(quizData.length === 0) {
-        list.innerHTML = "<p style='text-align:center; color:#666;'>لا توجد مواد متاحة.</p>";
+        list.innerHTML = "<p style='text-align:center; color:#94a3b8;'>لا توجد مواد متاحة حالياً.</p>";
         return;
     }
 
@@ -190,9 +178,10 @@ function renderStep() {
     displayNotes();
     saveDetailedProgress();
 
-    // إخفاء نتائج التحليل الصوتي السابقة عند الانتقال لسؤال جديد
-    document.getElementById('study-displayArea').innerHTML = "";
-    document.getElementById('quiz-displayArea').innerHTML = "";
+    const studyArea = document.getElementById('study-displayArea');
+    const quizArea = document.getElementById('quiz-displayArea');
+    if(studyArea) studyArea.innerHTML = "";
+    if(quizArea) quizArea.innerHTML = "";
 
     if (mode === 'quiz') {
         showScreen('quiz');
@@ -341,54 +330,17 @@ function displayNotes() {
         }
     }
 }
-/* ==========================================
-   6. دمج مختبر الصوتيات وتحليل الجملة (من test.html)
-   ========================================== */
-function playGoogleTTS(text, lang = 'en') {
-    // نطق الجملة كاملة ككتلة واحدة
-    const url = `https://translate.google.com/translate_tts?ie=UTF-8&q=${encodeURIComponent(text)}&tl=${lang}&client=tw-ob`;
-    const audio = new Audio(url);
-    audio.play();
-}
-/* ==========================================
-   تطوير نطق الجمل المتصلة والمعالجة الصوتية
-   ========================================== */
 
-// دالة النطق العالمية للجملة كاملة
+/* ==========================================
+   6. معالجة ومختبر الصوتيات المتطور للـ IPA
+   ========================================== */
 function playFullSentence(text) {
     if (!text) return;
-    // تنظيف النص من الرموز التي قد تعيق النطق
     const cleanText = text.replace(/["']/g, "");
     const url = `https://translate.google.com/translate_tts?ie=UTF-8&q=${encodeURIComponent(cleanText)}&tl=en&client=tw-ob`;
     const audio = new Audio(url);
     audio.rate = parseFloat(currentSpeed || 0.8);
     audio.play().catch(e => console.error("Playback error:", e));
-}
-// دالة محسنة لجلب ومعالجة رموز الجملة كاملة
-async function getFullSentenceIPA(text) {
-    const words = text.split(/\s+/);
-    let fullIPA = "/ ";
-    
-    for (let word of words) {
-        const cleanWord = word.replace(/[^\w]/g, '');
-        try {
-            const response = await fetch(`https://api.dictionaryapi.dev/api/v2/entries/en/${cleanWord}`);
-            const data = await response.json();
-            // جلب الرمز الصوتي وتنظيفه من المائلات
-            let phonetic = data[0].phonetic || (data[0].phonetics.find(p => p.text)?.text) || cleanWord;
-            fullIPA += phonetic.replace(/\//g, '') + " ";
-        } catch (e) {
-            fullIPA += cleanWord + " ";
-        }
-    }
-    return fullIPA + " /";
-}
-function playSentence(text) {
-    // تنظيف النص من أي رموز قد تعيق المحرك الصوتي
-    const cleanText = text.replace(/["']/g, "");
-    const url = `https://translate.google.com/translate_tts?ie=UTF-8&q=${encodeURIComponent(cleanText)}&tl=en&client=tw-ob`;
-    const audio = new Audio(url);
-    audio.play().catch(err => console.error("Error playing audio:", err));
 }
 
 async function analyzeCurrentQuestion(currentMode) {
@@ -401,13 +353,11 @@ async function analyzeCurrentQuestion(currentMode) {
 
     displayArea.innerHTML = '<div style="text-align:center; padding:20px; color:var(--primary);">جاري معالجة النطق المتصل...</div>';
     
-    // نطق الجملة فوراً عند التحميل
     playFullSentence(text);
 
     const words = text.split(/\s+/);
     let ipaParts = [];
 
-    // جلب الرموز الصوتية وتحسين مظهرها
     for(let word of words) {
         const clean = word.replace(/[^\w]/g, '');
         if(clean) {
@@ -415,7 +365,6 @@ async function analyzeCurrentQuestion(currentMode) {
                 const resp = await fetch(`https://api.dictionaryapi.dev/api/v2/entries/en/${clean}`);
                 const data = await resp.json();
                 let phonetic = data[0]?.phonetic || (data[0]?.phonetics?.find(p => p.text)?.text) || clean;
-                // إزالة المائلات الزائدة لتنسيق الجملة
                 ipaParts.push(phonetic.replace(/\//g, ''));
             } catch (e) {
                 ipaParts.push(clean);
@@ -423,10 +372,8 @@ async function analyzeCurrentQuestion(currentMode) {
         }
     }
 
-    // دمج الرموز في جملة واحدة محاطة بمائلين فقط كما في القواميس الاحترافية
     const fullIpa = `/${ipaParts.join(" ")}/`;
 
-    // العرض النهائي (تصميم البطاقة الواحدة)
     displayArea.innerHTML = `
         <div class="word-pill" style="display: block; text-align: left; direction: ltr;">
             <div style="margin-bottom: 15px;">
@@ -443,12 +390,13 @@ async function analyzeCurrentQuestion(currentMode) {
         </div>
     `;
 }
+
 /* ==========================================
    7. التحكم في التدفق
    ========================================== */
 function toggleFlip() {
     const inner = document.getElementById('card-inner');
-    inner.classList.toggle('is-flipped');
+    if(inner) inner.classList.toggle('is-flipped');
 }
 
 function nextQuestion() {
@@ -470,6 +418,7 @@ function prevQuestion() {
 function showResults() {
     showScreen('result');
     const statsBox = document.getElementById('final-stats');
+    if(!statsBox) return;
     
     if (mode === 'quiz') {
         let score = 0;
@@ -507,6 +456,7 @@ function goBackToSubjects() {
     showScreen('setup');
 }
 
+// إعادة ضبط تقدم المادة الحالية فقط
 function restartSubject() {
     if(confirm("هل تريد إعادة هذه المادة من البداية؟")) {
         currentIndex = 0;
@@ -517,18 +467,19 @@ function restartSubject() {
     }
 }
 
+// حذف الكاش والملاحظات للبدء من جديد مع الحفاظ على الأتمتة
 function fullReset() {
-    if(confirm("⚠️ تحذير: سيتم حذف رابط المستودع وكافة الملاحظات والتقدم. هل أنت متأكد؟")) {
+    if(confirm("⚠️ تحذير: سيتم حذف كافة الملاحظات والتقدم المخزن. هل أنت متأكد؟")) {
         localStorage.clear();
         location.reload();
     }
 }
 
-// بدء التطبيق
+// بدء تشغيل التطبيق التلقائي فور التحميل
 window.onload = init;
 
 /* ==========================================
-   8. القاموس المدمج - (English-English Dictionary)
+   8. القاموس المدمج الذكي - (English-English Dictionary)
    ========================================== */
 document.addEventListener('DOMContentLoaded', () => {
     const wordInput = document.getElementById('wordInput');
@@ -544,28 +495,17 @@ document.addEventListener('DOMContentLoaded', () => {
     async function loadLocalDictionary() {
         if (isDictionaryLoaded || isLoadingDictionary) return; 
         isLoadingDictionary = true;
-        console.log(`Attempting to load local dictionary from: ${localDictionaryPath}`); 
 
         try {
             const response = await fetch(localDictionaryPath);
-            if (!response.ok) {
-                console.error(`HTTP error loading local dictionary! Status: ${response.status}`);
-                throw new Error(`Failed to load local dictionary.json`);
-            }
+            if (!response.ok) throw new Error(`Failed to load local dictionary.json`);
             dictionaryData = await response.json();
-            if (!Array.isArray(dictionaryData)) {
-                 throw new Error("Invalid local dictionary format.");
-            }
             isDictionaryLoaded = true;
-            console.log(`Local dictionary loaded successfully.`);
-             if (wordInput && wordInput.value.trim()) {
+            if (wordInput && wordInput.value.trim()) {
                 handleWordSearch();
             }
         } catch (error) {
-            console.error('Error loading or parsing local dictionary.json:', error);
-             if (dictionaryOutput) {
-                 dictionaryOutput.innerHTML = `<p class="text-danger">خطأ في تحميل القاموس المحلي. قد لا تعمل عمليات البحث المحلية.</p>`;
-             }
+            console.error('Error loading local dictionary:', error);
         } finally {
             isLoadingDictionary = false;
         }
@@ -580,27 +520,19 @@ document.addEventListener('DOMContentLoaded', () => {
     async function searchApiDictionary(word) {
         const searchTerm = word.trim();
         if (!searchTerm) return null;
-
         dictionaryOutput.innerHTML = '<p class="text-muted" style="text-align:center;">لم يتم العثور عليه محليًا، جار البحث عبر الإنترنت...</p>';
 
         try {
             const response = await fetch(`${apiEndpoint}${encodeURIComponent(searchTerm)}`);
-            if (!response.ok) {
-                if (response.status === 404) return null;
-                throw new Error(`API error! status: ${response.status}`);
-            }
+            if (!response.ok) return null;
             const data = await response.json();
             return (data && data.length > 0) ? data[0] : null;
         } catch (error) {
-            console.error('Error fetching definition from API:', error);
-             if (dictionaryOutput) {
-                  dictionaryOutput.innerHTML = `<p class="text-danger" style="text-align:center;">حدث خطأ أثناء البحث عبر الإنترنت.</p>`;
-             }
             return null; 
         }
     }
 
-     function displayDefinition(entryData, searchTerm) {
+    function displayDefinition(entryData, searchTerm) {
          if (!dictionaryOutput) return; 
 
          if (!entryData) {
@@ -615,19 +547,7 @@ document.addEventListener('DOMContentLoaded', () => {
         let html = `<h4 class="mb-2" style="text-align:left; direction:ltr;">${escapeHTML(word)} ${phoneticText ? `<span class="text-muted fs-6">${escapeHTML(phoneticText)}</span>` : ''}</h4>`;
 
         if (audioUrl) {
-            html += `
-                <div class="audio mb-3">
-                    <audio controls src="${escapeHTML(audioUrl)}">متصفحك لا يدعم الصوت.</audio>
-                </div>
-            `;
-        } else {
-             const alternateAudio = entryData.phonetics?.find(p => p.audio)?.audio;
-              if (alternateAudio) {
-                 html += `
-                 <div class="audio mb-3">
-                     <audio controls src="${escapeHTML(alternateAudio)}">متصفحك لا يدعم الصوت.</audio>
-                 </div>`;
-              }
+            html += `<div class="audio mb-3"><audio controls src="${escapeHTML(audioUrl)}">متصفحك لا يدعم الصوت.</audio></div>`;
         }
 
         if (entryData.meanings && Array.isArray(entryData.meanings)) {
@@ -641,15 +561,10 @@ document.addEventListener('DOMContentLoaded', () => {
                         if (def.example) {
                             html += `<p class="ms-3 text-muted fst-italic" style="border-left:2px solid var(--primary); padding-left:10px;">"${escapeHTML(def.example)}"</p>`;
                         }
-                        if (def.synonyms && def.synonyms.length > 0) {
-                            html += `<p class="ms-3 small"><strong>Synonyms:</strong> ${escapeHTML(def.synonyms.join(', '))}</p>`;
-                        }
                     });
                 }
                 html += `</div>`;
             });
-        } else {
-             html += `<p class="text-muted">لا توجد معاني مفصلة متوفرة.</p>`;
         }
         dictionaryOutput.innerHTML = html;
     }
@@ -664,15 +579,10 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         if (!isDictionaryLoaded && !isLoadingDictionary) {
-             dictionaryOutput.innerHTML = '<p class="text-muted" style="text-align:center;">جارٍ تحميل القاموس المحلي أولاً...</p>';
             await loadLocalDictionary(); 
-        } else if (isLoadingDictionary) {
-             dictionaryOutput.innerHTML = '<p class="text-muted" style="text-align:center;">القاموس المحلي قيد التحميل، يرجى الانتظار...</p>';
-             return; 
-         }
+        }
 
         const localResult = searchLocalDictionary(word);
-
         if (localResult) {
             displayDefinition(localResult, word);
         } else {
