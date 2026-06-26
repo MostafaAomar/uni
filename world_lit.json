@@ -842,7 +842,165 @@
         "options": ["True", "False"],
         "correct": 0,
         "feedback": "صحيح، تنتهي الملحمة باستعادة أوديسيوس لعرشه ولم شمله مع زوجته وبسط السلام في إيثاكا."
-      }
+      },
+      
+  {
+    "q": "What is the name of the woman who supposedly opened a forbidden box and unleashed horrors on the world?",
+    "options": ["Circe", "Pandora", "Calypso", "Penelope"],
+    "correct": 1,
+    "feedback": "باندورا هي أول امرأة بشرية في الأساطير الإغريقية، والتي فتحت الصندوق الشهير بدافع الفضول فأطلقت الشرور والأمراض في الأرض."
+  },
+  {
+    "q": "By the end of the Illiad, which of the following happens?",
+    "options": ["The Trojan war ends", "Hector is killed and his body is desecrated", "The Trojan horse is built", "The Greeks return home"],
+    "correct": 1,
+    "feedback": "تختتم الإلياذة بمقتل هكتور وتدنيس جثته، ولا تتضمن نهاية الحرب أو بناء الحصان."
+  },
+  {
+    "q": "The many Gods and goddesses made up by the Greeks are:",
+    "options": ["To find a pastime", "To confuse future generations", "To serve as fictional characters in stories", "An attempt at explaining natural phenomena"],
+    "correct": 3,
+    "feedback": "كان الإغريق يبتكرون الآلهة كمحاولة لتفسير الظواهر الطبيعية."
+  },
+  {
+    "q": "In terms of religion, the Greeks can be best described as being:",
+    "options": ["Monotheistic", "Polytheistic", "Monogamous", "Polygamous"],
+    "correct": 1,
+    "feedback": "كان الإغريق يؤمنون بتعدد الآلهة (Polytheistic)."
+  },
+  {
+    "q": "According to the Greeks, a coin was placed in the mouth or eyes of the dead as:",
+    "options": ["Payment for the wagon", "Compensation for the grim reaper", "A payment for Charon", "Cremation fees"],
+    "correct": 2,
+    "feedback": "كانت العملة تُوضع كأجر للملاح كارون لنقل روح الميت."
+  },
+  {
+    "q": "The Illiad and the Odyssey are considered:",
+    "options": ["Epic poems", "Novels", "Oral traditions", "Poetic narrations"],
+    "correct": 0,
+    "feedback": "تُصنف الإلياذة والأوديسة كأشعار ملحمية (Epic poems)."
+  },
+  {
+    "q": "The phrase \"the lesser of two evils\" is associated with:",
+    "options": ["Minotaur and Labyrinth", "Trojans and Greeks", "Scylla and Charybdis", "Pegasus and Hermes"],
+    "correct": 2,
+    "feedback": "يرتبط هذا التعبير بأسطورة سيلا وكاريبديس."
+  },
+  {
+    "q": "What caused Achilles to become so upset that he stops fighting?",
+    "options": ["Hector took Helen to Sparta", "Apollo told him to remain angry", "Patroclus dies", "Agamemnon took Briseis"],
+    "correct": 3,
+    "feedback": "توقف أخيل عن القتال بسبب نزاع مع أجاممنون حول استيلاء الأخير على بريسيس."
+  },
+  {
+    "q": "During which year does the Illiad take place?",
+    "options": ["Ninth year B.C.", "Last year of the Trojan War", "Before the beginning of the Trojan War", "None"],
+    "correct": 1,
+    "feedback": "تقع أحداث الإلياذة في السنة الأخيرة من حرب طروادة."
+  },
+  {
+    "q": "How many years did the Trojan War last?",
+    "options": ["10 years", "11 years", "9 years", "8 years"],
+    "correct": 0,
+    "feedback": "استمرت حرب طروادة لمدة 10 سنوات."
+  },
+  {
+    "q": "Which of the following is NOT a creature that Odysseus encounters:",
+    "options": ["Sirens", "Lotus Eaters", "Minotaur", "Cyclopes"],
+    "correct": 2,
+    "feedback": "لم يقابل أوديسيوس المينوتور في رحلته."
+  },
+  {
+    "q": "The origin and meaning of Odysseus name means:",
+    "options": ["Son of pain", "Eternal pain", "Bringer of pain", "All"],
+    "correct": 0,
+    "feedback": "اسم أوديسيوس يعني 'ابن الألم'."
+  },
+  {
+    "q": "Which of the following is characteristic of the \"cyclopes\":",
+    "options": ["Cannibals", "Huge creatures with one eye", "Uncivilized", "All"],
+    "correct": 3,
+    "feedback": "يتميز السايكلوب بأنهم عمالقة بعين واحدة ووحشيون."
+  },
+  {
+    "q": "In the Odyssey, what happens to people who eat the \"lotus\" plant?",
+    "options": ["They turn into zombies", "They suffer schizophrenia", "They become addicted to the plant and forget their home", "They become vegetarians"],
+    "correct": 2,
+    "feedback": "يؤدي أكل نبات اللوتس إلى الإدمان ونسيان الوطن."
+  },
+  {
+    "q": "Which of the following is a three-headed dog?",
+    "options": ["Cerberus", "Centaur", "Minotuar", "Siren"],
+    "correct": 0,
+    "feedback": "سيربيروس هو الكلب ذو الثلاث رؤوس."
+  },
+  {
+    "q": "What does Odysseus do to avoid falling victim to the sirens?",
+    "options": ["Asks his men to tie him to the ship mast", "Hides in the anchor chamber", "Wears a blindfold", "Pricks his thumb using a dagger"],
+    "correct": 0,
+    "feedback": "طلب من رجاله ربطه بصاري السفينة."
+  },
+  {
+    "q": "The Odyssey tells the story of Odysseus' ten-year journey home after the Trojan War",
+    "options": ["True", "False"],
+    "correct": 0,
+    "feedback": "صحيح، الأوديسة تحكي عن رحلة العودة بعد الحرب."
+  },
+  {
+    "q": "The Odyssey features encounters with mythical creatures such as nymphs.",
+    "options": ["True", "False"],
+    "correct": 0,
+    "feedback": "صحيح، هناك العديد من المخلوقات الأسطورية."
+  },
+  {
+    "q": "Odysseus' wife, Penelope, remains faithful to him throughout his long absence",
+    "options": ["True", "False"],
+    "correct": 0,
+    "feedback": "صحيح، ظلت بينيلوبي مخلصة لزوجها."
+  },
+  {
+    "q": "The Odyssey is set primarily in the city of Troy.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "خطأ، أحداث الأوديسة تقع في أماكن متنوعة أثناء رحلة العودة وليس في طروادة."
+  },
+  {
+    "q": "While looking for his father, Telemachus visits Menelaus who has already returned.",
+    "options": ["True", "False"],
+    "correct": 0,
+    "feedback": "صحيح، زار تيليماخوس مينيلاوس الذي كان قد عاد."
+  },
+  {
+    "q": "Which of the following statements is NOT true:",
+    "options": ["Patroclus is Achilles brother", "Agamemnon quarreled with Achilles", "Priam is Achilles enemy", "Thetis is Achilles mother"],
+    "correct": 0,
+    "feedback": "خطأ، باتروكلوس ليس أخ أخيل."
+  },
+  {
+    "q": "The names of the soldiers serving under Achilles are:",
+    "options": ["Achilles Troop", "Achilleans", "Myrmidons", "Agamemnon haters"],
+    "correct": 2,
+    "feedback": "الميرميدون هم الجنود الذين خدموا تحت قيادة أخيل."
+  },
+  {
+    "q": "Which of the following is true about Homeric characters?",
+    "options": ["Characters do not develop significantly", "Characters learn from their mistakes and change", "Characters die prematurely", "All characters die in the end"],
+    "correct": 0,
+    "feedback": "الشخصيات الهوميرية لا تتطور بشكل ملحوظ."
+  },
+  {
+    "q": "As a leader, Agamemnon can be best described as being:",
+    "options": ["Self-serving", "Reckless", "Strong", "All"],
+    "correct": 3,
+    "feedback": "أجاممنون كان يوصف بجميع هذه الصفات كقائد."
+  },
+  {
+    "q": "Which of the following applies to Patroclus around his time of death:",
+    "options": ["He was wearing Achilles' armor", "He kills Hector", "He breaches the Greek camp", "He kills 10 soldiers using arrows"],
+    "correct": 0,
+    "feedback": "كان يرتدي درع أخيل وقت مقتله."
+  }
+
     ]
   }
 ]
