@@ -1,0 +1,848 @@
+[
+  {
+    "subject": " ادب عالمي سنه رابعه ف2 الدكتور مهند",
+    "lang": "en",
+    "questions": [
+      {
+        "q": "Who is the protagonist of The Iliad?",
+        "options": ["Agamemnon", "Hector", "Achilles", "Paris"],
+        "correct": 2,
+        "feedback": "البطل الرئيسي لملحمة الإلياذة هو أخيل، المحارب الإغريقي الأسطوري الأقوى."
+      },
+      {
+        "q": "What was the main conflict between Agamemnon and Achilles?",
+        "options": ["Over a dispute about military strategy", "About the distribution of soldiers", "Due to Agamemnon's demand for Briseis as compensation for Chryseis", "Because Achilles refused to fight"],
+        "correct": 2,
+        "feedback": "نشأ الخلاف المأساوي عندما صادر الملك أجاممنون الجارية 'بريسيس' من أخيل قسراً لتعويض فقدانه لجارته كريسيس."
+      },
+      {
+        "q": "Which god helps Diomedes wound Aphrodite and Ares in Book 5?",
+        "options": ["Poseidon", "Athena", "Apollo", "Zeus"],
+        "correct": 1,
+        "feedback": "الإلهة أثينا هي من منحت البطل ديوميديس الشجاعة والقوة البصرية لرؤية الآلهة وإصابة أفروديت وآرس في المعركة."
+      },
+      {
+        "q": "What is another name for The Iliad?",
+        "options": ["Song of Troy", "Song of Ilium", "Story of Ilium", "All"],
+        "correct": 3,
+        "feedback": "كانت مدينة طروادة تُعرف تاريخياً باسم 'إيليوم'، لذا فإن جميع هذه التسميات تعبر مجازياً أو حرفياً عن ملحمة الإلياذة."
+      },
+      {
+        "q": "Which theme does The Iliad most emphasize?",
+        "options": ["The impermanence of human life", "Military glory over family", "Divine intervention in mortal affairs", "The inevitability of fate"],
+        "correct": 3,
+        "feedback": "تؤكد الملحمة بشكل مطلق على فكرة القدر الحتمي المكتوب الذي لا يملك المحاربون أو حتى الآلهة المفر منه."
+      },
+      {
+        "q": "What is Hector's tragic flaw?",
+        "options": ["Overconfidence in making decisions", "Insufficient concern for his family", "Pride that leads him into dangerous decisions", "Fear of losing face"],
+        "correct": 2,
+        "feedback": "نقيصة هكتور التراجيدية هي كبرياؤه وفخره الذي منعه من الانسحاب داخل أسوار طروادة، مما أدى لمقتله."
+      },
+      {
+        "q": "Which Greek commander is known for being a wise one?",
+        "options": ["Diomedes", "Ajax the Lesser", "Odysseus", "Nestor"],
+        "correct": 3,
+        "feedback": "يمثل الملك العجوز نيستور الرمز التقليدي للحكمة والخبرة الطويلة وسداد الرأي بين قادة الإغريق."
+      },
+      {
+        "q": "What symbolizes hope for the Greeks in The Iliad?",
+        "options": ["The Trojan Horse", "Achilles' armor", "The Achaeans' ships", "Hector's chariot"],
+        "correct": 2,
+        "feedback": "تمثل سفن الآخيين أملهم الوحيد في النجاة والعودة للوطن؛ وحمايتها من الحرق كانت مسألة حياة أو موت."
+      },
+      {
+        "q": "What does Patroclus wear when he returns to battle?",
+        "options": ["Achilles' armor", "His own equipment", "The armor of another warrior", "No armor"],
+        "correct": 0,
+        "feedback": "ارتدى باتروكلوس درع أخيل الشهير لبث الرعب في قلوب الطرواديين وإيهامهم بعودة أخيل للساحة."
+      },
+      {
+        "q": "What is the relationship between Ares and Aphrodite?",
+        "options": ["They are mortal rivals", "They are father and daughter", "They are lovers", "They are sworn enemies"],
+        "correct": 2,
+        "feedback": "تجمع آرس (إله الحرب) وأفروديت (إلهة الحب) علاقة عاطفية وسرية شهيرة في الأساطير اليونانية."
+      },
+      {
+        "q": "Which character exemplifies the idea of individual glory over family?",
+        "options": ["Hector", "Achilles", "Andromache", "Priam"],
+        "correct": 1,
+        "feedback": "أخيل هو النموذج المثالي للبطل الذي اختار بوعي المجد الفردي الخالد (Kleos) على حساب العائلة والحياة الطويلة."
+      },
+      {
+        "q": "Which Greek hero is known for his cunning and strategy rather than brute force?",
+        "options": ["Achilles", "Diomedes", "Odysseus", "Ajax the Greater"],
+        "correct": 2,
+        "feedback": "يشتهر أوديسيوس بكونه بطل الدهاء، والمكر، والحلول الاستراتيجية بدلاً من الاعتماد على القوة البدنية المحضة."
+      },
+      {
+        "q": "What does Achilles do to Hector's body after killing him?",
+        "options": ["Buries it with honor", "Drags it behind his chariot.", "Leaves it unburied as a message", "Feeds it to the dogs"],
+        "correct": 1,
+        "feedback": "قام أخيل بربط جثة هكتور خلف عربته الحربية وسحلها في التراب حول أسوار طروادة مدفوعاً بغضبه الأعمى."
+      },
+      {
+        "q": "What does the imagery on the shield of Achilles symbolize in The Iliad?",
+        "options": ["The contrast between peace and war", "The impermanence of human life", "The value of kleos over family", "The inevitability of death"],
+        "correct": 0,
+        "feedback": "يحتوي درع أخيل على صور لمدينتين؛ إحداهما في سلم والأخرى في حرب، ليعكس التناقض الكامل للحياة البشرية."
+      },
+      {
+        "q": "What enables Odysseus to survive the Sirens' song and Polyphemus, a Cyclops who Imprisons his crew?",
+        "options": ["The goddess Athena's protection", "His physical bravery in direct combat", "His intelligence and deception tactics", "Divine gifts like the Helm of Hesiod"],
+        "correct": 2,
+        "feedback": "الذكاء الحاد وحيل الخداع السريعة (مثل حيلة ربط نفسه بالصاري وتسمية نفسه 'لا أحد') هي سلاح أوديسيوس الأساسي للنجاة."
+      },
+      {
+        "q": "What does Odysseus' Journey through various lands symbolize according to The Odyssey?",
+        "options": ["His search for eternal youth and immortality", "His quest for personal glory and fame", "A test of his identity, family bonds, and resilience against fate", "A journey shaped by divine will"],
+        "correct": 2,
+        "feedback": "تمثل رحلة العودة الطويلة اختباراً وجودياً لهوية أوديسيوس، ومدى تمسكه بعائلته، وقدرته على مجابهة غضب الطبيعة والقدر."
+      },
+      {
+        "q": "Which of the following characters best exemplifies the theme of loyalty in The Odyssey?",
+        "options": ["Telemachus's constant battles with suitors for Penelope's hand.", "Odysseus' decision to stay at Calypso's island rather than return home", "Penelope's refusal to marry any suitor until her husband returns", "The Cyclops Polyphemus, who imprisons and kills Odysseus' crew"],
+        "correct": 2,
+        "feedback": "تجسد بينيلوبي الوفاء الأسمى في الأدب الكلاسيكي برفضها الزواج من الخطاب طوال غياب زوجها لـ 20 عاماً."
+      },
+      {
+        "q": "What is the symbolic significance of the bed built into a tree in The Odyssey?",
+        "options": ["It represents Odysseus and Penelope's marital fidelity", "It symbolizes the fragility of human relationships", "It marks the transition from war to domestic life", "It embodies the eternal nature of love"],
+        "correct": 0,
+        "feedback": "السرير المصنوع من جذع شجرة زيتون متجذرة في الأرض يرمز إلى الثبات المطلق واستحالة زعزعة الإخلاص والوفاء الزوجي بينهما."
+      },
+      {
+        "q": "Which motif in The Odyssey highlights the tension between personal ambition and communal duty?",
+        "options": ["His decision to return home instead of continuing his journey as a wandering hero", "His refusal to kill any suitors, despite their abuse of his household", "The use of deceitful tactics to outwit enemies like. Polyphemus", "Athena's guidance in navigating the underworld"],
+        "correct": 0,
+        "feedback": "اختياره العودة إلى موطنه ليكون ملكاً وأباً ملتزماً، بدلاً من البقاء تائهاً يبحث عن المغامرات الخالدة، يبرز صراع الواجب."
+      },
+      {
+        "q": "What does Odysseus' name reveal about his character?",
+        "options": ["It means \"trouble\" due to his father's legacy of causing strife", "It signifies his role in the Trojan War as a warrior-king", "His cleverness and actions frequently bring suffering, both to others and to himself", "It is derived from a mythical ancestor who was known for great deeds"],
+        "correct": 2,
+        "feedback": "يرتبط اسم أوديسيوس اشتقاقياً بكلمة المعاناة والألم؛ حيث يجلب بذكائه وقراراته الممتلئة بالمخاطر الشقاء لنفسه ولرجاله."
+      },
+      {
+        "q": "What does Odysseus's name translate roughly as?",
+        "options": ["Son of pain", "Father of pain", "Brother of pain", "Master of pain"],
+        "correct": 0,
+        "feedback": "يُترجم اسمه تقليدياً في الدراسات الهوميرية دلالة على المعاناة أو 'ابن الألم' تماشياً مع أوديسة حياته."
+      },
+      {
+        "q": "What role does Athena play in Odysseus's journey?",
+        "options": ["She opposes him every step of the way", "She guides him through challenges, providing divine aid", "Zeus directs his path", "Poseidon controls the seas"],
+        "correct": 1,
+        "feedback": "أثينا هي الإلهة الحامية والمرشدة المستمرة لأوديسيوس، وتتدخل دوماً لصالحه لإنقاذه وتسهيل عودته."
+      },
+      {
+        "q": "What does the opening line \"Rage-Goddess, sing the rage of Peleus' son Achilles\" primarily introduce in The Illad?",
+        "options": ["The historical context of the Trojan War", "The role of the gods in.human affairs", "The divine interventions in the war", "The epic theme or argument"],
+        "correct": 3,
+        "feedback": "يطرح السطر الأول مباشرة الفكرة والموضوع المحوري للملحمة بأكملها، وهو 'غضب أخيل المدمر'."
+      },
+      {
+        "q": "What does Ares' lament \"We everlasting gods... Ah what chilling blows we suffer\" reveal about the relationship between gods and mortals?",
+        "options": ["Gods are indifferent to mortal suffering", "Divine conflicts lead to mortal agony", "Mortals are more powerful than gods", "The gods prioritize material wealth over human life"],
+        "correct": 1,
+        "feedback": "توضح الشكوى كيف أن انحياز الآلهة للبشر وتدخلهم في شؤونهم يجر الصراعات الدامية والآلام للجميع."
+      },
+      {
+        "q": "What does Zeus' statement \"There is nothing alive more agonized than man...\" highlight about the human condition in The Iliad?",
+        "options": ["Mortals are superior to animals in intelligence", "Humans suffer due to their awareness of divine manipulation and fate", "The gods are unjust in their treatment of mortals", "War is the primary source of human pain"],
+        "correct": 1,
+        "feedback": "تسلط العبارة الضوء على مأساوية الوجود البشري، حيث يعاني الإنسان بسبب وعيه بوقوعه تحت رحمة الأقدار وتقلبات الآلهة."
+      },
+      {
+        "q": "What is the purpose of Priam's speech \"Remember your own father... hopes rising, day by day\" in Book 24?",
+        "options": ["To demand Achilles' surrender of Hector's body", "To appeal to Achilles' empathy by invoking his own father", "To justify the fall of Troy to the Achaeans", "To explain the role of fate in the Trojan War"],
+        "correct": 1,
+        "feedback": "يستحضر الملك بريام صورة والد أخيل (بيليوس) لتحريك مشاعر الرحمة والتعاطف الإنساني في قلب أخيل ليعيد جثة هكتور."
+      },
+      {
+        "q": "What does Achilles' quote \"If I hold out here... my glory never dies\" suggest about his understanding of fate?",
+        "options": ["He values material wealth over honor", "He recognizes two fates: a short life with glory or a long, obscure one", "The gods are uninvolved in human choices", "Mortals can alter their destinies through bravery"],
+        "correct": 1,
+        "feedback": "يعلم أخيل أن لديه خيارين ومصيرين محددين مسبقاً: إما الموت شاباً مع المجد الخالد، أو العيش طويلاً منسياً."
+      },
+      {
+        "q": "What does Odysseus express in the quote: \"Nevertheless I long-I pine, all my days to travel home and see the dawn of my return\"?",
+        "options": ["His deep yearning to return home", "His desire to rule new lands", "His regret over leaving Troy", "His fear of the sea"],
+        "correct": 0,
+        "feedback": "تجسد العبارة الحنين الحارق والشوق المستمر الذي يعتلج في صدر أوديسيوس للعودة لبيته وزوجته."
+      },
+      {
+        "q": "What is emphasized in the description of Odysseus weeping \"as a woman weeps... her darling husband\"?",
+        "options": ["His anger towards the gods", "His desire for revenge", "His emotional trauma and loss from war", "His fear of returning home"],
+        "correct": 2,
+        "feedback": "يقارن هذا التشبيه البليغ بكاء أوديسيوس بامرأة تفقد زوجها في الحرب، مبرزاً الآثار النفسية العميقة والصدمات التي خلفتها الحرب في نفسه."
+      },
+      {
+        "q": "In the line \"You must not cling to your boyhood any longer,\" what is Athena urging Telemachus to do?",
+        "options": ["Leave Ithaca", "Grow into a responsible man", "Train for battle", "Ignore his mother's wishes"],
+        "correct": 1,
+        "feedback": "تدفع أثينا تيليماخوس لترك طفولته والنهوض كإنسان ناضج ومسؤول لحماية بيته ومواجهة الخطّاب."
+      },
+      {
+        "q": "What is the significance of Odysseus calling himself \"Nobody\" to the Cyclops?",
+        "options": ["It shows his lack of confidence", "He wants to forget his past", "It's part of his clever escape plan", "It demonstrates his humility"],
+        "correct": 2,
+        "feedback": "كانت تسمية نفسه 'لا أحد' خدعة ذكية للغاية لمنع السايكلوب من الحصول على مساعدة من بقية أقرانه عندما يصرخ قائلاً 'لا أحد يعميني'."
+      },
+      {
+        "q": "What does Alcinous admire in Odysseus's storytelling?",
+        "options": ["Its religious devotion", "Its romanticism", "Its grace and strategic purpose", "Its mythical accuracy"],
+        "correct": 2,
+        "feedback": "امتدح الملك ألكينوس أسلوب أوديسيوس البليغ، معتبراً أنه يسرد الأحداث بجمال فني وذكاء كأنه شاعر ملهم."
+      },
+      {
+        "q": "Why does Odysseus tell Polyphemus to say \"Odysseus, raider of cities\" blinded him?",
+        "options": ["To scare other Cyclopes", "To ensure his deeds are known and his fame preserved", "To praise the gods", "To express remorse"],
+        "correct": 1,
+        "feedback": "كشف أوديسيوس عن هويته الحقيقية بدافع الرغبة في الفخر والمجد الشخصي (Kleos) لكي يُنسب هذا الإنجاز التاريخي إليه."
+      },
+      {
+        "q": "Why does Athena say she cannot oppose Poseidon openly?",
+        "options": ["She is scared of the sea", "He is her uncle and a powerful god", "She supports the Cyclopes", "She blames Odysseus"],
+        "correct": 1,
+        "feedback": "تتجنب أثينا الصدام العلني احتراماً لمكانة بوزيدان في الهرم الأولمبي باعتباره عمها وأحد الآلهة الثلاثة الكبار الحاكمين للكون."
+      },
+      {
+        "q": "What is introduced in the opening line, \"Sing to me of the man, Muse, the man of twists and turns\"?",
+        "options": ["Odysseus's clever, complex character", "Odysseus's physical strength", "The Muse's role in fate", "A literal twisting journey"],
+        "correct": 0,
+        "feedback": "تصف العبارة الافتتاحية طبيعة أوديسيوس المعقدة والمرنة والمليئة بالحيل والمكر (Polytropos)."
+      },
+      {
+        "q": "What is Telemachus expressing when he says, \"No clean death for the likes of them...\"?",
+        "options": ["Lust for blood", "Justification for their retribution against the suitors", "Warning them about the attack", "Fleeing the battle"],
+        "correct": 1,
+        "feedback": "يرى تيليماخوس أن الموت بحد السيف شرف لا يستحقه الخونة والجواري الموالون للخطاب، مبرراً عقابهم بالشنق الشنيع."
+      },
+      {
+        "q": "What do the Sirens promise Odysseus in their song?",
+        "options": ["Wealth and power", "Safety and rest", "Reminiscing about Troy's pain", "Reunion with Penelope"],
+        "correct": 2,
+        "feedback": "تغوي السيرينات أوديسيوس عبر وعده بتقديم المعرفة الشاملة والغناء عن الأمجاد والآلام الشديدة التي حدثت في طروادة."
+      },
+      {
+        "q": "A three headed dog that usually accompanies Hades. Which mythical creature is this?",
+        "options": ["Cerberus", "Manticore", "Minotaur", "Sophomore"],
+        "correct": 0,
+        "feedback": "سيربيروس هو الوحش الكلاسيكي الشهير ذو الرؤوس الثلاثة الذي يحرس بوابات العالم السفلي برفقة هاديس."
+      },
+      {
+        "q": "A woman with snakes for hair that petrifies onlookers. Which mythical creature is this?",
+        "options": ["Fairy", "Siren", "Centaur", "Medusa"],
+        "correct": 3,
+        "feedback": "ميدوسا هي أشهر الغورغونات التي تحول كل من ينظر مباشرة إلى وجهها المليء بالأفاعي إلى تمثال من حجر."
+      },
+      {
+        "q": "What is the name of the woman who supposedly opened a forbidden box and unleashed horrors on the world?",
+        "options": ["Circe", "Pandora", "Calypso", "Penelope"],
+        "correct": 1,
+        "feedback": "باندورا هي أول امرأة بشرية في الأساطير الإغريقية، والتي فتحت الصندوق الشهير بدافع الفضول فأطلقت الشرور والأمراض في الأرض."
+      },
+      {
+        "q": "How many years does Odysseus spend on the way back?",
+        "options": ["2 years", "1 month", "10 years", "2 days"],
+        "correct": 2,
+        "feedback": "يستغرق أوديسيوس 10 سنوات في طريق عودته إلى وطنه إيثاكا بعد انتهاء حرب طروادة."
+      },
+      {
+        "q": "The circumstances of how the Illiad and the Odyssey were written are:",
+        "options": ["Clearly documented", "Scientifically proven", "Vague and debated", "Insignificant"],
+        "correct": 2,
+        "feedback": "ظروف كتابة الملحمتين وهوية هوميروس الحقيقية لا تزال غامضة ومحل نقاش بين المؤرخين."
+      },
+      {
+        "q": "What prompts Achilles to go back to fighting:",
+        "options": ["Priam takes his wife hostage", "Patroclus is killed", "Nestor orders him", "Hector dies"],
+        "correct": 1,
+        "feedback": "يعود أخيل إلى ساحة القتال دافعه الانتقام لمقتل صديقه المقرب باتروكلوس على يد هكتور."
+      },
+      {
+        "q": "In the Illiad and the Odyssey, foreshadowing goes hand-in-hand with which of the following beliefs held by the Greeks of the time:",
+        "options": ["Everyone is doomed to die", "One can change his or her destiny", "You decide how you live", "All people have fates assigned that they cannot escape"],
+        "correct": 3,
+        "feedback": "كان اليونانيون القدماء يؤمنون إيماناً مطلقاً بالقدر الحتمي المكتوب الذي لا مفر منه."
+      },
+      {
+        "q": "How is the phrase \"Achilles heel\" used nowadays?",
+        "options": ["It refers to a weak spot in Achilles' armor", "It symbolizes Achilles' vulnerability due to an injury sustained in battle.", "It represents a metaphorical weakness or vulnerability based on the myth of Achilles.", "It signifies the importance of Achilles as a legendary hero in Greek mythology."],
+        "correct": 2,
+        "feedback": "تُستخدم هذه العبارة في العصر الحالي مجازياً للتعبير عن نقطة الضعف القاتلة لدى شخص أو نظام."
+      },
+      {
+        "q": "Nestor is a symbol of:",
+        "options": ["Futile planning", "Strength of youth", "Old age and senility", "Wisdom"],
+        "correct": 3,
+        "feedback": "يمثل القائد العجوز نيستور رمزاً للحكمة، والخبرة، ورجاحة العقل."
+      },
+      {
+        "q": "Menelaus is:",
+        "options": ["Agamemnon's brother", "A Greek commander", "Helen's husband", "All"],
+        "correct": 3,
+        "feedback": "مينيلاوس يجمع كل هذه الصفات؛ فهو شقيق أجاممنون، وقائد يوناني، وزوج هيلين المخطوفة."
+      },
+      {
+        "q": "The priest Chryses was devoted to which of the following gods:",
+        "options": ["Athena", "Zeus", "Apollo", "Artemis"],
+        "correct": 2,
+        "feedback": "كريسيس كان كاهناً مخلصاً للإله أبوللو، وهو الذي استجاب لصلاته ونشر الطاعون في معسكر اليونانيين."
+      },
+      {
+        "q": "Which of the following gods is often depicted with a Cerberus:",
+        "options": ["Zeus", "Poseidon", "Hades", "Hera"],
+        "correct": 2,
+        "feedback": "يُصوَّر هاديس، إله العالم السفلي، برفقة الكلب ذي الرؤوس الثلاثة 'سيربيروس' الذي يحرس بوابات عالمه."
+      },
+      {
+        "q": "Who made Achilles' armor:",
+        "options": ["Ares", "Hephaestus", "Iris", "Hermes"],
+        "correct": 1,
+        "feedback": "هيفايستوس، إله النار والحدادة الأسطوري، هو من صنع درع أخيل الجديد بطلب من والدته ثيتيس."
+      },
+      {
+        "q": "What does the Achaean ships symbolize:",
+        "options": ["Favorable winds", "Achaean pride", "An impenetrable fortress", "The way back home"],
+        "correct": 1,
+        "feedback": "تمثل سفن الآخيين (اليونانيين) رمزاً لكبريائهم، وقوتهم العسكرية، وهيبتهم."
+      },
+      {
+        "q": "Who is the antagonist in the Illiad?",
+        "options": ["Priam", "Paris", "Nestor", "None"],
+        "correct": 3,
+        "feedback": "لا توجد شخصية شريرة مطلقة في الملحمة؛ حيث يعرض هوميروس دوافع وإنسانية الطرفين بشكل متوازن."
+      },
+      {
+        "q": "In the following quotation \"Rage-Goddess, sing the rage of Peleus' son\" the speaker is _____, and is referring to _____",
+        "options": ["Homer/Achilles", "Homer/Odysseus", "Zeus/Paris", "None"],
+        "correct": 0,
+        "feedback": "هوميروس هو المتحدث في مطلع الملحمة، طالباً من إلهة الشعر إلهام غناء غضب أخيل (ابن بيليوس)."
+      },
+      {
+        "q": "In the following \"Remember your own father, great godlike Achilles-as old as I am, past the threshold of deadly old age!\" the speaker is _____ and the occasion is _____",
+        "options": ["Nestor / convincing Achilles to fight again", "Priam / Asking for Hector's body", "Menelaus / asking Achilles to go fight in the war", "Diomedes / telling Achilles about the death of Patroclus"],
+        "correct": 1,
+        "feedback": "المتحدث هو الملك الطروادي بريام عندما ذهب متوسلاً لأخيل ليعيد له جثة ابنه هكتور."
+      },
+      {
+        "q": "The story of the Illiad is the story of:",
+        "options": ["Wrath of Achilles", "Death of Patroclus", "Anger of the Olmypians", "Agamemnon's selfishness"],
+        "correct": 0,
+        "feedback": "الموضوع الأساسي والعمود الفقري لأحداث ملحمة الإلياذة هو غضب أخيل وما نتج عنه."
+      },
+      {
+        "q": "What is the cause of the Trojan War?",
+        "options": ["The kidnapping of Helen of Troy", "The death of Iphigenia", "The sinking of the Greek Armada", "The orders of Zeus"],
+        "correct": 0,
+        "feedback": "السبب المباشر للحرب هو قيام الأمير الطروادي باريس باختطاف هيلين زوجة الملك مينيلاوس."
+      },
+      {
+        "q": "Who is the King of Troy?",
+        "options": ["Priam", "Paris", "Hector", "Briseis"],
+        "correct": 0,
+        "feedback": "الملك بريام هو حاكم مدينة طروادة العجوز ووالد هكتور وباريس."
+      },
+      {
+        "q": "Which Greek goddess supports the Trojans in the Iliad?",
+        "options": ["Aphrodite", "Hera", "Athena", "Both A and B"],
+        "correct": 0,
+        "feedback": "أفروديت هي الداعم الأساسي لطروادة لأن باريس فضّلها كأجمل إلهة، بينما هيرا وأثينا تدعمان الإغريق."
+      },
+      {
+        "q": "What is Achilles' fatal flaw?",
+        "options": ["Pride", "Fear", "Selfishness", "Madness"],
+        "correct": 0,
+        "feedback": "الكبرياء المفرط والغرور (Hubris) يمثل النقيصة المأساوية التي قادت أخيل إلى الخسارة والندم."
+      },
+      {
+        "q": "Who is the Trojan prince who kidnaps Helen leading to the Trojan War?",
+        "options": ["Hector", "Paris", "Aeneas", "Priam"],
+        "correct": 1,
+        "feedback": "الأمير باريس هو من أغوى هيلين واختطفها، مسبباً إشعال فتيل الحرب."
+      },
+      {
+        "q": "Who is the Greek king who leads the Attack against Troy in the Iliad?",
+        "options": ["Diomedes", "Menelaus", "Ajax", "Agamemnon"],
+        "correct": 3,
+        "feedback": "الملك أجاممنون، حاكم ميكنا، هو القائد العام المعين للجيوش اليونانية المتحدة."
+      },
+      {
+        "q": "Which Trojan prince is known for his bravery and fighting skills in the Iliad?",
+        "options": ["Hector", "Paris", "Priam", "Aeneas"],
+        "correct": 0,
+        "feedback": "هكتور هو بطل طروادة الأول والأشجع والمدافع الرئيسي عن أسوار المدينة."
+      },
+      {
+        "q": "If Achilles is a hero representing \"power\", Odyesseus is a hero representing:",
+        "options": ["Cunning", "Love", "Madness", "Piety"],
+        "correct": 0,
+        "feedback": "بينما يمثل أخيل القوة البدنية المحضة، يشتهر أوديسيوس بالمكر، والذكاء، والدهاء الاستراتيجي."
+      },
+      {
+        "q": "Who pleads with Achilles for the return of Hector's body?",
+        "options": ["Priam", "Paris", "Andromache", "Aeneas"],
+        "correct": 0,
+        "feedback": "الملك بريام هو من ذهب سراً لمعسكر الإغريق ليتوسل لأخيل لاستعادة جثة ابنه القتيل."
+      },
+      {
+        "q": "Who is the Greek warrior known for his bravery and loyalty to Achilles in the Iliad?",
+        "options": ["Nestor", "Ajax", "Patroclus", "Diomedes"],
+        "correct": 2,
+        "feedback": "باتروكلوس هو الصديق الوفي ورفيق السلاح المخلص جداً لأخيل."
+      },
+      {
+        "q": "By the end of the Illiad, which of the following happens?",
+        "options": ["The Trojan war ends", "Hector is killed and his body is desecrated", "The Trojan horse is built", "The Greeks return home"],
+        "correct": 1,
+        "feedback": "تختتم الإلياذة بمقتل هكتور وتدنيس جثته ثم جنازته، قبل سقوط طروادة وقبل بناء الحصان."
+      },
+      {
+        "q": "The many Gods and goddesses made up by the Greeks are:",
+        "options": ["To find a pastime", "To confuse future generations", "To serve as fictional characters in stories", "An attempt at explaining natural phenomena"],
+        "correct": 3,
+        "feedback": "ابتكر الإغريق الآلهة المتعددة كوسيلة بدائية لتفسير وفهم الظواهر الطبيعية والكونية من حولهم."
+      },
+      {
+        "q": "In terms of religion, the Greeks can be best described as being:",
+        "options": ["Monotheistic", "Polytheistic", "Monogamous", "Polygamous"],
+        "correct": 1,
+        "feedback": "اتسمت الديانة اليونانية الكلاسيكية القديمة بتعدد الآلهة والاعتقاد بمجمع آلهة جبل أوليمبوس."
+      },
+      {
+        "q": "According to the Greeks, a coin was placed in the mouth or eyes of the dead as:",
+        "options": ["Payment for the wagon", "Compensation for the grim reaper", "A payment for Charon", "Cremation fees"],
+        "correct": 2,
+        "feedback": "كانت توضع قطعة نقدية مع المتوفى كأجر للمقايضة مع كارون، ملاح الأرواح في العالم السفلي."
+      },
+      {
+        "q": "The Illiad and the Odyssey are considered:",
+        "options": ["Epic poems", "Novels", "Oral traditions", "Poetic narrations"],
+        "correct": 0,
+        "feedback": "تُصنف هاتان التحفتان الأدبيتان كأشعار ملحمية مطولة تروي بطولات تاريخية وأسطورية."
+      },
+      {
+        "q": "The phrase \"the lesser of two evils\" is associated with:",
+        "options": ["Minotaur and Labyrinth", "Trojans and Greeks", "Scylla and Charybdis", "Pegasus and Hermes"],
+        "correct": 2,
+        "feedback": "يرتبط التعبير بمواجهة أوديسيوس للوحشين سيلا وكاريبديس حيث اضطر لاختيار الطريق الأقل ضرراً وخسارة."
+      },
+      {
+        "q": "What caused Achilles to become so upset that he stops fighting?",
+        "options": ["Hector took Helen to Sparta", "Apollo told him to remain angry", "Patroclus dies", "Agamemnon took Briseis"],
+        "correct": 3,
+        "feedback": "اعتزل أخيل القتال غضباً لأن القائد أجاممنون صادر منه جاريته 'بريسيس' قسراً لإذلاله."
+      },
+      {
+        "q": "During which year does the Illiad take place?",
+        "options": ["Ninth year B.C.", "Last year of the Trojan War", "Before the beginning of the Trojan War", "None"],
+        "correct": 1,
+        "feedback": "تغطي أحداث الإلياذة فترة بضعة أسابيع خلال السنة العاشرة والأخيرة من حرب طروادة."
+      },
+      {
+        "q": "How many years did the Trojan War last?",
+        "options": ["10 years", "11 years", "9 years", "8 years"],
+        "correct": 0,
+        "feedback": "حسب الرواية الميثولوجية، استمر حصار مدينة طروادة لمدة عشر سنوات كاملة."
+      },
+      {
+        "q": "Which of the following is NOT a creature that Odysseus encounters:",
+        "options": ["Sirens", "Lotus Eaters", "Minotaur", "Cyclopes"],
+        "correct": 2,
+        "feedback": "المينوتور وحش ينتمي لقصة ثيسيوس في جزيرة كريت، ولم يقابله أوديسيوس في رحلته بالأوديسة."
+      },
+      {
+        "q": "The origin and meaning of Odysseus name means:",
+        "options": ["Son of pain", "Eternal pain", "Bringer of pain", "All"],
+        "correct": 3,
+        "feedback": "يحمل اسم أوديسيوس دلالات اشتقاقية ترتبط بالألم، سواء كمعانٍ للألم أو مسبب له للآخرين."
+      },
+      {
+        "q": "Which of the following is characteristic of the \"cyclopes\":",
+        "options": ["Cannibals", "Huge creatures with one eye", "Uncivilized", "All"],
+        "correct": 3,
+        "feedback": "السايكلوب هي مخلوقات عملاقة بعين واحدة، آكلة للحوم البشر، وتعيش حياة همجية بلا قوانين."
+      },
+      {
+        "q": "In the Odyssey, what happens to people who eat the \"lotus\" plant?",
+        "options": ["They turn into zombies", "They suffer schizophrenia", "They become addicted to the plant and forget their home", "They become vegetarians"],
+        "correct": 2,
+        "feedback": "نبات اللوتس السحري يسبب حالة من الخدر الفكري تجعل البحارة ينسون موطنهم ويفقدون الرغبة في العودة."
+      },
+      {
+        "q": "Which of the following is a three-headed dog?",
+        "options": ["Cerberus", "Centaur", "Minotuar", "Siren"],
+        "correct": 0,
+        "feedback": "سيربيروس هو الكلب الأسطوري ذو الرؤوس الثلاثة المكلف بحراسة العالم السفلي."
+      },
+      {
+        "q": "What does Odysseus do to avoid falling victim to the sirens?",
+        "options": ["Asks his men to tie him to the ship mast", "Hides in the anchor chamber", "Wears a blindfold", "Pricks his thumb using a dagger"],
+        "correct": 0,
+        "feedback": "أمر أوديسيوس رجاله بسد آذانهم بالشمع وربطه بإحكام إلى صاري السفينة ليستمع للغناء دون خطر."
+      },
+      {
+        "q": "The Odyssey tells the story of Odysseus' ten-year journey home after the Trojan War",
+        "options": ["True", "False"],
+        "correct": 0,
+        "feedback": "العبارة صحيحة تماماً؛ فالأوديسة تركز بالكامل على رحلة العودة الطويلة الشاقة."
+      },
+      {
+        "q": "The Odyssey features encounters with mythical creatures such as nymphs.",
+        "options": ["True", "False"],
+        "correct": 0,
+        "feedback": "عبارة صحيحة؛ يقابل أوديسيوس العديد من الحوريات مثل كاليبسو وسيرسي."
+      },
+      {
+        "q": "Odysseus' wife, Penelope, remains faithful to him throughout his long absence",
+        "options": ["True", "False"],
+        "correct": 0,
+        "feedback": "عبارة صحيحة؛ حافظت بينيلوبي على عهدها لأوديسيوس ورفضت الزواج من الخطاب طوال 20 عاماً."
+      },
+      {
+        "q": "The Odyssey is set primarily in the city of Troy.",
+        "options": ["True", "False"],
+        "correct": 1,
+        "feedback": "عبارة خاطئة؛ الإلياذة هي التي تقع في طروادة، بينما الأوديسة تقع أحداثها في البحر، الجزر، وإيثاكا."
+      },
+      {
+        "q": "While looking for his father, Telemachus visits Menelaus who has already returned.",
+        "options": ["True", "False"],
+        "correct": 0,
+        "feedback": "عبارة صحيحة؛ زار تيليماخوس الملك مينيلاوس في سبارتا بحثاً عن أخبار تخص والده أوديسيوس."
+      },
+      {
+        "q": "Which of the following statements is NOT true:",
+        "options": ["Patroclus is Achilles brother", "Agamemnon quarreled with Achilles", "Priam is Achilles enemy", "Thetis is Achilles mother"],
+        "correct": 0,
+        "feedback": "باتروكلوس ليس شقيق أخيل، بل هو رفيقه الحميم وصديقه الأكثر قرباً."
+      },
+      {
+        "q": "The names of the soldiers serving under Achilles are:",
+        "options": ["Achilles Troop", "Achilleans", "Myrmidons", "Agamemnon haters"],
+        "correct": 2,
+        "feedback": "الميرميدون (Myrmidons) هو الاسم التاريخي لجنود النخبة الأشداء الذين يقودهم أخيل."
+      },
+      {
+        "q": "Which of the following is true about Homeric characters?",
+        "options": ["Characters do not develop significantly", "Characters learn from their mistakes and change", "Characters die prematurely", "All characters die in the end"],
+        "correct": 0,
+        "feedback": "تتصف الشخصيات الهوميرية الكلاسيكية بالثبات النسبي ولا تظهر تطوراً نفسياً معقداً أو تغييراً جذرياً."
+      },
+      {
+        "q": "As a leader, Agamemnon can be best described as being:",
+        "options": ["Self-serving", "Reckless", "Strong", "All"],
+        "correct": 3,
+        "feedback": "يتسم أجاممنون بالأنانية المفرطة والتهور، لكنه يظل في نفس الوقت ملكاً ذا نفوذ وقوة عسكرية واسعة."
+      },
+      {
+        "q": "Which of the following applies to Patroclus around his time of death:",
+        "options": ["He was wearing Achilles' armor", "He kills Hector", "He breaches the Greek camp", "He kills 10 soldiers using arrows"],
+        "correct": 0,
+        "feedback": "دخل باتروكلوس المعركة مرتدياً درع أخيل لبث الرعب في قلوب الأعداء، وقُتل وهو يرتديه."
+      },
+      {
+        "q": "The story of the Illiad is the story of:",
+        "options": ["Wrath of Achilles", "Death of Patroclus", "Anger of the Olmypians", "Agamemnon's selfishness"],
+        "correct": 0,
+        "feedback": "هذا السؤال من النموذج (A) يطابق جوهر الملحمة الذي يتمحور حول غضب البطل أخيل."
+      },
+      {
+        "q": "What is the cause of the Trojan War?",
+        "options": ["The kidnapping of Menelaus's wife", "The death of Iphigenia", "The sinking of the Greek Armada", "None"],
+        "correct": 0,
+        "feedback": "السبب هو اختطاف هيلين زوجة الملك مينيلاوس، ملك سبارتا."
+      },
+      {
+        "q": "Who was Agamemnon?",
+        "options": ["King of one of the largest armies in ancient Greece.", "A brave leader who fought in all wars", "A ferocious fighter", "Briseis's husband"],
+        "correct": 0,
+        "feedback": "كان أجاممنون ملكاً لمدينة ميكنا وقائداً لأضخم وأعظم الجيوش اليونانية المتجهة لطروادة."
+      },
+      {
+        "q": "Who was the king of Sparta?",
+        "options": ["Agamemnon", "Paris", "Priam", "Menelaus"],
+        "correct": 3,
+        "feedback": "مينيلاوس هو حاكم سبارتا، وشقيق أجاممنون، والزوج الأصلي لهيلين."
+      },
+      {
+        "q": "Achilles' pride is his",
+        "options": ["Fatal flaw", "Weakness", "Strength", "Raison d'etre"],
+        "correct": 0,
+        "feedback": "الكبرياء (Hubris) يمثل النقيصة المأساوية والخطأ القاتل الذي تسبب في فاجعته."
+      },
+      {
+        "q": "Who is the Trojan prince who kidnaps Helen, leading to the Trojan War?",
+        "options": ["Hector", "Paris", "Aeneas", "Priam"],
+        "correct": 1,
+        "feedback": "الأمير باريس هو من ارتكب حماقة اختطاف هيلين وأخذها إلى موطنه طروادة."
+      },
+      {
+        "q": "Who is the Greek king who leads the Attack against Troy in the Iliad?",
+        "options": ["Diomedes", "Menelaus", "Ajax", "Agamemnon"],
+        "correct": 3,
+        "feedback": "أجاممنون هو الملك الأعلى والقائد العام لجميع ملوك وجيوش الإغريق في الحصار."
+      },
+      {
+        "q": "Which Greek warrior is known for his bravery and fighting skills in the Iliad?",
+        "options": ["Hector", "Paris", "Priam", "Achilles"],
+        "correct": 3,
+        "feedback": "أخيل هو المحارب الإغريقي المطلق والأقوى الذي لا يُقهر في القتال المباشر."
+      },
+      {
+        "q": "Odyesseus is a hero know for his:",
+        "options": ["Madness", "Wit", "Fatherly love", "Rebelliousness"],
+        "correct": 1,
+        "feedback": "البطل أوديسيوس يشتهر في الملاحم برجاحة العقل، والذكاء الحاد، وسرعة البديهة."
+      },
+      {
+        "q": "Who pleads with Achilles for the return of Hector's body?",
+        "options": ["Priam", "Paris", "Andromache", "Aeneas"],
+        "correct": 0,
+        "feedback": "الملك بريام يكسر كبرياءه ويترجى أخيل باكياً ليعيد جثمان ابنه هكتور لإقامة مراسم الدفن."
+      },
+      {
+        "q": "Who is the Greek warrior known for his bravery and loyalty to Achilles in the Iliad?",
+        "options": ["Nestor", "Ajax", "Patroclus", "Diomedes"],
+        "correct": 2,
+        "feedback": "باتروكلوس يمثل أسمى معاني التفاني والولاء الأخوي المطلق لصديقه أخيل."
+      },
+      {
+        "q": "By the end of the Illiad, which of the following happens?",
+        "options": ["The Trojan war ends", "The Greeks return home", "The Trojan horse is built", "None"],
+        "correct": 3,
+        "feedback": "تنتهي الإلياذة بجنازة هكتور، ولا تذكر نهاية الحرب أو بناء الحصان؛ لذا الإجابة الصحيحة 'لا شيء'."
+      },
+      {
+        "q": "Which word describes the religion of the ancient Greeks?",
+        "options": ["Polytheism", "Monotheism", "Monogamy", "Polygamous"],
+        "correct": 0,
+        "feedback": "الديانة الإغريقية مبنية بالكامل على الوثنية وتعدد الآلهة والشرك (Polytheism)."
+      },
+      {
+        "q": "How many Olympian Greek Gods and Goddesses are there:",
+        "options": ["3", "12", "24", "Over 100"],
+        "correct": 1,
+        "feedback": "يعتقد الإغريق بوجود 12 إلهاً رئيسياً يحكمون الكون من فوق قمة جبل أوليمبوس."
+      },
+      {
+        "q": "According to Greek culture, who was Charon?",
+        "options": ["The ferryman who sailed with the dead", "The son of Zeus", "The Grim Reaper", "The Incarnation of death"],
+        "correct": 0,
+        "feedback": "كارون هو المراكبي الأسطوري المكلف بنقل أرواح الموتى عبر الأنهار إلى العالم السفلي."
+      },
+      {
+        "q": "The Illiad and the Odyssey are considered:",
+        "options": ["Epic poems", "Novels", "Oral traditions", "Poetic narrations"],
+        "correct": 0,
+        "feedback": "تُصنف هذه الأعمال الأدبية كعيون وعلامات الشعر الملحمي (Epic Poems) في التاريخ."
+      },
+      {
+        "q": "While travelling, which was the lesser of the two evils for Odysseus?",
+        "options": ["Scylla", "Charybdis", "Sailing back home", "None"],
+        "correct": 0,
+        "feedback": "اختار أوديسيوس مواجهة الوحش سيلا (التضحية بـ 6 رجال) كخيار أفضل من مواجهة كاريبديس التي تدمر السفينة بأكملها."
+      },
+      {
+        "q": "What caused Achilles to become so angry that he returns to the fight?",
+        "options": ["Hector took Helen to Sparta", "Apollo told him to remain angry", "Patroclus dies", "Agamemnon took Briseis"],
+        "correct": 2,
+        "feedback": "تحول مسار غضب أخيل من أجاممنون إلى الطرواديين فور تلقيه خبر مقتل صديقه باتروكلوس."
+      },
+      {
+        "q": "During which year does the Illiad take place?",
+        "options": ["Ninth year B.C.", "First year of the Trojan War", "Before the beginning of the Trojan War", "None"],
+        "correct": 3,
+        "feedback": "تقع الأحداث في العام العاشر للحرب، وبما أن هذا الخيار غير موجود، فالإجابة هي 'لا شيء'."
+      },
+      {
+        "q": "How many years did the Trojan War last?",
+        "options": ["8 years", "11 years", "9 years", "10 years"],
+        "correct": 3,
+        "feedback": "استمر الصراع الدامي وحصار أسوار طروادة لمدة 10 سنوات كاملة."
+      },
+      {
+        "q": "How many years does Odysseus spend in total away from home?",
+        "options": ["10 years", "1 month", "20 years", "2 days"],
+        "correct": 2,
+        "feedback": "قضى 10 سنوات في الحرب، و10 سنوات تائه في البحر، ليكون المجموع 20 عاماً بعيداً عن موطنه."
+      },
+      {
+        "q": "The circumstances of how the Illiad and the Odyssey were written are:",
+        "options": ["Clearly documented", "Scientifically proven", "Uncertain", "Certain"],
+        "correct": 2,
+        "feedback": "تاريخ وطريقة تدوين هذه الملاحم يكتنفه الغموض وعدم اليقين (Uncertain)."
+      },
+      {
+        "q": "What prompts Achilles to go back to fighting:",
+        "options": ["Priam takes his wife hostage", "Patroclus is killed", "Nestor orders him", "Hector dies"],
+        "correct": 1,
+        "feedback": "تكرار للسؤال لتأكيد أن مقتل باتروكلوس هو المحرك الأساسي لنهاية إضراب أخيل."
+      },
+      {
+        "q": "In the Illiad and the Odyssey, foreshadowing goes hand-in-hand with which of the following beliefs held by the Greeks of the time:",
+        "options": ["Everyone is doomed to die", "One can change his or her destiny", "You decide how you live", "All people have fates assigned that they cannot escape"],
+        "correct": 3,
+        "feedback": "فكرة القدر المحتوم ترافق دائماً أسلوب التنبؤ بالأحداث (Foreshadowing) في الملاحم."
+      },
+      {
+        "q": "How is the phrase \"Achilles heel\" used nowadays?",
+        "options": ["It refers to a weak spot in Achilles' armor", "It symbolizes Achilles' vulnerability due to an injury sustained in battle.", "It represents a metaphorical weakness or vulnerability based on the myth of Achilles.", "It signifies the importance of Achilles as a legendary hero in Greek mythology."],
+        "correct": 2,
+        "feedback": "الاستخدام الحالي للعبارة يعبر دائماً عن نقطة ضعف جوهرية ومجازية."
+      },
+      {
+        "q": "Which of the following statements is NOT true:",
+        "options": ["Patroclus was very dear to Achilles", "Agamemnon loved Achilles", "Priam is Achilles enemy", "Thetis is Achilles mother"],
+        "correct": 1,
+        "feedback": "العبارة غير الصحيحة هي أن أجاممنون كان يحب أخيل؛ فالواقع يؤكد وجود خلاف وعداء شديد بينهما."
+      },
+      {
+        "q": "Myrmidons refers to:",
+        "options": ["Achilles' troops", "Achilleans", "Greek armies", "None"],
+        "correct": 0,
+        "feedback": "الميرميدونز هم شعب ومحاربو أخيل الأشداء الذين يتبعونه ويأتمرون بأمره مباشرة."
+      },
+      {
+        "q": "Which of the following is true about Homeric characters?",
+        "options": ["They are morally ambiguous", "Characters learn from their mistakes and change", "They develop a lot and quickly", "All characters die in the end"],
+        "correct": 0,
+        "feedback": "تتصف الشخصيات الهوميرية بأنها رمادية أخلاقياً (Morally ambiguous)، فالبطل يجمع بين النبل والقسوة الشديدة."
+      },
+      {
+        "q": "As a leader, Agamemnon can be best described as being:",
+        "options": ["Self-serving", "Reckless", "Strong", "All"],
+        "correct": 3,
+        "feedback": "يحمل أجاممنون توليفة من الصفات القيادية القوية والصفات الشخصية السلبية كالأنانية والتهور."
+      },
+      {
+        "q": "Which of the following applies to Patroclus around his time of death:",
+        "options": ["He was wearing Achilles' armor", "He kills Hector", "He breaches the Greek camp", "He kills 10 soldiers using arrows"],
+        "correct": 0,
+        "feedback": "قُتل باتروكلوس أثناء تنكره وارتدائه لدرع أخيل الشهير لإنقاذ الموقف."
+      },
+      {
+        "q": "Nestor is:",
+        "options": ["Wise Greek commander", "Patroclus's father", "Agamemnon's friend", "A travelling merchant"],
+        "correct": 0,
+        "feedback": "نيستور هو الحكيم والمستشار الأكبر سناً بين قادة الإغريق."
+      },
+      {
+        "q": "Menelaus is:",
+        "options": ["The cunning warrior who built the Trojan Horse.", "The hero who embarks on a journey to find the Golden Fleece.", "The Trojan prince who falls in love with Helen.", "The Spartan king and husband of Helen."],
+        "correct": 3,
+        "feedback": "مينيلاوس هو ملك إسبرطة والزوج الشرعي لهيلين التي أشعل اختطافها الصراع."
+      },
+      {
+        "q": "The priest Chryses was devoted to which of the following gods:",
+        "options": ["Athena", "Zeus", "Apollo", "Artemis"],
+        "correct": 2,
+        "feedback": "Chryses هو كاهن أبولو، الإله الذي أطلق سهام الطاعون لمعاقبة الإغريق بناء على تضرعه."
+      },
+      {
+        "q": "Which of the following gods is often depicted with a lightning bolt:",
+        "options": ["Zeus", "Poseidon", "Hades", "Hera"],
+        "correct": 0,
+        "feedback": "الصاعقة هي السلاح والرمز التقليدي الشهير لكبير الآلهة الإغريقية 'زيوس'."
+      },
+      {
+        "q": "Who made Achilles' armor:",
+        "options": ["Ares", "Hephaestus", "Iris", "Hermes"],
+        "correct": 1,
+        "feedback": "هيفايستوس، إله الحدادة والنار، هو الصانع لدرع أخيل المعجز."
+      },
+      {
+        "q": "What does the Achaean ships symbolize:",
+        "options": ["Favorable winds", "Achaean pride", "An impenetrable fortress", "The way back home"],
+        "correct": 1,
+        "feedback": "تعتبر سفن الآخيين رمزاً لقوتهم وعزتهم وكبريائهم القومي في المعركة."
+      },
+      {
+        "q": "Who is the antagonist in the Illiad?",
+        "options": ["Priam", "Paris", "Nestor", "None"],
+        "correct": 3,
+        "feedback": "تكرار لتوضيح خلو الملحمة من شخصية شريرة تقليدية؛ فالكل لديه مبرراته الإنسانية."
+      },
+      {
+        "q": "In the following quotation \"Rage-Goddess, sing the rage of Peleus' son\" the speaker is _____, and is referring to _____",
+        "options": ["Homer/Achilles", "Homer/Odysseus", "Zeus/Paris", "None"],
+        "correct": 0,
+        "feedback": "السطر الافتتاحي الأشهر للإلياذة بصوت هوميروس متحدثاً عن غضب أخيل."
+      },
+      {
+        "q": "In the following \"Remember your own father, great godlike Achilles- as old as I am, past the threshold of deadly old age!\" the speaker is _____ and the occasion is _____",
+        "options": ["Nestor / convincing Achilles to fight again", "Priam / Asking for Hector's body", "Menelaus / asking Achilles to go fight in the war", "Diomedes / telling Achilles about the death of Patroclus"],
+        "correct": 1,
+        "feedback": "مناشدة الملك بريام الإنسانية لأخيل ليرأف بحاله ويعيد له جثة هكتور."
+      },
+      {
+        "q": "Which of the following is a creature that Odysseus encounters:",
+        "options": ["Titan", "Hydra", "Minotaur", "None"],
+        "correct": 3,
+        "feedback": "الخيارات المتاحة (تايتان، هيدرا، مينوتور) لا تنتمي للوحوش التي واجهها أوديسيوس خلال رحلته في الأوديسة."
+      },
+      {
+        "q": "The origin and meaning of Odysseus name is:",
+        "options": ["Son of pain", "Eternal pain", "Bringer of pain", "All"],
+        "correct": 3,
+        "feedback": "اسم أوديسيوس يحمل دلالات شاملة ترتبط بالمعاناة وتلقي وتسبب الألم."
+      },
+      {
+        "q": "Which of the following is characteristic of the \"cyclopes\":",
+        "options": ["Clever people", "Oneeyed -creatures", "Weak", "All"],
+        "correct": 1,
+        "feedback": "السمة التشريحية الأساسية لعمالقة السايكلوب هي امتلاكهم لعين واحدة دائرية في جبهتهم."
+      },
+      {
+        "q": "In the Odyssey, what happens to people who eat the \"lotus\" plant?",
+        "options": ["They turn into zombies", "They suffer schizophrenia", "They become addicted to the plant and forget their home", "They become vegetarians"],
+        "correct": 2,
+        "feedback": "أكل ثمار اللوتس يصيب متناولها بالنسيان التام وفقدان الرغبة في العودة للوطن."
+      },
+      {
+        "q": "Which of the following is a three-headed dog?",
+        "options": ["Cerberus", "Centaur", "Minotuar", "Siren"],
+        "correct": 0,
+        "feedback": "سيربيروس هو الكلب ذو الرؤوس الثلاثة الشهير في الميثولوجيا كحارس لعالم الموتى."
+      },
+      {
+        "q": "What does Odysseus do to avoid falling victim to the sirens?",
+        "options": ["Asks his men to tie him to the ship mast", "Hides in the anchor chamber", "Wears a blindfold", "Pricks his thumb using a dagger"],
+        "correct": 0,
+        "feedback": "ربط نفسه بالصاري لكي يستمتع بالغناء الساحر دون أن يلقي بنفسه في البحر."
+      },
+      {
+        "q": "Odysseus is the protagonist of \"The Odyssey\" and the central character of the epic.",
+        "options": ["True", "False"],
+        "correct": 0,
+        "feedback": "صحيح، تدور الملحمة بالكامل حول مغامرات البطل أوديسيوس ورحلة عودته."
+      },
+      {
+        "q": "Odysseus encounters the Cyclops Polyphemus during his journey and successfully outsmarts him.",
+        "options": ["True", "False"],
+        "correct": 0,
+        "feedback": "صحيح، استطاع أوديسيوس تعمية العملاق بوليفيموس وهزيمته بالحيلة والذكاء."
+      },
+      {
+        "q": "The majority of \"The Odyssey\" takes place during Odysseus's journey back home from the Trojan War.",
+        "options": ["True", "False"],
+        "correct": 0,
+        "feedback": "صحيح، الرحلة البحرية وعقباتها تشغل المساحة الكبرى من السرد الملحمي."
+      },
+      {
+        "q": "Penelope, Odysseus's wife, remains faithful to him throughout his long absence, resisting the suitors who seek her hand in marriage.",
+        "options": ["True", "False"],
+        "correct": 0,
+        "feedback": "صحيح، صمدت بينيلوبي في وجه ضغوط وإلحاح الخطباء الجشعين بذكاء وإخلاص."
+      },
+      {
+        "q": "The epic poem ends with Odysseus and Penelope being reunited and living happily ever after.",
+        "options": ["True", "False"],
+        "correct": 0,
+        "feedback": "صحيح، تنتهي الملحمة باستعادة أوديسيوس لعرشه ولم شمله مع زوجته وبسط السلام في إيثاكا."
+      }
+    ]
+  }
+]
