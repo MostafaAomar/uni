@@ -1,9 +1,8 @@
-[
-  {
-    "subject": " ادب عالمي سنه رابعه ف2 الدكتور مهند",
-    "lang": "en",
-    "questions": [
-      {
+{
+  "subject": " ادب عالمي سنه رابعه ف2 الدكتور مهند",
+  "lang": "en",
+  "questions": [
+    {
         "q": "Who is the protagonist of The Iliad?",
         "options": [
           "Agamemnon",
@@ -1504,6 +1503,5 @@
         "correct": 3,
         "feedback": "زيوس يُوصف بأنه المخطط الأعلى لأنه يتحكم في مسار الحرب."
       }
-    ]
-  }
-]
+  ]
+}
