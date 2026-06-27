@@ -80,7 +80,7 @@ async function init() {
 async function fetchRepoAndAddSubjects(repoUrl) {
     // تنظيف الرابط بذكاء لاستخراج صاحب المستودع واسم المستودع فقط
     let cleanUrl = repoUrl.replace('https://github.com/', '');
-    cleanUrl = cleanUrl.split('/tree/')[0]; // إزالة /tree/main وما بعدها إن وُجدت
+    cleanUrl = cleanUrl.split('/tree/')[0]; 
     if (cleanUrl.endsWith('.git')) cleanUrl = cleanUrl.slice(0, -4); 
     
     const parts = cleanUrl.split('/');
@@ -92,31 +92,51 @@ async function fetchRepoAndAddSubjects(repoUrl) {
 
     try {
         const resp = await fetch(api);
-        if (!resp.ok) throw new Error("Repo not found");
-        const tree = await resp.json();
         
-        // جلب ملفات JSON وتجاهل ملف القاموس الخاص إن وُجد
+        // التحقق مما إذا كان المستودع خاص أو غير موجود
+        if (!resp.ok) {
+            if (resp.status === 404 || resp.status === 403) {
+                throw new Error("المستودع خاص (Private) أو أن هناك مشكلة في صلاحيات جيتهاب. تأكد أن المستودع Public.");
+            }
+            throw new Error("فشل الاتصال بـ GitHub API.");
+        }
+        
+        const tree = await resp.json();
         const jsonFiles = tree.tree.filter(t => t.path.endsWith('.json') && !t.path.includes('myOwnDic.json'));
 
         quizData = []; 
         for (const file of jsonFiles) {
-            const rawUrl = `https://raw.githubusercontent.com/${owner}/${repo}/main/${file.path}`;
-            const r = await fetch(rawUrl);
-            const content = await r.json();
-            const data = Array.isArray(content) ? content[0] : content;
-            
-            if (data && data.questions) {
-                quizData.push({
-                    subject: data.subject || file.path.replace('.json', '').split('/').pop(),
-                    lang: data.lang || 'en',
-                    questions: data.questions
-                });
+            // استخدام try-catch داخلي لكي لا يتوقف التطبيق إذا كان هناك ملف JSON واحد معطوب
+            try {
+                const rawUrl = `https://raw.githubusercontent.com/${owner}/${repo}/main/${file.path}`;
+                const r = await fetch(rawUrl);
+                if (!r.ok) continue;
+
+                const content = await r.json();
+                const data = Array.isArray(content) ? content[0] : content;
+                
+                if (data && data.questions) {
+                    quizData.push({
+                        subject: data.subject || file.path.replace('.json', '').split('/').pop(),
+                        lang: data.lang || 'en',
+                        questions: data.questions
+                    });
+                }
+            } catch (fileErr) {
+                console.warn(`⚠️ تم تخطي الملف ${file.path} لوجود خطأ في صيغة الـ JSON داخله.`, fileErr);
             }
         }
-        renderSubjectList();
+
+        // تحديث الواجهة إذا تم العثور على مواد
+        if (quizData.length > 0) {
+            renderSubjectList();
+        } else {
+            alert("تم الوصول للمستودع بنجاح، لكن لم يتم العثور على أي ملفات JSON صالحة للأسئلة.");
+        }
+
     } catch (e) { 
         console.error("Load Error:", e);
-        alert("تعذر تحميل البيانات تلقائياً، يرجى التحقق من اتصال الإنترنت أو التأكد من احتواء المستودع على ملفات JSON صالحة.");
+        alert(`❌ تعذر تحميل البيانات:\n${e.message}\n\nيرجى فتح (F12) لمعرفة التفاصيل.`);
     }
 }
 
