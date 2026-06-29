@@ -638,27 +638,36 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 });
 /* ==========================================
-   9. ميزة التحديد الذكي للبحث التلقائي (Smart Highlight Search)
+   9. ميزة التحديد الذكي للبحث التلقائي (Smart Highlight Search) - محسنة للهواتف
    ========================================== */
-document.addEventListener('mouseup', () => {
-    // 1. جلب النص الذي قام المستخدم بتحديده أو تظليله
-    const selectedText = window.getSelection().toString().trim();
+function performSmartSearch() {
+    // A small delay ensures the mobile browser has finished registering the text selection
+    setTimeout(() => {
+        const selectedText = window.getSelection().toString().trim();
 
-    // 2. التحقق من أن النص ليس فارغاً، ولا يتجاوز 30 حرفاً (لتجنب تحديد جمل كاملة عن طريق الخطأ)
-    if (selectedText && selectedText.length > 0 && selectedText.length <= 30) {
-        
-        const wordInput = document.getElementById('wordInput');
-        const dictionarySection = document.getElementById('dictionary');
-        
-        if (wordInput && dictionarySection) {
-            // 3. وضع الكلمة المحددة داخل حقل بحث القاموس
-            wordInput.value = selectedText;
+        if (selectedText && selectedText.length > 0 && selectedText.length <= 30) {
             
-            // 4. محاكاة حدث الكتابة لتشغيل دالة البحث التلقائي (debounce)
-            wordInput.dispatchEvent(new Event('input'));
+            const wordInput = document.getElementById('wordInput');
+            const dictionarySection = document.getElementById('dictionary');
             
-            // 5. التمرير السلس (Smooth Scroll) إلى قسم القاموس لرؤية المعنى فوراً
-            dictionarySection.scrollIntoView({ behavior: 'smooth', block: 'center' });
+            if (wordInput && dictionarySection) {
+                // Prevent re-triggering if the word is already in the input
+                if (wordInput.value !== selectedText) {
+                    wordInput.value = selectedText;
+                    
+                    // Simulate input event to trigger the dictionary search
+                    wordInput.dispatchEvent(new Event('input'));
+                    
+                    // Smooth scroll to the dictionary
+                    dictionarySection.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                }
+            }
         }
-    }
-});
+    }, 150); // 150 milliseconds delay
+}
+
+// For Desktop (Mouse)
+document.addEventListener('mouseup', performSmartSearch);
+
+// For Mobile (Touch)
+document.addEventListener('touchend', performSmartSearch);
