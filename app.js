@@ -84,7 +84,7 @@ function showWelcomeMessage() {
     const welcomeDiv = document.createElement('div');
     welcomeDiv.id = 'welcome-message';
     welcomeDiv.innerHTML = `
-        <p>هذا العمل صدقة جارية<br>ادعوا لي ولأهلي بالرحمة والمغفرة</p>
+        <p>هذا العمل صدقة جارية<br><br>ادعوا لي ولأهلي بالرحمة والمغفرة</p>
         
         
     `;
@@ -96,7 +96,7 @@ function showWelcomeMessage() {
             position: fixed;
             top: 50%;
             left: 50%;
-            height: 20%;
+          
             transform: translate(-50%, -50%);
             background-color: #4e4e4e;
             color: #fff;
