@@ -331,94 +331,6 @@
     "feedback": "تطبيق طريقة تدريس واحدة بشكل عشوائي على جميع سياقات التعلم دون تفكير أمر غير مناسب (صحيح)، لأن السياقات واحتياجات الطلاب تختلف."
   },
   {
-    "q": "Transparency in a test means that the test should.............",
-    "options": [
-      "be easy to understand.",
-      "be accessible to anyone concerned with it.",
-      "have consistent results.",
-      "be designed to measure specific skills or abilities."
-    ],
-    "correct": 1,
-    "feedback": "الشفافية في الاختبار تعني أن يكون متاحاً ومفهوم الشروط لجميع الأطراف المعنية (الطلاب، المعلمون، إلخ)."
-  },
-  {
-    "q": "Reliability can be enhanced by.....",
-    "options": [
-      "making the test instructions clear",
-      "making the test accessible",
-      "making the instructions vague",
-      "none is correct"
-    ],
-    "correct": 0,
-    "feedback": "يمكن تعزيز الموثوقية (Reliability) من خلال جعل تعليمات الاختبار واضحة لتجنب أي التباس."
-  },
-  {
-    "q": "A test that measures the intended skills or abilities is said to have.........",
-    "options": [
-      "transparency",
-      "validity",
-      "reliability",
-      "honesty"
-    ],
-    "correct": 1,
-    "feedback": "الاختبار الذي يقيس المهارات التي صُمم فعلياً لقياسها يتمتع بالصلاحية أو الصدق (Validity)."
-  },
-  {
-    "q": "If a test of writing ability in English requires specialized knowledge of history or biology, which type of validity is lacking?",
-    "options": [
-      "Construct validity",
-      "Content validity",
-      "Criterion validity",
-      "Face validity"
-    ],
-    "correct": 1,
-    "feedback": "إذا تطلب اختبار الكتابة معرفة متخصصة في التاريخ، فإنه يفتقر إلى صدق المحتوى (Content validity) لأنه يختبر معلومات خارج نطاق اللغة."
-  },
-  {
-    "q": "The purpose of placement test is to......",
-    "options": [
-      "measure progress and achievement",
-      "determine which level a student should be in",
-      "evaluate a student's language skills",
-      "assess a student's reading and listening ability"
-    ],
-    "correct": 1,
-    "feedback": "الهدف الأساسي من اختبار تحديد المستوى هو معرفة المستوى أو الصف المناسب لقدرات الطالب."
-  },
-  {
-    "q": "Progress tests are known to have ... purposes.",
-    "options": [
-      "summative",
-      "respective",
-      "useless",
-      "formative"
-    ],
-    "correct": 3,
-    "feedback": "اختبارات التقدم تُستخدم لأغراض تكوينية (Formative) لمراقبة تطور الطلاب وتوجيه عملية التعلم المستمرة."
-  },
-  {
-    "q": "What type of test is given at the end of a course of study?",
-    "options": [
-      "Placement test",
-      "Progress test",
-      "Achievement test",
-      "Proficiency test"
-    ],
-    "correct": 2,
-    "feedback": "اختبار التحصيل (Achievement test) هو الذي يُعطى في نهاية الدورة لتقييم ما تم استيعابه من المنهج."
-  },
-  {
-    "q": "Portfolio assessment aims to...",
-    "options": [
-      "measure a student's progress over time",
-      "evaluate a student's language skills",
-      "determine which class a student should be in",
-      "test students at the end of a course."
-    ],
-    "correct": 0,
-    "feedback": "تقييم الملفات (Portfolio assessment) يهدف بشكل أساسي إلى تتبع وقياس تقدم الطالب وتطوره بمرور الوقت."
-  },
-  {
     "q": "Portfolio assessment has some disadvantages, including",
     "options": [
       "It is time-consuming for students to build up their portfolios",
@@ -452,17 +364,6 @@
     "feedback": "اختصار EAP يشير إلى اللغة الإنجليزية للأغراض الأكاديمية (English for academic purposes)."
   },
   {
-    "q": "Name the key in the process of habit formation in the Audio Lingual method",
-    "options": [
-      "imitation",
-      "translation",
-      "innovation",
-      "communication"
-    ],
-    "correct": 0,
-    "feedback": "المحاكاة (Imitation) والترديد هي المفتاح الأساسي في تكوين العادات اللغوية في الطريقة السمعية الشفوية."
-  },
-  {
     "q": "In Grammar-Translation Method, the skills that are not neglected are",
     "options": [
       "listening and speaking",
@@ -472,28 +373,6 @@
     ],
     "correct": 1,
     "feedback": "طريقة القواعد والترجمة تركز بشدة على مهارات القراءة والكتابة، بينما تهمل التحدث والاستماع."
-  },
-  {
-    "q": "This method emerged as a reaction to the various demerits of the Grammar Translation method:",
-    "options": [
-      "Audio lingual",
-      "direct method",
-      "Silent way",
-      "Total physical response"
-    ],
-    "correct": 1,
-    "feedback": "الطريقة المباشرة (Direct method) ظهرت كرد فعل لمعالجة عيوب وضعف التواصل في طريقة القواعد والترجمة."
-  },
-  {
-    "q": "The integral part of the communicative approach is",
-    "options": [
-      "clear sequence",
-      "meaningful interaction",
-      "everyday speech",
-      "meaningful repetition"
-    ],
-    "correct": 1,
-    "feedback": "التفاعل الهادف (Meaningful interaction) هو حجر الزاوية والجزء الذي لا يتجزأ من النهج التواصلي."
   },
   {
     "q": "When learners of different levels form small groups that must complete tasks together, this teaching method is called",
@@ -529,17 +408,6 @@
     "feedback": "التفاعل مع الزملاء لجمع معلومات حقيقية يجسد مبادئ التدريس التواصلي (CLT)."
   },
   {
-    "q": "The teacher tests students on the English meaning for a set of words in their mother tongue",
-    "options": [
-      "Direct Method",
-      "Oral Approach",
-      "Audio Lingual",
-      "Grammar Translation"
-    ],
-    "correct": 3,
-    "feedback": "استخدام اللغة الأم في الترجمة والاختبار هو السمة الأساسية لطريقة القواعد والترجمة (Grammar Translation)."
-  },
-  {
     "q": "Students work in groups to make five questions about vocabulary from the previous unit. Then, they exchange questions with another group and try to answer the questions.",
     "options": [
       "GT",
@@ -573,17 +441,6 @@
     "feedback": "عندما يقوم المعلم بتسجيل الحضور أو إعطاء تعليمات مباشرة، فإنه يمارس دور المتحكم (Controller) في الصف."
   },
   {
-    "q": "What is the purpose of the teacher's feedback when acting as a prompter?",
-    "options": [
-      "To correct students' work",
-      "To make suggestions and help students improve",
-      "to be the only decision maker",
-      "To give information"
-    ],
-    "correct": 1,
-    "feedback": "دور المعلم كملقن (Prompter) هو تقديم التوجيهات والاقتراحات لمساعدة الطلاب على التفكير والتحسن بأنفسهم."
-  },
-  {
     "q": "When teachers act as monitors and evidence gatherers, their role is to keep an eye on what is happening to",
     "options": [
       "ensure that the students never make noise",
@@ -595,17 +452,6 @@
     "feedback": "المعلم كمراقب يتأكد من سير النشاط بشكل صحيح ويجمع ملاحظات حول أداء الطلاب وما يقولونه (الخيارين B و C معاً)."
   },
   {
-    "q": "What is the role of the teacher when working one-to-one with a student?",
-    "options": [
-      "Tutor",
-      "Monitor and evidence gatherer",
-      "Promoter and editor",
-      "Controller"
-    ],
-    "correct": 0,
-    "feedback": "عندما يعمل المعلم بشكل فردي مع طالب لمساعدته أو توجيهه، فإنه يلعب دور المعلم الخاص (Tutor)."
-  },
-  {
     "q": "Who is the person(s) that students are likely to hear speaking English most often?",
     "options": [
       "Their teacher",
@@ -615,17 +461,6 @@
     ],
     "correct": 0,
     "feedback": "في معظم سياقات تعلم اللغة الأجنبية، يكون المعلم هو المصدر الرئيسي والأكثر تكراراً لسماع اللغة الإنجليزية."
-  },
-  {
-    "q": "The input teachers provide must be",
-    "options": [
-      "complicated",
-      "overwhelming",
-      "limited",
-      "comprehensible"
-    ],
-    "correct": 3,
-    "feedback": "وفقاً لنظرية المدخلات (Input Hypothesis)، يجب أن تكون المدخلات اللغوية التي يقدمها المعلم مفهومة (comprehensible) حتى يحدث التعلم."
   },
   {
     "q": "Using flash cards in the classrooms is a",
@@ -670,17 +505,6 @@
     ],
     "correct": 1,
     "feedback": "عادةً ما يبدأ المعلمون الجدد مسيرتهم المهنية بشعور كبير من الحماس والإثارة (Excitement) تجاه التدريس."
-  },
-  {
-    "q": "What is burnout?",
-    "options": [
-      "A physical illness",
-      "A mental health condition",
-      "A state of emotional exhaustion and lack of motivation",
-      "A lack of patience"
-    ],
-    "correct": 2,
-    "feedback": "الاحتراق الوظيفي هو حالة من الإرهاق العاطفي المستمر وفقدان الدافع للعمل."
   },
   {
     "q": "Ahmad really enjoys reading books. This gives him great personal satisfaction. His desire to reading books connects to?",
@@ -736,15 +560,6 @@
     ],
     "correct": 2,
     "feedback": "العلاقة الإيجابية والمناسبة بين المعلم وطلابه والتي تخلق بيئة تعلم جيدة تُعرف بالألفة (Rapport)."
-  },
-  {
-    "q": "Applying a particular methodology thoughtlessly to any and every learning context we come into contact with may not always be appropriate.",
-    "options": [
-      "True",
-      "False"
-    ],
-    "correct": 0,
-    "feedback": "العبارة صحيحة (True)، لأن سياقات التعلم واحتياجات الطلاب تختلف، ولا توجد طريقة واحدة تناسب جميع المواقف."
   },
   {
     "q": "A procedure is bigger than a method and smaller than a technique.",
@@ -809,17 +624,6 @@
     "feedback": "المكسيك ليست ضمن الدائرة الداخلية (Inner circle) التي تضم الدول الناطقة بالإنجليزية كلغة أم مثل أمريكا وبريطانيا."
   },
   {
-    "q": "General English is taught to",
-    "options": [
-      "prepare students for specific careers",
-      "teach students about different cultures",
-      "improve students' language skills",
-      "help students learn about specific subjects"
-    ],
-    "correct": 2,
-    "feedback": "الهدف الأساسي من تدريس الإنجليزية العامة هو تحسين المهارات اللغوية للطلاب بشكل عام، وليس لأغراض مهنية أو تخصصية."
-  },
-  {
     "q": "Which of the following is often regarded as the most important element in teaching?",
     "options": [
       "The relationship between teachers and students",
@@ -831,17 +635,6 @@
     "feedback": "العلاقة الإيجابية بين المعلم والطالب تُعتبر من أهم العوامل لنجاح العملية التعليمية وخلق بيئة تعلم فعالة."
   },
   {
-    "q": "Learning a foreign language requires",
-    "options": [
-      "intelligence",
-      "skill",
-      "knowledge",
-      "practice"
-    ],
-    "correct": 3,
-    "feedback": "تعلم أي لغة جديدة يحتاج بالدرجة الأولى إلى الممارسة (Practice) المستمرة لتثبيت المهارات."
-  },
-  {
     "q": "Which of the following is an incorrect assumption in language teaching?",
     "options": [
       "Learners acquire language by trying to use it in real situations",
@@ -851,17 +644,6 @@
     ],
     "correct": 1,
     "feedback": "من الخطأ افتراض أن تدريس اللغة يجب أن يُعطي أهمية للكتابة أكثر من التحدث، فالتواصل الشفهي غالباً ما يكون له الأولوية في التعلم الفعال."
-  },
-  {
-    "q": "Effective learning happens when learners are",
-    "options": [
-      "silent",
-      "passive",
-      "interactive",
-      "absent"
-    ],
-    "correct": 2,
-    "feedback": "التعلم الفعال يحدث عندما يكون الطلاب متفاعلين (Interactive) ومشاركين بنشاط في العملية التعليمية."
   },
   {
     "q": "The ability to be in charge of one's own learning is",
@@ -1260,72 +1042,6 @@
     "feedback": "ELT هو اختصار لـ English Language Teaching (تدريس اللغة الإنجليزية). وبما أن الكلمة غير موجودة ضمن الخيارات، نختار 'لا شيء مما سبق'."
   },
   {
-    "q": "Effective learning happens when learners are",
-    "options": [
-      "engaged",
-      "passive",
-      "silent",
-      "absent"
-    ],
-    "correct": 0,
-    "feedback": "التعلم الفعال يتطلب أن يكون الطلاب متفاعلين ومندمجين (Engaged) بشكل إيجابي في مختلف أنشطة الدرس."
-  },
-  {
-    "q": "Progress tests are known to have ... purposes.",
-    "options": [
-      "summative",
-      "respective",
-      "useless",
-      "formative"
-    ],
-    "correct": 3,
-    "feedback": "اختبارات التقدم تُستخدم لأغراض تكوينية (Formative) لتتبع مستوى الطلاب وتوجيه مسار التعلم."
-  },
-  {
-    "q": "What type of test is given at the end of a course of study?",
-    "options": [
-      "Placement test",
-      "Progress test",
-      "Achievement test",
-      "Proficiency test"
-    ],
-    "correct": 2,
-    "feedback": "اختبار التحصيل (Achievement test) هو الذي يُستخدم في نهاية الدورة لتقييم ما اكتسبه الطالب من المنهج."
-  },
-  {
-    "q": "Portfolio assessment aims to",
-    "options": [
-      "measure a student's progress over time",
-      "evaluate a student's language skills",
-      "determine which class a student should be in",
-      "test students at the end of a course."
-    ],
-    "correct": 0,
-    "feedback": "التقييم باستخدام ملف الإنجاز (Portfolio) يهدف بالأساس إلى تتبع وقياس مدى تقدم الطالب وتطوره بمرور الوقت."
-  },
-  {
-    "q": "Portfolio assessment has some disadvantages, including",
-    "options": [
-      "It is time-consuming for students to build up their portfolios",
-      "It is forces teachers to favor some students over others.",
-      "Teachers spend long hours of evaluation",
-      "Both A & C"
-    ],
-    "correct": 3,
-    "feedback": "من عيوب ملف الإنجاز أنه يستهلك الكثير من وقت الطلاب لإعداده، ووقت المعلمين لتقييمه بشكل دقيق."
-  },
-  {
-    "q": "What is the role of the teacher when taking the roll/register or giving students information?",
-    "options": [
-      "Monitor and evidence gatherer",
-      "Controller",
-      "Prompter and editor",
-      "Resource and tutor"
-    ],
-    "correct": 1,
-    "feedback": "عندما يقوم المعلم بمهام إدارية كأخذ الحضور أو تقديم التعليمات المباشرة، فإنه يقوم بدور المتحكم (Controller)."
-  },
-  {
     "q": "What is the purpose of the teacher's feedback when acting as a prompter?",
     "options": [
       "To correct students' work",
@@ -1335,17 +1051,6 @@
     ],
     "correct": 1,
     "feedback": "دور المعلم كملقن أو موجه (Prompter) هو تقديم الاقتراحات ومساعدة الطلاب على تحسين أدائهم بأنفسهم دون تدخل مفرط."
-  },
-  {
-    "q": "When teachers act as monitors and evidence gatherers, their role is to keep an eye on what is happening to ...",
-    "options": [
-      "ensure that the students never make noise",
-      "gather information about what they are saying",
-      "ensure that the students do what they are supposed to do",
-      "both B & C"
-    ],
-    "correct": 3,
-    "feedback": "المراقب يتابع الطلاب لجمع المعلومات حول لغتهم وأدائهم، ويتأكد من أنهم يقومون بالمهمة المطلوبة بالشكل الصحيح."
   },
   {
     "q": "What is the role of the teacher when working one-to-one with a student?",
@@ -1359,83 +1064,6 @@
     "feedback": "العمل الفردي المباشر مع طالب لتقديم الدعم أو التوجيه يُسمى بدور المعلم الخاص (Tutor)."
   },
   {
-    "q": "Which of the following countries is NOT included in Kachru's \"Inner circle\"?",
-    "options": [
-      "USA",
-      "UK",
-      "Australia",
-      "Mexico"
-    ],
-    "correct": 3,
-    "feedback": "المكسيك ليست جزءاً من الدائرة الداخلية في نموذج كاشرو، حيث أن الإنجليزية ليست اللغة الأم فيها."
-  },
-  {
-    "q": "General English is taught to...",
-    "options": [
-      "prepare students for specific careers",
-      "teach students about different cultures",
-      "improve students' language skills",
-      "help students learn about specific subjects"
-    ],
-    "correct": 2,
-    "feedback": "الهدف الرئيسي من تدريس الإنجليزية العامة هو تحسين المهارات اللغوية للطلاب بشكل شامل[cite: 1]."
-  },
-  {
-    "q": "The acronym PPP stands for \"presentation,...., production\"",
-    "options": [
-      "proficiency",
-      "practice",
-      "preparation",
-      "prevention"
-    ],
-    "correct": 1,
-    "feedback": "نموذج PPP يرمز إلى العرض (Presentation)، الممارسة (Practice)، والإنتاج (Production)[cite: 1]."
-  },
-  {
-    "q": "The acronym TTT stands for \"Teacher ... Time\".",
-    "options": [
-      "Targeting",
-      "Testing",
-      "Teaching",
-      "Talking"
-    ],
-    "correct": 3,
-    "feedback": "يرمز TTT إلى وقت تحدث المعلم (Teacher Talking Time) داخل الفصل[cite: 1]."
-  },
-  {
-    "q": "Which of the following is often regarded as the most important element in teaching?",
-    "options": [
-      "The relationship between teachers and students",
-      "Teachers' knowledge",
-      "Teaching techniques and aids used",
-      "Students' knowledge"
-    ],
-    "correct": 0,
-    "feedback": "تُعتبر العلاقة الإيجابية بين المعلم والطالب عنصراً أساسياً وحيوياً لنجاح العملية التعليمية[cite: 1]."
-  },
-  {
-    "q": "Learning a foreign language requires",
-    "options": [
-      "intelligence",
-      "skill",
-      "knowledge",
-      "practice"
-    ],
-    "correct": 3,
-    "feedback": "تتطلب عملية تعلم أي لغة أجنبية الممارسة المستمرة كعامل أساسي[cite: 1]."
-  },
-  {
-    "q": "Which of the following is an incorrect assumption in language teaching?",
-    "options": [
-      "Learners acquire language by trying to use it in real situations",
-      "Language teaching should give importance to writing rather than speaking",
-      "Language teaching should focus on communicative activities",
-      "Learners' first language can play an important role in learning"
-    ],
-    "correct": 1,
-    "feedback": "من الخطأ افتراض أن الكتابة أهم من التحدث؛ فالتواصل الشفهي هو جوهر اكتساب اللغة في معظم المناهج الحديثة[cite: 1]."
-  },
-  {
     "q": "Effective learning happens when learners are",
     "options": [
       "silent",
@@ -1445,28 +1073,6 @@
     ],
     "correct": 2,
     "feedback": "التعلم الفعال يتطلب مشاركة وتفاعلاً (interactive) نشطاً من قبل المتعلمين[cite: 1]."
-  },
-  {
-    "q": "The ability to be in charge of one's own learning is",
-    "options": [
-      "motivation",
-      "a bless",
-      "autonomy",
-      "none"
-    ],
-    "correct": 2,
-    "feedback": "الاستقلالية (autonomy) هي قدرة المتعلم على إدارة وتحمل مسؤولية عملية تعلمه[cite: 1]."
-  },
-  {
-    "q": "'ELT' stands for",
-    "options": [
-      "English Language training",
-      "English Language talking",
-      "English Language Teaching",
-      "All of the above"
-    ],
-    "correct": 2,
-    "feedback": "ELT تعني تدريس اللغة الإنجليزية (English Language Teaching)[cite: 1]."
   },
 
   {
@@ -1734,17 +1340,6 @@
     "feedback": "اختبارات الكفاءة تُستخدم للعمل أو القبول الجامعي."
   },
   {
-    "q": "Why might teachers hesitate to use portfolio assessments?",
-    "options": [
-      "They are outdated",
-      "They require specialized software",
-      "They can be time-consuming",
-      "No reason"
-    ],
-    "correct": 2,
-    "feedback": "تجميع ملفات الإنجاز قد يستغرق وقتًا طويلًا."
-  },
-  {
     "q": "What is the typical structure of a General English syllabus?",
     "options": [
       "Organized around topics and themes",
@@ -1754,17 +1349,6 @@
     ],
     "correct": 1,
     "feedback": "المنهج العام يركز عادة على القواعد والمفردات والمهارات اللغوية."
-  },
-  {
-    "q": "Why might EFL students not need to learn how to complete a UK visa application?",
-    "options": [
-      "Because they are not residing in the UK",
-      "Because they are uninterested in visas",
-      "Because they can seek professional assistance",
-      "Because they need to prioritize grammar"
-    ],
-    "correct": 0,
-    "feedback": "طلاب EFL غالبًا لا يعيشون في المملكة المتحدة، لذا لا يحتاجون نماذج التأشيرات."
   },
   {
     "q": "Transparency in a test means that the test should",
@@ -1778,17 +1362,6 @@
     "feedback": "الشفافية تعني أن الاختبار متاح وواضح لجميع الأطراف."
   },
   {
-    "q": "Reliability can be improved by",
-    "options": [
-      "Providing clear and concise test instructions",
-      "Ensuring the test is widely accessible",
-      "Using ambiguous instructions to challenge students",
-      "None of the above"
-    ],
-    "correct": 0,
-    "feedback": "الاعتماد يُحسَّن من خلال تعليمات واضحة وغير مربكة."
-  },
-  {
     "q": "A test that accurately measures the intended skills or abilities is said to have",
     "options": [
       "Transparency",
@@ -1798,17 +1371,6 @@
     ],
     "correct": 1,
     "feedback": "الصلاحية تعني أن الاختبار يقيس ما يفترض أن يقيسه."
-  },
-  {
-    "q": "If a test of English writing ability requires knowledge of advanced physics or chemistry, which type of validity is compromised?",
-    "options": [
-      "Construct validity",
-      "Content validity",
-      "Criterion validity",
-      "Face validity"
-    ],
-    "correct": 1,
-    "feedback": "صلاحية المحتوى تتضرر عندما يتضمن الاختبار محتوى خارج المجال."
   },
   {
     "q": "The primary purpose of a placement test is to",
@@ -1822,17 +1384,6 @@
     "feedback": "اختبار المستوى يحدد الصف المناسب للطالب."
   },
   {
-    "q": "Progress tests are primarily used for",
-    "options": [
-      "Summative",
-      "Formative",
-      "Irrelevant",
-      "Diagnostic purposes"
-    ],
-    "correct": 1,
-    "feedback": "اختبارات التقدم تُستخدم لأغراض تكوينية لقياس التطور."
-  },
-  {
     "q": "What type of test is typically administered at the end of a course?",
     "options": [
       "Placement test",
@@ -1842,17 +1393,6 @@
     ],
     "correct": 2,
     "feedback": "اختبار الإنجاز يُعطى عادة في نهاية الدورة."
-  },
-  {
-    "q": "The main goal of portfolio assessment is to",
-    "options": [
-      "Track a student’s development over time",
-      "Evaluate a student’s language proficiency",
-      "Assign students to appropriate classes",
-      "Assess student’s final test at end of a course"
-    ],
-    "correct": 0,
-    "feedback": "ملف الإنجاز يهدف لتتبع تطور الطالب عبر الزمن."
   },
   {
     "q": "Which of the following is a limitation of portfolio assessment?",
@@ -1877,17 +1417,6 @@
     "feedback": "عند مشاركة المعلومات، يكون المعلم ميسرًا ومرشدًا."
   },
   {
-    "q": "When teachers act as observers and data collectors, their role is to",
-    "options": [
-      "Ensure complete silence in the classroom",
-      "Gather insights into students’ performance and behavior",
-      "Ensure students follow instructions",
-      "Both B and C"
-    ],
-    "correct": 1,
-    "feedback": "جمع الملاحظات حول أداء وسلوك الطلاب هو دور المراقب."
-  },
-  {
     "q": "What is the teacher’s role when working individually with a student?",
     "options": [
       "Tutor",
@@ -1897,17 +1426,6 @@
     ],
     "correct": 2,
     "feedback": "عند العمل الفردي، يكون المعلم ميسرًا وداعمًا."
-  },
-  {
-    "q": "Who is most likely to be the primary source of English input for students in a classroom?",
-    "options": [
-      "Their teacher",
-      "Their peers",
-      "Their family members",
-      "Their school principal"
-    ],
-    "correct": 0,
-    "feedback": "المعلم هو المصدر الأساسي للمدخلات اللغوية."
   },
   {
     "q": "The input provided by teachers should be",
@@ -1921,17 +1439,6 @@
     "feedback": "المدخلات يجب أن تكون واضحة ومفهومة للطلاب."
   },
   {
-    "q": "What is a common emotion experienced by new teachers?",
-    "options": [
-      "Boredom",
-      "Enthusiasm",
-      "Anxiety",
-      "Frustration"
-    ],
-    "correct": 1,
-    "feedback": "الحماس شعور شائع لدى المعلمين الجدد."
-  },
-  {
     "q": "The teacher says commands and acts them out. The students perform the action. Then the teacher says the command without acting it out. This is:",
     "options": ["CLT", "TPR", "Audio Lingual", "Suggestopedia"],
     "correct": 1,
@@ -1939,18 +1446,6 @@
   },
   {
     "q": "Name the key in the process of habit formation in the Audio-Lingual method.",
-    "options": ["Imitation", "Translation", "Innovation", "Communication"],
-    "correct": 0,
-    "feedback": "التقليد هو الأساس في تكوين العادات في الطريقة السمعية الشفوية."
-  },
-  {
-    "q": "In Grammar-Translation Method, the skills that are focused on are:",
-    "options": ["Listening and speaking", "Grammar and fluency", "Reading and writing", "Reading and speaking"],
-    "correct": 2,
-    "feedback": "الترجمة والقواعد تركز على القراءة والكتابة."
-  },
-  {
-    "q": "This method emerged as a reaction to the demerits of the Grammar Translation method:",
     "options": ["Audio Lingual", "Direct Method", "Silent Way", "Total Physical Response"],
     "correct": 1,
     "feedback": "الطريقة المباشرة ظهرت كرد فعل على مشاكل الترجمة والقواعد."
@@ -1960,18 +1455,6 @@
     "options": ["Clear sequence", "Everyday speech", "Meaningful interaction", "Meaningful repetition"],
     "correct": 2,
     "feedback": "التواصل الهادف هو جوهر المنهج التواصلي."
-  },
-  {
-    "q": "When learners of different levels form small groups to complete tasks together, this method is:",
-    "options": ["CLT", "TPR", "GT", "Suggestopedia"],
-    "correct": 0,
-    "feedback": "العمل الجماعي لتحقيق مهام هو من مبادئ CLT."
-  },
-  {
-    "q": "Children make animal noises when hearing animal names in a story. This method is:",
-    "options": ["TPR", "CLT", "GT", "Audio Lingual"],
-    "correct": 0,
-    "feedback": "استخدام الحركة والصوت استجابةً للأوامر هو TPR."
   },
   {
     "q": "Students ask classmates about birthdays and record answers. This method is:",
@@ -1984,18 +1467,6 @@
     "options": ["Direct Method", "Oral Approach", "Audio Lingual", "Grammar Translation"],
     "correct": 3,
     "feedback": "الترجمة بين اللغتين هي أساس GT."
-  },
-  {
-    "q": "Students create vocabulary questions in groups and exchange them. This method is:",
-    "options": ["GT", "TPR", "CLT", "Communicative Language Teaching"],
-    "correct": 3,
-    "feedback": "التفاعل الجماعي وصنع الأسئلة هو CLT."
-  },
-  {
-    "q": "Students sing 'Head and shoulders' and touch body parts. This method is:",
-    "options": ["CLT", "Audio Lingual", "GT", "TPR"],
-    "correct": 3,
-    "feedback": "TPR يعتمد على الحركة المرتبطة باللغة."
   },
   {
     "q": "Which classroom activity is most aligned with CLT principles?",
@@ -2016,12 +1487,6 @@
     "feedback": "كل هذه المواد يمكن استخدامها في CLT."
   },
   {
-    "q": "Grammar-Translation is most consistent with:",
-    "options": ["Task-Based Learning", "Total Physical Response", "Audio-lingual method", "Oral Approach"],
-    "correct": 3,
-    "feedback": "الطريقة الشفوية تعتمد على القواعد والترجمة."
-  },
-  {
     "q": "A critique often directed at CLT is that it:",
     "options": ["May neglect accuracy for fluency", "Relies only on speaking", "Ignores writing skill", "Overemphasizes grammar"],
     "correct": 0,
@@ -2040,18 +1505,6 @@
     "feedback": "CLT يركز على التواصل الحقيقي داخل وخارج الصف."
   },
   {
-    "q": "Teacher leads sentence patterns; students repeat and receive feedback. This method is:",
-    "options": ["TPR", "Audio-lingual method", "CLT", "GT"],
-    "correct": 1,
-    "feedback": "التكرار والتلقين من خصائص ALM."
-  },
-  {
-    "q": "Name the key in the process of habit formation in the Audio-Lingual method.",
-    "options": ["Imitation", "Translation", "Innovation", "Communication"],
-    "correct": 0,
-    "feedback": "الطريقة السمعية الشفوية تعتمد على التقليد لتكوين العادات."
-  },
-  {
     "q": "In Grammar-Translation Method, the skills that are focused on are:",
     "options": ["Listening and speaking", "Grammar and fluency", "Reading and writing", "Reading and speaking"],
     "correct": 2,
@@ -2062,18 +1515,6 @@
     "options": ["Audio Lingual", "Direct Method", "Silent Way", "Total Physical Response"],
     "correct": 1,
     "feedback": "الطريقة المباشرة ظهرت كرد فعل على مشاكل طريقة القواعد والترجمة."
-  },
-  {
-    "q": "The integral part of the communicative approach is:",
-    "options": ["Clear sequence", "Everyday speech", "Meaningful interaction", "Meaningful repetition"],
-    "correct": 2,
-    "feedback": "التفاعل الهادف هو جوهر المنهج التواصلي."
-  },
-  {
-    "q": "When learners of different levels form small groups to complete tasks together, this method is called:",
-    "options": ["CLT", "TPR", "GT", "Suggestopedia"],
-    "correct": 0,
-    "feedback": "العمل التعاوني لتحقيق مهام هو من مبادئ CLT."
   },
   {
     "q": "Children make animal noises when hearing animal names in a story. This teaching method is:",
@@ -2088,18 +1529,6 @@
     "feedback": "جمع المعلومات والتواصل الحقيقي هو من مبادئ CLT."
   },
   {
-    "q": "The teacher tests students on the English meaning for a set of words in their mother tongue.",
-    "options": ["Direct Method", "Oral Approach", "Audio Lingual", "Grammar Translation"],
-    "correct": 3,
-    "feedback": "الترجمة بين اللغتين هي أساس طريقة GT."
-  },
-  {
-    "q": "Students work in groups to make vocabulary questions and exchange them. This method is:",
-    "options": ["GT", "TPR", "CLT", "Communicative Language Teaching"],
-    "correct": 3,
-    "feedback": "التفاعل الجماعي وصنع الأسئلة هو CLT."
-  },
-  {
     "q": "Students sing 'Head and shoulders' and touch body parts. This teaching method is:",
     "options": ["CLT", "Audio Lingual", "GT", "TPR"],
     "correct": 3,
@@ -2110,18 +1539,6 @@
     "options": ["Role play", "Filling in blanks", "Grammar-translation exercise", "Writing an essay"],
     "correct": 0,
     "feedback": "لعب الأدوار يعزز التواصل الحقيقي."
-  },
-  {
-    "q": "CLT places a strong emphasis on:",
-    "options": ["Writing over spoken language", "Meaning over form", "Translation accuracy", "Grammar rules"],
-    "correct": 1,
-    "feedback": "المنهج التواصلي يركز على المعنى قبل الشكل."
-  },
-  {
-    "q": "Which of the following is easiest for CLT learning?",
-    "options": ["Authentic material", "Elaborated definitions", "Simplified dialogues", "All of the above"],
-    "correct": 3,
-    "feedback": "كل هذه المواد يمكن استخدامها في CLT."
   },
   {
     "q": "Grammar-Translation is most consistent with:",
@@ -2136,18 +1553,6 @@
     "feedback": "CLT قد يركز على الطلاقة أكثر من الدقة."
   },
   {
-    "q": "The teacher introduces grammatical structures using a video and examples; students practice in context. This is:",
-    "options": ["Inductive method", "Deductive method", "Productive method", "Receptive method"],
-    "correct": 0,
-    "feedback": "الاستقراء يعتمد على الأمثلة قبل القاعدة."
-  },
-  {
-    "q": "Students listen to a dialogue, fill gaps, then enact it and practice outside. This is:",
-    "options": ["CLT", "Structural Approach", "Audio Lingual", "Suggestopedia"],
-    "correct": 0,
-    "feedback": "CLT يركز على التواصل الحقيقي داخل وخارج الصف."
-  },
-  {
     "q": "The teacher leads patterns of sentences by repeating them; students repeat and receive feedback. This method is:",
     "options": ["TPR", "Audio-lingual method", "CLT", "GT"],
     "correct": 1,
@@ -2155,18 +1560,6 @@
   },
   {
     "q": "What is the role of the teacher when working one-on-one with a student?",
-    "options": ["Tutor", "Monitor", "Prompter", "Controller"],
-    "correct": 0,
-    "feedback": "العمل الفردي مع الطالب هو دور المعلم كـ Tutor."
-  },
-  {
-    "q": "When teachers act as monitors and evidence gatherers, their role is to:",
-    "options": ["Gather information and make noise", "Simply gather information", "Ensure students do what they should", "B & C"],
-    "correct": 3,
-    "feedback": "المعلم يراقب ويجمع الأدلة لضبط الصف."
-  },
-  {
-    "q": "What is the purpose of the teacher’s feedback when acting as a prompter?",
     "options": ["Correct students’ work", "Offer suggestions and help students improve", "Be the only decision maker", "Give marks"],
     "correct": 1,
     "feedback": "الـ Prompter يقدم اقتراحات تشجيعية للطلاب."
@@ -2188,12 +1581,6 @@
     "options": ["Making an open hand tremble", "Pointing to a student", "Showing the size of an object", "Nodding"],
     "correct": 2,
     "feedback": "الإشارة لحجم شيء توضح الكمية."
-  },
-  {
-    "q": "What is the role of the teacher when taking attendance or giving information?",
-    "options": ["Monitor", "Controller", "Prompter", "Resource and tutor"],
-    "correct": 3,
-    "feedback": "عند إعطاء المعلومات، يكون المعلم مصدرًا وداعمًا."
   },
   {
     "q": "How does kinesthetic learning differ from other learning styles?",

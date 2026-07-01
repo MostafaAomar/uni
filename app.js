@@ -165,9 +165,80 @@ function getSubjectProgress(subjectName, totalQuestions) {
 function renderSubjectList() {
     const list = document.getElementById('subject-list');
     if (!list) return;
-    list.innerHTML = "";
+    list.innerHTML = `
+        <div class="search-container">
+            <input type="text" id="question-search-input" placeholder="ابحث عن سؤال في جميع المواد..." />
+        </div>
+    `;
+
+    const searchInput = document.getElementById('question-search-input');
+    const resultsContainer = document.createElement('div');
+    resultsContainer.id = 'search-results-container';
+    list.appendChild(resultsContainer);
+
+    searchInput.addEventListener('input', (e) => {
+        const searchTerm = e.target.value.trim().toLowerCase();
+        if (searchTerm.length > 2) {
+            performSearch(searchTerm, resultsContainer);
+        } else {
+            renderAllSubjects(resultsContainer);
+        }
+    });
+
+    renderAllSubjects(resultsContainer);
+}
+
+function performSearch(term, container) {
+    container.innerHTML = '';
+    let results = [];
+    quizData.forEach((subject, subjectIndex) => {
+        subject.questions.forEach((question, questionIndex) => {
+            if (question.q.toLowerCase().includes(term)) {
+                results.push({ subject, subjectIndex, question, questionIndex });
+            }
+        });
+    });
+
+    if (results.length === 0) {
+        container.innerHTML = "<p style='text-align:center; color:#94a3b8;'>لا توجد نتائج مطابقة.</p>";
+        return;
+    }
+
+    results.forEach(result => {
+        const btn = document.createElement('div');
+        btn.className = 'subject-btn search-result-item';
+        btn.innerHTML = `
+            <span style="z-index:2; position:relative; display:block;">${result.question.q}</span>
+            <small style="z-index:2; position:relative; color: #a1a1aa; display:block; margin-top: 5px;">المادة: ${result.subject.subject}</small>
+        `;
+        btn.onclick = () => {
+            // 1. Set the global state for subject and question index
+            currentSubject = quizData[result.subjectIndex];
+            currentIndex = result.questionIndex;
+            mode = 'quiz'; // Default to quiz mode for direct access
+
+            // 2. Load any existing progress for this subject
+            const subProgKey = `progress_${currentSubject.subject}_${mode}`;
+            const savedProg = localStorage.getItem(subProgKey);
+            userAnswers = savedProg ? (JSON.parse(savedProg).answers || []) : [];
+
+            // 3. To reveal the answer, we'll mark this question as answered correctly
+            //    if it hasn't been answered before. This triggers the feedback view.
+            if (userAnswers[currentIndex] === undefined || userAnswers[currentIndex] === null) {
+                userAnswers[currentIndex] = result.question.correct;
+            }
+
+            // 4. Render the quiz screen directly
+            renderStep();
+        };
+        container.appendChild(btn);
+    });
+}
+
+function renderAllSubjects(container) {
+    container.innerHTML = "";
     if(quizData.length === 0) {
-        list.innerHTML = "<p style='text-align:center; color:#94a3b8;'>لا توجد مواد متاحة حالياً.</p>";
+        container.innerHTML = "<p style='text-align:center; color:#94a3b8;'>لا توجد مواد متاحة حالياً.</p>";
         return;
     }
 
@@ -184,7 +255,7 @@ function renderSubjectList() {
             document.getElementById('selected-subject-name').innerText = currentSubject.subject;
             showScreen('mode');
         };
-        list.appendChild(btn);
+        container.appendChild(btn);
     });
 }
 
