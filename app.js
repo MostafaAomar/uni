@@ -46,6 +46,8 @@ function saveDetailedProgress() {
    3. التحميل والتهيئة التلقائية (Initialization)
    ========================================== */
 async function init() {
+    showWelcomeMessage();
+
     const loadingDiv = document.querySelector('.loader');
 
     // إظهار مؤشر التحميل أثناء جلب البيانات تلقائياً
@@ -75,6 +77,57 @@ async function init() {
     }
     
     showScreen('setup');
+}
+
+function showWelcomeMessage() {
+    // Create the message element
+    const welcomeDiv = document.createElement('div');
+    welcomeDiv.id = 'welcome-message';
+    welcomeDiv.innerHTML = `
+        <p>هذا العمل صدقة جارية<br>ادعوا لي ولأهلي بالرحمة والمغفرة</p>
+        
+        
+    `;
+
+    // Add styles dynamically to the head
+    const style = document.createElement('style');
+    style.innerHTML = `
+        #welcome-message {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            height: 20%;
+            transform: translate(-50%, -50%);
+            background-color: #4e4e4e;
+            color: #fff;
+            padding: 15px 25px;
+            border-radius: 12px;
+            z-index: 9999;
+            text-align: center;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+            cursor: pointer;
+            border: 1px solid #3f3f46;
+        }
+        #welcome-message p { 
+            margin: 0 0 10px 0; 
+            font-weight: bold; 
+            line-height: 1.6;
+            font-size: 1.25rem;
+        }
+        #welcome-message small { font-size: 0.8em; opacity: 0.7; display: block; }
+    `;
+    document.head.appendChild(style);
+
+    document.body.appendChild(welcomeDiv);
+
+    const removeMessage = () => {
+        if (document.body.contains(welcomeDiv)) {
+            document.body.removeChild(welcomeDiv);
+        }
+    };
+
+    welcomeDiv.addEventListener('click', removeMessage);
+    setTimeout(removeMessage, 3000);
 }
 
 async function fetchRepoAndAddSubjects(repoUrl) {
@@ -478,10 +531,7 @@ async function analyzeCurrentQuestion(currentMode) {
                     ${fullIpa}
                 </div>
             </div>
-            <button class="nav-btn next" style="width: 100%; border-radius: 12px; display: flex; align-items: center; justify-content: center; gap: 10px;" 
-                onclick="playFullSentence(\`${text.replace(/`/g, "\\`")}\`)">
-                <span>🔊 استمع للجملة كاملة</span>
-            </button>
+          
         </div>
     `;
 }
