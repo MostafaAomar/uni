@@ -174,6 +174,7 @@ input[type="text"]:focus {
 /* قائمة المواد الدراسية */
 .subject-grid { display: flex; flex-direction: column; gap: 14px; margin-top: 10px; }
 .subject-btn {
+    
     background: var(--card-bg);
     border: 1px solid var(--glass-border);
     padding: 22px 20px; 
@@ -191,6 +192,7 @@ input[type="text"]:focus {
     overflow: hidden;   
     flex-direction: row-reverse;
     box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    margin-bottom: 8px;
 }
 .subject-btn:after { 
     content: '\f060'; 
