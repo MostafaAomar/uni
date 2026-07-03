@@ -20,8 +20,32 @@
             <p class="subtitle">اختر مادة وابدأ رحلة التعلم</p>
         </div>
 
-        <div id="subject-list" class="subject-grid">
+        <div id="subject-list" class="subject-grid"> 
             <div class="loader" style="text-align: center; color: var(--primary); padding: 20px;">جاري جلب ملفات المواد تلقائياً...</div>
+        </div>
+
+        <!-- قسم إعدادات المزامنة (مخفي افتراضياً) -->
+        <div id="sync-settings-container" class="hidden">
+            <h3 id="sync-status">المزامنة معطلة</h3>
+            <p class="note">لحفظ تقدمك عبر الأجهزة، قم بربط حسابك في GitHub. <a href="https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens" target="_blank">كيفية إنشاء توكن</a> (اختر `repo` scope).</p>
+            <div class="form-group">
+                <label for="sync-enabled">تفعيل المزامنة</label>
+                <input type="checkbox" id="sync-enabled">
+            </div>
+            <div class="form-group">
+                <label for="sync-username">اسم مستخدم GitHub</label>
+                <input type="text" id="sync-username" placeholder="e.g., MostafaAomar">
+            </div>
+            <div class="form-group">
+                <label for="sync-repo">اسم المستودع (Repository)</label>
+                <input type="text" id="sync-repo" placeholder="e.g., uni-progress">
+            </div>
+            <div class="form-group">
+                <label for="sync-token">توكن الوصول الشخصي (PAT)</label>
+                <input type="password" id="sync-token" placeholder="يبدأ بـ ghp_...">
+            </div>
+            <button class="action-btn" onclick="saveSyncConfig()">حفظ الإعدادات</button>
+            <button class="secondary-btn" onclick="toggleSyncSettings()">إغلاق</button>
         </div>
 
         <div class="footer-controls">

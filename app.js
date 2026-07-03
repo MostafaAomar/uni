@@ -7,6 +7,14 @@ let currentIndex = 0;
 let userAnswers = [];
 let mode = ''; 
 let currentSpeed = 0.8;
+let githubSyncConfig = {
+    enabled: false,
+    username: '',
+    repo: '',
+    token: '',
+    filePath: 'progress.json'
+};
+let isSyncing = false; // To prevent multiple sync operations at once
 
 // تم تحديث الرابط ليكون المستودع الجديد الخاص بالجامعة
 const DEFAULT_REPO_URL = 'https://github.com/MostafaAomar/uni';
@@ -34,12 +42,19 @@ function showScreen(name) {
 
 function saveDetailedProgress() {
     if (!currentSubject) return;
+    
+    // Always save to localStorage for offline access and speed
     const lastState = { subjectName: currentSubject.subject, mode: mode, currentIndex: currentIndex };
     localStorage.setItem('app_last_position', JSON.stringify(lastState));
 
     const subjectProgressKey = `progress_${currentSubject.subject}_${mode}`;
     const progressData = { index: currentIndex, answers: userAnswers };
     localStorage.setItem(subjectProgressKey, JSON.stringify(progressData));
+
+    // Also save to GitHub if sync is enabled
+    if (githubSyncConfig.enabled) {
+        saveProgressToGithub();
+    }
 }
 
 /* ==========================================
@@ -47,6 +62,8 @@ function saveDetailedProgress() {
    ========================================== */
 async function init() {
     showWelcomeMessage();
+    loadSyncConfig();
+    renderSyncSettings();
 
     const loadingDiv = document.querySelector('.loader');
 
@@ -57,6 +74,11 @@ async function init() {
 
     // استعادة آخر جلسة تصفح متوقفة إن وجدت
     const savedPos = localStorage.getItem('app_last_position');
+    // If sync is enabled, try to load progress from GitHub first
+    if (githubSyncConfig.enabled) {
+        await loadProgressFromGithub();
+    }
+
     if (savedPos) {
         try {
             const pos = JSON.parse(savedPos);
@@ -87,6 +109,8 @@ function showWelcomeMessage() {
         <p>هذا العمل صدقة جارية<br><br>ادعوا لي ولأهلي بالرحمة والمغفرة</p>
         
         
+        <p>هذا العمل صدقة جارية،<br>ادعوا لي ولأهلي بالرحمة والمغفرة.</p>
+        <small>انقر للإغلاق</small>
     `;
 
     // Add styles dynamically to the head
@@ -218,12 +242,19 @@ function getSubjectProgress(subjectName, totalQuestions) {
 function renderSubjectList() {
     const list = document.getElementById('subject-list');
     if (!list) return;
+    
+    // Clear the list first, then build it piece by piece
+    list.innerHTML = '';
+
+    // 1. Add settings toggle button
+    list.innerHTML += `<div class="settings-toggle" onclick="toggleSyncSettings()">⚙️ إعدادات المزامنة</div>`;
+
+    // 2. Add search container
     list.innerHTML = `
         <div class="search-container">
             <input type="text" id="question-search-input" placeholder="ابحث عن سؤال في جميع المواد..." />
         </div>
     `;
-
     const searchInput = document.getElementById('question-search-input');
     const resultsContainer = document.createElement('div');
     resultsContainer.id = 'search-results-container';
@@ -238,6 +269,7 @@ function renderSubjectList() {
         }
     });
 
+    // 3. Render the initial list of subjects
     renderAllSubjects(resultsContainer);
 }
 
@@ -620,11 +652,159 @@ function fullReset() {
     }
 }
 
+/* ==========================================
+   8. مزامنة التقدم عبر GitHub (GitHub Sync)
+   ========================================== */
+function loadSyncConfig() {
+    const savedConfig = localStorage.getItem('github_sync_config');
+    if (savedConfig) {
+        githubSyncConfig = JSON.parse(savedConfig);
+    }
+}
+
+function saveSyncConfig() {
+    githubSyncConfig.enabled = document.getElementById('sync-enabled').checked;
+    githubSyncConfig.username = document.getElementById('sync-username').value.trim();
+    githubSyncConfig.repo = document.getElementById('sync-repo').value.trim();
+    githubSyncConfig.token = document.getElementById('sync-token').value.trim();
+
+    if (githubSyncConfig.enabled && (!githubSyncConfig.username || !githubSyncConfig.repo || !githubSyncConfig.token)) {
+        alert('لتفعيل المزامنة، يجب ملء جميع الحقول: اسم المستخدم، اسم المستودع، والتوكن.');
+        document.getElementById('sync-enabled').checked = false;
+        githubSyncConfig.enabled = false;
+    }
+
+    localStorage.setItem('github_sync_config', JSON.stringify(githubSyncConfig));
+    alert('تم حفظ الإعدادات.');
+    renderSyncSettings(); // To update button text and status
+    toggleSyncSettings(); // Close settings panel
+}
+
+function renderSyncSettings() {
+    const container = document.getElementById('sync-settings-container');
+    if (!container) return;
+
+    document.getElementById('sync-enabled').checked = githubSyncConfig.enabled;
+    document.getElementById('sync-username').value = githubSyncConfig.username || '';
+    document.getElementById('sync-repo').value = githubSyncConfig.repo || '';
+    document.getElementById('sync-token').value = githubSyncConfig.token || '';
+
+    const syncStatus = document.getElementById('sync-status');
+    if (syncStatus) {
+        if (githubSyncConfig.enabled) {
+            syncStatus.innerHTML = 'المزامنة مفعلة <span style="color: #10b981;">●</span>';
+        } else {
+            syncStatus.innerHTML = 'المزامنة معطلة <span style="color: #ef4444;">●</span>';
+        }
+    }
+}
+
+function toggleSyncSettings() {
+    const container = document.getElementById('sync-settings-container');
+    if (container) {
+        container.classList.toggle('hidden');
+    }
+}
+
+async function getGithubFileSha(filePath) {
+    const { username, repo, token } = githubSyncConfig;
+    if (!username || !repo || !token) return null;
+    const url = `https://api.github.com/repos/${username}/${repo}/contents/${filePath}`;
+    try {
+        const response = await fetch(url, {
+            headers: { 'Authorization': `token ${token}` }
+        });
+        if (!response.ok) return null; // File might not exist yet
+        const data = await response.json();
+        return data.sha;
+    } catch (e) {
+        return null;
+    }
+}
+
+async function saveProgressToGithub() {
+    if (isSyncing || !githubSyncConfig.enabled) return;
+    isSyncing = true;
+
+    const { username, repo, token, filePath } = githubSyncConfig;
+    const url = `https://api.github.com/repos/${username}/${repo}/contents/${filePath}`;
+
+    // 1. Collect all progress from localStorage
+    let allProgress = {};
+    for (let i = 0; i < localStorage.length; i++) {
+        const key = localStorage.key(i);
+        if (key.startsWith('progress_') || key === 'app_last_position') {
+            try {
+                allProgress[key] = JSON.parse(localStorage.getItem(key));
+            } catch (e) { /* ignore invalid json */ }
+        }
+    }
+
+    // 2. Get the current file SHA to update it
+    const sha = await getGithubFileSha(filePath);
+
+    // 3. Prepare the request body
+    const content = btoa(unescape(encodeURIComponent(JSON.stringify(allProgress, null, 2)))); // Encode to base64, handling UTF-8
+    const body = {
+        message: `Sync progress on ${new Date().toISOString()}`,
+        content: content,
+        ...(sha && { sha: sha }) // Include SHA if updating an existing file
+    };
+
+    // 4. Make the API call
+    try {
+        const response = await fetch(url, {
+            method: 'PUT',
+            headers: {
+                'Authorization': `token ${token}`,
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(body)
+        });
+
+        if (!response.ok) {
+            const errorData = await response.json();
+            throw new Error(`فشلت المزامنة مع GitHub: ${errorData.message}`);
+        }
+        console.log("Progress synced to GitHub successfully.");
+    } catch (e) {
+        console.error("GitHub Sync Error:", e);
+        // alert(e.message); // This can be annoying, so we log it instead.
+    } finally {
+        isSyncing = false;
+    }
+}
+
+async function loadProgressFromGithub() {
+    if (!githubSyncConfig.enabled) return;
+    const { username, repo, token, filePath } = githubSyncConfig;
+    const url = `https://api.github.com/repos/${username}/${repo}/contents/${filePath}`;
+
+    try {
+        const response = await fetch(url, {
+            headers: { 'Authorization': `token ${token}` }
+        });
+        if (!response.ok) return; // No progress file yet, which is fine.
+
+        const fileData = await response.json();
+        const content = decodeURIComponent(escape(atob(fileData.content)));
+        const allProgress = JSON.parse(content);
+
+        // Apply the synced progress to localStorage
+        Object.keys(allProgress).forEach(key => {
+            localStorage.setItem(key, JSON.stringify(allProgress[key]));
+        });
+        console.log("Progress loaded from GitHub.");
+    } catch (e) {
+        console.error("Failed to load progress from GitHub:", e);
+    }
+}
+
 // بدء تشغيل التطبيق التلقائي فور التحميل
 window.onload = init;
 
 /* ==========================================
-   8. القاموس المدمج الذكي - (English-English Dictionary)
+   9. القاموس المدمج الذكي - (English-English Dictionary)
    ========================================== */
 document.addEventListener('DOMContentLoaded', () => {
     const wordInput = document.getElementById('wordInput');
@@ -759,7 +939,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 });
 /* ==========================================
-   9. ميزة التحديد الذكي للبحث التلقائي (Smart Highlight Search) - محسنة للهواتف
+   10. ميزة التحديد الذكي للبحث التلقائي (Smart Highlight Search) - محسنة للهواتف
    ========================================== */
 function performSmartSearch() {
     // A small delay ensures the mobile browser has finished registering the text selection

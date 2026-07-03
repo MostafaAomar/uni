@@ -1,0 +1,1975 @@
+{
+  "subject": " الدراما الحديثة سنة رابعة ف2 - Waiting for Godot , Major Barbara، د. واحة ",
+  "lang": "en",
+  "questions": [
+ 
+  {
+    "q": "1. Vladimir and Estragon are brothers.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "The correct answer is 'False'."
+  },
+  {
+    "q": "2. The play is set in a single location, a barren tree by a country road.",
+    "options": ["True", "False"],
+    "correct": 0,
+    "feedback": "The correct answer is 'True'."
+  },
+  {
+    "q": "3. The relationship between Pozzo and Lucky doesn't change throughout the play.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "The correct answer is 'False'."
+  },
+  {
+    "q": "4. The play is written in a linear narrative style with a clear resolution at the end.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "The correct answer is 'False'."
+  },
+  {
+    "q": "5. Beckett explicitly stated that Godot represents God, making the play a religious allegory.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "The correct answer is 'False'."
+  },
+  {
+    "q": "6. Beckett shares with James Joyce his preoccupation with the limits of:",
+    "options": ["Language", "Words", "Memories", "Perceptions"],
+    "correct": 0,
+    "feedback": "The correct answer is 'Language'."
+  },
+  {
+    "q": "7. The two forms of certainty according to Proust that Beckett introduced as valueless in his play are:",
+    "options": ["Voluntary memory and detailed observations", "Involuntary memory and habitual reality", "Language and dreams", "Change and Involuntary memory"],
+    "correct": 1,
+    "feedback": "The correct answer is 'Involuntary memory and habitual reality'."
+  },
+  {
+    "q": "8. Albert Camus published his essay 'The Myth of Sisyphus' on absurdism in:",
+    "options": ["1942", "1842", "1862", "1962"],
+    "correct": 0,
+    "feedback": "The correct answer is '1942'."
+  },
+  {
+    "q": "9. Beckett's theatrical trademark is:",
+    "options": ["Incoherent language", "Intellectual tramps", "Repetition", "Cyclic action"],
+    "correct": 1,
+    "feedback": "The correct answer is 'Intellectual tramps'."
+  },
+  {
+    "q": "10. Pozzo describes what as 'pale and luminous'?",
+    "options": ["The sun", "The moon", "Sunset", "The sky"],
+    "correct": 3,
+    "feedback": "The correct answer is 'The sky'."
+  },
+  {
+    "q": "11. Pozzo commented on his blindness as being a form of:",
+    "options": ["Change", "Destiny", "Death", "Punishment"],
+    "correct": 2,
+    "feedback": "The correct answer is 'Death'."
+  },
+  {
+    "q": "12. Sports and tennis in Lucky's monologue refer to man's attempt to compensate for the loss of all but one of the following:",
+    "options": ["Love", "Certainty", "Companionship", "Purpose"],
+    "correct": 1,
+    "feedback": "The correct answer is 'Certainty'."
+  },
+  {
+    "q": "13. Vladimir suffers the most because of:",
+    "options": ["Waiting", "Hopelessness", "Overthinking", "Idleness"],
+    "correct": 0,
+    "feedback": "The correct answer is 'Waiting'."
+  },
+  {
+    "q": "14. In Keller's 'A Strange Situation', the relationship between Pozzo and Lucky is mainly described as being:",
+    "options": ["Codependent", "Toxic", "Nurturing", "Deceptive"],
+    "correct": 0,
+    "feedback": "The correct answer is 'Codependent'."
+  },
+  {
+    "q": "15. Vladimir interrogates the boy because he wants to:",
+    "options": ["Test his truthfulness", "Understand him", "Understand Godot", "All of the above"],
+    "correct": 2,
+    "feedback": "The correct answer is 'Understand Godot'."
+  },
+  {
+    "q": "16. Critics tend to value the play mostly for its:",
+    "options": ["Didactics", "Codification", "Humour", "Minimalism"],
+    "correct": 2,
+    "feedback": "The correct answer is 'Humour'."
+  },
+  {
+    "q": "17. The first part of Shaw's preface was entitled:",
+    "options": ["First Aid to Critics", "Pocket Guide to Critics", "First Guide to Critics", "In Aid of Critics"],
+    "correct": 0,
+    "feedback": "The correct answer is 'First Aid to Critics'."
+  },
+  {
+    "q": "18. In the last part of his preface Shaw said that he is:",
+    "options": ["A revolutionary writer", "A social advocate", "An anarchist", "All of the above"],
+    "correct": 0,
+    "feedback": "The correct answer is 'A revolutionary writer'."
+  },
+  {
+    "q": "19. In 'The Gospel of St. Andrew Undershaft' Shaw suggests that civilisation cannot flourish without:",
+    "options": ["Democracy", "Money", "War", "Morality"],
+    "correct": 1,
+    "feedback": "The correct answer is 'Money'."
+  },
+  {
+    "q": "20. Cusins told Barbara that he decided to sell his soul to Undershaft for:",
+    "options": ["A chance at greatness", "Her sake", "Truth and power", "All of the above"],
+    "correct": 2,
+    "feedback": "The correct answer is 'Truth and power'."
+  },
+  {
+    "q": "21. Shaw mentioned that when money is 'cheapened to worthlessness', it becomes:",
+    "options": ["Valueless", "Tainted", "A curse", "A weapon"],
+    "correct": 2,
+    "feedback": "The correct answer is 'A curse'."
+  },
+  {
+    "q": "22. Shaw suggests that refusing salvation to Bill but making it available to Budger is an act of:",
+    "options": ["Favouritism", "Double standards", "Biased", "Hypocrisy"],
+    "correct": 1,
+    "feedback": "The correct answer is 'Double standards'."
+  },
+  {
+    "q": "23. In talking about his workers' living conditions, Undershaft says that 'cleanliness' needs no:",
+    "options": ["Excuse", "Justification", "Saving", "Explanation"],
+    "correct": 1,
+    "feedback": "The correct answer is 'Justification'."
+  },
+  {
+    "q": "24. In talking about war, Undershaft said that it didn't matter if things were wrong if they were:",
+    "options": ["Necessary", "True", "Effective", "Powerful"],
+    "correct": 1,
+    "feedback": "The correct answer is 'True'."
+  },
+  {
+    "q": "25. Snobby Price said that he was ready to take whatever was made available to him like:",
+    "options": ["The realists", "The socialists", "The Romans", "The capitalists"],
+    "correct": 1,
+    "feedback": "The correct answer is 'The socialists'."
+  },
+  {
+    "q": "26. Who criticised the habit of confession in the play?",
+    "options": ["Undershaft", "Bill Walker", "Britomart", "Cusins"],
+    "correct": 1,
+    "feedback": "The correct answer is 'Bill Walker'."
+  },
+  {
+    "q": "27. Who warned Cusins that Barbara might find out that he is not a true believer in the Salvation Army?",
+    "options": ["Britomart", "Undershaft", "Both a & b", "None did"],
+    "correct": 2,
+    "feedback": "The correct answer is 'Both a & b'."
+  },
+  {
+    "q": "28. Undershaft said that democracy wouldn't go hand in hand with:",
+    "options": ["Anxiety", "Morality", "Freedom", "Security"],
+    "correct": 0,
+    "feedback": "The correct answer is 'Anxiety'."
+  },
+  {
+    "q": "29. Who laid the foundations of the well-made play?",
+    "options": ["Eugene Scribe", "Emile Zola", "Henrik Ibsen", "None of the above"],
+    "correct": 0,
+    "feedback": "The correct answer is 'Eugene Scribe'."
+  },
+  {
+    "q": "30. A Realist play replaces the logical ending of the well-made play by:",
+    "options": ["A shocking event", "A tragic event", "A discussion", "Both a & b"],
+    "correct": 2,
+    "feedback": "The correct answer is 'A discussion'."
+  },
+  {
+    "q": "31. The well-made play is a prototype of the:",
+    "options": ["The Naturalist play", "The realist play", "The moralist play", "None of the above"],
+    "correct": 1,
+    "feedback": "The correct answer is 'The realist play'."
+  },
+  {
+    "q": "32. Henrik Ibsen was:",
+    "options": ["French", "Irish", "German", "Norwegian"],
+    "correct": 3,
+    "feedback": "The correct answer is 'Norwegian'."
+  },
+  {
+    "q": "33. Shaw's contribution to the feminist movement includes:",
+    "options": [
+      "Writing exclusively about women's domestic roles",
+      "Creating complex and resilient female characters",
+      "Avoiding any feminist themes in his plays",
+      "Promoting women's inferiority to men"
+    ],
+    "correct": 1,
+    "feedback": "The correct answer is 'Creating complex and resilient female characters'."
+  },
+  {
+    "q": "34. In the preface to 'Major Barbara,' Shaw argues that all money:",
+    "options": [
+      "Is inherently evil",
+      "Can be used for good regardless of its origin",
+      "Should be avoided by charitable organizations",
+      "Is the root of all societal problems"
+    ],
+    "correct": 1,
+    "feedback": "The correct answer is 'Can be used for good regardless of its origin'."
+  },
+  {
+    "q": "35. Shaw was a key figure in which society?",
+    "options": ["The Socialist Workers Party", "The Fabian Society", "The Labor Union", "The Communist Party"],
+    "correct": 1,
+    "feedback": "The correct answer is 'The Fabian Society'."
+  },
+  {
+    "q": "36. According to Bernard Shaw, what is the best instrument for moral propaganda?",
+    "options": ["Personal conduct", "Fine art", "The stage", "All of the above"],
+    "correct": 2,
+    "feedback": "The correct answer is 'The stage'."
+  },
+  {
+    "q": "37. In 'Waiting for Godot,' the characters Vladimir and Estragon may symbolize:",
+    "options": ["A typical hero and villain", "The intellectual mind and the physical body", "A teacher and a student", "Pure good and evil"],
+    "correct": 1,
+    "feedback": "The correct answer is 'The intellectual mind and the physical body'."
+  },
+  {
+    "q": "38. Which of the following is a characteristic of the world depicted in Beckett's plays?",
+    "options": [
+      "Optimistic portrayals of human progress and achievement",
+      "A structured and logical sequence of events",
+      "A strong emphasis on the importance of individual freedom",
+      "A rejection of conventional reality"
+    ],
+    "correct": 3,
+    "feedback": "The correct answer is 'A rejection of conventional reality'."
+  },
+  {
+    "q": "39. Beckett's legacy is primarily associated with:",
+    "options": ["Gothic fiction", "Political satires", "Absurdist theater", "Science fiction"],
+    "correct": 2,
+    "feedback": "The correct answer is 'Absurdist theater'."
+  },
+  {
+    "q": "40. Plays of the 'theatre of the absurd' usually lack:",
+    "options": ["Traditional concept of plot", "Traditional characterization", "Logical structure", "All of the above"],
+    "correct": 3,
+    "feedback": "The correct answer is 'All of the above'."
+  },
+  
+  {
+    "q": "1. The first part of Shaw's preface was entitled:",
+    "options": ["First Aid to Critics", "Pocket Guide to Critics", "First Guide to Critics", "In Aid of Critics"],
+    "correct": 0,
+    "feedback": "The correct answer is 'First Aid to Critics'."
+  },
+  {
+    "q": "2. In the last part of his preface Shaw said that he is:",
+    "options": ["A revolutionary writer", "A social advocate", "An anarchist", "All of the above"],
+    "correct": 0,
+    "feedback": "The correct answer is 'A revolutionary writer'."
+  },
+  {
+    "q": "3. Shaw cited Charles Lever's novel entitled:",
+    "options": ["A Life's Romance", "A Day's Romance", "A Day's Ride", "All of the above"],
+    "correct": 3,
+    "feedback": "The correct answer is 'All of the above'."
+  },
+  {
+    "q": "4. Shaw suggests that what his play has in common with Lever and Ibsen is its:",
+    "options": ["Focus on gender issues", "Highlighting Romantic ideals", "Theme of disillusionment", "None of the above"],
+    "correct": 2,
+    "feedback": "The correct answer is 'Theme of disillusionment'."
+  },
+  {
+    "q": "5. In 'The Gospel of St. Andrew Undershaft' Shaw suggests that civilisation cannot flourish without:",
+    "options": ["Democracy", "Money", "War", "Morality"],
+    "correct": 1,
+    "feedback": "The correct answer is 'Money'."
+  },
+  {
+    "q": "6. Cusins told Barbara that he decided to sell his soul to Undershaft for:",
+    "options": ["A chance at greatness", "Her sake", "Truth and power", "All of the above"],
+    "correct": 2,
+    "feedback": "The correct answer is 'Truth and power'."
+  },
+  {
+    "q": "7. Shaw mentioned that when money is 'cheapened to worthlessness', it becomes:",
+    "options": ["Valueless", "Tainted", "A curse", "A weapon"],
+    "correct": 2,
+    "feedback": "The correct answer is 'A curse'."
+  },
+  {
+    "q": "8. Shaw suggests that refusing salvation to Bill but making it available to Budger is an act of:",
+    "options": ["Favouritism", "Double standards", "Biased", "Hypocrisy"],
+    "correct": 1,
+    "feedback": "The correct answer is 'Double standards'."
+  },
+  {
+    "q": "9. In talking about his workers' living conditions, Undershaft says that 'cleanliness' needs no:",
+    "options": ["Excuse", "Justification", "Saving", "Explanation"],
+    "correct": 1,
+    "feedback": "The correct answer is 'Justification'."
+  },
+  {
+    "q": "10. In talking about war, Undershaft said that it didn't matter if things were wrong if they were:",
+    "options": ["Necessary", "True", "Effective", "Powerful"],
+    "correct": 1,
+    "feedback": "The correct answer is 'True'."
+  },
+  {
+    "q": "11. Snobby Price said that he was ready to take whatever was made available to him like:",
+    "options": ["The realists", "The socialists", "The Romans", "The capitalists"],
+    "correct": 0,
+    "feedback": "The correct answer is 'The realists'."
+  },
+  {
+    "q": "12. Who criticised the habit of confession in the play?",
+    "options": ["Undershaft", "Bill Walker", "Britomart", "Cusins"],
+    "correct": 3,
+    "feedback": "The correct answer is 'Cusins'."
+  },
+  {
+    "q": "13. Who warned Cusins that Barbara might find out he is not a true believer in the Salvation Army?",
+    "options": ["Britomart", "Undershaft", "Both a & b", "None did"],
+    "correct": 2,
+    "feedback": "The correct answer is 'Both a & b'."
+  },
+  {
+    "q": "14. Cusins said: 'One man's meat is another man's poison' referring to the fact that:",
+    "options": ["Life is built on exploitation", "Money can be good and evil", "Personal interest comes first", "There is no one fixed value for anything"],
+    "correct": 3,
+    "feedback": "The correct answer is 'There is no one fixed value for anything'."
+  },
+  {
+    "q": "15. Undershaft said that democracy wouldn't go hand in hand with:",
+    "options": ["Anxiety", "Morality", "Freedom", "Security"],
+    "correct": 0,
+    "feedback": "The correct answer is 'Anxiety'."
+  },
+  {
+    "q": "16. Who laid the foundations of the well-made play?",
+    "options": ["Eugene Scribe", "Emile Zola", "Henrik Ibsen", "None of the above"],
+    "correct": 0,
+    "feedback": "The correct answer is 'Eugene Scribe'."
+  },
+  {
+    "q": "17. A Realist play replaces the logical ending of the well-made play by:",
+    "options": ["A shocking event", "A tragic event", "A discussion", "Both a & b"],
+    "correct": 2,
+    "feedback": "The correct answer is 'A discussion'."
+  },
+  {
+    "q": "18. Ibsen's A Doll House is often compared to which play by Shaw?",
+    "options": ["Widowers' Houses", "Candida", "Major Barbara", "Man and Superman"],
+    "correct": 1,
+    "feedback": "The correct answer is 'Candida'."
+  },
+  {
+    "q": "19. The well-made play is a prototype of the:",
+    "options": ["The Naturalist play", "The realist play", "The moralist play", "None of the above"],
+    "correct": 3,
+    "feedback": "The correct answer is 'None of the above'."
+  },
+  {
+    "q": "20. Henrik Ibsen was:",
+    "options": ["French", "Irish", "German", "Norwegian"],
+    "correct": 3,
+    "feedback": "The correct answer is 'Norwegian'."
+  },
+  {
+    "q": "21. Beckett shares with James Joyce his preoccupation with the limits of:",
+    "options": ["Language", "Words", "Memories", "Perceptions"],
+    "correct": 0,
+    "feedback": "The correct answer is 'Language'."
+  },
+  {
+    "q": "22. The two forms of certainty according to Proust that Beckett introduced as valueless in his play are:",
+    "options": ["Voluntary memory and detailed observations", "Involuntary memory and habitual reality", "Language and dreams", "Change and involuntary memory"],
+    "correct": 1,
+    "feedback": "The correct answer is 'Involuntary memory and habitual reality'."
+  },
+  {
+    "q": "23. One of the following characters loses his memory constantly:",
+    "options": ["Estragon", "Vladimir", "Pozzo", "Godot"],
+    "correct": 0,
+    "feedback": "The correct answer is 'Estragon'."
+  },
+  {
+    "q": "24. Evan Turgenev introduced Nihilism to literature in his novel Fathers and Sons published in:",
+    "options": ["1942", "1842", "1862", "1962"],
+    "correct": 2,
+    "feedback": "The correct answer is '1862'."
+  },
+  {
+    "q": "25. Albert Camus published his essay 'The Myth of Sisyphus' on absurdism in:",
+    "options": ["1942", "1842", "1862", "1962"],
+    "correct": 0,
+    "feedback": "The correct answer is '1942'."
+  },
+  {
+    "q": "26. Beckett's theatrical trademark is:",
+    "options": ["Incoherent language", "Intellectual tramps", "Repetition", "Cyclic action"],
+    "correct": 1,
+    "feedback": "The correct answer is 'Intellectual tramps'."
+  },
+  {
+    "q": "27. Beckett highlights the idea of uncertainty in the plays through:",
+    "options": ["Silence", "Repetitive dialogues", "Unreliable memory", "Nightmares"],
+    "correct": 2,
+    "feedback": "The correct answer is 'Unreliable memory'."
+  },
+  {
+    "q": "28. Vladimir's statement that 'habit is a great deadener' was immediately preceded by:",
+    "options": ["The boy's second arrival", "The boy's final exit", "Pozzo and Lucky's final exit", "Pozzo's final speech"],
+    "correct": 1,
+    "feedback": "The correct answer is 'The boy's final exit'."
+  },
+  {
+    "q": "29. Pozzo's two poetic speeches about light, darkness, and vision symbolically describe:",
+    "options": ["The cycle of life", "Day and night", "Waiting and prospect", "Both a & c"],
+    "correct": 3,
+    "feedback": "The correct answer is 'Both a & c'."
+  },
+  {
+    "q": "30. Pozzo describes what as 'pale and luminous'?",
+    "options": ["The sun", "The moon", "Sunset", "The sky"],
+    "correct": 3,
+    "feedback": "The correct answer is 'The sky'."
+  },
+  {
+    "q": "31. What does Lucky mention in his monologue that brings about a spiritual calm in the relationship between individuals and their god?",
+    "options": ["Obedience", "Love", "Dependence", "None of the above"],
+    "correct": 1,
+    "feedback": "The correct answer is 'Love'."
+  },
+  {
+    "q": "32. Pozzo commented on his blindness as being a form of:",
+    "options": ["Change", "Destiny", "Death", "Punishment"],
+    "correct": 2,
+    "feedback": "The correct answer is 'Death'."
+  },
+  {
+    "q": "33. Sports and tennis in Lucky's monologue refer to man's attempt to compensate for the loss of all but one of the following:",
+    "options": ["Love", "Certainty", "Companionship", "Purpose"],
+    "correct": 1,
+    "feedback": "The correct answer is 'Certainty'."
+  },
+  {
+    "q": "34. Vladimir suffers the most because of:",
+    "options": ["Waiting", "Hopelessness", "Overthinking", "Idleness"],
+    "correct": 0,
+    "feedback": "The correct answer is 'Waiting'."
+  },
+  {
+    "q": "35. Vladimir's difficult urination represents his inability to:",
+    "options": ["Cope and adapt", "Forget the past", "Move onto the future", "All of the above"],
+    "correct": 3,
+    "feedback": "The correct answer is 'All of the above'."
+  },
+  {
+    "q": "36. In Keller's 'A Strange Situation', the relationship between Pozzo and Lucky is mainly described as being:",
+    "options": ["Codependent", "Toxic", "Nurturing", "Deceptive"],
+    "correct": 1,
+    "feedback": "The correct answer is 'Toxic'."
+  },
+  {
+    "q": "37. Lucky's monologue and Pozzo's speech are:",
+    "options": ["Ambiguous", "Poetic", "Complementary", "Desperate"],
+    "correct": 2,
+    "feedback": "The correct answer is 'Complementary'."
+  },
+  {
+    "q": "38. Vladimir interrogates the boy because he wants to:",
+    "options": ["Test his truthfulness", "Understand him", "Understand Godot", "All of the above"],
+    "correct": 2,
+    "feedback": "The correct answer is 'Understand Godot'."
+  },
+  {
+    "q": "39. Critics tend to value the play for its:",
+    "options": ["Didactics", "Codification", "Humour", "Minimalism"],
+    "correct": 1,
+    "feedback": "The correct answer is 'Codification'."
+  },
+  {
+    "q": "40. Keller describes 'the terror of psychic annihilation that would result from moving away from a particular person' as:",
+    "options": ["Unbearable", "Confusing", "Damaging", "Unavoidable"],
+    "correct": 0,
+    "feedback": "The correct answer is 'Unbearable'."
+  },
+  {
+    "q": "41. Beckett's approach to his artistic works is best described as:",
+    "options": ["Carefree and spontaneous", "Meticulous and precise", "Indifferent to detail", "Both B and D"],
+    "correct": 1,
+    "feedback": "The correct answer is 'Meticulous and precise'."
+  },
+  {
+    "q": "42. Which of the following is NOT a characteristic of the world depicted in Beckett's plays?",
+    "options": ["A pervasive sense of loneliness and isolation", "A rejection of conventional reality", "A strong emphasis on the importance of individual freedom", "A sense of entrapment and a lack of agency"],
+    "correct": 2,
+    "feedback": "The correct answer is 'A strong emphasis on the importance of individual freedom'."
+  },
+  {
+    "q": "43. What does the term 'Beckettian' imply?",
+    "options": ["A bleak vision of life", "Minimalist stage settings", "A darkly humorous vision of life", "Rejection of convention"],
+    "correct": 2,
+    "feedback": "The correct answer is 'A darkly humorous vision of life'."
+  },
+  {
+    "q": "44. Beckett's plays resonated with Post-war audiences because of:",
+    "options": ["Their timelessness", "Their minimalist stage and shabby characters", "Their lack of hope and certainty", "Both B and C"],
+    "correct": 3,
+    "feedback": "The correct answer is 'Both B and C'."
+  },
+  {
+    "q": "45. Plays of the 'theatre of the absurd' usually lack:",
+    "options": ["Traditional concept of plot", "Traditional characterization", "Unrealistic setting", "All of the above"],
+    "correct": 3,
+    "feedback": "The correct answer is 'All of the above'."
+  },
+  {
+    "q": "46. George Bernard Shaw's approach to Socialism was characterized by:",
+    "options": ["Gradualism and pragmatism", "Revolution and anarchy", "Individualism and capitalism", "Both A and B"],
+    "correct": 0,
+    "feedback": "The correct answer is 'Gradualism and pragmatism'."
+  },
+  {
+    "q": "47. According to Bernard Shaw, what is the best instrument for moral propaganda?",
+    "options": ["Personal conduct", "Fine art", "The stage", "All of the above"],
+    "correct": 2,
+    "feedback": "The correct answer is 'The stage'."
+  },
+  {
+    "q": "48. Shaw portrays female characters as:",
+    "options": ["Followers of traditional Victorian ideals", "Intellectually superior and morally independent", "Dependent on male characters", "Exhibiting exaggerated femininity"],
+    "correct": 1,
+    "feedback": "The correct answer is 'Intellectually superior and morally independent'."
+  },
+  {
+    "q": "49. Shaw's preface to Major Barbara argues that:",
+    "options": ["Money is a source of illness and disgrace", "Poverty is a noble condition", "Wealth is inherently evil", "None"],
+    "correct": 3,
+    "feedback": "The correct answer is 'None'."
+  },
+  {
+    "q": "50. Shaw's legacy in modern drama is characterized by his:",
+    "options": ["Adherence to classical form", "Revolutionary ideas and social critiques", "Focus on mythical themes", "Disregard for social issues"],
+    "correct": 1,
+    "feedback": "The correct answer is 'Revolutionary ideas and social critiques'."
+  },
+
+  
+  {
+    "q": "1. Samuel Beckette is a modernist playwright.",
+    "options": ["True", "False"],
+    "correct": 0,
+    "feedback": "The correct answer is 'True'."
+  },
+  {
+    "q": "2. Waiting for Godot is classified as an absurdist play.",
+    "options": ["True", "False"],
+    "correct": 0,
+    "feedback": "The correct answer is 'True'."
+  },
+  {
+    "q": "3. The characters in Waiting for Godot are portrayed as intelligent and wise.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "The correct answer is 'False'."
+  },
+  {
+    "q": "4. Vladimir's hat symbolises imprisonment of thought.",
+    "options": ["True", "False"],
+    "correct": 0,
+    "feedback": "The correct answer is 'True'."
+  },
+  {
+    "q": "5. Vladimir woke Estragon up from his nap because he was afraid of the dark.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "The correct answer is 'False'."
+  },
+  {
+    "q": "6. Estragon expressed his feeling of being unhappy in Act I.",
+    "options": ["True", "False"],
+    "correct": 0,
+    "feedback": "The correct answer is 'True'."
+  },
+  {
+    "q": "7. Pozzo needs human companions because he is blind.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "The correct answer is 'False'."
+  },
+  {
+    "q": "8. Vladimir's song is optimistic.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "The correct answer is 'False'."
+  },
+  {
+    "q": "9. The boy knows all the answers to Vladimir's questions.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "The correct answer is 'False'."
+  },
+  {
+    "q": "10. Vladimir screamed 'it's a scandal' when Pozzo gave Estragon the bones.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "The correct answer is 'False'."
+  },
+  {
+    "q": "11. Pozzo tries to play the victim in his relationship with Lucky.",
+    "options": ["True", "False"],
+    "correct": 0,
+    "feedback": "The correct answer is 'True'."
+  },
+  {
+    "q": "12. Estragon refers to Pozzo and Lucky as Abel and Caine in Act II.",
+    "options": ["True", "False"],
+    "correct": 0,
+    "feedback": "The correct answer is 'True'."
+  },
+  {
+    "q": "13. Vladimir and Estragon are waiting for Godot because they are certain he will come.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "The correct answer is 'False'."
+  },
+  {
+    "q": "14. What about his father, Andrew, bewilders Stephen?",
+    "options": ["His religion", "His morality", "His wealth", "His greed"],
+    "correct": 1,
+    "feedback": "The correct answer is 'His morality'."
+  },
+  {
+    "q": "15. What is the name of Bill Walker's girl?",
+    "options": ["Jenny", "Sarah", "Rummy", "Mog"],
+    "correct": 3,
+    "feedback": "The correct answer is 'Mog'."
+  },
+  {
+    "q": "16. Who is Lord Saxmundham?",
+    "options": ["Andrew Undershaft", "Lazarus", "Horace Bodger", "Todger Fairmille"],
+    "correct": 2,
+    "feedback": "The correct answer is 'Horace Bodger'."
+  },
+  {
+    "q": "17. What is Lady Britomart's maiden name?",
+    "options": ["Saxmundham", "Undershaft", "Fairmille", "Stevenage"],
+    "correct": 3,
+    "feedback": "The correct answer is 'Stevenage'."
+  },
+  {
+    "q": "18. What does Undershaft identify as necessary to salvation?",
+    "options": ["Honesty and reputation", "Money and gunpowder", "Money and intelligence", "Money and power"],
+    "correct": 1,
+    "feedback": "The correct answer is 'Money and gunpowder'."
+  },
+  {
+    "q": "19. What does Horace Bodger produce?",
+    "options": ["Arms", "Liquor", "Coal", "Bread"],
+    "correct": 1,
+    "feedback": "The correct answer is 'Liquor'."
+  },
+  {
+    "q": "20. What does Undershaft consider the 'final test' of conviction?",
+    "options": ["Power", "Justice", "Honesty", "Killing"],
+    "correct": 3,
+    "feedback": "The correct answer is 'Killing'."
+  },
+  {
+    "q": "21. Where do Cusins's parents reside?",
+    "options": ["Canada", "Austria", "Australia", "New Zealand"],
+    "correct": 2,
+    "feedback": "The correct answer is 'Australia'."
+  },
+  {
+    "q": "22. What profession does Undershaft suggest to Stephen?",
+    "options": ["Politician", "Lawyer", "Philosopher", "Journalist"],
+    "correct": 2,
+    "feedback": "The correct answer is 'Philosopher'."
+  },
+  {
+    "q": "23. What instrument does Undershaft play?",
+    "options": ["The drum", "The piano", "The trumpet", "The trombone"],
+    "correct": 3,
+    "feedback": "The correct answer is 'The trombone'."
+  },
+  {
+    "q": "24. What is Rummy short for?",
+    "options": ["Romele", "Romola", "Rumula", "Rumali"],
+    "correct": 1,
+    "feedback": "The correct answer is 'Romola'."
+  },
+  {
+    "q": "25. Lady Britomart speaks to Stephen about what concern?",
+    "options": ["His behaviour", "Family finances", "Sister's marriage prospects", "Her health"],
+    "correct": 1,
+    "feedback": "The correct answer is 'Family finances'."
+  },
+  {
+    "q": "26. Why did Undershaft disinherit Stephen?",
+    "options": ["Lady Britomart's divorce", "Lady Britomart's infidelity", "Stephen's spending habits", "Desire for foundling successor"],
+    "correct": 3,
+    "feedback": "The correct answer is 'Desire for foundling successor'."
+  },
+  {
+    "q": "27. What causes Barbara to look forward to her father's visit?",
+    "options": ["His soul needs saving", "He is generous", "She likes controversy", "All of the above"],
+    "correct": 0,
+    "feedback": "The correct answer is 'His soul needs saving'."
+  },
+  {
+    "q": "28. What is Andrew Undershaft's motto?",
+    "options": [
+      "If God gave the hand, let not man withhold the sword",
+      "All have the right to fight: none have the right to judge",
+      "Peace shall not prevail save with a sword in her hand",
+      "Unashamed"
+    ],
+    "correct": 3,
+    "feedback": "The correct answer is 'Unashamed'."
+  },
+  {
+    "q": "29. In Waiting for Godot, if radishes and turnips represent harsh realities, then carrots represent:",
+    "options": ["Memories", "Nightmares", "Lost hopes and dreams", "Future prospects"],
+    "correct": 3,
+    "feedback": "The correct answer is 'Future prospects'."
+  },
+  {
+    "q": "30. Vladimir: 'Where are all these corpses from?' Corpses are:",
+    "options": ["Vladimir's thoughts", "Estragon's nightmares", "Both A & B", "The tree leaves"],
+    "correct": 0,
+    "feedback": "The correct answer is 'Vladimir's thoughts'."
+  },
+  {
+    "q": "31. Samuel Beckett used [...] to emphasise failed communication:",
+    "options": ["Repetition and pause", "Silence and interruption", "Repetition and interruption", "Repetition and silence"],
+    "correct": 3,
+    "feedback": "The correct answer is 'Repetition and silence'."
+  },
+  {
+    "q": "32. Who has Estragon all his life compared himself to?",
+    "options": ["Lucky", "Christ", "Abel", "Caine"],
+    "correct": 1,
+    "feedback": "The correct answer is 'Christ'."
+  },
+  {
+    "q": "33. Pozzo's speech describing the succession of day and night could be interpreted as referring to:",
+    "options": ["Life and death", "The beginning and the end", "The brevity of human life", "All of the above"],
+    "correct": 3,
+    "feedback": "The correct answer is 'All of the above'."
+  },
+  {
+    "q": "34. Vladimir has:",
+    "options": ["Chest pain", "Bladder problems"],
+    "correct": 1,
+    "feedback": "The correct answer is 'Bladder problems'."
+  },
+  {
+    "q": "35. Beckett's play is:",
+    "options": ["Popular", "Unpopular"],
+    "correct": 0,
+    "feedback": "The correct answer is 'Popular'."
+  },
+  {
+    "q": "36. Beckett is:",
+    "options": ["A successful teacher", "A novelist"],
+    "correct": 1,
+    "feedback": "The correct answer is 'A novelist'."
+  },
+  {
+    "q": "37. Estragon's boots were:",
+    "options": ["Too small", "Too big"],
+    "correct": 0,
+    "feedback": "The correct answer is 'Too small'."
+  },
+  {
+    "q": "38. Estragon's nightmares reflect:",
+    "options": ["A guilty conscience", "A desperate life"],
+    "correct": 1,
+    "feedback": "The correct answer is 'A desperate life'."
+  },
+  {
+    "q": "39. Lucky refuses:",
+    "options": ["To put down his bags", "To dance"],
+    "correct": 0,
+    "feedback": "The correct answer is 'To put down his bags'."
+  },
+  {
+    "q": "40. Vladimir sings a song about:",
+    "options": ["A man", "A dog"],
+    "correct": 1,
+    "feedback": "The correct answer is 'A dog'."
+  },
+  {
+    "q": "41. In Lucky's monologue, according to Keller, the mother's ______ generates 'the calm which even though intermittent is better than nothing':",
+    "options": ["Love", "Presence", "Protection", "Voice"],
+    "correct": 2,
+    "feedback": "The correct answer is 'Protection'."
+  },
+  {
+    "q": "42. Keller suggests that in life, 'one is given to a sense of tranquillity, only to be... the world in a sudden, violent rupture':",
+    "options": ["Shocked by", "Torn from", "Rewarded by", "Punished by"],
+    "correct": 1,
+    "feedback": "The correct answer is 'Torn from'."
+  },
+  {
+    "q": "43. An absent mother is represented by all but one of the following characters according to Keller:",
+    "options": ["Pozzo", "Godot", "Vladimir", "Lucky"],
+    "correct": 3,
+    "feedback": "The correct answer is 'Lucky'."
+  },
+  {
+    "q": "44. According to Keller, Pozzo's 'greedy, envious devouring of Lucky' is one example of:",
+    "options": ["Pozzo's lack of internal goodness", "Pozzo's selfish love", "Pozzo's anxiety", "Pozzo's domination"],
+    "correct": 0,
+    "feedback": "The correct answer is 'Pozzo's lack of internal goodness'."
+  },
+  {
+    "q": "45. Vladimir refuses to hear Estragon's nightmares. According to Keller, this exemplifies:",
+    "options": ["Vladimir's aloofness", "Estragon's dependence", "A mother's failure to contain early anxieties", "None"],
+    "correct": 2,
+    "feedback": "The correct answer is 'A mother's failure to contain early anxieties'."
+  },
+  {
+    "q": "46. Keller's article suggests that Pozzo, as a mother, provides Lucky's emotional needs.",
+    "options": ["True", "False"],
+    "correct": 0,
+    "feedback": "The correct answer is 'True'."
+  },
+  {
+    "q": "47. Keller uses the term 'the primary object' to refer to the co-dependent relationship.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "The correct answer is 'False'."
+  },
+  {
+    "q": "48. Each person has a personal god which Keller refers to as the core internal object.",
+    "options": ["True", "False"],
+    "correct": 0,
+    "feedback": "The correct answer is 'True'."
+  },
+  {
+    "q": "49. The boy's existence in the play reduces the sense of abandonment felt by Vladimir.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "The correct answer is 'False'."
+  },
+  {
+    "q": "50. Vladimir's relief after he experienced separation from Estragon was signalled by his ability to sleep comfortably.",
+    "options": ["True", "False"],
+    "correct": 0,
+    "feedback": "The correct answer is 'True'."
+  },
+
+  {
+    "q": "1. Samuel Beckette is a modernist playwright.",
+    "options": ["True", "False"],
+    "correct": 0,
+    "feedback": "The correct answer is 'True'."
+  },
+  {
+    "q": "2. Waiting for Godot is classified as an absurdist play.",
+    "options": ["True", "False"],
+    "correct": 0,
+    "feedback": "The correct answer is 'True'."
+  },
+  {
+    "q": "3. The characters in Waiting for Godot are portrayed as intelligent and wise.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "The correct answer is 'False'."
+  },
+  {
+    "q": "4. Vladimir's hat symbolises imprisonment of thought.",
+    "options": ["True", "False"],
+    "correct": 0,
+    "feedback": "The correct answer is 'True'."
+  },
+  {
+    "q": "5. Vladimir woke Estragon up from his nap because he was afraid of the dark.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "The correct answer is 'False'."
+  },
+  {
+    "q": "6. Estragon expressed his feeling of being unhappy in Act I.",
+    "options": ["True", "False"],
+    "correct": 0,
+    "feedback": "The correct answer is 'True'."
+  },
+  {
+    "q": "7. Pozzo needs human companions because he is blind.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "The correct answer is 'False'."
+  },
+  {
+    "q": "8. Vladimir's song is optimistic.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "The correct answer is 'False'."
+  },
+  {
+    "q": "9. The boy knows all the answers to Vladimir's questions.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "The correct answer is 'False'."
+  },
+  {
+    "q": "10. Vladimir screamed 'it's a scandal' when Pozzo gave Estragon the bones.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "The correct answer is 'False'."
+  },
+  {
+    "q": "11. Pozzo tries to play the victim in his relationship with Lucky.",
+    "options": ["True", "False"],
+    "correct": 0,
+    "feedback": "The correct answer is 'True'."
+  },
+  {
+    "q": "12. Estragon refers to Pozzo and Lucky as Abel and Caine in Act II.",
+    "options": ["True", "False"],
+    "correct": 0,
+    "feedback": "The correct answer is 'True'."
+  },
+  {
+    "q": "13. Vladimir and Estragon are waiting for Godot because they are certain he will come.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "The correct answer is 'False'."
+  },
+  {
+    "q": "14. What about his father, Andrew, bewilders Stephen?",
+    "options": ["His religion", "His morality", "His wealth", "His greed"],
+    "correct": 1,
+    "feedback": "The correct answer is 'His morality'."
+  },
+  {
+    "q": "15. What is the name of Bill Walker's girl?",
+    "options": ["Jenny", "Sarah", "Rummy", "Mog"],
+    "correct": 3,
+    "feedback": "The correct answer is 'Mog'."
+  },
+  {
+    "q": "16. Who is Lord Saxmundham?",
+    "options": ["Andrew Undershaft", "Lazarus", "Horace Bodger", "Todger Fairmille"],
+    "correct": 2,
+    "feedback": "The correct answer is 'Horace Bodger'."
+  },
+  {
+    "q": "17. What is Lady Britomart's maiden name?",
+    "options": ["Saxmundham", "Undershaft", "Fairmille", "Stevenage"],
+    "correct": 3,
+    "feedback": "The correct answer is 'Stevenage'."
+  },
+  {
+    "q": "18. What does Undershaft identify as necessary to salvation?",
+    "options": ["Honesty and reputation", "Money and gunpowder", "Money and intelligence", "Money and power"],
+    "correct": 1,
+    "feedback": "The correct answer is 'Money and gunpowder'."
+  },
+  {
+    "q": "19. What does Horace Bodger produce?",
+    "options": ["Arms", "Liquor", "Coal", "Bread"],
+    "correct": 1,
+    "feedback": "The correct answer is 'Liquor'."
+  },
+  {
+    "q": "20. What does Undershaft consider the 'final test' of conviction?",
+    "options": ["Power", "Justice", "Honesty", "Killing"],
+    "correct": 3,
+    "feedback": "The correct answer is 'Killing'."
+  },
+  
+  {
+    "q": "21. Where do Cusins's parents reside?",
+    "options": ["Canada", "Austria", "Australia", "New Zealand"],
+    "correct": 2,
+    "feedback": "The correct answer is 'Australia'."
+  },
+  {
+    "q": "22. What profession does Undershaft suggest to Stephen?",
+    "options": ["Politician", "Lawyer", "Philosopher", "Journalist"],
+    "correct": 2,
+    "feedback": "The correct answer is 'Philosopher'."
+  },
+  {
+    "q": "23. What instrument does Undershaft play?",
+    "options": ["The drum", "The piano", "The trumpet", "The trombone"],
+    "correct": 3,
+    "feedback": "The correct answer is 'The trombone'."
+  },
+  {
+    "q": "24. What is Rummy short for?",
+    "options": ["Romele", "Romola", "Rumula", "Rumali"],
+    "correct": 1,
+    "feedback": "The correct answer is 'Romola'."
+  },
+  {
+    "q": "25. Lady Britomart speaks to Stephen about what concern?",
+    "options": ["His behaviour", "Family finances", "Sister's marriage prospects", "Her health"],
+    "correct": 1,
+    "feedback": "The correct answer is 'Family finances'."
+  },
+  {
+    "q": "26. Why did Undershaft disinherit Stephen?",
+    "options": ["Lady Britomart's divorce", "Lady Britomart's infidelity", "Stephen's spending habits", "Desire for foundling successor"],
+    "correct": 3,
+    "feedback": "The correct answer is 'Desire for foundling successor'."
+  },
+  {
+    "q": "27. What causes Barbara to look forward to her father's visit?",
+    "options": ["His soul needs saving", "He is generous", "She likes controversy", "All of the above"],
+    "correct": 0,
+    "feedback": "The correct answer is 'His soul needs saving'."
+  },
+  {
+    "q": "28. What is Andrew Undershaft's motto?",
+    "options": [
+      "If God gave the hand, let not man withhold the sword",
+      "All have the right to fight: none have the right to judge",
+      "Peace shall not prevail save with a sword in her hand",
+      "Unashamed"
+    ],
+    "correct": 3,
+    "feedback": "The correct answer is 'Unashamed'."
+  },
+  {
+    "q": "29. In Waiting for Godot, if radishes and turnips represent harsh realities, then carrots represent:",
+    "options": ["Memories", "Nightmares", "Lost hopes and dreams", "Future prospects"],
+    "correct": 3,
+    "feedback": "The correct answer is 'Future prospects'."
+  },
+  {
+    "q": "30. Vladimir: 'Where are all these corpses from?' Corpses are:",
+    "options": ["Vladimir's thoughts", "Estragon's nightmares", "Both A & B", "The tree leaves"],
+    "correct": 0,
+    "feedback": "The correct answer is 'Vladimir's thoughts'."
+  },
+  {
+    "q": "31. Samuel Beckett used [...] to emphasise failed communication:",
+    "options": ["Repetition and pause", "Silence and interruption", "Repetition and interruption", "Repetition and silence"],
+    "correct": 3,
+    "feedback": "The correct answer is 'Repetition and silence'."
+  },
+  {
+    "q": "32. Who has Estragon all his life compared himself to?",
+    "options": ["Lucky", "Christ", "Abel", "Caine"],
+    "correct": 1,
+    "feedback": "The correct answer is 'Christ'."
+  },
+  {
+    "q": "33. Pozzo's speech describing the succession of day and night could be interpreted as referring to:",
+    "options": ["Life and death", "The beginning and the end", "The brevity of human life", "All of the above"],
+    "correct": 3,
+    "feedback": "The correct answer is 'All of the above'."
+  },
+  {
+    "q": "34. Vladimir has:",
+    "options": ["Chest pain", "Bladder problems"],
+    "correct": 1,
+    "feedback": "The correct answer is 'Bladder problems'."
+  },
+  {
+    "q": "35. Beckett's play is:",
+    "options": ["Popular", "Unpopular"],
+    "correct": 0,
+    "feedback": "The correct answer is 'Popular'."
+  },
+  {
+    "q": "36. Beckett is:",
+    "options": ["A successful teacher", "A novelist"],
+    "correct": 1,
+    "feedback": "The correct answer is 'A novelist'."
+  },
+  {
+    "q": "37. Estragon's boots were:",
+    "options": ["Too small", "Too big"],
+    "correct": 0,
+    "feedback": "The correct answer is 'Too small'."
+  },
+  {
+    "q": "38. Estragon's nightmares reflect:",
+    "options": ["A guilty conscience", "A desperate life"],
+    "correct": 1,
+    "feedback": "The correct answer is 'A desperate life'."
+  },
+  {
+    "q": "39. Lucky refuses:",
+    "options": ["To put down his bags", "To dance"],
+    "correct": 0,
+    "feedback": "The correct answer is 'To put down his bags'."
+  },
+  {
+    "q": "40. Vladimir sings a song about:",
+    "options": ["A man", "A dog"],
+    "correct": 1,
+    "feedback": "The correct answer is 'A dog'."
+  },
+  {
+    "q": "41. In Lucky's monologue, according to Keller, the mother's protection generates 'the calm which even though intermittent is better than nothing'.",
+    "options": ["Love", "Presence", "Protection", "Voice"],
+    "correct": 2,
+    "feedback": "The correct answer is 'Protection'."
+  },
+  {
+    "q": "42. Keller suggests that in life, 'one is given to a sense of tranquillity, only to be ... the world in a sudden violent rupture'.",
+    "options": ["Shocked by", "Torn from", "Rewarded by", "Punished by"],
+    "correct": 1,
+    "feedback": "The correct answer is 'Torn from'."
+  },
+  {
+    "q": "43. An absent mother is represented by all but one of the following characters according to Keller:",
+    "options": ["Pozzo", "Godot", "Vladimir", "Lucky"],
+    "correct": 3,
+    "feedback": "The correct answer is 'Lucky'."
+  },
+  {
+    "q": "44. According to Keller, Pozzo's 'greedy, envious devouring of Lucky' is one example of:",
+    "options": ["Pozzo's lack of internal goodness", "Pozzo's selfish love", "Pozzo's anxiety", "Pozzo's domination"],
+    "correct": 0,
+    "feedback": "The correct answer is 'Pozzo's lack of internal goodness'."
+  },
+  {
+    "q": "45. Vladimir refuses to hear Estragon's nightmares. According to Keller, this exemplifies:",
+    "options": ["Vladimir's aloofness", "Estragon's dependence", "A mother's failure to contain early anxieties", "None"],
+    "correct": 2,
+    "feedback": "The correct answer is 'A mother's failure to contain early anxieties'."
+  },
+  {
+    "q": "46. Keller's article suggests that Pozzo, as a mother, provides Lucky's emotional needs.",
+    "options": ["True", "False"],
+    "correct": 0,
+    "feedback": "The correct answer is 'True'."
+  },
+  {
+    "q": "47. Keller uses the term 'the primary object' to refer to the co-dependent relationship.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "The correct answer is 'False'."
+  },
+  {
+    "q": "48. Each person has a personal god which Keller refers to as the core internal object.",
+    "options": ["True", "False"],
+    "correct": 0,
+    "feedback": "The correct answer is 'True'."
+  },
+  {
+    "q": "49. The boy's existence in the play reduces the sense of abandonment felt by Vladimir.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "The correct answer is 'False'."
+  },
+  {
+    "q": "50. Vladimir's relief after he experienced separation from Estragon was signalled by his ability to sleep comfortably.",
+    "options": ["True", "False"],
+    "correct": 0,
+    "feedback": "The correct answer is 'True'."
+  },
+  {
+    "q": "51. 'The conflict of Virtue and Corruption in Major Barbara' mentions that Shaw is a man of religious faith.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "The correct answer is 'False'."
+  },
+  {
+    "q": "52. 'The conflict of Virtue and Corruption in Major Barbara' mentions that Shaw did not direct his own plays.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "The correct answer is 'False'."
+  },
+  {
+    "q": "53. 'The conflict of Virtue and Corruption in Major Barbara' mentions that Shaw had high morality.",
+    "options": ["True", "False"],
+    "correct": 0,
+    "feedback": "The correct answer is 'True'."
+  },
+  {
+    "q": "54. 'Major Barbara as a Thesis Play' stresses the fact that the play is all about the importance of money.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "The correct answer is 'False'."
+  },
+  {
+    "q": "55. J. L. Wiesenthal argues that Shaw mentions in his preface to Major Barbara reflect his views on it.",
+    "options": ["True", "False"],
+    "correct": 0,
+    "feedback": "The correct answer is 'True'."
+  },
+  {
+    "q": "56. 'The conflict of Virtue and Corruption in Major Barbara' mentions that Major Barbara is the only play with a preface.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "The correct answer is 'False'."
+  },
+  {
+    "q": "57. 'The conflict of Virtue and Corruption in Major Barbara' mentions that Shaw died at the age of 95.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "The correct answer is 'False'."
+  },
+  {
+    "q": "58. 'The conflict of Virtue and Corruption in Major Barbara' mentions that Shaw dismissed the immorality.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "The correct answer is 'False'."
+  },
+  {
+    "q": "59. 'The conflict of Virtue and Corruption in Major Barbara' mentions that Shaw is a polemic writer.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "The correct answer is 'False'."
+  },
+  {
+    "q": "60. 'The conflict of Virtue and Corruption in Major Barbara' mentions that Shaw's plays focused on idealistic travails.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "The correct answer is 'False'."
+  },
+  {
+    "q": "61. Samuel Beckett is Scottish but was born in Dublin.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "The correct answer is 'False'."
+  },
+  {
+    "q": "62. Beckett's Waiting for Godot has six characters on stage.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "The correct answer is 'False'."
+  },
+  {
+    "q": "63. In Beckett's play, the concept of hunger represents a quest for a sense of belonging.",
+    "options": ["True", "False"],
+    "correct": 0,
+    "feedback": "The correct answer is 'True'."
+  },
+  {
+    "q": "64. Waiting for Godot discusses capitalism as a main theme.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "The correct answer is 'False'."
+  },
+  {
+    "q": "65. In Waiting for Godot Vladimir changes his hat, and Estragon changes his boots. Both are still not satisfied.",
+    "options": ["True", "False"],
+    "correct": 0,
+    "feedback": "The correct answer is 'True'."
+  },
+  {
+    "q": "66. In John Robert Keller's 'A Strange Situation...' the concept of 'a personal god' is mainly introduced through discussing the character of Godot.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "The correct answer is 'False'."
+  },
+  {
+    "q": "67. Keller studies Waiting for Godot from the mother/child perspective which is mainly introduced through the relationship between Estragon and Vladimir.",
+    "options": ["True", "False"],
+    "correct": 0,
+    "feedback": "The correct answer is 'True'."
+  },
+  {
+    "q": "68. In Shaw's Major Barbara, Cusins shows admiration for the whiskey business.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "The correct answer is 'False'."
+  },
+  {
+    "q": "69. In Major Barbara, Shaw demonstrates the close relationship between poverty and ignorance.",
+    "options": ["True", "False"],
+    "correct": 0,
+    "feedback": "The correct answer is 'True'."
+  },
+  {
+    "q": "70. Major Barbara is Charles Lomax's cousin.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "The correct answer is 'False'."
+  },
+  {
+    "q": "71. George Bernard Shaw admires his father.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "The correct answer is 'False'."
+  },
+  {
+    "q": "72. George Bernard Shaw worked as a social activist before writing music reviews.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "The correct answer is 'False'."
+  },
+  {
+    "q": "73. George Bernard Shaw exposes the hypocrisy of the Salvation Army in Major Barbara.",
+    "options": ["True", "False"],
+    "correct": 0,
+    "feedback": "The correct answer is 'True'."
+  },
+  {
+    "q": "74. Major Barbara was naive and vain in the first act of the play.",
+    "options": ["True", "False"],
+    "correct": 0,
+    "feedback": "The correct answer is 'True'."
+  },
+  {
+    "q": "75. Sarah and Barbara are Undershaft's stepdaughters from his previous marriage.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "The correct answer is 'False'."
+  },
+  {
+    "q": "76. Undershaft owns a small gun shop.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "The correct answer is 'False'."
+  },
+  {
+    "q": "77. Undershaft donated 10 thousand pounds to the Salvation Army.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "The correct answer is 'False'."
+  },
+  {
+    "q": "78. Undershaft was born in a poor family.",
+    "options": ["True", "False"],
+    "correct": 0,
+    "feedback": "The correct answer is 'True'."
+  },
+  {
+    "q": "79. Waiting for Godot is classified as a postmodern play.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "The correct answer is 'False'."
+  },
+  {
+    "q": "80. Estragon gets beaten repeatedly by unknown individuals.",
+    "options": ["True", "False"],
+    "correct": 0,
+    "feedback": "The correct answer is 'True'."
+  },
+  {
+    "q": "81. Bernard Shaw's preface introduces some ideas on social reformation.",
+    "options": ["True", "False"],
+    "correct": 0,
+    "feedback": "The correct answer is 'True'."
+  },
+  {
+    "q": "82. Barbara has three siblings.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "The correct answer is 'False'."
+  },
+  {
+    "q": "83. Lady Britomart is Barbara's mother-in-law.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "The correct answer is 'False'."
+  },
+  {
+    "q": "84. Adolphus is Sarah's fiancé.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "The correct answer is 'False'."
+  },
+  {
+    "q": "85. Andrew Undershaft is a Whiskey manufacturer.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "The correct answer is 'False'."
+  },
+  {
+    "q": "86. After graduating from Trinity College in Dublin in 1928, Samuel Beckett travelled to Paris to teach English.",
+    "options": ["True", "False"],
+    "correct": 0,
+    "feedback": "The correct answer is 'True'."
+  },
+  {
+    "q": "87. Beckett's Waiting for Godot was translated to English in 1954.",
+    "options": ["True", "False"],
+    "correct": 0,
+    "feedback": "The correct answer is 'True'."
+  },
+  {
+    "q": "88. The characters in Waiting for Godot are pessimistic.",
+    "options": ["True", "False"],
+    "correct": 0,
+    "feedback": "The correct answer is 'True'."
+  },
+  {
+    "q": "89. In Waiting for Godot, there is a love story.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "The correct answer is 'False'."
+  },
+  {
+    "q": "90. In Waiting for Godot Vladimir is presented as an alcoholic character.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "The correct answer is 'False'."
+  },
+  {
+    "q": "91. All characters in the novel start in good health then end up getting ill.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "The correct answer is 'False'."
+  },
+  {
+    "q": "92. Vladimir and Estragon hate each other.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "The correct answer is 'False'."
+  },
+  {
+    "q": "93. Estragon said he spent his life in the mud. The mud represents chaos and mess.",
+    "options": ["True", "False"],
+    "correct": 0,
+    "feedback": "The correct answer is 'True'."
+  },
+  {
+    "q": "94. Estragon gave up his boots at the end of the play.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "The correct answer is 'False'."
+  },
+  {
+    "q": "95. The relationship between Pozzo and Lucky represents inequality in life.",
+    "options": ["True", "False"],
+    "correct": 0,
+    "feedback": "The correct answer is 'True'."
+  },
+  {
+    "q": "96. Beckett suggests that the characters' flaw is impatience.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "The correct answer is 'False'."
+  },
+  {
+    "q": "97. Keller's article centres on the theme of religion in the novel.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "The correct answer is 'False'."
+  },
+  {
+    "q": "98. Waiting for Godot was Beckett's only play.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "The correct answer is 'False'."
+  },
+  {
+    "q": "99. Waiting for Godot was enacted in many countries in different languages.",
+    "options": ["True", "False"],
+    "correct": 0,
+    "feedback": "The correct answer is 'True'."
+  },
+  {
+    "q": "100. Wings, feathers, and leaves in the play are symbols of peaceful beauty.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "The correct answer is 'False'."
+  },
+  {
+    "q": "101. Waiting for Godot represents the need for a purpose in life.",
+    "options": ["True", "False"],
+    "correct": 0,
+    "feedback": "The correct answer is 'True'."
+  },
+  {
+    "q": "102. Major Barbara took place over the course of three days.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "The correct answer is 'False'."
+  },
+  {
+    "q": "103. Act III in Major Barbara takes place only in Perivale St. Andrews.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "The correct answer is 'False'."
+  },
+  {
+    "q": "104. Undershaft is portrayed as a sophisticated and mysterious character.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "The correct answer is 'False'."
+  },
+  {
+    "q": "105. Barbara decides to stay with her fiancé because he accepted to inherit her father's business.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "The correct answer is 'False'."
+  },
+  {
+    "q": "106. Bernard Shaw was an Irish playwright.",
+    "options": ["True", "False"],
+    "correct": 0,
+    "feedback": "The correct answer is 'True'."
+  },
+  {
+    "q": "107. Bernard Shaw's father believed that his misfortune was because of a curse.",
+    "options": ["True", "False", "Not Mentioned", "Inferred"],
+    "correct": 1,
+    "feedback": "The correct answer is 'False'."
+  },
+  {
+    "q": "108. Bernard Shaw remembered his childhood to be unhappy.",
+    "options": ["True", "False", "Not Mentioned", "Inferred"],
+    "correct": 0,
+    "feedback": "The correct answer is 'True'."
+  },
+  {
+    "q": "109. Bernard Shaw took his first job when he was 18.",
+    "options": ["True", "False", "Not Mentioned", "Inferred"],
+    "correct": 1,
+    "feedback": "The correct answer is 'False'."
+  },
+  {
+    "q": "110. Bernard Shaw's dislike for formal education affected his performance in school.",
+    "options": ["True", "False", "Not Mentioned", "Inferred"],
+    "correct": 1,
+    "feedback": "The correct answer is 'False'."
+  },
+  {
+    "q": "111. Although separated, Bernard Shaw's parents were never officially divorced.",
+    "options": ["True", "False", "Not Mentioned", "Inferred"],
+    "correct": 2,
+    "feedback": "The correct answer is 'Not Mentioned'."
+  },
+  {
+    "q": "112. Bernard Shaw moved to London when he was 20.",
+    "options": ["True", "False", "Not Mentioned", "Inferred"],
+    "correct": 0,
+    "feedback": "The correct answer is 'True'."
+  },
+  {
+    "q": "113. In his twenties, Shaw wrote 7 novels, but no one published them because they were politically controversial.",
+    "options": ["True", "False", "Not Mentioned", "Inferred"],
+    "correct": 2,
+    "feedback": "The correct answer is 'Not Mentioned'."
+  },
+  {
+    "q": "114. 1882 marked a turning point for Bernard Shaw's life in politics.",
+    "options": ["True", "False", "Not Mentioned", "Inferred"],
+    "correct": 0,
+    "feedback": "The correct answer is 'True'."
+  },
+  {
+    "q": "115. Bernard Shaw was dissatisfied with his job as a literary critic.",
+    "options": ["True", "False", "Not Mentioned", "Inferred"],
+    "correct": 2,
+    "feedback": "The correct answer is 'Not Mentioned'."
+  },
+  {
+    "q": "116. The Fabian Society believed that Gradualism was an important aspect of their works.",
+    "options": ["True", "False", "Not Mentioned", "Inferred"],
+    "correct": 0,
+    "feedback": "The correct answer is 'True'."
+  },
+  {
+    "q": "117. Shaw's interest in socialism and economics sparked in 1888.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "The correct answer is 'False'."
+  },
+  {
+    "q": "118. The Fabian society which Shaw joined adopted a dogmatic approach to reforming English.",
+    "options": ["True", "False"],
+    "correct": 0,
+    "feedback": "The correct answer is 'True'."
+  },
+  {
+    "q": "119. The Independent Theatre Society rejected highly censored plays.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "The correct answer is 'False'."
+  },
+  {
+    "q": "120. Shaw wrote Progress and Poverty in 1882.",
+    "options": ["True", "False"],
+    "correct": 0,
+    "feedback": "The correct answer is 'True'."
+  },
+  {
+    "q": "121. Widowers' Houses was banned from the theatre for sexual profanity.",
+    "options": ["True", "False"],
+    "correct": 0,
+    "feedback": "The correct answer is 'True'."
+  },
+  {
+    "q": "122. What about his father, Andrew, bewilders Stephen?",
+    "options": ["His religion", "His morality", "His wealth"],
+    "correct": 2,
+    "feedback": "The correct answer is 'His wealth'."
+  },
+  {
+    "q": "123. What is the name of Bill Walker's girl?",
+    "options": ["Jenny", "Sarah", "Rummy", "Mog"],
+    "correct": 3,
+    "feedback": "The correct answer is 'Mog'."
+  },
+  {
+    "q": "124. Who is Lord Saxmundham?",
+    "options": ["Andrew Undershaft", "Lazarus", "Horace Bodger", "Todger Fairmille"],
+    "correct": 2,
+    "feedback": "The correct answer is 'Horace Bodger'."
+  },
+  {
+    "q": "125. What is Lady Britomart's maiden name?",
+    "options": ["Saxmundham", "Undershaft", "Fairmille", "Stevenage"],
+    "correct": 3,
+    "feedback": "The correct answer is 'Stevenage'."
+  },
+  {
+    "q": "126. What does Undershaft identify as necessary to salvation?",
+    "options": ["Honesty and reputation", "Money and gunpowder", "Money and intelligence", "Money and power"],
+    "correct": 1,
+    "feedback": "The correct answer is 'Money and gunpowder'."
+  },
+  {
+    "q": "127. What does Horace Bodger produce?",
+    "options": ["Arms", "Liquor", "Coal", "Bread"],
+    "correct": 1,
+    "feedback": "The correct answer is 'Liquor'."
+  },
+  {
+    "q": "128. What does Undershaft consider the 'final test' of conviction?",
+    "options": ["Power", "Justice", "Honesty", "Killing"],
+    "correct": 3,
+    "feedback": "The correct answer is 'Killing'."
+  },
+  {
+    "q": "129. Where do Cusins's parents reside?",
+    "options": ["Canada", "Austria", "Australia", "New Zealand"],
+    "correct": 2,
+    "feedback": "The correct answer is 'Australia'."
+  },
+  {
+    "q": "130. What profession does Undershaft suggest to Stephen?",
+    "options": ["Politician", "Lawyer", "Philosopher", "Journalist"],
+    "correct": 2,
+    "feedback": "The correct answer is 'Philosopher'."
+  },
+  {
+    "q": "131. What instrument does Undershaft play?",
+    "options": ["The drum", "The piano", "The trumpet", "The trombone"],
+    "correct": 3,
+    "feedback": "The correct answer is 'The trombone'."
+  },
+  {
+    "q": "132. What is Rummy short for?",
+    "options": ["Romele", "Romola", "Rumula", "Rumali"],
+    "correct": 1,
+    "feedback": "The correct answer is 'Romola'."
+  },
+  {
+    "q": "133. Lady Britomart speaks to Stephen about what concern?",
+    "options": ["His behaviour", "Family finances", "Sister's marriage prospects", "Her health"],
+    "correct": 1,
+    "feedback": "The correct answer is 'Family finances'."
+  },
+  {
+    "q": "134. Why did Undershaft disinherit Stephen?",
+    "options": ["Lady Britomart's spending", "Lady Britomart's divorce", "Stephen's infidelity", "Desire for foundling successor"],
+    "correct": 3,
+    "feedback": "The correct answer is 'Desire for foundling successor'."
+  },
+  {
+    "q": "135. What causes Barbara to look forward to her father's visit?",
+    "options": ["His soul needs saving", "He is generous", "She likes controversy", "His greed"],
+    "correct": 0,
+    "feedback": "The correct answer is 'His soul needs saving'."
+  },
+  {
+    "q": "136. What is Andrew Undershaft's motto?",
+    "options": [
+      "If God gave the hand, let not man withhold the sword",
+      "All have the right to fight: none have the right to judge",
+      "Peace shall not prevail save with a sword in her hand",
+      "Unashamed"
+    ],
+    "correct": 3,
+    "feedback": "The correct answer is 'Unashamed'."
+  },
+  {
+    "q": "137. In Waiting for Godot, if radishes and turnips represent harsh realities, then carrots represent:",
+    "options": ["Memories", "Nightmares", "Lost hopes and dreams", "Future prospects"],
+    "correct": 3,
+    "feedback": "The correct answer is 'Future prospects'."
+  },
+  {
+    "q": "138. Vladimir: 'Where are all these corpses from?' Corpses are:",
+    "options": ["Vladimir's thoughts", "Estragon's nightmares", "Both A & B", "The tree leaves"],
+    "correct": 0,
+    "feedback": "The correct answer is 'Vladimir's thoughts'."
+  },
+  {
+    "q": "139. Samuel Beckett used [...] to emphasise failed communication:",
+    "options": ["Repetition and pause", "Silence and interruption", "Repetition and interruption", "Repetition and silence"],
+    "correct": 3,
+    "feedback": "The correct answer is 'Repetition and silence'."
+  },
+  {
+    "q": "140. Who has Estragon all his life compared himself to?",
+    "options": ["Lucky", "Christ", "Abel", "Caine"],
+    "correct": 1,
+    "feedback": "The correct answer is 'Christ'."
+  },
+  {
+    "q": "141. Pozzo's speech describing the succession of day and night could be interpreted as referring to:",
+    "options": ["Life and death", "The beginning and the end", "The brevity of human life", "All of the above"],
+    "correct": 3,
+    "feedback": "The correct answer is 'All of the above'."
+  },
+  {
+    "q": "142. Vladimir has:",
+    "options": ["Chest pain", "Bladder problems"],
+    "correct": 1,
+    "feedback": "The correct answer is 'Bladder problems'."
+  },
+  {
+    "q": "143. Beckett's play is:",
+    "options": ["Popular", "Unpopular"],
+    "correct": 0,
+    "feedback": "The correct answer is 'Popular'."
+  },
+  {
+    "q": "144. Beckett is:",
+    "options": ["A successful teacher", "A novelist"],
+    "correct": 1,
+    "feedback": "The correct answer is 'A novelist'."
+  },
+  {
+    "q": "145. Estragon's boots were:",
+    "options": ["Too small", "Too big"],
+    "correct": 1,
+    "feedback": "The correct answer is 'Too big'."
+  },
+  {
+    "q": "146. Estragon's nightmares reflect:",
+    "options": ["A guilty conscience", "A desperate life"],
+    "correct": 1,
+    "feedback": "The correct answer is 'A desperate life'."
+  },
+  {
+    "q": "147. Lucky refuses:",
+    "options": ["To put down his bag", "To dance"],
+    "correct": 0,
+    "feedback": "The correct answer is 'To put down his bag'."
+  },
+  {
+    "q": "148. Vladimir sings a song about:",
+    "options": ["A man", "A dog"],
+    "correct": 1,
+    "feedback": "The correct answer is 'A dog'."
+  },
+  {
+    "q": "149. In Lucky's monologue, according to Keller, the mother's presence generates 'the calm which even though intermittent is better than nothing'.",
+    "options": ["Love", "Presence", "Protection", "Voice"],
+    "correct": 1,
+    "feedback": "The correct answer is 'Presence'."
+  },
+  {
+    "q": "150. Keller suggests that in life, 'one is given to a sense of tranquillity, only to be ... the world in a sudden violent rupture'.",
+    "options": ["Shocked by", "Torn from", "Rewarded by", "Punished by"],
+    "correct": 1,
+    "feedback": "The correct answer is 'Torn from'."
+  },
+  {
+    "q": "151. An absent mother is represented by all but one of the following characters according to Keller:",
+    "options": ["Pozzo", "Godot", "Vladimir", "Lucky"],
+    "correct": 2,
+    "feedback": "The correct answer is 'Vladimir'."
+  },
+  {
+    "q": "152. According to Keller, Pozzo's 'greedy, envious devouring of Lucky' is one example of:",
+    "options": ["Pozzo's lack of internal goodness", "Pozzo's selfish love", "Pozzo's anxiety", "Pozzo's domination"],
+    "correct": 1,
+    "feedback": "The correct answer is 'Pozzo's selfish love'."
+  },
+  {
+    "q": "153. Vladimir refuses to hear Estragon's nightmares. According to Keller, this exemplifies:",
+    "options": ["Vladimir's aloofness", "Estragon's dependence", "A mother's failure to contain early anxieties", "None"],
+    "correct": 2,
+    "feedback": "The correct answer is 'A mother's failure to contain early anxieties'."
+  },
+  {
+    "q": "154. Shaw's Preface to Major Barbara consists of:",
+    "options": ["Seven sections", "Eight sections", "Six sections", "Five sections"],
+    "correct": 2,
+    "feedback": "The correct answer is 'Six sections'."
+  },
+  {
+    "q": "155. Bernard Shaw's play could be an indirect attack on:",
+    "options": ["The Salvation Army", "Religion", "Capitalism", "Poverty"],
+    "correct": 0,
+    "feedback": "The correct answer is 'The Salvation Army'."
+  },
+  {
+    "q": "156. Shaw refers to the 'Pharisees... who only desire to be ... gentlemen'. A character who could be as such is:",
+    "options": ["Peter Shirley", "Adolphus Cusins", "Charles Lomax", "Stephen Undershaft"],
+    "correct": 3,
+    "feedback": "The correct answer is 'Stephen Undershaft'."
+  },
+  {
+    "q": "157. 'I am not one of those men who keep their morals and their business in water-tight compartments'. Interpret:",
+    "options": ["His work is moral", "His work is excused", "He is not a hypocrite", "All of the above"],
+    "correct": 2,
+    "feedback": "The correct answer is 'He is not a hypocrite'."
+  },
+  {
+    "q": "158. Who told Undershaft 'You speak as if there were half a dozen moralities and religions to choose from'?",
+    "options": ["Peter Shirley", "Stephen", "Barbara", "Lady Britomart"],
+    "correct": 3,
+    "feedback": "The correct answer is 'Lady Britomart'."
+  },
+  {
+    "q": "159. Shaw criticises the Christian habit of confession through the statement: 'I flatly deny it. I have done my best.'",
+    "options": ["Barbara", "Bill Walker", "Andrew Undershaft", "Cusins"],
+    "correct": 1,
+    "feedback": "The correct answer is 'Bill Walker'."
+  },
+  {
+    "q": "160. When Undershaft declares to Cusins that his religion is 'Money and gunpowder', Cusins:",
+    "options": ["Admires his honesty", "Agrees with him", "Expresses shock", "Argues against it"],
+    "correct": 0,
+    "feedback": "The correct answer is 'Admires his honesty'."
+  },
+  {
+    "q": "161. Gunpowder for Undershaft is:",
+    "options": ["Life", "Freedom", "Power", "Destiny"],
+    "correct": 1,
+    "feedback": "The correct answer is 'Freedom'."
+  },
+  {
+    "q": "162. When Barbara became disappointed with the Salvation Army, Bill Walker:",
+    "options": ["Pitied her", "Gloated", "Laughed hysterically", "All of the above"],
+    "correct": 0,
+    "feedback": "The correct answer is 'Pitied her'."
+  },
+  {
+    "q": "163. In 'Shaw's Major Barbara as a Thesis Play', one critic's reading of Perivale St. Andrews as a Utopia applies:",
+    "options": ["Reader-response criticism", "Intertextuality", "Formalism", "Historicism"],
+    "correct": 1,
+    "feedback": "The correct answer is 'Intertextuality'."
+  },
+  {
+    "q": "164. The Salvation Army 'is building up a business organization which will compel it eventually to see that its present staff of enthusiast-commanders' will eventually:",
+    "options": ["Become corrupted bureaucrats", "Abandon it", "Become disillusioned", "All of the above"],
+    "correct": 0,
+    "feedback": "The correct answer is 'Become corrupted bureaucrats'."
+  },
+  {
+    "q": "165. By presenting the paradoxical facts about the character of Andrew Undershaft, Shaw:",
+    "options": ["Excuses his behavior", "Acknowledges him as an unavoidable reality", "Compares his honesty to others' hypocrisy", "Sets him as a role model"],
+    "correct": 1,
+    "feedback": "The correct answer is 'Acknowledges him as an unavoidable reality'."
+  },
+  {
+    "q": "166. Cusins said: 'One man's meat is another man's poison' referring to the fact that:",
+    "options": ["Life is built of exploitation", "Money can be good and evil", "Personal interest comes first", "There is no one fixed value for anything"],
+    "correct": 3,
+    "feedback": "The correct answer is 'There is no one fixed value for anything'."
+  },
+  {
+    "q": "167. What does Barbara mean by addressing Bill Walker 'you better stay: you're going to have a bad time today, Bill'?",
+    "options": ["To save his soul, he needs to feel guilty", "He will feel better if he stays", "He will feel bad if he leaves", "He desires to stay because he is suffering"],
+    "correct": 0,
+    "feedback": "The correct answer is 'To save his soul, he needs to feel guilty'."
+  },
+  {
+    "q": "168. Shaw criticises English critics for all but one of the following:",
+    "options": ["Lack of knowledge in own cultural heritage", "Naive thinking", "Discrediting authentic ideas", "Moral righteousness"],
+    "correct": 3,
+    "feedback": "The correct answer is 'Moral righteousness'."
+  },
+  {
+    "q": "169. Shaw suggests that Salvationists criticised the play because of:",
+    "options": ["Misrepresentation of Salvationist missions", "Insulting the Army's officers", "Questioning the Army's intentions", "Accusing the Army of hypocrisy"],
+    "correct": 2,
+    "feedback": "The correct answer is 'Questioning the Army's intentions'."
+  },
+  {
+    "q": "170. Double standards is represented in all but the following examples:",
+    "options": ["Mrs Baines accepting Undershaft's money", "Cusins accepting business in destruction while claiming to save souls", "Barbara's refusal of Bill's pound", "Badger's acceptance of Undershaft's proposal"],
+    "correct": 2,
+    "feedback": "The correct answer is 'Barbara's refusal of Bill's pound'."
+  },
+  {
+    "q": "171. 'When you advertise a converted burglar... your burglar can hardly have been too burglarious'. The Army:",
+    "options": ["Advertises for itself through people", "Uses people as a marketing strategy", "Helps people according to a selection process", "All of the above"],
+    "correct": 1,
+    "feedback": "The correct answer is 'Uses people as a marketing strategy'."
+  },
+  {
+    "q": "172. 'What a man is depends on his character, but what he does, and what we think of what he does, depends on his circumstances'. Which example below best expresses this statement?",
+    "options": ["A duke's arrogant behaviour is tolerated in his own country, but not abroad", "We can excuse illegal action based on circumstances", "If you are moral, you never steal even if starving", "People should behave according to surroundings"],
+    "correct": 0,
+    "feedback": "The correct answer is 'A duke's arrogant behaviour is tolerated in his own country, but not abroad'."
+  },
+  {
+    "q": "173. The ending of Major Barbara could point to:",
+    "options": ["The triumph of Capitalism", "Absolutes as obsolete", "Civilization as a combination of money and morality", "All"],
+    "correct": 3,
+    "feedback": "The correct answer is 'All'."
+  },
+  {
+    "q": "174. The English translation in Waiting for Godot was not available in England until:",
+    "options": ["1947", "1965", "1954", "1955"],
+    "correct": 2,
+    "feedback": "The correct answer is '1954'."
+  },
+  {
+    "q": "175. In Waiting for Godot, we have characters who are:",
+    "options": ["Physically deformed", "Emotionally enduring", "Psychologically damaged", "Mentally challenged"],
+    "correct": 2,
+    "feedback": "The correct answer is 'Psychologically damaged'."
+  },
+  {
+    "q": "176. One of the following characters lost connection with the past:",
+    "options": ["Estragon", "Vladimir", "Lucky", "The boy"],
+    "correct": 0,
+    "feedback": "The correct answer is 'Estragon'."
+  },
+  {
+    "q": "177. One of the following characters appears to be indecisive:",
+    "options": ["Vladimir", "Godot", "Pozzo", "Estragon"],
+    "correct": 3,
+    "feedback": "The correct answer is 'Estragon'."
+  },
+  {
+    "q": "178. Jealousy is expressed by:",
+    "options": ["Estragon", "Lucky", "Vladimir", "All of the above"],
+    "correct": 2,
+    "feedback": "The correct answer is 'Vladimir'."
+  },
+  {
+    "q": "179. Estragon: 'Don't let's do anything. It's ...'",
+    "options": ["Indefinite", "Safer", "Easier", "Not guaranteed"],
+    "correct": 1,
+    "feedback": "The correct answer is 'Safer'."
+  },
+  {
+    "q": "180. The first time Beckett travelled to Paris was to:",
+    "options": ["Write his thesis on Descartes", "Teach English", "Meet James Joyce", "Learn French"],
+    "correct": 1,
+    "feedback": "The correct answer is 'Teach English'."
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+]
+}
