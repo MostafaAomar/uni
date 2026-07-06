@@ -170,7 +170,7 @@ async function fetchRepoAndAddSubjects(repoUrl) {
                 
                 if (data && data.questions) {
                     quizData.push({
-                        subject: data.subject || file.path.replace('.json', '').split('/').pop(),
+                        subject: (data.subject || file.path.replace('.json', '').split('/').pop()).trim(),
                         lang: data.lang || 'en',
                         questions: data.questions
                     });
