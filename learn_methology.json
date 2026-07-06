@@ -88,7 +88,7 @@
       "Approach, method, technique"
     ],
     "correct": 3,
-    "feedback": "الترتيب الهرمي الصحيح يبدأ بالنهج (Approach) الأشمل، ثم الطريقة (Method)، ثم الأسلوب (Technique)."
+    "feedback": "الترتيب الهرمي الصحيح يبدأ بالنهج (Approach) الأشمل، ثم الطريقة (Method)، then الأسلوب (Technique)."
   },
   {
     "q": "Learning a foreign language requires above all",
@@ -153,8 +153,8 @@
       "1990s",
       "None of the above"
     ],
-    "correct": 1,
-    "feedback": "تدريس اللغة التواصلي (CLT) برز وتم اقتراحه لأول مرة في سبعينيات القرن العشرين (1970s)."
+    "correct": 3,
+    "feedback": "وفقاً للملف، بدأ التدريس التواصلي للغة (CLT) في ثمانينيات القرن العشرين (1980s) وازدهر في التسعينيات، وبما أن الثمانينيات غير موجودة في الخيارات كعقد مستقل، فالإجابة الصحيحة هي لا شيء مما سبق."
   },
   {
     "q": "Which language skill is emphasized the most in CLT?",
@@ -336,10 +336,10 @@
       "It is time-consuming for students to build up their portfolios",
       "It is forces teachers to favor some students over others.",
       "Teachers spend long hours of evaluation",
-      "Both A & C"
+      "All of the above"
     ],
     "correct": 3,
-    "feedback": "من أبرز عيوب تقييم الملفات أنه يستغرق وقتاً طويلاً جداً من الطلاب لإعداده، ومن المعلمين لتقييمه."
+    "feedback": "من أبرز عيوب تقييم ملف الأعمال (Portfolio) أنه يستهلك الكثير من الوقت لإعداده من الطالب، ويتطلب ساعات تقييم طويلة من المعلم، بالإضافة إلى صعوبة التأكد التام من استقلالية جهد الطالب خارج الصف."
   },
   {
     "q": "The acronym TEFL stands for \"teaching English as a ... language\".",
@@ -394,7 +394,7 @@
       "AL"
     ],
     "correct": 0,
-    "feedback": "الاستجابة الحركية أو الصوتية المباشرة للكلمات هي تطبيق لطريقة الاستجابة الجسدية الشاملة (TPR)."
+    "feedback": "الاستجابة الحركية أو الصوتية المباشرة للكلمات هي تطبيق لطريقة الاستجابة الجسدية الصارمة أو الشاملة (TPR)."
   },
   {
     "q": "Students ask their classmates when their birthdays are and write the answers down. They try to find a different child for each month of the year. This teaching method is",
@@ -482,7 +482,7 @@
       "Shaking the head"
     ],
     "correct": 0,
-    "feedback": "الإيماءات تُستخدم لتوضيح المعاني؛ واهتزاز اليد المفتوحة يمكن أن يُستخدم للإشارة إلى الكمية أو الكثرة."
+    "feedback": "الإيماءات تُستخدم لتوضيح المعاني؛ واهتزاز اليد المفتوحة يمكن أن يُستخدم للإشارة إلى الكمية التقريبية (أكثر أو أقل)."
   },
   {
     "q": "What is the purpose of using mime to tell a story?",
@@ -1072,7 +1072,7 @@
       "absent"
     ],
     "correct": 2,
-    "feedback": "التعلم الفعال يتطلب مشاركة وتفاعلاً (interactive) نشطاً من قبل المتعلمين[cite: 1]."
+    "feedback": "التعلم الفعال يتطلب مشاركة وتفاعلاً (interactive) نشطاً من قبل المتعلمين لضمان استيعاب أفضل للأفكار."
   },
 
   {
@@ -1084,7 +1084,7 @@
       "Providing regional vocabulary"
     ],
     "correct": 2,
-    "feedback": "التحدي الأكبر هو تحديد نوع الإنجليزية وكيفية تدريسها."
+    "feedback": "التحدي الأكبر الذي يواجه معلمي اللغة الإنجليزية اليوم هو تحديد نوع اللغة الإنجليزية المراد تدريسها واختيار الطريقة المناسبة لذلك نظرًا للتنوع المستمر للغة."
   },
   {
     "q": "The 'inner circle' includes countries where English is",
@@ -1095,7 +1095,7 @@
       "A forbidden colonial relic"
     ],
     "correct": 2,
-    "feedback": "الدول في الدائرة الداخلية تستخدم الإنجليزية كلغة أم."
+    "feedback": "الدول في الدائرة الداخلية (Inner circle) تشمل البلدان التي تمثل فيها اللغة الإنجليزية اللغة الوطنية واللغة الأم لغالبية مستخدميها."
   },
   {
     "q": "According to Kachru, India and Singapore belong to",
@@ -1106,7 +1106,7 @@
       "Inner circle"
     ],
     "correct": 0,
-    "feedback": "الهند وسنغافورة ضمن الدائرة الخارجية."
+    "feedback": "الهند وسنغافورة تنتميان إلى الدائرة الخارجية (Outer circle) حيث يوجد تاريخ طويل لاستخدام اللغة الإنجليزية وتطورت فيها نسخ محلية."
   },
   {
     "q": "Countries like Sweden, China, and Turkey are in the",
@@ -1117,7 +1117,7 @@
       "Expanding circle"
     ],
     "correct": 3,
-    "feedback": "هذه الدول ضمن الدائرة المتوسعة."
+    "feedback": "هذه الدول تقع ضمن الدائرة المتوسعة (Expanding circle) حيث تُعتبر اللغة الإنجليزية لغة أجنبية مسيطرة."
   },
   {
     "q": "One of the major characteristics of English today is",
@@ -1128,7 +1128,7 @@
       "Most users are non-native speakers"
     ],
     "correct": 3,
-    "feedback": "أغلب مستخدمي الإنجليزية اليوم غير ناطقين أصليين."
+    "feedback": "أبرز خصائص اللغة الإنجليزية اليوم هي أن عدد المتحدثين بها من غير الناطقين الأصليين يفوق عدد الناطقين الأصليين بها."
   },
   {
     "q": "The term English as a lingua franca (ELF) refers to",
@@ -1139,7 +1139,7 @@
       "ESL refers to English learned"
     ],
     "correct": 2,
-    "feedback": "ELF تعني لغة مشتركة بين غير الناطقين الأصليين."
+    "feedback": "مصطلح (ELF) يعني استخدام الإنجليزية كلغة مشتركة للتواصل بين أشخاص ينتمون لخلفيات لغوية مختلفة وثقافات متعددة."
   },
   {
     "q": "ESL refers to English learned",
@@ -1150,7 +1150,7 @@
       "Exclusively online"
     ],
     "correct": 2,
-    "feedback": "ESL هو تعلم الإنجليزية داخل بلد يتحدث الإنجليزية."
+    "feedback": "مصطلح (ESL) يشير إلى تعلم اللغة الإنجليزية داخل بلد ناطق بالإنجليزية (مثل المهاجرين) لأجل التواصل مع المجتمع المحلي."
   },
   {
     "q": "General English teaching typically focuses on",
@@ -1161,7 +1161,7 @@
       "Cultural immersion"
     ],
     "correct": 2,
-    "feedback": "التركيز الأساسي يكون على القواعد والمفردات."
+    "feedback": "التركيز الأساسي في مناهج اللغة الإنجليزية العامة يكون على تدريس وتطوير القواعد والمفردات وعناصر النطق المرافقة للمهارات الأساسية."
   },
   {
     "q": "ESP stands for",
@@ -1172,7 +1172,7 @@
       "English for Special Practice"
     ],
     "correct": 1,
-    "feedback": "ESP يعني الإنجليزية لأغراض خاصة."
+    "feedback": "اختصار (ESP) يعني اللغة الإنجليزية لأغراض خاصة أو معينة (English for Specific Purposes)."
   },
   {
     "q": "Needs analysis helps",
@@ -1183,7 +1183,7 @@
       "Assess students"
     ],
     "correct": 0,
-    "feedback": "تحليل الاحتياجات يحدد أهداف المتعلمين."
+    "feedback": "تحليل الاحتياجات (Needs analysis) يساعد مصممي المناهج والمعلمين في تحديد مواقف وأهداف المتعلمين واللغة التي يحتاجونها بدقة."
   },
   {
     "q": "Aviation English is an example of",
@@ -1194,7 +1194,7 @@
       "Internet slang"
     ],
     "correct": 2,
-    "feedback": "الإنجليزية للطيران مثال واضح على ESP."
+    "feedback": "إنجليزية الطيران (Aviation English) المخصصة للطيارين والمراقبين الجويين هي مثال كلاسيكي على لغة الأغراض الخاصة (ESP)."
   },
   {
     "q": "What is a key goal of ESP course design?",
@@ -1205,7 +1205,7 @@
       "Teach only idiomatic phrases"
     ],
     "correct": 2,
-    "feedback": "الهدف هو ربط اللغة بمهام واقعية."
+    "feedback": "الهدف الأساسي لـ ESP هو تحديد بدقة ما سيقوم الطلاب بفعله باللغة وربطها بالمهام والاحتياجات المهنية أو الأكاديمية في العالم الحقيقي."
   },
   {
     "q": "Students in business English classes may typically study",
@@ -1216,7 +1216,7 @@
       "Academic language"
     ],
     "correct": 1,
-    "feedback": "كتابة الرسائل مهارة أساسية في الإنجليزية للأعمال."
+    "feedback": "مناهج اللغة الإنجليزية للأعمال تركز على الجوانب المهنية والتجارية العملية التي يحتاجها الطلاب في بيئة العمل مثل كتابة الرسائل البريدية والمراسلات الرسمية."
   },
   {
     "q": "The metaphor 'sage on the stage' refers to",
@@ -1227,7 +1227,7 @@
       "The teacher as a performer"
     ],
     "correct": 2,
-    "feedback": "تشير إلى أسلوب يتمحور حول المعلم."
+    "feedback": "استعارة 'الحكيم على المسرح' تعني الأسلوب التقليدي المتمحور حول المعلم (Teacher-centered) حيث يتحكم المعلم بكل شيء داخل الصف."
   },
   {
     "q": "The idea of teachers being a 'guide on the side' suggests they should",
@@ -1238,7 +1238,7 @@
       "Only observe silently"
     ],
     "correct": 0,
-    "feedback": "المعلم هنا يسهل التعلم بدل إعطاء التعليمات."
+    "feedback": "فكرة 'الموجه الجانبي' تشير إلى دور المعلم كميسر للعملية التعليمية ومسهل لاكتساب المعرفة بدلاً من دور الملقن الذي يصدر الأوامر المباشرة."
   },
   {
     "q": "When teachers offer encouragement to continue, they are acting as",
@@ -1249,7 +1249,7 @@
       "Assessors"
     ],
     "correct": 2,
-    "feedback": "تشجيع الطلاب هو دور الـ Prompter."
+    "feedback": "عندما يقوم المعلم بتشجيع الطلاب على الاستمرار وتقديم اقتراحات لمساعدتهم في الخطوة التالية دون تصحيح مباشر، فإنه يقوم بدور الملقن (Prompter)."
   },
   {
     "q": "Providing 'comprehensible input' means",
@@ -1260,7 +1260,7 @@
       "Modelling language"
     ],
     "correct": 1,
-    "feedback": "المدخل المفهوم هو لغة يمكن للطلاب فهمها."
+    "feedback": "تقديم المدخلات المفهومة (Comprehensible input) يعني تيسير وتعديل لغة المعلم بشكل مبسط شعورياً أو لا شعورياً ليفهم الطلاب ما يقال لهم."
   },
   {
     "q": "Modelling language means",
@@ -1271,7 +1271,7 @@
       "Giving feedback"
     ],
     "correct": 1,
-    "feedback": "النمذجة تعني تقديم أمثلة لغوية واضحة."
+    "feedback": "نمذجة اللغة (Modelling) تعني قيام المعلم بتقديم عينات ونماذج لغوية واضحة وطبيعية للغاية لكي يقوم الطلاب بمحاكاتها وتقليدها."
   },
   {
     "q": "A tutor is different from a teacher because a tutor",
@@ -1282,7 +1282,7 @@
       "Explains grammar to the entire class"
     ],
     "correct": 1,
-    "feedback": "المدرس الخصوصي يعمل مع طالب واحد."
+    "feedback": "يتميز دور المعلم الخاص (Tutor) بالعمل بشكل فردي (One-to-one) أو مع مجموعات صغيرة جداً لتقديم اهتمام ودعم مركز ومخصص."
   },
   {
     "q": "Shrugging shoulders to show 'boredom' is an example of",
@@ -1293,7 +1293,7 @@
       "Feedback"
     ],
     "correct": 1,
-    "feedback": "هز الكتفين يعتبر Gesture."
+    "feedback": "وفقاً للملف، فإن هز الكتفين للتعبير عن الملل يُصنف كمثال على التمثيل الإيمائي الصامت (Mime) لأن التمثيل الإيمائي يشمل تمثيل الكلمات والمشاعر صامتاً، بينما الإيماءات (Gestures) تشمل الإشارات التنظيمية البسيطة بالإيدي."
   },
   {
     "q": "The hand motion pointing backward over the shoulder indicates",
@@ -1304,7 +1304,7 @@
       "Past"
     ],
     "correct": 3,
-    "feedback": "الإشارة للخلف تدل على الماضي."
+    "feedback": "استخدام اليد والإشارة بالإصبع أو الإبهام إلى الخلف فوق الكتف هو إيماءة متعارف عليها في الصف للإشارة إلى الزمن الماضي (Past)."
   },
   {
     "q": "What does rotating both arms typically signal in class?",
@@ -1315,7 +1315,7 @@
       "Change of activity"
     ],
     "correct": 3,
-    "feedback": "تحريك الذراعين يشير لتغيير النشاط."
+    "feedback": "تحريك أو تدوير الذراعين في حركة عامة وشاملة يُستخدم كإيماءة تنظيمية للإشارة إلى تغيير النشاط القائم أو تجميع الطلاب بعد عمل ثنائي."
   },
   {
     "q": "A progress test is mainly used to",
@@ -1326,7 +1326,7 @@
       "Encourage students to proceed in the course"
     ],
     "correct": 1,
-    "feedback": "اختبار التقدم يقيس مدى تطور الطلاب خلال الدورة."
+    "feedback": "اختبار التقدم (Progress test) يقيس مدى تطور الطلاب واستيعابهم للمنهج الدراسي المتبع ويخدم غرضاً تكوينياً للمستقبل."
   },
   {
     "q": "Proficiency tests are typically used for",
@@ -1337,7 +1337,7 @@
       "Both B & C"
     ],
     "correct": 3,
-    "feedback": "اختبارات الكفاءة تُستخدم للعمل أو القبول الجامعي."
+    "feedback": "اختبارات الكفاءة (Proficiency tests) تمنح صورة عامة عن مستوى الطالب في لحظة معينة، وتستخدم لأهداف مصيرية كالقبول الجامعي أو التوظيف."
   },
   {
     "q": "What is the typical structure of a General English syllabus?",
@@ -1348,7 +1348,7 @@
       "Tailored to individual student needs"
     ],
     "correct": 1,
-    "feedback": "المنهج العام يركز عادة على القواعد والمفردات والمهارات اللغوية."
+    "feedback": "منهج اللغة الإنجليزية العامة يعتمد هيكلياً بشكل أساسي على تنظيم القواعد اللغوية، المفردات، عناصر النطق، والمهارات الأربع."
   },
   {
     "q": "Transparency in a test means that the test should",
@@ -1359,7 +1359,7 @@
       "Focus on assessing particular skills or competencies"
     ],
     "correct": 1,
-    "feedback": "الشفافية تعني أن الاختبار متاح وواضح لجميع الأطراف."
+    "feedback": "الشفافية تعني أن أي شخص معني بالاختبار (كالطلاب أو أولياء الأمور) يجب أن يتاح له الوصول لبيانات واضحة حول ما يقيسه الاختبار."
   },
   {
     "q": "A test that accurately measures the intended skills or abilities is said to have",
@@ -1370,7 +1370,7 @@
       "Fairness"
     ],
     "correct": 1,
-    "feedback": "الصلاحية تعني أن الاختبار يقيس ما يفترض أن يقيسه."
+    "feedback": "الاختبار يكون صالحاً (Valid) إذا كان يقيس بدقة المهارة اللغوية أو القدرة المعرفية الفردية التي صُمم من أجل قياسها بالفعل."
   },
   {
     "q": "The primary purpose of a placement test is to",
@@ -1381,7 +1381,7 @@
       "Assess specific skills like reading or listening"
     ],
     "correct": 1,
-    "feedback": "اختبار المستوى يحدد الصف المناسب للطالب."
+    "feedback": "الهدف الأساسي من اختبار تحديد المستوى هو توجيه الطالب وتحديده في الفصل الدراسي أو المستوى اللغوي المناسب لقدراته السابقة قبل بدء الدورة."
   },
   {
     "q": "What type of test is typically administered at the end of a course?",
@@ -1392,18 +1392,18 @@
       "Proficiency test"
     ],
     "correct": 2,
-    "feedback": "اختبار الإنجاز يُعطى عادة في نهاية الدورة."
+    "feedback": "اختبار التحصيل اللغوي (Achievement test) هو التقييم الختامي النهائي الذي يُعطى في نهاية المنهج لمعرفة مدى استيعاب الطلاب للمقرر."
   },
   {
     "q": "Which of the following is a limitation of portfolio assessment?",
     "options": [
-      "It neglects significant time and effort from students to compile",
-      "It may lead to biased grading by teachers",
-      "It demands extensive evaluation time from teachers",
-      "Both A and C"
+      "It is time-consuming for students to compile",
+      "It requires longer hours of evaluation for teachers",
+      "It may not always be clear if the work reflects the student's own efforts",
+      "All of the above"
     ],
     "correct": 3,
-    "feedback": "ملفات الإنجاز تتطلب وقتًا كبيرًا من الطلاب والمعلمين."
+    "feedback": "من أبرز عيوب تقييم ملف الأعمال (Portfolio) أنه يستهلك الكثير من الوقت لإعداده من الطالب، ويتطلب ساعات تقييم طويلة من المعلم، بالإضافة إلى صعوبة التأكد التام من استقلالية جهد الطالب خارج الصف."
   },
   {
     "q": "What is the teacher’s primary role when taking attendance or sharing information with students?",
@@ -1414,7 +1414,7 @@
       "Resource provider"
     ],
     "correct": 2,
-    "feedback": "عند مشاركة المعلومات، يكون المعلم ميسرًا ومرشدًا."
+    "feedback": "في هذا السياق ووفقاً للنموذج (A)، يعتبر المعلم جامعاً للبيانات ومراقباً (Observer and data collector) عند أخذ الحضور أو مشاركة المعلومات الأساسية."
   },
   {
     "q": "What is the teacher’s role when working individually with a student?",
@@ -1425,7 +1425,7 @@
       "Manager"
     ],
     "correct": 2,
-    "feedback": "عند العمل الفردي، يكون المعلم ميسرًا وداعمًا."
+    "feedback": "عندما يعمل المعلم بشكل فردي ومباشر مع طالب واحد، فإنه يلعب دور المعلم الخاص (Tutor) لتقديم التوجيه والدعم الشخصي."
   },
   {
     "q": "The input provided by teachers should be",
@@ -1436,7 +1436,7 @@
       "Clear and understandable"
     ],
     "correct": 3,
-    "feedback": "المدخلات يجب أن تكون واضحة ومفهومة للطلاب."
+    "feedback": "المدخلات اللغوية (Input) التي يقدمها المعلم يجب أن تكون واضحة ومفهومة (clear and understandable) لضمان استيعاب الطلاب لها وتعلمهم بشكل صحيح."
   },
   {
     "q": "The teacher says commands and acts them out. The students perform the action. Then the teacher says the command without acting it out. This is:",
@@ -1444,7 +1444,7 @@
     "correct": 1,
     "feedback": "TPR يعتمد على الأوامر الجسدية والاستجابة الحركية."
   },
-  {
+  { "commented_out": "duplicate",
     "q": "Name the key in the process of habit formation in the Audio-Lingual method.",
     "options": ["Audio Lingual", "Direct Method", "Silent Way", "Total Physical Response"],
     "correct": 1,
@@ -1456,7 +1456,7 @@
     "correct": 2,
     "feedback": "التواصل الهادف هو جوهر المنهج التواصلي."
   },
-  {
+  { "commented_out": "duplicate",
     "q": "Students ask classmates about birthdays and record answers. This method is:",
     "options": ["GT", "CLT", "TPR", "PPP"],
     "correct": 1,
@@ -1468,7 +1468,7 @@
     "correct": 3,
     "feedback": "الترجمة بين اللغتين هي أساس GT."
   },
-  {
+  { "commented_out": "duplicate",
     "q": "Which classroom activity is most aligned with CLT principles?",
     "options": ["Role play", "Filling blanks", "Grammar-translation exercise", "Writing an essay"],
     "correct": 0,
@@ -1480,7 +1480,7 @@
     "correct": 1,
     "feedback": "المنهج التواصلي يركز على المعنى قبل الشكل."
   },
-  {
+  { "commented_out": "duplicate",
     "q": "Which of the following is easiest for CLT learning?",
     "options": ["Authentic material", "Elaborated definitions", "Simplified dialogues", "All of the above"],
     "correct": 3,
@@ -1492,7 +1492,7 @@
     "correct": 0,
     "feedback": "CLT قد يركز على الطلاقة أكثر من الدقة."
   },
-  {
+  { "commented_out": "duplicate",
     "q": "Teacher introduces grammar via video and examples; students practice in context. This is:",
     "options": ["Inductive method", "Deductive method", "Productive method", "Receptive method"],
     "correct": 0,
@@ -1504,7 +1504,7 @@
     "correct": 0,
     "feedback": "CLT يركز على التواصل الحقيقي داخل وخارج الصف."
   },
-  {
+  { "commented_out": "duplicate",
     "q": "In Grammar-Translation Method, the skills that are focused on are:",
     "options": ["Listening and speaking", "Grammar and fluency", "Reading and writing", "Reading and speaking"],
     "correct": 2,
@@ -1516,7 +1516,7 @@
     "correct": 1,
     "feedback": "الطريقة المباشرة ظهرت كرد فعل على مشاكل طريقة القواعد والترجمة."
   },
-  {
+  { "commented_out": "duplicate",
     "q": "Children make animal noises when hearing animal names in a story. This teaching method is:",
     "options": ["TPR", "CLT", "GT", "Audio Lingual"],
     "correct": 0,
@@ -1528,7 +1528,7 @@
     "correct": 1,
     "feedback": "جمع المعلومات والتواصل الحقيقي هو من مبادئ CLT."
   },
-  {
+  { "commented_out": "duplicate",
     "q": "Students sing 'Head and shoulders' and touch body parts. This teaching method is:",
     "options": ["CLT", "Audio Lingual", "GT", "TPR"],
     "correct": 3,
@@ -1540,7 +1540,7 @@
     "correct": 0,
     "feedback": "لعب الأدوار يعزز التواصل الحقيقي."
   },
-  {
+  { "commented_out": "duplicate",
     "q": "Grammar-Translation is most consistent with:",
     "options": ["Task-Based Learning", "Total Physical Response", "Audio-lingual method", "Oral Approach"],
     "correct": 3,
@@ -1552,7 +1552,7 @@
     "correct": 0,
     "feedback": "CLT قد يركز على الطلاقة أكثر من الدقة."
   },
-  {
+  { "commented_out": "duplicate",
     "q": "The teacher leads patterns of sentences by repeating them; students repeat and receive feedback. This method is:",
     "options": ["TPR", "Audio-lingual method", "CLT", "GT"],
     "correct": 1,
@@ -1564,7 +1564,7 @@
     "correct": 1,
     "feedback": "الـ Prompter يقدم اقتراحات تشجيعية للطلاب."
   },
-  {
+  { "commented_out": "duplicate",
     "q": "The input that teachers provide must be:",
     "options": ["Complicated", "Professional", "Interdisciplinary", "Comprehensible"],
     "correct": 3,
@@ -1576,7 +1576,7 @@
     "correct": 1,
     "feedback": "التمثيل الصامت يساعد الطلاب على فهم الكلمات."
   },
-  {
+  { "commented_out": "duplicate",
     "q": "What is an example of using gestures to indicate quantity?",
     "options": ["Making an open hand tremble", "Pointing to a student", "Showing the size of an object", "Nodding"],
     "correct": 2,
@@ -1588,7 +1588,7 @@
     "correct": 0,
     "feedback": "التعلم الحركي يعتمد على الحركة الجسدية."
   },
-  {
+  { "commented_out": "duplicate",
     "q": "Which classroom activity aligns with kinesthetic learning?",
     "options": ["Reading silently", "Listening to a lecture", "Acting out vocabulary", "Watching a video"],
     "correct": 2,
@@ -1600,7 +1600,7 @@
     "correct": 2,
     "feedback": "إعادة ترتيب المقاعد أو تقسيم الطلاب هو جزء من التنظيم الصفي."
   },
-  {
+  { "commented_out": "duplicate",
     "q": "What does 'reflection-in-action' refer to?",
     "options": ["Real-time decision-making", "Thinking after class", "Teaching based on past experiences", "Reading notes"],
     "correct": 0,
@@ -1612,4 +1612,6 @@
     "correct": 1,
     "feedback": "التعلم الشخصي يمنح الطلاب حرية الاختيار."
   }
-]}
+
+]
+}
