@@ -1,0 +1,2291 @@
+
+{
+  "subject": "شعر في عصر النهضه للبروفيسور منذر سنه ٤",
+  "lang": "en",
+  "question": [
+    {
+      "q": "The Victorian period in British literature broadly coincides with the reign of:",
+      "options": [
+        "George III",
+        "Edward VII",
+        "Queen Victoria",
+        "None of these"
+      ],
+      "correct": 2,
+      "feedback": "الفترة الفيكتورية في الأدب البريطاني تتزامن بشكل عام مع عهد الملكة فيكتوريا (Queen Victoria) التي حكمت من عام 1837 إلى 1901."
+    },
+    {
+      "q": "One of the most striking intellectual crises reflected in Victorian literature was the conflict between:",
+      "options": [
+        "monarchy and parliament",
+        "religious faith and scientific discovery",
+        "aristocracy and democracy",
+        "tradition and colonialism"
+      ],
+      "correct": 1,
+      "feedback": "من أبرز الأزمات الفكرية في العصر الفيكتوري هو الصراع بين الإيمان الديني والاكتشافات العلمية (مثل نظرية التطور لداروين)."
+    },
+    {
+      "q": "Which Victorian poet is best known for transforming the dramatic monologue into a sophisticated poetic form?",
+      "options": [
+        "None of the following",
+        "Matthew Arnold",
+        "Elizabeth Browning",
+        "Gerard Manley Hopkins"
+      ],
+      "correct": 0,
+      "feedback": "الشاعر الفيكتوري الأشهر بتطوير المونولوج الدرامي هو روبرت براونينغ (Robert Browning)، وبما أنه غير موجود في الخيارات، فالإجابة هي لا أحد مما يلي."
+    },
+    {
+      "q": "Matthew Arnold's Dover Beach is often interpreted as expressing anxiety about:",
+      "options": [
+        "the decline of Imperial Britain",
+        "the loss of religious certainty",
+        "industrial pollution",
+        "the corruption of politics"
+      ],
+      "correct": 1,
+      "feedback": "قصيدة 'شاطئ دوفر' لماتيو أرنولد تعبر عن القلق والاضطراب الناتج عن فقدان اليقين الديني وتراجع الإيمان في العصر الحديث."
+    },
+    {
+      "q": "The phrase 'the Sea of Faith' in Dover Beach symbolizes:",
+      "options": [
+        "the power of the ocean",
+        "the spread of Christianity",
+        "the former strength of religious belief",
+        "the unity of humanity"
+      ],
+      "correct": 2,
+      "feedback": "عبارة 'بحر الإيمان' ترمز إلى القوة السابقة والمعتقدات الدينية الراسخة التي كانت تجمع الناس قبل أن تنحسر."
+    },
+    {
+      "q": "Victorian poetry frequently reflects the rapid social transformations caused by:",
+      "options": [
+        "the American Revolution",
+        "the Renaissance",
+        "the Industrial Revolution",
+        "the Enlightenment"
+      ],
+      "correct": 2,
+      "feedback": "عكس الشعر الفيكتوري التحولات الاجتماعية والاقتصادية السريعة الناتجة عن الثورة الصناعية (Industrial Revolution)."
+    },
+    {
+      "q": "Which poet served as Poet Laureate of Britain for over forty years during the Victorian era?",
+      "options": [
+        "Matthew Arnold",
+        "Alfred Tennyson",
+        "Robert Browning",
+        "Thomas Hardy"
+      ],
+      "correct": 1,
+      "feedback": "ألفرد تينيسون (Alfred Tennyson) هو الشاعر الذي شغل منصب شاعر البلاط (Poet Laureate) لأكثر من أربعين عاماً خلال العصر الفيكتوري."
+    },
+    {
+      "q": "Robert Browning's poetry is especially known for its:",
+      "options": [
+        "simple lyrical songs",
+        "narrative ballads",
+        "psychological exploration of speakers",
+        "political satires"
+      ],
+      "correct": 2,
+      "feedback": "تميز شعر روبرت براونينغ بالتحليل والاستكشاف النفسي العميق للشخصيات المتحدثة عبر المونولوج الدرامي."
+    },
+    {
+      "q": "Complete the line 'Oh, to be in England, now that ______ there' appears in a poem by:",
+      "options": [
+        "My love's ...",
+        "April's ...",
+        "Spring's ...",
+        "May's ..."
+      ],
+      "correct": 1,
+      "feedback": "السطر الشهير من قصيدة روبرت براونينغ هو: 'Oh, to be in England, now that April's there' ويعبر عن الحنين للوطن في شهر أبريل."
+    },
+    {
+      "q": "Modernism as a literary movement emerged largely as a reaction to:",
+      "options": [
+        "medieval traditions",
+        "Romantic poetry",
+        "the cultural disillusionment following Great War",
+        "Victorian optimism"
+      ],
+      "correct": 3,
+      "feedback": "ظهرت الحداثة كحركة أدبية بشكل رئيسي كرد فعل ضد التفاؤل الفيكتوري (Victorian optimism) والقيم التقليدية السائدة، وكذلك تأثرت بالخيبة الثقافية بعد الحرب العالمية الأولى."
+    },
+    {
+      "q": "Modernist writers often experimented with:",
+      "options": [
+        "strict classical forms",
+        "traditional epic narratives",
+        "innovative techniques",
+        "heroic verse"
+      ],
+      "correct": 2,
+      "feedback": "تمتع كتاب الحداثة بروح تجريبية واعتمدوا على تقنيات مبتكرة (Innovative techniques) مثل تيار الوعي والشعر الحر."
+    },
+    {
+      "q": "Many American and British modernist writers lived abroad as expatriates, especially in:",
+      "options": [
+        "Rome",
+        "Paris",
+        "Athens",
+        "Prague"
+      ],
+      "correct": 1,
+      "feedback": "عاش العديد من كتاب الحداثة كمغتربين في باريس (Paris) التي كانت مركزاً للتجديد الفني والأدبي في ذلك الوقت."
+    },
+    {
+      "q": "The literary movement Imagism advocated poetry that was:",
+      "options": [
+        "philosophical and abstract",
+        "highly emotional",
+        "economical in language",
+        "narrative and dramatic"
+      ],
+      "correct": 2,
+      "feedback": "دعت حركة التصويرية (Imagism) إلى كتابة شعر يتميز بالاقتصاد في اللغة والدقة العالية في استخدام الكلمات لتقديم صورة واضحة."
+    },
+    {
+      "q": "Which poet was one of the principal founders of the Imagist movement?",
+      "options": [
+        "T. S. Eliot",
+        "W. B. Yeats",
+        "H.D.",
+        "Wallace Stevens"
+      ],
+      "correct": 2,
+      "feedback": "الشاعرة هيلدا دوليتل المعروفة باسم (H.D.) كانت واحدة من المؤسسين الرئيسيين للحركة التصويرية إلى جانب عزرا باوند."
+    },
+    {
+      "q": "Ezra Pound's poem In a Station of the Metro is famous for its:",
+      "options": [
+        "elaborate symbolism",
+        "dramatic monologue",
+        "imagistic clarity",
+        "narrative complexity"
+      ],
+      "correct": 2,
+      "feedback": "قصيدة عزرا باوند 'في محطة المترو' تعتبر النموذج الأبرز للوضوح التصويري (Imagistic clarity) باختصارها الشديد وتركيزها على صورة واحدة."
+    },
+    {
+      "q": "In In a Station of the Metro, the faces in the crowd are compared to:",
+      "options": [
+        "reflections in water",
+        "drifting clouds",
+        "petals on a wet, black bough",
+        "falling snow"
+      ],
+      "correct": 2,
+      "feedback": "في هذه القصيدة، يشبه الشاعر وجوه الناس في الزحام ببتلات الزهر على غصن شجرة رطب وأسود (petals on a wet, black bough)."
+    },
+    {
+      "q": "The Imagists were strongly influenced by:",
+      "options": [
+        "Japanese poetry",
+        "Chinese poetry",
+        "Both A and B",
+        "Romantic epics"
+      ],
+      "correct": 2,
+      "feedback": "تأثر الشعراء التصويريون بشدة بالشعر الياباني (مثل الهايكو) والشعر الصيني التقليدي لبساطتهما وتركيزهما على الصورة."
+    },
+    {
+      "q": "Ezra Pound's collection Cathay is notable because it is based largely on translations from:",
+      "options": [
+        "Persian poetry",
+        "Japanese",
+        "Chinese poetry",
+        "Greek poetry"
+      ],
+      "correct": 2,
+      "feedback": "مجموعة عزرا باوند 'Cathay' شهيرة لأنها تحتوي بشكل أساسي على ترجمات وإعادة صياغة للشعر الصيني الكلاسيكي."
+    },
+    {
+      "q": "Which poet famously declared the principle 'Make it new'?",
+      "options": [
+        "T. S. Eliot",
+        "Ezra Pound",
+        "C. D.H. Lawrence",
+        "D. Virginia Woolf"
+      ],
+      "correct": 1,
+      "feedback": "عزرا باوند (Ezra Pound) هو صاحب الشعار الشهير للحداثة 'اجعله جديداً' (Make it new) لحث الشعراء على التجديد والابتكار."
+    },
+    {
+      "q": "William Carlos Williams believed poetry should focus on:",
+      "options": [
+        "mythological subjects",
+        "aristocracy culture",
+        "everyday objects",
+        "religious themes"
+      ],
+      "correct": 2,
+      "feedback": "كان ويليام كارلوس ويليامز يؤمن بأن الشعر يجب أن يركز على الأشياء اليومية البسيطة والواقع الملموس (Everyday objects)."
+    },
+    {
+      "q": "Williams's famous poem The Red Wheelbarrow demonstrates the importance of:",
+      "options": [
+        "narrative storytelling",
+        "philosophical reflection",
+        "simple everyday objects",
+        "historical references"
+      ],
+      "correct": 2,
+      "feedback": "قصيدة 'عربة اليد الحمراء' لويليامز توضح الأهمية الشعرية للأشياء اليومية العادية وكيف يعتمد عليها الكثير من المعاني."
+    },
+    {
+      "q": "William Carlos Williams worked professionally as a:",
+      "options": [
+        "lawyer",
+        "journalist",
+        "physician",
+        "diplomat"
+      ],
+      "correct": 2,
+      "feedback": "بالإضافة لكونه شاعراً كبيراً، عمل ويليام كارلوس ويليامز طوال حياته كطبيب أطفال وعام (Physician)."
+    },
+    {
+      "q": "The poem The Unknown Citizen by W. H. Auden satirizes:",
+      "options": [
+        "romantic love",
+        "the aristocracy",
+        "bureaucratic society",
+        "the church"
+      ],
+      "correct": 2,
+      "feedback": "قصيدة 'المواطن المجهول' لأودن تسخر من المجتمع البيروقراطي الحديث الذي يختزل الإنسان في أرقام وإحصاءات حكومية."
+    },
+    {
+      "q": "In Auden's poem, the citizen is described through:",
+      "options": [
+        "personal memories",
+        "family letters",
+        "official records",
+        "philosophical reflections"
+      ],
+      "correct": 2,
+      "feedback": "يتم وصف المواطن في القصيدة بالكامل بناءً على التقارير والسجلات الرسمية (Official records) الصادرة عن الهيئات الحكومية والشركات."
+    },
+    {
+      "q": "The poem The Unknown Citizen ironically suggests that the citizen's life was:",
+      "options": [
+        "tragic and misunderstood",
+        "heroic and inspiring",
+        "mysterious and adventurous",
+        "perfectly normal according to the state"
+      ],
+      "correct": 3,
+      "feedback": "تشير القصيدة بسخرية إلى أن حياة هذا المواطن كانت مثالية وطبيعية تماماً من وجهة نظر الدولة لأنه يطيع الأوامر دون تفكير."
+    },
+    {
+      "q": "Sylvia Plath is often associated with the literary movement known as:",
+      "options": [
+        "Romanticism",
+        "Symbolism",
+        "Confessional poetry",
+        "Imagism"
+      ],
+      "correct": 2,
+      "feedback": "ترتبط سيلفيا بلاث بحركة 'الشعر الاعترافي' (Confessional poetry) الذي يتناول التجارب الشخصية الحميمة والنفسية بحرية كاملة."
+    },
+    {
+      "q": "Confessional poetry is characterized by:",
+      "options": [
+        "classical mythology",
+        "political propaganda",
+        "psychological themes",
+        "historical narratives"
+      ],
+      "correct": 2,
+      "feedback": "يتميز الشعر الاعترافي بالتركيز على الموضوعات النفسية (Psychological themes) والصراعات العاطفية الشخصية للشاعر."
+    },
+    {
+      "q": "Many of Sylvia Plath's poems explore her complex emotional relationship with:",
+      "options": [
+        "her brother",
+        "her mother",
+        "her teacher",
+        "None of these"
+      ],
+      "correct": 3,
+      "feedback": "أشهر قصائد بلاث (مثل قصيدة Daddy) تستكشف علاقتها المعقدة والمضطربة مع والدها (her father)، وبما أنه غير مذكور، فالإجابة هي (None of these)."
+    },
+    {
+      "q": "Plath's poetry frequently deals with themes of:",
+      "options": [
+        "colonial expansion",
+        "political revolution",
+        "identity and conflict",
+        "medieval legend"
+      ],
+      "correct": 2,
+      "feedback": "يتناول شعر سيلفيا بلاث بشكل متكرر قضايا الهوية، الصراع النفسي، والموت والبحث عن الذات (Identity and conflict)."
+    },
+    {
+      "q": "The war poets of World War I are known for depicting war as:",
+      "options": [
+        "glorious and heroic",
+        "romantic and inspiring",
+        "patriotic and noble",
+        "brutal and disillusioning"
+      ],
+      "correct": 3,
+      "feedback": "تميز شعراء الحرب العالمية الأولى بتصوير الحرب على حقيقتها البشعة والمخيبة للآمال (Brutal and disillusioning) داحضين الأوهام البطولية الكاذبة."
+    },
+    {
+      "q": "_______ died in World War I shortly before the Armistice and became famous for his war poetry?",
+      "options": [
+        "Rupert Brooke",
+        "Wilfred Owen",
+        "Siegfried Sassoon",
+        "Edward Thomas"
+      ],
+      "correct": 1,
+      "feedback": "ويلفريد أوين (Wilfred Owen) هو من أشهر شعراء الحرب الذين قتلوا في المعركة قبل أسبوع واحد فقط من توقيع الهدنة."
+    },
+    {
+      "q": "This important World War I poet also died in the war, _________",
+      "options": [
+        "Rupert Brooke",
+        "Isaac Rosenberg",
+        "T. E. Hulme",
+        "Edmund Blunden"
+      ],
+      "correct": 1,
+      "feedback": "آيزاك روزنبرغ (Isaac Rosenberg) هو أيضاً من الشعراء البارزين الذين قتلوا في الجبهة خلال الحرب العالمية الأولى."
+    },
+    {
+      "q": "Rupert Brooke's war sonnets initially presented war as:",
+      "options": [
+        "meaningless suffering",
+        "moral corruption",
+        "patriotic sacrifice",
+        "social injustice"
+      ],
+      "correct": 2,
+      "feedback": "على عكس أوين وروزنبرغ، قدمت قصائد روبرت بروك المبكرة الحرب كنوع من التضحية الوطنية النبيلة والمقدسة (Patriotic sacrifice)."
+    },
+    {
+      "q": "Which critic argued that poetry could replace religion as a source of moral guidance?",
+      "options": [
+        "Robert Browning",
+        "Matthew Arnold",
+        "T. S. Eliot",
+        "Ezra Pound"
+      ],
+      "correct": 1,
+      "feedback": "جادل الناقد والشاعر ماتيو أرنولد (Matthew Arnold) بأن الشعر يمكن أن يحل محل الدين في تقديم التوجيه الأخلاقي والروحي للمجتمع."
+    },
+    {
+      "q": "Matthew Arnold believed poetry should provide what he called:",
+      "options": [
+        "scientific truth",
+        "historical accuracy",
+        "a criticism of life",
+        "social revolution"
+      ],
+      "correct": 2,
+      "feedback": "اعتقد أرنولد أن الوظيفة الأساسية للشعر هي تقديم 'نقد للحياة' (A criticism of life) لتقييم وتوجيه السلوك البشري."
+    },
+    {
+      "q": "The Victorian age was characterized by expanding literacy due largely to:",
+      "options": [
+        "colonial education",
+        "aristocratic patronage",
+        "reforms and prosperity",
+        "religious institutions"
+      ],
+      "correct": 2,
+      "feedback": "تميز العصر الفيكتوري بانتشار القراءة والكتابة بفضل الإصلاحات التعليمية، القوانين الجديدة، والازدهار الاقتصادي العام."
+    },
+    {
+      "q": "The rapid growth of cities during the nineteenth century influenced literature by:",
+      "options": [
+        "eliminating rural themes",
+        "encouraging epic poetry",
+        "introducing new social problems and perspectives",
+        "reviving medieval romance"
+      ],
+      "correct": 2,
+      "feedback": "أدى النمو السريع للمدن والتحضر إلى إدخال مشكلات اجتماعية جديدة في الأدب مثل الفقر، عمالة الأطفال، والازدحام الفيكتوري."
+    },
+    {
+      "q": "Modernist writers frequently rejected the Victorian belief in:",
+      "options": [
+        "rational thought",
+        "artistic creativity",
+        "moral and social progress",
+        "historical tradition"
+      ],
+      "correct": 2,
+      "feedback": "رفض كتاب الحداثة الإيمان الفيكتوري الأعمى بالتقدم الأخلاقي والاجتماعي الحتمي، خاصة بعد دمار الحرب العالمية الأولى."
+    },
+    {
+      "q": "Many modernist poets sought inspiration in:",
+      "options": [
+        "only English literary traditions",
+        "world literatures and cultures",
+        "political speeches",
+        "scientific development"
+      ],
+      "correct": 1,
+      "feedback": "بحث شعراء الحداثة عن الإلهام في ثقافات وآداب عالمية متنوعة (مثل الشرقية والأفريقية والأوروبية) متجاوزين التقاليد الإنجليزية المحلية."
+    },
+    {
+      "q": "Overall, the transition from Victorian literature to Modernism reflects a shift from:",
+      "options": [
+        "realism to fantasy",
+        "religion to science",
+        "tradition to mythology",
+        "confidence and stability to fragmentation and uncertainty"
+      ],
+      "correct": 3,
+      "feedback": "بشكل عام، يعكس الانتقال من الأدب الفيكتوري إلى الحداثة تحولاً جذرياً من الثقة والاستقرار إلى التجزؤ وعدم اليقين والقلق."
+    },
+    {
+      "q": "Victoria became queen of England in ----",
+      "options": [
+        "1832",
+        "1837",
+        "1828",
+        "1737"
+      ],
+      "correct": 1,
+      "feedback": "أصبحت الملكة فيكتوريا ملكة لبريطانيا في عام 1837 واستمر حكمها حتى عام 1901."
+    },
+    {
+      "q": "Queen Victoria succeeded to the throne in ----",
+      "options": [
+        "1835",
+        "1832",
+        "1839",
+        "None of the above"
+      ],
+      "correct": 3,
+      "feedback": "تولت الملكة فيكتوريا العرش عام 1837 وبما أن هذا التاريخ غير مدرج فالإجابة هي (None of the above)."
+    },
+    {
+      "q": "Queen Victoria abdicated the throne in ----",
+      "options": [
+        "1837",
+        "1832",
+        "1635",
+        "none of the above."
+      ],
+      "correct": 3,
+      "feedback": "الملكة فيكتوريا لم تتنازل عن العرش قط بل ظلت تحكم حتى وفاتها عام 1901، لذلك الإجابة هي (none of the above)."
+    },
+    {
+      "q": "Queen Victoria ascends the throne in ----, a date generally regarded to be the beginning of Victorianism.",
+      "options": [
+        "1837",
+        "1832",
+        "1839",
+        "None of the above"
+      ],
+      "correct": 0,
+      "feedback": "صعدت الملكة فيكتوريا العرش عام 1837 وهو التاريخ المعتمد لبداية العصر الفيكتوري أدبياً وسياسياً."
+    },
+    {
+      "q": "Victorianism started in ----",
+      "options": [
+        "1832",
+        "1833",
+        "1834",
+        "1735"
+      ],
+      "correct": 0,
+      "feedback": "يعتبر بعض النقاد والمؤرخين أن العصر الفيكتوري أدبياً بدأ عام 1832 مع صدور قانون الإصلاح الأول (First Reform Act)."
+    },
+    {
+      "q": "Victorianism ended in or about ----",
+      "options": [
+        "1900",
+        "1901",
+        "1502",
+        "1903"
+      ],
+      "correct": 1,
+      "feedback": "انتهى العصر الفيكتوري بوفاة الملكة فيكتوريا عام 1901."
+    },
+    {
+      "q": "The period 1901-1914 is known in English literature as ----",
+      "options": [
+        "Victorian",
+        "1st World War Period",
+        "Edwardian",
+        "beginning of a century period."
+      ],
+      "correct": 2,
+      "feedback": "تُعرف الفترة بين 1901 و 1914 بالعصر الإدواردي (Edwardian Period) نسبة للملك إدوارد السابع."
+    },
+    {
+      "q": "Victorianism spans the years",
+      "options": [
+        "1832-1901",
+        "1837-1900",
+        "1832-1918",
+        "1833-1900."
+      ],
+      "correct": 0,
+      "feedback": "يمتد العصر الفيكتوري تاريخياً وأدبياً بشكل عام من عام 1832 أو 1837 حتى عام 1901."
+    },
+    {
+      "q": "The period 1914-1939 is known in English literature as ----",
+      "options": [
+        "The End-of-war period",
+        "1st World War Period",
+        "Georgian era",
+        "The Modernist period."
+      ],
+      "correct": 3,
+      "feedback": "تُعرف الفترة الممتدة بين الحربين العالميتين (1914-1939) بالفترة الحداثية أو عصر الحداثة (The Modernist period)."
+    },
+    {
+      "q": "The years between 1914-1939 are known in English literary and cultural studies as ----period;",
+      "options": [
+        "the Modernist",
+        "1st World War",
+        "T. S. Eliot's",
+        "Elizabethan II's"
+      ],
+      "correct": 0,
+      "feedback": "تُسمى الفترة من 1914 إلى 1939 بعصر أو فترة الحداثة (the Modernist period)."
+    },
+    {
+      "q": "The period 1939-to the present is known in English literature as ----",
+      "options": [
+        "Elizabeth I period",
+        "Contemporary period",
+        "Georgian era",
+        "The Present period"
+      ],
+      "correct": 1,
+      "feedback": "تُعرف الفترة من عام 1939 (بداية الحرب العالمية الثانية) إلى الوقت الحاضر بالفترة المعاصرة (Contemporary period)."
+    },
+    {
+      "q": "The Victorian age is the true English Age of this literary genre:",
+      "options": [
+        "Drama",
+        "poetry",
+        "literary criticism",
+        "the novel"
+      ],
+      "correct": 3,
+      "feedback": "يُعتبر العصر الفيكتوري العصر الذهبي للرواية الإنجليزية (the novel) حيث بلغت نضجها وشعبيتها الكبرى."
+    },
+    {
+      "q": "During the Victorian age the writing of this literary genre flourished greatly:",
+      "options": [
+        "drama",
+        "novel",
+        "poetry",
+        "the essay"
+      ],
+      "correct": 1,
+      "feedback": "ازدهرت الرواية (novel) بشكل هائل في العصر الفيكتوري وأصبحت الجنس الأدبي المهيمن والأكثر قراءة."
+    },
+    {
+      "q": "The Victorian age is the true English Age of this literary genre:",
+      "options": [
+        "science",
+        "poetry",
+        "criticism",
+        "none of these"
+      ],
+      "correct": 1,
+      "feedback": "بالإضافة للرواية، يرى الكثير من النقاد أن هذا العصر شهد أيضاً ازدهاراً منقطع النظير للشعر (poetry) الفيكتوري بتنوعه الكبيير."
+    },
+    {
+      "q": "Mathew Arnold was ----",
+      "options": [
+        "essayist",
+        "critic",
+        "poet",
+        "All of these"
+      ],
+      "correct": 3,
+      "feedback": "كان ماتيو أرنولد أديباً شاملاً عمل ككاتب مقالات (essayist)، وناقد أدبي (critic)، وشاعر بارز (poet)، لذا الخيار الصحيح هو كل ما سبق."
+    },
+
+    {
+      "q": "What is the best tone of “Dover Beach”?",
+      "options": ["enthusiastic", "hopeful", "pessimistic", "all of the above"],
+      "correct": 2,
+      "feedback": "تتميز قصيدة 'شاطئ دوفر' لماتيو أرنولد بنبرة تشاؤمية (pessimistic) تعكس القلق من فقدان الإيمان واليقين الديني في العصر الفيكتوري."
+    },
+    {
+      "q": "Matthew Arnold’s “Dover Beach” is about —",
+      "options": ["the slow retreat of faith", "lack of culture in Britain", "the need for Education", "the Defence of Britain"],
+      "correct": 0,
+      "feedback": "تتمحور القصيدة بشكل أساسي حول التراجع والانحسار التدريجي للإيمان الديني (the slow retreat of faith) في مواجهة العلم والشك."
+    },
+    {
+      "q": "“It is not enough that the poet should add to the knowledge of men, it is required of him also that he should add to their happiness” is said by —",
+      "options": ["Matthew Arnold", "Christina Rossetti", "Robert Browning", "Lord Tennyson"],
+      "correct": 0,
+      "feedback": "هذه المقولة الشهيرة التي تؤكد على دور الشاعر في إضفاء السعادة بجانب المعرفة هي للناقد والشاعر ماتيو أرنولد (Matthew Arnold)."
+    },
+    {
+      "q": "“The Sea of Faith” was once too, at the full, and earth’s shore / lay like the folds of a bright girdle furled! It’s typical example of —",
+      "options": ["Personification", "Simile", "Metaphor", "Epithet"],
+      "correct": 1,
+      "feedback": "استخدام أداة التشبيه 'like' في العبارة يجعلها نموذجاً واضحاً لأسلوب التشبيه (Simile)."
+    },
+    {
+      "q": "In Matthew Arnold’s “Dover Beach” what country does the speaker see on the other side of the English Channel?",
+      "options": ["Ireland", "France", "Greece", "Belgium"],
+      "correct": 1,
+      "feedback": "يقف المتحدث على شاطئ دوفر في إنجلترا وينظر عبر القناة الإنجليزية ليرى أضواء ساحل فرنسا (France)."
+    },
+    {
+      "q": "In Matthew Arnold’s “Dover Beach” what place does the speaker compare the world in the last three lines?",
+      "options": ["A whispering wood", "A fragrant meadow", "A treacherous chasm", "A darkling plain"],
+      "correct": 3,
+      "feedback": "في الأسطر الأخيرة، يشبه الشاعر العالم بـ 'سهل مظلم' (A darkling plain) حيث تتصادم الجيوش الجاهلة في الليل."
+    },
+    {
+      "q": "In Matthew Arnold’s “Dover Beach” what Greek playwright makes a cameo in this poem?",
+      "options": ["Euripides", "Aeschylus", "Sophocles", "Astrophilics"],
+      "correct": 2,
+      "feedback": "يذكر أرنولد الشاعر المسرحي اليوناني سوفوكليس (Sophocles) الذي سمع نفس صوت بحر إيجه قديماً."
+    },
+    {
+      "q": "Matthew Arnold was convinced that religion would maintain its importance within British society. This statement is —",
+      "options": ["the theme of his “Dover Beach”", "Untrue", "purely political", "True"],
+      "correct": 1,
+      "feedback": "العبارة غير صحيحة (Untrue)؛ لأن أرنولد كان يرى أن الدين التقليدي يفقد قوته ومكانته، وكان يظن أن الأدب والشعر قد يحلان محله."
+    },
+    {
+      "q": "“Dover Beach” is Matthew Arnold’s lament over the decline of — in his time.",
+      "options": ["industry", "morality", "religious faith", "B&C"],
+      "correct": 2,
+      "feedback": "القصيدة هي رثاء واضح لتراجع وانحسار العقيدة والإيمان الديني (religious faith) في العصر الفيكتوري."
+    },
+    {
+      "q": "Identify the speaker in these lines “Ah, love, let us be true / To one another for the world, which seems / To lie before us like a land of dreams.”",
+      "options": ["A married woman", "A young man", "A young man", "An angry husband"],
+      "correct": 1,
+      "feedback": "المتحدث في القصيدة هو شاب (A young man) يخاطب حبيبته أو زوجته رداً على كآبة العالم الخارجي."
+    },
+    {
+      "q": "A ‘dramatic monologue’ is a piece of spoken verse that gives insight into the feelings of the speaker. This statement is —",
+      "options": ["True", "Untrue", "paradoxical", "misleading"],
+      "correct": 0,
+      "feedback": "العبارة صحيحة (True)، فالمونولوج الدرامي يتيح للقارئ سبر أغوار الشخصية المتحدثة وفهم أبعادها النفسية."
+    },
+    {
+      "q": "Robert Browning is the initiator of this technique in English poetry.",
+      "options": ["dramatic monologue", "poetic mood", "podio monologue", "dramatic mood"],
+      "correct": 0,
+      "feedback": "روبرت براونينغ (Robert Browning) هو الرائد والمطور الأساسي لتقنية المونولوج الدرامي (dramatic monologue) في الشعر الإنجليزي."
+    },
+    {
+      "q": "One of the following was not a poet.",
+      "options": ["D. H. Lawrence", "Thomas Hardy", "Robert Browning", "Charles Dickens"],
+      "correct": 3,
+      "feedback": "تشارلز ديكنز (Charles Dickens) عُرف كروائي فيكتوري عبقري وليس كشاعر، على عكس بقية الأسماء."
+    },
+    {
+      "q": "Which of the following is a major characteristic of Victorian literature?",
+      "options": [
+        "Fascination with nature and the sublime",
+        "Celebration of industrial progress and social reform",
+        "Expressionism in its emphasis on angst and gothic",
+        "Realism in its depiction of ordinary life"
+      ],
+      "correct": 3,
+      "feedback": "تعتبر الواقعية في تصوير الحياة اليومية ومشكلات المجتمع (Realism in its depiction of ordinary life) من أهم سمات الأدب الفيكتوري."
+    },
+    {
+      "q": "The following statement is true about Robert Browning’s poetic technique:",
+      "options": [
+        "He used dramatic monologue to explore psychological reflection",
+        "He used sonnets to express romantic love",
+        "He used blank verse to describe nature",
+        "He used free verse to express social criticism"
+      ],
+      "correct": 0,
+      "feedback": "برع براونينغ في استخدام المونولوج الدرامي لاستكشاف وتحليل الدوافع والأبعاد النفسية للشخصيات المتحدثة."
+    },
+    {
+      "q": "Which of the following best describes the decline of religion during the Victorian era as expressed in literature?",
+      "options": [
+        "Faith in divine providence",
+        "Doubt and qing of religious beliefs",
+        "Celebration of religious miracles",
+        "Clear Darwinism in the Church"
+      ],
+      "correct": 1,
+      "feedback": "عبر الأدب الفيكتوري عن تراجع الدين من خلال ظهور الشك والتساؤل حول المعتقدات الدينية التقليدية (Doubt and qing)."
+    },
+    {
+      "q": "Which of the following is a feature of Modernist literature?",
+      "options": [
+        "Social realism",
+        "Attention and disillusionment",
+        "Industrial analysis",
+        "Victorian imagery and precision"
+      ],
+      "correct": 1,
+      "feedback": "من أهم سمات أدب الحداثة هو التعبير عن خيبة الأمل والاضطراب (disillusionment) عقب الحرب العالمية الأولى وتغير العالم."
+    },
+    {
+      "q": "Who is the author of Imagism, known for brevity and precision?",
+      "options": ["Ezra Pound", "T.S. Eliot", "W.B. Yeats", "Wallace Stevens"],
+      "correct": 0,
+      "feedback": "عزرا باوند (Ezra Pound) هو الأب الروحي والرواد الأبرز للحركة التصويرية (Imagism) التي تدعو للإيجاز والدقة المتناهية."
+    },
+    {
+      "q": "Which Modernist poet wrote The Waste Land?",
+      "options": ["Ezra Pound", "T.S. Eliot", "W.B. Yeats", "Rudyard Kipling"],
+      "correct": 1,
+      "feedback": "قصيدة 'الأرض اليباب' أو 'الأرض الخراب' (The Waste Land) هي التحفة الشعرية الشهيرة للشاعر ت. س. إليوت (T.S. Eliot)."
+    },
+    {
+      "q": "Which of the following is a feature of Modernist literature?",
+      "options": [
+        "Realistic social consciousness",
+        "Clear, linear narrative",
+        "Fragmented structure and stream of consciousness",
+        "Didactic moral themes"
+      ],
+      "correct": 2,
+      "feedback": "تميزت الحداثة بالبنية المفككة وغير الخطية واستخدام تقنية تيار الوعي (Fragmented structure and stream of consciousness)."
+    },
+    {
+      "q": "WWI was a period which also included ---- is the decisive historical phenomenon in the development of Modernism.",
+      "options": ["the Irish uprising of 1916", "the Russian revolution of 1919", "both A and B", "The French Revolution"],
+      "correct": 2,
+      "feedback": "تأثرت حركة الحداثة بالأحداث السياسية الكبرى المتزامنة مع الحرب، مثل الثورة الأيرلندية 1916 والثورة الروسية، لذلك الخيار الصحيح هو (both A and B)."
+    },
+    {
+      "q": "Much of the publication of Modernist works, which were often met with ---- and ----.",
+      "options": ["crude", "educated", "allusive", "All of the above"],
+      "correct": 3,
+      "feedback": "الأعمال الحداثية كانت تتسم بالتعقيد، التلميحات الكثيرة (allusive) والغرابة، وقوبلت بردود فعل متباينة وصادمة أحياناً."
+    },
+    {
+      "q": "According to Virginia Woolf the beginning of Modernism is ---- when the Edwardian era (Edward VII) came to an end.",
+      "options": ["December 1912", "December 1910", "March 1914", "December 1911"],
+      "correct": 1,
+      "feedback": "قالت فرجينيا وولف عباراتها الشهيرة إن الطبع البشري تغير في أو حوالي 'ديسمبر 1910'، وهو تاريخ رمزي لبداية التحول الحداثي."
+    },
+    {
+      "q": "Modernism is often considered to be a thorough critique and repudiation of ----.",
+      "options": ["Naturalism", "Romanticism", "Medievalism", "Classicism"],
+      "correct": 1,
+      "feedback": "تعتبر الحداثة ثورة ورفضاً كاملاً للنزعة العاطفية والرومانسية (Romanticism) وكذلك للقيم الفيكتورية التقليدية."
+    },
+    {
+      "q": "“First Modernist poets were as inclined as Dryden or Pope to see themselves in detachment from and criticism of their society.” is a ----.",
+      "options": ["false statement", "true statement", "ironic statement", "satirical statement"],
+      "correct": 1,
+      "feedback": "العبارة صحيحة (true statement)؛ حيث وقف شعراء الحداثة الأوائل موقف الناقد المستقل والمنفصل عن قيم مجتمعه الصناعي."
+    },
+    {
+      "q": "“The Modernists wanted to confront the present rather than to escape from it.” This is ----.",
+      "options": ["true", "untrue", "exaggerative", "satirical"],
+      "correct": 0,
+      "feedback": "صحيح (true)؛ فالحداثيون سعوا لمواجهة الواقع الجديد المشوه والمليء بالحروب بدلاً من الهروب منه إلى الطبيعة كالأجيال السابقة."
+    },
+    {
+      "q": "Modernist poetry portrays ---- in the passionless and soulless waste land of their post-industrial society.",
+      "options": ["the isolated condition of the man", "Man’s spiritual despair", "Man’s emotional dissociation", "all of the above"],
+      "correct": 3,
+      "feedback": "يصور الشعر الحداثي كل مظاهر الاغتراب: عزلة الإنسان، اليأس الروحي، والانفصال العاطفي، لذا فالإجابة هي (all of the above)."
+    },
+    {
+      "q": "The most dominant movement of poetry in the English modernist period is ---- movement.",
+      "options": ["the romantic", "the symbolist", "the socialist", "the cubist"],
+      "correct": 1,
+      "feedback": "الحركة الرمزية (the symbolist movement) والتصويرية كانتا الحركتين الأكثر هيمنة وتأثيراً في صياغة الشعر الحداثي الإنجليزي."
+    },
+    {
+      "q": "“Modernism is movement that is characterised by a deliberate and often radical shift away from tradition”. This statement is ----.",
+      "options": ["100% true", "50% true", "75% true", "false"],
+      "correct": 0,
+      "feedback": "صحيحة تماماً (100% true)؛ فالحداثة قائمة في جوهرها على الابتعاد الجذري والمتعمد عن التقاليد الأدبية الموروثة."
+    },
+    {
+      "q": "The most dominant form of poetry in the English modernist period is ----.",
+      "options": ["the haiku", "free verse", "blank verse", "the sonnet"],
+      "correct": 1,
+      "feedback": "أصبح الشعر الحر (free verse) المتحرر من الأوزان والقوافي التقليدية هو الشكل الشعري المهيمن في عصر الحداثة."
+    },
+    {
+      "q": "“He was found by the Bureau of Statistics to be/ One against whom there was no official complaint.” These lines are by ----.",
+      "options": ["W. H. Auden", "T. S. Eliot", "Seamus Heaney", "Ezra Pound"],
+      "correct": 0,
+      "feedback": "هذه الأسطر الافتتاحية هي من قصيدة 'المواطن المجهول' للشاعر و. هـ. أودن (W. H. Auden)."
+    },
+    {
+      "q": "The unknown citizen in “The Unknown Citizen” is one or more of the following ----.",
+      "options": ["keeps low profile", "unhappy father", "very hard worker", "all of the above"],
+      "correct": 3,
+      "feedback": "توصف التقارير المواطن بأنه ملتزم، يعمل بجد، ولديه عائلة تتبع النظام العام، فالخيارات مجتمعة تعبر عن نمط حياته الإحصائي."
+    },
+    {
+      "q": "The unknown citizen in “The Unknown Citizen” is all of the following except ----.",
+      "options": ["keeps low profile", "unhappy father", "malcontent", "very hard worker"],
+      "correct": 2,
+      "feedback": "المواطن المجهول لم يكن ساخطاً أو متذمراً (malcontent) بل كان مطيعاً تماماً ومستكيناً لمتطلبات الدولة البيروقراطية."
+    },
+    {
+      "q": "___ was found by the Bureau of Statistics to be/ One against whom there was no official complaint.",
+      "options": ["The Modern Citizen", "The Unknown Citizen", "The Well-known Citizen", "W. H. Auden"],
+      "correct": 1,
+      "feedback": "القصيدة والسطر يتحدثان عن 'المواطن المجهول' (The Unknown Citizen) الذي تصفه التقارير الحكومية بالمثالية البيروقراطية."
+    },
+    {
+      "q": "Choose the exact preposition: “The apparition of these faces ___ the crowd; Petals ___ a wet, black bough.”",
+      "options": ["among", "between", "on", "in"],
+      "correct": 3,
+      "feedback": "في قصيدة عزرا باوند الشهيرة، حرف الجر الصحيح في السطر الأول هو (in the crowd)."
+    },
+    {
+      "q": "“The ___ of these faces in the crowd; Petals on a wet, black bough.”",
+      "options": ["appearance", "appearing", "apparition", "apparition"],
+      "correct": 2,
+      "feedback": "الكلمة الافتتاحية السحرية في قصيدة باوند هي (The apparition) وتعني الظهور المفاجئ أو الطيف."
+    },
+    {
+      "q": "Choose the exact preposition: “The apparition of these faces in the crowd; Petals ___ a wet, black bough.”",
+      "options": ["in", "on", "over", "around"],
+      "correct": 1,
+      "feedback": "في السطر الثاني من القصيدة، حرف الجر المستخدم لوصف البتلات هو (on a wet, black bough)."
+    },
+    {
+      "q": "Choose the exact preposition: “The apparition ___ these faces in the crowd; Petals on a wet, black bough.”",
+      "options": ["about", "of", "to", "in"],
+      "correct": 1,
+      "feedback": "التركيب اللغوي الصحيح والدقيق للقصيدة القصيرة هو (The apparition of these faces)."
+    },
+    {
+      "q": "Many expatriate poets or emigrants moved to this country.",
+      "options": ["England", "Roma", "Belgium", "Paris"],
+      "correct": 3,
+      "feedback": "انتقل العديد من الشعراء والأدباء المغتربين في مطلع القرن العشرين إلى باريس (Paris) كمركز للفن الحداثي والتجديد."
+    },
+    {
+      "q": "Most of expatriate poets who founded the imagist school in Great Britain at the start of last century came from ___.",
+      "options": ["India", "Italy", "America", "France"],
+      "correct": 2,
+      "feedback": "معظم الشعراء المغتربين الذين أسسوا المدرسة التصويرية (مثل عزرا باوند وهيلدا دوليتل) جاؤوا من أمريكا (America)."
+    },
+    {
+      "q": "As a poet first associated with the Imagists but later evolved what he called Objectivism.",
+      "options": ["William Carlos Williams", "Ezra Pound", "H. D.", "Amy Lovell"],
+      "correct": 0,
+      "feedback": "ويليام كارلوس ويليامز (William Carlos Williams) بدأ مع التصويريين ثم طور لاحقاً نزعته الخاصة المعروفة بالشعر الشيء أو المادية (Objectivism)."
+    },
+    {
+      "q": "This poet was born in the USA, educated in Geneva; studied medicine at the University of Leipzig; practiced as a physician.",
+      "options": ["T. S. Eliot", "W. H. Auden", "Ezra Pound", "William Carlos Williams"],
+      "correct": 3,
+      "feedback": "الشاعر الذي جمع بين دراسة وممارسة الطب في لايبزيغ وكونه شاعراً حداثياً كبيراً هو ويليام كارلوس ويليامز."
+    },
+    {
+      "q": "This poet was born in New Jersey, educated in Geneva; studied medicine at the University of Leipzig; practiced as a physician.",
+      "options": ["T. S. Eliot", "W. H. Auden", "Ezra Pound", "none of these"],
+      "correct": 3,
+      "feedback": "بما أن الإجابة الصحيحة هي ويليام كارلوس ويليامز (المولود في نيوجيرسي وطبيب الأطفال الشهير) وهو غير مدرج بالأسماء، فالخيار هو (none of these)."
+    },
+    {
+      "q": "William Carlos Williams’ most famous imagist poem, “In a Station of the Metro”, uses only two lines to illustrate the movement’s principles of",
+      "options": ["natural language", "imagery", "concentration", "none of the above"],
+      "correct": 3,
+      "feedback": "العبارة تحتوي على خطأ في اسم الكاتب، فقصيدة 'في محطة المترو' ذات السطرين هي لعزرا باوند وليست لويليامز، لذا الإجابة هي (none of the above)."
+    },
+    {
+      "q": "“The Red Wheelbarrow” reads so much depends ___ upon a red wheelbarrow/ glazed with rain water beside the white chickens.",
+      "options": ["relies", "is", "trusted", "depends/ glazed"],
+      "correct": 3,
+      "feedback": "الكلمات الافتتاحية للقصيدة مأخوذة من الفعل والصفة الشهيرة فيها: (depends / glazed)."
+    },
+    {
+      "q": "“The Red Wheelbarrow” reads so much depends upon a red wheelbarrow glazed with rain water beside the ___ chickens.",
+      "options": ["Whited", "whitened", "greyish", "white"],
+      "correct": 3,
+      "feedback": "النص الأصلي لقصيدة ويليامز يذكر الدجاج الأبيض: (beside the white chickens)."
+    },
+    {
+      "q": "“The Red Wheelbarrow” reads so much depends upon a red wheelbarrow glazed with rain water beside the ___",
+      "options": ["white chickens", "dark chickens", "white ducklings", "darting duck"],
+      "correct": 0,
+      "feedback": "تنتهي هذه القصيدة التصويرية القصيرة جداً بعبارة الدجاج الأبيض (white chickens)."
+    },
+    {
+      "q": "“The Red Wheelbarrow” depicts",
+      "options": ["sense of fantastic images", "a personal moment", "both A & B", "a reality"],
+      "correct": 3,
+      "feedback": "القصيدة تركز بالكامل على تقديم مشهد واقعي ملموس ومباشر (a reality) دون خيال زائف أو عواطف مفرطة."
+    },
+    {
+      "q": "“The Red Wheelbarrow” was written by",
+      "options": ["T. S. Eliot", "W. H. Auden", "Ezra Pound", "none of these"],
+      "correct": 3,
+      "feedback": "كاتب قصيدة عربة اليد الحمراء هو ويليام كارلوس ويليامز، وبما أنه غير موجود فالخيار الصحيح هو (none of these)."
+    },
+    {
+      "q": "“The Red Wheelbarrow” was written by",
+      "options": ["T. S. Eliot", "W. H. Auden", "Ezra Pound", "William Carlos Williams"],
+      "correct": 3,
+      "feedback": "الشاعر الأمريكي الحداثي الشهير الذي كتبها هو ويليام كارلوس ويليامز (William Carlos Williams)."
+    },
+    {
+      "q": "“The Red Wheelbarrow” consists of",
+      "options": ["a verse paragraph", "a duet", "14 words", "None of these"],
+      "correct": 3,
+      "feedback": "تتكون القصيدة بدقة من 16 كلمة موزعة على أربعة مقاطع ثنائية الأسطر، ولأن 14 غير صحيحة فالجواب هو (None of these)."
+    },
+    {
+      "q": "The Imagist school of poetry emphasizes on",
+      "options": ["concrete imagery", "economy of language", "Found’s terms", "all of the above"],
+      "correct": 3,
+      "feedback": "تركز المدرسة التصويرية على الصور الملموسة والاقتصاد اللغوي الصارم واتباع مبادئ باوند (Pound's terms - المكتوبة هنا بالخطأ Found)، فالإجابة تشمل الكل."
+    },
+    {
+      "q": "In Found’s terms, imagism can best be described as",
+      "options": ["no excessive use of adjectives", "direct", "objective", "all of the above"],
+      "correct": 3,
+      "feedback": "وفقاً لشروط عزرا باوند (Pound's terms)، يجب أن تكون الصورة مباشرة، موضوعية، وخالية من الصفات الزائدة، فالإجابة هي (all of the above)."
+    },
+    {
+      "q": "The phrase “War Poets” usually calls to mind names such as",
+      "options": ["Siegfried Douglass", "Keith Sassoon", "Rupert Brooke", "all of these poets"],
+      "correct": 2,
+      "feedback": "الاسم المكتوب بشكل صحيح تماماً وبلا خلط هنا هو روبرت بروك (Rupert Brooke) الشاعر الرومانسي الوطني الشاب."
+    },
+    {
+      "q": "One or more of these poets died in the war",
+      "options": ["Alfred Owne", "Robert Brook", "Isaac Rosenberg", "W. H. Auden"],
+      "correct": 2,
+      "feedback": "آيزاك روزنبرغ (Isaac Rosenberg) هو الشاعر الذي قُتل بالفعل في الجبهة خلال الحرب العالمية الأولى وكُتب اسمه بشكل صحيح."
+    },
+    {
+      "q": "On the subject of war there poems that are concerned specifically with ---",
+      "options": ["are about the subject of patriotic propagandas", "national heroes", "Both A and B", "None of these"],
+      "correct": 2,
+      "feedback": "تناولت قصائد الحرب المبكرة (مثل قصائد بروك) البروباجندا الوطنية والأبطال القوميين، لذا الخيار الجامع هو (Both A and B)."
+    },
+    {
+      "q": "On the subject of war there are poems that are concerned specifically with the subject of ---",
+      "options": ["patriotic propagandas", "international affairs", "national heroes", "the queen"],
+      "correct": 0,
+      "feedback": "اهتمت بعض قصائد الحرب الشهيرة لاسيما التقليدية منها بموضوع الدعاية والبروباجندا الوطنية الحماسية (patriotic propagandas)."
+    },
+    {
+      "q": "This poet was of great physical beauty by reputation.",
+      "options": ["Siegfried Sassoon", "Wilfred Owen", "Sylvia Plath", "None of the above"],
+      "correct": 3,
+      "feedback": "الشاعر الذي اشتُهر بالوسامة الشديدة والجمال الخارجي في تلك الحقبة هو روبرت بروك، ونظراً لعدم وجود اسمه فالخيار هو (None of the above)."
+    },
+    {
+      "q": "This poet joined the army because he was poor.",
+      "options": ["Siegfried Sassoon", "Isaac Rosenberg", "Seamus Heaney", "W. H. Auden"],
+      "correct": 1,
+      "feedback": "آيزاك روزنبرغ (Isaac Rosenberg) كان شاباً يهودياً فقيراً انضم للجيش أساساً ليؤمن دخلاً ثابتاً يساعد به والدته."
+    },
+    {
+      "q": "---- was a poor Jewish boy from London who enlisted at the age of 25, hoping to provide an income for his mother.",
+      "options": ["Siegfried Sassoon", "Wilfred Owen", "Isaac Rosenberg", "Rupert Brooke"],
+      "correct": 2,
+      "feedback": "الشاعر المقصود هنا هو آيزاك روزنبرغ (Isaac Rosenberg) الذي تعكس سيرته الصعوبات الاقتصادية بجانب أهوال الحرب."
+    },
+    {
+      "q": "“Vergiss mein nicht” (“forget me not”) is a famous War Poem. It is written by ----",
+      "options": ["Wilfred Owen", "Isaac Rosenberg", "Siegfried Sassoon", "none of these poets"],
+      "correct": 3,
+      "feedback": "قصيدة 'لا تنساني' الألمانية العنوان كُتبت بواسطة الشاعر كيث دوغلاس (Keith Douglas) خلال الحرب العالمية الثانية، وبما أنه غير مذكور فالجواب (none of these poets)."
+    },
+    {
+      "q": "“Vergissmeinicht” ---- was best war poem.",
+      "options": ["Keith Douglass", "Wilfred Owen’s", "Siegfried Douglass’", "Rupert Brooke’s"],
+      "correct": 0,
+      "feedback": "القصيدة الشهيرة من قصائد الحرب العالمية الثانية هي للشاعر كيث دوغلاس (Keith Douglas)."
+    },
+    {
+      "q": "This poem from the experience of war is written in 24 lines of 6 quatrains.",
+      "options": ["“Vergiss mein nicht”", "The Unknown Citizen", "“Muse des Beaux Arts”", "The Oasis"],
+      "correct": 0,
+      "feedback": "قصيدة 'Vergissmeinicht' لكيث دوغلاس تتكون من 24 سطراً شعرياً مقسمة على 6 مقاطع رباعية الأسطر (quatrains)."
+    },
+    {
+      "q": "“Vergiss mein nicht” (“forget me not”) The basic title of this poem is written in ----",
+      "options": ["German", "French", "old English", "Latin"],
+      "correct": 0,
+      "feedback": "العنوان مكتوب باللغة الألمانية (German) ويعني زهرة 'أذن الفأر' أو جملة 'لا تنساني'."
+    },
+    {
+      "q": "“Vergiss mein nicht” (“forget me not”) is written by ----",
+      "options": ["Siegfried Sassoon", "Rupert Brooke", "Keith Douglas", "Wilfred Owen"],
+      "correct": 2,
+      "feedback": "كتب هذه القصيدة المؤثرة الشاعر البريطاني كيث دوغلاس (Keith Douglas) الذي قُتل في معركة نورماندي."
+    },
+    {
+      "q": "The Setting in Keith Douglass’ “Vergiss mein nicht” is probably ----",
+      "options": ["South of London", "North African desert", "German lands", "The Irish sea"],
+      "correct": 1,
+      "feedback": "تدور أحداث القصيدة وأجواؤها في صحراء شمال أفريقيا (North African desert) حيث شارك دوغلاس في معركة العلمين."
+    },
+    {
+      "q": "In Keith Douglass’ “Vergiss mein nicht” the speaker is ----",
+      "options": ["British soldier", "An American soldier", "A German soldier", "An Eye Witness"],
+      "correct": 0,
+      "feedback": "المتحدث في القصيدة هو جندي بريطاني (British soldier) يعثر على جثة جندي ألماني ميت في الصحراء ومعه صورة حبيبته."
+    },
+    {
+      "q": "Keith Douglass’ well known poem “Vergiss mein nicht” talks about theme of ----",
+      "options": ["family", "war", "nature", "love"],
+      "correct": 1,
+      "feedback": "القصيدة تركز بشكل أساسي وعميق على مآسي وتأثيرات الحرب (war) وتجريد الإنسان من إنسانيته."
+    },
+    {
+      "q": "In his 1928 monograph, T. S. Eliot declared himself to be ----",
+      "options": ["classicist in politics", "royalist in religion", "Catholic in literature", "none of them"],
+      "correct": 3,
+      "feedback": "إعلان إليوت الشهير كان أنه: كلاسيكي في الأدب، ملكي في السياسة، وأنجلو-كاثوليكي في الدين. الترتيب في الخيارات خاطئ تماماً لذا الجواب (none of them)."
+    },
+    {
+      "q": "In Hardy’s “The Man He Killed” the speaker is a/an ___.",
+      "options": ["career soldier", "professional soldier", "either A or B", "unprofessional soldier"],
+      "correct": 3,
+      "feedback": "المتحدث في قصيدة توماس هاردي هو جندي غير محترف (unprofessional soldier)؛ انضم للجيش فقط لأنه كان عاطلاً عن العمل."
+    },
+    {
+      "q": "In Hardy’s “The Man He Killed” the speaker of the poem uses ___.",
+      "options": ["casual vocabulary", "colloquial language", "slang terms", "all of the above"],
+      "correct": 3,
+      "feedback": "يتحدث الجندي بلغة بسيطة، دارجة، وعامية (all of the above) تعكس خلفيته كمواطن عادي وبسيط."
+    },
+    {
+      "q": "Even before WWI had started, the poet was aware that Britain was waging in its far stretching colonies across the world.",
+      "options": ["Thomas Hardy", "W. H. Auden", "Mathew Arnold", "W. B. Yeats"],
+      "correct": 0,
+      "feedback": "توماس هاردي (Thomas Hardy) كان واعياً ومنتقداً للحروب الاستعمارية التي خاضتها بريطانيا (مثل حرب البوير) قبل الحرب العالمية الأولى."
+    },
+    {
+      "q": "As from 1900 ___ decided to stop writing novels and return to his first great love, poetry.",
+      "options": ["Mathew Arnold", "W. H. Auden", "Thomas Hardy", "W. B. Yeats"],
+      "correct": 2,
+      "feedback": "قرر توماس هاردي (Thomas Hardy) التوقف تماماً عن كتابة الروايات مع بداية القرن العشرين ليتفرغ لشغفه الأول وهو الشعر."
+    },
+    {
+      "q": "Tennyson became poet laureate after this Romantic poet",
+      "options": ["Sir Percy B. Shelley", "Robert Southey", "William Wordsworth", "Lord Byron"],
+      "correct": 2,
+      "feedback": "تولى تينيسون منصب شاعر البلاط (poet laureate) عام 1850 بعد وفاة الشاعر الرومانسي الكبير ويليام ووردزورث (William Wordsworth)."
+    },
+    {
+      "q": "One of these occupied the post of poet laureate.",
+      "options": ["Robert Browning", "Alfred, Lord Tennyson", "Matthew Arnold", "Edward Fitzgerald"],
+      "correct": 1,
+      "feedback": "ألفرد تينيسون (Alfred, Lord Tennyson) هو من حظي بهذا المنصب الرسمي الرفيع طيلة العهد الفيكتوري."
+    },
+    {
+      "q": "The following Victorian poet was poet laureate",
+      "options": ["Robert Browning", "none of these", "Mathew Arnold", "William Wordsworth"],
+      "correct": 1,
+      "feedback": "بما أن تينيسون هو الشاعر الفيكتوري الذي شغل المنصب وووردزورث كان رومانسياً، فالخيار الصحيح لعدم وجود تينيسون هو (none of these)."
+    },
+    {
+      "q": "The major high Victorian poets were Tennyson, Browning, F. B. Browning, but ---- was the most famous of them all.",
+      "options": ["Robert Browning", "Mathew Arnold", "Elizabeth B. Browning", "None of the above"],
+      "correct": 3,
+      "feedback": "الشاعر الفيكتوري الأكثر شهرة وشعبية على الإطلاق كان ألفرد تينيسون، ونظراً لغيابه من قائمة الخيارات فالإجابة هي (None of the above)."
+    },
+    {
+      "q": "Tennyson was poet laureate in the Victorian time. He succeeded ---- in the post.",
+      "options": ["Shelley", "Lord Byron", "Keats", "Wordsworth"],
+      "correct": 3,
+      "feedback": "خلف تينيسون الشاعر الرومانسي ويليام ووردزورث (Wordsworth) في منصب شاعر البلاط البريطاني."
+    },
+    {
+      "q": "Some of ---- boyhood poetry was published in collaboration with his brother Charles in Poems by Two Brothers (1827).",
+      "options": ["Browning’s", "Dante Rossetti’s", "Arnold’s", "Tennyson’s"],
+      "correct": 3,
+      "feedback": "نُشر ديوان 'قصائد بواسطة أخوين' عام 1827 بالتعاون بين ألفرد تينيسون (Tennyson's) وأخيه تشارلز في مرحلة الشباب."
+    },
+    {
+      "q": "For the death of his friend Tennyson vowed to refrain from writing any more of his verse for a period of ---- years.",
+      "options": ["ten", "nine", "eleven", "none of these"],
+      "correct": 3,
+      "feedback": "حزن تينيسون على صديقه هالم حزناً شديداً، لكنه لم يتوقف عن الكتابة بل استغرق عدة سنوات (حوالي 17 عاماً) لإتمام رثائيته، فالخيار الدقيق هو (none of these)."
+    },
+    {
+      "q": "Tennyson’s In Memoriam is one of the greatest ---- in English literature.",
+      "options": ["satires", "elegies", "eulogies", "series of lyrics"],
+      "correct": 1,
+      "feedback": "تعتبر قصيدة 'في ذكراه' (In Memoriam) واحدة من أعظم قصائد الرثاء (elegies) المطولة في تاريخ الأدب الإنجليزي."
+    },
+    {
+      "q": "Complete the space in these two lines “O well for the fisherman’s ---- / That he should with his sister at play.”",
+      "options": ["dad / hook", "boy / play", "lad / way", "child / bay"],
+      "correct": 1,
+      "feedback": "السطر الشعري الصحيح من قصيدة تينيسون 'Break, Break, Break' يكتمل بكلمات: (boy / play)."
+    },
+    {
+      "q": "The mood in Tennyson’s “Break, Break, Break” is ----",
+      "options": ["energized", "somber and grieved", "lighthearted", "contemplative and hopeful"],
+      "correct": 1,
+      "feedback": "يسيطر على القصيدة جو من الحزن العالي والكآبة الجنائزية (somber and grieved) لفقدان الشاعر لصديقه الحميم."
+    },
+    {
+      "q": "What is “breaking” in Tennyson’s “Break, Break, Break”?",
+      "options": ["A heart", "The wind", "The sea", "The sunshine through the clouds"],
+      "correct": 2,
+      "feedback": "الفعل 'تكسر' يشير مباشرة إلى أمواج البحر (The sea) وهي ترتطم بالصخور الشاطئية الرمادية."
+    },
+
+    {
+      "q": "Matthew Arnold’s “Dover Beach” is often interpreted as expressing the crisis of —",
+      "options": [
+        "the conflict between faith and doubt",
+        "the waning of Christianity",
+        "the triumph of religion",
+        "the survival of Christianity"
+      ],
+      "correct": 0,
+      "feedback": "تُعبر قصيدة 'شاطئ دوفر' بشكل أساسي عن الصراع بين العقيدة/الإيمان والشك الديني (the conflict between faith and doubt) في العصر الفيكتوري."
+    },
+    {
+      "q": "The “Sea of Faith” in Dover Beach symbolizes —",
+      "options": [
+        "the strength of religious belief",
+        "the waning of Christianity",
+        "the triumph of religion",
+        "the survival of Christianity"
+      ],
+      "correct": 0,
+      "feedback": "يرمز 'بحر الإيمان' (Sea of Faith) في زمن امتلائه الأصلي إلى قوة ومكانة اليقين والمعتقدات الدينية (the strength of religious belief) قبل أن ينحسر."
+    },
+    {
+      "q": "Which Victorian poet is best known for transforming the dramatic monologue into a distinguished poetic form?",
+      "options": [
+        "None of the following",
+        "Matthew Arnold",
+        "Elizabeth Barrett Browning",
+        "Robert Browning"
+      ],
+      "correct": 3,
+      "feedback": "روبرت براونينغ (Robert Browning) هو الشاعر الأكثر شهرة بتطوير وتحويل المونولوج الدرامي إلى شكل شعري مميز ونقله لأعلى مستوياته الفنية."
+    },
+    {
+      "q": "Which poet revived the sonnet form in the Victorian period?",
+      "options": [
+        "Elizabeth Barrett Browning",
+        "Alfred Lord Tennyson",
+        "Robert Browning",
+        "Thomas Hardy"
+      ],
+      "correct": 0,
+      "feedback": "أعادت إليزابيث باريت براونينغ (Elizabeth Barrett Browning) إحياء قالب السوناتة في العصر الفيكتوري من خلال مجموعتها الشهيرة 'Sonnets from the Portuguese'."
+    },
+    {
+      "q": "Victorian poetry is especially known for —",
+      "options": [
+        "its religious themes",
+        "its narrative quality",
+        "its romanticism",
+        "its realism"
+      ],
+      "correct": 1,
+      "feedback": "تميز الشعر الفيكتوري بخصائصه وجوانبه القصصية والسردية الواضحة (its narrative quality) مثل القصائد المطولة التي تحكي قصصاً تاريخية أو أسطورية."
+    },
+    {
+      "q": "Matthew Arnold believed poetry should provide what he called —",
+      "options": [
+        "scientific truth",
+        "historical accuracy",
+        "a criticism of life",
+        "social revolution"
+      ],
+      "correct": 2,
+      "feedback": "اشتهر ماتيو أرنولد بتعريفه النقدي بأن الشعر يجب أن يكون بمثابة 'نقد للحياة' (a criticism of life) تحت شروط القوانين الفنية والشعرية."
+    },
+    {
+      "q": "The poem “Dover Beach” is associated with the decline of religious faith during the Victorian era mainly because of —",
+      "options": [
+        "rise of the Industrial Revolution",
+        "end of British colonial Empire",
+        "establishment of emotional reflection",
+        "Charles Darwin’s On the Origin of Species"
+      ],
+      "correct": 3,
+      "feedback": "يرتبط تراجع الإيمان الديني في تلك الفترة بالصدمة العلمية وظهور النظريات البيولوجية التطورية مثل كتاب تشارلز داروين 'أصل الأنواع'."
+    },
+    {
+      "q": "The tone of “Dover Beach” is —",
+      "options": [
+        "calm to one another",
+        "melancholic",
+        "joyful",
+        "ironic"
+      ],
+      "correct": 1,
+      "feedback": "نبرة وأجواء قصيدة 'شاطئ دوفر' هي نبرة سوداوية كئيبة (melancholic) تندب تراجع العقيدة الدينية واهتزاز اليقين."
+    },
+    {
+      "q": "Arnold’s famous poem “Dover Beach” is written —",
+      "options": [
+        "as an allegory",
+        "in blank verse",
+        "in a sonnet form",
+        "as a dramatic monologue"
+      ],
+      "correct": 3,
+      "feedback": "تُصنف قصيدة 'شاطئ دوفر' تركيبياً ومفهومياً على أنها مونولوج درامي (dramatic monologue) حيث يتحدث المتحدث إلى مستمع صامت يشاركه المكان."
+    },
+    {
+      "q": "In Hardy’s “The Man He Killed” the speaker is a/an —",
+      "options": [
+        "career soldier",
+        "professional soldier",
+        "either A or B",
+        "unprofessional soldier"
+      ],
+      "correct": 3,
+      "feedback": "المتحدث في قصيدة هاردي هو جندي غير محترف (unprofessional soldier)؛ شخص عادي اضطر لبيع أدواته والانخراط في الجيش بسبب الفقر والبطالة."
+    },
+    {
+      "q": "In Hardy’s “The Man He Killed” the speaker of the poem uses —",
+      "options": [
+        "casual vocabulary",
+        "colloquial language",
+        "slang terms",
+        "all of the above"
+      ],
+      "correct": 3,
+      "feedback": "يستخدم السارد لغة دارجة وعامية وبسيطة (all of the above) لتعكس بساطة تفكيره وخلفيته الاجتماعية المتواضعة."
+    },
+    {
+      "q": "Even before WWI had started, the poet was aware that Britain was waging wars in its far-stretching colonies across the world.",
+      "options": [
+        "Thomas Hardy",
+        "W. H. Auden",
+        "Matthew Arnold",
+        "W. B. Yeats"
+      ],
+      "correct": 0,
+      "feedback": "توماس هاردي (Thomas Hardy) عاصر الحروب الاستعمارية السابقة للحرب العالمية الأولى (مثل حرب البوير الثانية) وانتقدها في أشعاره باكراً."
+    },
+    {
+      "q": "The phrase “War Poets” usually calls to mind names such as —",
+      "options": [
+        "Keith Douglas",
+        "Siegfried Sassoon",
+        "Rupert Brooke",
+        "all of those poets"
+      ],
+      "correct": 3,
+      "feedback": "كل هؤلاء الشعراء (all of those poets) ارتبطت أسماؤهم وتجاربهم الأدبية بشكل وثيق بكتابة شعر يوثق تجربة الحروب وتداعياتها."
+    },
+    {
+      "q": "Keith Douglas, Siegfried Sassoon, and Rupert Brooke are better known as —",
+      "options": [
+        "the patriotic poets",
+        "the young poets",
+        "war poets",
+        "sentimental poets"
+      ],
+      "correct": 2,
+      "feedback": "يُعرف هذا الثلاثي تاريخياً وأدبياً تحت تصنيف 'شعراء الحرب' (war poets) لتوثيقهم جحيم وتجارب الحرب العالمية الأولى والثانية."
+    },
+    {
+      "q": "Siegfried Sassoon, Rupert Brooke, Wilfred Owen and Edith Sitwell are best termed as —",
+      "options": [
+        "patriotic poets",
+        "young poets",
+        "war poets",
+        "modernist poets"
+      ],
+      "correct": 2,
+      "feedback": "التسمية الأدبية الجامعة والأبرز لهؤلاء الشعراء (بروك، ساسون، وأوين) في سياق دراسة النزاعات المسلحة هي شعراء الحرب (war poets)."
+    },
+    {
+      "q": "“Vergiss mein nicht” (“forget me not”) is a famous War Poem. It is written by —",
+      "options": [
+        "Wilfred Owen",
+        "Isaac Rosenberg",
+        "Siegfried Sassoon",
+        "none of these poets"
+      ],
+      "correct": 3,
+      "feedback": "قصيدة 'Vergissmeinicht' الشهيرة من الحرب العالمية الثانية كُتبت بقلم كيث دوغلاس (Keith Douglas)، ولعدم وجود اسمه نختار (none of these poets)."
+    },
+    {
+      "q": "“Vergissmeinicht” was the best war poem by —",
+      "options": [
+        "Keith Douglas",
+        "Wilfred Owen",
+        "Siegfried Sassoon",
+        "Rupert Brooke"
+      ],
+      "correct": 0,
+      "feedback": "هذه القصيدة الرائعة التي تتناول العثور على جندي ألماني ميت في الصحراء هي من تأليف الشاعر كيث دوغلاس (Keith Douglas)."
+    },
+    {
+      "q": "The setting in Keith Douglas’ “Vergissmeinicht” is probably —",
+      "options": [
+        "South of London",
+        "North African desert",
+        "German lands",
+        "The Irish Sea"
+      ],
+      "correct": 1,
+      "feedback": "المكان والموقع الافتراضي للقصيدة هو صحراء شمال أفريقيا (North African desert) وتحديداً بعد معارك تونس ومصر في الحرب العالمية الثانية."
+    },
+    {
+      "q": "In Keith Douglas’ “Vergissmeinicht” the speaker is —",
+      "options": [
+        "British soldier",
+        "American soldier",
+        "German soldier",
+        "An eyewitness"
+      ],
+      "correct": 0,
+      "feedback": "المتحدث في القصيدة هو جندي بريطاني (British soldier) يعود إلى ساحة المعركة بعد أيام من انتهائها ويقف أمام جثة عدوه الميت."
+    },
+    {
+      "q": "Keith Douglas’ well-known poem “Vergissmeinicht” talks about the theme of —",
+      "options": [
+        "family",
+        "war",
+        "nature",
+        "love"
+      ],
+      "correct": 1,
+      "feedback": "الفكرة الرئيسية والموضوع الأساسي هو الحرب (war) وما تخلفه من قسوة، وموت، وتجريد للعدو من طابعه الإنساني."
+    },
+    {
+      "q": "The poet who wrote “Kubla Khan” was —",
+      "options": [
+        "Coleridge",
+        "Byron",
+        "Tennyson",
+        "Keats"
+      ],
+      "correct": 0,
+      "feedback": "قصيدة 'قوبلا خان' الأسطورية الشهيرة هي من روائع الشاعر الرومانسي صامويل تايلور كولريدج (Coleridge)."
+    },
+    {
+      "q": "The poet who wrote “Ode to a Nightingale” was —",
+      "options": [
+        "Keats",
+        "Byron",
+        "Shelley",
+        "Wordsworth"
+      ],
+      "correct": 0,
+      "feedback": "قصيدة 'أنشودة إلى بلبل' (Ode to a Nightingale) هي واحدة من أشهر وأعظم قصائد الشاعر الرومانسي جون كيتس (Keats)."
+    },
+    {
+      "q": "The poet who wrote “The Prelude” was —",
+      "options": [
+        "Wordsworth",
+        "Byron",
+        "Shelley",
+        "Keats"
+      ],
+      "correct": 0,
+      "feedback": "قصيدة 'المقدمة' (The Prelude) هي السيرة الذاتية الشعرية المطولة والملحمية للشاعر ويليام ووردزورث (Wordsworth)."
+    },
+    {
+      "q": "The poet who wrote “The Rime of the Ancient Mariner” was —",
+      "options": [
+        "Coleridge",
+        "Byron",
+        "Shelley",
+        "Keats"
+      ],
+      "correct": 0,
+      "feedback": "قصيدة 'ملاحة الملاح القديم' هي التحفة الشعرية الشهيرة التي افتتح بها صامويل تايلور كولريدج ديوان (Lyrical Ballads)."
+    },
+    {
+      "q": "The poet who wrote “Don Juan” was —",
+      "options": [
+        "Byron",
+        "Shelley",
+        "Keats",
+        "Wordsworth"
+      ],
+      "correct": 0,
+      "feedback": "الملحمة الساخرة الطويلة 'دون جوان' (Don Juan) هي أشهر أعمال الشاعر الرومانسي اللورد بايرون (Byron)."
+    },
+    {
+      "q": "The poet who wrote “Adonais” was —",
+      "options": [
+        "Shelley",
+        "Byron",
+        "Keats",
+        "Wordsworth"
+      ],
+      "correct": 0,
+      "feedback": "قصيدة 'أدونيس' (Adonais) هي مرثية رعوية شهيرة كتبها الشاعر بيرسي بيش شيلي (Shelley) ليرثي فيها صديقه الشاعر جون كيتس."
+    },
+    {
+      "q": "The poet who wrote “Endymion” was —",
+      "options": [
+        "Keats",
+        "Byron",
+        "Shelley",
+        "Wordsworth"
+      ],
+      "correct": 0,
+      "feedback": "تبدأ قصيدة 'إنديميون' للشاعر جون كيتس (Keats) بالسطر الشهير جداً: 'A thing of beauty is a joy forever'."
+    },
+    {
+      "q": "The poet who wrote “Prometheus Unbound” was —",
+      "options": [
+        "Shelley",
+        "Byron",
+        "Keats",
+        "Wordsworth"
+      ],
+      "correct": 0,
+      "feedback": "المسرحية الشعرية الليريكية 'بروميثيوس طليقاً' (Prometheus Unbound) هي من روائع الشاعر بيرسي بيش شيلي (Shelley)."
+    },
+    {
+      "q": "The poet who wrote “Childe Harold’s Pilgrimage” was —",
+      "options": [
+        "Byron",
+        "Shelley",
+        "Keats",
+        "Wordsworth"
+      ],
+      "correct": 0,
+      "feedback": "قصيدة 'حج تشايلد هارولد' هي قصيدة سردية طويلة للورد بايرون (Byron) ساهمت في تقديم وتثبيت مفهوم 'البطل البايروني'."
+    },
+    {
+      "q": "The poet who wrote “Ode to the West Wind” was —",
+      "options": [
+        "Shelley",
+        "Byron",
+        "Keats",
+        "Wordsworth"
+      ],
+      "correct": 0,
+      "feedback": "قصيدة 'أنشودة إلى الريح الغربية' المليئة بالرموز الثورية والأمل في التغيير كتبها الشاعر بيرسي بيش شيلي (Shelley)."
+    },
+    {
+      "q": "The poet who wrote “To Autumn” was —",
+      "options": [
+        "Keats",
+        "Byron",
+        "Shelley",
+        "Wordsworth"
+      ],
+      "correct": 0,
+      "feedback": "تعتبر قصيدة 'إلى الخريف' (To Autumn) بجودتها التصويرية العالية واحدة من أجمل قصائد الأناشيد للشاعر جون كيتس (Keats)."
+    },
+    {
+      "q": "The poet who wrote “The World is Too Much With Us” was —",
+      "options": [
+        "Wordsworth",
+        "Byron",
+        "Shelley",
+        "Keats"
+      ],
+      "correct": 0,
+      "feedback": "هذه السوناتة الشهيرة التي تنتقد المادية الصناعية والابتعاد عن الطبيعة هي من تأليف ويليام ووردزورث (Wordsworth)."
+    },
+    {
+      "q": "The poet who wrote “She Walks in Beauty” was —",
+      "options": [
+        "Byron",
+        "Shelley",
+        "Keats",
+        "Wordsworth"
+      ],
+      "correct": 0,
+      "feedback": "قصيدة الغزل الليريكية الشهيرة 'هي تمشي في رحاب الجمال' كتبها اللورد بايرون (Byron) مادحاً ابنة عمه."
+    },
+    {
+      "q": "The poet who wrote “Ozymandias” was —",
+      "options": [
+        "Shelley",
+        "Byron",
+        "Keats",
+        "Wordsworth"
+      ],
+      "correct": 0,
+      "feedback": "سوناتة 'أوزيماندياس' التي تتناول فناء القوة البشرية والملوك أمام طغيان الوقت والرمال هي للشاعر بيرسي بيش شيلي (Shelley)."
+    },
+    {
+      "q": "The poet who wrote “The Solitary Reaper” was —",
+      "options": [
+        "Wordsworth",
+        "Byron",
+        "Shelley",
+        "Keats"
+      ],
+      "correct": 0,
+      "feedback": "قصيدة 'الحاصدة الحزينة/الوحيدة' المستوحاة من غناء فتاة في مزارع اسكتلندا كتبها الشاعر الرومانسي ويليام ووردزورث (Wordsworth)."
+    },
+    {
+      "q": "The poet who wrote “Bright Star” was —",
+      "options": [
+        "Keats",
+        "Byron",
+        "Shelley",
+        "Wordsworth"
+      ],
+      "correct": 0,
+      "feedback": "سوناتة 'أيها النجم الساطع' (Bright Star) كتبها الشاعر جون كيتس (Keats) معبراً عن رغبته في الثبات والخلود بجانب محبوبته."
+    },
+    {
+      "q": "The poet who wrote “The Skylark” was —",
+      "options": [
+        "Shelley",
+        "Byron",
+        "Keats",
+        "Wordsworth"
+      ],
+      "correct": 0,
+      "feedback": "قصيدة 'إلى قُبّرة' (To a Skylark) المليئة بالتحليق والمجازات الروحية والفنية هي من إبداعات الشاعر بيرسي بيش شيلي (Shelley)."
+    },
+
+    {
+      "q": "Arnold's famous poem \"Dover Beach\" is written",
+      "options": [
+        "as an allegory",
+        "in blank verse",
+        "in a sonnet form",
+        "as a dramatic monologue"
+      ],
+      "correct": 3,
+      "feedback": "تُصنف قصيدة 'شاطئ دوفر' كـ مونولوج درامي (dramatic monologue) حيث يخاطب المتحدث رفيقته الصامتة في الغرفة المطلة على البحر."
+    },
+    {
+      "q": "Siegfried Sassoon and Wilfred Owen are best termed as",
+      "options": [
+        "patriotic poets",
+        "young poets",
+        "war poets",
+        "extra modernist poets"
+      ],
+      "correct": 2,
+      "feedback": "يُعتبر ساسون وأوين من أبرز رموز 'شعراء الحرب' (war poets) الذين وثقوا أهوال الخنادق والواقع المرير للحرب العالمية الأولى."
+    },
+    {
+      "q": "In \"Metaphors\" Sylvia Plath compares herself to one or more of the following",
+      "options": [
+        "camel",
+        "an elephant",
+        "cow",
+        "ewe"
+      ],
+      "correct": 1,
+      "feedback": "في السطر الأول من قصيدة 'الاستعارات'، تشبه سيلفيا بلاث نفسها بالفيل (An elephant) كرمز لضخامة جسدها أثناء فترة الحمل."
+    },
+    {
+      "q": "Vergiss mein nicht is a famous war poem written by",
+      "options": [
+        "Siegfried Sassoon",
+        "Robert Brook",
+        "Winfred Owene",
+        "None of these"
+      ],
+      "correct": 3,
+      "feedback": "القصيدة الشهيرة 'Vergissmeinicht' من تأليف الشاعر كيث دوغلاس (Keith Douglas)، وبما أن اسمه غير مدرج، فالخيار هو (None of these)."
+    },
+    {
+      "q": "\"In a Station of the Metro\" consists of",
+      "options": [
+        "a verse paragraph",
+        "triplet",
+        "two lines",
+        "a couplet"
+      ],
+      "correct": 2,
+      "feedback": "تتكون تحفة عزرا باوند التصويرية 'في محطة المترو' من سطرين فقط (two lines) لتجسيد مبدأ الإيجاز المكثف."
+    },
+    {
+      "q": "This poet died of a suicide",
+      "options": [
+        "Keith Douglass",
+        "Sylvia Plath",
+        "Ted Hughes",
+        "Rupert Brooke"
+      ],
+      "correct": 1,
+      "feedback": "الشاعرة الأمريكية الشهيرة سيلفيا بلاث (Sylvia Plath) عانت من الاكتئاب الحاد وأنهت حياتها بالانتحار عام 1963."
+    },
+    {
+      "q": "\"Oh, to be in England, / Now that April's there\" is said by",
+      "options": [
+        "Robert Browning",
+        "Rupert Brooke",
+        "Wilfred Owen",
+        "Elizabeth Barrett Browning"
+      ],
+      "correct": 0,
+      "feedback": "هذا السطر الافتتاحي الشهير هو من قصيدة 'أفكار من الخارج' (Home-Thoughts, from Abroad) للشاعر الفيكتوري روبرت براونينغ."
+    },
+    {
+      "q": "… is mostly regarded as the chief representative of Victorian poetry",
+      "options": [
+        "Alfred Tennyson",
+        "Mathew Arnold",
+        "Robert Browning",
+        "Thomas Hardy"
+      ],
+      "correct": 0,
+      "feedback": "يُعتبر ألفرد تينيسون (Alfred Tennyson) الممثل الرئيسي والأبرز للشعر الفيكتوري، وقد شغل منصب شاعر البلاط لفترة طويلة."
+    },
+    {
+      "q": "The Romantic motif of … persisted in modernist poetry",
+      "options": [
+        "lonliness",
+        "lonliness",
+        "loneliness",
+        "aloneliness"
+      ],
+      "correct": 2,
+      "feedback": "استمرت ثيمة 'العزلة/الوحدة' (Loneliness) الموروثة من الرومانسية كعنصر أساسي في تصوير اغتراب الإنسان في شعر الحداثة."
+    },
+    {
+      "q": "\"He was found by the … to be / One against whom there was no official complaint\"",
+      "options": [
+        "Bureau of Statistics",
+        "bureau of statistics",
+        "Statistics employees",
+        "Beaureau of Statistics"
+      ],
+      "correct": 0,
+      "feedback": "في قصيدة أودن 'المواطن المجهول'، الجهة الحكومية التي أصدرت التقرير تبدأ بحروف كبيرة: (Bureau of Statistics)."
+    },
+    {
+      "q": "This poet … was of great physical beauty; favoured by Winston Churchill",
+      "options": [
+        "T.S. Eliot",
+        "Rupert Brooke",
+        "Wilfred Owen",
+        "Isaac Rosenberg"
+      ],
+      "correct": 1,
+      "feedback": "اشتهر روبرت بروك (Rupert Brooke) بوسامته الشديدة، وقام وينستون تشرشل بكتابة نعي مؤثر له عند وفاته المبكرة في الحرب."
+    },
+    {
+      "q": "T.S. Eliot was awarded the … in Literature",
+      "options": [
+        "1948 Nobel Prize",
+        "The Royal noble Prize",
+        "The Noble Prize",
+        "1970 Nobel Prize"
+      ],
+      "correct": 0,
+      "feedback": "نال الشاعر والناقد الحداثي ت. س. إليوت جائزة نوبل في الأدب عام 1948 تقديراً لإسهاماته الشعرية الرائدة."
+    },
+    {
+      "q": "Ezra Pound’s terms, imagism, can be described as",
+      "options": [
+        "objective",
+        "slither",
+        "indirect",
+        "Both \"A\" and \"C\""
+      ],
+      "correct": 0,
+      "feedback": "تقوم الحركة التصويرية عند باوند على معالجة الشيء بشكل موضوعي ومباشر (objective) بعيداً عن الثرثرة اللفظية."
+    },
+    {
+      "q": "Choose the exact word: \"Petals on a wet, black bough\"",
+      "options": [
+        "Petals",
+        "betals",
+        "pets",
+        "sparrows"
+      ],
+      "correct": 0,
+      "feedback": "الكلمة الدقيقة والصحيحة إملائياً في قصيدة باوند هي البتلات أو أوراق الزهر (Petals)."
+    },
+    {
+      "q": "One of the following is NOT a Victorian poet",
+      "options": [
+        "Mathew Arnold",
+        "Robert Browning",
+        "W. B. Yeats",
+        "Thomas Hardy"
+      ],
+      "correct": 2,
+      "feedback": "يُعد و. ب. ييتس (W. B. Yeats) شاعراً أيرلندياً حداثياً بارزاً، وليس من الشعراء الفيكتوريين التقليديين."
+    },
+    {
+      "q": "This Victorian poet became poet laureate after Wordsworth",
+      "options": [
+        "Alfred Tennyson",
+        "Robert Southey",
+        "Robert Browning",
+        "Mathew Arnold"
+      ],
+      "correct": 0,
+      "feedback": "خلف ألفرد تينيسون الشاعر الرومانسي ويليام ووردزورث في منصب شاعر البلاط (poet laureate) عام 1850."
+    },
+    {
+      "q": "Many expatriate poets migrated from the U.S. to",
+      "options": [
+        "Great Britain",
+        "France",
+        "Italy",
+        "Both A and B"
+      ],
+      "correct": 3,
+      "feedback": "انتقل معظم الأدباء والشعراء المغتربين الأمريكيين (مثل باوند وإليوت) إلى بريطانيا وفرنسا (Both A and B) بحثاً عن التجديد الفني."
+    },
+    {
+      "q": "Sylvia Plath’s most tortured relationship was with her",
+      "options": [
+        "children",
+        "husband",
+        "father",
+        "Both B and C"
+      ],
+      "correct": 3,
+      "feedback": "شكلت علاقة بلاث بزوجها تيد هيوز ووالدها المتوفى أوتو بلاث (Both B and C) محوراً لعذابها النفسي الذي تجسد في قصائدها مثل 'Daddy'."
+    },
+    {
+      "q": "These poets spent much of their time in Italy",
+      "options": [
+        "Robert Browning",
+        "Elizabeth Barrett Browning",
+        "Both A and B",
+        "Ezra Pound"
+      ],
+      "correct": 2,
+      "feedback": "عاش الزوجان روبرت وإليزابيث باريت براونينغ (Both A and B) لسنوات طويلة في إيطاليا لأسباب صحية وعاطفية."
+    },
+    {
+      "q": "Mathew Arnold was NOT",
+      "options": [
+        "a dramatist",
+        "a fiction writer",
+        "a scientist",
+        "all of the above"
+      ],
+      "correct": 2,
+      "feedback": "كان ماتيو أرنولد شاعراً، وناقداً، ومفتشاً للتعليم، وكتب بعض المسرحيات، لكنه لم يكن عالماً (a scientist)."
+    },
+    {
+      "q": "The Victorian era witnessed the rise of",
+      "options": [
+        "Transcendentalism",
+        "Utilitarianism",
+        "Naturalism",
+        "Darwinism"
+      ],
+      "correct": 3,
+      "feedback": "شهد العصر الفيكتوري صعود النظرية التطورية لداروين (Darwinism) عام 1859، مما أحدث هزة فكرية ودينية كبرى."
+    },
+    {
+      "q": "In \"Dover Beach,\" the metaphor used is",
+      "options": [
+        "The sea’s calmness",
+        "The lighthouse",
+        "The moonlight",
+        "The shifting tides and ebbing waves"
+      ],
+      "correct": 3,
+      "feedback": "تستخدم القصيدة حركة المد والجزر وتراجع الأمواج (The shifting tides and ebbing waves) كاستعارة ممتدة لانحسار الإيمان الديني."
+    },
+    {
+      "q": "A notable feature of Robert Browning’s technique",
+      "options": [
+        "dramatic monologue",
+        "regular rhyming couplets",
+        "blank verse",
+        "emotional reflection"
+      ],
+      "correct": 0,
+      "feedback": "الميزة الأكثر شهرة في أسلوب روبرت براونينغ هي المونولوج الدرامي (dramatic monologue) لاستبطان وتعرية نفسية الشخصيات."
+    },
+    {
+      "q": "A. Industrial Revolution",
+      "options": [
+        "Industrial Revolution",
+        "end of British Empire",
+        "emotional reflection",
+        "Darwin’s Origin of Species"
+      ],
+      "correct": 3,
+      "feedback": "ارتبطت القصيدة بأزمة الشك والدين نتيجة الصراع الفكري الذي أحدثه كتاب داروين 'أصل الأنواع' (Darwin's Origin of Species)."
+    },
+    {
+      "q": "Central theme of Modernist literature",
+      "options": [
+        "Romantic idealism",
+        "Victorian morality",
+        "Social realism",
+        "Alienation and disillusionment"
+      ],
+      "correct": 3,
+      "feedback": "يُعد الاغتراب وفقدان الأوهام والضياع (Alienation and disillusionment) الثيمة الجوهرية لأدب الحداثة بعد صدمة الحرب العالمية الأولى."
+    },
+    {
+      "q": "Father of Modernist poetry",
+      "options": [
+        "W.B. Yeats",
+        "T.S. Eliot",
+        "Thomas Hardy",
+        "Virginia Woolf"
+      ],
+      "correct": 1,
+      "feedback": "يُعتبر ت. س. إليوت (T.S. Eliot) الأب الروحي والعمود الفكري للشعر الحداثي بفضل قصائده وتأصيله النقدي للحداثة."
+    },
+    {
+      "q": "Focus of Imagism",
+      "options": [
+        "Emotional expression",
+        "Social commentary",
+        "Intellectual analysis",
+        "Visual imagery and precision"
+      ],
+      "correct": 3,
+      "feedback": "تركز الحركة التصويرية (Imagism) بالكامل على تقديم الصورة البصرية بدقة متناهية وإيجاز شديد (Visual imagery and precision)."
+    },
+    {
+      "q": "Imagist poems",
+      "options": [
+        "The Red Wheelbarrow",
+        "In the Metro Station",
+        "Both A and B",
+        "The Waste Land"
+      ],
+      "correct": 2,
+      "feedback": "تُعد قصيدة ويليامز 'عربة اليد الحمراء' وقصيدة باوند 'في محطة المترو' من النماذج الكلاسيكية للحركة التصويرية (Both A and B)."
+    },
+    {
+      "q": "\"The Red Wheelbarrow\" emphasizes",
+      "options": [
+        "fantastic images",
+        "colorful machines",
+        "ordinary things",
+        "science fiction"
+      ],
+      "correct": 2,
+      "feedback": "تؤكد القصيدة على الأهمية الفنية والوجودية للأشياء اليومية البسيطة والاعتيادية (ordinary things) مثل عربة اليد والدجاج."
+    },
+    {
+      "q": "Modernism is a response to",
+      "options": [
+        "World War I",
+        "French Revolution",
+        "Industrial Revolution",
+        "World War II"
+      ],
+      "correct": 0,
+      "feedback": "جاءت الحداثة الأدبية كرد فعل مباشر للصدمة والدمار والتفكك الاجتماعي الذي خلفته الحرب العالمية الأولى (World War I)."
+    },
+    {
+      "q": "Poet who edited The Waste Land",
+      "options": [
+        "T.S. Eliot",
+        "W.B. Yeats",
+        "Ezra Pound",
+        "Rudyard Kipling"
+      ],
+      "correct": 2,
+      "feedback": "قام عزرا باوند (Ezra Pound) بتحرير واختصار مسودة قصيدة 'الأرض اليباب' لإليوت، ولهذا أهداه إليوت القصيدة واصفاً إياه بـ 'الصانع الأفضل'."
+    },
+    {
+      "q": "Key feature of Modernist literature",
+      "options": [
+        "individual consciousness",
+        "clear narrative",
+        "pastoral imagery",
+        "idealized characters"
+      ],
+      "correct": 0,
+      "feedback": "يهتم الأدب الحداثي بـ الوعي الفردي الداخلي (individual consciousness) وأساليب التداعي الحر بدلاً من الحبكات السردية الخطية التقليدية."
+    },
+    {
+      "q": "Least practiced genre in Victorian age",
+      "options": [
+        "drama",
+        "poetry",
+        "essays",
+        "the novel"
+      ],
+      "correct": 0,
+      "feedback": "شهد العصر الفيكتوري ازدهاراً هائلاً للرواية والشعر والمقال، بينما كان المسرح (drama) الجنس الأدبي الأقل نجاحاً وتطوراً في تلك الحقبة."
+    },
+    {
+      "q": "Most practiced genre in Victorian age",
+      "options": [
+        "drama",
+        "poetry",
+        "essays",
+        "the novel"
+      ],
+      "correct": 3,
+      "feedback": "تربعت الرواية (the novel) على عرش الأدب الفيكتوري كأكثر الفنون ممارسة وشعبية لقدرتها على معالجة القضايا الاجتماعية والواقعية."
+    },
+    {
+      "q": "Duke’s attitude in \"My Last Duchess\"",
+      "options": [
+        "Compassionate",
+        "Resentful & possessive",
+        "Apologetic",
+        "Indifferent"
+      ],
+      "correct": 1,
+      "feedback": "تظهر شخصية الدوق في قصيدة براونينغ بنزعة غيورة، حاقدة، ورغبة شديدة في التملك والسيطرة (Resentful & possessive) تجاه دوقته الراحلة."
+    },
+    {
+      "q": "Line capturing faith/doubt in \"Dover Beach\"",
+      "options": [
+        "Ah, love, let us be true",
+        "The sea is calm tonight",
+        "The eternal note of sadness",
+        "The world seems like a land of dreams"
+      ],
+      "correct": 2,
+      "feedback": "السطر الذي يشير إلى النغمة الأزلية للحزن (The eternal note of sadness) يعبر بعمق عن أزمة الشك وفقدان يقين الإيمان."
+    },
+    {
+      "q": "Literary form rejected by Modernists",
+      "options": [
+        "Epic poetry",
+        "Traditional forms",
+        "Blank verse",
+        "Allegorical"
+      ],
+      "correct": 1,
+      "feedback": "ثار الحداثيون ضد الأشكال والقوالب الشعرية والسردية التقليدية (Traditional forms) وسعوا لابتكار تقنيات مفككة كالشعر الحر وتيار الوعي."
+    },
+    {
+      "q": "Imagism influenced",
+      "options": [
+        "Realism",
+        "Symbolism",
+        "Modernism",
+        "Surrealism"
+      ],
+      "correct": 2,
+      "feedback": "شكلت الحركة التصويرية (Imagism) رافداً أساسياً ومحركاً رئيسياً أثر في تشكيل وتطور حركة الحداثة (Modernism) الشعرية."
+    },
+    {
+      "q": "Tennyson became poet laureate after",
+      "options": [
+        "Shelley",
+        "Southey",
+        "Wordsworth",
+        "Byron"
+      ],
+      "correct": 2,
+      "feedback": "عُين ألفرد تينيسون شاعراً للبلاط في عام 1850 مباشرة بعد وفاة الشاعر الرومانسي الكبير ويليام ووردزورث (Wordsworth)."
+    },
+    {
+      "q": "Victorian poet who wrote plays but not famous",
+      "options": [
+        "Christina Rossetti",
+        "Mathew Arnold",
+        "Lord Tennyson",
+        "Robert Browning"
+      ],
+      "correct": 3,
+      "feedback": "كتب روبرت براونينغ (Robert Browning) العديد من المسرحيات الشعرية التاريخية، لكنها لم تحقق نفس الشهرة والنجاح اللذين حققهما في المونولوج الدرامي."
+    },
+    {
+      "q": "In Ezra Pound’s writings \"Cathay\" refers to",
+      "options": [
+        "China",
+        "Italy",
+        "his hometown",
+        "Belgium"
+      ],
+      "correct": 0,
+      "feedback": "كتاب 'Cathay' لباوند عبارة عن ترجمات وإعادة صياغة لقصائد شعرية كلاسيكية قادمة من الصين القديمة (China)."
+    },
+    {
+      "q": "In \"Metaphors\" Sylvia Plath refers to a",
+      "options": [
+        "pregnant woman",
+        "elderly",
+        "sick",
+        "beautiful"
+      ],
+      "correct": 0,
+      "feedback": "القصيدة بأكملها عبارة عن لغز شعري مكون من 9 أسطر، يشير كل سطر منها إلى حالة المرأة الحامل (pregnant woman) طوال شهور الحمل التسعة."
+    },
+    {
+      "q": "Modernism was born because",
+      "options": [
+        "authors wanted French style",
+        "people were disillusioned",
+        "Great Depression",
+        "uncertainty due to WWI"
+      ],
+      "correct": 3,
+      "feedback": "نشأت الحداثة وتجذرت بسبب حالة عدم اليقين، والتشظي، والصدمة الحضارية الناتجة عن الحرب العالمية الأولى (uncertainty due to WWI)."
+    },
+    {
+      "q": "Imagism can be described as",
+      "options": [
+        "rhyming poetry",
+        "concrete images & everyday language",
+        "free verse only",
+        "specific meter"
+      ],
+      "correct": 1,
+      "feedback": "ترتكز التصويرية على تقديم صور حسية ملموسة واستخدام لغة الحياة اليومية الشائعة (concrete images & everyday language) دون حشو لغوي."
+    },
+    {
+      "q": "Modernism can be described as",
+      "options": [
+        "moving away from themes",
+        "moving away from styles",
+        "bold experimentation",
+        "All of the above"
+      ],
+      "correct": 3,
+      "feedback": "تتضمن الحداثة ثورة شاملة تتمثل في الابتعاد عن الثيمات والأشكال التقليدية مع خوض تجريب فني وجريء (All of the above)."
+    },
+    {
+      "q": "British population moved from",
+      "options": [
+        "cities → rural",
+        "rural → cities",
+        "countryside → London",
+        "colonies → Britain"
+      ],
+      "correct": 1,
+      "feedback": "مع توسع الثورة الصناعية، حدثت هجرة ديموغرافية ضخمة للسكان في بريطانيا من المناطق الريفية إلى المدن الصناعية (rural → cities)."
+    },
+    {
+      "q": "Industrialism made England the",
+      "options": [
+        "research centre",
+        "political capital",
+        "workshop",
+        "sole ruler"
+      ],
+      "correct": 2,
+      "feedback": "نظراً للتطور الصناعي الهائل والإنتاج الكثيف، لُقبت إنجلترا في العهد الفيكتوري بـ 'ورشة عمل العالم' (workshop of the world)."
+    },
+    {
+      "q": "“It was in 1918 the old world began” said by",
+      "options": [
+        "None",
+        "T.S. Eliot",
+        "D.H. Lawrence",
+        "Virginia Woolf"
+      ],
+      "correct": 2,
+      "feedback": "هذه المقولة التي تؤرخ لنهاية العالم القديم وبداية ملامح العصر الجديد بعد الحرب هي للأديب البريطاني د. هـ. لورانس (D.H. Lawrence)."
+    },
+    {
+      "q": "“If I should die…” refers to",
+      "options": [
+        "English",
+        "London",
+        "Britain",
+        "England"
+      ],
+      "correct": 3,
+      "feedback": "السطر الافتتاحي الشهير لسوناتة الجندي لروبرت بروك يبدأ بـ: 'If I should die, think only this of me: That there's some corner of a foreign field that is forever England'."
+    },
+    {
+      "q": "T.S. Eliot is a lonely … on his age",
+      "options": [
+        "commentating",
+        "satirical",
+        "speaker",
+        "observer"
+      ],
+      "correct": 3,
+      "feedback": "يظهر إليوت في طروحاته وقصائده كـ مراقب متأمل ومعزول (observer) يرصد مظاهر تفكك الخريطة الثقافية والروحية لعصره."
+    },
+    {
+      "q": "Speaker of \"Dover Beach\" addresses",
+      "options": [
+        "himself",
+        "schoolmaster",
+        "sister",
+        "beloved"
+      ],
+      "correct": 3,
+      "feedback": "يتحدث السارد في القصيدة موجهاً كلامه مباشرة إلى حبيبته (beloved) التي تقف بجانبه متأملة حركة البحر."
+    },
+    {
+      "q": "Sassoon, Brooke, Owen, Sitwell are",
+      "options": [
+        "patriotic",
+        "young",
+        "war poets",
+        "extra modernist"
+      ],
+      "correct": 2,
+      "feedback": "الرابط الأدبي والتاريخي الذي يجمع هؤلاء الشعراء هو تصنيفهم كـ شعراء حرب (war poets) لتعبيرهم عن مآسي النزاعات المسلحة."
+    },
+    {
+      "q": "In \"Metaphors\" Plath compares herself to all EXCEPT",
+      "options": [
+        "cow",
+        "elephant",
+        "melon",
+        "bag of green apples"
+      ],
+      "correct": 0,
+      "feedback": "شبهت بلاث نفسها بالفيل، والبطيخة، وكيس التفاح الأخضر، لكنها لم تذكر البقرة (cow) ضمن استعارات القصيدة."
+    },
+    {
+      "q": "The Red Wheelbarrow: beside the white …",
+      "options": [
+        "ducklings",
+        "chickens",
+        "poultry",
+        "pigs"
+      ],
+      "correct": 1,
+      "feedback": "تكتمل السطور الأخيرة من قصيدة ويليام كارلوس ويليامز بذكر الدجاج الأبيض: (beside the white chickens)."
+    },
+    {
+      "q": "Vergiss mein nicht written by",
+      "options": [
+        "Siegfried Sassoon",
+        "Rupert Brooke",
+        "Keith Douglas",
+        "Wilfred Owen"
+      ],
+      "correct": 2,
+      "feedback": "هذه القصيدة السوداوية التي تصف جثة جندي ألماني في الصحراء هي للشاعر البريطاني كيث دوغلاس (Keith Douglas)."
+    },
+    {
+      "q": "Imagism lasted",
+      "options": [
+        "three decades",
+        "less than a decade",
+        "20 years",
+        "whole century"
+      ],
+      "correct": 1,
+      "feedback": "كانت الحركة التصويرية ومضة مكثفة وقصيرة في عمر الزمن، حيث استمرت كحركة منظمة لأقل من عقد (less than a decade) من 1912 حتى مطلع عشرينيات القرن الماضي."
+    },
+
+  {
+    "q": "The Victorian period in British literature broadly coincides with the reign of:",
+    "options": ["George III", "Edward VII", "Queen Victoria", "None of these"],
+    "correct": 2,
+    "feedback": "العصر الفيكتوري في الأدب البريطاني يتزامن بشكل أساسي مع فترة حكم الملكة فيكتوريا (Queen Victoria)."
+  },
+  {
+    "q": "One of the most striking intellectual crises reflected in Victorian literature was the conflict between:",
+    "options": ["monarchy and parliament", "religious faith and scientific discovery", "aristocracy and democracy", "tradition and colonialism"],
+    "correct": 1,
+    "feedback": "من أبرز الأزمات الفكرية في العصر الفيكتوري كان الصراع الحاد بين الإيمان الديني والاكتشافات العلمية (مثل نظرية التطور لداروين)."
+  },
+  {
+    "q": "Which Victorian poet is best known for transforming the dramatic monologue into a sophisticated poetic form?",
+    "options": ["None of the following", "Matthew Arnold", "Elizabeth Browning", "Gerard Manley Hopkins"],
+    "correct": 0,
+    "feedback": "الشاعر الفيكتوري الأشهر بتطوير المونولوج الدرامي هو روبرت برونينغ (Robert Browning)، وهو غير موجود في الخيارات الثلاثة الأخرى، لذا الجواب الصحيح هو None of the following."
+  },
+  {
+    "q": "Matthew Arnold's Dover Beach is often interpreted as expressing anxiety about:",
+    "options": ["the decline of Imperial Britain", "the loss of religious certainty", "industrial pollution", "the corruption of politics"],
+    "correct": 1,
+    "feedback": "قصيدة 'شاطئ دوفر' لماتيو أرنولد تعبر بشكل جلي عن القلق والأسى بسبب تراجع وفقدان اليقين الديني في عصره."
+  },
+  {
+    "q": "The phrase \"the Sea of Faith\" in Dover Beach symbolizes:",
+    "options": ["the power of the ocean", "the spread of Christianity", "the former strength of religious belief", "the unity of humanity"],
+    "correct": 2,
+    "feedback": "استعارة 'بحر الإيمان' (the Sea of Faith) ترمز إلى القوة والعمق والانتشار الذي كان يتمتع به الإيمان الديني في الماضي قبل أن يتراجع."
+  },
+  {
+    "q": "Victorian poetry frequently reflects the rapid social transformations caused by:",
+    "options": ["the American Revolution", "the Renaissance", "the Industrial Revolution", "the Enlightenment"],
+    "correct": 2,
+    "feedback": "عكس الشعر الفيكتوري التحولات الاجتماعية والاقتصادية السريعة والناتجة عن الثورة الصناعية (the Industrial Revolution)."
+  },
+  {
+    "q": "Which poet served as Poet Laureate of Britain for over forty years during the Victorian era?",
+    "options": ["Matthew Arnold", "Alfred Tennyson", "Robert Browning", "Thomas Hardy"],
+    "correct": 1,
+    "feedback": "ألفريد تينيسون (Alfred Tennyson) هو الشاعر الذي شغل منصب شاعر البلاط البريطاني لأكثر من أربعين عاماً خلال العهد الفيكتوري."
+  },
+  {
+    "q": "Robert Browning's poetry is especially known for its:",
+    "options": ["simple lyrical songs", "narrative ballads", "psychological exploration of speakers", "political satire"],
+    "correct": 2,
+    "feedback": "تميز شعر روبرت برونينغ بالتركيز العميق على التحليل والاستكشاف النفسي لشخصيات المتحدثين عبر المونولوج الدرامي."
+  },
+  {
+    "q": "Complete the line: \"Oh, to be in England, now that ——— there\" appears in a poem by:",
+    "options": ["My love's / ...", "April's / ...", "Spring's / ...", "May's / ..."],
+    "correct": 1,
+    "feedback": "السطر الشهير مأخوذ من قصيدة روبرت برونينغ وتكملته الصحيحة هي 'now that April's there'."
+  },
+  {
+    "q": "Modernism as a literary movement emerged largely as a reaction to:",
+    "options": ["medieval traditions", "Romantic poetry", "the cultural disillusionment following Great War", "Victorian optimism"],
+    "correct": 2,
+    "feedback": "نشأت الحداثة (Modernism) كحركة أدبية كرد فعل واسع على خيبة الأمل الثقافية والانهيار النفسي الذي أعقب الحرب العالمية الأولى (Great War)."
+  },
+  {
+    "q": "Modernist writers often experimented with:",
+    "options": ["strict classical forms", "traditional epic narratives", "innovative techniques", "heroic verse"],
+    "correct": 2,
+    "feedback": "تميز الكتاب الحداثيون بالثورة على القوالب التقليدية والتجريب المكثف باستخدام تقنيات وأساليب مبتكرة (innovative techniques)."
+  },
+  {
+    "q": "Many American and British modernist writers lived abroad as expatriates, especially in:",
+    "options": ["Rome", "Paris", "Athens", "Prague"],
+    "correct": 1,
+    "feedback": "كانت باريس (Paris) المركز الثقافي الأبرز للمغتربين من الكتاب الحداثيين الأمريكيين والبريطانيين في عشرينيات القرن الماضي."
+  },
+  {
+    "q": "The literary movement Imagism advocated poetry that was:",
+    "options": ["philosophical and abstract", "highly emotional", "economical in language", "narrative and dramatic"],
+    "correct": 2,
+    "feedback": "دعت الحركة التصويرية (Imagism) إلى كتابة شعر يتميز بالوضوح الجلي والاقصاد الشديد والتركيز في استخدام اللغة دون زوائد البلاغة التقليدية."
+  },
+  {
+    "q": "Which poet was one of the principal founders of the Imagist movement?",
+    "options": ["T. S. Eliot", "W. B. Yeats", "H. D.", "Wallace Stevens"],
+    "correct": 2,
+    "feedback": "الشاعرة هيلدا دوليتل المعروفة اختصاراً بـ (H. D.) كانت من المؤسسين والممثلين الرئيسيين للحركة التصويرية برعاية إزرا باوند."
+  },
+  {
+    "q": "Ezra Pound's poem In a Station of the Metro is famous for its:",
+    "options": ["elaborate symbolism", "dramatic monologue", "Imagistic clarity", "narrative complexity"],
+    "correct": 2,
+    "feedback": "تعتبر قصيدة إزرا باوند 'في محطة المترو' النموذج الأكمل والأشهر على الوضوح والتكثيف التصويري (Imagistic clarity)."
+  },
+  {
+    "q": "In In a Station of the Metro, the faces in the crowd are compared to:",
+    "options": ["reflections in water", "drifting clouds", "petals on a wet, black bough", "falling snow"],
+    "correct": 2,
+    "feedback": "يقارن إزرا باوند في قصيدته وجوه الحشد في المحطة بـ 'بتلات أزهار على غصن أسود رطب' (petals on a wet, black bough)."
+  },
+  {
+    "q": "The Imagists were strongly influenced by:",
+    "options": ["Japanese poetry", "Chinese poetry", "Both A and B", "Romantic epics"],
+    "correct": 2,
+    "feedback": "تأثر الشعراء التصويريون بشدة بالقصائد الشرقية القصيرة، لا سيما الشعر الياباني (مثل الهايكو) والشعر الصيني الكلاسيكي."
+  },
+  {
+    "q": "Ezra Pound's collection Cathay is notable because it is based largely on translations from:",
+    "options": ["Persian poetry", "Japanese", "Chinese poetry", "Greek poetry"],
+    "correct": 2,
+    "feedback": "ديوان 'كاثي' (Cathay) لإزرا باوند هو عمل شهير قائم في الأساس على إعادة صياغة وترجمة قصائد من الشعر الصيني الكلاسيكي."
+  },
+  {
+    "q": "Which poet famously declared the principle \"Make it new\"?",
+    "options": ["T. S. Eliot", "Ezra Pound", "D. H. Lawrence", "Virginia Woolf"],
+    "correct": 1,
+    "feedback": "الشعار الحداثي الخالد 'اجعله جديداً' (Make it new) هو المبدأ والشعار الأساسي الذي أطلقه الشاعر إزرا باوند (Ezra Pound)."
+  },
+  {
+    "q": "William Carlos Williams believed poetry should focus on:",
+    "options": ["mythological subjects", "aristocratic culture", "everyday objects", "religious themes"],
+    "correct": 2,
+    "feedback": "آمن ويليام كارلوس ويليامز بأن الشعر يجب أن يركز على الأشياء الواقعية واليومية البسيطة (everyday objects) مبتعداً عن التجريد."
+  }
+
+]
+}
+
+
