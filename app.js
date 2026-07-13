@@ -21,7 +21,7 @@ const screens = {
 };
 
 /* ==========================================
-   2. إدارة التنقل وحفظ التقدم
+   2. إدارة التنقل، الترتيب وحفظ التقدم
    ========================================== */
 function showScreen(name) {
     Object.values(screens).forEach(screen => {
@@ -33,16 +33,59 @@ function showScreen(name) {
     }
 }
 
+// دالة المحافظة على ترتيب الأسئلة وإضافة الأسئلة الجديدة للنهاية
+function applyUserQuestionOrder(subject, currentMode) {
+    if (!subject || !subject.questions) return;
+    const subProgKey = `progress_${subject.id}_${currentMode}`;
+    const savedProg = localStorage.getItem(subProgKey);
+    if (!savedProg) return;
+
+    try {
+        const parsed = JSON.parse(savedProg);
+        const savedOrder = parsed.questionOrder || [];
+
+        if (savedOrder.length > 0) {
+            const knownQuestionsMap = {};
+            const newQuestions = [];
+
+            // فرز الأسئلة إلى "معروفة تاريخياً" و "جديدة مضافة"
+            subject.questions.forEach(q => {
+                if (savedOrder.includes(q.id)) {
+                    knownQuestionsMap[q.id] = q;
+                } else {
+                    newQuestions.push(q);
+                }
+            });
+
+            // إعادة بناء القائمة بحيث تحافظ على الترتيب القديم بدقة
+            const reconstructedQuestions = [];
+            savedOrder.forEach(id => {
+                if (knownQuestionsMap[id]) {
+                    reconstructedQuestions.push(knownQuestionsMap[id]);
+                }
+            });
+
+            // وضع الأسئلة الجديدة في ذيل القائمة لكي لا تقطع استمرارية المستخدم
+            subject.questions = [...reconstructedQuestions, ...newQuestions];
+        }
+    } catch (e) {
+        console.error("Error applying user question order:", e);
+    }
+}
+
 function saveDetailedProgress() {
     if (!currentSubject) return;
 
     const subjectId = currentSubject.id;
     const lastQuestionId = currentSubject.questions[currentIndex]?.id || null;
+    
+    // حفظ مكان التوقف العام
     const lastState = { subjectId: subjectId, mode: mode, lastQuestionId: lastQuestionId };
     localStorage.setItem('app_last_position', JSON.stringify(lastState));
 
     const subjectProgressKey = `progress_${subjectId}_${mode}`;
     
+    // حفظ الإجابات باستخدام المعرفات بدلاً من الخانات
     const progressToSave = {};
     userAnswers.forEach((answer, index) => {
         const questionId = currentSubject.questions[index]?.id;
@@ -51,11 +94,14 @@ function saveDetailedProgress() {
         }
     });
 
-    // Save both the ID and the raw index as a fallback
+    // التقاط الترتيب الحالي للأسئلة لحفظه (هذا ما كان مفقوداً في النسخة السابقة)
+    const currentOrder = currentSubject.questions.map(q => q.id);
+
     const progressData = { 
         lastQuestionId: lastQuestionId, 
-        index: currentIndex, 
-        answers: progressToSave 
+        index: currentIndex, // For backward compatibility
+        answers: progressToSave,
+        questionOrder: currentOrder // حفظ الترتيب ضروري لمنع القفزات
     };
     localStorage.setItem(subjectProgressKey, JSON.stringify(progressData));
 }
@@ -88,9 +134,12 @@ async function init() {
                 currentSubject = foundSub;
                 mode = pos.mode;
 
+                // تطبيق ترتيب المستخدم أولاً قبل البحث عن مكان التوقف
+                applyUserQuestionOrder(currentSubject, mode);
+
                 let restoredIndex = 0;
                 if (pos.lastQuestionId) {
-                    const newIndex = foundSub.questions.findIndex(q => q.id === pos.lastQuestionId);
+                    const newIndex = currentSubject.questions.findIndex(q => q.id === pos.lastQuestionId);
                     if (newIndex !== -1) {
                         restoredIndex = newIndex;
                     }
@@ -103,10 +152,10 @@ async function init() {
                     const parsedProg = JSON.parse(savedProg);
                     const savedAnswers = parsedProg.answers || {};
                     
-                    // Backward compatibility: Auto-migrate old array-based progress to new object-based progress
+                    // توافقية رجعية (Backward compatibility) لاستعادة التقدم القديم
                     if (Array.isArray(savedAnswers)) {
                         userAnswers = [...savedAnswers];
-                        saveDetailedProgress(); // Upgrade to new format instantly
+                        saveDetailedProgress(); 
                     } else {
                         userAnswers = currentSubject.questions.map(q => savedAnswers[q.id]);
                     }
@@ -190,6 +239,7 @@ async function fetchRepoAndAddSubjects(repoUrl) {
 
 async function fetchLocalTestFile() {
     try {
+        // معامل إلغاء الكاش لضمان تحديث الملف فور تعديله
         const response = await fetch(`test.json?t=${Date.now()}`);
         if (!response.ok) throw new Error('Could not find test.json.');
         
@@ -282,9 +332,10 @@ async function processJsonFiles(files, type, githubInfo = {}) {
             
             if (data && data.questions) {
                 data.questions.forEach(q => {
+                    // الاعتماد على محتوى السؤال في الـ ID
+                    // إذا تغير المحتوى (نص السؤال أو الخيارات)، سيتغير الـ ID وسيصبح سؤالاً جديداً
                     const combinedStr = q.q + (q.options ? q.options.join('') : '') + (q.correct !== undefined ? q.correct : '');
-                    // Generates a robust string ID to prevent array index mismatches
-                    q.id = q.id || 'id_' + simpleHash(combinedStr); 
+q.id = q.id || 'id_' + simpleHash(combinedStr);
                 });
 
                 quizData.push({
@@ -326,8 +377,14 @@ function performSearch(term, container) {
         `;
         btn.onclick = () => {
             currentSubject = quizData[result.subjectIndex];
-            currentIndex = result.questionIndex;
             mode = 'quiz'; 
+            
+            // تطبيق ترتيب المستخدم أولاً
+            applyUserQuestionOrder(currentSubject, mode);
+            
+            // إيجاد مكان السؤال بعد إعادة الترتيب
+            currentIndex = currentSubject.questions.findIndex(q => q.id === result.question.id);
+            if(currentIndex === -1) currentIndex = 0;
 
             const subProgKey = `progress_${currentSubject.id}_${mode}`;
             const savedProg = localStorage.getItem(subProgKey);
@@ -659,6 +716,10 @@ function showResults() {
 
 function setMode(m) {
     mode = m;
+    
+    // تطبيق الترتيب وتثبيته فور اختيار النمط وقبل حساب الاندكس
+    applyUserQuestionOrder(currentSubject, mode);
+
     const subProgKey = `progress_${currentSubject.id}_${mode}`;
     const savedProg = localStorage.getItem(subProgKey);
     
