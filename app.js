@@ -1,6 +1,8 @@
 /* ==========================================
    1. المتغيرات وإدارة الحالة (State Management)
    ========================================== */
+const USE_LOCAL_TEST_FILE = true;
+
 let quizData = [];
 let currentSubject = null;
 let currentIndex = 0;
@@ -8,7 +10,6 @@ let userAnswers = [];
 let mode = ''; 
 let currentSpeed = 0.8;
 
-// تم تحديث الرابط ليكون المستودع الجديد الخاص بالجامعة
 const DEFAULT_REPO_URL = 'https://github.com/MostafaAomar/uni';
 
 const screens = {
@@ -34,11 +35,28 @@ function showScreen(name) {
 
 function saveDetailedProgress() {
     if (!currentSubject) return;
-    const lastState = { subjectName: currentSubject.subject, mode: mode, currentIndex: currentIndex };
+
+    const subjectId = currentSubject.id;
+    const lastQuestionId = currentSubject.questions[currentIndex]?.id || null;
+    const lastState = { subjectId: subjectId, mode: mode, lastQuestionId: lastQuestionId };
     localStorage.setItem('app_last_position', JSON.stringify(lastState));
 
-    const subjectProgressKey = `progress_${currentSubject.subject}_${mode}`;
-    const progressData = { index: currentIndex, answers: userAnswers };
+    const subjectProgressKey = `progress_${subjectId}_${mode}`;
+    
+    const progressToSave = {};
+    userAnswers.forEach((answer, index) => {
+        const questionId = currentSubject.questions[index]?.id;
+        if (questionId !== undefined && answer !== undefined && answer !== null) {
+            progressToSave[questionId] = answer;
+        }
+    });
+
+    // Save both the ID and the raw index as a fallback
+    const progressData = { 
+        lastQuestionId: lastQuestionId, 
+        index: currentIndex, 
+        answers: progressToSave 
+    };
     localStorage.setItem(subjectProgressKey, JSON.stringify(progressData));
 }
 
@@ -50,25 +68,49 @@ async function init() {
 
     const loadingDiv = document.querySelector('.loader');
 
-    // إظهار مؤشر التحميل أثناء جلب البيانات تلقائياً
-    if (loadingDiv) loadingDiv.classList.remove('hidden');
-    await fetchRepoAndAddSubjects(DEFAULT_REPO_URL);
-    if (loadingDiv) loadingDiv.classList.add('hidden');
-
-    // استعادة آخر جلسة تصفح متوقفة إن وجدت
+    if (USE_LOCAL_TEST_FILE) {
+        console.log("--- وضع الاختبار المحلي مفعل ---");
+        if (loadingDiv) loadingDiv.classList.remove('hidden');
+        await fetchLocalTestFile();
+        if (loadingDiv) loadingDiv.classList.add('hidden');
+    } else {
+        if (loadingDiv) loadingDiv.classList.remove('hidden');
+        await fetchRepoAndAddSubjects(DEFAULT_REPO_URL);
+        if (loadingDiv) loadingDiv.classList.add('hidden');
+    }
+    
     const savedPos = localStorage.getItem('app_last_position');
     if (savedPos) {
         try {
             const pos = JSON.parse(savedPos);
-            const foundSub = quizData.find(s => s.subject === pos.subjectName);
+            const foundSub = quizData.find(s => s.id === pos.subjectId);
             if (foundSub) {
                 currentSubject = foundSub;
                 mode = pos.mode;
-                currentIndex = pos.currentIndex;
+
+                let restoredIndex = 0;
+                if (pos.lastQuestionId) {
+                    const newIndex = foundSub.questions.findIndex(q => q.id === pos.lastQuestionId);
+                    if (newIndex !== -1) {
+                        restoredIndex = newIndex;
+                    }
+                }
+                currentIndex = restoredIndex;
                 
-                const subProgKey = `progress_${currentSubject.subject}_${mode}`;
+                const subProgKey = `progress_${currentSubject.id}_${mode}`;
                 const savedProg = localStorage.getItem(subProgKey);
-                if (savedProg) userAnswers = JSON.parse(savedProg).answers || [];
+                if (savedProg) {
+                    const parsedProg = JSON.parse(savedProg);
+                    const savedAnswers = parsedProg.answers || {};
+                    
+                    // Backward compatibility: Auto-migrate old array-based progress to new object-based progress
+                    if (Array.isArray(savedAnswers)) {
+                        userAnswers = [...savedAnswers];
+                        saveDetailedProgress(); // Upgrade to new format instantly
+                    } else {
+                        userAnswers = currentSubject.questions.map(q => savedAnswers[q.id]);
+                    }
+                }
                 
                 renderStep();
                 return;
@@ -80,23 +122,18 @@ async function init() {
 }
 
 function showWelcomeMessage() {
-    // Create the message element
     const welcomeDiv = document.createElement('div');
     welcomeDiv.id = 'welcome-message';
     welcomeDiv.innerHTML = `
         <p>هذا العمل صدقة جارية<br><br>ادعوا لي ولأهلي بالرحمة والمغفرة</p>
-        
-        
     `;
 
-    // Add styles dynamically to the head
     const style = document.createElement('style');
     style.innerHTML = `
         #welcome-message {
             position: fixed;
             top: 50%;
             left: 50%;
-          
             transform: translate(-50%, -50%);
             background-color: #4e4e4e;
             color: #fff;
@@ -108,16 +145,10 @@ function showWelcomeMessage() {
             cursor: pointer;
             border: 1px solid #3f3f46;
         }
-        #welcome-message p { 
-            margin: 0 0 10px 0; 
-            font-weight: bold; 
-            line-height: 1.6;
-            font-size: 1.25rem;
-        }
+        #welcome-message p { margin: 0 0 10px 0; font-weight: bold; line-height: 1.6; font-size: 1.25rem; }
         #welcome-message small { font-size: 0.8em; opacity: 0.7; display: block; }
     `;
     document.head.appendChild(style);
-
     document.body.appendChild(welcomeDiv);
 
     const removeMessage = () => {
@@ -131,7 +162,6 @@ function showWelcomeMessage() {
 }
 
 async function fetchRepoAndAddSubjects(repoUrl) {
-    // تنظيف الرابط بذكاء لاستخراج صاحب المستودع واسم المستودع فقط
     let cleanUrl = repoUrl.replace('https://github.com/', '');
     cleanUrl = cleanUrl.split('/tree/')[0]; 
     if (cleanUrl.endsWith('.git')) cleanUrl = cleanUrl.slice(0, -4); 
@@ -146,50 +176,29 @@ async function fetchRepoAndAddSubjects(repoUrl) {
     try {
         const resp = await fetch(api);
         
-        // التحقق مما إذا كان المستودع خاص أو غير موجود
-        if (!resp.ok) {
-            if (resp.status === 404 || resp.status === 403) {
-                throw new Error("المستودع خاص (Private) أو أن هناك مشكلة في صلاحيات جيتهاب. تأكد أن المستودع Public.");
-            }
-            throw new Error("فشل الاتصال بـ GitHub API.");
-        }
+        if (!resp.ok) throw new Error("فشل الاتصال بـ GitHub API.");
         
         const tree = await resp.json();
         const jsonFiles = tree.tree.filter(t => t.path.endsWith('.json') && !t.path.includes('myOwnDic.json'));
 
-        quizData = []; 
-        for (const file of jsonFiles) {
-            // استخدام try-catch داخلي لكي لا يتوقف التطبيق إذا كان هناك ملف JSON واحد معطوب
-            try {
-                const rawUrl = `https://raw.githubusercontent.com/${owner}/${repo}/main/${file.path}`;
-                const r = await fetch(rawUrl);
-                if (!r.ok) continue;
-
-                const content = await r.json();
-                const data = Array.isArray(content) ? content[0] : content;
-                
-                if (data && data.questions) {
-                    quizData.push({
-                        subject: (data.subject || file.path.replace('.json', '').split('/').pop()).trim(),
-                        lang: data.lang || 'en',
-                        questions: data.questions
-                    });
-                }
-            } catch (fileErr) {
-                console.warn(`⚠️ تم تخطي الملف ${file.path} لوجود خطأ في صيغة الـ JSON داخله.`, fileErr);
-            }
-        }
-
-        // تحديث الواجهة إذا تم العثور على مواد
-        if (quizData.length > 0) {
-            renderSubjectList();
-        } else {
-            alert("تم الوصول للمستودع بنجاح، لكن لم يتم العثور على أي ملفات JSON صالحة للأسئلة.");
-        }
-
+        processJsonFiles(jsonFiles, 'github', { owner, repo });
     } catch (e) { 
         console.error("Load Error:", e);
-        alert(`❌ تعذر تحميل البيانات:\n${e.message}\n\nيرجى فتح (F12) لمعرفة التفاصيل.`);
+        alert(`❌ تعذر تحميل البيانات:\n${e.message}`);
+    }
+}
+
+async function fetchLocalTestFile() {
+    try {
+        const response = await fetch(`test.json?t=${Date.now()}`);
+        if (!response.ok) throw new Error('Could not find test.json.');
+        
+        const content = await response.json();
+        const fileObject = { name: 'test.json', content: JSON.stringify(content) };
+        processJsonFiles([fileObject], 'local');
+    } catch (e) {
+        console.error("Load Error:", e);
+        alert(`❌ تعذر تحميل ملف الاختبار المحلي:\n${e.message}`);
     }
 }
 
@@ -199,19 +208,28 @@ function getSubjectProgress(subjectName, totalQuestions) {
     let maxProgress = 0;
 
     modes.forEach(m => {
-        const key = `progress_${subjectName}_${m}`;
+        const key = `progress_${subjectName}_${m}`; 
         const savedData = localStorage.getItem(key);
         if (savedData) {
             try {
                 const parsed = JSON.parse(savedData);
-                const reached = (parsed.index || 0) + 1;
-                if (reached > maxProgress) maxProgress = reached;
+                let reached = 0;
+                
+                if (Array.isArray(parsed.answers)) {
+                    reached = parsed.answers.filter(a => a !== null && a !== undefined).length;
+                } else {
+                    reached = Object.keys(parsed.answers || {}).length;
+                }
+
+                const indexReached = parsed.index !== undefined ? parsed.index + 1 : 0;
+                const actualProgress = Math.max(reached, indexReached);
+
+                if (actualProgress > maxProgress) maxProgress = actualProgress;
             } catch (e) { console.error(e); }
         }
     });
 
     let percentage = (maxProgress / totalQuestions) * 100;
-    if (maxProgress >= totalQuestions) percentage = 100;
     return Math.min(100, Math.max(0, percentage));
 }
 
@@ -241,6 +259,48 @@ function renderSubjectList() {
     renderAllSubjects(resultsContainer);
 }
 
+async function processJsonFiles(files, type, githubInfo = {}) {
+    quizData = [];
+
+    for (const file of files) {
+        try {
+            let content;
+            let fileName;
+
+            if (type === 'github') {
+                fileName = file.path;
+                const rawUrl = `https://raw.githubusercontent.com/${githubInfo.owner}/${githubInfo.repo}/main/${fileName}?t=${Date.now()}`;
+                const r = await fetch(rawUrl);
+                if (!r.ok) continue;
+                content = await r.json();
+            } else { 
+                fileName = file.name;
+                content = JSON.parse(file.content);
+            }
+
+            const data = Array.isArray(content) ? content[0] : content;
+            
+            if (data && data.questions) {
+                data.questions.forEach(q => {
+                    const combinedStr = q.q + (q.options ? q.options.join('') : '') + (q.correct !== undefined ? q.correct : '');
+                    // Generates a robust string ID to prevent array index mismatches
+                    q.id = q.id || 'id_' + simpleHash(combinedStr); 
+                });
+
+                quizData.push({
+                    id: fileName, 
+                    subject: (data.subject || fileName.replace('.json', '').split('/').pop()).trim(),
+                    lang: data.lang || 'en',
+                    questions: data.questions
+                });
+            }
+        } catch (fileErr) {
+            console.warn(`⚠️ تم تخطي الملف ${file.path || file.name} لوجود خطأ في صيغة الـ JSON داخله.`, fileErr);
+        }
+    }
+    renderSubjectList();
+}
+
 function performSearch(term, container) {
     container.innerHTML = '';
     let results = [];
@@ -265,23 +325,31 @@ function performSearch(term, container) {
             <small style="z-index:2; position:relative; color: #a1a1aa; display:block; margin-top: 5px;">المادة: ${result.subject.subject}</small>
         `;
         btn.onclick = () => {
-            // 1. Set the global state for subject and question index
             currentSubject = quizData[result.subjectIndex];
             currentIndex = result.questionIndex;
-            mode = 'quiz'; // Default to quiz mode for direct access
+            mode = 'quiz'; 
 
-            // 2. Load any existing progress for this subject
-            const subProgKey = `progress_${currentSubject.subject}_${mode}`;
+            const subProgKey = `progress_${currentSubject.id}_${mode}`;
             const savedProg = localStorage.getItem(subProgKey);
-            userAnswers = savedProg ? (JSON.parse(savedProg).answers || []) : [];
+            
+            let savedAnswers = {};
+            if (savedProg) {
+                const progObj = JSON.parse(savedProg);
+                savedAnswers = progObj.answers || {};
+                
+                if (Array.isArray(savedAnswers)) {
+                    userAnswers = [...savedAnswers];
+                } else {
+                    userAnswers = currentSubject.questions.map(q => savedAnswers[q.id]);
+                }
+            } else {
+                userAnswers = [];
+            }
 
-            // 3. To reveal the answer, we'll mark this question as answered correctly
-            //    if it hasn't been answered before. This triggers the feedback view.
             if (userAnswers[currentIndex] === undefined || userAnswers[currentIndex] === null) {
                 userAnswers[currentIndex] = result.question.correct;
             }
 
-            // 4. Render the quiz screen directly
             renderStep();
         };
         container.appendChild(btn);
@@ -290,15 +358,15 @@ function performSearch(term, container) {
 
 function renderAllSubjects(container) {
     container.innerHTML = "";
-    if(quizData.length === 0) {
+    if (quizData.length === 0) {
         container.innerHTML = "<p style='text-align:center; color:#94a3b8;'>لا توجد مواد متاحة حالياً.</p>";
         return;
     }
-
+    
     quizData.forEach((data, index) => {
         const btn = document.createElement('div');
         btn.className = 'subject-btn';
-        const progressPercent = getSubjectProgress(data.subject, data.questions.length);
+        const progressPercent = getSubjectProgress(data.id, data.questions.length);
         btn.innerHTML = `
             <span style="z-index:2; position:relative;">${data.subject}</span>
             <div class="subject-progress-line" style="width: ${progressPercent}%"></div>
@@ -310,6 +378,16 @@ function renderAllSubjects(container) {
         };
         container.appendChild(btn);
     });
+}
+
+function simpleHash(str) {
+    let hash = 0;
+    for (let i = 0; i < str.length; i++) {
+        const char = str.charCodeAt(i);
+        hash = (hash << 5) - hash + char;
+        hash |= 0; 
+    }
+    return Math.abs(hash).toString(16);
 }
 
 /* ==========================================
@@ -378,7 +456,7 @@ function renderQuizQuestion() {
 }
 
 function handleAnswer(selectedIndex, clickedBtn, qData) {
-    userAnswers[currentIndex] = selectedIndex;
+    userAnswers[currentIndex] = selectedIndex; 
     saveDetailedProgress();
     const container = document.getElementById('options-container');
     const buttons = container.querySelectorAll('.option-btn');
@@ -457,7 +535,7 @@ function saveUserNote() {
     const inputId = isQuiz ? 'quiz-note-input' : 'note-input';
     const input = document.getElementById(inputId);
     if (input && input.value.trim()) {
-        const key = `note_${currentSubject.subject}_${currentIndex}`;
+        const key = `note_${currentSubject.id}_${currentSubject.questions[currentIndex].id}`;
         localStorage.setItem(key, input.value.trim());
         input.value = "";
         displayNotes();
@@ -465,8 +543,8 @@ function saveUserNote() {
 }
 
 function displayNotes() {
-    const key = `note_${currentSubject.subject}_${currentIndex}`;
-    const saved = localStorage.getItem(key);
+    const questionId = currentSubject?.questions[currentIndex]?.id;
+    const saved = localStorage.getItem(`note_${currentSubject.id}_${questionId}`);
     const displayId = (mode === 'quiz') ? 'quiz-note-display' : 'user-note-display';
     const box = document.getElementById(displayId);
     if (box) {
@@ -531,7 +609,6 @@ async function analyzeCurrentQuestion(currentMode) {
                     ${fullIpa}
                 </div>
             </div>
-          
         </div>
     `;
 }
@@ -582,12 +659,29 @@ function showResults() {
 
 function setMode(m) {
     mode = m;
-    const subProgKey = `progress_${currentSubject.subject}_${mode}`;
+    const subProgKey = `progress_${currentSubject.id}_${mode}`;
     const savedProg = localStorage.getItem(subProgKey);
+    
     if (savedProg) {
         const prog = JSON.parse(savedProg);
-        currentIndex = prog.index || 0;
-        userAnswers = prog.answers || [];
+        const savedAnswers = prog.answers || {};
+
+        if (Array.isArray(savedAnswers)) {
+            userAnswers = [...savedAnswers];
+            saveDetailedProgress();
+        } else {
+            userAnswers = currentSubject.questions.map(q => savedAnswers[q.id]);
+        }
+
+        let restoredIndex = 0;
+        if (prog.lastQuestionId) {
+            const newIndex = currentSubject.questions.findIndex(q => q.id === prog.lastQuestionId);
+            if (newIndex !== -1) restoredIndex = newIndex;
+        } else if (prog.index !== undefined) {
+            restoredIndex = prog.index;
+        }
+        
+        currentIndex = restoredIndex;
     } else {
         currentIndex = 0;
         userAnswers = [];
@@ -601,18 +695,19 @@ function goBackToSubjects() {
     showScreen('setup');
 }
 
-// إعادة ضبط تقدم المادة الحالية فقط
 function restartSubject() {
     if(confirm("هل تريد إعادة هذه المادة من البداية؟")) {
         currentIndex = 0;
         userAnswers = [];
-        const subjectProgressKey = `progress_${currentSubject.subject}_${mode}`;
+        const subjectProgressKey = `progress_${currentSubject.id}_${mode}`;
         localStorage.removeItem(subjectProgressKey);
+        currentSubject.questions.forEach((q, i) => {
+            localStorage.removeItem(`note_${currentSubject.id}_${q.id}`);
+        });
         renderStep();
     }
 }
 
-// حذف الكاش والملاحظات للبدء من جديد مع الحفاظ على الأتمتة
 function fullReset() {
     if(confirm("⚠️ تحذير: سيتم حذف كافة الملاحظات والتقدم المخزن. هل أنت متأكد؟")) {
         localStorage.clear();
@@ -620,7 +715,6 @@ function fullReset() {
     }
 }
 
-// بدء تشغيل التطبيق التلقائي فور التحميل
 window.onload = init;
 
 /* ==========================================
@@ -630,7 +724,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const wordInput = document.getElementById('wordInput');
     const dictionaryOutput = document.getElementById('dictionaryOutput');
 
-    // تم تحديث مسار القاموس المحلي ليتوافق مع المستودع الجديد (إن وُجد)
     const localDictionaryPath = 'https://raw.githubusercontent.com/MostafaAomar/uni/refs/heads/main/data/subdata/myOwnDic.json'; 
     const apiEndpoint = 'https://api.dictionaryapi.dev/api/v2/entries/en/';
 
@@ -758,11 +851,11 @@ document.addEventListener('DOMContentLoaded', () => {
         return div.innerHTML;
     }
 });
+
 /* ==========================================
-   9. ميزة التحديد الذكي للبحث التلقائي (Smart Highlight Search) - محسنة للهواتف
+   9. ميزة التحديد الذكي للبحث التلقائي (Smart Highlight Search)
    ========================================== */
 function performSmartSearch() {
-    // A small delay ensures the mobile browser has finished registering the text selection
     setTimeout(() => {
         const selectedText = window.getSelection().toString().trim();
 
@@ -772,23 +865,15 @@ function performSmartSearch() {
             const dictionarySection = document.getElementById('dictionary');
             
             if (wordInput && dictionarySection) {
-                // Prevent re-triggering if the word is already in the input
                 if (wordInput.value !== selectedText) {
                     wordInput.value = selectedText;
-                    
-                    // Simulate input event to trigger the dictionary search
                     wordInput.dispatchEvent(new Event('input'));
-                    
-                    // Smooth scroll to the dictionary
                     dictionarySection.scrollIntoView({ behavior: 'smooth', block: 'center' });
                 }
             }
         }
-    }, 150); // 150 milliseconds delay
+    }, 150); 
 }
 
-// For Desktop (Mouse)
 document.addEventListener('mouseup', performSmartSearch);
-
-// For Mobile (Touch)
 document.addEventListener('touchend', performSmartSearch);
