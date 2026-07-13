@@ -1,7 +1,7 @@
 /* ==========================================
    1. المتغيرات وإدارة الحالة (State Management)
    ========================================== */
-const USE_LOCAL_TEST_FILE = true;
+const USE_LOCAL_TEST_FILE = false;
 
 let quizData = [];
 let currentSubject = null;
