@@ -410,17 +410,6 @@
             "feedback": "يُعتبر العصر الفيكتوري العصر الذهبي للرواية الإنجليزية (the novel) حيث بلغت نضجها وشعبيتها الكبرى."
         },
         {
-            "q": "The Victorian age is the true English Age of this literary genre:",
-            "options": [
-                "science",
-                "poetry",
-                "criticism",
-                "none of these"
-            ],
-            "correct": 1,
-            "feedback": "بالإضافة للرواية، يرى الكثير من النقاد أن هذا العصر شهد أيضاً ازدهاراً منقطع النظير للشعر (poetry) الفيكتوري بتنوعه الكبيير."
-        },
-        {
             "q": "What is the best tone of “Dover Beach”?",
             "options": [
                 "enthusiastic",
