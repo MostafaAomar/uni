@@ -5,280 +5,280 @@
     
   {
     "id": 1,
-    "question": "What is the purpose of the teacher's feedback when acting as a prompter?",
+    "q": "What is the purpose of the teacher's feedback when acting as a prompter?",
     "options": ["A) To correct students' work", "B) To make suggestions and help students improve", "C) to be the only decision maker", "D) To give information"],
     "correct": 1,
     "feedback": "دور الملقن (Prompter) يهدف إلى توجيه الطلاب وتقديم اقتراحات لمساعدتهم على التحسن دون السيطرة الكاملة على العملية."
   },
   {
     "id": 2,
-    "question": "When teachers act as monitors and evidence gatherers, their role is to keep an eye on what is happening to:",
+    "q": "When teachers act as monitors and evidence gatherers, their role is to keep an eye on what is happening to:",
     "options": ["A) ensure that the students never make noise", "B) gather information about what they are saying", "C) ensure that the students do what they are supposed to do", "D) both B & C"],
     "correct": 3,
     "feedback": "دور المعلم كمراقب يهدف إلى جمع معلومات عن أداء الطلاب والتأكد من انخراطهم في المهام المطلوبة."
   },
   {
     "id": 3,
-    "question": "What is the role of the teacher when working one-on-one with a student?",
+    "q": "What is the role of the teacher when working one-on-one with a student?",
     "options": ["A) Tutor", "B) Monitor and evidence gatherer", "C) Prompter and editor", "D) Controller"],
     "correct": 0,
     "feedback": "عندما يعمل المعلم بشكل فردي مع طالب، فإنه يقوم بدور الموجه أو 'Tutor'."
   },
   {
     "id": 4,
-    "question": "Who is the person that students are likely to hear speaking English most often?",
+    "q": "Who is the person that students are likely to hear speaking English most often?",
     "options": ["A) Their teacher", "B) their colleagues", "C) their parents", "D) their principal"],
     "correct": 0,
     "feedback": "في بيئات تعلم اللغة، غالباً ما يكون المعلم هو المصدر الرئيسي والمستمر للغة الإنجليزية للطلاب."
   },
   {
     "id": 5,
-    "question": "The input teachers provide must be:",
+    "q": "The input teachers provide must be:",
     "options": ["A) Complicated", "B) Professional", "C) Interdisciplinary", "D) Comprehensible"],
     "correct": 3,
     "feedback": "يجب أن تكون المدخلات (Input) مفهومة (Comprehensible) لضمان اكتساب اللغة بفعالية وفقاً لنظريات كراشن."
   },
   {
     "id": 6,
-    "question": "What is one way to act out a word, action, or feeling to help students understand?",
+    "q": "What is one way to act out a word, action, or feeling to help students understand?",
     "options": ["A) Using facial expressions", "B) Using mime", "C) Using gestures", "D) Using language"],
     "correct": 1,
     "feedback": "التمثيل الصامت (Mime) وسيلة فعالة جداً لشرح المعاني والأفعال دون الاعتماد على اللغة اللفظية فقط."
   },
   {
     "id": 7,
-    "question": "What is an example of using gestures to indicate quantity?",
+    "q": "What is an example of using gestures to indicate quantity?",
     "options": ["A) Making an open hand tremble", "B) Rotating both arms", "C) Pointing to a student", "D) Shaking the head"],
     "correct": 0,
     "feedback": "هذه إيماءة شائعة تُستخدم للدلالة على فكرة (أكثر أو أقل) أو التغيير في الكمية."
   },
   {
     "id": 8,
-    "question": "What is the purpose of using mime to tell a story?",
+    "q": "What is the purpose of using mime to tell a story?",
     "options": ["A) To test students", "B) To teach students about different cultures", "C) To help students develop their vocabulary", "D) To help students improve their writing skills"],
     "correct": 2,
     "feedback": "يساعد التمثيل الصامت في ربط الكلمات بمعانيها البصرية، مما يعزز حفظ وتطوير الحصيلة اللغوية."
   },
   {
     "id": 9,
-    "question": "A common feeling experienced by new teachers is:",
+    "q": "A common feeling experienced by new teachers is:",
     "options": ["A) Boredom", "B) Excitement", "C) Fear", "D) Disappointment"],
     "correct": 1,
     "feedback": "الإثارة (Excitement) شعور إيجابي وشائع جداً للمعلمين في بداياتهم المهنية."
   },
   {
     "id": 10,
-    "question": "What is burnout?",
+    "q": "What is burnout?",
     "options": ["A) A physical illness", "B) A mental health condition", "C) A state of emotional exhaustion and lack of motivation", "D) A lack of patience"],
     "correct": 2,
     "feedback": "الاحتراق النفسي هو حالة ناتجة عن الضغط المستمر وتؤدي إلى فقدان الشغف والإنهاك العاطفي."
   },
   {
     "id": 11,
-    "question": "What does \"rapport\" mean in the context of teaching?",
+    "q": "What does \"rapport\" mean in the context of teaching?",
     "options": ["A) A formal agreement between teachers and students", "B) A friendly and understanding relationship between teachers and students", "C) A strict and disciplined classroom environment", "D) A system of rewards and punishments"],
     "correct": 1,
     "feedback": "الـ Rapport هو جوهر العلاقة الإيجابية والتفاهم بين المعلم والطالب لخلق بيئة تعلم آمنة."
   },
   {
     "id": 12,
-    "question": "Which of the following countries is NOT included in Kachru's \"Inner circle\"?",
+    "q": "Which of the following countries is NOT included in Kachru's \"Inner circle\"?",
     "options": ["A) USA", "B) UK", "C) Australia", "D) Mexico"],
     "correct": 3,
     "feedback": "المكسيك ليست من الدول الناطقة بالإنجليزية كلغة أم (Inner Circle) حسب نموذج كاشرو."
   },
   {
     "id": 13,
-    "question": "English in the \"outer circle\" is considered:",
+    "q": "English in the \"outer circle\" is considered:",
     "options": ["A) the native language.", "B) a foreign language.", "C) Local varieties of the language have developed.", "D) It is spoken by a small minority."],
     "correct": 2,
     "feedback": "في الدائرة الخارجية (Outer Circle)، الإنجليزية لها تاريخ استعماري وتطورت فيها لهجات محلية معتمدة."
   },
   {
     "id": 14,
-    "question": "The numbers in Kachru's model are outdated because English:",
+    "q": "The numbers in Kachru's model are outdated because English:",
     "options": ["A) is no longer a popular language.", "B) is no longer spreading to new countries.", "C) is being spoken by more people than before.", "D) is becoming less important in the world."],
     "correct": 2,
     "feedback": "نموذج كاشرو قديم لأن استخدام الإنجليزية توسع عالمياً بشكل أكبر بكثير من وقت وضع النموذج."
   },
   {
     "id": 15,
-    "question": "Which of the following countries is included in Kachru's \"expanding circle\"?",
+    "q": "Which of the following countries is included in Kachru's \"expanding circle\"?",
     "options": ["A) Canada", "B) India", "C) China", "D) Australia"],
     "correct": 2,
     "feedback": "الدائرة المتوسعة (Expanding Circle) تشمل الدول التي تدرس الإنجليزية كلغة أجنبية (مثل الصين)."
   },
   {
     "id": 16,
-    "question": "The main purpose of teaching General English is to:",
+    "q": "The main purpose of teaching General English is to:",
     "options": ["A) prepare students for specific careers", "B) teach students about different cultures", "C) improve students' language skills", "D) help students learn about specific subjects"],
     "correct": 2,
     "feedback": "الإنجليزية العامة تهدف إلى تحسين المهارات اللغوية (القراءة، الكتابة، الاستماع، التحدث) بشكل شامل."
   },
   {
     "id": 17,
-    "question": "What is the typical structure of a General English syllabus?",
+    "q": "What is the typical structure of a General English syllabus?",
     "options": ["A) Based on content and subject matter", "B) Based on grammar, vocabulary, and language skills", "C) Based on real-life situations and scenarios", "D) Based on the students' individual needs"],
     "correct": 1,
     "feedback": "معظم مناهج الإنجليزية العامة تبنى حول المكونات الهيكلية للغة (القواعد والمفردات)."
   },
   {
     "id": 18,
-    "question": "Why may EFL students not need to know how to fill in a US tax form?",
+    "q": "Why may EFL students not need to know how to fill in a US tax form?",
     "options": ["A) Because they are not living in the US", "B) Because they are not interested in taxes", "C) Because they have help from a specialist", "D) Because they need to learn grammar"],
     "correct": 0,
     "feedback": "التعلم يجب أن يكون مناسباً للسياق (Contextualized)، ومن غير المنطقي تعليم مهارة لا يحتاجها الطالب في حياته الواقعية."
   },
   {
     "id": 19,
-    "question": "An example of an ESL learner is someone who:",
+    "q": "An example of an ESL learner is someone who:",
     "options": ["A) lives in his/her country", "B) travels from one country to another", "C) is an immigrant in an English speaking country", "D) focuses on business English only"],
     "correct": 2,
     "feedback": "متعلم ESL (English as a Second Language) عادة ما يعيش في بيئة ناطقة بالإنجليزية."
   },
   {
     "id": 20,
-    "question": "What does Braj Kachru's \"three circles\" model categorize?",
+    "q": "What does Braj Kachru's \"three circles\" model categorize?",
     "options": ["A) Types of English literature", "B) Varieties of English speakers worldwide", "C) Dialects within the UK", "D) English grammar rules"],
     "correct": 1,
     "feedback": "نموذج كاشرو يصنف الإنجليزية عالمياً إلى ثلاث دوائر (Inner, Outer, Expanding)."
   },
   {
     "id": 21,
-    "question": "Which of the following is NOT true for the Grammar Translation method?",
+    "q": "Which of the following is NOT true for the Grammar Translation method?",
     "options": ["A) Classes are taught in students' mother tongue", "B) Little or no attention is given to pronunciation", "C) Vocabulary is taught in the form of lists of isolated words", "D) The native language should not be used in the classroom."],
     "correct": 3,
     "feedback": "طريقة القواعد والترجمة تعتمد بشكل كبير على اللغة الأم، لذا فالخيار D هو العبارة الخاطئة."
   },
   {
     "id": 22,
-    "question": "CLT places a stronger emphasis on which of the following?",
+    "q": "CLT places a stronger emphasis on which of the following?",
     "options": ["A) Written over spoken language", "B) Form over meaning", "C) Translation accuracy", "D) Meaning over form"],
     "correct": 3,
     "feedback": "المنهج التواصلي (CLT) يعطي الأولوية لنجاح عملية التواصل (المعنى) على الدقة اللغوية الصارمة (الشكل)."
   },
   {
     "id": 23,
-    "question": "The Teacher introduces grammatical structures and rules by showing a video. The students practice the grammar in context. The Teacher gives lots of meaningful examples to demonstrate the grammar. This is a/an:",
+    "q": "The Teacher introduces grammatical structures and rules by showing a video. The students practice the grammar in context. The Teacher gives lots of meaningful examples to demonstrate the grammar. This is a/an:",
     "options": ["A) Inductive method", "B) deductive method", "C) reductive method", "D) All of the above"],
     "correct": 0,
     "feedback": "الطريقة الاستقرائية (Inductive) تبدأ بالأمثلة ثم يستنتج الطالب القاعدة."
   },
   {
     "id": 24,
-    "question": "Students listen to a dialogue between a taxi driver and passenger. They fill in gaps and then practice a dialogue with a partner. Tomorrow they will go outside and practice asking for directions. This is:",
+    "q": "Students listen to a dialogue between a taxi driver and passenger. They fill in gaps and then practice a dialogue with a partner. Tomorrow they will go outside and practice asking for directions. This is:",
     "options": ["A) CLT", "B) Oral Approach", "C) Audio Lingual", "D) Suggestopedia"],
     "correct": 2,
     "feedback": "تكرار الحوارات وتعبئة الفراغات هو من صميم الطريقة السمعية الشفهية (Audio Lingual)."
   },
   {
     "id": 25,
-    "question": "What is a key goal of ESP course design?",
+    "q": "What is a key goal of ESP course design?",
     "options": ["A) Avoid exams", "B) Promote native accents", "C) Link language with real-world tasks", "D) Teach only idiomatic phrases"],
     "correct": 2,
     "feedback": "الإنجليزية لأغراض خاصة (ESP) تركز على المهارات العملية والمهام المرتبطة باحتياجات الطالب المهنية."
   },
   {
     "id": 26,
-    "question": "Providing \"comprehensible input\" means:",
+    "q": "Providing \"comprehensible input\" means:",
     "options": ["A) Students always copy teacher talk", "B) Giving complex grammar lectures", "C) Speaking English students can understand", "D) Avoiding repetition"],
     "correct": 2,
     "feedback": "المدخلات المفهومة تعني التحدث بلغة تناسب مستوى الطالب لضمان الفهم والتعلم."
   },
   {
     "id": 27,
-    "question": "A tutor role is best seen when the teacher:",
+    "q": "A tutor role is best seen when the teacher:",
     "options": ["A) Gives a lecture", "B) Works one-on-one with a student", "C) Collects papers silently", "D) Explains grammar to the entire class"],
     "correct": 1,
     "feedback": "دور المعلم كموجه (Tutor) يبرز بوضوح عند العمل الفردي مع طالب لمساعدته."
   },
   {
     "id": 28,
-    "question": "The thumb pointing backward over the shoulder generally indicates:",
-    "options": ["A) Future", "B) Questioning", "C) Present", "D) Past"],
+    "q": "The thumb pointing backward over the shoulder generally indicates:",
+    "options": ["A) Future", "B) qing", "C) Present", "D) Past"],
     "correct": 3,
     "feedback": "إيماءة الإبهام للخلف تُستخدم عالمياً للإشارة إلى الماضي."
   },
   {
     "id": 29,
-    "question": "What does CEFR stand for?",
+    "q": "What does CEFR stand for?",
     "options": ["A) Common English Framework for Reference", "B) Comprehensive European Framework of Resources", "C) Common European Framework of Reference", "D) Common Educational Framework for Reading"],
     "correct": 2,
     "feedback": "هذا هو المصطلح القياسي للإطار المرجعي الأوروبي المشترك لتعلم اللغات."
   },
   {
     "id": 30,
-    "question": "In a communicative language classroom, what is the most important factor for success?",
+    "q": "In a communicative language classroom, what is the most important factor for success?",
     "options": ["A) Focus on grammar accuracy", "B) A strong emphasis on translation exercises", "C) Encouraging student interaction and communication", "D) Giving students as much teacher-led instruction as possible"],
     "correct": 2,
     "feedback": "الهدف الأساسي للمنهج التواصلي هو زيادة وقت تحدث الطلاب والتفاعل بينهم."
   },
   {
     "id": 31,
-    "question": "Transparency in a test means that the test should:",
+    "q": "Transparency in a test means that the test should:",
     "options": ["A) be easy to understand.", "B) be accessible to anyone concerned with it.", "C) have consistent results.", "D) be designed to measure specific skills or abilities."],
     "correct": 0,
     "feedback": "الشفافية تعني أن الاختبار يجب أن يكون واضحاً ومفهوماً للأطراف المعنية."
   },
   {
     "id": 32,
-    "question": "Reliability can be enhanced by:",
+    "q": "Reliability can be enhanced by:",
     "options": ["A) making the test instructions clear", "B) making the test accessible", "C) making the instructions vague", "D) none is correct"],
     "correct": 0,
     "feedback": "الموثوقية (Reliability) تعني اتساق النتائج، والوضوح في التعليمات يقلل من تشتت الطلاب."
   },
   {
     "id": 33,
-    "question": "A test that measures the intended skills or abilities is said to have:",
+    "q": "A test that measures the intended skills or abilities is said to have:",
     "options": ["A) transparency", "B) validity", "C) reliability", "D) honesty"],
     "correct": 1,
     "feedback": "الصلاحية (Validity) هي قياس الاختبار لما وُضع لقياسه بالفعل."
   },
   {
     "id": 34,
-    "question": "If a test of writing ability in English requires specialized knowledge of history or biology, which type of validity is lacking?",
+    "q": "If a test of writing ability in English requires specialized knowledge of history or biology, which type of validity is lacking?",
     "options": ["A) Construct validity", "B) Content validity", "C) Criterion validity", "D) Face validity"],
     "correct": 1,
     "feedback": "تفتقر إلى صلاحية المحتوى لأنها تقيس معلومات خارجية بدلاً من مهارة الكتابة المطلوبة."
   },
   {
     "id": 35,
-    "question": "The purpose of placement test is to:",
+    "q": "The purpose of placement test is to:",
     "options": ["A) measure progress and achievement", "B) determine which class a student should be in", "C) evaluate a student's language skills", "D) to assess a student's reading and listening ability"],
     "correct": 1,
     "feedback": "اختبار تحديد المستوى هدفه وضع الطالب في الصف المناسب لقدراته الحالية."
   },
   {
     "id": 36,
-    "question": "Progress tests are known to have:",
+    "q": "Progress tests are known to have:",
     "options": ["A) summative", "B) respective", "C) useless", "D) formative"],
     "correct": 3,
     "feedback": "اختبارات التقدم لها غرض تكويني (Formative) لتوجيه المعلم والطلاب خلال الدورة."
   },
   {
     "id": 37,
-    "question": "What type of test is given at the end of a course of study?",
+    "q": "What type of test is given at the end of a course of study?",
     "options": ["A) Placement test", "B) Progress test", "C) Achievement test", "D) Proficiency test"],
     "correct": 2,
     "feedback": "اختبار التحصيل (Achievement test) يقيس ما تعلمه الطلاب بنهاية الدورة الدراسية."
   },
   {
     "id": 38,
-    "question": "Portfolio assessment aims to:",
+    "q": "Portfolio assessment aims to:",
     "options": ["A) measure a student's progress over time", "B) evaluate a student's language skills", "C) determine which class a student should be in", "D) test students at the end of a course."],
     "correct": 0,
     "feedback": "تقييم الملف (Portfolio) يركز على تتبع تطور الطالب وتقدمه عبر فترة زمنية طويلة."
   },
   {
     "id": 39,
-    "question": "Portfolio assessment has some disadvantages, including:",
+    "q": "Portfolio assessment has some disadvantages, including:",
     "options": ["A) It is time-consuming for students to build up their portfolios", "B) It forces teachers to favor some students over others.", "C) Teachers spend long hours of evaluation", "D) Both A & C"],
     "correct": 3,
     "feedback": "من عيوب الملف أنه يتطلب مجهوداً كبيراً من الطالب ووقت تقييم طويل من المعلم."
   },
   {
     "id": 40,
-    "question": "What is the role of the teacher when taking the roll/register or giving students information?",
+    "q": "What is the role of the teacher when taking the roll/register or giving students information?",
     "options": ["A) Monitor and evidence gatherer", "B) Controller", "C) Prompter and editor", "D) Resource and tutor"],
     "correct": 1,
     "feedback": "في المهام الإدارية البحتة، يقوم المعلم بدور المسيطر (Controller) لإدارة وقت الفصل."
@@ -400,7 +400,7 @@
     "feedback": "استخدام الترجمة وربط المفردات باللغة الأم هو سمة أساسية لطريقة القواعد والترجمة (Grammar Translation)[cite: 1]."
   },
   {
-    "q": "20. Students work in groups to make five questions about vocabulary from the previous unit. Then, they exchange questions with another group and try to answer the questions.",
+    "q": "20. Students work in groups to make five qs about vocabulary from the previous unit. Then, they exchange qs with another group and try to answer the qs.",
     "options": ["A) GT", "B) TPR", "C) Audio lingual", "D) Communicative Language Teaching"],
     "correct": 3,
     "feedback": "العمل في مجموعات للقيام بمهام لغوية وتبادل المعلومات هو جزء من المنهج التواصلي (CLT)[cite: 1]."
@@ -589,273 +589,273 @@
 ,
   {
     "id": 1,
-    "question": "The main challenge for English teachers today is:",
+    "q": "The main challenge for English teachers today is:",
     "options": ["A. Limiting grammar instruction", "B. Adapting to a fixed version of English", "C. Deciding what kind of English to teach and how", "D. Avoiding regional vocabulary"],
     "answer": "C. Deciding what kind of English to teach and how",
     "feedback": "يتطلب التدريس المعاصر وعياً بالتنوع اللغوي واختيار المنهجية التي تناسب احتياجات الطلاب وسياقهم الثقافي."
   },
   {
     "id": 2,
-    "question": "The 'inner circle' includes countries where English is:",
+    "q": "The 'inner circle' includes countries where English is:",
     "options": ["A. A minor second language", "B. A historical memory", "C. The national language and mother tongue", "D. A forbidden colonial relic"],
     "answer": "C. The national language and mother tongue",
     "feedback": "نموذج كاشرو يصنف الدول التي تعتبر الإنجليزية لغتها الأم (مثل أمريكا وبريطانيا) كدائرة داخلية (Inner Circle)."
   },
   {
     "id": 3,
-    "question": "According to Kachru, India and Singapore belong to the:",
+    "q": "According to Kachru, India and Singapore belong to the:",
     "options": ["A. Outer circle", "B. Middle circle", "C. Inner circle", "D. Expanding circle"],
     "answer": "A. Outer circle",
     "feedback": "تُصنف الدول التي تستخدم الإنجليزية كلغة ثانية رسمية (غالباً بسبب الإرث الاستعماري) ضمن الدائرة الخارجية (Outer Circle)."
   },
   {
     "id": 4,
-    "question": "Countries like Sweden, China, and Turkey are in the:",
+    "q": "Countries like Sweden, China, and Turkey are in the:",
     "options": ["A. Inner circle", "B. Outer circle", "C. Emerging circle", "D. Expanding circle"],
     "answer": "D. Expanding circle",
     "feedback": "الدول التي تُدرس الإنجليزية فيها كلغة أجنبية دون وضع رسمي للغة في المجتمع تُصنف ضمن الدائرة المتوسعة (Expanding Circle)."
   },
   {
     "id": 5,
-    "question": "One of the major characteristics of English today is that:",
+    "q": "One of the major characteristics of English today is that:",
     "options": ["A. Most speakers are native", "B. It is no longer evolving", "C. It is used mostly in England", "D. Most users are non-native speakers"],
     "answer": "D. Most users are non-native speakers",
     "feedback": "الحقيقة الحالية هي أن المتحدثين بالإنجليزية كلغة ثانية أو أجنبية يفوقون عدد المتحدثين بها كلغة أم."
   },
   {
     "id": 6,
-    "question": "The term English as a lingua franca (ELF) refers to:",
+    "q": "The term English as a lingua franca (ELF) refers to:",
     "options": ["A. English spoken only in England", "B. English used for tourism only", "C. The American standard for business", "D. A shared communication language among non-native speakers"],
     "answer": "D. A shared communication language among non-native speakers",
     "feedback": "اللغة الإنجليزية كلغة تواصل مشترك (ELF) تعمل كجسر للتواصل بين أشخاص من لغات أم مختلفة."
   },
   {
     "id": 7,
-    "question": "ESL refers to English learned:",
+    "q": "ESL refers to English learned:",
     "options": ["A. As a third language", "B. In a non-English speaking country", "C. In an English-speaking country", "D. Exclusively online"],
     "answer": "C. In an English-speaking country",
     "feedback": "مصطلح ESL (English as a Second Language) يُستخدم عندما يتعلم المتعلم الإنجليزية في بيئة تتحدث الإنجليزية أصلاً."
   },
   {
     "id": 8,
-    "question": "General English teaching typically focuses on:",
+    "q": "General English teaching typically focuses on:",
     "options": ["A. Business terms", "B. Academic research", "C. Grammar and vocabulary", "D. Cultural immersion only"],
     "answer": "C. Grammar and vocabulary",
     "feedback": "يركز تعليم الإنجليزية العامة على الأساسيات اللغوية والقواعد والمفردات لبناء الكفاءة العامة."
   },
   {
     "id": 9,
-    "question": "ESP stands for:",
+    "q": "ESP stands for:",
     "options": ["A. English Spoken Professionally", "B. English for Specific Purposes", "C. English for Special Practice", "D. English Studies Program"],
     "answer": "B. English for Specific Purposes",
     "feedback": "اختصار ESP يعني الإنجليزية لأغراض محددة (مثل الطب أو الطيران)."
   },
   {
     "id": 10,
-    "question": "Needs analysis helps:",
+    "q": "Needs analysis helps:",
     "options": ["A. Identify learners' goals", "B. Choose a course for beginners", "C. Translate literature", "D. Avoid grammar practice"],
     "answer": "A. Identify learners' goals",
     "feedback": "تحليل الاحتياجات هو الخطوة الأولى لتصميم مناهج ESP لضمان ملاءمتها لهدف المتعلم."
   },
   {
     "id": 11,
-    "question": "Aviation English is an example of:",
+    "q": "Aviation English is an example of:",
     "options": ["A. General English", "B. Literary English", "C. ESP", "D. Internet slang"],
     "answer": "C. ESP",
     "feedback": "إنجلزية الطيران هي نوع متخصص جداً (ESP) مصمم لاستخدامات مهنية محددة."
   },
   {
     "id": 12,
-    "question": "What is a key goal of ESP course design?",
+    "q": "What is a key goal of ESP course design?",
     "options": ["A. Avoid exams", "B. Promote native accents", "C. Link language with real-world tasks", "D. Teach only idiomatic phrases"],
     "answer": "C. Link language with real-world tasks",
     "feedback": "الهدف الأساسي لـ ESP هو الربط المباشر بين المهارات اللغوية والمهام العملية في حياة الطالب المهنية."
   },
   {
     "id": 13,
-    "question": "Students in business English classes may typically study:",
+    "q": "Students in business English classes may typically study:",
     "options": ["A. Shakespearean drama", "B. Writing emails", "C. Grammar accuracy", "D. Academic language"],
     "answer": "B. Writing emails",
     "feedback": "تعتبر مراسلات البريد الإلكتروني مهارة عملية وأساسية في دورات الإنجليزية للأعمال."
   },
   {
     "id": 14,
-    "question": "The metaphor 'sage on the stage' refers to:",
+    "q": "The metaphor 'sage on the stage' refers to:",
     "options": ["A. An active learning environment", "B. Students learn through tasks", "C. The teacher as an expert person", "D. The teacher standing on the side"],
     "answer": "C. The teacher as an expert person",
     "feedback": "تصف هذه الاستعارة دور المعلم التقليدي الذي يلقي المعلومات كخبير أو مصدر وحيد للمعرفة."
   },
   {
     "id": 15,
-    "question": "The idea of teachers being a 'guide on the side' suggests they should:",
+    "q": "The idea of teachers being a 'guide on the side' suggests they should:",
     "options": ["A. Facilitate rather than giving instructions", "B. Let students self-correct everything", "C. Be strict and authoritative", "D. Only observe silently"],
     "answer": "A. Facilitate rather than giving instructions",
     "feedback": "هذا الدور يركز على تمكين الطلاب وتسهيل عملية التعلم بدلاً من التلقين المباشر."
   },
   {
     "id": 16,
-    "question": "When teachers offer encouragement to continue, they are acting as:",
+    "q": "When teachers offer encouragement to continue, they are acting as:",
     "options": ["A. Controllers", "B. Monitors", "C. Assessors", "D. Prompters"],
     "answer": "D. Prompters",
     "feedback": "دور الملقن (Prompter) هو تشجيع الطلاب ومساعدتهم على المضي قدماً دون إيقاف تدفق الكلام."
   },
   {
     "id": 17,
-    "question": "Providing 'comprehensible input' means:",
+    "q": "Providing 'comprehensible input' means:",
     "options": ["A. Students always copy teacher talk", "B. Giving complex grammar lectures", "C. Speaking English students can understand", "D. Avoiding repetition"],
     "answer": "C. Speaking English students can understand",
     "feedback": "حسب فرضية كراشن، التعلم يحدث عندما تكون المدخلات مفهومة (Comprehensible Input) ومناسبة لمستوى الطالب."
   },
   {
     "id": 18,
-    "question": "Modelling language means:",
+    "q": "Modelling language means:",
     "options": ["A. Changing the language to suit the best students", "B. Giving clear language examples for students to imitate", "C. Trying to use L1 in teaching L2", "D. Ignoring pronunciation mistakes"],
     "answer": "B. Giving clear language examples for students to imitate",
     "feedback": "النمذجة (Modelling) هي تقديم مثال واضح ودقيق للغة ليحاكيه الطلاب."
   },
   {
     "id": 19,
-    "question": "A tutor role is best seen when the teacher:",
+    "q": "A tutor role is best seen when the teacher:",
     "options": ["A. Gives a lecture", "B. Works one-on-one with a student", "C. Collects papers silently", "D. Explains grammar to the entire class"],
     "answer": "B. Works one-on-one with a student",
     "feedback": "المعلم يلعب دور المعلم الخصوصي أو الموجه (Tutor) عندما يقدم دعماً فردياً وموجهاً لطالب واحد."
   },
   {
     "id": 20,
-    "question": "Shrugging shoulders to show 'boredom' is an example of:",
+    "q": "Shrugging shoulders to show 'boredom' is an example of:",
     "options": ["A. Expression", "B. Gesture", "C. Mime", "D. Feedback"],
     "answer": "C. Mime",
     "feedback": "التمثيل الصامت (Mime) يتضمن استخدام حركات الجسم لتمثيل مشاعر أو أفعال لتعزيز الفهم."
   },
   {
     "id": 21,
-    "question": "The thumb pointing backward over the shoulder generally indicates:",
-    "options": ["A. Future", "B. Questioning", "C. Present", "D. Past"],
+    "q": "The thumb pointing backward over the shoulder generally indicates:",
+    "options": ["A. Future", "B. qing", "C. Present", "D. Past"],
     "answer": "D. Past",
     "feedback": "هذه إيماءة شائعة تشير إلى أن الحدث قد وقع بالفعل في الماضي."
   },
   {
     "id": 22,
-    "question": "What does rotating both arms typically signal in class?",
+    "q": "What does rotating both arms typically signal in class?",
     "options": ["A. Ending the class", "B. Start of group work", "C. Choral repetition", "D. Change of activity"],
     "answer": "B. Start of group work",
     "feedback": "الإشارات الجسدية (Non-verbal communication) تساعد في إدارة الفصل، وتدوير الذراعين غالباً ما يستخدم للإشارة إلى تقسيم الطلاب لمجموعات."
   },
   {
     "id": 23,
-    "question": "A progress test is mainly used to:",
+    "q": "A progress test is mainly used to:",
     "options": ["A. Rank students competitively", "B. Measure how students have progressed through a course", "C. Assess students at the end of a course", "D. Encourage students to proceed in the course"],
     "answer": "B. Measure how students have progressed through a course",
     "feedback": "اختبارات التقدم تهدف لقياس مدى تطور مستوى الطالب أثناء الدورة وليس في نهايتها فقط."
   },
   {
     "id": 24,
-    "question": "Proficiency tests are typically used for:",
+    "q": "Proficiency tests are typically used for:",
     "options": ["A. End-of-unit revision", "B. Getting a job", "C. Gaining certificates or university admission", "D. Both B&C"],
     "answer": "D. Both B&C",
     "feedback": "اختبارات الكفاءة (Proficiency) عامة وتهدف لقياس المستوى الكلي للغة لأغراض مهنية أو أكاديمية."
   },
   {
     "id": 25,
-    "question": "Why might teachers hesitate to use portfolio assessments?",
+    "q": "Why might teachers hesitate to use portfolio assessments?",
     "options": ["A. They are outdated", "B. They require specialized software", "C. They can be time-consuming", "D. They may not be accurate"],
     "answer": "C. They can be time-consuming",
     "feedback": "رغم فاعلية ملفات الإنجاز، إلا أن تقييمها يستغرق وقتاً وجهداً كبيراً من المعلم."
   },
   {
     "id": 26,
-    "question": "What does CEFR stand for?",
+    "q": "What does CEFR stand for?",
     "options": ["A. Common English Framework for Reference", "B. Comprehensive European Framework of Resources", "C. Common European Framework of Reference", "D. Common Educational Framework for Reading"],
     "answer": "C. Common European Framework of Reference",
     "feedback": "هو الإطار المرجعي الأوروبي المشترك للغات الذي يحدد مستويات الكفاءة اللغوية."
   },
   {
     "id": 27,
-    "question": "Many teachers of young learners reward students with stickers when the child behaves appropriately. This is an example of:",
+    "q": "Many teachers of young learners reward students with stickers when the child behaves appropriately. This is an example of:",
     "options": ["A. Drive", "B. Need", "C. Intrinsic incentive", "D. Extrinsic incentive"],
     "answer": "D. Extrinsic incentive",
     "feedback": "المكافآت الخارجية (مثل الملصقات) هي محفزات خارجية وليست نابعة من رغبة المتعلم الداخلية."
   },
   {
     "id": 28,
-    "question": "Any of a wide variety of exercises, activities, or devices used in the language classroom for realizing lesson objectives.",
+    "q": "Any of a wide variety of exercises, activities, or devices used in the language classroom for realizing lesson objectives.",
     "options": ["A. Approach", "B. Method", "C. Syllabus", "D. None of the above"],
     "answer": "D. None of the above",
     "feedback": "التعريف الصحيح هو (Technique). الخيارات المتاحة لا تشمل الإجابة الصحيحة."
   },
   {
     "id": 29,
-    "question": "Theoretical positions and beliefs about the nature of language, the nature of language learning, and the applicability of to pedagogical settings.",
+    "q": "Theoretical positions and beliefs about the nature of language, the nature of language learning, and the applicability of to pedagogical settings.",
     "options": ["A. Method", "B. Technique", "C. Approach", "D. None"],
     "answer": "C. Approach",
     "feedback": "المدخل (Approach) هو المستوى النظري الذي يحدد فلسفة المعلم تجاه اللغة وكيفية تعلمها."
   },
   {
     "id": 30,
-    "question": "How does kinesthetic learning differ from other teaching strategies?",
+    "q": "How does kinesthetic learning differ from other teaching strategies?",
     "options": ["A. It involves physical movement and activity", "B. It focuses solely on visual aids", "C. It relies heavily on lecture-based instruction", "D. It excludes opportunities for hands-on experiences"],
     "answer": "A. It involves physical movement and activity",
     "feedback": "التعلم الحركي (Kinesthetic) يعتمد على دمج الحركة والنشاط البدني في عملية التعلم."
   },
   {
     "id": 31,
-    "question": "Which of the following is not true for the Grammar Translation method?",
+    "q": "Which of the following is not true for the Grammar Translation method?",
     "options": ["A. Classes are taught in students' mother tongue", "B. Little or no attention is given to pronunciation", "C. Vocabulary is taught in the form of lists of isolated words", "D. The native language should not be used in the classroom"],
     "answer": "D. The native language should not be used in the classroom",
     "feedback": "طريقة القواعد والترجمة تعتمد بشكل أساسي على اللغة الأم، لذا فالخيار D هو 'غير الصحيح' (Not true)."
   },
   {
     "id": 32,
-    "question": "Which type of classroom activity is most aligned with CLT principles?",
+    "q": "Which type of classroom activity is most aligned with CLT principles?",
     "options": ["A. Audio-lingual drills", "B. Filling in blanks", "C. Role play", "D. Grammar-translation exercise"],
     "answer": "C. Role play",
     "feedback": "تمثيل الأدوار (Role play) يعزز التواصل الواقعي والتفاعل الهادف، وهو جوهر المنهج التواصلي (CLT)."
   },
   {
     "id": 33,
-    "question": "CLT places a stronger emphasis on which of the following?",
+    "q": "CLT places a stronger emphasis on which of the following?",
     "options": ["A. Written over spoken language", "B. Form over meaning", "C. Meaning over form", "D. Translation accuracy"],
     "answer": "C. Meaning over form",
     "feedback": "في CLT، الهدف هو إيصال المعنى بفعالية، حتى لو وقع الطالب في بعض الأخطاء الشكلية أو القواعدية."
   },
   {
     "id": 34,
-    "question": "CLT typically uses which of the following as central to learning?",
+    "q": "CLT typically uses which of the following as central to learning?",
     "options": ["A. Authentic material", "B. Elaborated definitions", "C. Simplified dialogues", "D. All of the above"],
     "answer": "D. All of the above",
     "feedback": "المنهج التواصلي يستخدم تنوعاً في المواد لتشجيع الطلاب على استخدام اللغة في سياقات متنوعة."
   },
   {
     "id": 35,
-    "question": "Which lesson framework is most consistent with CLT?",
+    "q": "Which lesson framework is most consistent with CLT?",
     "options": ["A. Grammar-Translation", "B. Task-Based Learning", "C. Direct Method", "D. Total Physical Response"],
     "answer": "B. Task-Based Learning",
     "feedback": "التعلم القائم على المهام (TBL) هو تطبيق عملي لمبادئ المنهج التواصلي (CLT)."
   },
   {
     "id": 36,
-    "question": "A critique often directed at CLT is that it:",
+    "q": "A critique often directed at CLT is that it:",
     "options": ["A. May neglect accuracy for fluency", "B. Relies on speaking", "C. Ignores the writing skill", "D. Overemphasizes grammar rules"],
     "answer": "A. May neglect accuracy for fluency",
     "feedback": "أحد الانتقادات الشائعة هو أن التركيز المكثف على التواصل قد يؤدي إلى إهمال الدقة اللغوية (القواعد)."
   },
   {
     "id": 37,
-    "question": "The Teacher introduces grammatical structures and rules by showing a video. The students practice the grammar in context. The Teacher gives lots of meaningful examples to demonstrate the grammar. This is a/an:",
+    "q": "The Teacher introduces grammatical structures and rules by showing a video. The students practice the grammar in context. The Teacher gives lots of meaningful examples to demonstrate the grammar. This is a/an:",
     "options": ["A. Inductive method", "B. Deductive method", "C. CLT", "D. All of the above"],
     "answer": "B. Deductive method",
     "feedback": "طريقة الاستنتاج (Deductive) تبدأ بتقديم القاعدة ثم الانتقال للتطبيق."
   },
   {
     "id": 38,
-    "question": "The students learn patterns of language by repeating model sentences that the teacher provides. They memorize set phrases and receive positive reinforcement from their teacher when they perform drills correctly. This is:",
+    "q": "The students learn patterns of language by repeating model sentences that the teacher provides. They memorize set phrases and receive positive reinforcement from their teacher when they perform drills correctly. This is:",
     "options": ["A. Total Physical Response", "B. Audio lingual method", "C. CLT", "D. GT"],
     "answer": "B. Audio lingual method",
     "feedback": "هذه الطريقة السمعية الشفوية تعتمد كلياً على التكرار والحفظ والتعزيز الإيجابي."
   },
   {
     "id": 39,
-    "question": "Students listen to a dialogue between a taxi driver and passenger. They fill in gaps and then practice a dialogue with a partner. Tomorrow they will go outside and practice asking for directions. This is:",
+    "q": "Students listen to a dialogue between a taxi driver and passenger. They fill in gaps and then practice a dialogue with a partner. Tomorrow they will go outside and practice asking for directions. This is:",
     "options": ["A. CLT", "B. Oral Approach"],
     "answer": "B. Oral Approach",
     "feedback": "التركيز على الحوارات الواقعية والتدريبات الشفوية في سياق محدد يتماشى مع المنهج الشفهي (Oral Approach)."
@@ -1268,7 +1268,7 @@
     "feedback": "التفاعل مع الزملاء لجمع معلومات حقيقية يجسد مبادئ التدريس التواصلي (CLT)."
   },
   {
-    "q": "Students work in groups to make five questions about vocabulary from the previous unit. Then, they exchange questions with another group and try to answer the questions.",
+    "q": "Students work in groups to make five qs about vocabulary from the previous unit. Then, they exchange qs with another group and try to answer the qs.",
     "options": [
       "GT",
       "TPR",
@@ -2159,7 +2159,7 @@
     "q": "The hand motion pointing backward over the shoulder indicates",
     "options": [
       "Future",
-      "Questioning",
+      "qing",
       "Present",
       "Past"
     ],
