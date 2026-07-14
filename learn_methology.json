@@ -591,273 +591,273 @@
     "id": 1,
     "q": "The main challenge for English teachers today is:",
     "options": ["A. Limiting grammar instruction", "B. Adapting to a fixed version of English", "C. Deciding what kind of English to teach and how", "D. Avoiding regional vocabulary"],
-    "answer": "C. Deciding what kind of English to teach and how",
+    "correct": 2,
     "feedback": "يتطلب التدريس المعاصر وعياً بالتنوع اللغوي واختيار المنهجية التي تناسب احتياجات الطلاب وسياقهم الثقافي."
   },
   {
     "id": 2,
     "q": "The 'inner circle' includes countries where English is:",
     "options": ["A. A minor second language", "B. A historical memory", "C. The national language and mother tongue", "D. A forbidden colonial relic"],
-    "answer": "C. The national language and mother tongue",
+    "correct": 2,
     "feedback": "نموذج كاشرو يصنف الدول التي تعتبر الإنجليزية لغتها الأم (مثل أمريكا وبريطانيا) كدائرة داخلية (Inner Circle)."
   },
   {
     "id": 3,
     "q": "According to Kachru, India and Singapore belong to the:",
     "options": ["A. Outer circle", "B. Middle circle", "C. Inner circle", "D. Expanding circle"],
-    "answer": "A. Outer circle",
+    "correct": 0,
     "feedback": "تُصنف الدول التي تستخدم الإنجليزية كلغة ثانية رسمية (غالباً بسبب الإرث الاستعماري) ضمن الدائرة الخارجية (Outer Circle)."
   },
   {
     "id": 4,
     "q": "Countries like Sweden, China, and Turkey are in the:",
     "options": ["A. Inner circle", "B. Outer circle", "C. Emerging circle", "D. Expanding circle"],
-    "answer": "D. Expanding circle",
+    "correct": 3,
     "feedback": "الدول التي تُدرس الإنجليزية فيها كلغة أجنبية دون وضع رسمي للغة في المجتمع تُصنف ضمن الدائرة المتوسعة (Expanding Circle)."
   },
   {
     "id": 5,
     "q": "One of the major characteristics of English today is that:",
     "options": ["A. Most speakers are native", "B. It is no longer evolving", "C. It is used mostly in England", "D. Most users are non-native speakers"],
-    "answer": "D. Most users are non-native speakers",
+    "correct": 3,
     "feedback": "الحقيقة الحالية هي أن المتحدثين بالإنجليزية كلغة ثانية أو أجنبية يفوقون عدد المتحدثين بها كلغة أم."
   },
   {
     "id": 6,
     "q": "The term English as a lingua franca (ELF) refers to:",
     "options": ["A. English spoken only in England", "B. English used for tourism only", "C. The American standard for business", "D. A shared communication language among non-native speakers"],
-    "answer": "D. A shared communication language among non-native speakers",
+    "correct": 3,
     "feedback": "اللغة الإنجليزية كلغة تواصل مشترك (ELF) تعمل كجسر للتواصل بين أشخاص من لغات أم مختلفة."
   },
   {
     "id": 7,
     "q": "ESL refers to English learned:",
     "options": ["A. As a third language", "B. In a non-English speaking country", "C. In an English-speaking country", "D. Exclusively online"],
-    "answer": "C. In an English-speaking country",
+    "correct": 2,
     "feedback": "مصطلح ESL (English as a Second Language) يُستخدم عندما يتعلم المتعلم الإنجليزية في بيئة تتحدث الإنجليزية أصلاً."
   },
   {
     "id": 8,
     "q": "General English teaching typically focuses on:",
     "options": ["A. Business terms", "B. Academic research", "C. Grammar and vocabulary", "D. Cultural immersion only"],
-    "answer": "C. Grammar and vocabulary",
+    "correct": 2,
     "feedback": "يركز تعليم الإنجليزية العامة على الأساسيات اللغوية والقواعد والمفردات لبناء الكفاءة العامة."
   },
   {
     "id": 9,
     "q": "ESP stands for:",
     "options": ["A. English Spoken Professionally", "B. English for Specific Purposes", "C. English for Special Practice", "D. English Studies Program"],
-    "answer": "B. English for Specific Purposes",
+    "correct": 1,
     "feedback": "اختصار ESP يعني الإنجليزية لأغراض محددة (مثل الطب أو الطيران)."
   },
   {
     "id": 10,
     "q": "Needs analysis helps:",
     "options": ["A. Identify learners' goals", "B. Choose a course for beginners", "C. Translate literature", "D. Avoid grammar practice"],
-    "answer": "A. Identify learners' goals",
+    "correct": 0,
     "feedback": "تحليل الاحتياجات هو الخطوة الأولى لتصميم مناهج ESP لضمان ملاءمتها لهدف المتعلم."
   },
   {
     "id": 11,
     "q": "Aviation English is an example of:",
     "options": ["A. General English", "B. Literary English", "C. ESP", "D. Internet slang"],
-    "answer": "C. ESP",
+    "correct": 2,
     "feedback": "إنجلزية الطيران هي نوع متخصص جداً (ESP) مصمم لاستخدامات مهنية محددة."
   },
   {
     "id": 12,
     "q": "What is a key goal of ESP course design?",
     "options": ["A. Avoid exams", "B. Promote native accents", "C. Link language with real-world tasks", "D. Teach only idiomatic phrases"],
-    "answer": "C. Link language with real-world tasks",
+    "correct": 2,
     "feedback": "الهدف الأساسي لـ ESP هو الربط المباشر بين المهارات اللغوية والمهام العملية في حياة الطالب المهنية."
   },
   {
     "id": 13,
     "q": "Students in business English classes may typically study:",
     "options": ["A. Shakespearean drama", "B. Writing emails", "C. Grammar accuracy", "D. Academic language"],
-    "answer": "B. Writing emails",
+    "correct": 1,
     "feedback": "تعتبر مراسلات البريد الإلكتروني مهارة عملية وأساسية في دورات الإنجليزية للأعمال."
   },
   {
     "id": 14,
     "q": "The metaphor 'sage on the stage' refers to:",
     "options": ["A. An active learning environment", "B. Students learn through tasks", "C. The teacher as an expert person", "D. The teacher standing on the side"],
-    "answer": "C. The teacher as an expert person",
+    "correct": 2,
     "feedback": "تصف هذه الاستعارة دور المعلم التقليدي الذي يلقي المعلومات كخبير أو مصدر وحيد للمعرفة."
   },
   {
     "id": 15,
     "q": "The idea of teachers being a 'guide on the side' suggests they should:",
     "options": ["A. Facilitate rather than giving instructions", "B. Let students self-correct everything", "C. Be strict and authoritative", "D. Only observe silently"],
-    "answer": "A. Facilitate rather than giving instructions",
+    "correct": 0,
     "feedback": "هذا الدور يركز على تمكين الطلاب وتسهيل عملية التعلم بدلاً من التلقين المباشر."
   },
   {
     "id": 16,
     "q": "When teachers offer encouragement to continue, they are acting as:",
     "options": ["A. Controllers", "B. Monitors", "C. Assessors", "D. Prompters"],
-    "answer": "D. Prompters",
+    "correct": 3,
     "feedback": "دور الملقن (Prompter) هو تشجيع الطلاب ومساعدتهم على المضي قدماً دون إيقاف تدفق الكلام."
   },
   {
     "id": 17,
     "q": "Providing 'comprehensible input' means:",
     "options": ["A. Students always copy teacher talk", "B. Giving complex grammar lectures", "C. Speaking English students can understand", "D. Avoiding repetition"],
-    "answer": "C. Speaking English students can understand",
+    "correct": 2,
     "feedback": "حسب فرضية كراشن، التعلم يحدث عندما تكون المدخلات مفهومة (Comprehensible Input) ومناسبة لمستوى الطالب."
   },
   {
     "id": 18,
     "q": "Modelling language means:",
     "options": ["A. Changing the language to suit the best students", "B. Giving clear language examples for students to imitate", "C. Trying to use L1 in teaching L2", "D. Ignoring pronunciation mistakes"],
-    "answer": "B. Giving clear language examples for students to imitate",
+    "correct": 1,
     "feedback": "النمذجة (Modelling) هي تقديم مثال واضح ودقيق للغة ليحاكيه الطلاب."
   },
   {
     "id": 19,
     "q": "A tutor role is best seen when the teacher:",
     "options": ["A. Gives a lecture", "B. Works one-on-one with a student", "C. Collects papers silently", "D. Explains grammar to the entire class"],
-    "answer": "B. Works one-on-one with a student",
+    "correct": 1,
     "feedback": "المعلم يلعب دور المعلم الخصوصي أو الموجه (Tutor) عندما يقدم دعماً فردياً وموجهاً لطالب واحد."
   },
   {
     "id": 20,
     "q": "Shrugging shoulders to show 'boredom' is an example of:",
     "options": ["A. Expression", "B. Gesture", "C. Mime", "D. Feedback"],
-    "answer": "C. Mime",
+    "correct": 2,
     "feedback": "التمثيل الصامت (Mime) يتضمن استخدام حركات الجسم لتمثيل مشاعر أو أفعال لتعزيز الفهم."
   },
   {
     "id": 21,
     "q": "The thumb pointing backward over the shoulder generally indicates:",
     "options": ["A. Future", "B. qing", "C. Present", "D. Past"],
-    "answer": "D. Past",
+    "correct": 3,
     "feedback": "هذه إيماءة شائعة تشير إلى أن الحدث قد وقع بالفعل في الماضي."
   },
   {
     "id": 22,
     "q": "What does rotating both arms typically signal in class?",
     "options": ["A. Ending the class", "B. Start of group work", "C. Choral repetition", "D. Change of activity"],
-    "answer": "B. Start of group work",
+    "correct": 1,
     "feedback": "الإشارات الجسدية (Non-verbal communication) تساعد في إدارة الفصل، وتدوير الذراعين غالباً ما يستخدم للإشارة إلى تقسيم الطلاب لمجموعات."
   },
   {
     "id": 23,
     "q": "A progress test is mainly used to:",
     "options": ["A. Rank students competitively", "B. Measure how students have progressed through a course", "C. Assess students at the end of a course", "D. Encourage students to proceed in the course"],
-    "answer": "B. Measure how students have progressed through a course",
+    "correct": 1,
     "feedback": "اختبارات التقدم تهدف لقياس مدى تطور مستوى الطالب أثناء الدورة وليس في نهايتها فقط."
   },
   {
     "id": 24,
     "q": "Proficiency tests are typically used for:",
     "options": ["A. End-of-unit revision", "B. Getting a job", "C. Gaining certificates or university admission", "D. Both B&C"],
-    "answer": "D. Both B&C",
+    "correct": 3,
     "feedback": "اختبارات الكفاءة (Proficiency) عامة وتهدف لقياس المستوى الكلي للغة لأغراض مهنية أو أكاديمية."
   },
   {
     "id": 25,
     "q": "Why might teachers hesitate to use portfolio assessments?",
     "options": ["A. They are outdated", "B. They require specialized software", "C. They can be time-consuming", "D. They may not be accurate"],
-    "answer": "C. They can be time-consuming",
+    "correct": 2,
     "feedback": "رغم فاعلية ملفات الإنجاز، إلا أن تقييمها يستغرق وقتاً وجهداً كبيراً من المعلم."
   },
   {
     "id": 26,
     "q": "What does CEFR stand for?",
     "options": ["A. Common English Framework for Reference", "B. Comprehensive European Framework of Resources", "C. Common European Framework of Reference", "D. Common Educational Framework for Reading"],
-    "answer": "C. Common European Framework of Reference",
+    "correct": 2,
     "feedback": "هو الإطار المرجعي الأوروبي المشترك للغات الذي يحدد مستويات الكفاءة اللغوية."
   },
   {
     "id": 27,
     "q": "Many teachers of young learners reward students with stickers when the child behaves appropriately. This is an example of:",
     "options": ["A. Drive", "B. Need", "C. Intrinsic incentive", "D. Extrinsic incentive"],
-    "answer": "D. Extrinsic incentive",
+    "correct": 3,
     "feedback": "المكافآت الخارجية (مثل الملصقات) هي محفزات خارجية وليست نابعة من رغبة المتعلم الداخلية."
   },
   {
     "id": 28,
     "q": "Any of a wide variety of exercises, activities, or devices used in the language classroom for realizing lesson objectives.",
     "options": ["A. Approach", "B. Method", "C. Syllabus", "D. None of the above"],
-    "answer": "D. None of the above",
+    "correct": 3,
     "feedback": "التعريف الصحيح هو (Technique). الخيارات المتاحة لا تشمل الإجابة الصحيحة."
   },
   {
     "id": 29,
     "q": "Theoretical positions and beliefs about the nature of language, the nature of language learning, and the applicability of to pedagogical settings.",
     "options": ["A. Method", "B. Technique", "C. Approach", "D. None"],
-    "answer": "C. Approach",
+    "correct": 2,
     "feedback": "المدخل (Approach) هو المستوى النظري الذي يحدد فلسفة المعلم تجاه اللغة وكيفية تعلمها."
   },
   {
     "id": 30,
     "q": "How does kinesthetic learning differ from other teaching strategies?",
     "options": ["A. It involves physical movement and activity", "B. It focuses solely on visual aids", "C. It relies heavily on lecture-based instruction", "D. It excludes opportunities for hands-on experiences"],
-    "answer": "A. It involves physical movement and activity",
+    "correct": 0,
     "feedback": "التعلم الحركي (Kinesthetic) يعتمد على دمج الحركة والنشاط البدني في عملية التعلم."
   },
   {
     "id": 31,
     "q": "Which of the following is not true for the Grammar Translation method?",
     "options": ["A. Classes are taught in students' mother tongue", "B. Little or no attention is given to pronunciation", "C. Vocabulary is taught in the form of lists of isolated words", "D. The native language should not be used in the classroom"],
-    "answer": "D. The native language should not be used in the classroom",
+    "correct": 3,
     "feedback": "طريقة القواعد والترجمة تعتمد بشكل أساسي على اللغة الأم، لذا فالخيار D هو 'غير الصحيح' (Not true)."
   },
   {
     "id": 32,
     "q": "Which type of classroom activity is most aligned with CLT principles?",
     "options": ["A. Audio-lingual drills", "B. Filling in blanks", "C. Role play", "D. Grammar-translation exercise"],
-    "answer": "C. Role play",
+    "correct": 2,
     "feedback": "تمثيل الأدوار (Role play) يعزز التواصل الواقعي والتفاعل الهادف، وهو جوهر المنهج التواصلي (CLT)."
   },
   {
     "id": 33,
     "q": "CLT places a stronger emphasis on which of the following?",
     "options": ["A. Written over spoken language", "B. Form over meaning", "C. Meaning over form", "D. Translation accuracy"],
-    "answer": "C. Meaning over form",
+    "correct": 2,
     "feedback": "في CLT، الهدف هو إيصال المعنى بفعالية، حتى لو وقع الطالب في بعض الأخطاء الشكلية أو القواعدية."
   },
   {
     "id": 34,
     "q": "CLT typically uses which of the following as central to learning?",
     "options": ["A. Authentic material", "B. Elaborated definitions", "C. Simplified dialogues", "D. All of the above"],
-    "answer": "D. All of the above",
+    "correct": 3,
     "feedback": "المنهج التواصلي يستخدم تنوعاً في المواد لتشجيع الطلاب على استخدام اللغة في سياقات متنوعة."
   },
   {
     "id": 35,
     "q": "Which lesson framework is most consistent with CLT?",
     "options": ["A. Grammar-Translation", "B. Task-Based Learning", "C. Direct Method", "D. Total Physical Response"],
-    "answer": "B. Task-Based Learning",
+    "correct": 1,
     "feedback": "التعلم القائم على المهام (TBL) هو تطبيق عملي لمبادئ المنهج التواصلي (CLT)."
   },
   {
     "id": 36,
     "q": "A critique often directed at CLT is that it:",
     "options": ["A. May neglect accuracy for fluency", "B. Relies on speaking", "C. Ignores the writing skill", "D. Overemphasizes grammar rules"],
-    "answer": "A. May neglect accuracy for fluency",
+    "correct": 0,
     "feedback": "أحد الانتقادات الشائعة هو أن التركيز المكثف على التواصل قد يؤدي إلى إهمال الدقة اللغوية (القواعد)."
   },
   {
     "id": 37,
     "q": "The Teacher introduces grammatical structures and rules by showing a video. The students practice the grammar in context. The Teacher gives lots of meaningful examples to demonstrate the grammar. This is a/an:",
     "options": ["A. Inductive method", "B. Deductive method", "C. CLT", "D. All of the above"],
-    "answer": "B. Deductive method",
+    "correct": 1,
     "feedback": "طريقة الاستنتاج (Deductive) تبدأ بتقديم القاعدة ثم الانتقال للتطبيق."
   },
   {
     "id": 38,
     "q": "The students learn patterns of language by repeating model sentences that the teacher provides. They memorize set phrases and receive positive reinforcement from their teacher when they perform drills correctly. This is:",
     "options": ["A. Total Physical Response", "B. Audio lingual method", "C. CLT", "D. GT"],
-    "answer": "B. Audio lingual method",
+    "correct": 1,
     "feedback": "هذه الطريقة السمعية الشفوية تعتمد كلياً على التكرار والحفظ والتعزيز الإيجابي."
   },
   {
     "id": 39,
     "q": "Students listen to a dialogue between a taxi driver and passenger. They fill in gaps and then practice a dialogue with a partner. Tomorrow they will go outside and practice asking for directions. This is:",
     "options": ["A. CLT", "B. Oral Approach"],
-    "answer": "B. Oral Approach",
+    "correct": 1,
     "feedback": "التركيز على الحوارات الواقعية والتدريبات الشفوية في سياق محدد يتماشى مع المنهج الشفهي (Oral Approach)."
   }
 

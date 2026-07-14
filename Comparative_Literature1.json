@@ -7,350 +7,350 @@
       "id": 1,
       "q": "According to the lectures, what is the main 'identity crisis' inherent in comparative literature?",
       "options": ["A) It has no practitioners", "B) It is difficult to define and constantly renews its mission", "C) It is only studied in one country", "D) It relies solely on one language"],
-      "answer": "B",
+      "correct": 1,
       "feedback": "كما ذكر في المحاضرة 2/3، يفتقر الأدب المقارن إلى الوضع المؤسسي الآمن الذي تتمتع به التخصصات الأخرى، مما يتطلب منه تبرير مهمته باستمرار."
     },
     {
       "id": 2,
       "q": "Which school of comparative literature is characterized as 'nationalistic'?",
       "options": ["A) The American School", "B) The Russian School", "C) The French School", "D) The Oriental School"],
-      "answer": "C",
+      "correct": 2,
       "feedback": "ترتبط المدرسة الفرنسية تاريخيًا بالتوجهات القومية والتركيز على دراسة التأثير."
     },
     {
       "id": 3,
       "q": "What is the primary focus of the 'French School' according to the Golden Papers?",
       "options": ["A) Intertextuality", "B) Influence", "C) Distant reading", "D) Compensation"],
-      "answer": "B",
+      "correct": 1,
       "feedback": "ركزت المدرسة الفرنسية على دراسة التأثير، بينما تحولت المدارس الأحدث غالبًا إلى دراسة التناص."
     },
     {
       "id": 4,
       "q": "What does 'reception' describe in comparative literature?",
       "options": ["A) Tracing meaning through languages on a vertical axis", "B) Only reading foreign works", "C) The study of linguistics", "D) A step towards influence"],
-      "answer": "A",
+      "correct": 0,
       "feedback": "بينما تنقل الترجمة المعنى على محور أفقي، يتتبع الاستقبال المعنى على محور رأسي."
     },
     {
       "id": 5,
       "q": "Who famously declared the 'Death of a Discipline' in comparative literature?",
       "options": ["A) Susan Bassnett", "B) Gayatri Chakravorty Spivak", "C) Dr. Muhannad", "D) Roland Barthes"],
-      "answer": "B",
+      "correct": 1,
       "feedback": "أعلنت سبيفاك 'موت التخصص' بعد عقد من ادعاء سوزان باسنيت أن المجال في تدهور."
     },
     {
       "id": 6,
       "q": "How is 'close reading' generally described in the course?",
       "options": ["A) Sociological", "B) Aesthetic", "C) Political", "D) Institutional"],
-      "answer": "B",
+      "correct": 1,
       "feedback": "تحلل القراءة المتعمقة النص كعمل فني (جمالي)، بينما تُعامل القراءة عن بعد على أنها سوسيولوجية (اجتماعية)."
     },
     {
       "id": 7,
       "q": "What is the 'canon' in the context of comparative literature studies?",
       "options": ["A) A type of weapon", "B) A set of generally accepted standards and principles", "C) A specific author", "D) A type of poem"],
-      "answer": "B",
+      "correct": 1,
       "feedback": "يشير 'الكانون' أو 'المعيار الأدبي' إلى مجموعة المعايير والمبادئ المقبولة، والتي يتحدها النقاد الآن غالبًا بـ 'معيار مضاد'."
     },
     {
       "id": 8,
       "q": "According to the course, what is a defining characteristic of a comparatist?",
       "options": ["A) Nationalistic pride", "B) An insistence on clear-cut causality", "C) 'Unbelonging' to any specific tradition", "D) Focus only on Greek literature"],
-      "answer": "C",
+      "correct": 2,
       "feedback": "المقارنون مثل الرحالة؛ يختارون عدم الانتماء إلى أي تقليد معين، وهو ما يعمل كسمة مميزة لهم."
     },
     {
       "id": 9,
       "q": "What is the result of the 'universalization of the European model' in comparative literature?",
       "options": ["A) It ended the discipline", "B) It made international/national comparison the default setting", "C) It favored Asian literature", "D) It banned translation"],
-      "answer": "B",
+      "correct": 1,
       "feedback": "كرّس هذا النموذج المقارنة الدولية والوطنية كإعداد افتراضي للتخصص."
     },
     {
       "id": 10,
       "q": "What shift happened between the French/German schools and the American school?",
       "options": ["A) The American school became less nationalistic", "B) The American school opposed the French but made similar mistakes", "C) The French school became the American school", "D) The American school stopped comparing"],
-      "answer": "B",
+      "correct": 1,
       "feedback": "عارضت المدرسة الأمريكية المدرسة الفرنسية، لكنها انتهت بتكرار أخطاء مماثلة."
     },
     {
       "id": 11,
       "q": "How did Roland Barthes define the text?",
       "options": ["A) As a solid object", "B) As a network", "C) As a historical document only", "D) As a translation"],
-      "answer": "B",
+      "correct": 1,
       "feedback": "يعتبر رولان بارت النص بمثابة شبكة."
     },
     {
       "id": 12,
       "q": "Which ancient text is cited as an early example of the hero archetype (exile/return)?",
       "options": ["A) The Iliad", "B) The Aeneid", "C) The Odyssey", "D) Beowulf"],
-      "answer": "C",
+      "correct": 2,
       "feedback": "تُستخدم الأوديسة كمثال لقصة البطل الذي يُنفى ثم يعود وقد تغير."
     },
     {
       "id": 13,
       "q": "Comparative literature in the 21st century is best described as:",
       "options": ["A) Declining rapidly", "B) Dead and irrelevant", "C) A surge of interest driven by strategic positioning", "D) Focused only on French literature"],
-      "answer": "C",
+      "correct": 2,
       "feedback": "على الرغم من ادعاءات الموت، شهد المجال اهتمامًا متزايدًا بسبب موقعه الاستراتيجي بين اللغات والدراسات الثقافية."
     },
     {
       "id": 14,
       "q": "What is the primary role of the writer according to the lecture on reading?",
       "options": ["A) To follow the reader's lead", "B) To set the tune, as they are readers themselves", "C) To translate texts only", "D) To ignore other literature"],
-      "answer": "B",
+      "correct": 1,
       "feedback": "تذكر المحاضرة أن الكتّاب، وليس القراء، هم من يحددون إيقاع الأدب."
     },
     {
       "id": 15,
       "q": "What is a 'loyal translation'?",
       "options": ["A) A free/creative translation", "B) Sticking to the source text", "C) A translation that changes the meaning", "D) Translating only titles"],
-      "answer": "B",
+      "correct": 1,
       "feedback": "الترجمة 'الأمينة' تعني الالتزام بالنص المصدر، بينما الترجمة 'الخائنة' تكون حرة أو إبداعية."
     },
     {
       "id": 16,
       "q": "Why is 'comparison' considered an act of 'compensation'?",
       "options": ["A) Because it is paid work", "B) Because it redresses perceived literary/cultural injustices", "C) Because it replaces the original text", "D) Because it is faster than reading"],
-      "answer": "B",
+      "correct": 1,
       "feedback": "تطورت المقارنة لتصبح وسيلة لتعويض الظلم الأدبي والثقافي المتصور."
     },
     {
       "id": 17,
       "q": "What is the main challenge of studying 'influence'?",
       "options": ["A) Finding books", "B) Knowing languages", "C) Proving direct relations between writers", "D) The length of the works"],
-      "answer": "C",
+      "correct": 2,
       "feedback": "التحدي الرئيسي (خاصة للمدرسة الفرنسية) هو صعوبة إثبات السببية الواضحة أو العلاقات المباشرة."
     },
     {
       "id": 18,
       "q": "What did Susan Bassnett claim in 1993?",
       "options": ["A) Comparative literature was growing", "B) Comparative literature was in decline", "C) Comparative literature was dead", "D) Comparative literature was only for Americans"],
-      "answer": "B",
+      "correct": 1,
       "feedback": "ادعت باسنيت أن التخصص كان في تدهور؛ وأعلنت سبيفاك أنه 'مات' بعد عشر سنوات."
     },
     {
       "id": 19,
       "q": "What is the 'horizontal axis' of translation?",
       "options": ["A) Comparing different eras", "B) Moving meaning between languages", "C) Analyzing the structure", "D) Ignoring the text"],
-      "answer": "B",
+      "correct": 1,
       "feedback": "تنقل الترجمة المعنى بين اللغات على محور أفقي، بينما يتتبعه الاستقبال على محور رأسي."
     },
     {
       "id": 20,
       "q": "The 'French School's' focus on the confinement of comparison to the boundary of language is:",
       "options": ["A) Considered a major flaw", "B) Considered one of the 'good things' by some", "C) Never mentioned", "D) Irrelevant"],
-      "answer": "B",
+      "correct": 1,
       "feedback": "يُعتبر حصر المقارنة في حدود اللغة أحد المناهج الإيجابية للمدرسة الفرنسية."
     },
     {
       "id": 21,
       "q": "How does the author characterize the shift from 'close reading' to 'distant reading'?",
       "options": ["A) A move from aesthetic to sociological", "B) A move from literary to scientific", "C) A move from text to author", "D) A move from reading to writing"],
-      "answer": "A",
+      "correct": 0,
       "feedback": "القراءة المتعمقة هي قراءة جمالية، بينما القراءة عن بعد هي في النهاية قراءة سوسيولوجية (اجتماعية)."
     },
     {
       "id": 22,
       "q": "Why do comparatists need linguistic skills?",
       "options": ["A) To translate for money", "B) To be able to cross-refer mutually enlightening texts", "C) Because the university requires it", "D) To write poetry"],
-      "answer": "B",
+      "correct": 1,
       "feedback": "المهارات اللغوية ضرورية للربط بين النصوص التي تثري بعضها البعض ضمن إطار مشترك."
     },
     {
       "id": 23,
       "q": "What was the role of the USSR in comparative literature in Eastern Europe?",
       "options": ["A) It banned the subject", "B) It centralized the study of texts translated into Russian", "C) It ignored the subject", "D) It only studied Russian poetry"],
-      "answer": "B",
+      "correct": 1,
       "feedback": "كان الأدب المقارن متمركزًا حول الاتحاد السوفيتي، مع ترجمة النصوص إلى اللغة الروسية."
     },
     {
       "id": 24,
       "q": "What is the relationship between literature and culture?",
       "options": ["A) They are completely unrelated", "B) Literature is a form of cultural expression", "C) Comparative literature ignores culture", "D) Literature is not related to culture"],
-      "answer": "B",
+      "correct": 1,
       "feedback": "يؤكد المقرر على الموقع الاستراتيجي للتخصص بين اللغات والنقد الأدبي والدراسات الثقافية."
     },
     {
       "id": 25,
       "q": "True or False: Religion is a source of literary figures like Noah and Moses.",
       "options": ["A) True", "B) False"],
-      "answer": "A",
+      "correct": 0,
       "feedback": "نعم، لقد زود الدين الآداب بشخصيات مثل نوح ويوسف وموسى وغيرهم."
     },
     {
       "id": 26,
       "q": "What is the primary function of philology according to the documents?",
       "options": ["A) To study grammar only", "B) The study of language in its historical texts/contexts", "C) To write literature", "D) To translate"],
-      "answer": "B",
+      "correct": 1,
       "feedback": "ازدهر علم الفيلولوجيا (فقه اللغة) في القرن التاسع عشر بسبب الاستعمار ويركز على النصوص والسياقات التاريخية."
     },
     {
       "id": 27,
       "q": "Why do comparatists try not to belong to one tradition?",
       "options": ["A) To avoid prejudices", "B) Because they hate tradition", "C) Because they want to be popular", "D) Because they want to write novels"],
-      "answer": "A",
+      "correct": 0,
       "feedback": "من خلال عدم الانتماء إلى تقليد معين، يهدفون إلى أن يكونوا موضوعيين مثل الرحالة بدلاً من امتلاك أحكام مسبقة."
     },
     {
       "id": 28,
       "q": "What does intertextuality focus on?",
       "options": ["A) Influence", "B) Rewriting/blending of texts", "C) Historical dates", "D) Geography"],
-      "answer": "B",
+      "correct": 1,
       "feedback": "ركزت المدارس الأحدث على التناص، والذي يتضمن كيفية تفاعل النصوص وإعادة صياغة المواد الموجودة."
     },
     {
       "id": 29,
       "q": "What is the 'Golden Papers' document?",
       "options": ["A) A novel", "B) A study guide/summary for Comparative Literature (1)", "C) A historical archive", "D) A dictionary"],
-      "answer": "B",
+      "correct": 1,
       "feedback": "الأوراق الذهبية هي دليل الدراسة أو الملخصات المقدمة للمقرر."
     },
     {
       "id": 30,
       "q": "How does translation represent an intervention in international relations?",
       "options": ["A) By changing governments", "B) Through linguistic choices and aesthetics", "C) By funding wars", "D) By banning writers"],
-      "answer": "B",
+      "correct": 1,
       "feedback": "كل خيار لغوي في الترجمة يمثل تدخلاً في العلاقات الدولية."
     },
     {
       "id": 31,
       "q": "What is the 'horizontal axis' of comparative literature?",
       "options": ["A) History", "B) Translation (carrying over between languages)", "C) Biography", "D) Grammar"],
-      "answer": "B",
+      "correct": 1,
       "feedback": "تعمل الترجمة على المحور الأفقي؛ بينما يعمل الاستقبال على المحور الرأسي."
     },
     {
       "id": 32,
       "q": "According to the course, when does 'reception' happen?",
       "options": ["A) When someone reads another's work and is influenced by/rewrites it", "B) When a book is published", "C) When a book is translated", "D) Never"],
-      "answer": "A",
+      "correct": 0,
       "feedback": "يوصف الاستقبال بأنه قراءة عمل ما أو إعادة كتابته أو التأثر به."
     },
     {
       "id": 33,
       "q": "What is 'comparative philology'?",
       "options": ["A) The study of ancient languages and their relationships", "B) Writing poetry", "C) Analyzing film", "D) Editing"],
-      "answer": "A",
+      "correct": 0,
       "feedback": "أصبحت المقارنات بين اللغات الأوروبية الحديثة واللغات الشرقية القديمة حتمية."
     },
     {
       "id": 34,
       "q": "What was the problem with the American School?",
       "options": ["A) It didn't exist", "B) It repeated the same mistakes as the French School", "C) It only studied American literature", "D) It didn't use English"],
-      "answer": "B",
+      "correct": 1,
       "feedback": "عارضت المدرسة الأمريكية المدرسة الفرنسية لكنها انتهت بارتكاب نفس الأخطاء."
     },
     {
       "id": 35,
       "q": "What does 'canon' imply regarding literature?",
       "options": ["A) A list of rejected books", "B) A set of standards/accepted principles for study", "C) A type of author", "D) A specific publisher"],
-      "answer": "B",
+      "correct": 1,
       "feedback": "يشير 'الكانون' أو 'المعيار الأدبي' إلى المعايير والمبادئ المقبولة."
     },
     {
       "id": 36,
       "q": "Are writers also readers?",
       "options": ["A) Yes, first and foremost of their own work", "B) No, they don't read", "C) Only occasionally", "D) Never"],
-      "answer": "A",
+      "correct": 0,
       "feedback": "الكتّاب هم قراء، أولاً وقبل كل شيء لأعمالهم الخاصة، ويضعون أنفسهم في مكان القراء."
     },
     {
       "id": 37,
       "q": "Is literature a 'dance of similarity and difference'?",
       "options": ["A) Yes", "B) No"],
-      "answer": "A",
+      "correct": 0,
       "feedback": "يوصف الأدب بأنه رقصة من التشابه والاختلاف، حيث يحدد الكتّاب الإيقاع."
     },
     {
       "id": 38,
       "q": "What makes comparative literature different from other disciplines?",
       "options": ["A) It is less theoretical", "B) It must constantly renew its sense of mission", "C) It is older", "D) It only uses one language"],
-      "answer": "B",
+      "correct": 1,
       "feedback": "على عكس التخصصات الأكثر استقرارًا، يجب على الأدب المقارن أن يروي لنفسه باستمرار قصة جديدة حول سبب قيامه بالمقارنة."
     },
     {
       "id": 39,
       "q": "Does Comparative Literature have a fixed identity?",
       "options": ["A) Yes, it is very stable", "B) No, it has an inherent identity crisis"],
-      "answer": "B",
+      "correct": 1,
       "feedback": "أزمة الهوية متأصلة في الدراسة بأكملها."
     },
     {
       "id": 40,
       "q": "Which of the following is a motive for studying comparative literature?",
       "options": ["A) To prove one language is better", "B) To understand how stories and ideas circulate", "C) To make money", "D) To ignore foreign texts"],
-      "answer": "B",
+      "correct": 1,
       "feedback": "يساعدنا الأدب المقارن على فهم كيفية تداول القصص والأفكار، وغالبًا ما يستخدم الأساطير اليونانية كنقطة انطلاق."
     },
     {
       "id": 41,
       "q": "What is 'intertextuality' according to the quiz material?",
       "options": ["A) A reworking of frequently dealt-with materials", "B) A type of language", "C) A historical period", "D) A book title"],
-      "answer": "A",
+      "correct": 0,
       "feedback": "يتضمن التناص إعادة صياغة للمواد مع قدر معين من التغيير."
     },
     {
       "id": 42,
       "q": "True or False: The history of European literature is a history of comparison.",
       "options": ["A) True", "B) False"],
-      "answer": "A",
+      "correct": 0,
       "feedback": "غالبًا ما يُنظر إلى تاريخ الأدب الأوروبي على أنه تاريخ للمقارنة."
     },
     {
       "id": 43,
       "q": "What does a 'comparatist' do?",
       "options": ["A) Only translate", "B) Cross-refers any number of mutually enlightening texts", "C) Criticizes authors", "D) Sells books"],
-      "answer": "B",
+      "correct": 1,
       "feedback": "يسعى المقارن إلى الربط بين أي عدد من النصوص التي تثري بعضها البعض ضمن إطار مشترك."
     },
     {
       "id": 44,
       "q": "Which school is associated with the 'principle of non-literary influence'?",
       "options": ["A) French School", "B) American School", "C) Oriental School", "D) No school"],
-      "answer": "A",
+      "correct": 0,
       "feedback": "ناقشت المدرسة الفرنسية 'مبدأ التأثير غير الأدبي'."
     },
     {
       "id": 45,
       "q": "What is the importance of 'metaphors' in comparative literature?",
       "options": ["A) They make literature harder", "B) They help comparative literature view itself", "C) They are not important", "D) They are for poets only"],
-      "answer": "B",
+      "correct": 1,
       "feedback": "يتساءل النص عن أهمية الاستعارات ويشير إلى أنها حاسمة في كيفية رؤية التخصص لنفسه."
     },
     {
       "id": 46,
       "q": "What does it mean for a discipline to be 'politicized'?",
       "options": ["A) It works in politics", "B) It is influenced by power structures, biases, and historical contexts", "C) It has a president", "D) It is illegal"],
-      "answer": "B",
+      "correct": 1,
       "feedback": "أصبح الأدب المقارن أكثر تسييسًا عبر التاريخ، مما استلزم فهم هذا التاريخ."
     },
     {
       "id": 47,
       "q": "Is the 'reception' of a text the same as the 'influence' of a text?",
       "options": ["A) Yes", "B) No"],
-      "answer": "B",
+      "correct": 1,
       "feedback": "الاستقبال يختلف عن التأثير؛ فالاستقبال يتتبع المعنى رأسيًا بينما التأثير أفقي."
     },
     {
       "id": 48,
       "q": "Why is the historical emphasis on Europe in comparative literature problematic?",
       "options": ["A) Because it is wrong", "B) Because it ignores non-European literatures", "C) Because it is too long", "D) Because it is boring"],
-      "answer": "B",
+      "correct": 1,
       "feedback": "ركز التخصص تاريخيًا على أوروبا، لكن هذا التركيز قاد تطوره، وفهمه هو مفتاح مستقبله."
     },
     {
       "id": 49,
       "q": "Which of these is a motif of texts and a metaphor of context?",
       "options": ["A) Exile", "B) Return", "C) Metamorphosis", "D) All of the above"],
-      "answer": "D",
+      "correct": 3,
       "feedback": "المنفى والعودة والتحول هي تيمات للنصوص واستعارات للسياق."
     },
     {
       "id": 50,
       "q": "What is the primary advice for studying this material?",
       "options": ["A) Memorize everything", "B) Understand, then memorize definitions", "C) Ignore the critics", "D) Only read the titles"],
-      "answer": "B",
+      "correct": 1,
       "feedback": "تؤكد الأوراق الذهبية: 'النقطة الأساسية... هي الفهم، ثم الفهم. بالطبع، الحفظ مهم ولكن فقط للتعريفات والكلمات الجديدة'."
     },
   {
