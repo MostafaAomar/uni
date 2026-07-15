@@ -1,0 +1,806 @@
+{
+  "subject": "الشعر الرومانتيكي سنة ٣",
+  "lang": "en",
+  "questions": 
+  [
+  {
+    "q": "What kind of movement was Romanticism?",
+    "options": ["Social", "Political", "Literary"],
+    "correct": 2,
+    "feedback": "Romanticism is primarily categorized as a literary and artistic movement that emphasized aesthetics and individualism."
+  },
+  {
+    "q": "Romanticism as a movement placed the greatest emphasis on",
+    "options": ["logic", "magic", "emotion"],
+    "correct": 2,
+    "feedback": "A hallmark of Romanticism is the focus on intense emotion and personal experience over rationalism."
+  },
+  {
+    "q": "(...) was essential, and it could only be achieved through subjectivity",
+    "options": ["Spontaneity", "Originality"],
+    "correct": 1,
+    "feedback": "Originality was considered essential in Romantic thought, reflecting the artist's unique subjective vision."
+  },
+  {
+    "q": "Which of the following had a minimal influence on British romanticism?",
+    "options": ["the supernatural", "spirituality", "nationalism"],
+    "correct": 2,
+    "feedback": "While present, nationalism was often secondary to the deep focus on spirituality and the supernatural in British Romantic literature."
+  },
+  {
+    "q": "The Age of enlightenment (...) Romanticism",
+    "options": ["preceded", "followed", "was contemporary to"],
+    "correct": 0,
+    "feedback": "The Age of Enlightenment generally preceded the Romantic era, serving as the rationalistic period that Romantics reacted against."
+  },
+  {
+    "q": "Which was a proto-Romantic movement?",
+    "options": ["Sturm und drang", "the Pro-Raphaelite", "Realism"],
+    "correct": 0,
+    "feedback": "The German 'Sturm und Drang' (Storm and Drive) movement is widely recognized as a precursor to Romanticism."
+  },
+  {
+    "q": "(...) lasted through the sixteenth, seventeenth, and eighteenth centuries",
+    "options": ["logic", "the Enlightenment", "the scientific Revolution"],
+    "correct": 2,
+    "feedback": "The Scientific Revolution spanned roughly from the 16th through the 18th centuries, fundamentally shifting the worldview of the era."
+  },
+  {
+    "q": "How many Reform Acts were introduced in Britain during the 19th century?",
+    "options": ["One", "Two", "None"],
+    "correct": 1,
+    "feedback": "There were two major Reform Acts (1832 and 1867) that significantly altered the British electoral system in the 19th century."
+  },
+  {
+    "q": "Lord Byron's 'Darkness' was composed using:",
+    "options": ["structured meter", "free verse", "blank verse", "sonnet form"],
+    "correct": 2,
+    "feedback": "Lord Byron's 'Darkness' is notable for being written in blank verse, which is unrhymed iambic pentameter."
+  },
+  {
+    "q": "Lord Byron's 'Childe Harold's Pilgrimage' consists of:",
+    "options": ["three cantos", "four cantos", "five cantos", "six cantos"],
+    "correct": 1,
+    "feedback": "The completed work of 'Childe Harold's Pilgrimage' is famously structured into four cantos."
+  },
+  {
+    "q": "The poem's tone is best described as:",
+    "options": ["cheerful", "melancholic", "ecstatic", "wise"],
+    "correct": 1,
+    "feedback": "The tone of much of Byron's Childe Harold is reflective and melancholic, typical of the Byronic hero."
+  },
+  {
+    "q": "The central theme of Wordsworth's 'Mutability' is:",
+    "options": ["Religious devotion", "social satire", "accepting fate", "change as a noble truth"],
+    "correct": 3,
+    "feedback": "Wordsworth's 'Mutability' explores the inevitability of change, presenting it as a natural and ultimately noble truth of the world."
+  },
+  {
+    "q": "Wordsworth suggests that all but one of the following do not realise that nothing lasts forever:",
+    "options": ["kings", "criminals", "the greedy", "people overwhelmed by distress"],
+    "correct": 0,
+    "feedback": "The poem suggests that power and high status often lead individuals (like kings) to erroneously believe they are exempt from the ravages of time."
+  },
+  {
+    "q": "Shelley's 'Hymn to Intellectual Beauty' is a praise of:",
+    "options": ["Christian faith", "human power", "the spirit of inspiration", "wise poets"],
+    "correct": 2,
+    "feedback": "The poem is an invocation and praise of the 'spirit of beauty' or intellectual beauty that provides inspiration to the poet."
+  },
+  {
+    "q": "Shelley mentioned that he sought for the truth of intellectual beauty in:",
+    "options": ["black magic", "the sea", "the forest", "the Church"],
+    "correct": 2,
+"feedback": "Shelley sought it in a 'listening chamber, cave and ruin, / And starlight wood'. He actively rebelled against the Church." 
+ },
+  {
+    "q": "As a poem of praise and prayer, its form and style reflect that of:",
+    "options": ["an ode", "an epic", "a ballad", "a sonnet"],
+    "correct": 0,
+    "feedback": "Given its elevated subject matter and lyrical, prayer-like address to an abstract concept, it is classically structured as an ode."
+  },
+  {
+    "q": "In his poem, 'Time', Shelley personifies time as:",
+    "options": ["A nurturing parent", "A merciless destroyer and creator", "A playful child", "A merciful guardian"],
+    "correct": 1,
+    "feedback": "Shelley often depicts time as a powerful force that simultaneously destroys the old and creates the new."
+  },
+  {
+    "q": "When Shelley said that Time's 'waves are years', he compares it to:",
+    "options": ["A deep ocean", "A rippling desert", "A rocky mountain", "A stormy ocean"],
+    "correct": 3,
+    "feedback": "The metaphor of 'waves' suggests the relentless, tumultuous, and unending movement characteristic of a stormy ocean."
+  },
+  {
+    "q": "Shelley suggests Time's power is:",
+    "options": ["Controllable", "Limited", "Absolute", "An illusion"],
+    "correct": 2,
+    "feedback": "Shelley portrays time as an absolute force that governs all earthly things, immune to human intervention."
+  },
+  {
+    "q": "The poem's tone is best described as:",
+    "options": ["Humourous", "Sarcastic", "Serious", "Satirical"],
+    "correct": 2,
+    "feedback": "The reflection on the unstoppable and grave nature of time makes the tone of the poem inherently serious."
+  },
+  {
+    "q": "Who was considered the father of English Romanticism during his time?",
+    "options": ["Shelley", "Blake", "Coleridge", "Wordsworth"],
+    "correct": 3,
+    "feedback": "William Wordsworth is widely considered a foundational figure and the 'father' of the English Romantic movement due to his Lyrical Ballads."
+  },
+  {
+    "q": "Which Romantic poet worked in restoring churches?",
+    "options": ["Byron", "Blake", "Coleridge", "Wordsworth"],
+    "correct": 3,
+    "feedback": "Wordsworth had an affinity for the preservation of historical church structures."
+  },
+  {
+    "q": "What is the common characteristic in the poetry of all Romantic poets that cannot be controlled?",
+    "options": ["Imagination", "Love", "poetic form", "Nature"],
+    "correct": 0,
+    "feedback": "The Romantic concept of Imagination is often described as a wild, innate, and uncontrollable creative force."
+  },
+  {
+    "q": "Which of the following poems is not a sonnet?",
+    "options": ["The World", "Ozymandias", "Time", "None of the above"],
+    "correct": 2,
+    "feedback": "While many Romantic poems are sonnets, Shelley's 'Time' does not follow the strict 14-line sonnet structure."
+  },
+  {
+    "q": "Thy spells did bind/ To fear himself, and love all human kind is a line from Shelley's:",
+    "options": ["Mutability", "Time", "To a Skylark", "Hymn to Intellectual Beauty"],
+    "correct": 3,
+    "feedback": "This line is a distinctive part of Shelley's 'Hymn to Intellectual Beauty'."
+  },
+  {
+    "q": "Blake's 'Songs of Innocence and of Experience' mainly represented themes about:",
+    "options": ["Religion", "human nature", "Animals", "cruelty"],
+    "correct": 1,
+    "feedback": "Blake's dual collection explores the complexities of human nature through the contrasting states of innocence and experience."
+  },
+  {
+    "q": "Who described himself as 'a visionary poet'?",
+    "options": ["Shelley", "Byron", "Blake"],
+    "correct": 0,
+"feedback": "Shelley explicitly describes himself saying, 'I am a visionary poet,' while describing Wordsworth as 'a natural poet.'" 
+ },
+  {
+    "q": "Which of the following poems was not written by Coleridge?",
+    "options": ["Ozymandias", "Christabel", "Don Juan", "The Rime of the Ancient Mariner"],
+    "correct": 0,
+    "feedback": "Ozymandias is one of the most famous poems written by Percy Bysshe Shelley, not Samuel Taylor Coleridge."
+  },
+  {
+    "q": "Wordsworth believed that poetry is the spontaneous overflow of powerful feelings.",
+    "options": ["True", "False"],
+    "correct": 0,
+    "feedback": "This is a direct quote from Wordsworth's 'Preface to Lyrical Ballads'."
+  },
+  {
+    "q": "Both Blake and Shelley were rumoured to be mad during their lifetime.",
+    "options": ["True", "False"],
+    "correct": 0,
+    "feedback": "This is a statement regarding biographical history."
+  },
+  {
+    "q": "Shelley's was interested in social and political themes.",
+    "options": ["True", "False"],
+    "correct": 0,
+    "feedback": "Shelley was deeply involved in radical politics and social reform."
+  },
+  {
+    "q": "Blake was a supporter of the Protestant Church in England.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "Blake often criticized organized religious institutions, including the Church of England."
+  },
+  {
+    "q": "Wordsworth was not popular as a poet during his lifetime.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "Wordsworth actually achieved significant recognition and eventually became Poet Laureate."
+  },
+  {
+    "q": "Blake's 'The Human Abstract' suggests that evil is the creation of gods.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "In this poem, Blake critiques the way virtues can be used to foster evil."
+  },
+  {
+    "q": "Blake's 'The Human Abstract' places 'the caterpillar and the fly' as symbols of religious and state power.",
+    "options": ["True", "False"],
+    "correct": 0,
+    "feedback": "Blake often used such imagery to allegorize the corruption of institutions."
+  },
+  {
+    "q": "Coleridge used no archaic words in his 'Rime of the Ancient Mariner'.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "Coleridge intentionally used archaic language in the 'Rime' to evoke the feel of an old ballad."
+  },
+  {
+    "q": "Blake's 'Songs of Innocence' was published in 1794.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "Songs of Innocence was published in 1789; the combined edition was 1794."
+  },
+  {
+    "q": "Blake's method of printing involved cutting lines into a metal plate template.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "Blake invented a process known as relief etching to print his illustrated books."
+  },
+  {
+    "q": "Coleridge used the ballad form in his 'Rime of the Ancient Mariner'.",
+    "options": ["True", "False"],
+    "correct": 0,
+    "feedback": "The 'Rime' is a seminal example of the Romantic revival of the ballad form."
+  },
+  {
+    "q": "The Rime of the Ancient Mariner was written in Iambic Pentameter.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "The poem is primarily written in a ballad meter (alternating iambic tetrameter and trimeter)."
+  },
+
+  {
+    "q": "Wordsworth believed that poetry is the spontaneous overflow of powerful feelings",
+    "options": ["True", "False"],
+    "correct": 0,
+    "feedback": "This is a fundamental definition provided by Wordsworth in his 'Preface to Lyrical Ballads'."
+  },
+  {
+    "q": "Both Blake and Shelley were rumoured to be mad during their lifetime.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "While both poets were seen as eccentric, the specific rumor of madness is more commonly associated with other figures or was not a general consensus for both."
+  },
+  {
+    "q": "Shelley's was interested in social and political themes.",
+    "options": ["True", "False"],
+    "correct": 0,
+    "feedback": "Shelley was deeply politically engaged and his work often reflected radical social critiques."
+  },
+  {
+    "q": "Blake was a supporter of the Protestant Church in England.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "Blake was notoriously critical of the established Church and organized religion."
+  },
+  {
+    "q": "Wordsworth was not popular as a poet during his lifetime.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "Wordsworth eventually gained significant popularity and served as Poet Laureate."
+  },
+  {
+    "q": "Blake's 'The Human Abstract' suggests that evil is the creation of gods.",
+    "options": ["True", "False"],
+    "correct": 0,
+    "feedback": "The poem suggests that virtues, when twisted, create a religion that fosters evil."
+  },
+  {
+    "q": "Blake's 'The Human Abstract' places 'the caterpillar and the fly' as symbols of religious and state power.",
+    "options": ["True", "False"],
+    "correct": 0,
+    "feedback": "These images are used by Blake to represent the parasitic nature of institutional powers."
+  },
+  {
+    "q": "Coleridge used no archaic words in his 'Rime of the Ancient Mariner'",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "Coleridge intentionally utilized archaic vocabulary to emulate the style of traditional ballads."
+  },
+  {
+    "q": "Blake's 'Songs of Innocence' was published in 1794.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "'Songs of Innocence' was published in 1789; the combined 'Songs of Innocence and of Experience' was 1794."
+  },
+  {
+    "q": "Blake's method of printing involved cutting lines into a metal plate template.",
+    "options": ["True", "False"],
+    "correct": 0,
+    "feedback": "Blake used a unique technique of relief etching on copper plates."
+  },
+  {
+    "q": "Coleridge used the ballad form in his 'Rime of the Ancient Mariner'",
+    "options": ["True", "False"],
+    "correct": 0,
+    "feedback": "The poem is a classic example of the Romantic revival of the traditional ballad form."
+  },
+  {
+    "q": "The Rime of the Ancient Mariner was written in Iambic Pentameter.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "The poem uses a ballad meter consisting of alternating lines of iambic tetrameter and iambic trimeter."
+  },
+  {
+    "q": "What kind of movement was Romanticism?",
+    "options": ["Social", "Political", "Literary"],
+    "correct": 2,
+    "feedback": "Romanticism is classified as a literary and cultural movement."
+  },
+  {
+    "q": "Romanticism as a movement placed the greatest emphasis on",
+    "options": ["logic", "magic", "emotions"],
+    "correct": 2,
+    "feedback": "Romanticism prioritizes emotional authenticity over rationalistic logic."
+  },
+  {
+    "q": "(...) was essential, and it could only be achieved through subjectivity.",
+    "options": ["Spontaneity", "freedom", "originality"],
+    "correct": 2,
+    "feedback": "Originality is a central tenet of the Romantic artist's subjective experience."
+  },
+  {
+    "q": "Which of the following had a minimal influence on British romanticism?",
+    "options": ["the supernatural", "spirituality", "rationalism"],
+    "correct": 2,
+    "feedback": "Rationalism (associated with the Enlightenment) was what the Romantics largely reacted against."
+  },
+  {
+    "q": "The Age of enlightenment (...) Romanticism.",
+    "options": ["preceded", "followed", "was contemporary to"],
+    "correct": 0,
+    "feedback": "The Enlightenment period occurred before the full emergence of the Romantic era."
+  },
+  {
+    "q": "Which was a proto-Romantic movement?",
+    "options": ["Sturm und drang", "the Pre-Raphaelite", "Realism"],
+    "correct": 0,
+    "feedback": "The 'Sturm und Drang' movement in Germany is a well-known precursor to Romanticism."
+  },
+  {
+    "q": "(...) lasted through the sixteenth, seventeenth, and eighteenth centuries",
+    "options": ["the French Revolution", "the Enlightenment", "the scientific Revolution"],
+    "correct": 2,
+    "feedback": "The Scientific Revolution is generally dated to this timeframe."
+  },
+  {
+    "q": "How many Reform Acts were introduced in Britain during the 19th century?",
+    "options": ["One", "Two", "None"],
+    "correct": 1,
+    "feedback": "There were two significant Reform Acts in the 19th century (1832 and 1867)."
+  },
+  {
+    "q": "Lord Byron's 'Darkness' was composed using:",
+    "options": ["structured meter", "free verse", "blank verse", "sonnet form"],
+    "correct": 2,
+    "feedback": "Byron utilized blank verse, which is unrhymed iambic pentameter, for 'Darkness'."
+  },
+  {
+    "q": "Lord Byron's 'Childe Harold's Pilgrimage' consists of:",
+    "options": ["three cantos", "four cantos", "five cantos", "six cantos"],
+    "correct": 1,
+    "feedback": "The epic poem is famously divided into four cantos."
+  },
+  {
+    "q": "The poem's tone is best described as:",
+    "options": ["cheerful", "melancholic", "ecstatic", "wise"],
+    "correct": 1,
+    "feedback": "The work is known for its reflective, often melancholic tone associated with the Byronic hero."
+  },
+  {
+    "q": "The central theme of Wordsworth's 'Mutability' is:",
+    "options": ["Religious devotion", "social satire", "accepting fate", "change as a noble truth"],
+    "correct": 3,
+    "feedback": "Wordsworth addresses the inevitability of change in nature and human life."
+  },
+  {
+    "q": "Wordsworth suggests that all but one of the following do not realise that nothing lasts forever:",
+    "options": ["kings", "criminals", "the greedy", "people overwhelmed by distress"],
+    "correct": 0,
+    "feedback": "Kings are often depicted as those who mistakenly believe their power is permanent."
+  },
+  {
+    "q": "Shelley's 'Hymn to Intellectual Beauty' is a praise of:",
+    "options": ["Christian faith", "human power", "the spirit of inspiration", "wise poets"],
+    "correct": 2,
+    "feedback": "The poem praises the elusive, transcendent power of beauty and inspiration."
+  },
+  {
+    "q": "Shelley mentioned that he sought for the truth of intellectual beauty in:",
+    "options": ["black magic", "the sea", "the forest", "the Church"],
+    "correct": 2,
+    "feedback": "The text references his search in various places, including the forest and mountainous regions."
+  },
+  {
+    "q": "As a poem of praise and prayer, its form and style reflect that of:",
+    "options": ["an ode", "an epic", "a ballad", "a sonnet"],
+    "correct": 0,
+    "feedback": "The formal structure and elevated address identify it as an ode."
+  },
+  {
+    "q": "In his poem, 'Time', Shelley personifies time as:",
+    "options": ["A nurturing parent", "A merciless destroyer and creator", "A playful child", "A merciful guardian"],
+    "correct": 1,
+    "feedback": "Shelley presents time as an unstoppable force that creates and destroys."
+  },
+  {
+    "q": "When Shelley said that Time's 'waves are years', he compares it to:",
+    "options": ["A deep ocean", "A rippling desert", "A rocky mountain", "A stormy ocean"],
+    "correct": 3,
+    "feedback": "The imagery of 'waves' evokes the turbulent nature of a stormy ocean."
+  },
+  {
+    "q": "Shelley suggests Time's power is:",
+    "options": ["Controllable", "Limited", "Absolute", "An illusion"],
+    "correct": 2,
+    "feedback": "Shelley portrays time as an absolute, governing force."
+  },
+  {
+    "q": "The poem's tone is best described as:",
+    "options": ["Humourous", "Sarcastic", "Serious", "Satirical"],
+    "correct": 2,
+    "feedback": "The poem's contemplation of the nature of time is inherently serious."
+  },
+  {
+    "q": "Who was considered the father of English Romanticism during his time?",
+    "options": ["Shelley", "Blake", "Coleridge", "Wordsworth"],
+    "correct": 3,
+    "feedback": "Wordsworth is traditionally cited as a primary founder of English Romanticism."
+  },
+  {
+    "q": "Which Romantic poet worked in restoring churches?",
+    "options": ["Byron", "Blake", "Coleridge", "Wordsworth"],
+    "correct": 3,
+    "feedback": "Wordsworth was known to support church restoration and preservation."
+  },
+  {
+    "q": "What is the common characteristic in the poetry of all Romantic poets that cannot be controlled?",
+    "options": ["Imagination", "Love", "poetic form", "Nature"],
+    "correct": 0,
+    "feedback": "The Romantic imagination is viewed as a powerful, wild, and uncontrollable force."
+  },
+  {
+    "q": "Which of the following poems is not a sonnet?",
+    "options": ["The World", "Ozymandias", "Time", "None of the above"],
+    "correct": 2,
+    "feedback": "Shelley's poem 'Time' does not conform to the 14-line sonnet structure."
+  },
+  {
+    "q": "'Thy spells did bind/ To fear himself, and love all human kind is a line from Shelley's:",
+    "options": ["Mutability", "Time", "To a Skylark", "Hymn to Intellectual Beauty"],
+    "correct": 3,
+    "feedback": "This line is a well-known excerpt from 'Hymn to Intellectual Beauty'."
+  },
+  {
+    "q": "Blake's 'Songs of Innocence and of Experience' mainly represented themes about:",
+    "options": ["Religion", "human nature", "Animals", "cruelty"],
+    "correct": 1,
+    "feedback": "Blake's work is a philosophical examination of the two contrary states of human nature."
+  },
+  {
+    "q": "Who described himself as 'a visionary poet'?",
+    "options": ["Shelley", "Coleridge", "Byron", "Blake"],
+    "correct": 3,
+    "feedback": "William Blake famously identified himself as a visionary who saw spiritual realities."
+  },
+  {
+    "q": "Which of the following poems was not written by Coleridge?",
+    "options": ["Ozymandias", "Christabel", "Don Juan", "The Rime of the Ancient Mariner"],
+    "correct": 0,
+    "feedback": "Ozymandias is one of the most celebrated sonnets by Percy Bysshe Shelley."
+  },
+  
+  {
+    "q": "His full name was:",
+    "options": ["Lord Gordon Byron", "Arthur Gordon Byron", "Gordon Junior Byron", "George Gordon Byron"],
+    "correct": 3,
+    "feedback": "George Gordon Byron is the full name of the poet[cite: 1]."
+  },
+  {
+    "q": "He was friends with:",
+    "options": ["Wordsworth", "Coleridge", "Shelley", "All of the above"],
+    "correct": 2,
+    "feedback": "Percy Bysshe Shelley was a close friend and contemporary of Byron[cite: 1]."
+  },
+  {
+    "q": "He started publishing at the age of:",
+    "options": ["15", "20", "28", "17"],
+    "correct": 3,
+    "feedback": "Byron began his published writing career at 17[cite: 1]."
+  },
+  {
+    "q": "The poem that made him famous was:",
+    "options": ["Don Juan", "Childe Harold's Pilgrimage", "The Corsair", "She Walks in Beauty"],
+    "correct": 1,
+    "feedback": "Childe Harold's Pilgrimage brought Byron immediate fame[cite: 1]."
+  },
+  {
+    "q": "His way of life was described as:",
+    "options": ["Serious", "Flamboyant", "Patriotic", "Pious"],
+    "correct": 1,
+    "feedback": "Byron's lifestyle is historically described as flamboyant[cite: 1]."
+  },
+  {
+    "q": "The Byronic hero was characterised by:",
+    "options": ["Sadness", "Violence", "Courage", "Both a and c"],
+    "correct": 3,
+    "feedback": "The Byronic hero often exhibits a mix of sadness and courage[cite: 1]."
+  },
+  {
+    "q": "Which of the following poems was not written by Byron?",
+    "options": ["Queen Mab", "The Corsair", "Darkness", "Don Juan"],
+    "correct": 0,
+    "feedback": "Queen Mab was written by Percy Bysshe Shelley[cite: 1]."
+  },
+  {
+    "q": "Which of the following poems didn't feature the Byronic hero?",
+    "options": ["Darkness", "Don Juan", "The Corsair", "Childe Harold's Pilgrimage"],
+    "correct": 1,
+    "feedback": "Don Juan is distinct from the traditional melancholy Byronic hero archetype[cite: 1]."
+  },
+  {
+    "q": "What kind of movement was Romanticism?",
+    "options": ["Political", "Poetic", "Literary"],
+    "correct": 2,
+    "feedback": "Romanticism is primarily categorized as a literary movement[cite: 1]."
+  },
+  {
+    "q": "Romanticism as a movement placed a great emphasis on:",
+    "options": ["expression", "individualism", "objectivity"],
+    "correct": 1,
+    "feedback": "Individualism is a cornerstone of Romantic philosophy[cite: 1]."
+  },
+  {
+    "q": "(...) was essential, and it could only be achieved through subjectivity.",
+    "options": ["Spontaneity", "innocence", "originality"],
+    "correct": 2,
+    "feedback": "Originality is emphasized as requiring a subjective approach[cite: 1]."
+  },
+  {
+    "q": "Roman, and its use in European languages such as French, German, and Russian in the (...) to refer to the literary genre known in English as the 'novel'.",
+    "options": ["17th century", "18th century", "19th century"],
+    "correct": 0,
+    "feedback": "The term 'roman' began to be used in this context in the 17th century[cite: 1]."
+  },
+  {
+    "q": "One of the main classical western values is:",
+    "options": ["Realism", "objectivity", "truth"],
+    "correct": 1,
+    "feedback": "Objectivity is considered one of the core classical values[cite: 1]."
+  },
+  {
+    "q": "Focus on the mysterious human nature in Romanticism was often linked to another interest in:",
+    "options": ["The supernatural", "Science", "Psychology"],
+    "correct": 0,
+    "feedback": "Romanticism frequently linked human mystery to the supernatural[cite: 1]."
+  },
+  {
+    "q": "(...) lasted through the sixteenth, seventeenth, and eighteenth centuries.",
+    "options": ["The French Revolution", "Enlightenment", "the scientific Revolution"],
+    "correct": 2,
+    "feedback": "The Scientific Revolution spanned these three centuries[cite: 1]."
+  },
+  {
+    "q": "Some associate the Enlightenment with the works of:",
+    "options": ["Rene Descartes", "Napoleon", "Albert Einstein"],
+    "correct": 0,
+    "feedback": "René Descartes is often associated with the foundations of Enlightenment thought[cite: 1]."
+  },
+  {
+    "q": "(...) in art focused on painting everyday objects without artistic embellishment.",
+    "options": ["Classicism", "Realism", "Romanticism"],
+    "correct": 1,
+    "feedback": "Realism is defined by its focus on depicting everyday objects as they are[cite: 1]."
+  },
+  {
+    "q": "Industrialization in 19th-century Britain led to:",
+    "options": ["Unemployment", "Famine", "Urbanism"],
+    "correct": 2,
+    "feedback": "Industrialization caused mass movement to cities, leading to urbanism[cite: 1]."
+  },
+  {
+    "q": "Population in Ireland dropped to a half between 1845 and 1852 because of:",
+    "options": ["The Great Famine", "Migration to Europe", "Unemployment"],
+    "correct": 0,
+    "feedback": "The Great Famine caused massive population loss in Ireland during this period[cite: 1]."
+  },
+  {
+    "q": "New subsectors of Christianity emerged including the Methodists and the Evangelicals in:",
+    "options": ["The 20th century", "the Victorian Age", "Age of Enlightenment"],
+    "correct": 1,
+    "feedback": "These groups saw significant growth during the Victorian Age[cite: 1]."
+  },
+  {
+    "q": "Unpremeditated art",
+    "options": ["Wordsworth", "Blake", "Byron", "Shelley"],
+    "correct": 3,
+    "feedback": "This phrasing is associated with Shelley[cite: 1]."
+  },
+  {
+    "q": "hungry gore",
+    "options": ["Wordsworth", "Blake", "Byron", "Shelley"],
+    "correct": 1,
+    "feedback": "According to the provided key, this is attributed to Blake[cite: 1]."
+  },
+  {
+    "q": "Men forgot their passions",
+    "options": ["Wordsworth", "Blake", "Byron", "Shelley"],
+    "correct": 2,
+    "feedback": "According to the provided key, this is attributed to Byron[cite: 1]."
+  },
+  {
+    "q": "I sought for ghosts",
+    "options": ["Wordsworth", "Blake", "Byron", "Shelley"],
+    "correct": 3,
+    "feedback": "According to the provided key, this is attributed to Shelley[cite: 1]."
+  },
+  {
+    "q": "Getting and spending",
+    "options": ["Wordsworth", "Blake", "Byron", "Shelley"],
+    "correct": 0,
+    "feedback": "This is a famous line from Wordsworth[cite: 1]."
+  },
+  {
+    "q": "Thoughts serenely sweet",
+    "options": ["Wordsworth", "Blake", "Byron", "Shelley"],
+    "correct": 2,
+    "feedback": "According to the provided key, this is attributed to Byron[cite: 1]."
+  },
+  {
+    "q": "Half sunk a shattered visage",
+    "options": ["Wordsworth", "Blake", "Byron", "Shelley"],
+    "correct": 3,
+    "feedback": "This line is from Ozymandias by Shelley[cite: 1]."
+  },
+  {
+    "q": "Kubla heard from far/Ancestral voices",
+    "options": ["Wordsworth", "Blake", "Byron", "Shelley"],
+    "correct": 1,
+    "feedback": "The provided key attributes this to Blake[cite: 1]."
+  },
+  {
+    "q": "Babe can never hunger here",
+    "options": ["Wordsworth", "Blake", "Byron", "Shelley"],
+    "correct": 1,
+    "feedback": "According to the provided key, this is attributed to Blake[cite: 1]."
+  },
+  {
+    "q": "What dread hand and what dread feet",
+    "options": ["Wordsworth", "Blake", "Byron", "Shelley"],
+    "correct": 1,
+    "feedback": "This is a famous line from Blake's 'The Tyger'[cite: 1]."
+  },
+  
+  {
+    "q": "What kind of movement was Romanticism?",
+    "options": ["Social", "Political", "Literary"],
+    "correct": 2,
+    "feedback": "Romanticism is primarily categorized as a literary movement[cite: 1]."
+  },
+  {
+    "q": "Romanticism as a movement placed the greatest emphasis on:",
+    "options": ["expression", "individualism", "emotions"],
+    "correct": 1,
+    "feedback": "Individualism is widely considered the central focus of the Romantic movement[cite: 1]."
+  },
+  {
+    "q": "(...) was essential, and it could only be achieved through subjectivity.",
+    "options": ["Spontaneity", "innocence", "originality", "nationalism"],
+    "correct": 2,
+    "feedback": "Originality is emphasized as a key quality requiring a subjective approach[cite: 1]."
+  },
+  {
+    "q": "Which of the following had a minimal influence on British romantics?",
+    "options": ["the supernatural", "spirituality", "nationalism"],
+    "correct": 2,
+    "feedback": "Nationalism is often cited as having less influence compared to the focus on the supernatural and spirituality[cite: 1]."
+  },
+  {
+    "q": "One of the main classical western values is:",
+    "options": ["Realism", "objectivity"],
+    "correct": 1,
+    "feedback": "Objectivity is a fundamental value associated with the classical tradition[cite: 1]."
+  },
+  {
+    "q": "One of the following was not a mathematical scientist:",
+    "options": ["Francis Bacon", "Rene Descartes", "Isaac Newton"],
+    "correct": 0,
+    "feedback": "Francis Bacon is primarily known for his contributions to the scientific method and philosophy rather than being a mathematical scientist in the same vein as Descartes or Newton[cite: 1]."
+  },
+  {
+    "q": "(...) lasted through the sixteenth, seventeenth, and eighteenth centuries",
+    "options": ["The French Revolution", "Enlightenment", "the scientific Revolution"],
+    "correct": 2,
+    "feedback": "The Scientific Revolution spanned these three centuries[cite: 1]."
+  },
+  {
+    "q": "How many Reform Acts were introduced in Britain during the 19th century?",
+    "options": ["One", "Two", "None"],
+    "correct": 1,
+    "feedback": "Two major Reform Acts were introduced during the 19th century (1832 and 1867)[cite: 1]."
+  },
+  {
+    "q": "Romantics were mainly:",
+    "options": ["Athiests", "Religious", "Not necessarily either"],
+    "correct": 2,
+    "feedback": "Romanticism was not strictly defined by atheism or religious adherence; it varied among individual poets[cite: 1]."
+  },
+  {
+    "q": "Industrialization in 19th-century Britain was mainly responsible for:",
+    "options": ["Unemployment", "Famine and plague", "Urbanism"],
+    "correct": 2,
+    "feedback": "Industrialization led to significant urbanization as populations moved to cities for work[cite: 1]."
+  },
+  {
+    "q": "Population in Ireland dropped to a half between 1845 and 1852 because of:",
+    "options": ["The Great Famine", "Migration to Europe", "Unemployment"],
+    "correct": 0,
+    "feedback": "The Great Famine (1845–1852) caused a massive population decline in Ireland[cite: 1]."
+  },
+  {
+    "q": "New subsectors of Christianity emerged including the Methodists and the Evangelicals in:",
+    "options": ["The 20th century", "the Victorian Age", "Age of Enlightenment"],
+    "correct": 1,
+    "feedback": "The Victorian Age saw the rise of these religious movements[cite: 1]."
+  },
+  {
+    "q": "In profuse strains of unpremeditated art (Identify the poet)",
+    "options": ["Wordsworth", "Blake", "Coleridge", "Shelley"],
+    "correct": 3,
+    "feedback": "This line is from Shelley's 'To a Skylark'[cite: 1]."
+  },
+  {
+    "q": "The human heart, its hungry gore (Identify the poet)",
+    "options": ["Wordsworth", "Blake", "Coleridge", "Shelley"],
+    "correct": 1,
+    "feedback": "This phrase is attributed to the poetry of William Blake[cite: 1]."
+  },
+  {
+    "q": "A spring of love gushed from my heart (Identify the poet)",
+    "options": ["Wordsworth", "Blake", "Coleridge", "Shelley"],
+    "correct": 2,
+    "feedback": "This line appears in Coleridge's 'The Rime of the Ancient Mariner'[cite: 1]."
+  },
+  {
+    "q": "In thy ebb and flow/ claspests the limits of mortality (Identify the poet)",
+    "options": ["Wordsworth", "Blake", "Coleridge", "Shelley"],
+    "correct": 3,
+    "feedback": "This line is associated with Shelley[cite: 1]."
+  },
+  {
+    "q": "The river glideth at his own sweet will (Identify the poet)",
+    "options": ["Wordsworth", "Blake", "Coleridge", "Shelley"],
+    "correct": 0,
+    "feedback": "This line is from Wordsworth's 'Composed upon Westminster Bridge'[cite: 1]."
+  },
+  {
+    "q": "The hand that mocked them (Identify the poet)",
+    "options": ["Wordsworth", "Blake", "Coleridge", "Shelley"],
+    "correct": 3,
+    "feedback": "This line is from Shelley's 'Ozymandias'[cite: 1]."
+  },
+  {
+    "q": "Half sunk a shattered visage (Identify the poet)",
+    "options": ["Wordsworth", "Blake", "Coleridge", "Shelley"],
+    "correct": 3,
+    "feedback": "This line is also from Shelley's 'Ozymandias'[cite: 1]."
+  },
+  {
+    "q": "I closed my lids, and kept them closed (Identify the poet)",
+    "options": ["Wordsworth", "Blake", "Coleridge", "Shelley"],
+    "correct": 2,
+    "feedback": "This line is from Part III of 'The Rime of the Ancient Mariner' by Samuel Taylor Coleridge."
+  },
+  {
+    "q": "And all must love the human form (Identify the poet)",
+    "options": ["Wordsworth", "Blake", "Coleridge", "Shelley"],
+    "correct": 1,
+    "feedback": "This line is from Blake's 'The Divine Image'[cite: 1]."
+  },
+  {
+    "q": "Maids at the wheel, the weaver at his loom (Identify the poet)",
+    "options": ["Wordsworth", "Blake", "Coleridge", "Shelley"],
+    "correct": 0,
+    "feedback": "This line is attributed to Wordsworth[cite: 1]."
+  }
+
+
+
+
+
+]}
