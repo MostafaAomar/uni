@@ -1,504 +1,503 @@
 {
-  "subject": "  المسرح في العصر الحديث سنة رابعة ف2 - Waiting for Godot , Major Barbara، د. واحة ",
-  "lang": "en",
+  "subject": "المسرح في العصر الحديث سنة رابعة ف2 - Waiting for Godot , Major Barbara، د. واحة",
+  "lang": "ar",
   "questions": [
- 
-  {
-    "q": "1. Vladimir and Estragon are brothers.",
-    "options": ["True", "False"],
-    "correct": 1,
-    "feedback": "فلاديمير وإستراغون صديقان وليسا أخوين. علاقتهما معقدة ولكنها ليست علاقة أخوة."
-  },
-  {
-    "q": "2. The play is set in a single location, a barren tree by a country road.",
-    "options": ["True", "False"],
-    "correct": 0,
-    "feedback": "تدور أحداث المسرحية بالفعل في مكان واحد وهو طريق ريفي به شجرة جرداء، مما يعزز الشعور بالخواء وعدم التغيير."
-  },
-  {
-    "q": "3. The relationship between Pozzo and Lucky doesn't change throughout the play.",
-    "options": ["True", "False"],
-    "correct": 1,
-    "feedback": "العلاقة بينهما تتغير بشكل كبير. في الفصل الثاني، يصبح بوزو أعمى ومعتمداً كلياً على لاكي، وهو انعكاس كامل لديناميكية القوة التي كانت في الفصل الأول."
-  },
-  {
-    "q": "4. The play is written in a linear narrative style with a clear resolution at the end.",
-    "options": ["True", "False"],
-    "correct": 1,
-    "feedback": "المسرحية مشهورة ببنيتها الدائرية وغير الخطية. تنتهي كما بدأت تقريباً، بدون أي حل أو نهاية واضحة، وهذه سمة أساسية لمسرح العبث."
-  },
-  {
-    "q": "5. Beckett explicitly stated that Godot represents God, making the play a religious allegory.",
-    "options": ["True", "False"],
-    "correct": 1,
-    "feedback": "بيكيت رفض بشكل قاطع تحديد هوية غودو، وترك المعنى مفتوحاً للتأويل. لم يصرح أبداً بأن غودو يمثل الإله."
-  },
-  {
-    "q": "6. Beckett shares with James Joyce his preoccupation with the limits of:",
-    "options": ["Language", "Words", "Memories", "Perceptions"],
-    "correct": 0,
-    "feedback": "كلا الكاتبين، بيكيت وجويس، كانا مهووسين بحدود اللغة وعجزها عن التعبير الكامل عن التجربة الإنسانية."
-  },
-  {
-    "q": "7. The two forms of certainty according to Proust that Beckett introduced as valueless in his play are:",
-    "options": ["Voluntary memory and detailed observations", "Involuntary memory and habitual reality", "Language and dreams", "Change and Involuntary memory"],
-    "correct": 1,
-    "feedback": "في دراسته عن بروست، يرى بيكيت أن الذاكرة اللاإرادية والواقع المعتاد (العادة) هما شكلان من اليقين الزائف الذي لا قيمة له، وهو ما يظهر في المسرحية."
-  },
-  {
-    "q": "8. Albert Camus published his essay 'The Myth of Sisyphus' on absurdism in:",
-    "options": ["1942", "1842", "1862", "1962"],
-    "correct": 0,
-    "feedback": "نشر ألبير كامو مقاله الشهير 'أسطورة سيزيف' الذي يعتبر حجر أساس في فلسفة العبث عام 1942."
-  },
-  {
-    "q": "9. Beckett's theatrical trademark is:",
-    "options": ["Incoherent language", "Intellectual tramps", "Repetition", "Cyclic action"],
-    "correct": 1,
-    "feedback": "شخصية 'المتشرد المثقف' الذي يتفلسف حول الوجود رغم بؤسه، مثل فلاديمير وإستراغون، هي علامة مسرحية مميزة لأعمال بيكيت."
-  },
-  {
-    "q": "10. Pozzo describes what as 'pale and luminous'?",
-    "options": ["The sun", "The moon", "Sunset", "The sky"],
-    "correct": 3,
-    "feedback": "في خطابه الشعري عن الليل، يصف بوزو السماء بأنها 'شاحبة ومضيئة'."
-  },
-  {
-    "q": "11. Pozzo commented on his blindness as being a form of:",
-    "options": ["Change", "Destiny", "Death", "Punishment"],
-    "correct": 2,
-    "feedback": "عندما يصبح بوزو أعمى، فإنه يربط حالته بالموت، قائلاً إن الولادة والموت يحدثان في لحظة واحدة، مما يعكس عبثية الزمن."
-  },
-  {
-    "q": "12. Sports and tennis in Lucky's monologue refer to man's attempt to compensate for the loss of all but one of the following:",
-    "options": ["Love", "Certainty", "Companionship", "Purpose"],
-    "correct": 1,
-    "feedback": "مونولوج لاكي يشير إلى أن الأنشطة البشرية مثل الرياضة هي محاولات يائسة لتعويض فقدان اليقين والمعنى في عالم لا مبالٍ."
-  },
-  {
-    "q": "13. Vladimir suffers the most because of:",
-    "options": ["Waiting", "Hopelessness", "Overthinking", "Idleness"],
-    "correct": 0,
-    "feedback": "معاناة فلاديمير الرئيسية تأتي من فعل الانتظار نفسه، وما يرافقه من أمل وخيبة أمل متكررين."
-  },
-  {
-    "q": "14. In Keller's 'A Strange Situation', the relationship between Pozzo and Lucky is mainly described as being:",
-    "options": ["Codependent", "Toxic", "Nurturing", "Deceptive"],
-    "correct": 0,
-    "feedback": "تصف كيلر العلاقة بأنها اعتمادية متبادلة (Codependent)، حيث لا يستطيع أي منهما الانفصال عن الآخر رغم طبيعتها الاستغلالية."
-  },
-  {
-    "q": "15. Vladimir interrogates the boy because he wants to:",
-    "options": ["Test his truthfulness", "Understand him", "Understand Godot", "All of the above"],
-    "correct": 2,
-    "feedback": "محاولة فلاديمير استجواب الصبي هي محاولته اليائسة للحصول على أي معلومة مؤكدة عن غودو الغامض."
-  },
-  {
-    "q": "16. Critics tend to value the play mostly for its:",
-    "options": ["Didactics", "Codification", "Humour", "Minimalism"],
-    "correct": 2,
-    "feedback": "على الرغم من سوداويتها، فإن المسرحية تحظى بتقدير كبير لعنصر الكوميديا والفكاهة السوداء التي تجعل مأساة الشخصيات محتملة."
-  },
-  {
-    "q": "17. The first part of Shaw's preface was entitled:",
-    "options": ["First Aid to Critics", "Pocket Guide to Critics", "First Guide to Critics", "In Aid of Critics"],
-    "correct": 0,
-    "feedback": "الجزء الأول من مقدمة شو لمسرحية 'ميجر باربرا' يحمل عنوان 'إسعافات أولية للنقاد'."
-  },
-  {
-    "q": "18. In the last part of his preface Shaw said that he is:",
-    "options": ["A revolutionary writer", "A social advocate", "An anarchist", "All of the above"],
-    "correct": 0,
-    "feedback": "في نهاية مقدمته، يصف شو نفسه بأنه كاتب ثوري يهدف إلى تغيير المجتمع من خلال أعماله."
-  },
-  {
-    "q": "19. In 'The Gospel of St. Andrew Undershaft' Shaw suggests that civilisation cannot flourish without:",
-    "options": ["Democracy", "Money", "War", "Morality"],
-    "correct": 1,
-    "feedback": "يجادل أندرشاف بأن الفقر هو الجريمة الكبرى، وأن الحضارة لا يمكن أن تزدهر بدون المال والقوة الاقتصادية."
-  },
-  {
-    "q": "20. Cusins told Barbara that he decided to sell his soul to Undershaft for:",
-    "options": ["A chance at greatness", "Her sake", "Truth and power", "All of the above"],
-    "correct": 2,
-    "feedback": "يبرر كوزينز قراره بأنه يبيع روحه من أجل الحقيقة والقوة، معتبراً أن القوة الحقيقية تكمن في السيطرة على وسائل الإنتاج."
-  },
-  {
-    "q": "21. Shaw mentioned that when money is 'cheapened to worthlessness', it becomes:",
-    "options": ["Valueless", "Tainted", "A curse", "A weapon"],
-    "correct": 2,
-    "feedback": "في المقدمة، يوضح شو أنه عندما يفقد المال قيمته ويصبح رخيصاً، فإنه يتحول إلى لعنة بدلاً من كونه نعمة."
-  },
-  {
-    "q": "22. Shaw suggests that refusing salvation to Bill but making it available to Budger is an act of:",
-    "options": ["Favouritism", "Double standards", "Biased", "Hypocrisy"],
-    "correct": 1,
-    "feedback": "ينتقد شو المعايير المزدوجة لجيش الخلاص، الذي يرفض مساعدة الفقير العنيف (بيل) بينما يقبل تبرعات الأثرياء الفاسدين (بادجر)."
-  },
-  {
-    "q": "23. In talking about his workers' living conditions, Undershaft says that 'cleanliness' needs no:",
-    "options": ["Excuse", "Justification", "Saving", "Explanation"],
-    "correct": 1,
-    "feedback": "يقول أندرشافت إن النظافة والرفاهية لا تحتاجان إلى تبرير، بل هما حق طبيعي يجب توفيره للجميع."
-  },
-  {
-    "q": "24. In talking about war, Undershaft said that it didn't matter if things were wrong if they were:",
-    "options": ["Necessary", "True", "Effective", "Powerful"],
-    "correct": 1,
-    "feedback": "وفقاً لفلسفة أندرشافت، فإن الحقيقة والقوة هما ما يهمان، حتى لو كانت الأفعال خاطئة من منظور أخلاقي تقليدي."
-  },
-  {
-    "q": "25. Snobby Price said that he was ready to take whatever was made available to him like:",
-    "options": ["The realists", "The socialists", "The Romans", "The capitalists"],
-    "correct": 1,
-    "feedback": "سنوبي برايس، في سخريته، يدعي أنه مستعد لأخذ أي شيء متاح له مثل الاشتراكيين، مما يعكس انتهازيته."
-  },
-  {
-    "q": "26. Who criticised the habit of confession in the play?",
-    "options": ["Undershaft", "Bill Walker", "Britomart", "Cusins"],
-    "correct": 1,
-    "feedback": "بيل ووكر هو من ينتقد عادة الاعتراف في جيش الخلاص، معتبراً إياها مهينة وغير صادقة."
-  },
-  {
-    "q": "27. Who warned Cusins that Barbara might find out that he is not a true believer in the Salvation Army?",
-    "options": ["Britomart", "Undershaft", "Both a & b", "None did"],
-    "correct": 2,
-    "feedback": "كل من والدتها (بريتومارت) ووالدها (أندرشافت) حذرا كوزينز من أن باربرا قد تكتشف عدم إيمانه الحقيقي."
-  },
-  {
-    "q": "28. Undershaft said that democracy wouldn't go hand in hand with:",
-    "options": ["Anxiety", "Morality", "Freedom", "Security"],
-    "correct": 0,
-    "feedback": "يرى أندرشافت أن الديمقراطية لا يمكن أن تتعايش مع القلق، لأنها تتطلب مواطنين آمنين ومستقرين اقتصادياً."
-  },
-  {
-    "q": "29. Who laid the foundations of the well-made play?",
-    "options": ["Eugene Scribe", "Emile Zola", "Henrik Ibsen", "None of the above"],
-    "correct": 0,
-    "feedback": "يُنسب الفضل إلى الكاتب المسرحي الفرنسي يوجين سكريب في وضع أسس وقواعد 'المسرحية جيدة الصنع'."
-  },
-  {
-    "q": "30. A Realist play replaces the logical ending of the well-made play by:",
-    "options": ["A shocking event", "A tragic event", "A discussion", "Both a & b"],
-    "correct": 2,
-    "feedback": "المسرحية الواقعية، كما طورها إبسن وشو، غالباً ما تنتهي بنقاش مفتوح بدلاً من الخاتمة المنطقية والمغلقة للمسرحية جيدة الصنع."
-  },
-  {
-    "q": "31. The well-made play is a prototype of the:",
-    "options": ["The Naturalist play", "The realist play", "The moralist play", "None of the above"],
-    "correct": 1,
-    "feedback": "تعتبر 'المسرحية جيدة الصنع' النموذج الأولي الذي تطورت عنه المسرحية الواقعية لاحقاً."
-  },
-  {
-    "q": "32. Henrik Ibsen was:",
-    "options": ["French", "Irish", "German", "Norwegian"],
-    "correct": 3,
-    "feedback": "هنريك إبسن، أبو المسرح الواقعي الحديث، كان كاتباً مسرحياً نرويجياً."
-  },
-  {
-    "q": "33. Shaw's contribution to the feminist movement includes:",
-    "options": [
-      "Writing exclusively about women's domestic roles",
-      "Creating complex and resilient female characters",
-      "Avoiding any feminist themes in his plays",
-      "Promoting women's inferiority to men"
-    ],
-    "correct": 1,
-    "feedback": "ساهم شو في الحركة النسوية من خلال خلق شخصيات نسائية معقدة وقوية ومرنة تتحدى الأدوار التقليدية للمرأة."
-  },
-  {
-    "q": "34. In the preface to 'Major Barbara,' Shaw argues that all money:",
-    "options": [
-      "Is inherently evil",
-      "Can be used for good regardless of its origin",
-      "Should be avoided by charitable organizations",
-      "Is the root of all societal problems"
-    ],
-    "correct": 1,
-    "feedback": "يجادل شو بأن المال، بغض النظر عن مصدره، يمكن استخدامه لتحقيق الخير، وأن رفض 'المال الملوث' هو نفاق."
-  },
-  {
-    "q": "35. Shaw was a key figure in which society?",
-    "options": ["The Socialist Workers Party", "The Fabian Society", "The Labor Union", "The Communist Party"],
-    "correct": 1,
-    "feedback": "كان جورج برنارد شو شخصية رئيسية ومؤثرة في الجمعية الفابية (The Fabian Society)، التي دعت إلى الاشتراكية التدريجية."
-  },
-  {
-    "q": "36. According to Bernard Shaw, what is the best instrument for moral propaganda?",
-    "options": ["Personal conduct", "Fine art", "The stage", "All of the above"],
-    "correct": 2,
-    "feedback": "كان شو يعتقد أن المسرح هو أفضل أداة للدعاية الأخلاقية ونشر أفكاره الإصلاحية الاجتماعية."
-  },
-  {
-    "q": "37. In 'Waiting for Godot,' the characters Vladimir and Estragon may symbolize:",
-    "options": ["A typical hero and villain", "The intellectual mind and the physical body", "A teacher and a student", "Pure good and evil"],
-    "correct": 1,
-    "feedback": "غالباً ما يتم تفسير فلاديمير (المفكر) وإستراغون (الجسدي) كرمز للانقسام بين العقل والجسد في الإنسان."
-  },
-  {
-    "q": "38. Which of the following is a characteristic of the world depicted in Beckett's plays?",
-    "options": [
-      "Optimistic portrayals of human progress and achievement",
-      "A structured and logical sequence of events",
-      "A strong emphasis on the importance of individual freedom",
-      "A rejection of conventional reality"
-    ],
-    "correct": 3,
-    "feedback": "تتميز عوالم بيكيت برفضها للواقع التقليدي والمنطق، وتقديمها لوجود مجزأ وغير متماسك."
-  },
-  {
-    "q": "39. Beckett's legacy is primarily associated with:",
-    "options": ["Gothic fiction", "Political satires", "Absurdist theater", "Science fiction"],
-    "correct": 2,
-    "feedback": "يرتبط إرث بيكيت بشكل أساسي بمسرح العبث، الذي كان أحد رواده الرئيسيين."
-  },
-  {
-    "q": "40. Plays of the 'theatre of the absurd' usually lack:",
-    "options": ["Traditional concept of plot", "Traditional characterization", "Logical structure", "All of the above"],
-    "correct": 3,
-    "feedback": "يفتقر مسرح العبث عادةً إلى الحبكة التقليدية، والشخصيات المتطورة، والبنية المنطقية، مما يعكس فوضى الوجود."
-  },
-  
-  {
-    "q": "1. The first part of Shaw's preface was entitled:",
-    "options": ["First Aid to Critics", "Pocket Guide to Critics", "First Guide to Critics", "In Aid of Critics"],
-    "correct": 0,
-    "feedback": "الجزء الأول من مقدمة شو لمسرحية 'ميجر باربرا' يحمل عنوان 'إسعافات أولية للنقاد'."
-  },
-  {
-    "q": "2. In the last part of his preface Shaw said that he is:",
-    "options": ["A revolutionary writer", "A social advocate", "An anarchist", "All of the above"],
-    "correct": 0,
-    "feedback": "في نهاية مقدمته، يصف شو نفسه بأنه كاتب ثوري يهدف إلى تغيير المجتمع من خلال أعماله."
-  },
-  {
-    "q": "3. Shaw cited Charles Lever's novel entitled:",
-    "options": ["A Life's Romance", "A Day's Romance", "A Day's Ride", "All of the above"],
-    "correct": 3,
-    "feedback": "يستشهد شو برواية تشارلز ليفر 'A Day's Ride' كمثال على عمل يشارك مسرحيته في موضوع خيبة الأمل."
-  },
-  {
-    "q": "4. Shaw suggests that what his play has in common with Lever and Ibsen is its:",
-    "options": ["Focus on gender issues", "Highlighting Romantic ideals", "Theme of disillusionment", "None of the above"],
-    "correct": 2,
-    "feedback": "يرى شو أن القاسم المشترك بين مسرحيته وأعمال ليفر وإبسن هو موضوع خيبة الأمل وفقدان الأوهام."
-  },
-  {
-    "q": "5. In 'The Gospel of St. Andrew Undershaft' Shaw suggests that civilisation cannot flourish without:",
-    "options": ["Democracy", "Money", "War", "Morality"],
-    "correct": 1,
-    "feedback": "يجادل أندرشاف بأن الفقر هو الجريمة الكبرى، وأن الحضارة لا يمكن أن تزدهر بدون المال والقوة الاقتصادية."
-  },
-  {
-    "q": "6. Cusins told Barbara that he decided to sell his soul to Undershaft for:",
-    "options": ["A chance at greatness", "Her sake", "Truth and power", "All of the above"],
-    "correct": 2,
-    "feedback": "يبرر كوزينز قراره بأنه يبيع روحه من أجل الحقيقة والقوة، معتبراً أن القوة الحقيقية تكمن في السيطرة على وسائل الإنتاج."
-  },
-  {
-    "q": "7. Shaw mentioned that when money is 'cheapened to worthlessness', it becomes:",
-    "options": ["Valueless", "Tainted", "A curse", "A weapon"],
-    "correct": 2,
-    "feedback": "في المقدمة، يوضح شو أنه عندما يفقد المال قيمته ويصبح رخيصاً، فإنه يتحول إلى لعنة بدلاً من كونه نعمة."
-  },
-  {
-    "q": "8. Shaw suggests that refusing salvation to Bill but making it available to Budger is an act of:",
-    "options": ["Favouritism", "Double standards", "Biased", "Hypocrisy"],
-    "correct": 1,
-    "feedback": "ينتقد شو المعايير المزدوجة لجيش الخلاص، الذي يرفض مساعدة الفقير العنيف (بيل) بينما يقبل تبرعات الأثرياء الفاسدين (بادجر)."
-  },
-  {
-    "q": "9. In talking about his workers' living conditions, Undershaft says that 'cleanliness' needs no:",
-    "options": ["Excuse", "Justification", "Saving", "Explanation"],
-    "correct": 1,
-    "feedback": "يقول أندرشافت إن النظافة والرفاهية لا تحتاجان إلى تبرير، بل هما حق طبيعي يجب توفيره للجميع."
-  },
-  {
-    "q": "10. In talking about war, Undershaft said that it didn't matter if things were wrong if they were:",
-    "options": ["Necessary", "True", "Effective", "Powerful"],
-    "correct": 1,
-    "feedback": "وفقاً لفلسفة أندرشافت، فإن الحقيقة والقوة هما ما يهمان، حتى لو كانت الأفعال خاطئة من منظور أخلاقي تقليدي."
-  },
-  {
-    "q": "11. Snobby Price said that he was ready to take whatever was made available to him like:",
-    "options": ["The realists", "The socialists", "The Romans", "The capitalists"],
-    "correct": 0,
-    "feedback": "سنوبي برايس، في سخريته، يدعي أنه مستعد لأخذ أي شيء متاح له مثل الواقعيين، مما يعكس انتهازيته."
-  },
-  {
-    "q": "12. Who criticised the habit of confession in the play?",
-    "options": ["Undershaft", "Bill Walker", "Britomart", "Cusins"],
-    "correct": 3,
-    "feedback": "كوزينز هو من ينتقد عادة الاعتراف في جيش الخلاص، معتبراً إياها مهينة وغير صادقة."
-  },
-  {
-    "q": "13. Who warned Cusins that Barbara might find out he is not a true believer in the Salvation Army?",
-    "options": ["Britomart", "Undershaft", "Both a & b", "None did"],
-    "correct": 2,
-    "feedback": "كل من والدتها (بريتومارت) ووالدها (أندرشافت) حذرا كوزينز من أن باربرا قد تكتشف عدم إيمانه الحقيقي."
-  },
-  {
-    "q": "14. Cusins said: 'One man's meat is another man's poison' referring to the fact that:",
-    "options": ["Life is built on exploitation", "Money can be good and evil", "Personal interest comes first", "There is no one fixed value for anything"],
-    "correct": 3,
-    "feedback": "يستخدم كوزينز هذا المثل للإشارة إلى نسبية القيم، وأن ما يعتبر جيداً لشخص قد يكون سيئاً لآخر."
-  },
-  {
-    "q": "15. Undershaft said that democracy wouldn't go hand in hand with:",
-    "options": ["Anxiety", "Morality", "Freedom", "Security"],
-    "correct": 0,
-    "feedback": "يرى أندرشافت أن الديمقراطية لا يمكن أن تتعايش مع القلق، لأنها تتطلب مواطنين آمنين ومستقرين اقتصادياً."
-  },
-  {
-    "q": "16. Who laid the foundations of the well-made play?",
-    "options": ["Eugene Scribe", "Emile Zola", "Henrik Ibsen", "None of the above"],
-    "correct": 0,
-    "feedback": "يُنسب الفضل إلى الكاتب المسرحي الفرنسي يوجين سكريب في وضع أسس وقواعد 'المسرحية جيدة الصنع'."
-  },
-  {
-    "q": "17. A Realist play replaces the logical ending of the well-made play by:",
-    "options": ["A shocking event", "A tragic event", "A discussion", "Both a & b"],
-    "correct": 2,
-    "feedback": "المسرحية الواقعية، كما طورها إبسن وشو، غالباً ما تنتهي بنقاش مفتوح بدلاً من الخاتمة المنطقية والمغلقة للمسرحية جيدة الصنع."
-  },
-  {
-    "q": "18. Ibsen's A Doll House is often compared to which play by Shaw?",
-    "options": ["Widowers' Houses", "Candida", "Major Barbara", "Man and Superman"],
-    "correct": 1,
-    "feedback": "غالباً ما تتم مقارنة مسرحية 'بيت الدمية' لإبسن بمسرحية 'كانديدا' لشو بسبب تناولهما لموضوع 'المرأة الجديدة' واستقلالها."
-  },
-  {
-    "q": "19. The well-made play is a prototype of the:",
-    "options": ["The Naturalist play", "The realist play", "The moralist play", "None of the above"],
-    "correct": 3,
-    "feedback": "تعتبر 'المسرحية جيدة الصنع' النموذج الأولي الذي تطورت عنه المسرحية الواقعية (The realist play)، وهي غير مدرجة كخيار."
-  },
-  {
-    "q": "20. Henrik Ibsen was:",
-    "options": ["French", "Irish", "German", "Norwegian"],
-    "correct": 3,
-    "feedback": "هنريك إبسن، أبو المسرح الواقعي الحديث، كان كاتباً مسرحياً نرويجياً."
-  },
-  {
-    "q": "21. Beckett shares with James Joyce his preoccupation with the limits of:",
-    "options": ["Language", "Words", "Memories", "Perceptions"],
-    "correct": 0,
-    "feedback": "كلا الكاتبين، بيكيت وجويس، كانا مهووسين بحدود اللغة وعجزها عن التعبير الكامل عن التجربة الإنسانية."
-  },
-  {
-    "q": "22. The two forms of certainty according to Proust that Beckett introduced as valueless in his play are:",
-    "options": ["Voluntary memory and detailed observations", "Involuntary memory and habitual reality", "Language and dreams", "Change and involuntary memory"],
-    "correct": 1,
-    "feedback": "في دراسته عن بروست، يرى بيكيت أن الذاكرة اللاإرادية والواقع المعتاد (العادة) هما شكلان من اليقين الزائف الذي لا قيمة له، وهو ما يظهر في المسرحية."
-  },
-  {
-    "q": "23. One of the following characters loses his memory constantly:",
-    "options": ["Estragon", "Vladimir", "Pozzo", "Godot"],
-    "correct": 0,
-    "feedback": "إستراغون يعاني من ذاكرة ضعيفة للغاية، وينسى الأحداث والشخصيات باستمرار، مما يرمز إلى عدم استقرار الوجود."
-  },
-  {
-    "q": "24. Evan Turgenev introduced Nihilism to literature in his novel Fathers and Sons published in:",
-    "options": ["1942", "1842", "1862", "1962"],
-    "correct": 2,
-    "feedback": "قدم إيفان تورغينيف مفهوم العدمية (Nihilism) في الأدب من خلال روايته 'آباء وأبناء' التي نشرت عام 1862."
-  },
-  {
-    "q": "25. Albert Camus published his essay 'The Myth of Sisyphus' on absurdism in:",
-    "options": ["1942", "1842", "1862", "1962"],
-    "correct": 0,
-    "feedback": "نشر ألبير كامو مقاله الشهير 'أسطورة سيزيف' الذي يعتبر حجر أساس في فلسفة العبث عام 1942."
-  },
-  {
-    "q": "26. Beckett's theatrical trademark is:",
-    "options": ["Incoherent language", "Intellectual tramps", "Repetition", "Cyclic action"],
-    "correct": 1,
-    "feedback": "شخصية 'المتشرد المثقف' الذي يتفلسف حول الوجود رغم بؤسه، مثل فلاديمير وإستراغون، هي علامة مسرحية مميزة لأعمال بيكيت."
-  },
-  {
-    "q": "27. Beckett highlights the idea of uncertainty in the plays through:",
-    "options": ["Silence", "Repetitive dialogues", "Unreliable memory", "Nightmares"],
-    "correct": 2,
-    "feedback": "يستخدم بيكيت الذاكرة غير الموثوقة للشخصيات (خاصة إستراغون) لتسليط الضوء على فكرة عدم اليقين وانعدام الثبات في الواقع."
-  },
-  {
-    "q": "28. Vladimir's statement that 'habit is a great deadener' was immediately preceded by:",
-    "options": ["The boy's second arrival", "The boy's final exit", "Pozzo and Lucky's final exit", "Pozzo's final speech"],
-    "correct": 1,
-    "feedback": "The correct answer is 'The boy's final exit'."
-  },
-  {
-    "q": "29. Pozzo's two poetic speeches about light, darkness, and vision symbolically describe:",
-    "options": ["The cycle of life", "Day and night", "Waiting and prospect", "Both a & c"],
-    "correct": 3,
-    "feedback": "The correct answer is 'Both a & c'."
-  },
-  {
-    "q": "30. Pozzo describes what as 'pale and luminous'?",
-    "options": ["The sun", "The moon", "Sunset", "The sky"],
-    "correct": 3,
-    "feedback": "The correct answer is 'The sky'."
-  },
-  {
-    "q": "31. What does Lucky mention in his monologue that brings about a spiritual calm in the relationship between individuals and their god?",
-    "options": ["Obedience", "Love", "Dependence", "None of the above"],
-    "correct": 1,
-    "feedback": "The correct answer is 'Love'."
-  },
-  {
-    "q": "32. Pozzo commented on his blindness as being a form of:",
-    "options": ["Change", "Destiny", "Death", "Punishment"],
-    "correct": 2,
-    "feedback": "The correct answer is 'Death'."
-  },
-  {
-    "q": "33. Sports and tennis in Lucky's monologue refer to man's attempt to compensate for the loss of all but one of the following:",
-    "options": ["Love", "Certainty", "Companionship", "Purpose"],
-    "correct": 1,
-    "feedback": "The correct answer is 'Certainty'."
-  },
-  {
-    "q": "34. Vladimir suffers the most because of:",
-    "options": ["Waiting", "Hopelessness", "Overthinking", "Idleness"],
-    "correct": 0,
-    "feedback": "The correct answer is 'Waiting'."
-  },
-  {
-    "q": "35. Vladimir's difficult urination represents his inability to:",
-    "options": ["Cope and adapt", "Forget the past", "Move onto the future", "All of the above"],
-    "correct": 3,
-    "feedback": "The correct answer is 'All of the above'."
-  },
-  {
-    "q": "36. In Keller's 'A Strange Situation', the relationship between Pozzo and Lucky is mainly described as being:",
-    "options": ["Codependent", "Toxic", "Nurturing", "Deceptive"],
-    "correct": 1,
-    "feedback": "The correct answer is 'Toxic'."
-  },
-  {
-    "q": "37. Lucky's monologue and Pozzo's speech are:",
-    "options": ["Ambiguous", "Poetic", "Complementary", "Desperate"],
-    "correct": 2,
-    "feedback": "The correct answer is 'Complementary'."
-  },
-  {
-    "q": "38. Vladimir interrogates the boy because he wants to:",
-    "options": ["Test his truthfulness", "Understand him", "Understand Godot", "All of the above"],
-    "correct": 2,
-    "feedback": "The correct answer is 'Understand Godot'."
-  },
-  {
-    "q": "39. Critics tend to value the play for its:",
-    "options": ["Didactics", "Codification", "Humour", "Minimalism"],
-    "correct": 1,
-    "feedback": "The correct answer is 'Codification'."
-  },
-  {
-    "q": "40. Keller describes 'the terror of psychic annihilation that would result from moving away from a particular person' as:",
-    "options": ["Unbearable", "Confusing", "Damaging", "Unavoidable"],
-    "correct": 0,
-    "feedback": "The correct answer is 'Unbearable'."
-  },
+    {
+      "q": "1. Vladimir and Estragon are brothers.",
+      "options": ["True", "False"],
+      "correct": 1,
+      "feedback": "فلاديمير وإستراغون صديقان وليسا أخوين. علاقتهما معقدة ولكنها ليست علاقة أخوة."
+    },
+    {
+      "q": "2. The play is set in a single location, a barren tree by a country road.",
+      "options": ["True", "False"],
+      "correct": 0,
+      "feedback": "تدور أحداث المسرحية بالفعل في مكان واحد وهو طريق ريفي به شجرة جرداء، مما يعزز الشعور بالخواء وعدم التغيير."
+    },
+    {
+      "q": "3. The relationship between Pozzo and Lucky doesn't change throughout the play.",
+      "options": ["True", "False"],
+      "correct": 1,
+      "feedback": "العلاقة بينهما تتغير بشكل كبير. في الفصل الثاني، يصبح بوزو أعمى ومعتمداً كلياً على لاكي، وهو انعكاس كامل لديناميكية القوة التي كانت في الفصل الأول."
+    },
+    {
+      "q": "4. The play is written in a linear narrative style with a clear resolution at the end.",
+      "options": ["True", "False"],
+      "correct": 1,
+      "feedback": "المسرحية مشهورة ببنيتها الدائرية وغير الخطية. تنتهي كما بدأت تقريباً، بدون أي حل أو نهاية واضحة، وهذه سمة أساسية لمسرح العبث."
+    },
+    {
+      "q": "5. Beckett explicitly stated that Godot represents God, making the play a religious allegory.",
+      "options": ["True", "False"],
+      "correct": 1,
+      "feedback": "بيكيت رفض بشكل قاطع تحديد هوية غودو، وترك المعنى مفتوحاً للتأويل. لم يصرح أبداً بأن غودو يمثل الإله."
+    },
+    {
+      "q": "6. Beckett shares with James Joyce his preoccupation with the limits of:",
+      "options": ["Language", "Words", "Memories", "Perceptions"],
+      "correct": 0,
+      "feedback": "كلا الكاتبين، بيكيت وجويس، كانا مهووسين بحدود اللغة وعجزها عن التعبير الكامل عن التجربة الإنسانية."
+    },
+    {
+      "q": "7. The two forms of certainty according to Proust that Beckett introduced as valueless in his play are:",
+      "options": ["Voluntary memory and detailed observations", "Involuntary memory and habitual reality", "Language and dreams", "Change and Involuntary memory"],
+      "correct": 1,
+      "feedback": "في دراسته عن بروست، يرى بيكيت أن الذاكرة اللاإرادية والواقع المعتاد (العادة) هما شكلان من اليقين الزائف الذي لا قيمة له، وهو ما يظهر في المسرحية."
+    },
+    {
+      "q": "8. Albert Camus published his essay 'The Myth of Sisyphus' on absurdism in:",
+      "options": ["1942", "1842", "1862", "1962"],
+      "correct": 0,
+      "feedback": "نشر ألبير كامو مقاله الشهير 'أسطورة سيزيف' الذي يعتبر حجر أساس في فلسفة العبث عام 1942."
+    },
+    {
+      "q": "9. Beckett's theatrical trademark is:",
+      "options": ["Incoherent language", "Intellectual tramps", "Repetition", "Cyclic action"],
+      "correct": 1,
+      "feedback": "شخصية 'المتشرد المثقف' الذي يتفلسف حول الوجود رغم بؤسه، مثل فلاديمير وإستراغون، هي علامة مسرحية مميزة لأعمال بيكيت."
+    },
+    {
+      "q": "10. Pozzo describes what as 'pale and luminous'?",
+      "options": ["The sun", "The moon", "Sunset", "The sky"],
+      "correct": 3,
+      "feedback": "في خطابه الشعري عن الليل، يصف بوزو السماء بأنها 'شاحبة ومضيئة'."
+    },
+    {
+      "q": "11. Pozzo commented on his blindness as being a form of:",
+      "options": ["Change", "Destiny", "Death", "Punishment"],
+      "correct": 2,
+      "feedback": "عندما يصبح بوزو أعمى، فإنه يربط حالته بالموت، قائلاً إن الولادة والموت يحدثان في لحظة واحدة، مما يعكس عبثية الزمن."
+    },
+    {
+      "q": "12. Sports and tennis in Lucky's monologue refer to man's attempt to compensate for the loss of all but one of the following:",
+      "options": ["Love", "Certainty", "Companionship", "Purpose"],
+      "correct": 1,
+      "feedback": "مونولوج لاكي يشير إلى أن الأنشطة البشرية مثل الرياضة هي محاولات يائسة لتعويض فقدان اليقين والمعنى في عالم لا مبالٍ."
+    },
+    {
+      "q": "13. Vladimir suffers the most because of:",
+      "options": ["Waiting", "Hopelessness", "Overthinking", "Idleness"],
+      "correct": 0,
+      "feedback": "معاناة فلاديمير الرئيسية تأتي من فعل الانتظار نفسه، وما يرافقه من أمل وخيبة أمل متكررين."
+    },
+    {
+      "q": "14. In Keller's 'A Strange Situation', the relationship between Pozzo and Lucky is mainly described as being:",
+      "options": ["Codependent", "Toxic", "Nurturing", "Deceptive"],
+      "correct": 0,
+      "feedback": "تصف كيلر العلاقة بأنها اعتمادية متبادلة (Codependent)، حيث لا يستطيع أي منهما الانفصال عن الآخر رغم طبيعتها الاستغلالية."
+    },
+    {
+      "q": "15. Vladimir interrogates the boy because he wants to:",
+      "options": ["Test his truthfulness", "Understand him", "Understand Godot", "All of the above"],
+      "correct": 2,
+      "feedback": "محاولة فلاديمير استجواب الصبي هي محاولته اليائسة للحصول على أي معلومة مؤكدة عن غودو الغامض."
+    },
+    {
+      "q": "16. Critics tend to value the play mostly for its:",
+      "options": ["Didactics", "Codification", "Humour", "Minimalism"],
+      "correct": 2,
+      "feedback": "على الرغم من سوداويتها، فإن المسرحية تحظى بتقدير كبير لعنصر الكوميديا والفكاهة السوداء التي تجعل مأساة الشخصيات محتملة."
+    },
+    {
+      "q": "17. The first part of Shaw's preface was entitled:",
+      "options": ["First Aid to Critics", "Pocket Guide to Critics", "First Guide to Critics", "In Aid of Critics"],
+      "correct": 0,
+      "feedback": "الجزء الأول من مقدمة شو لمسرحية 'ميجر باربرا' يحمل عنوان 'إسعافات أولية للنقاد'."
+    },
+    {
+      "q": "18. In the last part of his preface Shaw said that he is:",
+      "options": ["A revolutionary writer", "A social advocate", "An anarchist", "All of the above"],
+      "correct": 0,
+      "feedback": "في نهاية مقدمته، يصف شو نفسه بأنه كاتب ثوري يهدف إلى تغيير المجتمع من خلال أعماله."
+    },
+    {
+      "q": "19. In 'The Gospel of St. Andrew Undershaft' Shaw suggests that civilisation cannot flourish without:",
+      "options": ["Democracy", "Money", "War", "Morality"],
+      "correct": 1,
+      "feedback": "يجادل أندرشاف بأن الفقر هو الجريمة الكبرى، وأن الحضارة لا يمكن أن تزدهر بدون المال والقوة الاقتصادية."
+    },
+    {
+      "q": "20. Cusins told Barbara that he decided to sell his soul to Undershaft for:",
+      "options": ["A chance at greatness", "Her sake", "Truth and power", "All of the above"],
+      "correct": 2,
+      "feedback": "يبرر كوزينز قراره بأنه يبيع روحه من أجل الحقيقة والقوة، معتبراً أن القوة الحقيقية تكمن في السيطرة على وسائل الإنتاج."
+    },
+    {
+      "q": "21. Shaw mentioned that when money is 'cheapened to worthlessness', it becomes:",
+      "options": ["Valueless", "Tainted", "A curse", "A weapon"],
+      "correct": 2,
+      "feedback": "في المقدمة، يوضح شو أنه عندما يفقد المال قيمته ويصبح رخيصاً، فإنه يتحول إلى لعنة بدلاً من كونه نعمة."
+    },
+    {
+      "q": "22. Shaw suggests that refusing salvation to Bill but making it available to Budger is an act of:",
+      "options": ["Favouritism", "Double standards", "Biased", "Hypocrisy"],
+      "correct": 1,
+      "feedback": "ينتقد شو المعايير المزدوجة لجيش الخلاص، الذي يرفض مساعدة الفقير العنيف (بيل) بينما يقبل تبرعات الأثرياء الفاسدين (بادجر)."
+    },
+    {
+      "q": "23. In talking about his workers' living conditions, Undershaft says that 'cleanliness' needs no:",
+      "options": ["Excuse", "Justification", "Saving", "Explanation"],
+      "correct": 1,
+      "feedback": "يقول أندرشافت إن النظافة والرفاهية لا تحتاجان إلى تبرير، بل هما حق طبيعي يجب توفيره للجميع."
+    },
+    {
+      "q": "24. In talking about war, Undershaft said that it didn't matter if things were wrong if they were:",
+      "options": ["Necessary", "True", "Effective", "Powerful"],
+      "correct": 1,
+      "feedback": "وفقاً لفلسفة أندرشافت، فإن الحقيقة والقوة هما ما يهمان، حتى لو كانت الأفعال خاطئة من منظور أخلاقي تقليدي."
+    },
+    {
+      "q": "25. Snobby Price said that he was ready to take whatever was made available to him like:",
+      "options": ["The realists", "The socialists", "The Romans", "The capitalists"],
+      "correct": 1,
+      "feedback": "سنوبي برايس، في سخريته، يدعي أنه مستعد لأخذ أي شيء متاح له مثل الاشتراكيين، مما يعكس انتهازيته."
+    },
+    {
+      "q": "26. Who criticised the habit of confession in the play?",
+      "options": ["Undershaft", "Bill Walker", "Britomart", "Cusins"],
+      "correct": 1,
+      "feedback": "بيل ووكر هو من ينتقد عادة الاعتراف في جيش الخلاص، معتبراً إياها مهينة وغير صادقة."
+    },
+    {
+      "q": "27. Who warned Cusins that Barbara might find out that he is not a true believer in the Salvation Army?",
+      "options": ["Britomart", "Undershaft", "Both a & b", "None did"],
+      "correct": 2,
+      "feedback": "كل من والدتها (بريتومارت) ووالدها (أندرشافت) حذرا كوزينز من أن باربرا قد تكتشف عدم إيمانه الحقيقي."
+    },
+    {
+      "q": "28. Undershaft said that democracy wouldn't go hand in hand with:",
+      "options": ["Anxiety", "Morality", "Freedom", "Security"],
+      "correct": 0,
+      "feedback": "يرى أندرشافت أن الديمقراطية لا يمكن أن تتعايش مع القلق، لأنها تتطلب مواطنين آمنين ومستقرين اقتصادياً."
+    },
+    {
+      "q": "29. Who laid the foundations of the well-made play?",
+      "options": ["Eugene Scribe", "Emile Zola", "Henrik Ibsen", "None of the above"],
+      "correct": 0,
+      "feedback": "يُنسب الفضل إلى الكاتب المسرحي الفرنسي يوجين سكريب في وضع أسس وقواعد 'المسرحية جيدة الصنع'."
+    },
+    {
+      "q": "30. A Realist play replaces the logical ending of the well-made play by:",
+      "options": ["A shocking event", "A tragic event", "A discussion", "Both a & b"],
+      "correct": 2,
+      "feedback": "المسرحية الواقعية، كما طورها إبسن وشو، غالباً ما تنتهي بنقاش مفتوح بدلاً من الخاتمة المنطقية والمغلقة للمسرحية جيدة الصنع."
+    },
+    {
+      "q": "31. The well-made play is a prototype of the:",
+      "options": ["The Naturalist play", "The realist play", "The moralist play", "None of the above"],
+      "correct": 1,
+      "feedback": "تعتبر 'المسرحية جيدة الصنع' النموذج الأولي الذي تطورت عنه المسرحية الواقعية لاحقاً."
+    },
+    {
+      "q": "32. Henrik Ibsen was:",
+      "options": ["French", "Irish", "German", "Norwegian"],
+      "correct": 3,
+      "feedback": "هنريك إبسن، أبو المسرح الواقعي الحديث، كان كاتباً مسرحياً نرويجياً."
+    },
+    {
+      "q": "33. Shaw's contribution to the feminist movement includes:",
+      "options": [
+        "Writing exclusively about women's domestic roles",
+        "Creating complex and resilient female characters",
+        "Avoiding any feminist themes in his plays",
+        "Promoting women's inferiority to men"
+      ],
+      "correct": 1,
+      "feedback": "ساهم شو في الحركة النسوية من خلال خلق شخصيات نسائية معقدة وقوية ومرنة تتحدى الأدوار التقليدية للمرأة."
+    },
+    {
+      "q": "34. In the preface to 'Major Barbara,' Shaw argues that all money:",
+      "options": [
+        "Is inherently evil",
+        "Can be used for good regardless of its origin",
+        "Should be avoided by charitable organizations",
+        "Is the root of all societal problems"
+      ],
+      "correct": 1,
+      "feedback": "يجادل شو بأن المال، بغض النظر عن مصدره، يمكن استخدامه لتحقيق الخير، وأن رفض 'المال الملوث' هو نفاق."
+    },
+    {
+      "q": "35. Shaw was a key figure in which society?",
+      "options": ["The Socialist Workers Party", "The Fabian Society", "The Labor Union", "The Communist Party"],
+      "correct": 1,
+      "feedback": "كان جورج برنارد شو شخصية رئيسية ومؤثرة في الجمعية الفابية (The Fabian Society)، التي دعت إلى الاشتراكية التدريجية."
+    },
+    {
+      "q": "36. According to Bernard Shaw, what is the best instrument for moral propaganda?",
+      "options": ["Personal conduct", "Fine art", "The stage", "All of the above"],
+      "correct": 2,
+      "feedback": "كان شو يعتقد أن المسرح هو أفضل أداة للدعاية الأخلاقية ونشر أفكاره الإصلاحية الاجتماعية."
+    },
+    {
+      "q": "37. In 'Waiting for Godot,' the characters Vladimir and Estragon may symbolize:",
+      "options": ["A typical hero and villain", "The intellectual mind and the physical body", "A teacher and a student", "Pure good and evil"],
+      "correct": 1,
+      "feedback": "غالباً ما يتم تفسير فلاديمير (المفكر) وإستراغون (الجسدي) كرمز للانقسام بين العقل والجسد في الإنسان."
+    },
+    {
+      "q": "38. Which of the following is a characteristic of the world depicted in Beckett's plays?",
+      "options": [
+        "Optimistic portrayals of human progress and achievement",
+        "A structured and logical sequence of events",
+        "A strong emphasis on the importance of individual freedom",
+        "A rejection of conventional reality"
+      ],
+      "correct": 3,
+      "feedback": "تتميز عوالم بيكيت برفضها للواقع التقليدي والمنطق، وتقديمها لوجود مجزأ وغير متماسك."
+    },
+    {
+      "q": "39. Beckett's legacy is primarily associated with:",
+      "options": ["Gothic fiction", "Political satires", "Absurdist theater", "Science fiction"],
+      "correct": 2,
+      "feedback": "يرتبط إرث بيكيت بشكل أساسي بمسرح العبث، الذي كان أحد رواده الرئيسيين."
+    },
+    {
+      "q": "40. Plays of the 'theatre of the absurd' usually lack:",
+      "options": ["Traditional concept of plot", "Traditional characterization", "Logical structure", "All of the above"],
+      "correct": 3,
+      "feedback": "يفتقر مسرح العبث عادةً إلى الحبكة التقليدية، والشخصيات المتطورة، والبنية المنطقية، مما يعكس فوضى الوجود."
+    },
+    {
+      "q": "41. The first part of Shaw's preface was entitled:",
+      "options": ["First Aid to Critics", "Pocket Guide to Critics", "First Guide to Critics", "In Aid of Critics"],
+      "correct": 0,
+      "feedback": "الجزء الأول من مقدمة شو لمسرحية 'ميجر باربرا' يحمل عنوان 'إسعافات أولية للنقاد'."
+    },
+    {
+      "q": "42. In the last part of his preface Shaw said that he is:",
+      "options": ["A revolutionary writer", "A social advocate", "An anarchist", "All of the above"],
+      "correct": 0,
+      "feedback": "في نهاية مقدمته، يصف شو نفسه بأنه كاتب ثوري يهدف إلى تغيير المجتمع من خلال أعماله."
+    },
+    {
+      "q": "43. Shaw cited Charles Lever's novel entitled:",
+      "options": ["A Life's Romance", "A Day's Romance", "A Day's Ride", "All of the above"],
+      "correct": 3,
+      "feedback": "يستشهد شو برواية تشارلز ليفر 'A Day's Ride' كمثال على عمل يشارك مسرحيته في موضوع خيبة الأمل."
+    },
+    {
+      "q": "44. Shaw suggests that what his play has in common with Lever and Ibsen is its:",
+      "options": ["Focus on gender issues", "Highlighting Romantic ideals", "Theme of disillusionment", "None of the above"],
+      "correct": 2,
+      "feedback": "يرى شو أن القاسم المشترك بين مسرحيته وأعمال ليفر وإبسن هو موضوع خيبة الأمل وفقدان الأوهام."
+    },
+    {
+      "q": "45. In 'The Gospel of St. Andrew Undershaft' Shaw suggests that civilisation cannot flourish without:",
+      "options": ["Democracy", "Money", "War", "Morality"],
+      "correct": 1,
+      "feedback": "يجادل أندرشاف بأن الفقر هو الجريمة الكبرى، وأن الحضارة لا يمكن أن تزدهر بدون المال والقوة الاقتصادية."
+    },
+    {
+      "q": "46. Cusins told Barbara that he decided to sell his soul to Undershaft for:",
+      "options": ["A chance at greatness", "Her sake", "Truth and power", "All of the above"],
+      "correct": 2,
+      "feedback": "يبرر كوزينز قراره بأنه يبيع روحه من أجل الحقيقة والقوة، معتبراً أن القوة الحقيقية تكمن في السيطرة على وسائل الإنتاج."
+    },
+    {
+      "q": "47. Shaw mentioned that when money is 'cheapened to worthlessness', it becomes:",
+      "options": ["Valueless", "Tainted", "A curse", "A weapon"],
+      "correct": 2,
+      "feedback": "في المقدمة، يوضح شو أنه عندما يفقد المال قيمته ويصبح رخيصاً، فإنه يتحول إلى لعنة بدلاً من كونه نعمة."
+    },
+    {
+      "q": "48. Shaw suggests that refusing salvation to Bill but making it available to Budger is an act of:",
+      "options": ["Favouritism", "Double standards", "Biased", "Hypocrisy"],
+      "correct": 1,
+      "feedback": "ينتقد شو المعايير المزدوجة لجيش الخلاص، الذي يرفض مساعدة الفقير العنيف (بيل) بينما يقبل تبرعات الأثرياء الفاسدين (بادجر)."
+    },
+    {
+      "q": "49. In talking about his workers' living conditions, Undershaft says that 'cleanliness' needs no:",
+      "options": ["Excuse", "Justification", "Saving", "Explanation"],
+      "correct": 1,
+      "feedback": "يقول أندرشافت إن النظافة والرفاهية لا تحتاجان إلى تبرير، بل هما حق طبيعي يجب توفيره للجميع."
+    },
+    {
+      "q": "50. In talking about war, Undershaft said that it didn't matter if things were wrong if they were:",
+      "options": ["Necessary", "True", "Effective", "Powerful"],
+      "correct": 1,
+      "feedback": "وفقاً لفلسفة أندرشافت، فإن الحقيقة والقوة هما ما يهمان، حتى لو كانت الأفعال خاطئة من منظور أخلاقي تقليدي."
+    },
+    {
+      "q": "51. Snobby Price said that he was ready to take whatever was made available to him like:",
+      "options": ["The realists", "The socialists", "The Romans", "The capitalists"],
+      "correct": 0,
+      "feedback": "سنوبي برايس، في سخريته، يدعي أنه مستعد لأخذ أي شيء متاح له مثل الواقعيين، مما يعكس انتهازيته."
+    },
+    {
+      "q": "52. Who criticised the habit of confession in the play?",
+      "options": ["Undershaft", "Bill Walker", "Britomart", "Cusins"],
+      "correct": 3,
+      "feedback": "كوزينز هو من ينتقد عادة الاعتراف في جيش الخلاص، معتبراً إياها مهينة وغير صادقة."
+    },
+    {
+      "q": "53. Who warned Cusins that Barbara might find out he is not a true believer in the Salvation Army?",
+      "options": ["Britomart", "Undershaft", "Both a & b", "None did"],
+      "correct": 2,
+      "feedback": "كل من والدتها (بريتومارت) ووالدها (أندرشافت) حذرا كوزينز من أن باربرا قد تكتشف عدم إيمانه الحقيقي."
+    },
+    {
+      "q": "54. Cusins said: 'One man's meat is another man's poison' referring to the fact that:",
+      "options": ["Life is built on exploitation", "Money can be good and evil", "Personal interest comes first", "There is no one fixed value for anything"],
+      "correct": 3,
+      "feedback": "يستخدم كوزينز هذا المثل للإشارة إلى نسبية القيم، وأن ما يعتبر جيداً لشخص قد يكون سيئاً لآخر."
+    },
+    {
+      "q": "55. Undershaft said that democracy wouldn't go hand in hand with:",
+      "options": ["Anxiety", "Morality", "Freedom", "Security"],
+      "correct": 0,
+      "feedback": "يرى أندرشافت أن الديمقراطية لا يمكن أن تتعايش مع القلق، لأنها تتطلب مواطنين آمنين ومستقرين اقتصادياً."
+    },
+    {
+      "q": "56. Who laid the foundations of the well-made play?",
+      "options": ["Eugene Scribe", "Emile Zola", "Henrik Ibsen", "None of the above"],
+      "correct": 0,
+      "feedback": "يُنسب الفضل إلى الكاتب المسرحي الفرنسي يوجين سكريب في وضع أسس وقواعد 'المسرحية جيدة الصنع'."
+    },
+    {
+      "q": "57. A Realist play replaces the logical ending of the well-made play by:",
+      "options": ["A shocking event", "A tragic event", "A discussion", "Both a & b"],
+      "correct": 2,
+      "feedback": "المسرحية الواقعية، كما طورها إبسن وشو، غالباً ما تنتهي بنقاش مفتوح بدلاً من الخاتمة المنطقية والمغلقة للمسرحية جيدة الصنع."
+    },
+    {
+      "q": "58. Ibsen's A Doll House is often compared to which play by Shaw?",
+      "options": ["Widowers' Houses", "Candida", "Major Barbara", "Man and Superman"],
+      "correct": 1,
+      "feedback": "غالباً ما تتم مقارنة مسرحية 'بيت الدمية' لإبسن بمسرحية 'كانديدا' لشو بسبب تناولهما لموضوع 'المرأة الجديدة' واستقلالها."
+    },
+    {
+      "q": "59. The well-made play is a prototype of the:",
+      "options": ["The Naturalist play", "The realist play", "The moralist play", "None of the above"],
+      "correct": 3,
+      "feedback": "تعتبر 'المسرحية جيدة الصنع' النموذج الأولي الذي تطورت عنه المسرحية الواقعية (The realist play)، وهي غير مدرجة كخيار."
+    },
+    {
+      "q": "60. Henrik Ibsen was:",
+      "options": ["French", "Irish", "German", "Norwegian"],
+      "correct": 3,
+      "feedback": "هنريك إبسن، أبو المسرح الواقعي الحديث، كان كاتباً مسرحياً نرويجياً."
+    },
+    {
+      "q": "61. Beckett shares with James Joyce his preoccupation with the limits of:",
+      "options": ["Language", "Words", "Memories", "Perceptions"],
+      "correct": 0,
+      "feedback": "كلا الكاتبين، بيكيت وجويس، كانا مهووسين بحدود اللغة وعجزها عن التعبير الكامل عن التجربة الإنسانية."
+    },
+    {
+      "q": "62. The two forms of certainty according to Proust that Beckett introduced as valueless in his play are:",
+      "options": ["Voluntary memory and detailed observations", "Involuntary memory and habitual reality", "Language and dreams", "Change and involuntary memory"],
+      "correct": 1,
+      "feedback": "في دراسته عن بروست، يرى بيكيت أن الذاكرة اللاإرادية والواقع المعتاد (العادة) هما شكلان من اليقين الزائف الذي لا قيمة له، وهو ما يظهر في المسرحية."
+    },
+    {
+      "q": "63. One of the following characters loses his memory constantly:",
+      "options": ["Estragon", "Vladimir", "Pozzo", "Godot"],
+      "correct": 0,
+      "feedback": "إستراغون يعاني من ذاكرة ضعيفة للغاية، وينسى الأحداث والشخصيات باستمرار، مما يرمز إلى عدم استقرار الوجود."
+    },
+    {
+      "q": "64. Evan Turgenev introduced Nihilism to literature in his novel Fathers and Sons published in:",
+      "options": ["1942", "1842", "1862", "1962"],
+      "correct": 2,
+      "feedback": "قدم إيفان تورغينيف مفهوم العدمية (Nihilism) في الأدب من خلال روايته 'آباء وأبناء' التي نشرت عام 1862."
+    },
+    {
+      "q": "65. Albert Camus published his essay 'The Myth of Sisyphus' on absurdism in:",
+      "options": ["1942", "1842", "1862", "1962"],
+      "correct": 0,
+      "feedback": "نشر ألبير كامو مقاله الشهير 'أسطورة سيزيف' الذي يعتبر حجر أساس في فلسفة العبث عام 1942."
+    },
+    {
+      "q": "66. Beckett's theatrical trademark is:",
+      "options": ["Incoherent language", "Intellectual tramps", "Repetition", "Cyclic action"],
+      "correct": 1,
+      "feedback": "شخصية 'المتشرد المثقف' الذي يتفلسف حول الوجود رغم بؤسه، مثل فلاديمير وإستراغون، هي علامة مسرحية مميزة لأعمال بيكيت."
+    },
+    {
+      "q": "67. Beckett highlights the idea of uncertainty in the plays through:",
+      "options": ["Silence", "Repetitive dialogues", "Unreliable memory", "Nightmares"],
+      "correct": 2,
+      "feedback": "يستخدم بيكيت الذاكرة غير الموثوقة للشخصيات (خاصة إستراغون) لتسليط الضوء على فكرة عدم اليقين وانعدام الثبات في الواقع."
+    },
+    {
+      "q": "68. Vladimir's statement that 'habit is a great deadener' was immediately preceded by:",
+      "options": ["The boy's second arrival", "The boy's final exit", "Pozzo and Lucky's final exit", "Pozzo's final speech"],
+      "correct": 1,
+      "feedback": "تأتي جملة فلاديمير 'العادة هي مخدر عظيم' مباشرة بعد خروج الصبي النهائي."
+    },
+    {
+      "q": "69. Pozzo's two poetic speeches about light, darkness, and vision symbolically describe:",
+      "options": ["The cycle of life", "Day and night", "Waiting and prospect", "Both a & c"],
+      "correct": 3,
+      "feedback": "خطاب بوزو الشعري يصف رمزياً دورة الحياة والانتظار والمستقبل."
+    },
+    {
+      "q": "70. Pozzo describes what as 'pale and luminous'?",
+      "options": ["The sun", "The moon", "Sunset", "The sky"],
+      "correct": 3,
+      "feedback": "في خطابه، يصف بوزو السماء بأنها 'شاحبة ومضيئة'."
+    },
+    {
+      "q": "71. What does Lucky mention in his monologue that brings about a spiritual calm in the relationship between individuals and their god?",
+      "options": ["Obedience", "Love", "Dependence", "None of the above"],
+      "correct": 1,
+      "feedback": "يذكر لاكي في مونولوجه أن 'الحب' هو ما يجلب نوعاً من الهدوء الروحي."
+    },
+    {
+      "q": "72. Pozzo commented on his blindness as being a form of:",
+      "options": ["Change", "Destiny", "Death", "Punishment"],
+      "correct": 2,
+      "feedback": "يربط بوزو بين فقدان بصره والموت، معتبراً إياه شكلاً من أشكال الموت الوجودي."
+    },
+    {
+      "q": "73. Sports and tennis in Lucky's monologue refer to man's attempt to compensate for the loss of all but one of the following:",
+      "options": ["Love", "Certainty", "Companionship", "Purpose"],
+      "correct": 1,
+      "feedback": "تشير الرياضة في مونولوج لاكي إلى محاولات الإنسان لتعويض فقدان 'اليقين'."
+    },
+    {
+      "q": "74. Vladimir suffers the most because of:",
+      "options": ["Waiting", "Hopelessness", "Overthinking", "Idleness"],
+      "correct": 0,
+      "feedback": "معاناة فلاديمير الرئيسية هي نتيجة لفعل الانتظار المستمر."
+    },
+    {
+      "q": "75. Vladimir's difficult urination represents his inability to:",
+      "options": ["Cope and adapt", "Forget the past", "Move onto the future", "All of the above"],
+      "perfect": 3,
+      "feedback": "يرمز صعوبة التبول عند فلاديمير إلى عجزه عن التكيف ونسيان الماضي والمضي قدماً نحو المستقبل."
+    },
+    {
+      "q": "76. In Keller's 'A Strange Situation', the relationship between Pozzo and Lucky is mainly described as being:",
+      "options": ["Codependent", "Toxic", "Nurturing", "Deceptive"],
+      "correct": 1,
+      "feedback": "تصف كيلر العلاقة بأنها 'سامة' (Toxic) لما فيها من استغلال."
+    },
+    {
+      "q": "77. Lucky's monologue and Pozzo's speech are:",
+      "options": ["Ambiguous", "Poetic", "Complementary", "Desperate"],
+      "correct": 2,
+      "feedback": "يُعتبر مونولوج لاكي وخطاب بوزو متكاملين (Complementary) في سياق تعبيرهما عن رؤية بيكيت للوجود."
+    },
+    {
+      "q": "78. Vladimir interrogates the boy because he wants to:",
+      "options": ["Test his truthfulness", "Understand him", "Understand Godot", "All of the above"],
+      "correct": 2,
+      "feedback": "يقوم فلاديمير باستجواب الصبي محاولاً منه 'فهم غودو' والحصول على أي حقيقة عنه."
+    },
+    {
+      "q": "79. Critics tend to value the play for its:",
+      "options": ["Didactics", "Codification", "Humour", "Minimalism"],
+      "correct": 1,
+      "feedback": "يُقدر النقاد المسرحية لقدرتها على ترميز وتشفير (Codification) أفكار وجودية معقدة."
+    },
+    {
+      "q": "80. Keller describes 'the terror of psychic annihilation that would result from moving away from a particular person' as:",
+      "options": ["Unbearable", "Confusing", "Damaging", "Unavoidable"],
+      "correct": 0,
+      "feedback": "تصف كيلر هذا الرعب الناتج عن الانفصال عن شخص معين بأنه 'لا يُطاق' (Unbearable)."
+    }
+  ,
   {
     "q": "41. Beckett's approach to his artistic works is best described as:",
     "options": ["Carefree and spontaneous", "Meticulous and precise", "Indifferent to detail", "Both B and D"],
@@ -1958,18 +1957,6 @@
     "correct": 1,
     "feedback": "سافر بيكيت إلى باريس لأول مرة كجزء من برنامج تبادل لتدريس اللغة الإنجليزية."
   }
-
-
-
-
-
-
-
-
-
-
-
-
 
 ]
 }
