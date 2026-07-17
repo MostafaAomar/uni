@@ -2,7 +2,246 @@
   "subject":  "   تاريخ الادب سنة ثانية ",
   "lang": "en",
   "questions": [ 
- 
+  {
+    "q": "The original meaning of the term 'Welsh' in Old English is:",
+    "options": ["Native Britons", "Foreigner", "Roman citizen"],
+    "correct": 1,
+    "feedback": "وفقاً للأوراق الذهبية، فإن كلمة 'Welsh' في الإنجليزية القديمة تعني الأجانب أو الغرباء (foreigners) [1]."
+  },
+  {
+    "q": "The Anglo-Saxons were descendants of:",
+    "options": ["The Romans", "The Germans", "The Vikings"],
+    "correct": 1,
+    "feedback": "الأنجلو ساكسون هم قبائل جرمانية (Germans) هاجرت من غرب أوروبا لتستقر في بريطانيا [2]."
+  },
+  {
+    "q": "Much of which Old English literary genre were the authors unknown?",
+    "options": ["prose", "verse", "drama"],
+    "correct": 1,
+    "feedback": "كان الشعر (verse) في العصور القديمة مجهول المؤلف غالباً لأنه كان يُنقل ويُغنى شفهياً من شخص لآخر [8، 9]."
+  },
+  {
+    "q": "Beowulf was an Old English epic poem brought to Britain by:",
+    "options": ["The Romans", "The Anglo-Saxons", "The Normans"],
+    "correct": 1,
+    "feedback": "نشأت ملحمة بيوولف في غرب أوروبا وجلبها الأنجلو ساكسون معهم إلى إنجلترا في القرن الثامن [3]."
+  },
+  {
+    "q": "What genre were biographies and letters recorded by the monastery scribes?",
+    "options": ["Verse", "Drama", "Prose"],
+    "correct": 2,
+    "feedback": "كان النثر (prose) يُستخدم في الماضي لتوثيق التاريخ والمراسلات، مثل الوثائق الدينية والرسائل والسير الذاتية [4]."
+  },
+  {
+    "q": "Which of the following religious works from the 1200s was a translation of religious stories in verse?",
+    "options": ["Ormulum", "Handlyng Synne", "Ancrene Riwle"],
+    "correct": 0,
+    "feedback": "كتاب 'Ormulum' هو ترجمة لمواعظ دينية من اللاتينية إلى الإنجليزية الوسطى، وقد كُتب شعراً (verse) [5]."
+  },
+  {
+    "q": "The poem Sir Gawayn and the Green Knight is:",
+    "options": ["a religious epic", "a chivalric story", "a travel diary"],
+    "correct": 1,
+    "feedback": "تعتبر هذه القصيدة قصة فروسية (chivalric story) تدور حول أحد فرسان المائدة المستديرة للملك آرثر واختبار صفاته الحميدة [6]."
+  },
+  {
+    "q": "The Travels of Sir John Mandeville was originally written in:",
+    "options": ["Latin", "French", "Hebrew"],
+    "correct": 1,
+    "feedback": "كُتب هذا الكتاب بثلاث لغات (اللاتينية والفرنسية والإنجليزية الوسطى)، ولكن النسخة الأصلية تُنسب غالباً للفرنسية [6]."
+  },
+  {
+    "q": "While written in Middle English, The Visions of Pierce Plowman still has the Old English influence of:",
+    "options": ["rhyming couplets", "secular stories", "head rhyme"],
+    "correct": 2,
+    "feedback": "على الرغم من كتابتها بالإنجليزية الوسطى، إلا أنها استخدمت الجناس الاستهلالي (head-rhyme) الذي ميز الشعر في الإنجليزية القديمة [7]."
+  },
+  {
+    "q": "The anonymous poem Pearl in the 1300s was an elegy where a man mourns the death of his:",
+    "options": ["daughter", "wife", "lover"],
+    "correct": 0,
+    "feedback": "قصيدة 'Pearl' هي رثاء طويل يتحدث فيه رجل فقد ابنته (daughter) ويراها في أحلامه [8]."
+  },
+  {
+    "q": "The first official Latin/English translation of the entire bible in the 14th century was by:",
+    "options": ["William Tyndale", "John Wyclif", "Miles Coverdale"],
+    "correct": 1,
+    "feedback": "جون ويكليف (John Wyclif) هو من قام بترجمة الكتاب المقدس إلى الإنجليزية في عام 1380 [9]."
+  },
+  {
+    "q": "Who translated the bible from the original Hebrew script?",
+    "options": ["William Tyndale", "John Wyclif", "Miles Coverdale"],
+    "correct": 2,
+    "feedback": "قام مايلز كوفرديل (Miles Coverdale) بترجمة العهد القديم من اللغة العبرية (Hebrew) إلى الإنجليزية [10]."
+  },
+  {
+    "q": "The King James Version of the Old Testament retained the rhythm and flow of which language?",
+    "options": ["Latin", "Greek", "Hebrew"],
+    "correct": 2,
+    "feedback": "بما أن العهد القديم كُتب أصلاً بالعبرية، فقد حافظت نسخة الملك جيمس على إيقاع وتدفق اللغة العبرية (Hebrew) [36، 41]."
+  },
+  {
+    "q": "Who translated the bible into Latin in 405 AD?",
+    "options": ["John Wyclif", "John Purvey", "St. Jerome"],
+    "correct": 2,
+    "feedback": "كُلف القديس جيروم (St. Jerome) من قبل البابا لترجمة الكتاب المقدس إلى اللاتينية عام 405 م [11]."
+  },
+  {
+    "q": "The primary purpose of drama in primitive agricultural societies was:",
+    "options": ["To enact heroic stories", "To pray for fertility", "To perform executions"],
+    "correct": 1,
+    "feedback": "كان التمثيل في المجتمعات الزراعية القديمة طقساً دينياً للصلاة من أجل الخصوبة (fertility) واستدعاء المطر [12]."
+  },
+  {
+    "q": "Who would drive a goat out into the desert loaded with people's sins?",
+    "options": ["Pagan Greeks", "Old Hebrews", "Anglo-Saxons"],
+    "correct": 1,
+    "feedback": "استخدم العبرانيون القدماء (Old Hebrews) الماعز كحامل للذنوب (scapegoat) لغسل خطايا الشعب في الصحراء [13]."
+  },
+  {
+    "q": "What aspect of Seneca's plays were later appealing to Elizabethan dramatists in Britain?",
+    "options": ["religious themes", "social satire", "bloodthirstiness"],
+    "correct": 2,
+    "feedback": "تميزت مسرحيات سينيكا بالعنف الشديد والدموية (bloodthirstiness) والخطابات الطويلة، وهو ما استلهمه الكتاب الإليزابيثيون [14]."
+  },
+  {
+    "q": "The name of the 9th-century drama where priests acted out the scene at Christ's empty tomb was:",
+    "options": ["The Wakefield cycle", "Quem quaeritis", "Everyman"],
+    "correct": 1,
+    "feedback": "مسرحية 'Quem Quaeritis' (بمن تبحثون؟) كانت تُؤدى من قبل الكهنة داخل الكنيسة لتمثيل مشهد القبر الفارغ [15]."
+  },
+  {
+    "q": "Thomas Kyd's The Spanish Tragedy (1587) is described as a prototype for Shakespeare's:",
+    "options": ["King Lear", "Macbeth", "Hamlet"],
+    "correct": 2,
+    "feedback": "تُعتبر مسرحية 'المأساة الإسبانية' النموذج الأولي لمسرحية 'هاملت' (Hamlet) لشكسبير [16]."
+  },
+  {
+    "q": "What did Thomas Newton translate into English in 1581?",
+    "options": ["Seneca's ten Tragedies", "Aristotle's elements of drama", "Greek tragedies"],
+    "correct": 0,
+    "feedback": "قام توماس نيوتن بترجمة مآسي سينيكا العشر (Seneca's ten Tragedies) إلى الإنجليزية عام 1581 [17]."
+  },
+  {
+    "q": "Geoffrey Chaucer's The Canterbury Tales is structured as a collection of stories told by:",
+    "options": ["Oxford scholars", "An adventure traveller", "A group of pilgrims"],
+    "correct": 2,
+    "feedback": "تتكون حكايات كانتربري من قصص يرويها مجموعة من الحجاج (pilgrims) الذين اجتمعوا في نزل 'تابارد' [32، 33]."
+  },
+  {
+    "q": "How many stories were there in The Canterbury Tales?",
+    "options": ["21", "24", "12"],
+    "correct": 1,
+    "feedback": "على الرغم من أن خطة تشوسر كانت تقتضي كتابة 120 قصة، إلا أنه لم يكمل سوى 24 قصة قبل وفاته [18]."
+  },
+  {
+    "q": "The simple plowman in William Langland's The Visions of Pierce Plowman transformed into:",
+    "options": ["a Demi-god", "a prophet-like reformer of faith", "a powerful king"],
+    "correct": 1,
+    "feedback": "يُقدم الكتاب شخصية الفلاح 'بيرس' في حالة تشبه النبي المصلح للإيمان والمنتقد لفساد الكنيسة [7]."
+  },
+  {
+    "q": "The first written version of Beowulf was in the:",
+    "options": ["8th century", "11th century", "9th century"],
+    "correct": 1,
+    "feedback": "سُجلت المخطوطة الرسمية والوحيدة لملحمة بيوولف في القرن الحادي عشر (11th century) [3]."
+  },
+  {
+    "q": "Beowulf was a poem consisting of approximately:",
+    "options": ["3000 lines", "2000 lines", "5000 lines"],
+    "correct": 0,
+    "feedback": "ملحمة بيوولف هي قصيدة طويلة تتكون من حوالي 3000 سطر [4]."
+  },
+  {
+    "q": "Handlyng Synne was a poem about the seven deadly sins in Christianity.",
+    "options": ["True", "False"],
+    "correct": 0,
+    "feedback": "صحيح؛ كتاب 'Handlyng Synne' (معالجة الخطيئة) يتناول الخطايا السبع المميتة في الدين المسيحي [19]."
+  },
+  {
+    "q": "Chaucer was the first English poet to use the sonnet form in his writings.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "خاطئ؛ تشوسر لم يستخدم السونيت، بل اشتهر باختراع البحر الخماسي الياقوتي (iambic pentameter). السونيت دخلت الأدب الإنجليزي لاحقاً [20]."
+  },
+  {
+    "q": "Head rhyme means using word endings in English words (eg. Shape becomes Shaper).",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "خاطئ؛ الجناس الاستهلالي (head-rhyme) يعني عدم وجود قافية في نهاية الأسطر والاعتماد على تكرار الحروف في بدايات الكلمات [6]."
+  },
+  {
+    "q": "The Anglo-Saxons settled in Britain before the Romans.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "خاطئ؛ الرومان هم أول من غزا بريطانيا في القرن الأول، بينما جاء الأنجلو ساكسون في القرن الخامس بعد سقوط روما [6، 7]."
+  },
+  {
+    "q": "The Romans ruled in Britain for nearly 400 years.",
+    "options": ["True", "False"],
+    "correct": 0,
+    "feedback": "صحيح؛ استمر الغزو والحكم الروماني لبريطانيا لمدة 400 عام تقريباً (من 43 م إلى 410 م) [21]."
+  },
+  {
+    "q": "The poem Beowulf, as recorded by monastery scribes, reflects an entirely pagan civilization.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "خاطئ؛ على الرغم من أصولها الوثنية، إلا أن تدوينها من قبل الرهبان أضاف إليها عناصر مسيحية، فهي لا تعكس حضارة وثنية بالكامل [9، 10]."
+  },
+  {
+    "q": "The prose book The Travels of Sir John Mandeville in the 1300s was classified as a religious work.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "خاطئ؛ يُصنف الكتاب ضمن كتب الرحلات (Travel Books) والأعمال غير الدينية [26، 28]."
+  },
+  {
+    "q": "William Tyndale travelled to Germany to work on his bible translation to avoid the Church's ban.",
+    "options": ["True", "False"],
+    "correct": 0,
+    "feedback": "صحيح؛ هرب تيندال إلى ألمانيا وطبع ترجمته هناك في مدينة 'فورمس' لتجنب ملاحقة السلطات الكنسية في إنجلترا [10]."
+  },
+  {
+    "q": "The King James translation of the bible is still in use today.",
+    "options": ["True", "False"],
+    "correct": 0,
+    "feedback": "صحيح؛ لا تزال نسخة الملك جيمس (1611) تُستخدم حتى الآن ككتاب مقدس باللغة الإنجليزية [22]."
+  },
+  {
+    "q": "The Greek term 'tragos' is identified as the origin of the word tragedy.",
+    "options": ["True", "False"],
+    "correct": 0,
+    "feedback": "صحيح؛ كلمة 'تراجيديا' مشتقة من الكلمة اليونانية 'tragos' التي تعني 'ماعز' (goat) [13]."
+  },
+  {
+    "q": "Mystery plays in the 16th century were performed by priests inside the church.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "خاطئ؛ المسرحيات الغامضة (Mystery plays) كانت تؤديها النقابات المهنية خارج الكنيسة، أما التي كان يؤديها الكهنة في الداخل فهي المسرحيات الليتورجية [55، 57]."
+  },
+  {
+    "q": "Everyman 1595 was a mystery play.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "خاطئ؛ مسرحية 'Everyman' هي أشهر مثال لمسرحيات الأخلاق (Morality play) وليست مسرحية غامضة [23]."
+  },
+  {
+    "q": "King Alfred the Great in the 9th century ordered the writing of Domesday Book.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "خاطئ؛ الملك ويليام الفاتح هو من أمر بتأليف كتاب 'Domesday Book' في عام 1086، بينما الملك ألفريد اشتهر بـ 'The Anglo-Saxon Chronicle' [12، 15]."
+  },
+  {
+    "q": "The Domesday Book was a recorded manuscript of a survey of British land.",
+    "options": ["True", "False"],
+    "correct": 0,
+    "feedback": "صحيح؛ كان الكتاب عبارة عن جرد (inventory) دقيق لجميع أملاك وممتلكات الملك ويليام الفاتح في إنجلترا [15، 23]."
+  },
+  {
+    "q": "The Venerable Bede was a Norman Monk of the 7th century.",
+    "options": ["True", "False"],
+    "correct": 1,
+    "feedback": "خاطئ؛ القديس بيدي (Bede) كان مؤرِخاً وراهباً أنجلو ساكسونياً (Anglo-Saxon) في القرن الثامن، وليس نورماندياً [24]."
+  },
  {
     "q": "\"Caroline Age\" refers to the reign of",
     "options": [
