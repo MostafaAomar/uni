@@ -1,12 +1,16 @@
 /* ==========================================
    1. المتغيرات وإدارة الحالة (State Management)
    ========================================== */
+const USE_LOCAL_TEST_FILE = false;
+
 let quizData = [];
 let currentSubject = null;
 let currentIndex = 0;
 let userAnswers = [];
 let mode = ''; 
 let currentSpeed = 0.8;
+
+const DEFAULT_REPO_URL = 'https://github.com/MostafaAomar/uni';
 
 const screens = {
     setup: document.getElementById('setup-screen'),
@@ -17,7 +21,7 @@ const screens = {
 };
 
 /* ==========================================
-   2. إدارة التنقل وحفظ التقدم
+   2. إدارة التنقل، الترتيب وحفظ التقدم
    ========================================== */
 function showScreen(name) {
     Object.values(screens).forEach(screen => {
@@ -29,66 +33,186 @@ function showScreen(name) {
     }
 }
 
+// دالة المحافظة على ترتيب الأسئلة وإضافة الأسئلة الجديدة للنهاية
+function applyUserQuestionOrder(subject, currentMode) {
+    if (!subject || !subject.questions) return;
+    const subProgKey = `progress_${subject.id}_${currentMode}`;
+    const savedProg = localStorage.getItem(subProgKey);
+    if (!savedProg) return;
+
+    try {
+        const parsed = JSON.parse(savedProg);
+        const savedOrder = parsed.questionOrder || [];
+
+        if (savedOrder.length > 0) {
+            const knownQuestionsMap = {};
+            const newQuestions = [];
+
+            // فرز الأسئلة إلى "معروفة تاريخياً" و "جديدة مضافة"
+            subject.questions.forEach(q => {
+                if (savedOrder.includes(q.id)) {
+                    knownQuestionsMap[q.id] = q;
+                } else {
+                    newQuestions.push(q);
+                }
+            });
+
+            // إعادة بناء القائمة بحيث تحافظ على الترتيب القديم بدقة
+            const reconstructedQuestions = [];
+            savedOrder.forEach(id => {
+                if (knownQuestionsMap[id]) {
+                    reconstructedQuestions.push(knownQuestionsMap[id]);
+                }
+            });
+
+            // وضع الأسئلة الجديدة في ذيل القائمة لكي لا تقطع استمرارية المستخدم
+            subject.questions = [...reconstructedQuestions, ...newQuestions];
+        }
+    } catch (e) {
+        console.error("Error applying user question order:", e);
+    }
+}
+
 function saveDetailedProgress() {
     if (!currentSubject) return;
-    const lastState = { subjectName: currentSubject.subject, mode: mode, currentIndex: currentIndex };
+
+    const subjectId = currentSubject.id;
+    const lastQuestionId = currentSubject.questions[currentIndex]?.id || null;
+    
+    // حفظ مكان التوقف العام
+    const lastState = { subjectId: subjectId, mode: mode, lastQuestionId: lastQuestionId };
     localStorage.setItem('app_last_position', JSON.stringify(lastState));
 
-    const subjectProgressKey = `progress_${currentSubject.subject}_${mode}`;
-    const progressData = { index: currentIndex, answers: userAnswers };
+    const subjectProgressKey = `progress_${subjectId}_${mode}`;
+    
+    // حفظ الإجابات باستخدام المعرفات بدلاً من الخانات
+    const progressToSave = {};
+    userAnswers.forEach((answer, index) => {
+        const questionId = currentSubject.questions[index]?.id;
+        if (questionId !== undefined && answer !== undefined && answer !== null) {
+            progressToSave[questionId] = answer;
+        }
+    });
+
+    // التقاط الترتيب الحالي للأسئلة لحفظه (هذا ما كان مفقوداً في النسخة السابقة)
+    const currentOrder = currentSubject.questions.map(q => q.id);
+
+    const progressData = { 
+        lastQuestionId: lastQuestionId, 
+        index: currentIndex, // For backward compatibility
+        answers: progressToSave,
+        questionOrder: currentOrder // حفظ الترتيب ضروري لمنع القفزات
+    };
     localStorage.setItem(subjectProgressKey, JSON.stringify(progressData));
 }
 
 /* ==========================================
-   3. التحميل والتهيئة (Initialization)
+   3. التحميل والتهيئة التلقائية (Initialization)
    ========================================== */
 async function init() {
-    const storedRepo = localStorage.getItem('user_repo_url');
+    showWelcomeMessage();
+
     const loadingDiv = document.querySelector('.loader');
 
-    if (storedRepo) {
-        if(loadingDiv) loadingDiv.classList.remove('hidden');
-        await fetchRepoAndAddSubjects(storedRepo);
-        if(loadingDiv) loadingDiv.classList.add('hidden');
-
-        const savedPos = localStorage.getItem('app_last_position');
-        if (savedPos) {
-            try {
-                const pos = JSON.parse(savedPos);
-                const foundSub = quizData.find(s => s.subject === pos.subjectName);
-                if (foundSub) {
-                    currentSubject = foundSub;
-                    mode = pos.mode;
-                    currentIndex = pos.currentIndex;
-                    
-                    const subProgKey = `progress_${currentSubject.subject}_${mode}`;
-                    const savedProg = localStorage.getItem(subProgKey);
-                    if (savedProg) userAnswers = JSON.parse(savedProg).answers || [];
-                    
-                    renderStep();
-                    return;
-                }
-            } catch (e) { console.log("Error restoring session", e); }
-        }
+    if (USE_LOCAL_TEST_FILE) {
+        console.log("--- وضع الاختبار المحلي مفعل ---");
+        if (loadingDiv) loadingDiv.classList.remove('hidden');
+        await fetchLocalTestFile();
+        if (loadingDiv) loadingDiv.classList.add('hidden');
     } else {
-        document.getElementById('repo-input-area').classList.remove('hidden');
+        if (loadingDiv) loadingDiv.classList.remove('hidden');
+        await fetchRepoAndAddSubjects(DEFAULT_REPO_URL);
+        if (loadingDiv) loadingDiv.classList.add('hidden');
     }
+    
+    const savedPos = localStorage.getItem('app_last_position');
+    if (savedPos) {
+        try {
+            const pos = JSON.parse(savedPos);
+            const foundSub = quizData.find(s => s.id === pos.subjectId);
+            if (foundSub) {
+                currentSubject = foundSub;
+                mode = pos.mode;
+
+                // تطبيق ترتيب المستخدم أولاً قبل البحث عن مكان التوقف
+                applyUserQuestionOrder(currentSubject, mode);
+
+                let restoredIndex = 0;
+                if (pos.lastQuestionId) {
+                    const newIndex = currentSubject.questions.findIndex(q => q.id === pos.lastQuestionId);
+                    if (newIndex !== -1) {
+                        restoredIndex = newIndex;
+                    }
+                }
+                currentIndex = restoredIndex;
+                
+                const subProgKey = `progress_${currentSubject.id}_${mode}`;
+                const savedProg = localStorage.getItem(subProgKey);
+                if (savedProg) {
+                    const parsedProg = JSON.parse(savedProg);
+                    const savedAnswers = parsedProg.answers || {};
+                    
+                    // توافقية رجعية (Backward compatibility) لاستعادة التقدم القديم
+                    if (Array.isArray(savedAnswers)) {
+                        userAnswers = [...savedAnswers];
+                        saveDetailedProgress(); 
+                    } else {
+                        userAnswers = currentSubject.questions.map(q => savedAnswers[q.id]);
+                    }
+                }
+                
+                renderStep();
+                return;
+            }
+        } catch (e) { console.log("Error restoring session", e); }
+    }
+    
     showScreen('setup');
 }
 
-function saveRepoUrl() {
-    const input = document.getElementById('repo-url-input');
-    const url = input.value.trim();
-    if (url) {
-        localStorage.setItem('user_repo_url', url);
-        location.reload(); 
-    } else {
-        alert("يرجى إدخال رابط صحيح!");
-    }
+function showWelcomeMessage() {
+    const welcomeDiv = document.createElement('div');
+    welcomeDiv.id = 'welcome-message';
+    welcomeDiv.innerHTML = `
+        <p>هذا العمل صدقة جارية<br><br>ادعوا لي ولأهلي بالرحمة والمغفرة</p>
+    `;
+
+    const style = document.createElement('style');
+    style.innerHTML = `
+        #welcome-message {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: #4e4e4e;
+            color: #fff;
+            padding: 15px 25px;
+            border-radius: 12px;
+            z-index: 9999;
+            text-align: center;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+            cursor: pointer;
+            border: 1px solid #3f3f46;
+        }
+        #welcome-message p { margin: 0 0 10px 0; font-weight: bold; line-height: 1.6; font-size: 1.25rem; }
+        #welcome-message small { font-size: 0.8em; opacity: 0.7; display: block; }
+    `;
+    document.head.appendChild(style);
+    document.body.appendChild(welcomeDiv);
+
+    const removeMessage = () => {
+        if (document.body.contains(welcomeDiv)) {
+            document.body.removeChild(welcomeDiv);
+        }
+    };
+
+    welcomeDiv.addEventListener('click', removeMessage);
+    setTimeout(removeMessage, 3000);
 }
 
 async function fetchRepoAndAddSubjects(repoUrl) {
     let cleanUrl = repoUrl.replace('https://github.com/', '');
+    cleanUrl = cleanUrl.split('/tree/')[0]; 
     if (cleanUrl.endsWith('.git')) cleanUrl = cleanUrl.slice(0, -4); 
     
     const parts = cleanUrl.split('/');
@@ -100,32 +224,31 @@ async function fetchRepoAndAddSubjects(repoUrl) {
 
     try {
         const resp = await fetch(api);
-        if (!resp.ok) throw new Error("Repo not found");
+        
+        if (!resp.ok) throw new Error("فشل الاتصال بـ GitHub API.");
+        
         const tree = await resp.json();
-        const jsonFiles = tree.tree.filter(t => t.path.endsWith('.json'));
+        const jsonFiles = tree.tree.filter(t => t.path.endsWith('.json') && !t.path.includes('myOwnDic.json'));
 
-        quizData = []; 
-        for (const file of jsonFiles) {
-            const rawUrl = `https://raw.githubusercontent.com/${owner}/${repo}/main/${file.path}`;
-            const r = await fetch(rawUrl);
-            const content = await r.json();
-            const data = Array.isArray(content) ? content[0] : content;
-            
-            if (data && data.questions) {
-                quizData.push({
-                    subject: data.subject || file.path.replace('.json', ''),
-                    lang: data.lang || 'en',
-                    questions: data.questions
-                });
-            }
-        }
-        renderSubjectList();
-        document.getElementById('repo-input-area').classList.add('hidden'); 
+        processJsonFiles(jsonFiles, 'github', { owner, repo });
     } catch (e) { 
         console.error("Load Error:", e);
-        document.getElementById('repo-input-area').classList.remove('hidden'); 
-        alert("تعذر تحميل البيانات، تأكد من صحة الرابط أو اتصال الإنترنت.");
-        localStorage.removeItem('user_repo_url'); 
+        alert(`❌ تعذر تحميل البيانات:\n${e.message}`);
+    }
+}
+
+async function fetchLocalTestFile() {
+    try {
+        // معامل إلغاء الكاش لضمان تحديث الملف فور تعديله
+        const response = await fetch(`test.json?t=${Date.now()}`);
+        if (!response.ok) throw new Error('Could not find test.json.');
+        
+        const content = await response.json();
+        const fileObject = { name: 'test.json', content: JSON.stringify(content) };
+        processJsonFiles([fileObject], 'local');
+    } catch (e) {
+        console.error("Load Error:", e);
+        alert(`❌ تعذر تحميل ملف الاختبار المحلي:\n${e.message}`);
     }
 }
 
@@ -135,34 +258,172 @@ function getSubjectProgress(subjectName, totalQuestions) {
     let maxProgress = 0;
 
     modes.forEach(m => {
-        const key = `progress_${subjectName}_${m}`;
+        const key = `progress_${subjectName}_${m}`; 
         const savedData = localStorage.getItem(key);
         if (savedData) {
             try {
                 const parsed = JSON.parse(savedData);
-                const reached = (parsed.index || 0) + 1;
-                if (reached > maxProgress) maxProgress = reached;
+                let reached = 0;
+                
+                if (Array.isArray(parsed.answers)) {
+                    reached = parsed.answers.filter(a => a !== null && a !== undefined).length;
+                } else {
+                    reached = Object.keys(parsed.answers || {}).length;
+                }
+
+                const indexReached = parsed.index !== undefined ? parsed.index + 1 : 0;
+                const actualProgress = Math.max(reached, indexReached);
+
+                if (actualProgress > maxProgress) maxProgress = actualProgress;
             } catch (e) { console.error(e); }
         }
     });
 
     let percentage = (maxProgress / totalQuestions) * 100;
-    if (maxProgress >= totalQuestions) percentage = 100;
     return Math.min(100, Math.max(0, percentage));
 }
 
 function renderSubjectList() {
     const list = document.getElementById('subject-list');
-    list.innerHTML = "";
-    if(quizData.length === 0) {
-        list.innerHTML = "<p style='text-align:center; color:#666;'>لا توجد مواد متاحة.</p>";
+    if (!list) return;
+    list.innerHTML = `
+        <div class="search-container">
+            <input type="text" id="question-search-input" placeholder="ابحث عن سؤال في جميع المواد..." />
+        </div>
+    `;
+
+    const searchInput = document.getElementById('question-search-input');
+    const resultsContainer = document.createElement('div');
+    resultsContainer.id = 'search-results-container';
+    list.appendChild(resultsContainer);
+
+    searchInput.addEventListener('input', (e) => {
+        const searchTerm = e.target.value.trim().toLowerCase();
+        if (searchTerm.length > 2) {
+            performSearch(searchTerm, resultsContainer);
+        } else {
+            renderAllSubjects(resultsContainer);
+        }
+    });
+
+    renderAllSubjects(resultsContainer);
+}
+
+async function processJsonFiles(files, type, githubInfo = {}) {
+    quizData = [];
+
+    for (const file of files) {
+        try {
+            let content;
+            let fileName;
+
+            if (type === 'github') {
+                fileName = file.path;
+                const rawUrl = `https://raw.githubusercontent.com/${githubInfo.owner}/${githubInfo.repo}/main/${fileName}?t=${Date.now()}`;
+                const r = await fetch(rawUrl);
+                if (!r.ok) continue;
+                content = await r.json();
+            } else { 
+                fileName = file.name;
+                content = JSON.parse(file.content);
+            }
+
+            const data = Array.isArray(content) ? content[0] : content;
+            
+            if (data && data.questions) {
+                data.questions.forEach(q => {
+                    // الاعتماد على محتوى السؤال في الـ ID
+                    // إذا تغير المحتوى (نص السؤال أو الخيارات)، سيتغير الـ ID وسيصبح سؤالاً جديداً
+                    const combinedStr = q.q + (q.options ? q.options.join('') : '') + (q.correct !== undefined ? q.correct : '');
+q.id = q.id || 'id_' + simpleHash(combinedStr);
+                });
+
+                quizData.push({
+                    id: fileName, 
+                    subject: (data.subject || fileName.replace('.json', '').split('/').pop()).trim(),
+                    lang: data.lang || 'en',
+                    questions: data.questions
+                });
+            }
+        } catch (fileErr) {
+            console.warn(`⚠️ تم تخطي الملف ${file.path || file.name} لوجود خطأ في صيغة الـ JSON داخله.`, fileErr);
+        }
+    }
+    renderSubjectList();
+}
+
+function performSearch(term, container) {
+    container.innerHTML = '';
+    let results = [];
+    quizData.forEach((subject, subjectIndex) => {
+        subject.questions.forEach((question, questionIndex) => {
+            if (question.q.toLowerCase().includes(term)) {
+                results.push({ subject, subjectIndex, question, questionIndex });
+            }
+        });
+    });
+
+    if (results.length === 0) {
+        container.innerHTML = "<p style='text-align:center; color:#94a3b8;'>لا توجد نتائج مطابقة.</p>";
         return;
     }
 
+    results.forEach(result => {
+        const btn = document.createElement('div');
+        btn.className = 'subject-btn search-result-item';
+        btn.innerHTML = `
+            <span style="z-index:2; position:relative; display:block;">${result.question.q}</span>
+            <small style="z-index:2; position:relative; color: #a1a1aa; display:block; margin-top: 5px;">المادة: ${result.subject.subject}</small>
+        `;
+        btn.onclick = () => {
+            currentSubject = quizData[result.subjectIndex];
+            mode = 'quiz'; 
+            
+            // تطبيق ترتيب المستخدم أولاً
+            applyUserQuestionOrder(currentSubject, mode);
+            
+            // إيجاد مكان السؤال بعد إعادة الترتيب
+            currentIndex = currentSubject.questions.findIndex(q => q.id === result.question.id);
+            if(currentIndex === -1) currentIndex = 0;
+
+            const subProgKey = `progress_${currentSubject.id}_${mode}`;
+            const savedProg = localStorage.getItem(subProgKey);
+            
+            let savedAnswers = {};
+            if (savedProg) {
+                const progObj = JSON.parse(savedProg);
+                savedAnswers = progObj.answers || {};
+                
+                if (Array.isArray(savedAnswers)) {
+                    userAnswers = [...savedAnswers];
+                } else {
+                    userAnswers = currentSubject.questions.map(q => savedAnswers[q.id]);
+                }
+            } else {
+                userAnswers = [];
+            }
+
+            if (userAnswers[currentIndex] === undefined || userAnswers[currentIndex] === null) {
+                userAnswers[currentIndex] = result.question.correct;
+            }
+
+            renderStep();
+        };
+        container.appendChild(btn);
+    });
+}
+
+function renderAllSubjects(container) {
+    container.innerHTML = "";
+    if (quizData.length === 0) {
+        container.innerHTML = "<p style='text-align:center; color:#94a3b8;'>لا توجد مواد متاحة حالياً.</p>";
+        return;
+    }
+    
     quizData.forEach((data, index) => {
         const btn = document.createElement('div');
         btn.className = 'subject-btn';
-        const progressPercent = getSubjectProgress(data.subject, data.questions.length);
+        const progressPercent = getSubjectProgress(data.id, data.questions.length);
         btn.innerHTML = `
             <span style="z-index:2; position:relative;">${data.subject}</span>
             <div class="subject-progress-line" style="width: ${progressPercent}%"></div>
@@ -172,8 +433,18 @@ function renderSubjectList() {
             document.getElementById('selected-subject-name').innerText = currentSubject.subject;
             showScreen('mode');
         };
-        list.appendChild(btn);
+        container.appendChild(btn);
     });
+}
+
+function simpleHash(str) {
+    let hash = 0;
+    for (let i = 0; i < str.length; i++) {
+        const char = str.charCodeAt(i);
+        hash = (hash << 5) - hash + char;
+        hash |= 0; 
+    }
+    return Math.abs(hash).toString(16);
 }
 
 /* ==========================================
@@ -190,9 +461,10 @@ function renderStep() {
     displayNotes();
     saveDetailedProgress();
 
-    // إخفاء نتائج التحليل الصوتي السابقة عند الانتقال لسؤال جديد
-    document.getElementById('study-displayArea').innerHTML = "";
-    document.getElementById('quiz-displayArea').innerHTML = "";
+    const studyArea = document.getElementById('study-displayArea');
+    const quizArea = document.getElementById('quiz-displayArea');
+    if(studyArea) studyArea.innerHTML = "";
+    if(quizArea) quizArea.innerHTML = "";
 
     if (mode === 'quiz') {
         showScreen('quiz');
@@ -241,7 +513,7 @@ function renderQuizQuestion() {
 }
 
 function handleAnswer(selectedIndex, clickedBtn, qData) {
-    userAnswers[currentIndex] = selectedIndex;
+    userAnswers[currentIndex] = selectedIndex; 
     saveDetailedProgress();
     const container = document.getElementById('options-container');
     const buttons = container.querySelectorAll('.option-btn');
@@ -320,7 +592,7 @@ function saveUserNote() {
     const inputId = isQuiz ? 'quiz-note-input' : 'note-input';
     const input = document.getElementById(inputId);
     if (input && input.value.trim()) {
-        const key = `note_${currentSubject.subject}_${currentIndex}`;
+        const key = `note_${currentSubject.id}_${currentSubject.questions[currentIndex].id}`;
         localStorage.setItem(key, input.value.trim());
         input.value = "";
         displayNotes();
@@ -328,8 +600,8 @@ function saveUserNote() {
 }
 
 function displayNotes() {
-    const key = `note_${currentSubject.subject}_${currentIndex}`;
-    const saved = localStorage.getItem(key);
+    const questionId = currentSubject?.questions[currentIndex]?.id;
+    const saved = localStorage.getItem(`note_${currentSubject.id}_${questionId}`);
     const displayId = (mode === 'quiz') ? 'quiz-note-display' : 'user-note-display';
     const box = document.getElementById(displayId);
     if (box) {
@@ -341,54 +613,17 @@ function displayNotes() {
         }
     }
 }
-/* ==========================================
-   6. دمج مختبر الصوتيات وتحليل الجملة (من test.html)
-   ========================================== */
-function playGoogleTTS(text, lang = 'en') {
-    // نطق الجملة كاملة ككتلة واحدة
-    const url = `https://translate.google.com/translate_tts?ie=UTF-8&q=${encodeURIComponent(text)}&tl=${lang}&client=tw-ob`;
-    const audio = new Audio(url);
-    audio.play();
-}
-/* ==========================================
-   تطوير نطق الجمل المتصلة والمعالجة الصوتية
-   ========================================== */
 
-// دالة النطق العالمية للجملة كاملة
+/* ==========================================
+   6. معالجة ومختبر الصوتيات المتطور للـ IPA
+   ========================================== */
 function playFullSentence(text) {
     if (!text) return;
-    // تنظيف النص من الرموز التي قد تعيق النطق
     const cleanText = text.replace(/["']/g, "");
     const url = `https://translate.google.com/translate_tts?ie=UTF-8&q=${encodeURIComponent(cleanText)}&tl=en&client=tw-ob`;
     const audio = new Audio(url);
     audio.rate = parseFloat(currentSpeed || 0.8);
     audio.play().catch(e => console.error("Playback error:", e));
-}
-// دالة محسنة لجلب ومعالجة رموز الجملة كاملة
-async function getFullSentenceIPA(text) {
-    const words = text.split(/\s+/);
-    let fullIPA = "/ ";
-    
-    for (let word of words) {
-        const cleanWord = word.replace(/[^\w]/g, '');
-        try {
-            const response = await fetch(`https://api.dictionaryapi.dev/api/v2/entries/en/${cleanWord}`);
-            const data = await response.json();
-            // جلب الرمز الصوتي وتنظيفه من المائلات
-            let phonetic = data[0].phonetic || (data[0].phonetics.find(p => p.text)?.text) || cleanWord;
-            fullIPA += phonetic.replace(/\//g, '') + " ";
-        } catch (e) {
-            fullIPA += cleanWord + " ";
-        }
-    }
-    return fullIPA + " /";
-}
-function playSentence(text) {
-    // تنظيف النص من أي رموز قد تعيق المحرك الصوتي
-    const cleanText = text.replace(/["']/g, "");
-    const url = `https://translate.google.com/translate_tts?ie=UTF-8&q=${encodeURIComponent(cleanText)}&tl=en&client=tw-ob`;
-    const audio = new Audio(url);
-    audio.play().catch(err => console.error("Error playing audio:", err));
 }
 
 async function analyzeCurrentQuestion(currentMode) {
@@ -401,13 +636,11 @@ async function analyzeCurrentQuestion(currentMode) {
 
     displayArea.innerHTML = '<div style="text-align:center; padding:20px; color:var(--primary);">جاري معالجة النطق المتصل...</div>';
     
-    // نطق الجملة فوراً عند التحميل
     playFullSentence(text);
 
     const words = text.split(/\s+/);
     let ipaParts = [];
 
-    // جلب الرموز الصوتية وتحسين مظهرها
     for(let word of words) {
         const clean = word.replace(/[^\w]/g, '');
         if(clean) {
@@ -415,7 +648,6 @@ async function analyzeCurrentQuestion(currentMode) {
                 const resp = await fetch(`https://api.dictionaryapi.dev/api/v2/entries/en/${clean}`);
                 const data = await resp.json();
                 let phonetic = data[0]?.phonetic || (data[0]?.phonetics?.find(p => p.text)?.text) || clean;
-                // إزالة المائلات الزائدة لتنسيق الجملة
                 ipaParts.push(phonetic.replace(/\//g, ''));
             } catch (e) {
                 ipaParts.push(clean);
@@ -423,10 +655,8 @@ async function analyzeCurrentQuestion(currentMode) {
         }
     }
 
-    // دمج الرموز في جملة واحدة محاطة بمائلين فقط كما في القواميس الاحترافية
     const fullIpa = `/${ipaParts.join(" ")}/`;
 
-    // العرض النهائي (تصميم البطاقة الواحدة)
     displayArea.innerHTML = `
         <div class="word-pill" style="display: block; text-align: left; direction: ltr;">
             <div style="margin-bottom: 15px;">
@@ -436,19 +666,16 @@ async function analyzeCurrentQuestion(currentMode) {
                     ${fullIpa}
                 </div>
             </div>
-            <button class="nav-btn next" style="width: 100%; border-radius: 12px; display: flex; align-items: center; justify-content: center; gap: 10px;" 
-                onclick="playFullSentence(\`${text.replace(/`/g, "\\`")}\`)">
-                <span>🔊 استمع للجملة كاملة</span>
-            </button>
         </div>
     `;
 }
+
 /* ==========================================
    7. التحكم في التدفق
    ========================================== */
 function toggleFlip() {
     const inner = document.getElementById('card-inner');
-    inner.classList.toggle('is-flipped');
+    if(inner) inner.classList.toggle('is-flipped');
 }
 
 function nextQuestion() {
@@ -470,6 +697,7 @@ function prevQuestion() {
 function showResults() {
     showScreen('result');
     const statsBox = document.getElementById('final-stats');
+    if(!statsBox) return;
     
     if (mode === 'quiz') {
         let score = 0;
@@ -488,12 +716,33 @@ function showResults() {
 
 function setMode(m) {
     mode = m;
-    const subProgKey = `progress_${currentSubject.subject}_${mode}`;
+    
+    // تطبيق الترتيب وتثبيته فور اختيار النمط وقبل حساب الاندكس
+    applyUserQuestionOrder(currentSubject, mode);
+
+    const subProgKey = `progress_${currentSubject.id}_${mode}`;
     const savedProg = localStorage.getItem(subProgKey);
+    
     if (savedProg) {
         const prog = JSON.parse(savedProg);
-        currentIndex = prog.index || 0;
-        userAnswers = prog.answers || [];
+        const savedAnswers = prog.answers || {};
+
+        if (Array.isArray(savedAnswers)) {
+            userAnswers = [...savedAnswers];
+            saveDetailedProgress();
+        } else {
+            userAnswers = currentSubject.questions.map(q => savedAnswers[q.id]);
+        }
+
+        let restoredIndex = 0;
+        if (prog.lastQuestionId) {
+            const newIndex = currentSubject.questions.findIndex(q => q.id === prog.lastQuestionId);
+            if (newIndex !== -1) restoredIndex = newIndex;
+        } else if (prog.index !== undefined) {
+            restoredIndex = prog.index;
+        }
+        
+        currentIndex = restoredIndex;
     } else {
         currentIndex = 0;
         userAnswers = [];
@@ -511,30 +760,32 @@ function restartSubject() {
     if(confirm("هل تريد إعادة هذه المادة من البداية؟")) {
         currentIndex = 0;
         userAnswers = [];
-        const subjectProgressKey = `progress_${currentSubject.subject}_${mode}`;
+        const subjectProgressKey = `progress_${currentSubject.id}_${mode}`;
         localStorage.removeItem(subjectProgressKey);
+        currentSubject.questions.forEach((q, i) => {
+            localStorage.removeItem(`note_${currentSubject.id}_${q.id}`);
+        });
         renderStep();
     }
 }
 
 function fullReset() {
-    if(confirm("⚠️ تحذير: سيتم حذف رابط المستودع وكافة الملاحظات والتقدم. هل أنت متأكد؟")) {
+    if(confirm("⚠️ تحذير: سيتم حذف كافة الملاحظات والتقدم المخزن. هل أنت متأكد؟")) {
         localStorage.clear();
         location.reload();
     }
 }
 
-// بدء التطبيق
 window.onload = init;
 
 /* ==========================================
-   8. القاموس المدمج - (English-English Dictionary)
+   8. القاموس المدمج الذكي - (English-English Dictionary)
    ========================================== */
 document.addEventListener('DOMContentLoaded', () => {
     const wordInput = document.getElementById('wordInput');
     const dictionaryOutput = document.getElementById('dictionaryOutput');
 
-    const localDictionaryPath = 'https://raw.githubusercontent.com/MostafaAomar/school_project/refs/heads/main/data/subdata/myOwnDic.json'; 
+    const localDictionaryPath = 'https://raw.githubusercontent.com/MostafaAomar/uni/refs/heads/main/data/subdata/myOwnDic.json'; 
     const apiEndpoint = 'https://api.dictionaryapi.dev/api/v2/entries/en/';
 
     let dictionaryData = []; 
@@ -544,28 +795,17 @@ document.addEventListener('DOMContentLoaded', () => {
     async function loadLocalDictionary() {
         if (isDictionaryLoaded || isLoadingDictionary) return; 
         isLoadingDictionary = true;
-        console.log(`Attempting to load local dictionary from: ${localDictionaryPath}`); 
 
         try {
             const response = await fetch(localDictionaryPath);
-            if (!response.ok) {
-                console.error(`HTTP error loading local dictionary! Status: ${response.status}`);
-                throw new Error(`Failed to load local dictionary.json`);
-            }
+            if (!response.ok) throw new Error(`Failed to load local dictionary.json`);
             dictionaryData = await response.json();
-            if (!Array.isArray(dictionaryData)) {
-                 throw new Error("Invalid local dictionary format.");
-            }
             isDictionaryLoaded = true;
-            console.log(`Local dictionary loaded successfully.`);
-             if (wordInput && wordInput.value.trim()) {
+            if (wordInput && wordInput.value.trim()) {
                 handleWordSearch();
             }
         } catch (error) {
-            console.error('Error loading or parsing local dictionary.json:', error);
-             if (dictionaryOutput) {
-                 dictionaryOutput.innerHTML = `<p class="text-danger">خطأ في تحميل القاموس المحلي. قد لا تعمل عمليات البحث المحلية.</p>`;
-             }
+            console.error('Error loading local dictionary:', error);
         } finally {
             isLoadingDictionary = false;
         }
@@ -580,27 +820,19 @@ document.addEventListener('DOMContentLoaded', () => {
     async function searchApiDictionary(word) {
         const searchTerm = word.trim();
         if (!searchTerm) return null;
-
         dictionaryOutput.innerHTML = '<p class="text-muted" style="text-align:center;">لم يتم العثور عليه محليًا، جار البحث عبر الإنترنت...</p>';
 
         try {
             const response = await fetch(`${apiEndpoint}${encodeURIComponent(searchTerm)}`);
-            if (!response.ok) {
-                if (response.status === 404) return null;
-                throw new Error(`API error! status: ${response.status}`);
-            }
+            if (!response.ok) return null;
             const data = await response.json();
             return (data && data.length > 0) ? data[0] : null;
         } catch (error) {
-            console.error('Error fetching definition from API:', error);
-             if (dictionaryOutput) {
-                  dictionaryOutput.innerHTML = `<p class="text-danger" style="text-align:center;">حدث خطأ أثناء البحث عبر الإنترنت.</p>`;
-             }
             return null; 
         }
     }
 
-     function displayDefinition(entryData, searchTerm) {
+    function displayDefinition(entryData, searchTerm) {
          if (!dictionaryOutput) return; 
 
          if (!entryData) {
@@ -615,19 +847,7 @@ document.addEventListener('DOMContentLoaded', () => {
         let html = `<h4 class="mb-2" style="text-align:left; direction:ltr;">${escapeHTML(word)} ${phoneticText ? `<span class="text-muted fs-6">${escapeHTML(phoneticText)}</span>` : ''}</h4>`;
 
         if (audioUrl) {
-            html += `
-                <div class="audio mb-3">
-                    <audio controls src="${escapeHTML(audioUrl)}">متصفحك لا يدعم الصوت.</audio>
-                </div>
-            `;
-        } else {
-             const alternateAudio = entryData.phonetics?.find(p => p.audio)?.audio;
-              if (alternateAudio) {
-                 html += `
-                 <div class="audio mb-3">
-                     <audio controls src="${escapeHTML(alternateAudio)}">متصفحك لا يدعم الصوت.</audio>
-                 </div>`;
-              }
+            html += `<div class="audio mb-3"><audio controls src="${escapeHTML(audioUrl)}">متصفحك لا يدعم الصوت.</audio></div>`;
         }
 
         if (entryData.meanings && Array.isArray(entryData.meanings)) {
@@ -641,15 +861,10 @@ document.addEventListener('DOMContentLoaded', () => {
                         if (def.example) {
                             html += `<p class="ms-3 text-muted fst-italic" style="border-left:2px solid var(--primary); padding-left:10px;">"${escapeHTML(def.example)}"</p>`;
                         }
-                        if (def.synonyms && def.synonyms.length > 0) {
-                            html += `<p class="ms-3 small"><strong>Synonyms:</strong> ${escapeHTML(def.synonyms.join(', '))}</p>`;
-                        }
                     });
                 }
                 html += `</div>`;
             });
-        } else {
-             html += `<p class="text-muted">لا توجد معاني مفصلة متوفرة.</p>`;
         }
         dictionaryOutput.innerHTML = html;
     }
@@ -664,15 +879,10 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         if (!isDictionaryLoaded && !isLoadingDictionary) {
-             dictionaryOutput.innerHTML = '<p class="text-muted" style="text-align:center;">جارٍ تحميل القاموس المحلي أولاً...</p>';
             await loadLocalDictionary(); 
-        } else if (isLoadingDictionary) {
-             dictionaryOutput.innerHTML = '<p class="text-muted" style="text-align:center;">القاموس المحلي قيد التحميل، يرجى الانتظار...</p>';
-             return; 
-         }
+        }
 
         const localResult = searchLocalDictionary(word);
-
         if (localResult) {
             displayDefinition(localResult, word);
         } else {
@@ -702,3 +912,29 @@ document.addEventListener('DOMContentLoaded', () => {
         return div.innerHTML;
     }
 });
+
+/* ==========================================
+   9. ميزة التحديد الذكي للبحث التلقائي (Smart Highlight Search)
+   ========================================== */
+function performSmartSearch() {
+    setTimeout(() => {
+        const selectedText = window.getSelection().toString().trim();
+
+        if (selectedText && selectedText.length > 0 && selectedText.length <= 30) {
+            
+            const wordInput = document.getElementById('wordInput');
+            const dictionarySection = document.getElementById('dictionary');
+            
+            if (wordInput && dictionarySection) {
+                if (wordInput.value !== selectedText) {
+                    wordInput.value = selectedText;
+                    wordInput.dispatchEvent(new Event('input'));
+                    dictionarySection.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                }
+            }
+        }
+    }, 150); 
+}
+
+document.addEventListener('mouseup', performSmartSearch);
+document.addEventListener('touchend', performSmartSearch);
