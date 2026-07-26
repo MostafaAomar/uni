@@ -612,3 +612,25 @@ input[type="text"]:focus {
     .nav-btn { padding: 14px; font-size: 0.95rem; }
     .mode-card { padding: 24px 12px; }
 }
+/* Append to style.css */
+.year-btn {
+    background: linear-gradient(145deg, rgba(99, 102, 241, 0.15), rgba(15, 23, 42, 0.95));
+    border-left: 4px solid var(--primary);
+}
+.sync-btn {
+    background: rgba(16, 185, 129, 0.1);
+    color: var(--success);
+    border: 1px dashed var(--success);
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 16px;
+}
+.sync-btn:hover {
+    background: rgba(16, 185, 129, 0.2);
+}
+.year-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+}

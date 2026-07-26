@@ -1,7 +1,7 @@
 /* ==========================================
    1. المتغيرات وإدارة الحالة (State Management)
    ========================================== */
-const USE_LOCAL_TEST_FILE = false;
+const USE_LOCAL_TEST_FILE = true;
 
 let quizData = [];
 let currentSubject = null;
@@ -210,30 +210,39 @@ function showWelcomeMessage() {
     setTimeout(removeMessage, 3000);
 }
 
+// Replace the existing fetchRepoAndAddSubjects in app.js
 async function fetchRepoAndAddSubjects(repoUrl) {
-    let cleanUrl = repoUrl.replace('https://github.com/', '');
-    cleanUrl = cleanUrl.split('/tree/')[0]; 
+    let cleanUrl = repoUrl.replace('https://github.com/', '').split('/tree/')[0]; 
     if (cleanUrl.endsWith('.git')) cleanUrl = cleanUrl.slice(0, -4); 
-    
     const parts = cleanUrl.split('/');
     if (parts.length < 2) return;
 
     const owner = parts[0];
     const repo = parts[1];
-    const api = `https://api.github.com/repos/${owner}/${repo}/git/trees/main?recursive=1`;
+    
+    // Check if we have cached tree for offline support
+    const cachedTree = localStorage.getItem('app_repo_tree');
+    let treeData = null;
 
     try {
-        const resp = await fetch(api);
-        
-        if (!resp.ok) throw new Error("فشل الاتصال بـ GitHub API.");
-        
-        const tree = await resp.json();
-        const jsonFiles = tree.tree.filter(t => t.path.endsWith('.json') && !t.path.includes('myOwnDic.json'));
+        if (navigator.onLine) {
+            const api = `https://api.github.com/repos/${owner}/${repo}/git/trees/main?recursive=1`;
+            const resp = await fetch(api);
+            if (!resp.ok) throw new Error("فشل الاتصال بـ GitHub API.");
+            const tree = await resp.json();
+            treeData = tree.tree;
+            localStorage.setItem('app_repo_tree', JSON.stringify(treeData));
+        } else if (cachedTree) {
+            treeData = JSON.parse(cachedTree);
+        } else {
+            throw new Error("لا يوجد اتصال بالإنترنت ولا توجد بيانات محفوظة.");
+        }
 
-        processJsonFiles(jsonFiles, 'github', { owner, repo });
+        const jsonFiles = treeData.filter(t => t.path.endsWith('.json') && !t.path.includes('myOwnDic.json'));
+        renderDynamicYears(jsonFiles, owner, repo);
     } catch (e) { 
         console.error("Load Error:", e);
-        alert(`❌ تعذر تحميل البيانات:\n${e.message}`);
+        document.getElementById('years-container').innerHTML = `<p style="text-align:center; color:var(--error);">❌ تعذر تحميل البيانات: ${e.message}</p>`;
     }
 }
 
@@ -507,9 +516,47 @@ function renderQuizQuestion() {
         container.appendChild(btn);
     });
 
-    if (userAnswers[currentIndex] !== undefined && userAnswers[currentIndex] !== null) {
+   if (userAnswers[currentIndex] !== undefined && userAnswers[currentIndex] !== null) {
         showFeedbackMessage(qData, userAnswers[currentIndex]);
     }
+
+    // NEW LOGIC: Milestone button every 50 questions
+    const interimBtn = document.getElementById('interim-result-btn');
+    if (interimBtn) {
+        const questionNumber = currentIndex + 1;
+        // Show if multiple of 50, OR if we previously passed 50 and want to keep it visible on the 50th index
+        if (questionNumber % 50 === 0 && questionNumber !== currentSubject.questions.length) {
+            interimBtn.classList.remove('hidden');
+        } else {
+            interimBtn.classList.add('hidden');
+        }
+    }
+}
+
+// Add this new function to handle the milestone click
+function showInterimResult() {
+    const modal = document.getElementById('interim-modal');
+    const statsBox = document.getElementById('interim-stats');
+    
+    // Calculate score up to current point
+    let score = 0;
+    let answered = 0;
+    
+    userAnswers.forEach((ans, idx) => {
+        if (idx <= currentIndex && ans !== undefined && ans !== null) {
+            answered++;
+            if (ans === currentSubject.questions[idx].correct) score++;
+        }
+    });
+
+    const pct = Math.round((score / answered) * 100) || 0;
+    statsBox.innerHTML = `
+        <div style="font-size:3rem; font-weight:800; color:${pct >= 50 ? '#10b981' : '#ef4444'}">${pct}%</div>
+        <p>أجبت على ${score} بشكل صحيح من أصل ${answered} سؤال قمت بحله حتى الآن.</p>
+        <p style="font-size: 0.85rem; color: var(--text-muted); margin-top: 10px;">لن يتم مسح أي بيانات. يمكنك المتابعة للسؤال ${currentIndex + 2}.</p>
+    `;
+    
+    modal.classList.remove('hidden');
 }
 
 function handleAnswer(selectedIndex, clickedBtn, qData) {
@@ -934,6 +981,144 @@ function performSmartSearch() {
             }
         }
     }, 150); 
+}
+
+
+
+// New Functions for Lazy Loading and Syncing
+const VALID_YEARS = ["First Year", "Second Year", "Third Year", "Fourth Year"];
+
+function renderDynamicYears(files, owner, repo) {
+    const yearsContainer = document.getElementById('years-container');
+    yearsContainer.innerHTML = '';
+    
+    // Group files by Year folder
+    const yearGroups = {};
+    files.forEach(file => {
+        const parts = file.path.split('/');
+        if (parts.length > 1) {
+            const yearFolder = parts[0];
+            if (!yearGroups[yearFolder]) yearGroups[yearFolder] = [];
+            yearGroups[yearFolder].push(file);
+        }
+    });
+
+    let hasData = false;
+    VALID_YEARS.forEach(year => {
+        // Match standard folder names (e.g., "First Year" or "FirstYear")
+        const folderName = Object.keys(yearGroups).find(k => k.replace(/\s/g, '').toLowerCase() === year.replace(/\s/g, '').toLowerCase());
+        
+        if (folderName && yearGroups[folderName].length > 0) {
+            hasData = true;
+            const btn = document.createElement('div');
+            btn.className = 'subject-btn year-btn';
+            btn.innerHTML = `<span style="z-index:2; position:relative;">${year}</span>`;
+            btn.onclick = () => loadYearData(year, yearGroups[folderName], owner, repo);
+            yearsContainer.appendChild(btn);
+        }
+    });
+
+    if (!hasData) {
+        yearsContainer.innerHTML = "<p style='text-align:center; color:#94a3b8;'>لا توجد بيانات متاحة لأي سنة دراسية حالياً.</p>";
+    }
+}
+
+async function loadYearData(yearName, files, owner, repo) {
+    document.getElementById('years-container').classList.add('hidden');
+    const subjectList = document.getElementById('subject-list');
+    subjectList.classList.remove('hidden');
+    
+    const localKey = `year_data_${yearName}`;
+    const savedData = localStorage.getItem(localKey);
+    
+    if (savedData) {
+        quizData = JSON.parse(savedData);
+        renderSubjectListWithSync(yearName, files, owner, repo);
+    } else {
+        // First time downloading this year
+        subjectList.innerHTML = '<div class="loader" style="text-align: center;">جاري تحميل بيانات السنة لأول مرة...</div>';
+        await fetchAndMergeYearData(yearName, files, owner, repo, true);
+    }
+}
+
+function renderSubjectListWithSync(yearName, files, owner, repo) {
+    renderSubjectList(); // Calls your existing function
+    
+    const list = document.getElementById('subject-list');
+    
+    // Inject Year Header and Back Button
+    const header = document.createElement('div');
+    header.className = 'year-header';
+    header.innerHTML = `
+        <h3 style="margin:0;">${yearName}</h3>
+        <button onclick="backToYears()" class="small-btn ghost-btn" style="margin:0;">العودة</button>
+    `;
+    list.insertBefore(header, list.firstChild);
+
+    // Inject Sync Button
+    const syncBtn = document.createElement('div');
+    syncBtn.className = 'subject-btn sync-btn';
+    syncBtn.innerHTML = `<span>مزامنة وتحديث المواد (Sync) 🔄</span>`;
+    syncBtn.onclick = () => {
+        syncBtn.innerHTML = `<span>جاري المزامنة... ⏳</span>`;
+        fetchAndMergeYearData(yearName, files, owner, repo, false).then(() => {
+            syncBtn.innerHTML = `<span>تمت المزامنة بنجاح ✅</span>`;
+            setTimeout(() => renderSubjectListWithSync(yearName, files, owner, repo), 1500);
+        });
+    };
+    list.insertBefore(syncBtn, header.nextSibling);
+}
+
+function backToYears() {
+    document.getElementById('subject-list').classList.add('hidden');
+    document.getElementById('years-container').classList.remove('hidden');
+    quizData = []; // Clear RAM to optimize performance
+}
+
+async function fetchAndMergeYearData(yearName, files, owner, repo, isFirstTime) {
+    let freshData = [];
+    for (const file of files) {
+        try {
+            const rawUrl = `https://raw.githubusercontent.com/${owner}/${repo}/main/${file.path}?t=${Date.now()}`;
+            const r = await fetch(rawUrl);
+            if (!r.ok) continue;
+            let content = await r.json();
+            const data = Array.isArray(content) ? content[0] : content;
+            
+            if (data && data.questions) {
+                data.questions.forEach(q => {
+                    const combinedStr = q.q + (q.options ? q.options.join('') : '') + (q.correct !== undefined ? q.correct : '');
+                    q.id = q.id || 'id_' + simpleHash(combinedStr);
+                });
+                freshData.push({
+                    id: file.path, 
+                    subject: (data.subject || file.path.replace('.json', '').split('/').pop()).trim(),
+                    lang: data.lang || 'en',
+                    questions: data.questions
+                });
+            }
+        } catch (e) { console.warn("Error fetching file", e); }
+    }
+
+    if (isFirstTime) {
+        quizData = freshData;
+    } else {
+        // Advanced Merge Mechanism: Preserve local progress completely
+        freshData.forEach(newSub => {
+            const existingSub = quizData.find(oldSub => oldSub.id === newSub.id);
+            if (existingSub) {
+                // Merge questions, keeping old ones intact to preserve IDs and progress mapping
+                const existingQuestionIds = existingSub.questions.map(q => q.id);
+                const newQuestions = newSub.questions.filter(q => !existingQuestionIds.includes(q.id));
+                existingSub.questions = [...existingSub.questions, ...newQuestions];
+            } else {
+                quizData.push(newSub); // Entirely new subject added
+            }
+        });
+    }
+
+    localStorage.setItem(`year_data_${yearName}`, JSON.stringify(quizData));
+    if (isFirstTime) renderSubjectListWithSync(yearName, files, owner, repo);
 }
 
 document.addEventListener('mouseup', performSmartSearch);
