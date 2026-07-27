@@ -1,7 +1,7 @@
 /* ==========================================
    1. المتغيرات وإدارة الحالة (State Management)
    ========================================== */
-const USE_LOCAL_TEST_FILE = true;
+const USE_LOCAL_TEST_FILE = false;
 
 let quizData = [];
 let currentSubject = null;
@@ -10,7 +10,7 @@ let userAnswers = [];
 let mode = ''; 
 let currentSpeed = 0.8;
 
-const DEFAULT_REPO_URL = 'https://github.com/MostafaAomar/uni';
+const DEFAULT_REPO_URL = 'https://github.com/MostafaAomar/test';
 
 const screens = {
     setup: document.getElementById('setup-screen'),
@@ -168,6 +168,7 @@ async function init() {
     }
     
     showScreen('setup');
+    loadThemePreference(); // Load theme preference on init
 }
 
 function showWelcomeMessage() {
@@ -208,6 +209,31 @@ function showWelcomeMessage() {
 
     welcomeDiv.addEventListener('click', removeMessage);
     setTimeout(removeMessage, 3000);
+}
+
+function toggleTheme() {
+    const body = document.body;
+    const themeBtn = document.getElementById('theme-toggle-btn');
+    if (body.classList.contains('light-theme')) {
+        body.classList.remove('light-theme');
+        localStorage.setItem('theme', 'dark');
+        if (themeBtn) themeBtn.innerHTML = '☀️';
+    } else {
+        body.classList.add('light-theme');
+        localStorage.setItem('theme', 'light');
+        if (themeBtn) themeBtn.innerHTML = '🌙';
+    }
+}
+
+function loadThemePreference() {
+    const savedTheme = localStorage.getItem('theme');
+    const themeBtn = document.getElementById('theme-toggle-btn');
+    if (savedTheme === 'light') {
+        document.body.classList.add('light-theme');
+        if (themeBtn) themeBtn.innerHTML = '🌙';
+    } else {
+        if (themeBtn) themeBtn.innerHTML = '☀️';
+    }
 }
 
 // Replace the existing fetchRepoAndAddSubjects in app.js
@@ -432,6 +458,7 @@ function renderAllSubjects(container) {
     quizData.forEach((data, index) => {
         const btn = document.createElement('div');
         btn.className = 'subject-btn';
+        btn.dir = data.lang === 'ar' ? 'rtl' : 'ltr'; // Set direction for each button
         const progressPercent = getSubjectProgress(data.id, data.questions.length);
         btn.innerHTML = `
             <span style="z-index:2; position:relative;">${data.subject}</span>
@@ -776,7 +803,6 @@ function setMode(m) {
 
         if (Array.isArray(savedAnswers)) {
             userAnswers = [...savedAnswers];
-            saveDetailedProgress();
         } else {
             userAnswers = currentSubject.questions.map(q => savedAnswers[q.id]);
         }
@@ -792,7 +818,7 @@ function setMode(m) {
         currentIndex = restoredIndex;
     } else {
         currentIndex = 0;
-        userAnswers = [];
+        userAnswers = new Array(currentSubject.questions.length).fill(undefined);
     }
     renderStep();
 }
@@ -832,7 +858,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const wordInput = document.getElementById('wordInput');
     const dictionaryOutput = document.getElementById('dictionaryOutput');
 
-    const localDictionaryPath = 'https://raw.githubusercontent.com/MostafaAomar/uni/refs/heads/main/data/subdata/myOwnDic.json'; 
+    const localDictionaryPath = 'https://raw.githubusercontent.com/MostafaAomar/uni/refs/heads/main/myOwnDic.json'; 
     const apiEndpoint = 'https://api.dictionaryapi.dev/api/v2/entries/en/';
 
     let dictionaryData = []; 
@@ -840,21 +866,14 @@ document.addEventListener('DOMContentLoaded', () => {
     let isLoadingDictionary = false;
 
     async function loadLocalDictionary() {
-        if (isDictionaryLoaded || isLoadingDictionary) return; 
-        isLoadingDictionary = true;
-
         try {
-            const response = await fetch(localDictionaryPath);
-            if (!response.ok) throw new Error(`Failed to load local dictionary.json`);
-            dictionaryData = await response.json();
-            isDictionaryLoaded = true;
-            if (wordInput && wordInput.value.trim()) {
-                handleWordSearch();
-            }
+            const res = await fetch(localDictionaryPath);
+            if (!res.ok) return []; // Silently skip if file doesn't exist
+            const data = await res.json();
+            return Array.isArray(data) ? data : [];
         } catch (error) {
-            console.error('Error loading local dictionary:', error);
-        } finally {
-            isLoadingDictionary = false;
+            console.warn('Dictionary skipped:', error);
+            return []; // Return empty array so the app keeps running
         }
     }
 
@@ -939,7 +958,10 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     if (wordInput && dictionaryOutput) {
-        loadLocalDictionary();
+        (async () => {
+            dictionaryData = await loadLocalDictionary();
+            isDictionaryLoaded = true;
+        })();
         wordInput.addEventListener('input', debounce(handleWordSearch, 350)); 
     }
 
@@ -1111,15 +1133,59 @@ async function fetchAndMergeYearData(yearName, files, owner, repo, isFirstTime) 
                 const existingQuestionIds = existingSub.questions.map(q => q.id);
                 const newQuestions = newSub.questions.filter(q => !existingQuestionIds.includes(q.id));
                 existingSub.questions = [...existingSub.questions, ...newQuestions];
+                existingSub.lang = newSub.lang; // Update language if needed
+                existingSub.subject = newSub.subject; // Update subject name if needed
             } else {
                 quizData.push(newSub); // Entirely new subject added
             }
         });
     }
 
+    // CRITICAL: Restore all saved progress data for each mode (study & quiz)
+    quizData.forEach(subject => {
+        ['study', 'quiz'].forEach(m => {
+            const progressKey = `progress_${subject.id}_${m}`;
+            const savedProgress = localStorage.getItem(progressKey);
+            if (savedProgress) {
+                try {
+                    const prog = JSON.parse(savedProgress);
+                    // Keep saved progress intact - do NOT overwrite
+                    localStorage.setItem(progressKey, JSON.stringify(prog));
+                } catch (e) {
+                    console.warn("Error restoring progress:", e);
+                }
+            }
+        });
+    });
+
     localStorage.setItem(`year_data_${yearName}`, JSON.stringify(quizData));
     if (isFirstTime) renderSubjectListWithSync(yearName, files, owner, repo);
 }
+
+
+
+function toggleSyncSettings() {
+    const container = document.getElementById('sync-settings-container');
+    if (container) {
+        container.classList.toggle('hidden');
+    }
+}
+
+function saveSyncConfig() {
+    const enabled = document.getElementById('sync-enabled').checked;
+    const username = document.getElementById('sync-username').value.trim();
+    const repo = document.getElementById('sync-repo').value.trim();
+    const token = document.getElementById('sync-token').value.trim();
+
+    localStorage.setItem('sync_enabled', enabled);
+    if(username) localStorage.setItem('sync_username', username);
+    if(repo) localStorage.setItem('sync_repo', repo);
+    if(token) localStorage.setItem('sync_token', token);
+
+    alert("تم حفظ إعدادات المزامنة بنجاح!");
+    toggleSyncSettings();
+}
+
 
 document.addEventListener('mouseup', performSmartSearch);
 document.addEventListener('touchend', performSmartSearch);
