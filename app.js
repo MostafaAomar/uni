@@ -836,7 +836,7 @@ async function downloadAllDataForOffline() {
             owner = parts[0];
             repo = parts[1];
             
-            const api = `https://api.github.com/repos/${owner}/${repo}/git/trees/master?recursive=1`;
+            const api = `https://api.github.com/repos/${owner}/${repo}/git/trees/main?recursive=1`;
             const resp = await fetch(api);
             if (!resp.ok) throw new Error("فشل الاتصال بـ GitHub API.");
             const tree = await resp.json();
