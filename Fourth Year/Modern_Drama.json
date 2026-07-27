@@ -704,7 +704,7 @@
     {
       "q": "75. Vladimir's difficult urination represents his inability to:",
       "options": ["Cope and adapt", "Forget the past", "Move onto the future", "All of the above"],
-      "perfect": 3,
+      "correct": 3,
       "feedback": "يرمز صعوبة التبول عند فلاديمير إلى عجزه عن التكيف ونسيان الماضي والمضي قدماً نحو المستقبل."
     },
     {
