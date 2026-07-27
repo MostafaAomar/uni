@@ -11,7 +11,7 @@ let userAnswers = [];
 let mode = ''; 
 let currentSpeed = 0.8;
 
-const DEFAULT_REPO_URL = 'https://github.com/MostafaAomar/test';
+const DEFAULT_REPO_URL = 'https://github.com/MostafaAomar/uni';
 
 const screens = {
     setup: document.getElementById('setup-screen'),
