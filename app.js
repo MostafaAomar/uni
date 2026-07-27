@@ -200,7 +200,7 @@ async function fetchRepoAndAddSubjects(repoUrl) {
 
     try {
         if (navigator.onLine) {
-            const api = `https://api.github.com/repos/${owner}/${repo}/git/trees/main?recursive=1`;
+            const api = `https://api.github.com/repos/${owner}/${repo}/git/trees/master?recursive=1`;
             const resp = await fetch(api);
             if (!resp.ok) throw new Error("فشل الاتصال بـ GitHub API.");
             const tree = await resp.json();
@@ -301,7 +301,7 @@ async function processJsonFiles(files, type, githubInfo = {}) {
 
             if (type === 'github') {
                 fileName = file.path;
-                const rawUrl = `https://raw.githubusercontent.com/${githubInfo.owner}/${githubInfo.repo}/main/${fileName}?t=${Date.now()}`;
+                const rawUrl = `https://raw.githubusercontent.com/${githubInfo.owner}/${githubInfo.repo}/master/${fileName}?t=${Date.now()}`;
                 const r = await fetch(rawUrl);
                 if (!r.ok) continue;
                 content = await r.json();
@@ -836,7 +836,7 @@ async function downloadAllDataForOffline() {
             owner = parts[0];
             repo = parts[1];
             
-            const api = `https://api.github.com/repos/${owner}/${repo}/git/trees/main?recursive=1`;
+            const api = `https://api.github.com/repos/${owner}/${repo}/git/trees/master?recursive=1`;
             const resp = await fetch(api);
             if (!resp.ok) throw new Error("فشل الاتصال بـ GitHub API.");
             const tree = await resp.json();
@@ -907,7 +907,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const wordInput = document.getElementById('wordInput');
     const dictionaryOutput = document.getElementById('dictionaryOutput');
 
-    const localDictionaryPath = 'https://raw.githubusercontent.com/MostafaAomar/uni/refs/heads/main/myOwnDic.json'; 
+    const localDictionaryPath = 'https://raw.githubusercontent.com/MostafaAomar/uni/refs/heads/master/myOwnDic.json'; 
     const apiEndpoint = 'https://api.dictionaryapi.dev/api/v2/entries/en/';
 
     let dictionaryData = []; 
@@ -1140,7 +1140,7 @@ async function fetchAndMergeYearData(yearName, files, owner, repo, isFirstTime) 
     let freshData = [];
     for (const file of files) {
         try {
-            const rawUrl = `https://raw.githubusercontent.com/${owner}/${repo}/main/${file.path}?t=${Date.now()}`;
+            const rawUrl = `https://raw.githubusercontent.com/${owner}/${repo}/master/${file.path}?t=${Date.now()}`;
             const r = await fetch(rawUrl);
             if (!r.ok) continue;
             let content = await r.json();
