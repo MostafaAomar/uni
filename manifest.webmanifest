@@ -1,6 +1,6 @@
 {
     "name": "UniQuiz Offline",
-    "short_name": "UniQuiz",
+    "short_name": "أسئلة الامتحان",
     "description": "Download selected university years and study fully offline.",
     "start_url": "./index.html",
     "scope": "./",
