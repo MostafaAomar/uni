@@ -5,113 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, viewport-fit=cover">
     <meta name="theme-color" content="#4648d4">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
     <title>أسئلة الدورات السابقة</title>
-    <script src="https://jsdelivr.net"></script>
-
-    <!-- Existing application styles and the visual system from t.html -->
+    <link rel="manifest" href="manifest.webmanifest">
+    <link rel="icon" href="icon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="offline.css">
     <link rel="stylesheet" href="style.css">
-    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap"
-        rel="stylesheet">
+    <link href="https://googleapis.com" rel="stylesheet">
 
-    <script id="tailwind-config">
-        tailwind.config = {
-            darkMode: "class",
-            theme: {
-                extend: {
-                    colors: {
-                        "on-tertiary-fixed": "#410002",
-                        "secondary-fixed": "#95f8a7",
-                        "error": "#ba1a1a",
-                        "on-background": "#191c1e",
-                        "on-primary-fixed-variant": "#2f2ebe",
-                        "surface-container-low": "#f2f4f6",
-                        "on-secondary-fixed-variant": "#005323",
-                        "on-secondary": "#ffffff",
-                        "surface-tint": "#494bd6",
-                        "primary-container": "#6063ee",
-                        "surface-container-highest": "#e0e3e5",
-                        "on-tertiary-fixed-variant": "#93000b",
-                        "on-secondary-fixed": "#00210a",
-                        "tertiary-container": "#d9352f",
-                        "tertiary-fixed": "#ffdad6",
-                        "tertiary-fixed-dim": "#ffb4ab",
-                        "primary": "#4648d4",
-                        "inverse-surface": "#2d3133",
-                        "surface-container-high": "#e6e8ea",
-                        "on-secondary-container": "#007233",
-                        "secondary-fixed-dim": "#79db8d",
-                        "on-tertiary-container": "#fffbff",
-                        "primary-fixed": "#e1e0ff",
-                        "secondary": "#006d30",
-                        "background": "#f7f9fb",
-                        "surface-variant": "#e0e3e5",
-                        "surface-container-lowest": "#ffffff",
-                        "on-primary-container": "#fffbff",
-                        "surface": "#f7f9fb",
-                        "surface-bright": "#f7f9fb",
-                        "on-tertiary": "#ffffff",
-                        "outline-variant": "#c7c4d7",
-                        "on-primary-fixed": "#07006c",
-                        "on-error-container": "#93000a",
-                        "outline": "#767586",
-                        "primary-fixed-dim": "#c0c1ff",
-                        "secondary-container": "#92f5a4",
-                        "tertiary": "#b6191a",
-                        "on-surface-variant": "#464554",
-                        "on-primary": "#ffffff",
-                        "on-surface": "#191c1e",
-                        "on-error": "#ffffff",
-                        "inverse-on-surface": "#eff1f3",
-                        "error-container": "#ffdad6",
-                        "surface-container": "#eceef0",
-                        "inverse-primary": "#c0c1ff",
-                        "surface-dim": "#d8dadc"
-                    },
-                    borderRadius: {
-                        DEFAULT: "0.25rem",
-                        lg: "0.5rem",
-                        xl: "0.75rem",
-                        "2xl": "16px",
-                        "3xl": "24px",
-                        full: "9999px"
-                    },
-                    spacing: {
-                        sm: "12px",
-                        xl: "32px",
-                        "margin-mobile": "20px",
-                        gutter: "16px",
-                        "margin-desktop": "40px",
-                        lg: "24px",
-                        base: "4px",
-                        md: "16px",
-                        xs: "8px"
-                    },
-                    fontFamily: {
-                        "title-lg": ["Cairo"],
-                        caption: ["Cairo"],
-                        "label-md": ["Cairo"],
-                        "body-lg": ["Cairo"],
-                        "body-md": ["Cairo"],
-                        "display-lg-mobile": ["Cairo"],
-                        "display-lg": ["Cairo"],
-                        "headline-md": ["Cairo"]
-                    },
-                    fontSize: {
-                        "title-lg": ["20px", { lineHeight: "28px", fontWeight: "600" }],
-                        caption: ["12px", { lineHeight: "16px", fontWeight: "500" }],
-                        "label-md": ["14px", { lineHeight: "20px", letterSpacing: "0.01em", fontWeight: "600" }],
-                        "body-lg": ["18px", { lineHeight: "28px", fontWeight: "400" }],
-                        "body-md": ["16px", { lineHeight: "24px", fontWeight: "400" }],
-                        "display-lg-mobile": ["32px", { lineHeight: "40px", letterSpacing: "-0.01em", fontWeight: "700" }],
-                        "display-lg": ["44px", { lineHeight: "52px", letterSpacing: "-0.02em", fontWeight: "700" }],
-                        "headline-md": ["24px", { lineHeight: "32px", fontWeight: "600" }]
-                    }
-                }
-            }
-        };
-    </script>
 
     <style>
         html {
@@ -125,7 +28,7 @@
             display: block;
             margin: 0;
             padding: 0;
-            font-family: "Cairo", sans-serif;
+            font-family: Tahoma, Arial, sans-serif;
             background-color: var(--bg-dark) !important;
             color: var(--text-main);
             -webkit-tap-highlight-color: transparent;
@@ -1064,7 +967,7 @@
             <div class="flex items-center gap-3">
                 <button type="button" onclick="goBackToSubjects()" class="rounded-full text-primary"
                     aria-label="العودة إلى الرئيسية" title="الرئيسية">
-                    <span class="material-symbols-outlined">arrow_back</span>
+                    <span class="material-symbols-outlined" aria-hidden="true">←</span>
                 </button>
                 <h1 class="cursor-pointer text-display-lg-mobile font-bold text-primary" onclick="goBackToSubjects()">
                     UniQuiz</h1>
@@ -1072,7 +975,7 @@
             <div class="flex items-center gap-1">
                 <button type="button" onclick="fullReset()" class="rounded-full text-error" aria-label="إعادة الضبط"
                     title="إعادة ضبط التطبيق">
-                    <span class="material-symbols-outlined">restart_alt</span>
+                    <span class="material-symbols-outlined" aria-hidden="true">↻</span>
                 </button>
                 <button type="button" id="theme-toggle-btn" onclick="toggleTheme()" class="rounded-full text-primary"
                     aria-label=" تغيير خلفية التطبيق" title="تغيير خلفية التطبيق">🌙</button>
@@ -1086,10 +989,14 @@
                     <div class="view-content">
                         <section aria-label="Subjects dashboard">
                             <div class="dashboard-search">
-                                <span class="material-symbols-outlined">search</span>
+                                <span class="material-symbols-outlined" aria-hidden="true">⌕</span>
                                 <input id="global-subject-search" type="search"
                                     placeholder="Search across all subjects..." autocomplete="off"
                                     aria-label="Search across all subjects">
+                            </div>
+
+                            <div id="connection-status" class="connection-status" role="status" aria-live="polite">
+                                Checking connection…
                             </div>
 
                             <div id="years-container" class="year-strip custom-scrollbar" aria-live="polite">
@@ -1107,11 +1014,11 @@
                                 <a id="whatsapp-contact" class="subject-action whatsapp"
                                     href="https://chat.whatsapp.com/K1rG3xwihbv0hFgwpPj3zz?s=cl&amp;p=a&amp;ilr=1"
                                     target="_blank" rel="noopener noreferrer" onclick="openWhatsApp(event)">
-                                    <span class="material-symbols-outlined">chat</span>
+                                    <span class="material-symbols-outlined" aria-hidden="true">💬</span>
                                     <span>مجموعة واتساب</span>
                                 </a>
                                 <button type="button" class="subject-action retrieve" onclick="retrieveData()">
-                                    <span class="material-symbols-outlined">table_view</span>
+                                    <span class="material-symbols-outlined" aria-hidden="true">▦</span>
                                     <span>أضف كلماتك</span>
                                 </button>
                             </div>
@@ -1124,7 +1031,7 @@
                         <section id="sync-settings-container"
                             class="custom-glass mt-lg hidden rounded-3xl border border-outline-variant p-lg shadow-lg">
                             <div class="mb-md flex items-center gap-3">
-                                <span class="material-symbols-outlined text-primary">sync</span>
+                                <span class="material-symbols-outlined text-primary" aria-hidden="true">↻</span>
                                 <h3 id="sync-status" class="text-title-lg font-semibold text-on-surface">المزامنة معطلة
                                 </h3>
                             </div>
@@ -1197,16 +1104,16 @@
                                 </div>
                                 <div class="vocabulary-form-actions">
                                     <button id="vocabulary-submit" type="submit" class="vocabulary-primary-btn">
-                                        <span class="material-symbols-outlined">حفظ</span>
+                                        <span class="material-symbols-outlined" aria-hidden="true">💾</span>
                                         <span>حفظ الكلمة</span>
                                     </button>
                                     <button id="vocabulary-cancel" type="button" class="vocabulary-secondary-btn hidden"
                                         onclick="cancelVocabularyEdit()">
-                                        <span class="material-symbols-outlined">close</span>
+                                        <span class="material-symbols-outlined" aria-hidden="true">×</span>
                                         <span>إلغاء التعديل</span>
                                     </button>
                                     <button type="button" class="vocabulary-secondary-btn" onclick="goBackToSubjects()">
-                                        <span class="material-symbols-outlined"></span>
+                                        <span class="material-symbols-outlined" aria-hidden="true">←</span>
                                         <span>العودة إلى المواد</span>
                                     </button>
                                 </div>
@@ -1216,12 +1123,12 @@
 
                         <section class="vocabulary-table-section" aria-labelledby="saved-words-title">
                             <h3 id="saved-words-title" class="vocabulary-table-title">
-                                <span class="material-symbols-outlined  text-primary">table_rows</span>
+                                <span class="material-symbols-outlined text-primary" aria-hidden="true">☷</span>
                                 الكلمات المحفوظة
                             </h3>
 
                             <div id="vocabulary-empty" class="vocabulary-empty">
-                                <span class="material-symbols-outlined">menu_book</span>
+                                <span class="material-symbols-outlined" aria-hidden="true">📖</span>
                                 No saved words yet. Add your first word above.
                             </div>
 
@@ -1229,9 +1136,9 @@
                                 <table class="vocabulary-table">
                                     <thead>
                                         <tr>
-                                            <th scope="col" style="width: 40%;">Word</th>
-                                            <th scope="col" style="width: 45%;">Meaning</th>
-                                            <th scope="col" style="width: 15%;">Actions</th>
+                                            <th scope="col" class="vocabulary-word-column">Word</th>
+                                            <th scope="col" class="vocabulary-meaning-column">Meaning</th>
+                                            <th scope="col" class="vocabulary-actions-column">Actions</th>
                                         </tr>
                                     </thead>
                                     <tbody id="vocabulary-table-body"></tbody>
@@ -1262,8 +1169,8 @@
                                 <div>
                                     <div class="mb-md flex items-start justify-between">
                                         <div class="rounded-2xl bg-primary/10 p-md text-primary">
-                                            <span
-                                                class="material-symbols-outlined material-symbols-filled text-3xl">book</span>
+                                            <span class="material-symbols-outlined material-symbols-filled text-3xl"
+                                                aria-hidden="true">📖</span>
                                         </div>
                                         <span
                                             class="rounded-full bg-secondary-container px-md py-1 text-label-md font-semibold text-on-secondary-container">هادئ</span>
@@ -1276,7 +1183,7 @@
                                 <button type="button" onclick="setMode('study')"
                                     class="flex w-full items-center justify-center gap-2 rounded-2xl bg-primary py-md text-label-md font-semibold text-on-primary shadow-lg shadow-primary/20 transition-all active:scale-[0.98]">
                                     ابدأ المذاكرة
-                                    <span class="material-symbols-outlined text-[18px]">arrow_back</span>
+                                    <span class="material-symbols-outlined text-[18px]" aria-hidden="true">←</span>
                                 </button>
                             </article>
 
@@ -1285,8 +1192,8 @@
                                 <div>
                                     <div class="mb-md flex items-start justify-between">
                                         <div class="rounded-2xl bg-tertiary/10 p-md text-tertiary">
-                                            <span
-                                                class="material-symbols-outlined material-symbols-filled text-3xl">bolt</span>
+                                            <span class="material-symbols-outlined material-symbols-filled text-3xl"
+                                                aria-hidden="true">⚡</span>
                                         </div>
                                         <span
                                             class="rounded-full bg-tertiary-fixed px-md py-1 text-label-md font-semibold text-on-tertiary-fixed-variant">تحدٍ</span>
@@ -1299,14 +1206,14 @@
                                 <button type="button" onclick="setMode('quiz')"
                                     class="flex w-full items-center justify-center gap-2 rounded-2xl border-2 border-primary py-md text-label-md font-semibold text-primary transition-all active:scale-[0.98]">
                                     ابدأ الاختبار
-                                    <span class="material-symbols-outlined text-[18px]">arrow_back</span>
+                                    <span class="material-symbols-outlined text-[18px]" aria-hidden="true">←</span>
                                 </button>
                             </article>
                         </div>
 
                         <button type="button" onclick="goBackToSubjects()"
                             class="mt-xl flex w-full items-center justify-center gap-2 rounded-2xl bg-surface-container py-md text-label-md font-semibold text-on-surface-variant">
-                            <span class="material-symbols-outlined">grid_view</span>
+                            <span class="material-symbols-outlined" aria-hidden="true">▦</span>
                             العودة إلى المواد
                         </button>
                     </div>
@@ -1397,7 +1304,7 @@
                                     <h3 id="question-text" class="flex-1">...</h3>
                                     <button type="button" onclick="speakCurrent()"
                                         class="material-symbols-outlined rounded-2xl bg-primary-fixed p-3 text-primary transition-all active:scale-90"
-                                        aria-label="قراءة السؤال" title="قراءة السؤال">volume_up</button>
+                                        aria-label="قراءة السؤال" title="قراءة السؤال">🔊</button>
                                 </div>
                             </div>
 
@@ -1426,8 +1333,8 @@
 
                         <nav class="bottom-nav" aria-label="التنقل بين الأسئلة">
                             <button type="button" class="nav-btn prev" onclick="prevQuestion()">السابق</button>
-                            <button type="button" id="interim-result-btn" class="nav-btn ghost-btn hidden"
-                                onclick="showInterimResult()">نتيجتي</button>
+                            <button type="button" id="interim-result-btn" class="nav-btn checkpoint-result-btn hidden"
+                                onclick="showInterimResult()" aria-label="عرض النتيجة المرحلية">نتيجتي</button>
                             <button type="button" class="nav-btn next" onclick="nextQuestion()">التالي</button>
                         </nav>
                     </div>
@@ -1480,10 +1387,10 @@
                     id="dictionary-toggle-btn">
                     <span class="dictionary-handle block"></span>
                     <span class="flex items-center gap-2">
-                        <span class="material-symbols-outlined text-primary">menu_book</span>
+                        <span class="material-symbols-outlined text-primary" aria-hidden="true">📖</span>
                         <span class="flex-1 text-start text-title-lg font-semibold">القاموس</span>
-                        <span id="dictIcon"
-                            class="dictionary-toggle-icon material-symbols-outlined text-outline">expand_less</span>
+                        <span id="dictIcon" class="dictionary-toggle-icon material-symbols-outlined text-outline"
+                            aria-hidden="true">⌃</span>
                     </span>
                 </button>
 
@@ -1491,7 +1398,8 @@
                     <div class="integrated-dictionary">
                         <div class="relative mb-4">
                             <span
-                                class="material-symbols-outlined pointer-events-none absolute start-4 top-1/2 -translate-y-1/2 text-outline">search</span>
+                                class="material-symbols-outlined pointer-events-none absolute start-4 top-1/2 -translate-y-1/2 text-outline"
+                                aria-hidden="true">⌕</span>
                             <input type="text" id="wordInput" class="glass-input h-14 w-full ps-12"
                                 placeholder="ابحث عن كلمة إنجليزية" autocomplete="off"
                                 aria-label="Enter word for definition">
@@ -1510,17 +1418,19 @@
             <div
                 class="relative w-full max-w-sm rounded-[32px] border border-outline-variant bg-surface p-xl shadow-2xl">
                 <div class="mx-auto mb-lg flex h-16 w-16 items-center justify-center rounded-full bg-primary/10">
-                    <span class="material-symbols-outlined text-4xl text-primary">cloud_download</span>
+                    <span class="material-symbols-outlined text-4xl text-primary" aria-hidden="true">⇩</span>
                 </div>
-                <h3 class="mb-sm text-center text-headline-md font-semibold text-on-surface">تحميل البيانات؟</h3>
+                <h3 id="download-modal-title" class="mb-sm text-center text-headline-md font-semibold text-on-surface">
+                    تحميل البيانات؟</h3>
                 <p class="mb-xl text-center text-body-md text-on-surface-variant">
                     هل تريد تحميل مواد <span id="target-year" class="font-bold text-primary">هذه السنة</span>
                     للاستخدام دون اتصال؟
                 </p>
+                <div id="download-status" class="download-status" role="status" aria-live="polite"></div>
                 <div class="flex flex-col gap-3">
-                    <button type="button" onclick="closeDownloadModal()"
+                    <button type="button" id="download-confirm-btn" onclick="confirmYearDownload()"
                         class="w-full rounded-2xl bg-primary py-4 text-label-md font-semibold text-on-primary">تحميل</button>
-                    <button type="button" onclick="closeDownloadModal()"
+                    <button type="button" id="download-cancel-btn" onclick="closeDownloadModal()"
                         class="w-full rounded-2xl border border-outline-variant bg-surface-container py-4 text-label-md font-semibold text-on-surface-variant">إلغاء</button>
                 </div>
             </div>
@@ -1556,8 +1466,8 @@
         function renderThemeButton() {
             const themeButton = document.getElementById("theme-toggle-btn");
             if (!themeButton) return;
-            const icon = document.body.classList.contains("light-theme") ? "dark_mode" : "light_mode";
-            themeButton.innerHTML = `<span class="material-symbols-outlined">${icon}</span>`;
+            const icon = document.body.classList.contains("light-theme") ? "☾" : "☀";
+            themeButton.innerHTML = `<span class="material-symbols-outlined" aria-hidden="true">${icon}</span>`;
         }
 
         const originalToggleTheme = toggleTheme;
@@ -1592,17 +1502,6 @@
             const countText = `${total} Total`;
             if (count && count.textContent !== countText) count.textContent = countText;
 
-        }
-
-        const yearsContainer = document.getElementById("years-container");
-        if (yearsContainer) {
-            yearsContainer.addEventListener("click", (event) => {
-                const yearButton = event.target.closest(".year-btn");
-                if (!yearButton) return;
-                yearsContainer.querySelectorAll(".year-btn").forEach((button) => {
-                    button.classList.toggle("active-year", button === yearButton);
-                });
-            });
         }
 
         const subjectList = document.getElementById("subject-list");
