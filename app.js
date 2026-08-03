@@ -8,13 +8,14 @@ let quizData = [];
 let currentSubject = null;
 let currentIndex = 0;
 let userAnswers = [];
-let mode = ''; 
+let mode = '';
 let currentSpeed = 0.8;
 
 const DEFAULT_REPO_URL = 'https://github.com/MostafaAomar/uni';
 
 const screens = {
     setup: document.getElementById('setup-screen'),
+    vocabulary: document.getElementById('vocabulary-screen'),
     mode: document.getElementById('mode-screen'),
     quiz: document.getElementById('quiz-screen'),
     study: document.getElementById('study-screen'),
@@ -26,11 +27,11 @@ const screens = {
    ========================================== */
 function showScreen(name) {
     Object.values(screens).forEach(screen => {
-        if(screen) screen.classList.add('hidden');
+        if (screen) screen.classList.add('hidden');
     });
     if (screens[name]) {
         screens[name].classList.remove('hidden');
-        window.scrollTo(0, 0); 
+        window.scrollTo(0, 0);
     }
 }
 
@@ -39,12 +40,12 @@ function saveDetailedProgress() {
 
     const subjectId = currentSubject.id;
     const lastQuestionId = currentSubject.questions[currentIndex]?.id || null;
-    
+
     const lastState = { subjectId: subjectId, mode: mode, lastQuestionId: lastQuestionId };
     localStorage.setItem('app_last_position', JSON.stringify(lastState));
 
     const subjectProgressKey = `progress_${subjectId}_${mode}`;
-    
+
     const progressToSave = {};
     userAnswers.forEach((answer, index) => {
         const questionId = currentSubject.questions[index]?.id;
@@ -53,8 +54,8 @@ function saveDetailedProgress() {
         }
     });
 
-    const progressData = { 
-        lastQuestionId: lastQuestionId, 
+    const progressData = {
+        lastQuestionId: lastQuestionId,
         index: currentIndex,
         answers: progressToSave
     };
@@ -82,7 +83,7 @@ async function init() {
         await fetchRepoAndAddSubjects(DEFAULT_REPO_URL);
         if (loadingDiv) loadingDiv.classList.add('hidden');
     }
-    
+
     const savedPos = localStorage.getItem('app_last_position');
     if (savedPos) {
         try {
@@ -100,27 +101,27 @@ async function init() {
                     if (newIndex !== -1) restoredIndex = newIndex;
                 }
                 currentIndex = restoredIndex;
-                
+
                 const subProgKey = `progress_${currentSubject.id}_${mode}`;
                 const savedProg = localStorage.getItem(subProgKey);
                 if (savedProg) {
                     const parsedProg = JSON.parse(savedProg);
                     const savedAnswers = parsedProg.answers || {};
-                    
+
                     if (Array.isArray(savedAnswers)) {
                         userAnswers = [...savedAnswers];
-                        saveDetailedProgress(); 
+                        saveDetailedProgress();
                     } else {
                         userAnswers = currentSubject.questions.map(q => savedAnswers[q.id]);
                     }
                 }
-                
+
                 renderStep();
                 return;
             }
         } catch (e) { console.log("Error restoring session", e); }
     }
-    
+
     showScreen('setup');
 }
 
@@ -189,14 +190,14 @@ function loadThemePreference() {
 }
 
 async function fetchRepoAndAddSubjects(repoUrl) {
-    let cleanUrl = repoUrl.replace('https://github.com/', '').split('/tree/')[0]; 
-    if (cleanUrl.endsWith('.git')) cleanUrl = cleanUrl.slice(0, -4); 
+    let cleanUrl = repoUrl.replace('https://github.com/', '').split('/tree/')[0];
+    if (cleanUrl.endsWith('.git')) cleanUrl = cleanUrl.slice(0, -4);
     const parts = cleanUrl.split('/');
     if (parts.length < 2) return;
 
     const owner = parts[0];
     const repo = parts[1];
-    
+
     const cachedTree = localStorage.getItem('app_repo_tree');
     let treeData = null;
 
@@ -216,7 +217,7 @@ async function fetchRepoAndAddSubjects(repoUrl) {
 
         const jsonFiles = treeData.filter(t => t.path.endsWith('.json') && !t.path.includes('myOwnDic.json'));
         renderDynamicYears(jsonFiles, owner, repo);
-    } catch (e) { 
+    } catch (e) {
         console.error("Load Error:", e);
         document.getElementById('years-container').innerHTML = `<p style="text-align:center; color:var(--error);">❌ تعذر تحميل البيانات: ${e.message}</p>`;
     }
@@ -226,7 +227,7 @@ async function fetchLocalTestFile() {
     try {
         const response = await fetch(`test.json?t=${Date.now()}`);
         if (!response.ok) throw new Error('Could not find test.json.');
-        
+
         const content = await response.json();
         const fileObject = { name: 'test.json', content: JSON.stringify(content) };
         processJsonFiles([fileObject], 'local');
@@ -242,13 +243,13 @@ function getSubjectProgress(subjectName, totalQuestions) {
     let maxProgress = 0;
 
     modes.forEach(m => {
-        const key = `progress_${subjectName}_${m}`; 
+        const key = `progress_${subjectName}_${m}`;
         const savedData = localStorage.getItem(key);
         if (savedData) {
             try {
                 const parsed = JSON.parse(savedData);
                 let reached = 0;
-                
+
                 if (Array.isArray(parsed.answers)) {
                     reached = parsed.answers.filter(a => a !== null && a !== undefined).length;
                 } else {
@@ -263,8 +264,8 @@ function getSubjectProgress(subjectName, totalQuestions) {
         }
     });
 
-    let percentage = (maxProgress / totalQuestions) * 100;
-    return Math.min(100, Math.max(0, percentage));
+    const percentage = (maxProgress / totalQuestions) * 100;
+    return Math.round(Math.min(100, Math.max(0, percentage)));
 }
 
 function renderSubjectList() {
@@ -307,13 +308,13 @@ async function processJsonFiles(files, type, githubInfo = {}) {
                 const r = await fetch(rawUrl);
                 if (!r.ok) continue;
                 content = await r.json();
-            } else { 
+            } else {
                 fileName = file.name;
                 content = JSON.parse(file.content);
             }
 
             const data = Array.isArray(content) ? content[0] : content;
-            
+
             if (data && data.questions) {
                 data.questions.forEach(q => {
                     const combinedStr = q.q + (q.options ? q.options.join('') : '') + (q.correct !== undefined ? q.correct : '');
@@ -321,8 +322,9 @@ async function processJsonFiles(files, type, githubInfo = {}) {
                 });
 
                 quizData.push({
-                    id: fileName, 
+                    id: fileName,
                     subject: (data.subject || fileName.replace('.json', '').split('/').pop()).trim(),
+                    description: typeof data.description === 'string' ? data.description.trim() : '',
                     lang: data.lang || 'en',
                     questions: data.questions
                 });
@@ -359,19 +361,19 @@ function performSearch(term, container) {
         `;
         btn.onclick = () => {
             currentSubject = quizData[result.subjectIndex];
-            mode = 'quiz'; 
-            
+            mode = 'quiz';
+
             currentIndex = currentSubject.questions.findIndex(q => q.id === result.question.id);
-            if(currentIndex === -1) currentIndex = 0;
+            if (currentIndex === -1) currentIndex = 0;
 
             const subProgKey = `progress_${currentSubject.id}_${mode}`;
             const savedProg = localStorage.getItem(subProgKey);
-            
+
             let savedAnswers = {};
             if (savedProg) {
                 const progObj = JSON.parse(savedProg);
                 savedAnswers = progObj.answers || {};
-                
+
                 if (Array.isArray(savedAnswers)) {
                     userAnswers = [...savedAnswers];
                 } else {
@@ -391,21 +393,51 @@ function performSearch(term, container) {
     });
 }
 
+function escapeCardHTML(value) {
+    return String(value ?? '').replace(/[&<>"']/g, character => ({
+        '&': '&amp;',
+        '<': '&lt;',
+        '>': '&gt;',
+        '"': '&quot;',
+        "'": '&#039;'
+    })[character]);
+}
+
 function renderAllSubjects(container) {
     container.innerHTML = "";
     if (quizData.length === 0) {
         container.innerHTML = "<p style='text-align:center; color:#94a3b8;'>لا توجد مواد متاحة حالياً.</p>";
         return;
     }
-    
+
     quizData.forEach((data, index) => {
         const btn = document.createElement('div');
         btn.className = 'subject-btn';
         btn.dir = data.lang === 'ar' ? 'rtl' : 'ltr';
         const progressPercent = getSubjectProgress(data.id, data.questions.length);
+        const description = data.description || (data.lang === 'ar'
+            ? 'لا يوجد وصف متاح لهذه المادة.'
+            : 'No description is available for this subject.');
+        const questionCount = data.lang === 'ar'
+            ? `${data.questions.length} سؤال`
+            : `${data.questions.length} Questions`;
         btn.innerHTML = `
-            <span style="z-index:2; position:relative;">${data.subject}</span>
-            <div class="subject-progress-line" style="width: ${progressPercent}%"></div>
+        <div onclick="switchView('view-modes')"
+                        class="glass-card rounded-3xl p-md flex flex-col gap-sm shadow-sm hover:shadow-lg transition-all cursor-pointer group active:scale-95">
+                        <div>
+                            <h3 class="font-title-lg text-title-lg mb-1 leading-tight">${escapeCardHTML(data.subject)}</h3>
+                            <p class="subject-card-description font-caption text-caption text-on-surface-variant">${escapeCardHTML(description)}</p>
+                            <small class="subject-card-question-count">${escapeCardHTML(questionCount)}</small>
+                        </div>
+                        <div class="subject-card-progress mt-auto" dir="ltr">
+                            <div class="flex justify-end font-label-md text-label-md mb-2">
+                                <span class="text-primary">${progressPercent}%</span>
+                            </div>
+                            <div class="w-full h-2 bg-surface-container-highest rounded-full overflow-hidden">
+                                <div class="h-full bg-primary rounded-full" style="width: ${progressPercent}%"></div>
+                            </div>
+                        </div>
+                    </div>
         `;
         btn.onclick = () => {
             currentSubject = quizData[index];
@@ -415,13 +447,29 @@ function renderAllSubjects(container) {
         container.appendChild(btn);
     });
 }
+function openDownloadModal(year) {
+    document.getElementById('target-year').textContent = year;
+    document.getElementById('download-modal').classList.remove('hidden');
+}
+document.querySelectorAll('.year-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+        document.querySelectorAll('.year-btn').forEach(b => {
+            b.className = "year-btn whitespace-nowrap px-6 py-2 rounded-full bg-surface-container text-on-surface-variant font-label-md text-label-md border border-outline-variant hover:border-primary transition-all active:scale-95";
+        });
+        btn.className = "year-btn whitespace-nowrap px-6 py-2 rounded-full bg-primary text-on-primary font-label-md text-label-md shadow-md active:scale-95 transition-transform";
+        openDownloadModal(btn.getAttribute('data-year'));
+    });
+});
 
+function closeDownloadModal() {
+    document.getElementById('download-modal').classList.add('hidden');
+}
 function simpleHash(str) {
     let hash = 0;
     for (let i = 0; i < str.length; i++) {
         const char = str.charCodeAt(i);
         hash = (hash << 5) - hash + char;
-        hash |= 0; 
+        hash |= 0;
     }
     return Math.abs(hash).toString(16);
 }
@@ -447,8 +495,8 @@ function renderStep() {
 
     const studyArea = document.getElementById('study-displayArea');
     const quizArea = document.getElementById('quiz-displayArea');
-    if(studyArea) studyArea.innerHTML = "";
-    if(quizArea) quizArea.innerHTML = "";
+    if (studyArea) studyArea.innerHTML = "";
+    if (quizArea) quizArea.innerHTML = "";
 
     if (mode === 'quiz') {
         showScreen('quiz');
@@ -464,19 +512,19 @@ function renderStudyCard() {
     document.getElementById('study-question').innerText = qData.q;
     document.getElementById('study-answer').innerText = qData.options[qData.correct];
     document.getElementById('study-count').innerText = `${currentIndex + 1} / ${currentSubject.questions.length}`;
-    document.getElementById('card-inner').classList.remove('is-flipped'); 
+    document.getElementById('card-inner').classList.remove('is-flipped');
 }
 
 function renderQuizQuestion() {
     const qData = currentSubject.questions[currentIndex];
     document.getElementById('question-text').innerText = qData.q;
     document.getElementById('quiz-count-display').innerText = `${currentIndex + 1} / ${currentSubject.questions.length}`;
-    
+
     const container = document.getElementById('options-container');
     const feedbackBox = document.getElementById('quiz-feedback');
     container.innerHTML = '';
     feedbackBox.classList.add('hidden');
-    
+
     qData.options.forEach((opt, i) => {
         const btn = document.createElement('button');
         btn.className = 'option-btn';
@@ -491,7 +539,7 @@ function renderQuizQuestion() {
         container.appendChild(btn);
     });
 
-   if (userAnswers[currentIndex] !== undefined && userAnswers[currentIndex] !== null) {
+    if (userAnswers[currentIndex] !== undefined && userAnswers[currentIndex] !== null) {
         showFeedbackMessage(qData, userAnswers[currentIndex]);
     }
 
@@ -509,10 +557,10 @@ function renderQuizQuestion() {
 function showInterimResult() {
     const modal = document.getElementById('interim-modal');
     const statsBox = document.getElementById('interim-stats');
-    
+
     let score = 0;
     let answered = 0;
-    
+
     userAnswers.forEach((ans, idx) => {
         if (idx <= currentIndex && ans !== undefined && ans !== null) {
             answered++;
@@ -526,12 +574,12 @@ function showInterimResult() {
         <p>أجبت على ${score} بشكل صحيح من أصل ${answered} سؤال قمت بحله حتى الآن.</p>
         <p style="font-size: 0.85rem; color: var(--text-muted); margin-top: 10px;">لن يتم مسح أي بيانات. يمكنك المتابعة للسؤال ${currentIndex + 2}.</p>
     `;
-    
+
     modal.classList.remove('hidden');
 }
 
 function handleAnswer(selectedIndex, clickedBtn, qData) {
-    userAnswers[currentIndex] = selectedIndex; 
+    userAnswers[currentIndex] = selectedIndex;
     saveDetailedProgress();
     const container = document.getElementById('options-container');
     const buttons = container.querySelectorAll('.option-btn');
@@ -562,10 +610,10 @@ function showFeedbackMessage(qData, selectedIndex) {
 
     feedbackBox.classList.remove('hidden');
     feedbackBox.className = isCorrect ? "feedback-toast feedback-success" : "feedback-toast feedback-error";
-    
+
     const title = isCorrect ? (isAr ? "✅ ممتاز!" : "✅ Correct!") : (isAr ? "❌ خطأ" : "❌ Incorrect");
     const explanation = qData.feedback || (isCorrect ? "" : (isAr ? `الإجابة الصحيحة هي: ${qData.options[qData.correct]}` : `Correct answer: ${qData.options[qData.correct]}`));
-    
+
     feedbackBox.innerHTML = `<strong>${title}</strong><br><span>${explanation}</span>`;
 }
 
@@ -586,9 +634,9 @@ function syncSpeed(val) {
 
 function speakCurrent() {
     if (!window.speechSynthesis || !currentSubject) return;
-    window.speechSynthesis.cancel(); 
+    window.speechSynthesis.cancel();
     const qData = currentSubject.questions[currentIndex];
-    
+
     const utter = new SpeechSynthesisUtterance(qData.q);
     utter.lang = currentSubject.lang || 'en';
     utter.rate = parseFloat(currentSpeed);
@@ -649,23 +697,37 @@ async function analyzeCurrentQuestion(currentMode) {
     const text = qData.q;
     const displayAreaId = currentMode === 'quiz' ? 'quiz-displayArea' : 'study-displayArea';
     const displayArea = document.getElementById(displayAreaId);
-    
-    if(!displayArea) return;
+
+    if (!displayArea) return;
 
     displayArea.innerHTML = '<div style="text-align:center; padding:20px; color:var(--primary);">جاري معالجة النطق المتصل...</div>';
-    
+
     playFullSentence(text);
 
     const words = text.split(/\s+/);
     let ipaParts = [];
 
-    for(let word of words) {
+    for (let word of words) {
         const clean = word.replace(/[^\w]/g, '');
-        if(clean) {
+        if (clean) {
             try {
-                const resp = await fetch(`https://api.dictionaryapi.dev/api/v2/entries/en/${clean}`);
+                const params = new URLSearchParams({
+                    sp: clean,
+                    qe: 'sp',
+                    md: 'r',
+                    ipa: '1',
+                    max: '1'
+                });
+                const resp = await fetch(`https://api.datamuse.com/words?${params}`, {
+                    mode: 'cors',
+                    credentials: 'omit'
+                });
+                if (!resp.ok) throw new Error(`Pronunciation lookup failed (${resp.status})`);
+
                 const data = await resp.json();
-                let phonetic = data[0]?.phonetic || (data[0]?.phonetics?.find(p => p.text)?.text) || clean;
+                const tags = data[0]?.tags || [];
+                const ipaTag = tags.find(tag => tag.startsWith('ipa_pron:'));
+                const phonetic = ipaTag ? ipaTag.slice('ipa_pron:'.length).trim() : clean;
                 ipaParts.push(phonetic.replace(/\//g, ''));
             } catch (e) {
                 ipaParts.push(clean);
@@ -693,7 +755,7 @@ async function analyzeCurrentQuestion(currentMode) {
    ========================================== */
 function toggleFlip() {
     const inner = document.getElementById('card-inner');
-    if(inner) inner.classList.toggle('is-flipped');
+    if (inner) inner.classList.toggle('is-flipped');
 }
 
 function nextQuestion() {
@@ -701,7 +763,7 @@ function nextQuestion() {
         currentIndex++;
         renderStep();
     } else {
-        showResults(); 
+        showResults();
     }
 }
 
@@ -715,8 +777,8 @@ function prevQuestion() {
 function showResults() {
     showScreen('result');
     const statsBox = document.getElementById('final-stats');
-    if(!statsBox) return;
-    
+    if (!statsBox) return;
+
     if (mode === 'quiz') {
         let score = 0;
         userAnswers.forEach((ans, idx) => {
@@ -733,11 +795,16 @@ function showResults() {
 }
 
 function setMode(m) {
+    if (!currentSubject || !currentSubject.questions) {
+        console.error("No subject selected.");
+        showScreen('setup');
+        return;
+    }
     mode = m;
 
     const subProgKey = `progress_${currentSubject.id}_${mode}`;
     const savedProg = localStorage.getItem(subProgKey);
-    
+
     if (savedProg) {
         const prog = JSON.parse(savedProg);
         const savedAnswers = prog.answers || {};
@@ -755,7 +822,7 @@ function setMode(m) {
         } else if (prog.index !== undefined) {
             restoredIndex = prog.index;
         }
-        
+
         currentIndex = restoredIndex;
     } else {
         currentIndex = 0;
@@ -765,15 +832,32 @@ function setMode(m) {
 }
 
 function goBackToSubjects() {
-    saveDetailedProgress(); 
+    if (currentSubject) {
+        saveDetailedProgress();
+    }
     currentSubject = null;
-    document.documentElement.setAttribute('dir', 'rtl'); // Default setup orientation
+    document.documentElement.setAttribute('dir', 'rtl');
     document.documentElement.setAttribute('lang', 'ar');
+
+    // Reset internal view containers for setup-screen
+    const yearsContainer = document.getElementById('years-container');
+    const subjectList = document.getElementById('subject-list');
+    if (yearsContainer) {
+        yearsContainer.classList.remove('hidden');
+        yearsContainer.querySelectorAll('.year-btn').forEach(button => {
+            button.classList.remove('active-year');
+        });
+    }
+    if (subjectList) {
+        subjectList.classList.add('hidden');
+        subjectList.innerHTML = '';
+    }
+
     showScreen('setup');
 }
 
 function restartSubject() {
-    if(confirm("هل تريد إعادة هذه المادة من البداية؟")) {
+    if (confirm("هل تريد إعادة هذه المادة من البداية؟")) {
         currentIndex = 0;
         userAnswers = [];
         const subjectProgressKey = `progress_${currentSubject.id}_${mode}`;
@@ -786,44 +870,331 @@ function restartSubject() {
 }
 
 function fullReset() {
-    if(confirm("⚠️ تحذير: سيتم حذف كافة الملاحظات والتقدم المخزن. هل أنت متأكد؟")) {
+    if (confirm("⚠️ تحذير: سيتم حذف كافة الملاحظات والتقدم المخزن. هل أنت متأكد؟")) {
         localStorage.clear();
         location.reload();
     }
 }
 
+/* ==========================================
+   8. مدير المفردات المحفوظة محلياً
+   ========================================== */
+const VOCABULARY_STORAGE_KEY = 'uniquiz_vocabulary_entries_v1';
+let vocabularyEditingId = null;
+
+function getVocabularyEntries() {
+    try {
+        const storedEntries = JSON.parse(localStorage.getItem(VOCABULARY_STORAGE_KEY) || '[]');
+        if (!Array.isArray(storedEntries)) return [];
+
+        return storedEntries.filter(entry =>
+            entry &&
+            typeof entry.id === 'string' &&
+            typeof entry.word === 'string' &&
+            typeof entry.meaning === 'string'
+        );
+    } catch (error) {
+        console.warn('Could not read saved vocabulary:', error);
+        return [];
+    }
+}
+
+function setVocabularyStatus(message, type = '') {
+    const status = document.getElementById('vocabulary-form-status');
+    if (!status) return;
+    status.textContent = message;
+    status.className = `vocabulary-form-status ${type}`.trim();
+}
+
+function persistVocabularyEntries(entries) {
+    try {
+        localStorage.setItem(VOCABULARY_STORAGE_KEY, JSON.stringify(entries));
+        return true;
+    } catch (error) {
+        console.error('Could not save vocabulary:', error);
+        setVocabularyStatus('The word could not be saved. Please check your browser storage settings.', 'error');
+        return false;
+    }
+}
+
+function resetVocabularyForm(clearStatus = true) {
+    vocabularyEditingId = null;
+    const form = document.getElementById('vocabulary-form');
+    const submitButton = document.getElementById('vocabulary-submit');
+    const cancelButton = document.getElementById('vocabulary-cancel');
+
+    if (form) form.reset();
+    if (submitButton) {
+        submitButton.innerHTML = '<span class="material-symbols-outlined"></span><span>حفظ الكلمة</span>';
+    }
+    if (cancelButton) cancelButton.classList.add('hidden');
+    if (clearStatus) setVocabularyStatus('');
+}
+
+function createVocabularyActionButton(label, icon, className, handler) {
+    const button = document.createElement('button');
+    button.type = 'button';
+    button.className = `vocabulary-row-action ${className}`;
+    button.setAttribute('aria-label', label);
+    button.title = label;
+
+    const iconElement = document.createElement('span');
+    iconElement.className = 'material-symbols-outlined';
+    iconElement.textContent = icon;
+
+    const labelElement = document.createElement('span');
+    labelElement.className = 'vocabulary-action-label';
+    labelElement.textContent = label;
+
+    button.append(iconElement, labelElement);
+    button.addEventListener('click', handler);
+    return button;
+}
+
+function renderVocabularyTable() {
+    const tableBody = document.getElementById('vocabulary-table-body');
+    const tableWrapper = document.getElementById('vocabulary-table-wrapper');
+    const emptyState = document.getElementById('vocabulary-empty');
+    const count = document.getElementById('vocabulary-count');
+    if (!tableBody || !tableWrapper || !emptyState) return;
+
+    const entries = getVocabularyEntries();
+    tableBody.replaceChildren();
+
+    if (count) count.textContent = `${entries.length} ${entries.length === 1 ? 'word' : 'words'}`;
+    tableWrapper.classList.toggle('hidden', entries.length === 0);
+    emptyState.classList.toggle('hidden', entries.length > 0);
+
+    entries.forEach(entry => {
+        const row = document.createElement('tr');
+
+        const wordCell = document.createElement('td');
+        wordCell.className = 'vocabulary-word-cell';
+        wordCell.textContent = entry.word;
+
+        const meaningCell = document.createElement('td');
+        meaningCell.className = 'vocabulary-meaning-cell';
+        meaningCell.textContent = entry.meaning;
+
+        const actionCell = document.createElement('td');
+        actionCell.className = 'vocabulary-row-actions';
+        actionCell.append(
+            createVocabularyActionButton('Edit', 'edit', 'edit', () => editVocabularyEntry(entry.id)),
+            createVocabularyActionButton('Delete', 'delete', 'delete', () => deleteVocabularyEntry(entry.id))
+        );
+
+        row.append(wordCell, meaningCell, actionCell);
+        tableBody.appendChild(row);
+    });
+}
+
+function retrieveData() {
+    resetVocabularyForm();
+    renderVocabularyTable();
+    showScreen('vocabulary');
+}
+
+function saveVocabularyEntry(event) {
+    event?.preventDefault();
+    const wordInput = document.getElementById('vocabulary-word');
+    const meaningInput = document.getElementById('vocabulary-meaning');
+    const word = wordInput?.value.trim() || '';
+    const meaning = meaningInput?.value.trim() || '';
+
+    if (!word || !meaning) {
+        setVocabularyStatus('Please enter both the word and its meaning.', 'error');
+        (!word ? wordInput : meaningInput)?.focus();
+        return;
+    }
+
+    const entries = getVocabularyEntries();
+    const wasEditing = Boolean(vocabularyEditingId);
+
+    if (wasEditing) {
+        const entryIndex = entries.findIndex(entry => entry.id === vocabularyEditingId);
+        if (entryIndex === -1) {
+            resetVocabularyForm(false);
+            setVocabularyStatus('This entry no longer exists.', 'error');
+            renderVocabularyTable();
+            return;
+        }
+        entries[entryIndex] = {
+            ...entries[entryIndex],
+            word,
+            meaning,
+            updatedAt: new Date().toISOString()
+        };
+    } else {
+        const id = window.crypto?.randomUUID
+            ? window.crypto.randomUUID()
+            : `word_${Date.now()}_${Math.random().toString(36).slice(2)}`;
+        entries.unshift({
+            id,
+            word,
+            meaning,
+            createdAt: new Date().toISOString()
+        });
+    }
+
+    if (!persistVocabularyEntries(entries)) return;
+    resetVocabularyForm(false);
+    renderVocabularyTable();
+    setVocabularyStatus(wasEditing ? 'Entry updated successfully.' : 'Word saved successfully.', 'success');
+    wordInput?.focus();
+}
+
+function editVocabularyEntry(id) {
+    const entry = getVocabularyEntries().find(item => item.id === id);
+    if (!entry) {
+        setVocabularyStatus('This entry no longer exists.', 'error');
+        renderVocabularyTable();
+        return;
+    }
+
+    vocabularyEditingId = id;
+    const wordInput = document.getElementById('vocabulary-word');
+    const meaningInput = document.getElementById('vocabulary-meaning');
+    const submitButton = document.getElementById('vocabulary-submit');
+    const cancelButton = document.getElementById('vocabulary-cancel');
+
+    if (wordInput) wordInput.value = entry.word;
+    if (meaningInput) meaningInput.value = entry.meaning;
+    if (submitButton) {
+        submitButton.innerHTML = '<span class="material-symbols-outlined">check</span><span>Update entry</span>';
+    }
+    if (cancelButton) cancelButton.classList.remove('hidden');
+    setVocabularyStatus(`Editing “${entry.word}”.`, 'editing');
+    wordInput?.focus();
+    document.getElementById('vocabulary-form')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+function cancelVocabularyEdit() {
+    resetVocabularyForm();
+    document.getElementById('vocabulary-word')?.focus();
+}
+
+function deleteVocabularyEntry(id) {
+    const entries = getVocabularyEntries();
+    const entry = entries.find(item => item.id === id);
+    if (!entry) {
+        setVocabularyStatus('This entry no longer exists.', 'error');
+        renderVocabularyTable();
+        return;
+    }
+
+    if (!confirm(`Delete “${entry.word}”?`)) return;
+    const remainingEntries = entries.filter(item => item.id !== id);
+    if (!persistVocabularyEntries(remainingEntries)) return;
+
+    if (vocabularyEditingId === id) resetVocabularyForm(false);
+    renderVocabularyTable();
+    setVocabularyStatus('Entry deleted.', 'success');
+}
+
 window.onload = init;
 
 /* ==========================================
-   8. القاموس المدمج الذكي - (English-English Dictionary)
+   9. القاموس المدمج الذكي - (English-English Dictionary)
    ========================================== */
 document.addEventListener('DOMContentLoaded', () => {
     const wordInput = document.getElementById('wordInput');
     const dictionaryOutput = document.getElementById('dictionaryOutput');
 
-    const localDictionaryPath = 'https://raw.githubusercontent.com/MostafaAomar/uni/refs/heads/main/myOwnDic.json'; 
-    const apiEndpoint = 'https://api.dictionaryapi.dev/api/v2/entries/en/';
+    const localDictionaryPaths = [
+        './myOwnDic.json',
+        'https://raw.githubusercontent.com/MostafaAomar/uni/main/myOwnDic.json'
+    ];
+    // Datamuse supplies definitions and IPA metadata and permits browser CORS requests.
+    const apiEndpoint = 'https://api.datamuse.com/words';
 
-    let dictionaryData = []; 
+    let dictionaryData = [];
     let isDictionaryLoaded = false;
     let isLoadingDictionary = false;
+    let dictionaryLoadPromise = null;
+    let latestSearchId = 0;
 
     async function loadLocalDictionary() {
+        if (isDictionaryLoaded) return dictionaryData;
+        if (dictionaryLoadPromise) return dictionaryLoadPromise;
+
+        isLoadingDictionary = true;
+        dictionaryLoadPromise = (async () => {
+            for (const path of localDictionaryPaths) {
+                try {
+                    const response = await fetch(`${path}${path.includes('?') ? '&' : '?'}t=${Date.now()}`);
+                    if (!response.ok) continue;
+
+                    const data = await response.json();
+                    if (Array.isArray(data)) return data;
+                } catch (error) {
+                    console.warn(`Dictionary source unavailable: ${path}`, error);
+                }
+            }
+            return [];
+        })();
+
         try {
-            const res = await fetch(localDictionaryPath);
-            if (!res.ok) return []; 
-            const data = await res.json();
-            return Array.isArray(data) ? data : [];
-        } catch (error) {
-            console.warn('Dictionary skipped:', error);
-            return []; 
+            dictionaryData = await dictionaryLoadPromise;
+            return dictionaryData;
+        } finally {
+            isDictionaryLoaded = true;
+            isLoadingDictionary = false;
+            dictionaryLoadPromise = null;
         }
     }
 
     function searchLocalDictionary(word) {
-        if (!isDictionaryLoaded || dictionaryData.length === 0) return undefined; 
+        if (dictionaryData.length === 0) return undefined;
         const searchTerm = word.trim().toLowerCase();
-        return dictionaryData.find(entry => entry.word.toLowerCase() === searchTerm);
+        return dictionaryData.find(entry => entry.word?.trim().toLowerCase() === searchTerm);
+    }
+
+    function convertDatamuseEntry(entry, searchTerm) {
+        if (!entry || !Array.isArray(entry.defs) || entry.defs.length === 0) return null;
+
+        const partOfSpeechNames = {
+            n: 'noun',
+            v: 'verb',
+            adj: 'adjective',
+            adv: 'adverb',
+            u: 'other'
+        };
+        const definitionsByPartOfSpeech = new Map();
+
+        entry.defs.forEach(rawDefinition => {
+            if (typeof rawDefinition !== 'string') return;
+            const separatorIndex = rawDefinition.indexOf('\t');
+            const code = separatorIndex >= 0 ? rawDefinition.slice(0, separatorIndex).trim() : 'u';
+            const definition = (separatorIndex >= 0
+                ? rawDefinition.slice(separatorIndex + 1)
+                : rawDefinition).trim();
+
+            if (!definition) return;
+            const partOfSpeech = partOfSpeechNames[code] || code || 'other';
+            if (!definitionsByPartOfSpeech.has(partOfSpeech)) {
+                definitionsByPartOfSpeech.set(partOfSpeech, []);
+            }
+            definitionsByPartOfSpeech.get(partOfSpeech).push({ definition });
+        });
+
+        if (definitionsByPartOfSpeech.size === 0) return null;
+
+        const tags = Array.isArray(entry.tags) ? entry.tags : [];
+        const ipaTag = tags.find(tag => tag.startsWith('ipa_pron:'));
+        const arpabetTag = tags.find(tag => tag.startsWith('pron:'));
+        const phonetic = ipaTag
+            ? `/${ipaTag.slice('ipa_pron:'.length).trim()}/`
+            : (arpabetTag ? arpabetTag.slice('pron:'.length).trim() : '');
+
+        return {
+            word: entry.word || searchTerm,
+            phonetic,
+            phonetics: [],
+            meanings: Array.from(definitionsByPartOfSpeech, ([partOfSpeech, definitions]) => ({
+                partOfSpeech,
+                definitions
+            }))
+        };
     }
 
     async function searchApiDictionary(word) {
@@ -832,32 +1203,84 @@ document.addEventListener('DOMContentLoaded', () => {
         dictionaryOutput.innerHTML = '<p class="text-muted" style="text-align:center;">لم يتم العثور عليه محليًا، جار البحث عبر الإنترنت...</p>';
 
         try {
-            const response = await fetch(`${apiEndpoint}${encodeURIComponent(searchTerm)}`);
+            const params = new URLSearchParams({
+                sp: searchTerm,
+                qe: 'sp',
+                md: 'dpr',
+                ipa: '1',
+                max: '1'
+            });
+            const response = await fetch(`${apiEndpoint}?${params}`, {
+                mode: 'cors',
+                credentials: 'omit'
+            });
             if (!response.ok) return null;
             const data = await response.json();
-            return (data && data.length > 0) ? data[0] : null;
+            if (!Array.isArray(data) || data.length === 0) return null;
+
+            const exactMatch = data.find(entry =>
+                entry.word?.trim().toLowerCase() === searchTerm.toLowerCase()
+            ) || data[0];
+            return convertDatamuseEntry(exactMatch, searchTerm);
         } catch (error) {
-            return null; 
+            console.warn('Online dictionary lookup failed:', error);
+            return null;
+        }
+    }
+
+    function normalizeAudioUrl(url) {
+        if (!url || typeof url !== 'string') return '';
+        const trimmedUrl = url.trim();
+        if (trimmedUrl.startsWith('//')) return `https:${trimmedUrl}`;
+
+        try {
+            return new URL(trimmedUrl, window.location.href).href;
+        } catch (error) {
+            return '';
+        }
+    }
+
+    async function playDictionaryPronunciation(word, audioUrl) {
+        if (audioUrl) {
+            try {
+                const audio = new Audio(audioUrl);
+                audio.preload = 'auto';
+                await audio.play();
+                return;
+            } catch (error) {
+                console.warn('Dictionary MP3 playback failed; using browser speech instead.', error);
+            }
+        }
+
+        if ('speechSynthesis' in window) {
+            window.speechSynthesis.cancel();
+            const utterance = new SpeechSynthesisUtterance(word);
+            utterance.lang = 'en-US';
+            utterance.rate = 0.9;
+            window.speechSynthesis.speak(utterance);
         }
     }
 
     function displayDefinition(entryData, searchTerm) {
-         if (!dictionaryOutput) return; 
+        if (!dictionaryOutput) return;
 
-         if (!entryData) {
+        if (!entryData) {
             dictionaryOutput.innerHTML = `<p class="text-warning" style="text-align:center;">لم يتم العثور على تعريف للكلمة "${escapeHTML(searchTerm)}".</p>`;
             return;
         }
 
-        const word = entryData.word;
-        const phoneticText = entryData.phonetics?.find(p => p.text)?.text;
-        const audioUrl = entryData.phonetics?.find(p => p.audio)?.audio;
+        const word = entryData.word || searchTerm;
+        const phoneticText = entryData.phonetic || entryData.phonetics?.find(p => p.text)?.text;
+        const rawAudioUrl = entryData.phonetics?.find(p => typeof p.audio === 'string' && p.audio.trim())?.audio;
+        const audioUrl = normalizeAudioUrl(rawAudioUrl);
 
         let html = `<h4 class="mb-2" style="text-align:left; direction:ltr;">${escapeHTML(word)} ${phoneticText ? `<span class="text-muted fs-6">${escapeHTML(phoneticText)}</span>` : ''}</h4>`;
 
         if (audioUrl) {
-            html += `<div class="audio mb-3"><audio controls src="${escapeHTML(audioUrl)}">متصفحك لا يدعم الصوت.</audio></div>`;
+            html += `<div class="audio mb-3"><audio  preload="none" src="${escapeHTML(audioUrl)}">متصفحك لا يدعم الصوت.</audio></div>`;
         }
+
+        html += `<button type="button" class="small-btn dictionary-audio-btn">🔊 Play pronunciation</button>`;
 
         if (entryData.meanings && Array.isArray(entryData.meanings)) {
             entryData.meanings.forEach(meaning => {
@@ -876,36 +1299,39 @@ document.addEventListener('DOMContentLoaded', () => {
             });
         }
         dictionaryOutput.innerHTML = html;
+
+        const audioButton = dictionaryOutput.querySelector('.dictionary-audio-btn');
+        if (audioButton) {
+            audioButton.addEventListener('click', () => playDictionaryPronunciation(word, audioUrl));
+        }
     }
 
     async function handleWordSearch() {
-        if (!wordInput || !dictionaryOutput) return; 
+        if (!wordInput || !dictionaryOutput) return;
         const word = wordInput.value.trim();
+        const searchId = ++latestSearchId;
 
-        if (word.length < 1) { 
+        if (word.length < 1) {
             dictionaryOutput.innerHTML = '<p class="text-muted" style="text-align:center;">أدخل كلمة للبحث.</p>';
             return;
         }
 
-        if (!isDictionaryLoaded && !isLoadingDictionary) {
-            await loadLocalDictionary(); 
-        }
+        await loadLocalDictionary();
+        if (searchId !== latestSearchId) return;
 
         const localResult = searchLocalDictionary(word);
         if (localResult) {
             displayDefinition(localResult, word);
         } else {
-            const apiResult = await searchApiDictionary(word); 
-            displayDefinition(apiResult, word); 
+            const apiResult = await searchApiDictionary(word);
+            if (searchId !== latestSearchId) return;
+            displayDefinition(apiResult, word);
         }
     }
 
     if (wordInput && dictionaryOutput) {
-        (async () => {
-            dictionaryData = await loadLocalDictionary();
-            isDictionaryLoaded = true;
-        })();
-        wordInput.addEventListener('input', debounce(handleWordSearch, 350)); 
+        loadLocalDictionary();
+        wordInput.addEventListener('input', debounce(handleWordSearch, 350));
     }
 
     function debounce(func, wait) {
@@ -933,10 +1359,10 @@ function performSmartSearch() {
         const selectedText = window.getSelection().toString().trim();
 
         if (selectedText && selectedText.length > 0 && selectedText.length <= 30) {
-            
+
             const wordInput = document.getElementById('wordInput');
             const dictionarySection = document.getElementById('dictionary');
-            
+
             if (wordInput && dictionarySection) {
                 if (wordInput.value !== selectedText) {
                     wordInput.value = selectedText;
@@ -945,13 +1371,13 @@ function performSmartSearch() {
                 }
             }
         }
-    }, 150); 
+    }, 150);
 }
 
 function renderDynamicYears(files, owner, repo) {
     const yearsContainer = document.getElementById('years-container');
     yearsContainer.innerHTML = '';
-    
+
     const yearGroups = {};
     files.forEach(file => {
         const parts = file.path.split('/');
@@ -965,7 +1391,7 @@ function renderDynamicYears(files, owner, repo) {
     let hasData = false;
     VALID_YEARS.forEach(year => {
         const folderName = Object.keys(yearGroups).find(k => k.replace(/\s/g, '').toLowerCase() === year.replace(/\s/g, '').toLowerCase());
-        
+
         if (folderName && yearGroups[folderName].length > 0) {
             hasData = true;
             const btn = document.createElement('div');
@@ -982,13 +1408,12 @@ function renderDynamicYears(files, owner, repo) {
 }
 
 async function loadYearData(yearName, files, owner, repo) {
-    document.getElementById('years-container').classList.add('hidden');
     const subjectList = document.getElementById('subject-list');
     subjectList.classList.remove('hidden');
-    
+
     const localKey = `year_data_${yearName}`;
     const savedData = localStorage.getItem(localKey);
-    
+
     if (savedData) {
         quizData = JSON.parse(savedData);
         renderSubjectListWithSync(yearName, files, owner, repo);
@@ -999,10 +1424,10 @@ async function loadYearData(yearName, files, owner, repo) {
 }
 
 function renderSubjectListWithSync(yearName, files, owner, repo) {
-    renderSubjectList(); 
-    
+    renderSubjectList();
+
     const list = document.getElementById('subject-list');
-    
+
     const header = document.createElement('div');
     header.className = 'year-header';
     header.innerHTML = `
@@ -1025,9 +1450,16 @@ function renderSubjectListWithSync(yearName, files, owner, repo) {
 }
 
 function backToYears() {
-    document.getElementById('subject-list').classList.add('hidden');
-    document.getElementById('years-container').classList.remove('hidden');
-    quizData = []; 
+    const subjectList = document.getElementById('subject-list');
+    const yearsContainer = document.getElementById('years-container');
+
+    subjectList.classList.add('hidden');
+    subjectList.innerHTML = '';
+    yearsContainer.classList.remove('hidden');
+    yearsContainer.querySelectorAll('.year-btn').forEach(button => {
+        button.classList.remove('active-year');
+    });
+    quizData = [];
 }
 
 async function fetchAndMergeYearData(yearName, files, owner, repo, isFirstTime) {
@@ -1039,15 +1471,16 @@ async function fetchAndMergeYearData(yearName, files, owner, repo, isFirstTime) 
             if (!r.ok) continue;
             let content = await r.json();
             const data = Array.isArray(content) ? content[0] : content;
-            
+
             if (data && data.questions) {
                 data.questions.forEach(q => {
                     const combinedStr = q.q + (q.options ? q.options.join('') : '') + (q.correct !== undefined ? q.correct : '');
                     q.id = q.id || 'id_' + simpleHash(combinedStr);
                 });
                 freshData.push({
-                    id: file.path, 
+                    id: file.path,
                     subject: (data.subject || file.path.replace('.json', '').split('/').pop()).trim(),
+                    description: typeof data.description === 'string' ? data.description.trim() : '',
                     lang: data.lang || 'en',
                     questions: data.questions
                 });
@@ -1105,9 +1538,9 @@ function saveSyncConfig() {
     const token = document.getElementById('sync-token').value.trim();
 
     localStorage.setItem('sync_enabled', enabled);
-    if(username) localStorage.setItem('sync_username', username);
-    if(repo) localStorage.setItem('sync_repo', repo);
-    if(token) localStorage.setItem('sync_token', token);
+    if (username) localStorage.setItem('sync_username', username);
+    if (repo) localStorage.setItem('sync_repo', repo);
+    if (token) localStorage.setItem('sync_token', token);
 
     alert("تم حفظ إعدادات المزامنة بنجاح!");
     toggleSyncSettings();
@@ -1119,7 +1552,7 @@ document.addEventListener('touchend', performSmartSearch);
 function renderDynamicYears(files, owner, repo) {
     const yearsContainer = document.getElementById('years-container');
     yearsContainer.innerHTML = '';
-    
+
     const yearGroups = {};
     files.forEach(file => {
         const parts = file.path.split('/');
@@ -1133,7 +1566,7 @@ function renderDynamicYears(files, owner, repo) {
     let hasData = false;
     VALID_YEARS.forEach(year => {
         const folderName = Object.keys(yearGroups).find(k => k.replace(/\s/g, '').toLowerCase() === year.replace(/\s/g, '').toLowerCase());
-        
+
         if (folderName && yearGroups[folderName].length > 0) {
             hasData = true;
             const btn = document.createElement('div');
@@ -1150,43 +1583,26 @@ function renderDynamicYears(files, owner, repo) {
 }
 
 async function loadYearData(yearName, files, owner, repo) {
-    document.getElementById('years-container').classList.add('hidden');
     const subjectList = document.getElementById('subject-list');
     subjectList.classList.remove('hidden');
-    
+
     const localKey = `year_data_${yearName}`;
     const savedData = localStorage.getItem(localKey);
-    
+
     if (savedData) {
         quizData = JSON.parse(savedData);
         renderSubjectListWithSync(yearName, files, owner, repo); // عرض المواد مباشرة من الذاكرة
     } else {
-        // إذا لم تكن البيانات محملة، نعرض زر التحميل بدلاً من التحميل التلقائي
-        subjectList.innerHTML = `
-            <div class="year-header">
-                <h3 style="margin:0;">${yearName}</h3>
-                <button onclick="backToYears()" class="small-btn ghost-btn" style="margin:0;">العودة</button>
-            </div>
-            <div style="padding: 20px; text-align: center;">
-                <p style="margin-bottom: 20px; color: var(--text-muted);">بيانات هذه السنة غير محملة. قم بتحميلها للوصول إلى المواد.</p>
-                <button id="download-year-btn" class="action-btn" style="width: 100%; max-width: 300px;">
-                    تحميل بيانات السنة لأول مرة
-                </button>
-            </div>
-        `;
-        document.getElementById('download-year-btn').onclick = () => {
-            document.getElementById('download-year-btn').innerHTML = 'جاري التحميل...';
-            document.getElementById('download-year-btn').disabled = true;
-            fetchAndMergeYearData(yearName, files, owner, repo, true);
-        };
+        subjectList.innerHTML = '<div class="loader" style="text-align: center;">جاري تحميل بيانات السنة لأول مرة...</div>';
+        await fetchAndMergeYearData(yearName, files, owner, repo, true);
     }
 }
 
 function renderSubjectListWithSync(yearName, files, owner, repo) {
-    renderSubjectList(); 
-    
+    renderSubjectList();
+
     const list = document.getElementById('subject-list');
-    
+
     const header = document.createElement('div');
     header.className = 'year-header';
     header.innerHTML = `
@@ -1209,9 +1625,16 @@ function renderSubjectListWithSync(yearName, files, owner, repo) {
 }
 
 function backToYears() {
-    document.getElementById('subject-list').classList.add('hidden');
-    document.getElementById('years-container').classList.remove('hidden');
-    quizData = []; 
+    const subjectList = document.getElementById('subject-list');
+    const yearsContainer = document.getElementById('years-container');
+
+    subjectList.classList.add('hidden');
+    subjectList.innerHTML = '';
+    yearsContainer.classList.remove('hidden');
+    yearsContainer.querySelectorAll('.year-btn').forEach(button => {
+        button.classList.remove('active-year');
+    });
+    quizData = [];
 }
 
 async function fetchAndMergeYearData(yearName, files, owner, repo, isFirstTime) {
@@ -1223,15 +1646,16 @@ async function fetchAndMergeYearData(yearName, files, owner, repo, isFirstTime) 
             if (!r.ok) continue;
             let content = await r.json();
             const data = Array.isArray(content) ? content[0] : content;
-            
+
             if (data && data.questions) {
                 data.questions.forEach(q => {
                     const combinedStr = q.q + (q.options ? q.options.join('') : '') + (q.correct !== undefined ? q.correct : '');
                     q.id = q.id || 'id_' + simpleHash(combinedStr);
                 });
                 freshData.push({
-                    id: file.path, 
+                    id: file.path,
                     subject: (data.subject || file.path.replace('.json', '').split('/').pop()).trim(),
+                    description: typeof data.description === 'string' ? data.description.trim() : '',
                     lang: data.lang || 'en',
                     questions: data.questions
                 });
