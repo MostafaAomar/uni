@@ -478,6 +478,8 @@
 
         .material-symbols-outlined {
             font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+            min-width: 1em;
+            font-size: 28px;
         }
 
         .material-symbols-filled {
@@ -588,6 +590,27 @@
 
         #subject-list {
             width: 100%;
+        }
+
+        /* Focused search/year states keep results directly below the search bar. */
+        #view-subjects.year-view-active .dashboard-search,
+        #view-subjects.search-view-active .dashboard-search {
+            margin-bottom: 12px;
+        }
+
+        #dashboard-home-content[hidden],
+        #subject-list[hidden] {
+            display: none !important;
+        }
+
+        #view-subjects.year-view-active #dashboard-home-content,
+        #view-subjects.search-view-active #dashboard-home-content {
+            display: none !important;
+        }
+
+        #view-subjects.year-view-active #subject-list,
+        #view-subjects.search-view-active #subject-list {
+            display: block !important;
         }
 
         #subject-list>.search-container {
@@ -995,37 +1018,40 @@
                                     aria-label="Search across all subjects">
                             </div>
 
-                            <div id="connection-status" class="connection-status" role="status" aria-live="polite">
-                                Checking connection…
-                            </div>
+                            <section id="subject-list" class="hidden" hidden aria-label="Loaded subjects" aria-live="polite">
+                                <!-- Search results and subject cards are injected by app.js. -->
+                            </section>
 
-                            <div id="years-container" class="year-strip custom-scrollbar" aria-live="polite">
-                                <div class="loader w-full py-8 text-center text-primary">
-                                    جاري التحقق من الفصول الدراسية...
+                            <div id="dashboard-home-content">
+                                <div id="connection-status" class="connection-status" role="status" aria-live="polite">
+                                    Checking connection…
+                                </div>
+
+                                <div id="years-container" class="year-strip custom-scrollbar" aria-live="polite">
+                                    <div class="loader w-full py-8 text-center text-primary">
+                                        جاري التحقق من الفصول الدراسية...
+                                    </div>
+                                </div>
+
+                                <div class="subjects-heading">
+                                    <h2>Your Subjects</h2>
+                                    <span id="subjects-count" aria-live="polite">0 Total</span>
+                                </div>
+
+                                <div class="subject-actions">
+                                    <a id="whatsapp-contact" class="subject-action whatsapp"
+                                        href="https://chat.whatsapp.com/K1rG3xwihbv0hFgwpPj3zz?s=cl&amp;p=a&amp;ilr=1"
+                                        target="_blank" rel="noopener noreferrer" onclick="openWhatsApp(event)">
+                                        <span class="material-symbols-outlined" aria-hidden="true">💬</span>
+                                        <span>مجموعة واتساب</span>
+                                    </a>
+                                    <button type="button" class="subject-action retrieve" onclick="retrieveData()">
+                                        <span class="material-symbols-outlined" aria-hidden="true">▦</span>
+                                        <span>أضف كلماتك</span>
+                                    </button>
                                 </div>
                             </div>
 
-                            <div class="subjects-heading">
-                                <h2>Your Subjects</h2>
-                                <span id="subjects-count" aria-live="polite">0 Total</span>
-                            </div>
-
-                            <div class="subject-actions">
-                                <a id="whatsapp-contact" class="subject-action whatsapp"
-                                    href="https://chat.whatsapp.com/K1rG3xwihbv0hFgwpPj3zz?s=cl&amp;p=a&amp;ilr=1"
-                                    target="_blank" rel="noopener noreferrer" onclick="openWhatsApp(event)">
-                                    <span class="material-symbols-outlined" aria-hidden="true">💬</span>
-                                    <span>مجموعة واتساب</span>
-                                </a>
-                                <button type="button" class="subject-action retrieve" onclick="retrieveData()">
-                                    <span class="material-symbols-outlined" aria-hidden="true">▦</span>
-                                    <span>أضف كلماتك</span>
-                                </button>
-                            </div>
-
-                            <section id="subject-list" class="hidden" aria-label="Loaded subjects" aria-live="polite">
-                                <!-- Search, sync control, and subject cards are injected by app.js. -->
-                            </section>
                         </section>
 
                         <section id="sync-settings-container"
@@ -1514,17 +1540,7 @@
 
         const globalSearch = document.getElementById("global-subject-search");
         if (globalSearch) {
-            globalSearch.addEventListener("input", (event) => {
-                const results = document.getElementById("search-results-container");
-                if (!results) return;
-
-                const term = event.target.value.trim().toLowerCase();
-                if (term.length > 2) {
-                    performSearch(term, results);
-                } else {
-                    renderAllSubjects(results);
-                }
-            });
+            globalSearch.addEventListener("input", handleGlobalSearchInput);
         }
 
         refreshSubjectsDashboard();

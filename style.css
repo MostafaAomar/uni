@@ -1098,14 +1098,16 @@ input[type="text"]:focus {
     font-family: inherit;
     font-style: normal;
     line-height: 1;
+    min-width: 1em;
+    font-size: 28px;
 }
 
 .app-header .material-symbols-outlined {
-    font-size: 35px;
+    font-size: 38px;
 }
 
 .subject-action .material-symbols-outlined {
-    font-size: 28px;
+    font-size: 32px;
 }
 
 .connection-status {

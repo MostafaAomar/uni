@@ -17,6 +17,7 @@ let currentSpeed = 0.8;
 let activeYear = null;
 let pendingDownloadYear = null;
 let downloadInProgress = false;
+let globalSearchSourcesCache = null;
 
 const DEFAULT_REPO_URL = 'https://github.com/MostafaAomar/uni';
 
@@ -553,27 +554,88 @@ function getSubjectProgress(subjectName, totalQuestions) {
 function renderSubjectList() {
     const list = document.getElementById('subject-list');
     if (!list) return;
-    list.innerHTML = `
-        <div class="search-container">
-            <input type="text" id="question-search-input" placeholder="ابحث عن سؤال في جميع المواد..." />
-        </div>
-    `;
+    list.innerHTML = '<div id="search-results-container"></div>';
+    const resultsContainer = document.getElementById('search-results-container');
+    renderAllSubjects(resultsContainer);
+}
 
-    const searchInput = document.getElementById('question-search-input');
-    const resultsContainer = document.createElement('div');
-    resultsContainer.id = 'search-results-container';
-    list.appendChild(resultsContainer);
+function getSearchResultsContainer() {
+    const list = document.getElementById('subject-list');
+    if (!list) return null;
 
-    searchInput.addEventListener('input', (e) => {
-        const searchTerm = e.target.value.trim().toLowerCase();
-        if (searchTerm.length > 2) {
-            performSearch(searchTerm, resultsContainer);
-        } else {
-            renderAllSubjects(resultsContainer);
-        }
+    let container = document.getElementById('search-results-container');
+    if (!container) {
+        list.innerHTML = '<div id="search-results-container"></div>';
+        container = document.getElementById('search-results-container');
+    }
+    return container;
+}
+
+function setSubjectDashboardState(state) {
+    const view = document.getElementById('view-subjects');
+    const homeContent = document.getElementById('dashboard-home-content');
+    const subjectList = document.getElementById('subject-list');
+    const focused = state === 'year' || state === 'search';
+
+    view?.classList.toggle('year-view-active', state === 'year');
+    view?.classList.toggle('search-view-active', state === 'search');
+
+    if (homeContent) homeContent.hidden = focused;
+    if (subjectList) {
+        subjectList.hidden = !focused;
+        subjectList.classList.toggle('hidden', !focused);
+    }
+}
+
+function getSearchableSubjectSources() {
+    if (activeYear) {
+        return quizData.map((subject, subjectIndex) => ({
+            subject,
+            subjectIndex,
+            yearName: activeYear,
+            yearSubjects: quizData
+        }));
+    }
+
+    if (globalSearchSourcesCache) return globalSearchSourcesCache;
+
+    const downloadedSources = [];
+    VALID_YEARS.forEach(yearName => {
+        const yearSubjects = readDownloadedYear(yearName);
+        yearSubjects.forEach((subject, subjectIndex) => {
+            downloadedSources.push({ subject, subjectIndex, yearName, yearSubjects });
+        });
     });
 
-    renderAllSubjects(resultsContainer);
+    // Keep the local-test/import workflow working when no downloaded year exists.
+    if (downloadedSources.length === 0 && quizData.length > 0) {
+        quizData.forEach((subject, subjectIndex) => {
+            downloadedSources.push({ subject, subjectIndex, yearName: null, yearSubjects: quizData });
+        });
+    }
+
+    globalSearchSourcesCache = downloadedSources;
+    return downloadedSources;
+}
+
+function handleGlobalSearchInput(event) {
+    const term = String(event?.target?.value ?? '').trim().toLowerCase();
+    const resultsContainer = getSearchResultsContainer();
+    if (!resultsContainer) return;
+
+    if (!term) {
+        if (activeYear) {
+            setSubjectDashboardState('year');
+            renderAllSubjects(resultsContainer);
+        } else {
+            resultsContainer.innerHTML = '';
+            setSubjectDashboardState('home');
+        }
+        return;
+    }
+
+    setSubjectDashboardState(activeYear ? 'year' : 'search');
+    performSearch(term, resultsContainer, getSearchableSubjectSources());
 }
 
 async function processJsonFiles(files, type, githubInfo = {}) {
@@ -615,13 +677,14 @@ async function processJsonFiles(files, type, githubInfo = {}) {
     renderSubjectList();
 }
 
-function performSearch(term, container) {
+function performSearch(term, container, subjectSources = getSearchableSubjectSources()) {
     container.innerHTML = '';
-    let results = [];
-    quizData.forEach((subject, subjectIndex) => {
-        subject.questions.forEach((question, questionIndex) => {
-            if (question.q.toLowerCase().includes(term)) {
-                results.push({ subject, subjectIndex, question, questionIndex });
+    const results = [];
+    subjectSources.forEach(source => {
+        const subject = source.subject;
+        (subject.questions || []).forEach((question, questionIndex) => {
+            if (String(question.q ?? '').toLowerCase().includes(term)) {
+                results.push({ ...source, question, questionIndex });
             }
         });
     });
@@ -634,18 +697,32 @@ function performSearch(term, container) {
     results.forEach(result => {
         const btn = document.createElement('div');
         btn.className = 'subject-btn search-result-item';
+        btn.setAttribute('role', 'button');
+        btn.tabIndex = 0;
+        const yearLabel = result.yearName
+            ? ` · السنة: ${escapeCardHTML(result.yearName)}`
+            : '';
         btn.innerHTML = `
-            <span style="z-index:2; position:relative; display:block;">${result.question.q}</span>
-            <small style="z-index:2; position:relative; color: #a1a1aa; display:block; margin-top: 5px;">المادة: ${result.subject.subject}</small>
+            <span style="z-index:2; position:relative; display:block;">${escapeCardHTML(result.question.q)}</span>
+            <small style="z-index:2; position:relative; color: #a1a1aa; display:block; margin-top: 5px;">المادة: ${escapeCardHTML(result.subject.subject)}${yearLabel}</small>
         `;
-        btn.onclick = () => {
-            currentSubject = quizData[result.subjectIndex];
+        const openResult = () => {
+            quizData = result.yearSubjects;
+            if (result.yearName) activeYear = result.yearName;
+            currentSubject = result.yearSubjects[result.subjectIndex];
             mode = 'quiz';
             restoreCurrentSubjectProgress();
             currentIndex = currentSubject.questions.findIndex(q => q.id === result.question.id);
             if (currentIndex === -1) currentIndex = 0;
             renderStep();
         };
+        btn.addEventListener('click', openResult);
+        btn.addEventListener('keydown', event => {
+            if (event.key === 'Enter' || event.key === ' ') {
+                event.preventDefault();
+                openResult();
+            }
+        });
         container.appendChild(btn);
     });
 }
@@ -1030,7 +1107,7 @@ async function analyzeCurrentQuestion(currentMode) {
         <div class="word-pill" style="display: block; text-align: left; direction: ltr;">
             <div style="margin-bottom: 15px;">
                 <span style="font-size: 0.7rem; color: var(--accent); font-weight: 800; text-transform: uppercase;">Full Sentence Flow</span>
-                <h3 style="margin: 5px 0; line-height: 1.4; color: #fff;">${text}</h3>
+                <h3 style="margin: 5px 0; line-height: 1.4; color: #bf8686;">${text}</h3>
                 <div class="ipa" style="color: #6366f1; font-size: 1.1rem; margin-top: 10px; background: rgba(99,102,241,0.1); padding: 8px; border-radius: 8px; border-left: 3px solid var(--primary);">
                     ${fullIpa}
                 </div>
@@ -1109,11 +1186,15 @@ function goBackToSubjects() {
     }
     if (subjectList) {
         subjectList.classList.add('hidden');
+        subjectList.hidden = true;
         subjectList.innerHTML = '';
     }
 
     activeYear = null;
     quizData = [];
+    const globalSearch = document.getElementById('global-subject-search');
+    if (globalSearch) globalSearch.value = '';
+    setSubjectDashboardState('home');
     renderDynamicYears();
     showScreen('setup');
 }
@@ -1680,6 +1761,7 @@ function formatStoredBytes(bytes) {
 function renderDynamicYears() {
     const yearsContainer = document.getElementById('years-container');
     if (!yearsContainer) return;
+    globalSearchSourcesCache = null;
     yearsContainer.innerHTML = '';
 
     VALID_YEARS.forEach(yearName => {
@@ -1743,9 +1825,13 @@ function loadYearData(yearName) {
 
     quizData = downloadedSubjects;
     activeYear = yearName;
+    const globalSearch = document.getElementById('global-subject-search');
+    if (globalSearch) globalSearch.value = '';
     renderDynamicYears();
-    document.getElementById('subject-list')?.classList.remove('hidden');
     renderSubjectListWithSync(yearName);
+    setSubjectDashboardState('year');
+    showScreen('setup');
+    window.scrollTo(0, 0);
 }
 
 function renderSubjectListWithSync(yearName) {
@@ -1780,12 +1866,17 @@ function backToYears() {
     const subjectList = document.getElementById('subject-list');
     if (subjectList) {
         subjectList.classList.add('hidden');
+        subjectList.hidden = true;
         subjectList.innerHTML = '';
     }
     activeYear = null;
     quizData = [];
+    const globalSearch = document.getElementById('global-subject-search');
+    if (globalSearch) globalSearch.value = '';
+    setSubjectDashboardState('home');
     renderDynamicYears();
     showScreen('setup');
+    window.scrollTo(0, 0);
 }
 
 function getRepositoryParts() {
