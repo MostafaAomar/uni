@@ -3,6 +3,306 @@
   "description": "حل اسئله دورات سابقه",
   "lang": "en",
   "questions": [
+     {
+      "q": "New trends in drama are often inspired by the desire for:",
+      "options": ["catharsis", "assimilation", "social reform", "satire"],
+      "correct": 2,
+      "feedback": "الإجابة الصحيحة هي 'social reform'. تذكر الأوراق الذهبية أن الاتجاهات الجديدة في الدراما والمسرح غالباً ما تنبع من الرغبة في الإصلاح الاجتماعي [1]."
+    },
+    {
+      "q": "Even though we suffer with the tragic hero, we find ______ in the drama with its grandeur of character, theme and action.",
+      "options": ["aesthetic beauty", "peace", "morale", "dominance"],
+      "correct": 0,
+      "feedback": "الإجابة الصحيحة هي 'aesthetic beauty'. على الرغم من المعاناة، نجد جمالاً جمالياً في التراجيديا بسبب عظمة الشخصية والموضوع [2]."
+    },
+    {
+      "q": "______ is a deliberate sequence of cause and effect (Exposition, Rising Action, Climax, Falling Action, and Resolution).",
+      "options": ["irony", "spectacle", "setting", "Plot"],
+      "correct": 3,
+      "feedback": "الإجابة الصحيحة هي 'Plot'. الحبكة هي التسلسل المتعمد للأحداث من البداية حتى الحل [3]."
+    },
+    {
+      "q": "\"What way would a woman live in a lonesome place the like of this place, and she not making a talk with the men passing?\". The speaker is:",
+      "options": ["Nora", "Nancy", "Perry", "Leroy"],
+      "correct": 0,
+      "feedback": "المتحدثة هي 'Nora'. هذا السؤال يشير لمسرحية 'في ظل الوادي' التي تدرس ضمن المنهج، وتتحدث فيها نورا عن الوحدة [خارج نص الأوراق الذهبية المباشر لكنها في الصور]."
+    },
+    {
+      "q": "Nora: \"He was always queer, stranger, and I suppose them that's queer and they living men will be queer bodies too.\" By \"He\" she refers to:",
+      "options": ["Mr Webster", "her husband", "her son", "her father"],
+      "correct": 1,
+      "feedback": "تشير نورا بكلمة 'He' إلى زوجها 'her husband' (دان بيرك) في سياق المسرحية [خارج الأوراق الذهبية]."
+    },
+    {
+      "q": "Instead of paying rent, the ______ gave a large portion of the crop, often half, to the landlord.",
+      "options": ["land-owner", "slaves", "sharecroppers", "priests"],
+      "correct": 2,
+      "feedback": "الإجابة الصحيحة هي 'sharecroppers'. المزارعون بالمشاركة هم من يدفعون جزءاً من المحصول للمالك بدلاً من الإيجار النقدي [4]."
+    },
+    {
+      "q": "In This Piece of Land, Lou Rivers uses the thematic focus of land ownership to explore the profound psychological and social transition of African Americans from being \"______\" to becoming \"property owners.\"",
+      "options": ["workers", "free", "tenants", "Property"],
+      "correct": 2,
+      "feedback": "الإجابة الصحيحة هي 'tenants'. المسرحية تستعرض تحول الأمريكيين من أصل أفريقي من مستأجرين (tenants) إلى ملاك أراضٍ [5]."
+    },
+    {
+      "q": "The ______ in one-act plays is usually straightforward and uncomplicated.",
+      "options": ["characters", "plot", "climax", "exposition"],
+      "correct": 1,
+      "feedback": "الإجابة الصحيحة هي 'plot'. عادة ما تكون حبكة المسرحية ذات الفصل الواحد بسيطة وغير معقدة [3]."
+    },
+    {
+      "q": "\"I tell you, I do believe the good God is purifin you for his kingdom.\". the speaker is:",
+      "options": ["Mr. Charlie", "Mr. Webster", "Mr. Scratch", "Mr. Morgan"],
+      "correct": 0,
+      "feedback": "المتحدث هو 'Mr. Charlie'. يقول هذا الكلام لروزا مبرراً معاناتها بكلمات دينية [6]."
+    },
+    {
+      "q": "______ generally tries to show how life intermingles the comic and the tragic.",
+      "options": ["Absurd theatre", "Tragedy", "Comedy", "Tragicomedy"],
+      "correct": 3,
+      "feedback": "الإجابة الصحيحة هي 'Tragicomedy'. الكوميديا التراجيدية هي النوع الذي يظهر تداخل الجوانب الهزلية والجادّة في الحياة [7]."
+    },
+    {
+      "q": "Characters in The Proposal are ______:",
+      "options": ["one-dimensional", "two-sided", "complex", "melodramatic"],
+      "correct": 0,
+      "feedback": "الإجابة الصحيحة هي 'one-dimensional'. الشخصيات في مسرحية 'طلب زواج' لتشيخوف هي شخصيات أحادية البعد وهزلية [8]."
+    },
+    {
+      "q": "Theatre of the absurd ______ of experimentation.",
+      "options": ["was not a type", "was a type", "was a derivative", "was extreme"],
+      "correct": 1,
+      "feedback": "الإجابة الصحيحة هي 'was a type'. مسرح العبث كان نوعاً من أنواع التجريب المسرحي في الخمسينيات [9]."
+    },
+    {
+      "q": "Character ______ is a personality trait that doesn't seem to fit with others.",
+      "options": ["scrutiny", "consistency", "inconsistency", "cruelty"],
+      "correct": 2,
+      "feedback": "الإجابة الصحيحة هي 'inconsistency'. عدم التناسق يعني وجود سمة شخصية لا تتناسب مع السمات الأخرى [10]."
+    },
+    {
+      "q": "______ in a comedy may come from character behavior or situation.",
+      "options": ["Segregation", "Wittiness", "Humor", "Hypocrisy"],
+      "correct": 2,
+      "feedback": "الإجابة الصحيحة هي 'Humor'. الفكاهة في الكوميديا تنبع من سلوك الشخصية أو الموقف الدرامي [11]."
+    },
+    {
+      "q": "\"You will not be getting your death with myself, lady of the house, and I knowing all the ways a man can put a food in his mouth.\" The speaker is:",
+      "options": ["Mr. Scratch", "Tramp", "Lomov", "Jabez"],
+      "correct": 1,
+      "feedback": "المتحدث هو 'Tramp' (المتسكع) في مسرحية 'في ظل الوادي' مخاطباً نورا [خارج الأوراق الذهبية]."
+    },
+    {
+      "q": "The addressee in the previous lines is:",
+      "options": ["Natalia", "Mary", "Nora", "Rosa"],
+      "correct": 2,
+      "feedback": "المخاطبة هي 'Nora' [خارج الأوراق الذهبية]."
+    },
+    {
+      "q": "This Piece of Land highlights the tension between the dream of independence and the reality of the ______ system.",
+      "options": ["Sharecropping", "feudal", "capital", "discrimination"],
+      "correct": 0,
+      "feedback": "الإجابة الصحيحة هي 'Sharecropping'. تبرز المسرحية التوتر بين حلم الاستقلال وواقع نظام المزارعة بالمشاركة [4]."
+    },
+    {
+      "q": "Theatre of the Absurd shows ______ people in an insane world.",
+      "options": ["normal", "insane", "illogical", "sacred"],
+      "correct": 0,
+      "feedback": "الإجابة الصحيحة هي 'normal'. مسرح العبث يضع أشخاصاً طبيعيين (normal) في مواجهة عالم مجنون [9]."
+    },
+    {
+      "q": "This Piece of Land makes a powerful statement about the ______ of the human spirit over powerful oppression.",
+      "options": ["defeat", "control", "triumph", "sense"],
+      "correct": 2,
+      "feedback": "الإجابة الصحيحة هي 'triumph'. المسرحية تؤكد على انتصار الروح البشرية على الظلم [5]."
+    },
+    {
+      "q": "______ is a short remark directed to the audience (or another character) that others on stage are \"unable\" to hear.",
+      "options": ["Soliloquy", "Aside", "Dramatic irony", "Satire"],
+      "correct": 1,
+      "feedback": "الإجابة الصحيحة هي 'Aside'. الـ 'جانبية' هي تعليق قصير يوجه للجمهور ولا يسمعه باقي الشخصيات [Terminology]."
+    },
+    {
+      "q": "Tragedy aims to help the audience ______ emotions by identifying with the hero.",
+      "options": ["mock", "lament", "simplify", "experience"],
+      "correct": 3,
+      "feedback": "الإجابة الصحيحة هي 'experience'. تهدف التراجيديا لجعل الجمهور يختبر العواطف عبر التماهي مع البطل [12]."
+    },
+    {
+      "q": "The aim of ______ is to challenge egos or provoke discomfort.",
+      "options": ["derision", "satire", "tragedy", "melodrama"],
+      "correct": 0,
+      "feedback": "الإجابة الصحيحة هي 'derision'. هدف السخرية هو تحطيم الغرور أو التسبب بالضيق [13]."
+    },
+    {
+      "q": "______ in one-act plays is usually simple.",
+      "options": ["characters", "plot", "climax", "exposition"],
+      "correct": 1,
+      "feedback": "الإجابة الصحيحة هي 'plot'. عادة ما تكون الحبكة بسيطة في هذا النوع من المسرحيات [13/15]."
+    },
+    {
+      "q": "Mr. Charlie: The white farmers as well as ______ people here is getting the same thing.",
+      "options": ["all", "your", "you", "our"],
+      "correct": 2,
+      "feedback": "الكلمة المفقودة هي 'you'. يشير السيد تشارلي إلى المزارعين السود (you people) [14]."
+    },
+    {
+      "q": "Mr. Charlie: \"I want all of you fellows over there to think right ______ of me, and when you all pray, don't pray agin me!\"",
+      "options": ["often", "good", "proudly", "badly"],
+      "correct": 1,
+      "feedback": "الكلمة المفقودة هي 'good'. يطلب منهم أن يظنوا به خيراً (think right good of me) [15]."
+    },
+    {
+      "q": "______ movement in theatre could be called experimental.",
+      "options": ["Any new", "Not all", "Only trendy", "Every"],
+      "correct": 0,
+      "feedback": "الإجابة الصحيحة هي 'Any new'. أي حركة جديدة في المسرح يمكن اعتبارها تجريبية [1]."
+    },
+    {
+      "q": "Even though Rosa is dying, she has ______ flaw that has brought about her defeat.",
+      "options": ["some", "one", "clear", "no tragic"],
+      "correct": 3,
+      "feedback": "الإجابة الصحيحة هي 'no tragic'. روزا ليس لديها عيب تراجيدي أدى لسقوطها، بل هي ضحية الظروف [5]."
+    },
+    {
+      "q": "\"Do you think it's the place makes difference to a woman? I'd have kept your house.\" The speaker is ______",
+      "options": ["Natalia", "Nora", "Mary", "Nancy"],
+      "correct": 2,
+      "feedback": "المتحدثة هي 'Mary' في مسرحية دانيال وبستر [16]."
+    },
+    {
+      "q": "\"I don't understand for one thing how this country of ______ got itself into this mess in the first place.\"",
+      "options": ["ours", "America", "freedom", "white folks"],
+      "correct": 0,
+      "feedback": "الكلمة المفقودة هي 'ours'. روزا تتساءل كيف وقع بلدنا (ours) في هذه الفوضى [17]."
+    },
+    {
+      "q": "The speaker in the previous line is:",
+      "options": ["Mr. Webster", "Mr. Charlie", "Perry", "Rosa"],
+      "correct": 3,
+      "feedback": "المتحدثة هي 'Rosa' [17]."
+    },
+    {
+      "q": "\"Now the domestic joys have begun\". The speaker is:",
+      "options": ["Mr. Webster", "Lomov", "Tschub", "The devil"],
+      "correct": 2,
+      "feedback": "المتحدث هو 'Tschub' (تشوبوكوف) في نهاية مسرحية طلب زواج [80/92]."
+    },
+    {
+      "q": "Miracle and Mystery plays were ______ plays.",
+      "options": ["absurd", "one-act", "melodrama", "comedy"],
+      "correct": 1,
+      "feedback": "الإجابة الصحيحة هي 'one-act'. كانت مسرحيات المعجزات والغموض غالباً من فصل واحد [18]."
+    },
+    {
+      "q": "The comic relief in a ______ can come from minor characters.",
+      "options": ["tragedy", "melodrama", "comedy", "logical tragedy"],
+      "correct": 1,
+      "feedback": "الإجابة الصحيحة هي 'melodrama'. توفر الشخصيات الثانوية الراحة الكوميدية في الميلودراما [1]."
+    },
+    {
+      "q": "\"It ain't legal! It's a sin before God!!!\". The speaker is (34) ______ addressing (35) ______.",
+      "options": ["A-Leroy", "B-Mr. Morgan", "C-Perry", "D-Rosa"],
+      "correct": 2,
+      "feedback": "المتحدث هو 'Perry' [66/70]."
+    },
+    {
+      "q": "In the previous quote, Perry is addressing:",
+      "options": ["Mr. Morgan", "Rosa", "Leroy", "D-A and B"],
+      "correct": 3,
+      "feedback": "الإجابة هي 'A and B' (السيد مورغان وروزا) [66/70]."
+    },
+    {
+      "q": "The core components of drama include the (36) ______, characters, (37) ______, setting, and (38) ______.",
+      "options": ["A-satire", "B-Script", "C-stereotype", "D-synopsis"],
+      "correct": 1,
+      "feedback": "المكونات الأساسية للدراما تشمل النص (Script) [Terminology]."
+    },
+    {
+      "q": "The core components of drama include the script, characters, (37) ______, setting, and audience.",
+      "options": ["A-plot", "B-images", "C-figures", "D-aside"],
+      "correct": 0,
+      "feedback": "المكون الأساسي هنا هو الحبكة (plot) [Terminology]."
+    },
+    {
+      "q": "The core components of drama include the script, characters, plot, setting, and (38) ______.",
+      "options": ["A-address", "B-audience", "C-lights", "D-impact"],
+      "correct": 1,
+      "feedback": "المكون الأساسي المكمل هو الجمهور (audience) [Terminology]."
+    },
+    {
+      "q": "In the workings of the ______ are the most important aspect of a tragedy.",
+      "options": ["lines", "protagonist's mind", "ideas", "playwright"],
+      "correct": 1,
+      "feedback": "الإجابة الصحيحة هي 'protagonist's mind'. الجانب الأهم في التراجيديا هو طريقة عمل عقل البطل [2]."
+    },
+    {
+      "q": "\"My dear lady, I beg you to be still. My heart is bursting\" The speaker is (40) ______ addressing (41) ______:",
+      "options": ["Mr. Charlie", "Mr. Webster", "Lomov", "Mr. Scratch"],
+      "correct": 2,
+      "feedback": "المتحدث هو 'Lomov' [19]."
+    },
+    {
+      "q": "In the previous quote, Lomov is addressing:",
+      "options": ["Rosa", "Mary", "Nancy", "Natalia"],
+      "correct": 3,
+      "feedback": "المخاطبة هي 'Natalia' [19]."
+    },
+    {
+      "q": "The humor in a ______ can come from the treatment of character or situation.",
+      "options": ["tragedy", "melodrama", "comedy", "logical tragedy"],
+      "correct": 2,
+      "feedback": "الإجابة الصحيحة هي 'comedy'. الفكاهة في الكوميديا تنبع من معالجة الشخصية أو الموقف [11]."
+    },
+    {
+      "q": "Laughing at people or institutions by poking fun at them is ______:",
+      "options": ["empathy", "derision", "catharsis", "exaggeration"],
+      "correct": 1,
+      "feedback": "الإجابة الصحيحة هي 'derision'. السخرية هي الضحك على الأشخاص أو المؤسسات [13]."
+    },
+    {
+      "q": "Rosa: \"We'll beat it. I got ______\"",
+      "options": ["a pain", "a palm", "a promise", "a plan"],
+      "correct": 3,
+      "feedback": "الإجابة الصحيحة هي 'a plan'. روزا تخبر ابنها أنها تمتلك خطة لإنقاذ الأرض [20]."
+    },
+    {
+      "q": "______ can be slapstick or gentle.",
+      "options": ["melodrama", "comedy", "tragedy", "absurd theatre"],
+      "correct": 1,
+      "feedback": "الإجابة الصحيحة هي 'comedy'. يمكن أن تكون الكوميديا تهريجية أو لطيفة [21]."
+    },
+    {
+      "q": "\"When the first slaver put out for the Congo, I stood on her deck\", the speaker is:",
+      "options": ["Mr. Scratch", "Mr. Charlie", "Leroy", "Mr. Webster"],
+      "correct": 0,
+      "feedback": "المتحدث هو 'Mr. Scratch' (الشيطان) مؤكداً وجوده في التاريخ الأمريكي [22]."
+    },
+    {
+      "q": "\"God ain't got no color at all, God is the spirit of love.\" The speaker is (47) ______ addressing (48) ______:",
+      "options": ["Lomov", "Mr. Stone", "Mr. Morgan", "Perry"],
+      "correct": 3,
+      "feedback": "المتحدث هو 'Perry' وفقاً لمفاتيح إجابة المسرحية [خارج النص المباشر لكنه ضمن سياق المسرحية]."
+    },
+    {
+      "q": "In the previous quote, the person being addressed is:",
+      "options": ["Rosa", "Natalia", "Mary", "Leroy"],
+      "correct": 0,
+      "feedback": "المخاطبة هي 'Rosa'."
+    },
+    {
+      "q": "The one act plays ______ deal with the same problems and themes of long plays.",
+      "options": ["never", "cannot", "should not", "can"],
+      "correct": 3,
+      "feedback": "الإجابة الصحيحة هي 'can'. المسرحية القصيرة يمكنها تناول نفس قضايا المسرحية الطويلة [23]."
+    },
+    {
+      "q": "Absurdist drama often uses nonsensical dialogue that tells ______ logical story.",
+      "options": ["no", "some", "a coherent", "an extremely"],
+      "correct": 0,
+      "feedback": "الإجابة الصحيحة هي 'no'. دراما العبث لا تحكي قصة منطقية [9]."
+    },
     {
       "q": "One-act plays often ______ deal with the same issues and themes as full-length plays.",
       "options": [
