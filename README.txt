@@ -2,12 +2,38 @@ UniQuiz Offline - deployment and use
 =====================================
 
 1. Upload every file in this folder to the same GitHub Pages/site directory.
+   This includes `.github/workflows`, `scripts`, and `content-manifest.json`.
 2. Open the deployed HTTPS page once while connected to the internet.
 3. Press Download beside only the year the student wants (First Year, Second Year, etc.).
 4. After the success message, that year and the application design work offline.
-5. Press Update only when the student wants to check that downloaded year for changes.
-   Unchanged subject files are not downloaded again.
+5. After a year is downloaded, UniQuiz checks the repository while online.
+   The Update button stays hidden unless a NEW subject JSON file is added to that year.
+   When the student updates successfully, the alert disappears. Changes inside an
+   existing subject file alone do not show the alert.
 6. Press Remove to delete a year's offline question data. Quiz progress is kept.
+
+Cross-device words and notes
+----------------------------
+
+1. Open "My Vocabulary" and press "تسجيل الدخول والمزامنة".
+2. Press "إنشاء حساب", enter an email address and a password of at least six
+   characters, and confirm the email if Supabase email confirmation is enabled.
+3. Sign in with the same email and password on every device. UniQuiz reads and
+   writes the signed-in user's row in the Supabase `user_app_data` table.
+4. Saved vocabulary and question notes are merged by their update time. Deletions
+   are also remembered so removed entries do not reappear on another device.
+5. Local use remains available without signing in. Signing out removes the
+   Supabase session from that device but keeps its local words and notes.
+
+Supabase requirements:
+- Run `SUPABASE_SETUP.sql` once in Supabase Dashboard > SQL Editor.
+- Authentication > Sign In / Providers > Email must be enabled.
+- Authentication > URL Configuration must contain the deployed application URL.
+- `public.user_app_data.user_id` must reference `auth.users.id` and be the primary key.
+- Row Level Security must allow authenticated users to select, insert, and update
+  only the row where `auth.uid() = user_id`.
+- The frontend contains only the Project URL and publishable key. Never place a
+  Supabase secret/service-role key in this project.
 
 Important:
 - Offline mode requires HTTPS hosting (GitHub Pages is suitable). Service workers do
@@ -15,4 +41,31 @@ Important:
 - Keep index.html, app.js, style.css, offline.css, service-worker.js,
   manifest.webmanifest, and icon.svg together.
 - Progress and downloaded years are stored in the browser on that device.
+- Cross-device sync currently covers personal vocabulary and question notes.
+  Quiz/study progress and downloaded year files remain device-local.
 - App/code updates on the same website do not erase the saved progress.
+
+Automatic updates
+-----------------
+
+- While online and open, the app checks once every minute for a new application shell
+  and for changes inside every subject file of each downloaded year.
+- Question discovery uses one conditional repository-tree request shared by all
+  downloaded years. Unchanged responses are reused, and `content-manifest.json`
+  remains available as a fallback. JSON files are downloaded directly from the
+  committed `main` branch instead of waiting for the GitHub Pages deployment.
+- The included GitHub workflow also rebuilds the fallback manifest automatically
+  whenever a JSON file in a year folder is committed.
+- If the workflow cannot push its manifest commit, open the repository's
+  Settings > Actions > General > Workflow permissions and allow read and write
+  permissions, then run "Refresh question manifest" once from the Actions tab.
+- Added or changed questions are downloaded silently. Saved quiz/study progress
+  and question notes remain attached to their stable question IDs.
+- Browsers that support Periodic Background Sync may refresh the application
+  shell while the installed PWA is closed. All other browsers run the same check
+  when the app opens, becomes visible, or reconnects to the internet.
+- After deploying this version, replace every file once and reopen/refresh the
+  app so cache version v10 becomes active. Future releases no longer require the
+  student to clear browser storage manually.
+- To change the interval later, edit `AUTOMATIC_UPDATE_INTERVAL_MS` near the top
+  of app.js. For 24 hours, use `24 * 60 * 60 * 1000`.
