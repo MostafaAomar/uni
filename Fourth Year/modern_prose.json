@@ -3,391 +3,710 @@
   "description": " الفصل 1 د. واحة إلى المنارة",
   "lang": "en",
   "questions": [
- {
-    "q": "1. Mr. Ramsay succeeds in reconciling his role as a philosopher with that as a family man.",
-    "options": [
-      "True",
-      "False"
-    ],
-    "correct": 1,
-    "feedback": "خطأ. السيد رامزي يكافح باستمرار للتوفيق بين عالمه الفكري المجرد وحياته العائلية، وغالباً ما يشعر بالإحباط لعدم قدرته على دمج الدورين."
-  },
-  {
-    "q": "2. Mr. Bankes' respect for Mr. Ramsay ended since the latter's marriage.",
-    "options": [
-      "True",
-      "False"
-    ],
-    "correct": 1,
-    "feedback": "خطأ. على الرغم من أن السيد بانكس لا يفهم حياة رامزي العائلية، إلا أنه لا يزال يحترم عقله كفيلسوف، وإن كان يرى أن الزواج قد حد من إمكانياته."
-  },
-  {
-    "q": "3. The setting in the novel influences or sometimes reflects the mood of characters.",
-    "options": [
-      "True",
-      "False"
-    ],
-    "correct": 0,
-    "feedback": "صحيح. تستخدم فرجينيا وولف المكان، مثل البحر والمنارة والمنزل، كمرآة للحالات النفسية للشخصيات، حيث يعكس الطقس المتقلب عواطفهم الداخلية."
-  },
-  {
-    "q": "4. Mr. Ramsay prepares his children to face the reality of life by his constant gentle advice.",
-    "options": [
-      "True",
-      "False"
-    ],
-    "correct": 1,
-    "feedback": "خطأ. السيد رامزي قاسٍ في صدقه، وغالباً ما يحطم آمال أطفاله (مثل جيمس) بدلاً من إعدادهم بلطف لمواجهة الواقع."
-  },
-  {
-    "q": "5. Mrs. Ramsay took Mr. Tansley with her to town to attend the circus.",
-    "options": [
-      "True",
-      "False"
-    ],
-    "correct": 1,
-    "feedback": "خطأ. أخذت السيدة رامزي السيد تانسلي معها إلى المدينة لشراء الأغراض، في محاولة منها لجعله يشعر بالاندماج والتقدير."
-  },
-  {
-    "q": "6. Mrs. Ramsay is an expressive individual and is easy to read.",
-    "options": [
-      "True",
-      "False"
-    ],
-    "correct": 1,
-    "feedback": "خطأ. السيدة رامزي شخصية معقدة وعميقة، وغالباً ما تخفي أفكارها ومشاعرها الحقيقية خلف واجهة من الهدوء والاهتمام بالآخرين."
-  },
-  {
-    "q": "7. Lily Briscou secretly wishes that her life was like that of Mrs. Ramsay.",
-    "options": [
-      "True",
-      "False"
-    ],
-    "correct": 1,
-    "feedback": "خطأ. ليلي بريسكو تقدر السيدة رامزي ولكنها ترفض دورها التقليدي كزوجة وأم، وتختار بدلاً من ذلك تكريس حياتها للفن والاستقلال."
-  },
-  {
-    "q": "8. In \"The Lighthouse\", Cam and James were excited about visiting the lighthouse.",
-    "options": [
-      "True",
-      "False"
-    ],
-    "correct": 1,
-    "feedback": "خطأ. كان كام وجيمس مترددين ومستائين في البداية من الرحلة إلى المنارة، التي فرضها والدهما عليهم بعد سنوات."
-  },
-  {
-    "q": "9. James thought that \"One needs fifty pairs of eyes\" to see people for who they truely are.",
-    "options": [
-      "True",
-      "False"
-    ],
-    "correct": 1,
-    "feedback": "خطأ. هذه الفكرة كانت لـ ليلي بريسكو، التي شعرت أن فهم شخصية معقدة مثل السيدة رامزي يتطلب وجهات نظر متعددة."
-  },
-  {
-    "q": "10. Mrs. Ramsay's method of \"knowing\" the world is presented as:",
-    "options": [
-      "abstract and intellectual",
-      "Delusional and irrational",
-      "Intuitive and rational"
-    ],
-    "correct": 2,
-    "feedback": "تعتمد السيدة رامزي على حدسها وفهمها العاطفي العميق للناس والأحداث، وهو ما يتناقض مع المنطق الصارم لزوجها."
-  },
-  {
-    "q": "11. Who described Mr. Ramsay as tyrannical?",
-    "options": [
-      "Mr. Bankes",
-      "Mrs. Ramsay",
-      "Lily Briscou"
-    ],
-    "correct": 2,
-    "feedback": "ليلي بريسكو هي التي وصفت السيد رامزي بالطاغية بسبب حاجته المستمرة للتعاطف والاهتمام من الآخرين."
-  },
-  {
-    "q": "12. Where is Lily Briscoe's primary physical location for most of the afternoon in \"The Window\"?",
-    "options": [
-      "The kitchen",
-      "The lawn",
-      "The drawing room"
-    ],
-    "correct": 1,
-    "feedback": "تقضي ليلي معظم فترة ما بعد الظهر في الحديقة (The lawn) وهي تحاول رسم لوحتها للسيدة رامزي وجيمس."
-  },
-  {
-    "q": "13. Who was afraid of the boar's skull in the nursery?",
-    "options": [
-      "Cam",
-      "James",
-      "Mrs. Ramsay"
-    ],
-    "correct": 0,
-    "feedback": "كام هي التي كانت تخاف من جمجمة الخنزير المعلقة في غرفة الأطفال، وقامت والدتها بتغطيتها بشالها لتهدئتها."
-  },
-  {
-    "q": "14. Mr. Ramsay's philosophical progress is symbolized by his movement through:",
-    "options": [
-      "The notes of a music scale",
-      "The sea waves",
-      "The alphabet"
-    ],
-    "correct": 2,
-    "feedback": "يتم ترميز تقدم السيد رامزي الفلسفي المتعثر من خلال الحروف الأبجدية، حيث يكافح للوصول من 'A' إلى 'Z' لكنه يعلق عند 'Q'."
-  },
-  {
-    "q": "15. Which character delivers the line, \"Women can't paint, women can't write\"?",
-    "options": [
-      "Mr. Ramsay",
-      "William Bankes",
-      "Charles Tansley"
-    ],
-    "correct": 2,
-    "feedback": "تشارلز تانسلي، بتعليقاته المعادية للمرأة، هو من يقول هذه العبارة التي تترسخ في ذهن ليلي بريسكو."
-  },
-  {
-    "q": "16. Mrs. Ramsay's purpose behind the dinner gathering was:",
-    "options": [
-      "to create a lasting memory",
-      "to escape her dark thoughts",
-      "to please her husband"
-    ],
-    "correct": 0,
-    "feedback": "كان هدف السيدة رامزي من حفل العشاء هو خلق لحظة من الانسجام والوحدة، وتحويلها إلى ذكرى دائمة تقاوم فوضى الزمن."
-  },
-  {
-    "q": "17. How did the characters initially feel at the dinner table?",
-    "options": [
-      "dissociated",
-      "comfortable",
-      "embarassed"
-    ],
-    "correct": 0,
-    "feedback": "في البداية، كان الضيوف على طاولة العشاء يشعرون بالانفصال والعزلة عن بعضهم البعض، كل منهم غارق في أفكاره."
-  },
-  {
-    "q": "18. What eased the tension later on in the dinner table scene?",
-    "options": [
-      "the delicious food",
-      "the storm",
-      "the candlelights"
-    ],
-    "correct": 2,
-    "feedback": "إضاءة الشموع هي التي كسرت التوتر، حيث خلقت جواً من الدفء والانسجام وجمعت الضيوف معاً في دائرة من الضوء."
-  },
-  {
-    "q": "19. Who did Mrs. Ramsay want to impress with the food because he has no one to cook for him?",
-    "options": [
-      "Mr. Carmichael",
-      "Mr. Bankes",
-      "Mr. Tansley"
-    ],
-    "correct": 1,
-    "feedback": "كانت السيدة رامزي تأمل بشكل خاص أن يعجب السيد بانكس بالطعام، لأنه أرمل يعيش وحيداً."
-  },
-  {
-    "q": "20. When Mrs. Ramsay expressed how she doesn't want her children to grow old, how did Mr. Ramsay describe her?",
-    "options": [
-      "pessimistic",
-      "controlling",
-      "sensitive"
-    ],
-    "correct": 0,
-    "feedback": "وصف السيد رامزي زوجته بأنها 'متشائمة' لأنها ترى أن نمو أطفالها يعني بالضرورة تعرضهم لمعاناة الحياة."
-  },
-  {
-    "q": "21. What did Mr. Ramsay never notice according to his wife?",
-    "options": [
-      "the changes in her mood",
-      "the alarming weather",
-      "the blooming flowers"
-    ],
-    "correct": 2,
-    "feedback": "لاحظت السيدة رامزي أن زوجها، الغارق في أفكاره المجردة، لا يلاحظ أبداً جمال الطبيعة من حوله مثل الزهور المتفتحة."
-  },
-  {
-    "q": "22. Where do we see Mrs. Ramsay first in \"The Window\"?",
-    "options": [
-      "in the kitchen",
-      "by the window",
-      "on the terrace"
-    ],
-    "correct": 1,
-    "feedback": "تظهر السيدة رامزي لأول مرة وهي تجلس بجانب النافذة، وهي تقيس الجورب البني وتنظر إلى ابنها جيمس."
-  },
-  {
-    "q": "23. Who did Mrs. Ramsay feel doesn't like her?",
-    "options": [
-      "Mr. Bankrs",
-      "Mr. Tansley",
-      "Mr. Carmichael"
-    ],
-    "correct": 2,
-    "feedback": "شعرت السيدة رامزي أن الشاعر أوغسطس كارمايكل لا يحبها، ربما بسبب طبيعته المنعزلة والصامتة."
-  },
-  {
-    "q": "24. What ruined Mr. Ramsay's mood at the dinner table?",
-    "options": [
-      "James staying up late",
-      "the food was cold",
-      "Mr. Carmichael asking for more soup"
-    ],
-    "correct": 2,
-    "feedback": "طلب السيد كارمايكل للمزيد من الحساء أزعج السيد رامزي، الذي اعتبره سلوكاً جشعاً وغير لائق."
-  },
-  {
-    "q": "25. What doest Mr. Ramsay want from everyone around him?",
-    "options": [
-      "protection",
-      "respect",
-      "attention"
-    ],
-    "correct": 2,
-    "feedback": "السيد رامزي يتوق باستمرار إلى الاهتمام والتعاطف من الآخرين، وخاصة من زوجته، ليشعر بالتحقق من صحة أفكاره ووجوده."
-  },
-  {
-    "q": "26. The narrative voice in \"Time Passes\" describes an insomniac man who leaves his bed to seek answers from:",
-    "options": [
-      "the wind",
-      "the sky",
-      "the sea"
-    ],
-    "correct": 2,
-    "feedback": "في قسم 'الزمن يمضي'، يصف الراوي رجلاً أرقاً يترك سريره ليسأل البحر عن معنى المعاناة والوجود."
-  },
-  {
-    "q": "27. Time Passes\" is the most (...) section of the novel:",
-    "options": [
-      "emotionally engaging",
-      "thematically profound",
-      "stylistically different"
-    ],
-    "correct": 2,
-    "feedback": "يتميز قسم 'الزمن يمضي' بأسلوبه المختلف جذرياً، حيث يركز على الطبيعة والجماد بدلاً من وعي الشخصيات."
-  },
-  {
-    "q": "28. What made James eventually change the way he sees his father is:",
-    "options": [
-      "emotional isolation",
-      "spacial proximity",
-      "temporal distance"
-    ],
-    "correct": 1,
-    "feedback": "القرب المكاني في القارب أجبر جيمس على رؤية والده كإنسان ضعيف وحزين، مما غير نظرته إليه."
-  },
-  {
-    "q": "29. What made Lily achieve her vision to complete the painting at the end is:",
-    "options": [
-      "spacial distance",
-      "temporal distance",
-      "both a and b"
-    ],
-    "correct": 2,
-    "feedback": "المسافة الزمنية (عشر سنوات) والمكانية (رؤية القارب من بعيد) منحت ليلي المنظور اللازم لتحقيق رؤيتها الفنية."
-  },
-  {
-    "q": "30. What brings the remaining characters together at the end of the novel is their shared:",
-    "options": [
-      "loss and grief",
-      "love for life",
-      "curiosity for knowledge"
-    ],
-    "correct": 0,
-    "feedback": "تجربة الفقد والحزن المشتركة، خاصة فقدان السيدة رامزي، هي ما يجمع الشخصيات المتبقية معاً في النهاية."
-  },
-  {
-    "q": "31. According to Genette's theory, \"analepsis\" refers to a flashforward in the narrative.",
-    "options": [
-      "True",
-      "False"
-    ],
-    "correct": 1,
-    "feedback": "خطأ. مصطلح 'Analepsis' (الاسترجاع) يشير إلى العودة بالزمن إلى الوراء (flashback)، بينما 'Prolepsis' (الاستباق) يشير إلى القفز إلى الأمام."
-  },
-  {
-    "q": "32. The central ten-year gap in To the Lighthouse is an example of what Genette calls an \"ellipsis.\"",
-    "options": [
-      "True",
-      "False"
-    ],
-    "correct": 0,
-    "feedback": "صحيح. الفجوة الزمنية التي تبلغ عشر سنوات في قسم 'الزمن يمضي' هي مثال كلاسيكي على 'Ellipsis' (الحذف)، حيث يتم تخطي فترة زمنية طويلة في السرد."
-  },
-  {
-    "q": "33. In Genette's terminology, the main narrator in the novel is heterodiegetic.",
-    "options": [
-      "True",
-      "False"
-    ],
-    "correct": 0,
-    "feedback": "أن الراوي في الرواية هو طرف ثالث عليم لا يتدخل كشخصية في الأحداث ويكون من خارج القصة (extradiegetic). وبما أن مصطلح (heterodiegetic) في علم السرد يشير تحديداً إلى الراوي الذي ليس شخصية في القصة، فإن العبارة صحيحة تماماً. "
-  },
-  {
-    "q": "34. A \"heterodiegetic\" narrator is a character in the story.",
-    "options": [
-      "True",
-      "False"
-    ],
-    "correct": 1,
-    "feedback": "خطأ. الراوي الـ 'heterodiegetic' هو راوٍ غير مشارك في القصة التي يرويها، على عكس الراوي الـ 'homodiegetic' الذي يكون شخصية داخل القصة."
-  },
-  {
-    "q": "35. The \"iterative\" narrative mode means presenting a single event through the perception of multiple characters.",
-    "options": [
-      "True",
-      "False"
-    ],
-    "correct": 1,
-    "feedback": "خطأ. السرد التكراري (Iterative) يعني 'رواية مرة واحدة ما حدث عدة مرات'، مثل 'كل يوم اثنين، كان يذهب إلى السوق'. العبارة في السؤال تصف السرد التكراري المتعدد (Repetitive)."
-  },
-  {
-    "q": "36. The narrative time a certain event takes in the story is called \"story time\".",
-    "options": [
-      "True",
-      "False"
-    ],
-    "correct": 1,
-    "feedback": "خطأ. الزمن الذي يستغرقه الحدث في القصة يسمى 'story time' (زمن القصة)، بينما الزمن الذي يستغرقه السرد لرواية هذا الحدث يسمى 'discourse time' (زمن الخطاب)."
-  },
-  {
-    "q": "37. In \"Time Passes,\" the narrative duration matches the pace of the characters' daily lives.",
-    "options": [
-      "True",
-      "False"
-    ],
-    "correct": 1,
-    "feedback": "خطأ. في قسم 'الزمن يمضي'، مدة السرد (بضع صفحات) أقصر بكثير من زمن القصة (عشر سنوات)، مما يخلق تسريعاً كبيراً في الإيقاع."
-  },
-  {
-    "q": "38. The novel contains all but one of the following narrative techniques:",
-    "options": [
-      "foreshadowing",
-      "summary",
-      "pause"
-    ],
-    "correct": 2,
-    "feedback": "الرواية تستخدم التلخيص (summary) والاستباق (foreshadowing) بكثرة، لكن تقنية 'الوقفة' (pause) حيث يتوقف زمن القصة تماماً للسماح للوصف، أقل استخداماً مقارنة بالتقنيات الأخرى."
-  },
-  {
-    "q": "39. In \"The Window,\" the narrative perspective shifts frequently between characters. This is an example of:",
-    "options": [
-      "Zero focalization",
-      "Variable internal focalization",
-      "External focalization"
-    ],
-    "correct": 1,
-    "feedback": "يستخدم هذا الجزء التبئير الداخلي المتغير، حيث ينتقل السرد بسلاسة بين وجهات نظر وعقول شخصيات متعددة."
-  },
-  {
-    "q": "40. In \"Time Passes\", the characters' fate is being told through (...) statements.",
-    "options": [
-      "brief parenthetical",
-      "long descriptive",
-      "indirect, allegorical"
-    ],
-    "correct": 0,
-    "feedback": "يتم الإعلان عن مصائر الشخصيات (مثل موت السيدة رامزي) في جمل اعتراضية قصيرة وموجزة بين قوسين، مما يبرز لا مبالاة الزمن تجاه المآسي البشرية."
-  },
-    
+    {
+      "q": "1. Mr. Ramsay succeeds in reconciling his role as a philosopher with that as a family man.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 1,
+      "feedback": "خطأ. السيد رامزي يكافح باستمرار للتوفيق بين عالمه الفكري المجرد وحياته العائلية، وغالباً ما يشعر بالإحباط لعدم قدرته على دمج الدورين.",
+      "id": "q_7a837089af3fd3ef3139",
+      "legacyIds": [
+        "id_535aaf74",
+        "qid_2ad2aef8"
+      ],
+      "legacyPrimaryIds": [
+        "qid_2ad2aef8"
+      ]
+    },
+    {
+      "q": "2. Mr. Bankes' respect for Mr. Ramsay ended since the latter's marriage.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 1,
+      "feedback": "خطأ. على الرغم من أن السيد بانكس لا يفهم حياة رامزي العائلية، إلا أنه لا يزال يحترم عقله كفيلسوف، وإن كان يرى أن الزواج قد حد من إمكانياته.",
+      "id": "q_a7cf8e5bddb1f22c1d2a",
+      "legacyIds": [
+        "id_33b5994a",
+        "qid_497e8f06"
+      ],
+      "legacyPrimaryIds": [
+        "qid_497e8f06"
+      ]
+    },
+    {
+      "q": "3. The setting in the novel influences or sometimes reflects the mood of characters.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "feedback": "صحيح. تستخدم فرجينيا وولف المكان، مثل البحر والمنارة والمنزل، كمرآة للحالات النفسية للشخصيات، حيث يعكس الطقس المتقلب عواطفهم الداخلية.",
+      "id": "q_5dc242d629537326dcaf",
+      "legacyIds": [
+        "id_1b97be7",
+        "qid_67885afe"
+      ],
+      "legacyPrimaryIds": [
+        "qid_67885afe"
+      ]
+    },
+    {
+      "q": "4. Mr. Ramsay prepares his children to face the reality of life by his constant gentle advice.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 1,
+      "feedback": "خطأ. السيد رامزي قاسٍ في صدقه، وغالباً ما يحطم آمال أطفاله (مثل جيمس) بدلاً من إعدادهم بلطف لمواجهة الواقع.",
+      "id": "q_b5647e847b2c378cc5e0",
+      "legacyIds": [
+        "id_23210d3f",
+        "qid_195d1e85"
+      ],
+      "legacyPrimaryIds": [
+        "qid_195d1e85"
+      ]
+    },
+    {
+      "q": "5. Mrs. Ramsay took Mr. Tansley with her to town to attend the circus.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 1,
+      "feedback": "خطأ. أخذت السيدة رامزي السيد تانسلي معها إلى المدينة لشراء الأغراض، في محاولة منها لجعله يشعر بالاندماج والتقدير.",
+      "id": "q_be61b311694c21643d12",
+      "legacyIds": [
+        "id_2d2cfcaf",
+        "qid_5e6b428d"
+      ],
+      "legacyPrimaryIds": [
+        "qid_5e6b428d"
+      ]
+    },
+    {
+      "q": "6. Mrs. Ramsay is an expressive individual and is easy to read.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 1,
+      "feedback": "خطأ. السيدة رامزي شخصية معقدة وعميقة، وغالباً ما تخفي أفكارها ومشاعرها الحقيقية خلف واجهة من الهدوء والاهتمام بالآخرين.",
+      "id": "q_d175875d82f87b1f92f3",
+      "legacyIds": [
+        "id_2134af39",
+        "qid_6310ffcb"
+      ],
+      "legacyPrimaryIds": [
+        "qid_6310ffcb"
+      ]
+    },
+    {
+      "q": "7. Lily Briscou secretly wishes that her life was like that of Mrs. Ramsay.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 1,
+      "feedback": "خطأ. ليلي بريسكو تقدر السيدة رامزي ولكنها ترفض دورها التقليدي كزوجة وأم، وتختار بدلاً من ذلك تكريس حياتها للفن والاستقلال.",
+      "id": "q_0035ab461b0b8ef88b9f",
+      "legacyIds": [
+        "id_5f646ba7",
+        "qid_69e145dd"
+      ],
+      "legacyPrimaryIds": [
+        "qid_69e145dd"
+      ]
+    },
+    {
+      "q": "8. In \"The Lighthouse\", Cam and James were excited about visiting the lighthouse.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 1,
+      "feedback": "خطأ. كان كام وجيمس مترددين ومستائين في البداية من الرحلة إلى المنارة، التي فرضها والدهما عليهم بعد سنوات.",
+      "id": "q_bce572581692cc5feed0",
+      "legacyIds": [
+        "id_5cda8a02",
+        "qid_568ca5a2"
+      ],
+      "legacyPrimaryIds": [
+        "qid_568ca5a2"
+      ]
+    },
+    {
+      "q": "9. James thought that \"One needs fifty pairs of eyes\" to see people for who they truely are.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 1,
+      "feedback": "خطأ. هذه الفكرة كانت لـ ليلي بريسكو، التي شعرت أن فهم شخصية معقدة مثل السيدة رامزي يتطلب وجهات نظر متعددة.",
+      "id": "q_144f0add8bbbb09d080c",
+      "legacyIds": [
+        "id_7aa88491",
+        "qid_383cfbab"
+      ],
+      "legacyPrimaryIds": [
+        "qid_383cfbab"
+      ]
+    },
+    {
+      "q": "10. Mrs. Ramsay's method of \"knowing\" the world is presented as:",
+      "options": [
+        "abstract and intellectual",
+        "Delusional and irrational",
+        "Intuitive and rational"
+      ],
+      "correct": 2,
+      "feedback": "تعتمد السيدة رامزي على حدسها وفهمها العاطفي العميق للناس والأحداث، وهو ما يتناقض مع المنطق الصارم لزوجها.",
+      "id": "q_4e63651a002f111bd0cf",
+      "legacyIds": [
+        "id_24082cb5",
+        "qid_568603a2"
+      ],
+      "legacyPrimaryIds": [
+        "qid_568603a2"
+      ]
+    },
+    {
+      "q": "11. Who described Mr. Ramsay as tyrannical?",
+      "options": [
+        "Mr. Bankes",
+        "Mrs. Ramsay",
+        "Lily Briscou"
+      ],
+      "correct": 2,
+      "feedback": "ليلي بريسكو هي التي وصفت السيد رامزي بالطاغية بسبب حاجته المستمرة للتعاطف والاهتمام من الآخرين.",
+      "id": "q_fc97035713945eda8850",
+      "legacyIds": [
+        "id_243fd506",
+        "qid_31ca52a7"
+      ],
+      "legacyPrimaryIds": [
+        "qid_31ca52a7"
+      ]
+    },
+    {
+      "q": "12. Where is Lily Briscoe's primary physical location for most of the afternoon in \"The Window\"?",
+      "options": [
+        "The kitchen",
+        "The lawn",
+        "The drawing room"
+      ],
+      "correct": 1,
+      "feedback": "تقضي ليلي معظم فترة ما بعد الظهر في الحديقة (The lawn) وهي تحاول رسم لوحتها للسيدة رامزي وجيمس.",
+      "id": "q_b43dfeeae7bf3dbe792a",
+      "legacyIds": [
+        "id_60726ed1",
+        "qid_6c0b187a"
+      ],
+      "legacyPrimaryIds": [
+        "qid_6c0b187a"
+      ]
+    },
+    {
+      "q": "13. Who was afraid of the boar's skull in the nursery?",
+      "options": [
+        "Cam",
+        "James",
+        "Mrs. Ramsay"
+      ],
+      "correct": 0,
+      "feedback": "كام هي التي كانت تخاف من جمجمة الخنزير المعلقة في غرفة الأطفال، وقامت والدتها بتغطيتها بشالها لتهدئتها.",
+      "id": "q_b078cf7b75e4cbf84852",
+      "legacyIds": [
+        "id_16cef9c8",
+        "qid_1311be60"
+      ],
+      "legacyPrimaryIds": [
+        "qid_1311be60"
+      ]
+    },
+    {
+      "q": "14. Mr. Ramsay's philosophical progress is symbolized by his movement through:",
+      "options": [
+        "The notes of a music scale",
+        "The sea waves",
+        "The alphabet"
+      ],
+      "correct": 2,
+      "feedback": "يتم ترميز تقدم السيد رامزي الفلسفي المتعثر من خلال الحروف الأبجدية، حيث يكافح للوصول من 'A' إلى 'Z' لكنه يعلق عند 'Q'.",
+      "id": "q_c24a08a09cb2f70e17c7",
+      "legacyIds": [
+        "id_46e71d1f",
+        "qid_2ed122ea"
+      ],
+      "legacyPrimaryIds": [
+        "qid_2ed122ea"
+      ]
+    },
+    {
+      "q": "15. Which character delivers the line, \"Women can't paint, women can't write\"?",
+      "options": [
+        "Mr. Ramsay",
+        "William Bankes",
+        "Charles Tansley"
+      ],
+      "correct": 2,
+      "feedback": "تشارلز تانسلي، بتعليقاته المعادية للمرأة، هو من يقول هذه العبارة التي تترسخ في ذهن ليلي بريسكو.",
+      "id": "q_250117f3025ad2c0b630",
+      "legacyIds": [
+        "id_559af1de",
+        "qid_2a460c0d"
+      ],
+      "legacyPrimaryIds": [
+        "qid_2a460c0d"
+      ]
+    },
+    {
+      "q": "16. Mrs. Ramsay's purpose behind the dinner gathering was:",
+      "options": [
+        "to create a lasting memory",
+        "to escape her dark thoughts",
+        "to please her husband"
+      ],
+      "correct": 0,
+      "feedback": "كان هدف السيدة رامزي من حفل العشاء هو خلق لحظة من الانسجام والوحدة، وتحويلها إلى ذكرى دائمة تقاوم فوضى الزمن.",
+      "id": "q_dedcdfc29a82d9a8dc82",
+      "legacyIds": [
+        "id_38efd626",
+        "qid_2907f643"
+      ],
+      "legacyPrimaryIds": [
+        "qid_2907f643"
+      ]
+    },
+    {
+      "q": "17. How did the characters initially feel at the dinner table?",
+      "options": [
+        "dissociated",
+        "comfortable",
+        "embarassed"
+      ],
+      "correct": 0,
+      "feedback": "في البداية، كان الضيوف على طاولة العشاء يشعرون بالانفصال والعزلة عن بعضهم البعض، كل منهم غارق في أفكاره.",
+      "id": "q_1ae6d30239c243e8d301",
+      "legacyIds": [
+        "id_3a23b419",
+        "qid_37e4bf90"
+      ],
+      "legacyPrimaryIds": [
+        "qid_37e4bf90"
+      ]
+    },
+    {
+      "q": "18. What eased the tension later on in the dinner table scene?",
+      "options": [
+        "the delicious food",
+        "the storm",
+        "the candlelights"
+      ],
+      "correct": 2,
+      "feedback": "إضاءة الشموع هي التي كسرت التوتر، حيث خلقت جواً من الدفء والانسجام وجمعت الضيوف معاً في دائرة من الضوء.",
+      "id": "q_af39748c68d9f96eb6c0",
+      "legacyIds": [
+        "id_632b6f",
+        "qid_72a7e094"
+      ],
+      "legacyPrimaryIds": [
+        "qid_72a7e094"
+      ]
+    },
+    {
+      "q": "19. Who did Mrs. Ramsay want to impress with the food because he has no one to cook for him?",
+      "options": [
+        "Mr. Carmichael",
+        "Mr. Bankes",
+        "Mr. Tansley"
+      ],
+      "correct": 1,
+      "feedback": "كانت السيدة رامزي تأمل بشكل خاص أن يعجب السيد بانكس بالطعام، لأنه أرمل يعيش وحيداً.",
+      "id": "q_9f960efb9c91def68b9b",
+      "legacyIds": [
+        "id_7555f475",
+        "qid_3932c85a"
+      ],
+      "legacyPrimaryIds": [
+        "qid_3932c85a"
+      ]
+    },
+    {
+      "q": "20. When Mrs. Ramsay expressed how she doesn't want her children to grow old, how did Mr. Ramsay describe her?",
+      "options": [
+        "pessimistic",
+        "controlling",
+        "sensitive"
+      ],
+      "correct": 0,
+      "feedback": "وصف السيد رامزي زوجته بأنها 'متشائمة' لأنها ترى أن نمو أطفالها يعني بالضرورة تعرضهم لمعاناة الحياة.",
+      "id": "q_918ff1807cbf49650950",
+      "legacyIds": [
+        "id_dd896b5",
+        "qid_63623f97"
+      ],
+      "legacyPrimaryIds": [
+        "qid_63623f97"
+      ]
+    },
+    {
+      "q": "21. What did Mr. Ramsay never notice according to his wife?",
+      "options": [
+        "the changes in her mood",
+        "the alarming weather",
+        "the blooming flowers"
+      ],
+      "correct": 2,
+      "feedback": "لاحظت السيدة رامزي أن زوجها، الغارق في أفكاره المجردة، لا يلاحظ أبداً جمال الطبيعة من حوله مثل الزهور المتفتحة.",
+      "id": "q_bb1ad63a1a369546b7e2",
+      "legacyIds": [
+        "id_3db45a24",
+        "qid_5dfba2dd"
+      ],
+      "legacyPrimaryIds": [
+        "qid_5dfba2dd"
+      ]
+    },
+    {
+      "q": "22. Where do we see Mrs. Ramsay first in \"The Window\"?",
+      "options": [
+        "in the kitchen",
+        "by the window",
+        "on the terrace"
+      ],
+      "correct": 1,
+      "feedback": "تظهر السيدة رامزي لأول مرة وهي تجلس بجانب النافذة، وهي تقيس الجورب البني وتنظر إلى ابنها جيمس.",
+      "id": "q_5744cfa0f3c68f28a629",
+      "legacyIds": [
+        "id_60b03a9c",
+        "qid_371cc9fb"
+      ],
+      "legacyPrimaryIds": [
+        "qid_371cc9fb"
+      ]
+    },
+    {
+      "q": "23. Who did Mrs. Ramsay feel doesn't like her?",
+      "options": [
+        "Mr. Bankrs",
+        "Mr. Tansley",
+        "Mr. Carmichael"
+      ],
+      "correct": 2,
+      "feedback": "شعرت السيدة رامزي أن الشاعر أوغسطس كارمايكل لا يحبها، ربما بسبب طبيعته المنعزلة والصامتة.",
+      "id": "q_40402d0d0e076b1b582e",
+      "legacyIds": [
+        "id_49772f17",
+        "qid_164fe7c4"
+      ],
+      "legacyPrimaryIds": [
+        "qid_164fe7c4"
+      ]
+    },
+    {
+      "q": "24. What ruined Mr. Ramsay's mood at the dinner table?",
+      "options": [
+        "James staying up late",
+        "the food was cold",
+        "Mr. Carmichael asking for more soup"
+      ],
+      "correct": 2,
+      "feedback": "طلب السيد كارمايكل للمزيد من الحساء أزعج السيد رامزي، الذي اعتبره سلوكاً جشعاً وغير لائق.",
+      "id": "q_fd1cd2b53ad537d77581",
+      "legacyIds": [
+        "id_2a120f95",
+        "qid_f27c60d"
+      ],
+      "legacyPrimaryIds": [
+        "qid_f27c60d"
+      ]
+    },
+    {
+      "q": "25. What doest Mr. Ramsay want from everyone around him?",
+      "options": [
+        "protection",
+        "respect",
+        "attention"
+      ],
+      "correct": 2,
+      "feedback": "السيد رامزي يتوق باستمرار إلى الاهتمام والتعاطف من الآخرين، وخاصة من زوجته، ليشعر بالتحقق من صحة أفكاره ووجوده.",
+      "id": "q_ab68ba17af427490164e",
+      "legacyIds": [
+        "id_5cca1f46",
+        "qid_18ffb667"
+      ],
+      "legacyPrimaryIds": [
+        "qid_18ffb667"
+      ]
+    },
+    {
+      "q": "26. The narrative voice in \"Time Passes\" describes an insomniac man who leaves his bed to seek answers from:",
+      "options": [
+        "the wind",
+        "the sky",
+        "the sea"
+      ],
+      "correct": 2,
+      "feedback": "في قسم 'الزمن يمضي'، يصف الراوي رجلاً أرقاً يترك سريره ليسأل البحر عن معنى المعاناة والوجود.",
+      "id": "q_e46608568fa1a650b92b",
+      "legacyIds": [
+        "id_8e7302a",
+        "qid_ce08023"
+      ],
+      "legacyPrimaryIds": [
+        "qid_ce08023"
+      ]
+    },
+    {
+      "q": "27. Time Passes\" is the most (...) section of the novel:",
+      "options": [
+        "emotionally engaging",
+        "thematically profound",
+        "stylistically different"
+      ],
+      "correct": 2,
+      "feedback": "يتميز قسم 'الزمن يمضي' بأسلوبه المختلف جذرياً، حيث يركز على الطبيعة والجماد بدلاً من وعي الشخصيات.",
+      "id": "q_6009a2fb3b9c2f61fa88",
+      "legacyIds": [
+        "id_1b788593",
+        "qid_36b3f293"
+      ],
+      "legacyPrimaryIds": [
+        "qid_36b3f293"
+      ]
+    },
+    {
+      "q": "28. What made James eventually change the way he sees his father is:",
+      "options": [
+        "emotional isolation",
+        "spacial proximity",
+        "temporal distance"
+      ],
+      "correct": 1,
+      "feedback": "القرب المكاني في القارب أجبر جيمس على رؤية والده كإنسان ضعيف وحزين، مما غير نظرته إليه.",
+      "id": "q_4a36f2294f462186e38f",
+      "legacyIds": [
+        "id_bce3efb",
+        "qid_8a6d0bd"
+      ],
+      "legacyPrimaryIds": [
+        "qid_8a6d0bd"
+      ]
+    },
+    {
+      "q": "29. What made Lily achieve her vision to complete the painting at the end is:",
+      "options": [
+        "spacial distance",
+        "temporal distance",
+        "both a and b"
+      ],
+      "correct": 2,
+      "feedback": "المسافة الزمنية (عشر سنوات) والمكانية (رؤية القارب من بعيد) منحت ليلي المنظور اللازم لتحقيق رؤيتها الفنية.",
+      "id": "q_629efe98939bce9bb41e",
+      "legacyIds": [
+        "id_7732f42e",
+        "qid_2c538416"
+      ],
+      "legacyPrimaryIds": [
+        "qid_2c538416"
+      ]
+    },
+    {
+      "q": "30. What brings the remaining characters together at the end of the novel is their shared:",
+      "options": [
+        "loss and grief",
+        "love for life",
+        "curiosity for knowledge"
+      ],
+      "correct": 0,
+      "feedback": "تجربة الفقد والحزن المشتركة، خاصة فقدان السيدة رامزي، هي ما يجمع الشخصيات المتبقية معاً في النهاية.",
+      "id": "q_7943d6d32706ea00ee7a",
+      "legacyIds": [
+        "id_dd17141",
+        "qid_14e9ef6f"
+      ],
+      "legacyPrimaryIds": [
+        "qid_14e9ef6f"
+      ]
+    },
+    {
+      "q": "31. According to Genette's theory, \"analepsis\" refers to a flashforward in the narrative.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 1,
+      "feedback": "خطأ. مصطلح 'Analepsis' (الاسترجاع) يشير إلى العودة بالزمن إلى الوراء (flashback)، بينما 'Prolepsis' (الاستباق) يشير إلى القفز إلى الأمام.",
+      "id": "q_d4df0161e6f53aaab637",
+      "legacyIds": [
+        "id_49817538",
+        "qid_251bfa84"
+      ],
+      "legacyPrimaryIds": [
+        "qid_251bfa84"
+      ]
+    },
+    {
+      "q": "32. The central ten-year gap in To the Lighthouse is an example of what Genette calls an \"ellipsis.\"",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "feedback": "صحيح. الفجوة الزمنية التي تبلغ عشر سنوات في قسم 'الزمن يمضي' هي مثال كلاسيكي على 'Ellipsis' (الحذف)، حيث يتم تخطي فترة زمنية طويلة في السرد.",
+      "id": "q_198b0c41bc775f39b459",
+      "legacyIds": [
+        "id_4022ea3b",
+        "qid_69b798c0"
+      ],
+      "legacyPrimaryIds": [
+        "qid_69b798c0"
+      ]
+    },
+    {
+      "q": "33. In Genette's terminology, the main narrator in the novel is heterodiegetic.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "feedback": "أن الراوي في الرواية هو طرف ثالث عليم لا يتدخل كشخصية في الأحداث ويكون من خارج القصة (extradiegetic). وبما أن مصطلح (heterodiegetic) في علم السرد يشير تحديداً إلى الراوي الذي ليس شخصية في القصة، فإن العبارة صحيحة تماماً. ",
+      "id": "q_4d61beb4f606bf633bf2",
+      "legacyIds": [
+        "id_58a311b3",
+        "qid_45f16a12"
+      ],
+      "legacyPrimaryIds": [
+        "qid_45f16a12"
+      ]
+    },
+    {
+      "q": "34. A \"heterodiegetic\" narrator is a character in the story.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 1,
+      "feedback": "خطأ. الراوي الـ 'heterodiegetic' هو راوٍ غير مشارك في القصة التي يرويها، على عكس الراوي الـ 'homodiegetic' الذي يكون شخصية داخل القصة.",
+      "id": "q_78f9ac9aaa7fe2a172d1",
+      "legacyIds": [
+        "id_1097ac01",
+        "qid_39478365"
+      ],
+      "legacyPrimaryIds": [
+        "qid_39478365"
+      ]
+    },
+    {
+      "q": "35. The \"iterative\" narrative mode means presenting a single event through the perception of multiple characters.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 1,
+      "feedback": "خطأ. السرد التكراري (Iterative) يعني 'رواية مرة واحدة ما حدث عدة مرات'، مثل 'كل يوم اثنين، كان يذهب إلى السوق'. العبارة في السؤال تصف السرد التكراري المتعدد (Repetitive).",
+      "id": "q_4959af0bcc3ab1fd3e33",
+      "legacyIds": [
+        "id_24f43ce3",
+        "qid_45145b07"
+      ],
+      "legacyPrimaryIds": [
+        "qid_45145b07"
+      ]
+    },
+    {
+      "q": "36. The narrative time a certain event takes in the story is called \"story time\".",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 0,
+      "feedback": "Story time is the duration/order of events in the story world; the item’s own feedback already states this and contradicts its stored key.",
+      "id": "q_d65866bea9baefccc0f6",
+      "legacyIds": [
+        "id_660c83c8",
+        "qid_5cce509c"
+      ],
+      "legacyPrimaryIds": [
+        "qid_5cce509c"
+      ]
+    },
+    {
+      "q": "37. In \"Time Passes,\" the narrative duration matches the pace of the characters' daily lives.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correct": 1,
+      "feedback": "خطأ. في قسم 'الزمن يمضي'، مدة السرد (بضع صفحات) أقصر بكثير من زمن القصة (عشر سنوات)، مما يخلق تسريعاً كبيراً في الإيقاع.",
+      "id": "q_a589cfc434b2789ed317",
+      "legacyIds": [
+        "id_3c88bbd2",
+        "qid_32dab012"
+      ],
+      "legacyPrimaryIds": [
+        "qid_32dab012"
+      ]
+    },
+    {
+      "q": "38. The novel contains all but one of the following narrative techniques:",
+      "options": [
+        "foreshadowing",
+        "summary",
+        "pause"
+      ],
+      "correct": 2,
+      "feedback": "الرواية تستخدم التلخيص (summary) والاستباق (foreshadowing) بكثرة، لكن تقنية 'الوقفة' (pause) حيث يتوقف زمن القصة تماماً للسماح للوصف، أقل استخداماً مقارنة بالتقنيات الأخرى.",
+      "id": "q_e9fe1194a4106ced591a",
+      "legacyIds": [
+        "id_34d5a553",
+        "qid_8b909b1"
+      ],
+      "legacyPrimaryIds": [
+        "qid_8b909b1"
+      ]
+    },
+    {
+      "q": "39. In \"The Window,\" the narrative perspective shifts frequently between characters. This is an example of:",
+      "options": [
+        "Zero focalization",
+        "Variable internal focalization",
+        "External focalization"
+      ],
+      "correct": 1,
+      "feedback": "يستخدم هذا الجزء التبئير الداخلي المتغير، حيث ينتقل السرد بسلاسة بين وجهات نظر وعقول شخصيات متعددة.",
+      "id": "q_e8261f3de36e1be64cfe",
+      "legacyIds": [
+        "id_28c321ad",
+        "qid_5ca54905"
+      ],
+      "legacyPrimaryIds": [
+        "qid_5ca54905"
+      ]
+    },
+    {
+      "q": "40. In \"Time Passes\", the characters' fate is being told through (...) statements.",
+      "options": [
+        "brief parenthetical",
+        "long descriptive",
+        "indirect, allegorical"
+      ],
+      "correct": 0,
+      "feedback": "يتم الإعلان عن مصائر الشخصيات (مثل موت السيدة رامزي) في جمل اعتراضية قصيرة وموجزة بين قوسين، مما يبرز لا مبالاة الزمن تجاه المآسي البشرية.",
+      "id": "q_c8a5c61449f9c449bb09",
+      "legacyIds": [
+        "id_6aad4188",
+        "qid_5aca7fed"
+      ],
+      "legacyPrimaryIds": [
+        "qid_5aca7fed"
+      ]
+    },
     {
       "q": "Why does James feel lifelong resentment toward his father after the lighthouse incident?",
       "options": [
@@ -397,7 +716,15 @@
         "Because Mrs. Ramsay encouraged him to hate his father"
       ],
       "correct": 1,
-      "feedback": "يستبطن جيمس اللحظة التي قال فيها والده 'لن يكون الطقس جيداً' كجرح عاطفي يرافقه مدى الحياة."
+      "feedback": "يستبطن جيمس اللحظة التي قال فيها والده 'لن يكون الطقس جيداً' كجرح عاطفي يرافقه مدى الحياة.",
+      "id": "q_3b5c7a0ee6d9e8c0c4ac",
+      "legacyIds": [
+        "id_34c66133",
+        "qid_31ee6ecb"
+      ],
+      "legacyPrimaryIds": [
+        "qid_31ee6ecb"
+      ]
     },
     {
       "q": "What does the lighthouse symbolize for James in the first part of the novel?",
@@ -408,7 +735,15 @@
         "A meaningless object"
       ],
       "correct": 1,
-      "feedback": "تمثل المنارة مكافأة عاطفية طال انتظارها ولحظة تواصل يتوق إليها."
+      "feedback": "تمثل المنارة مكافأة عاطفية طال انتظارها ولحظة تواصل يتوق إليها.",
+      "id": "q_45964c52e8861b3975ee",
+      "legacyIds": [
+        "id_8e67e21",
+        "qid_172a9875"
+      ],
+      "legacyPrimaryIds": [
+        "qid_172a9875"
+      ]
     },
     {
       "q": "Why does Mrs. Ramsay defend Charles Tansley even though he says unpleasant things?",
@@ -419,7 +754,15 @@
         "She wants him to marry Lily"
       ],
       "correct": 1,
-      "feedback": "تؤمن السيدة رامزي بضرورة حماية الضيوف ولا تحتمل الوقاحة تجاه الشباب."
+      "feedback": "تؤمن السيدة رامزي بضرورة حماية الضيوف ولا تحتمل الوقاحة تجاه الشباب.",
+      "id": "q_21db44b1c868b455a2e0",
+      "legacyIds": [
+        "id_1a459681",
+        "qid_44e06b49"
+      ],
+      "legacyPrimaryIds": [
+        "qid_44e06b49"
+      ]
     },
     {
       "q": "Why does Charles Tansley repeatedly say 'No going to the Lighthouse'?",
@@ -430,7 +773,15 @@
         "To comfort James"
       ],
       "correct": 0,
-      "feedback": "يستخدم تانسلي السلبية لتأكيد هيمنته لأنه يشعر بالنقص الاجتماعي."
+      "feedback": "يستخدم تانسلي السلبية لتأكيد هيمنته لأنه يشعر بالنقص الاجتماعي.",
+      "id": "q_cf3cd44179650b98dc05",
+      "legacyIds": [
+        "id_11e145cf",
+        "qid_691188d9"
+      ],
+      "legacyPrimaryIds": [
+        "qid_691188d9"
+      ]
     },
     {
       "q": "Why does Mrs. Ramsay pity the lighthouse keepers?",
@@ -441,7 +792,15 @@
         "They dislike the Ramsays"
       ],
       "correct": 1,
-      "feedback": "تتخيل عزلتهم والعواصف التي يواجهونها وانقطاع تواصلهم مع عائلاتهم."
+      "feedback": "تتخيل عزلتهم والعواصف التي يواجهونها وانقطاع تواصلهم مع عائلاتهم.",
+      "id": "q_332f2eb58d92519249ef",
+      "legacyIds": [
+        "id_26b20e17",
+        "qid_4d23f425"
+      ],
+      "legacyPrimaryIds": [
+        "qid_4d23f425"
+      ]
     },
     {
       "q": "What does the reddish-brown stocking symbolize for Mrs. Ramsay?",
@@ -452,7 +811,15 @@
         "Her rejection of domestic duties"
       ],
       "correct": 2,
-      "feedback": "الجورب مخصص لطفل حارس المنارة المريض، مما يرمز إلى تعاطفها الأمومي."
+      "feedback": "الجورب مخصص لطفل حارس المنارة المريض، مما يرمز إلى تعاطفها الأمومي.",
+      "id": "q_ff79fcfdc9139b5d05f3",
+      "legacyIds": [
+        "id_65ebd03b",
+        "qid_c280c9b"
+      ],
+      "legacyPrimaryIds": [
+        "qid_c280c9b"
+      ]
     },
     {
       "q": "Why does Mrs. Ramsay feel that life is 'hostile' and 'ready to pounce'?",
@@ -463,7 +830,15 @@
         "Because she is naturally pessimistic"
       ],
       "correct": 1,
-      "feedback": "تتأمل في السرطان والفقر والموت وأعباء الحياة، وترى الحياة كخصم."
+      "feedback": "تتأمل في السرطان والفقر والموت وأعباء الحياة، وترى الحياة كخصم.",
+      "id": "q_918d31d980bf672dc413",
+      "legacyIds": [
+        "id_2645721",
+        "qid_1fddf8a5"
+      ],
+      "legacyPrimaryIds": [
+        "qid_1fddf8a5"
+      ]
     },
     {
       "q": "Why does Mr. Ramsay become angry when Mrs. Ramsay says 'perhaps it will be fine tomorrow'?",
@@ -474,7 +849,15 @@
         "Because he wants James to stay home"
       ],
       "correct": 1,
-      "feedback": "يرى تفاؤلها غير عقلاني وغير أمين، مما ينتهك تفانيه للحقيقة."
+      "feedback": "يرى تفاؤلها غير عقلاني وغير أمين، مما ينتهك تفانيه للحقيقة.",
+      "id": "q_78a86c5ba1f87ad06795",
+      "legacyIds": [
+        "id_48863cd4",
+        "qid_3573243d"
+      ],
+      "legacyPrimaryIds": [
+        "qid_3573243d"
+      ]
     },
     {
       "q": "Why does Mrs. Ramsay feel that she and life are in a constant 'transaction'?",
@@ -485,7 +868,15 @@
         "Because she feels superior to others"
       ],
       "correct": 0,
-      "feedback": "إنها تصارع بين قسوة الحياة ورغبتها في حماية الآخرين ومواساتهم."
+      "feedback": "إنها تصارع بين قسوة الحياة ورغبتها في حماية الآخرين ومواساتهم.",
+      "id": "q_b50393c61a2b45a966a9",
+      "legacyIds": [
+        "id_6767ac5d",
+        "qid_52cd6047"
+      ],
+      "legacyPrimaryIds": [
+        "qid_52cd6047"
+      ]
     },
     {
       "q": "Why does Lily struggle to understand Mrs. Ramsay’s inner life?",
@@ -496,7 +887,15 @@
         "Because Lily is inexperienced"
       ],
       "correct": 0,
-      "feedback": "بساطة السيدة رامزي تخفي حكمة وتعقيدًا عميقين لا تستطيع ليلي فهمهما بالكامل."
+      "feedback": "بساطة السيدة رامزي تخفي حكمة وتعقيدًا عميقين لا تستطيع ليلي فهمهما بالكامل.",
+      "id": "q_60073a00a1957ac4a112",
+      "legacyIds": [
+        "id_2aa6de55",
+        "qid_7cc2e039"
+      ],
+      "legacyPrimaryIds": [
+        "qid_7cc2e039"
+      ]
     },
     {
       "q": "Why does Lily feel disturbed by Tansley’s words 'women can’t paint, women can’t write'?",
@@ -507,7 +906,15 @@
         "Because she dislikes Tansley personally"
       ],
       "correct": 1,
-      "feedback": "يجسد تانسلي الصوت الأبوي الذي يهدد ثقتها الفنية."
+      "feedback": "يجسد تانسلي الصوت الأبوي الذي يهدد ثقتها الفنية.",
+      "id": "q_bb870a0e243c8136a00d",
+      "legacyIds": [
+        "id_65a4326f",
+        "qid_1ef8df97"
+      ],
+      "legacyPrimaryIds": [
+        "qid_1ef8df97"
+      ]
     },
     {
       "q": "Why does Mrs. Ramsay want William Bankes and Lily Briscoe to marry?",
@@ -518,7 +925,15 @@
         "Because Lily asked her to arrange it"
       ],
       "correct": 1,
-      "feedback": "تؤمن السيدة رامزي بأن الناس يجب أن يتزوجوا وينجبوا أطفالاً؛ إنها طريقتها في فرض النظام على الحياة."
+      "feedback": "تؤمن السيدة رامزي بأن الناس يجب أن يتزوجوا وينجبوا أطفالاً؛ إنها طريقتها في فرض النظام على الحياة.",
+      "id": "q_690c072efe08d99c4998",
+      "legacyIds": [
+        "id_4ed8deca",
+        "qid_405c343c"
+      ],
+      "legacyPrimaryIds": [
+        "qid_405c343c"
+      ]
     },
     {
       "q": "Why does Lily reject Mrs. Ramsay’s worldview about marriage?",
@@ -529,7 +944,15 @@
         "Because she fears commitment"
       ],
       "correct": 1,
-      "feedback": "تبحث ليلي عن المعنى من خلال الرؤية الفنية، وليس من خلال الزواج أو الأمومة."
+      "feedback": "تبحث ليلي عن المعنى من خلال الرؤية الفنية، وليس من خلال الزواج أو الأمومة.",
+      "id": "q_2589e1bfd6c8f48494cb",
+      "legacyIds": [
+        "id_5038595",
+        "qid_56753a3a"
+      ],
+      "legacyPrimaryIds": [
+        "qid_56753a3a"
+      ]
     },
     {
       "q": "Why does Mrs. Ramsay feel that adulthood destroys happiness?",
@@ -540,7 +963,15 @@
         "Because adults forget their childhood"
       ],
       "correct": 0,
-      "feedback": "تعتقد أن مرحلة البلوغ تجلب الألم والطموح والعزلة العاطفية."
+      "feedback": "تعتقد أن مرحلة البلوغ تجلب الألم والطموح والعزلة العاطفية.",
+      "id": "q_6fd1405b3d1718bc540f",
+      "legacyIds": [
+        "id_1f8b8f23",
+        "qid_655aa9cc"
+      ],
+      "legacyPrimaryIds": [
+        "qid_655aa9cc"
+      ]
     },
     {
       "q": "Why does Mr. Ramsay feel that he will never reach 'R' in the alphabet of thought?",
@@ -551,7 +982,15 @@
         "Because he wants sympathy"
       ],
       "correct": 1,
-      "feedback": "يخشى ألا يحقق العظمة أبدًا ويهوّس بحدوده الفكرية."
+      "feedback": "يخشى ألا يحقق العظمة أبدًا ويهوّس بحدوده الفكرية.",
+      "id": "q_a4d7c98b9ea56b93c3ce",
+      "legacyIds": [
+        "id_16186795",
+        "qid_2ab5f610"
+      ],
+      "legacyPrimaryIds": [
+        "qid_2ab5f610"
+      ]
     },
     {
       "q": "Why does Lily finally achieve her artistic vision in Part III?",
@@ -562,7 +1001,15 @@
         "Because Mr. Ramsay helps her"
       ],
       "correct": 2,
-      "feedback": "تساعد المسافة ليلي على رؤية عائلة رامزي بموضوعية، مما يسمح لها بإكمال لوحتها."
+      "feedback": "تساعد المسافة ليلي على رؤية عائلة رامزي بموضوعية، مما يسمح لها بإكمال لوحتها.",
+      "id": "q_ce35f0d110a0e8178a45",
+      "legacyIds": [
+        "id_2d6132df",
+        "qid_30f8cbbf"
+      ],
+      "legacyPrimaryIds": [
+        "qid_30f8cbbf"
+      ]
     },
     {
       "q": "Why does Cam feel liberated during the boat trip?",
@@ -573,7 +1020,15 @@
         "Because she wants to impress her father"
       ],
       "correct": 1,
-      "feedback": "تدرك كام أن المسافة الجسدية تخلق وضوحًا عاطفيًا."
+      "feedback": "تدرك كام أن المسافة الجسدية تخلق وضوحًا عاطفيًا.",
+      "id": "q_27e288d43125fca5d5f2",
+      "legacyIds": [
+        "id_a51c948",
+        "qid_479e4132"
+      ],
+      "legacyPrimaryIds": [
+        "qid_479e4132"
+      ]
     },
     {
       "q": "Why does James soften toward his father during the boat trip?",
@@ -584,7 +1039,15 @@
         "Because he wants to reach the lighthouse faster"
       ],
       "correct": 1,
-      "feedback": "يجبر القرب الجسدي جيمس على رؤية والده كإنسان به عيوب، وليس كوحش."
+      "feedback": "يجبر القرب الجسدي جيمس على رؤية والده كإنسان به عيوب، وليس كوحش.",
+      "id": "q_bae34b217977a12a6b07",
+      "legacyIds": [
+        "id_451fd7e3",
+        "qid_39eb0cb9"
+      ],
+      "legacyPrimaryIds": [
+        "qid_39eb0cb9"
+      ]
     },
     {
       "q": "Which narrative technique dominates 'Time Passes'?",
@@ -595,7 +1058,15 @@
         "Dialogue"
       ],
       "correct": 2,
-      "feedback": "يتم ضغط عشر سنوات في بضع صفحات من خلال التلخيص والأحداث المحذوفة."
+      "feedback": "يتم ضغط عشر سنوات في بضع صفحات من خلال التلخيص والأحداث المحذوفة.",
+      "id": "q_5009a8f2953a3bda1160",
+      "legacyIds": [
+        "id_4ad58491",
+        "qid_835c324"
+      ],
+      "legacyPrimaryIds": [
+        "qid_835c324"
+      ]
     },
     {
       "q": "Which narrative technique is used when Lily recalls moments with Mrs. Ramsay while painting?",
@@ -606,7 +1077,15 @@
         "Pause"
       ],
       "correct": 1,
-      "feedback": "تختبر ليلي بشكل متكرر ذكريات الماضي (flashbacks) للحظات مع السيدة رامزي."
+      "feedback": "تختبر ليلي بشكل متكرر ذكريات الماضي (flashbacks) للحظات مع السيدة رامزي.",
+      "id": "q_671527dab13dbb8c43f6",
+      "legacyIds": [
+        "id_6439b025",
+        "qid_4e371788"
+      ],
+      "legacyPrimaryIds": [
+        "qid_4e371788"
+      ]
     },
     {
       "q": "What type of narrator does the novel use?",
@@ -617,7 +1096,15 @@
         "Unreliable narrator"
       ],
       "correct": 2,
-      "feedback": "ينتقل الراوي بين عقول الشخصيات بمعرفة كاملة."
+      "feedback": "ينتقل الراوي بين عقول الشخصيات بمعرفة كاملة.",
+      "id": "q_53f8ef12b5455f55f782",
+      "legacyIds": [
+        "id_144d45d",
+        "qid_22c4af9a"
+      ],
+      "legacyPrimaryIds": [
+        "qid_22c4af9a"
+      ]
     },
     {
       "q": "Which narrative mode appears when multiple characters describe the same moment differently?",
@@ -628,7 +1115,15 @@
         "Linear narrative"
       ],
       "correct": 1,
-      "feedback": "يحدث السرد التكراري عندما تُرى نفس الحادثة من خلال عقول مختلفة."
+      "feedback": "يحدث السرد التكراري عندما تُرى نفس الحادثة من خلال عقول مختلفة.",
+      "id": "q_336a05dafc30cde1f7d8",
+      "legacyIds": [
+        "id_95fcd93",
+        "qid_7b08081b"
+      ],
+      "legacyPrimaryIds": [
+        "qid_7b08081b"
+      ]
     },
     {
       "q": "Why does Lily feel anger toward Mrs. Ramsay at the beginning of Part III?",
@@ -639,7 +1134,15 @@
         "Because Lily envied Mrs. Ramsay’s wealth"
       ],
       "correct": 1,
-      "feedback": "تشعر ليلي أن مُثُل السيدة رامزي حول الزواج والواجب قد شكلت حياتها بطرق تستاء منها."
+      "feedback": "تشعر ليلي أن مُثُل السيدة رامزي حول الزواج والواجب قد شكلت حياتها بطرق تستاء منها.",
+      "id": "q_e9eeb14125fddf96f7b3",
+      "legacyIds": [
+        "id_18d5b29d",
+        "qid_58a72db7"
+      ],
+      "legacyPrimaryIds": [
+        "qid_58a72db7"
+      ]
     },
     {
       "q": "Why does Lily pretend to drink from an empty cup when Mr. Ramsay approaches her?",
@@ -650,7 +1153,15 @@
         "To avoid talking about the lighthouse"
       ],
       "correct": 0,
-      "feedback": "تحاول ليلي الهروب من جوع السيد رامزي العاطفي وتجنب أن يستهلكها حزنه."
+      "feedback": "تحاول ليلي الهروب من جوع السيد رامزي العاطفي وتجنب أن يستهلكها حزنه.",
+      "id": "q_a264fe6a6da66be8d024",
+      "legacyIds": [
+        "id_76196cf5",
+        "qid_19b3347c"
+      ],
+      "legacyPrimaryIds": [
+        "qid_19b3347c"
+      ]
     },
     {
       "q": "Why does Cam feel that the people on shore are 'free like smoke'?",
@@ -661,7 +1172,15 @@
         "Because she dislikes the sea"
       ],
       "correct": 1,
-      "feedback": "من البحر، يبدو الشاطئ سلميًا ومنفصلاً عن المعاناة، مما يرمز إلى المسافة العاطفية."
+      "feedback": "من البحر، يبدو الشاطئ سلميًا ومنفصلاً عن المعاناة، مما يرمز إلى المسافة العاطفية.",
+      "id": "q_a67fa6e2a6076dceb231",
+      "legacyIds": [
+        "id_5c978340",
+        "qid_71623c8"
+      ],
+      "legacyPrimaryIds": [
+        "qid_71623c8"
+      ]
     },
     {
       "q": "Why does Cam reinterpret her father as 'brave and adventurous' during the boat trip?",
@@ -672,7 +1191,15 @@
         "Because he apologizes to her"
       ],
       "correct": 2,
-      "feedback": "تكشف المسافة المكانية عن إنسانية السيد رامزي وهشاشته العاطفية."
+      "feedback": "تكشف المسافة المكانية عن إنسانية السيد رامزي وهشاشته العاطفية.",
+      "id": "q_7e58dacba7e6555ce48b",
+      "legacyIds": [
+        "id_70c939d6",
+        "qid_60d22c"
+      ],
+      "legacyPrimaryIds": [
+        "qid_60d22c"
+      ]
     },
     {
       "q": "Why does James feel trapped at the beginning of the boat trip?",
@@ -683,7 +1210,15 @@
         "Because he fears drowning"
       ],
       "correct": 1,
-      "feedback": "يشعر جيمس بأنه مسجون مع الرجل الذي سحق آمال طفولته."
+      "feedback": "يشعر جيمس بأنه مسجون مع الرجل الذي سحق آمال طفولته.",
+      "id": "q_0d5cffa45589307388ef",
+      "legacyIds": [
+        "id_41886ff2",
+        "qid_38d929a0"
+      ],
+      "legacyPrimaryIds": [
+        "qid_38d929a0"
+      ]
     },
     {
       "q": "What triggers James’s transformation in how he sees the lighthouse?",
@@ -694,7 +1229,15 @@
         "Cam’s interpretation"
       ],
       "correct": 1,
-      "feedback": "يدرك جيمس أن كلاً من المنارة الحالمة البعيدة والمنارة الحقيقية القاسية حقيقيتان."
+      "feedback": "يدرك جيمس أن كلاً من المنارة الحالمة البعيدة والمنارة الحقيقية القاسية حقيقيتان.",
+      "id": "q_35470b4fba7f24df9a32",
+      "legacyIds": [
+        "id_4f73847d",
+        "qid_479ed6d6"
+      ],
+      "legacyPrimaryIds": [
+        "qid_479ed6d6"
+      ]
     },
     {
       "q": "Why does James soften toward his father when Mr. Ramsay praises his steering?",
@@ -705,7 +1248,15 @@
         "Because he wants to reach the lighthouse faster"
       ],
       "correct": 1,
-      "feedback": "يمنح الثناء النادر من السيد رامزي جيمس التحقق العاطفي الذي كان يتوق إليه منذ الطفولة."
+      "feedback": "يمنح الثناء النادر من السيد رامزي جيمس التحقق العاطفي الذي كان يتوق إليه منذ الطفولة.",
+      "id": "q_e0cca0b6d5f061bc4d5c",
+      "legacyIds": [
+        "id_5af8409c",
+        "qid_6373bc0e"
+      ],
+      "legacyPrimaryIds": [
+        "qid_6373bc0e"
+      ]
     },
     {
       "q": "Why does Lily feel sympathy for Mr. Ramsay when he ties her shoe?",
@@ -716,7 +1267,15 @@
         "Because she feels guilty for ignoring him"
       ],
       "correct": 1,
-      "feedback": "تدرك ليلي فجأة عمق حزنه وهشاشته."
+      "feedback": "تدرك ليلي فجأة عمق حزنه وهشاشته.",
+      "id": "q_1d6c2351d74097591ae8",
+      "legacyIds": [
+        "id_41e50de6",
+        "qid_3ba43552"
+      ],
+      "legacyPrimaryIds": [
+        "qid_3ba43552"
+      ]
     },
     {
       "q": "Why does Lily feel that 'fifty pairs of eyes' are needed to understand Mrs. Ramsay?",
@@ -727,7 +1286,15 @@
         "Because Mrs. Ramsay avoided conversations"
       ],
       "correct": 1,
-      "feedback": "عمق السيدة رامزي العاطفي وتناقضاتها تجعل من المستحيل فهمها من منظور واحد."
+      "feedback": "عمق السيدة رامزي العاطفي وتناقضاتها تجعل من المستحيل فهمها من منظور واحد.",
+      "id": "q_46eac2cc6f89b0d22674",
+      "legacyIds": [
+        "id_2627c09e",
+        "qid_53cc19b6"
+      ],
+      "legacyPrimaryIds": [
+        "qid_53cc19b6"
+      ]
     },
     {
       "q": "Why does Lily finally understand Mrs. Ramsay’s influence on others?",
@@ -738,7 +1305,15 @@
         "Because Cam tells her stories"
       ],
       "correct": 1,
-      "feedback": "تدرك ليلي أن قوة السيدة رامزي جاءت من قدرتها على جمع الناس معًا."
+      "feedback": "تدرك ليلي أن قوة السيدة رامزي جاءت من قدرتها على جمع الناس معًا.",
+      "id": "q_bdef4f044e2741f7e2a4",
+      "legacyIds": [
+        "id_429507d1",
+        "qid_2a927703"
+      ],
+      "legacyPrimaryIds": [
+        "qid_2a927703"
+      ]
     },
     {
       "q": "Why does Cam feel both fear and admiration toward her father?",
@@ -749,7 +1324,15 @@
         "Because he is a philosopher"
       ],
       "correct": 0,
-      "feedback": "ترى كام كلاً من طاغية طفولتها والرجل الوحيد الحزين الذي أصبح عليه."
+      "feedback": "ترى كام كلاً من طاغية طفولتها والرجل الوحيد الحزين الذي أصبح عليه.",
+      "id": "q_d466a402ea3de1540047",
+      "legacyIds": [
+        "id_32ab5683",
+        "qid_79cab9c7"
+      ],
+      "legacyPrimaryIds": [
+        "qid_79cab9c7"
+      ]
     },
     {
       "q": "Why does Lily feel that Mrs. Ramsay’s presence is both comforting and painful?",
@@ -760,7 +1343,15 @@
         "Because Mrs. Ramsay criticized her painting"
       ],
       "correct": 1,
-      "feedback": "تشعر ليلي بألم الشوق لما مضى، لكنها تجد معنى في إرث السيدة رامزي."
+      "feedback": "تشعر ليلي بألم الشوق لما مضى، لكنها تجد معنى في إرث السيدة رامزي.",
+      "id": "q_ee7c637e02185b7e4a88",
+      "legacyIds": [
+        "id_439e7063",
+        "qid_1f888924"
+      ],
+      "legacyPrimaryIds": [
+        "qid_1f888924"
+      ]
     },
     {
       "q": "Why does Lily feel that Mrs. Ramsay’s death left 'nothing merged'?",
@@ -771,7 +1362,15 @@
         "Because the house was abandoned"
       ],
       "correct": 1,
-      "feedback": "يكشف غياب السيدة رامزي عن مدى تماسك العالم العاطفي بفضلها."
+      "feedback": "يكشف غياب السيدة رامزي عن مدى تماسك العالم العاطفي بفضلها.",
+      "id": "q_7cde269cc11471e6d47b",
+      "legacyIds": [
+        "id_1539622d",
+        "qid_72c25ad0"
+      ],
+      "legacyPrimaryIds": [
+        "qid_72c25ad0"
+      ]
     },
     {
       "q": "Why does Cam feel that the sea is more important than the shore?",
@@ -782,7 +1381,20 @@
         "Because she dislikes the house"
       ],
       "correct": 1,
-      "feedback": "يرمز البحر إلى القوى الهائلة التي تشكل التجربة الإنسانية."
+      "feedback": "Exact/strict duplicate; retain the keeper and its selected answer.",
+      "id": "q_75be484438a3326b4f33",
+      "legacyIds": [
+        "id_18f09301",
+        "id_1dd6923d",
+        "q_83e07e54e63aa495353c",
+        "qid_57c33db0",
+        "qid_5b2609ee"
+      ],
+      "legacyPrimaryIds": [
+        "q_83e07e54e63aa495353c",
+        "qid_57c33db0",
+        "qid_5b2609ee"
+      ]
     },
     {
       "q": "Why does Lily feel that Carmichael’s aloofness is a form of knowledge?",
@@ -793,7 +1405,15 @@
         "Because he avoids conversations"
       ],
       "correct": 1,
-      "feedback": "تدرك ليلي أن فهم الناس يأتي أحيانًا من ملاحظة جوهرهم، وليس تفاصيلهم."
+      "feedback": "تدرك ليلي أن فهم الناس يأتي أحيانًا من ملاحظة جوهرهم، وليس تفاصيلهم.",
+      "id": "q_cca39eaffb92e0052da3",
+      "legacyIds": [
+        "id_4382a2c6",
+        "qid_17c06798"
+      ],
+      "legacyPrimaryIds": [
+        "qid_17c06798"
+      ]
     },
     {
       "q": "Why does James feel that the lighthouse 'confirms something about his own character'?",
@@ -804,7 +1424,15 @@
         "Because he dislikes the sea"
       ],
       "correct": 1,
-      "feedback": "يدرك جيمس أنه، مثل المنارة، يحتوي على حقائق متعددة بداخله."
+      "feedback": "يدرك جيمس أنه، مثل المنارة، يحتوي على حقائق متعددة بداخله.",
+      "id": "q_130edf155d0ea452e86b",
+      "legacyIds": [
+        "id_2aadf42c",
+        "qid_3df4baa3"
+      ],
+      "legacyPrimaryIds": [
+        "qid_3df4baa3"
+      ]
     },
     {
       "q": "Why does Lily feel that she can finally 'stand up to Mrs. Ramsay'?",
@@ -815,7 +1443,15 @@
         "Because she wants to impress Mr. Ramsay"
       ],
       "correct": 1,
-      "feedback": "تكتسب ليلي استقلالًا عاطفيًا ووضوحًا من خلال المسافة والنضج."
+      "feedback": "تكتسب ليلي استقلالًا عاطفيًا ووضوحًا من خلال المسافة والنضج.",
+      "id": "q_d4655784c4c58b94b1cb",
+      "legacyIds": [
+        "id_2eed104f",
+        "qid_3fee3f7"
+      ],
+      "legacyPrimaryIds": [
+        "qid_3fee3f7"
+      ]
     },
     {
       "q": "According to Genette, what does 'analepsis' refer to in narrative structure?",
@@ -826,7 +1462,15 @@
         "A repeated event"
       ],
       "correct": 1,
-      "feedback": "الاسترجاع (Analepsis) هو عودة إلى لحظة سابقة في القصة (flashback)."
+      "feedback": "الاسترجاع (Analepsis) هو عودة إلى لحظة سابقة في القصة (flashback).",
+      "id": "q_214d78ed7f8331458b2d",
+      "legacyIds": [
+        "id_5720a823",
+        "qid_5aed481c"
+      ],
+      "legacyPrimaryIds": [
+        "qid_5aed481c"
+      ]
     },
     {
       "q": "Which part of the novel contains the clearest use of ellipsis?",
@@ -837,7 +1481,15 @@
         "The dinner scene"
       ],
       "correct": 1,
-      "feedback": "يتخطى قسم 'الزمن يمضي' أحداثًا رئيسية مثل الوفيات والحرب من خلال الحذف (ellipsis)."
+      "feedback": "يتخطى قسم 'الزمن يمضي' أحداثًا رئيسية مثل الوفيات والحرب من خلال الحذف (ellipsis).",
+      "id": "q_88cb5f22eb373c2601b5",
+      "legacyIds": [
+        "id_e2dc27f",
+        "qid_734b1b9"
+      ],
+      "legacyPrimaryIds": [
+        "qid_734b1b9"
+      ]
     },
     {
       "q": "What is the dominant narrative technique in 'Time Passes'?",
@@ -848,7 +1500,15 @@
         "Internal monologue"
       ],
       "correct": 1,
-      "feedback": "يتم ضغط عشر سنوات في بضع صفحات باستخدام التلخيص والحذف."
+      "feedback": "يتم ضغط عشر سنوات في بضع صفحات باستخدام التلخيص والحذف.",
+      "id": "q_d0cbf4caba318d4fa731",
+      "legacyIds": [
+        "id_64d9184c",
+        "qid_4bce9ed7"
+      ],
+      "legacyPrimaryIds": [
+        "qid_4bce9ed7"
+      ]
     },
     {
       "q": "Which type of focalization dominates the novel?",
@@ -859,7 +1519,15 @@
         "Second-person focalization"
       ],
       "correct": 1,
-      "feedback": "تستخدم الرواية التبئير الداخلي، حيث تدخل في عقول الشخصيات."
+      "feedback": "تستخدم الرواية التبئير الداخلي، حيث تدخل في عقول الشخصيات.",
+      "id": "q_dfd0edbcd8a3591e1a6a",
+      "legacyIds": [
+        "id_5a0033fc",
+        "qid_49c4e2a5"
+      ],
+      "legacyPrimaryIds": [
+        "qid_49c4e2a5"
+      ]
     },
     {
       "q": "What type of narrator does 'To the Lighthouse' employ?",
@@ -870,7 +1538,15 @@
         "Unreliable narrator"
       ],
       "correct": 2,
-      "feedback": "يعرف الراوي أفكار شخصيات متعددة وينتقل بينها."
+      "feedback": "يعرف الراوي أفكار شخصيات متعددة وينتقل بينها.",
+      "id": "q_9512c417cbd092e83f32",
+      "legacyIds": [
+        "id_742c1c65",
+        "qid_72b2e7ae"
+      ],
+      "legacyPrimaryIds": [
+        "qid_72b2e7ae"
+      ]
     },
     {
       "q": "What does Genette call the difference between the time events take in the story and the time used to narrate them?",
@@ -881,7 +1557,15 @@
         "Focalization"
       ],
       "correct": 1,
-      "feedback": "تقارن 'المدة' (Duration) بين زمن القصة وزمن الخطاب."
+      "feedback": "تقارن 'المدة' (Duration) بين زمن القصة وزمن الخطاب.",
+      "id": "q_e6203bfd20ae17550c39",
+      "legacyIds": [
+        "id_4692ec71",
+        "qid_41963ec9"
+      ],
+      "legacyPrimaryIds": [
+        "qid_41963ec9"
+      ]
     },
     {
       "q": "Which part of the novel uses 'stretch' as a narrative technique?",
@@ -892,7 +1576,15 @@
         "Both The Window and The Lighthouse"
       ],
       "correct": 3,
-      "feedback": "يبطئ الجزءان الأول والثالث الزمن لاستكشاف الوعي بالتفصيل."
+      "feedback": "يبطئ الجزءان الأول والثالث الزمن لاستكشاف الوعي بالتفصيل.",
+      "id": "q_2525aab86c32971bc00d",
+      "legacyIds": [
+        "id_6cc04eac",
+        "qid_1315def1"
+      ],
+      "legacyPrimaryIds": [
+        "qid_1315def1"
+      ]
     },
     {
       "q": "What is 'pause' in Genette’s terminology?",
@@ -903,7 +1595,15 @@
         "A flashback"
       ],
       "correct": 1,
-      "feedback": "تجمد 'الوقفة' (Pause) زمن القصة للسماح بالتعليق الوصفي أو التأملي."
+      "feedback": "تجمد 'الوقفة' (Pause) زمن القصة للسماح بالتعليق الوصفي أو التأملي.",
+      "id": "q_a8539aa62568395b0e5c",
+      "legacyIds": [
+        "id_3dd9f5fb",
+        "qid_64fa2b9b"
+      ],
+      "legacyPrimaryIds": [
+        "qid_64fa2b9b"
+      ]
     },
     {
       "q": "Which narrative mode appears when the same event is described by multiple characters?",
@@ -914,18 +1614,34 @@
         "Linear narrative"
       ],
       "correct": 1,
-      "feedback": "يحدث السرد التكراري عندما تصف عدة شخصيات نفس اللحظة بشكل مختلف."
+      "feedback": "يحدث السرد التكراري عندما تصف عدة شخصيات نفس اللحظة بشكل مختلف.",
+      "id": "q_ce7d012f7b3e9f7054fe",
+      "legacyIds": [
+        "id_ce832ae",
+        "qid_5fda7836"
+      ],
+      "legacyPrimaryIds": [
+        "qid_5fda7836"
+      ]
     },
     {
-      "q": "Which narrative mode appears when a character repeats the same thought across different scenes?",
+      "q": "In Genette’s frequency scheme, what is iterative narration?",
       "options": [
-        "Single narrative",
-        "Repetitive narrative",
-        "Iterative narrative",
-        "Proleptic narrative"
+        "Narrating once what happened once",
+        "Narrating several times what happened once",
+        "Narrating once what happened several times",
+        "Narrating events before their chronological position"
       ],
       "correct": 2,
-      "feedback": "يكرر السرد التكراري (Iterative) نفس الفكرة الداخلية عبر مشاهد متعددة."
+      "feedback": "The existing example (“same thought across different scenes”) does not define Genette’s iterative frequency. Replace it with the canonical definition.",
+      "id": "q_3e36c45f9b6ebdb1326f",
+      "legacyIds": [
+        "id_2d56f842",
+        "qid_69e7d76c"
+      ],
+      "legacyPrimaryIds": [
+        "qid_69e7d76c"
+      ]
     },
     {
       "q": "What does 'order' refer to in Genette’s narratology?",
@@ -936,7 +1652,15 @@
         "The narrator’s reliability"
       ],
       "correct": 0,
-      "feedback": "يهتم 'الترتيب' (Order) بما إذا كانت الأحداث تُروى ترتيبًا زمنيًا أم لا."
+      "feedback": "يهتم 'الترتيب' (Order) بما إذا كانت الأحداث تُروى ترتيبًا زمنيًا أم لا.",
+      "id": "q_e9c406899e3048c5fef2",
+      "legacyIds": [
+        "id_7911d9f6",
+        "qid_4db0af58"
+      ],
+      "legacyPrimaryIds": [
+        "qid_4db0af58"
+      ]
     },
     {
       "q": "Which part of the novel is the most nonlinear in structure?",
@@ -947,7 +1671,15 @@
         "The dinner scene"
       ],
       "correct": 1,
-      "feedback": "يعطل قسم 'الزمن يمضي' التسلسل الزمني من خلال الحذف والتلخيص."
+      "feedback": "يعطل قسم 'الزمن يمضي' التسلسل الزمني من خلال الحذف والتلخيص.",
+      "id": "q_b29a6a925e26e6258a7f",
+      "legacyIds": [
+        "id_17b3fee7",
+        "qid_7e3512ef"
+      ],
+      "legacyPrimaryIds": [
+        "qid_7e3512ef"
+      ]
     },
     {
       "q": "What is the relationship between story time and discourse time in 'Time Passes'?",
@@ -958,7 +1690,15 @@
         "There is no story time"
       ],
       "correct": 0,
-      "feedback": "يتم سرد عشر سنوات من زمن القصة في بضع صفحات فقط."
+      "feedback": "يتم سرد عشر سنوات من زمن القصة في بضع صفحات فقط.",
+      "id": "q_8d21b3aa244b8963a9f6",
+      "legacyIds": [
+        "id_49ed1cad",
+        "qid_3e50e524"
+      ],
+      "legacyPrimaryIds": [
+        "qid_3e50e524"
+      ]
     },
     {
       "q": "What is the relationship between story time and discourse time in 'The Window'?",
@@ -969,7 +1709,15 @@
         "There is no discourse time"
       ],
       "correct": 1,
-      "feedback": "يتم تمديد فترة ما بعد ظهر واحدة إلى أكثر من 100 صفحة."
+      "feedback": "يتم تمديد فترة ما بعد ظهر واحدة إلى أكثر من 100 صفحة.",
+      "id": "q_3c41cfbb4c2b34fee94f",
+      "legacyIds": [
+        "id_434637f9",
+        "qid_5dd72045"
+      ],
+      "legacyPrimaryIds": [
+        "qid_5dd72045"
+      ]
     },
     {
       "q": "Which technique is used when the narrator freezes time to describe the house or objects?",
@@ -980,7 +1728,15 @@
         "Prolepsis"
       ],
       "correct": 1,
-      "feedback": "توقف 'الوقفة' (Pause) زمن القصة للسماح بالتأمل الوصفي."
+      "feedback": "توقف 'الوقفة' (Pause) زمن القصة للسماح بالتأمل الوصفي.",
+      "id": "q_a73460239880b5fc9e26",
+      "legacyIds": [
+        "id_4cb2dac5",
+        "qid_57c45dfc"
+      ],
+      "legacyPrimaryIds": [
+        "qid_57c45dfc"
+      ]
     },
     {
       "q": "Which technique is used when the narrative skips over years without describing events?",
@@ -991,7 +1747,15 @@
         "Pause"
       ],
       "correct": 2,
-      "feedback": "يحذف 'الحذف' (Ellipsis) الأحداث التي تعتبر غير ذات صلة بالسرد."
+      "feedback": "يحذف 'الحذف' (Ellipsis) الأحداث التي تعتبر غير ذات صلة بالسرد.",
+      "id": "q_c38f3815ed9cad9b6161",
+      "legacyIds": [
+        "id_8b0e7ed",
+        "qid_63ad90f3"
+      ],
+      "legacyPrimaryIds": [
+        "qid_63ad90f3"
+      ]
     },
     {
       "q": "Which technique is used when the narrator jumps forward to future events?",
@@ -1002,7 +1766,15 @@
         "Iterative mode"
       ],
       "correct": 1,
-      "feedback": "الاستباق (Prolepsis) هو قفزة إلى الأمام في الزمن (flashforward)."
+      "feedback": "الاستباق (Prolepsis) هو قفزة إلى الأمام في الزمن (flashforward).",
+      "id": "q_302e5b2946db1c0e89dc",
+      "legacyIds": [
+        "id_2b33f9e5",
+        "qid_3750e92a"
+      ],
+      "legacyPrimaryIds": [
+        "qid_3750e92a"
+      ]
     },
     {
       "q": "Why is 'Time Passes' considered stylistically different from the other parts?",
@@ -1013,7 +1785,15 @@
         "It is written in chronological order"
       ],
       "correct": 1,
-      "feedback": "يحول قسم 'الزمن يمضي' التركيز من العقول البشرية إلى الطبيعة ومرور الزمن."
+      "feedback": "يحول قسم 'الزمن يمضي' التركيز من العقول البشرية إلى الطبيعة ومرور الزمن.",
+      "id": "q_aa155f3ca5a6707f2590",
+      "legacyIds": [
+        "id_62696a88",
+        "qid_637279d1"
+      ],
+      "legacyPrimaryIds": [
+        "qid_637279d1"
+      ]
     },
     {
       "q": "Which narrative technique is used when Lily recalls Mrs. Ramsay while painting?",
@@ -1024,7 +1804,15 @@
         "Pause"
       ],
       "correct": 0,
-      "feedback": "تختبر ليلي بشكل متكرر ذكريات الماضي (flashbacks) للحظات مع السيدة رامزي."
+      "feedback": "تختبر ليلي بشكل متكرر ذكريات الماضي (flashbacks) للحظات مع السيدة رامزي.",
+      "id": "q_4cd74ae3b75dc25b36f1",
+      "legacyIds": [
+        "id_224bb3bf",
+        "qid_616020a3"
+      ],
+      "legacyPrimaryIds": [
+        "qid_616020a3"
+      ]
     },
     {
       "q": "What does 'frequency' refer to in Genette’s theory?",
@@ -1035,7 +1823,15 @@
         "How detailed the narration is"
       ],
       "correct": 1,
-      "feedback": "تهتم 'الوتيرة' (Frequency) بما إذا كانت الأحداث تُروى مرة واحدة أو عدة مرات."
+      "feedback": "تهتم 'الوتيرة' (Frequency) بما إذا كانت الأحداث تُروى مرة واحدة أو عدة مرات.",
+      "id": "q_cece2a676183ca6f46e8",
+      "legacyIds": [
+        "id_5133ec9e",
+        "qid_2a0670b5"
+      ],
+      "legacyPrimaryIds": [
+        "qid_2a0670b5"
+      ]
     },
     {
       "q": "What does the lighthouse ultimately symbolize for the characters by the end of the novel?",
@@ -1046,7 +1842,15 @@
         "A symbol of social hierarchy"
       ],
       "correct": 1,
-      "feedback": "تصبح المنارة رمزًا للحقيقة المعقدة—حقائق متعددة تتعايش في آن واحد."
+      "feedback": "تصبح المنارة رمزًا للحقيقة المعقدة—حقائق متعددة تتعايش في آن واحد.",
+      "id": "q_b6f383a0691fb4c089ed",
+      "legacyIds": [
+        "id_a642714",
+        "qid_2b44d524"
+      ],
+      "legacyPrimaryIds": [
+        "qid_2b44d524"
+      ]
     },
     {
       "q": "Why does Lily feel that completing her painting is connected to understanding life?",
@@ -1057,7 +1861,15 @@
         "Because Mrs. Ramsay told her to finish it"
       ],
       "correct": 1,
-      "feedback": "تصبح رؤية ليلي الفنية استعارة لفهم تعقيد التجربة الإنسانية."
+      "feedback": "تصبح رؤية ليلي الفنية استعارة لفهم تعقيد التجربة الإنسانية.",
+      "id": "q_55d8db57850143bd00bf",
+      "legacyIds": [
+        "id_2d78f4c1",
+        "qid_46c2d1e2"
+      ],
+      "legacyPrimaryIds": [
+        "qid_46c2d1e2"
+      ]
     },
     {
       "q": "Why does the dinner scene symbolize unity in the novel?",
@@ -1068,7 +1880,15 @@
         "Because Mr. Ramsay leads the conversation"
       ],
       "correct": 1,
-      "feedback": "يجمع عشاء السيدة رامزي الناس معًا عاطفيًا، ولو لفترة وجيزة."
+      "feedback": "يجمع عشاء السيدة رامزي الناس معًا عاطفيًا، ولو لفترة وجيزة.",
+      "id": "q_64ff089a1ee65c663d45",
+      "legacyIds": [
+        "id_6d6472b0",
+        "qid_2ff0fae6"
+      ],
+      "legacyPrimaryIds": [
+        "qid_2ff0fae6"
+      ]
     },
     {
       "q": "What does the sea symbolize throughout the novel?",
@@ -1079,7 +1899,15 @@
         "Childhood innocence"
       ],
       "correct": 1,
-      "feedback": "يرمز البحر إلى الطبيعة الشاسعة والمتقلبة وغير القابلة للسيطرة للوجود."
+      "feedback": "يرمز البحر إلى الطبيعة الشاسعة والمتقلبة وغير القابلة للسيطرة للوجود.",
+      "id": "q_159333a439dac7f57401",
+      "legacyIds": [
+        "id_d0fb5fc",
+        "qid_305c26fa"
+      ],
+      "legacyPrimaryIds": [
+        "qid_305c26fa"
+      ]
     },
     {
       "q": "Why does Lily repeatedly call out 'Mrs. Ramsay! Mrs. Ramsay!' in Part III?",
@@ -1090,7 +1918,15 @@
         "Because she regrets not marrying"
       ],
       "correct": 1,
-      "feedback": "تشعر ليلي بألم الشوق لما مضى—وجود السيدة رامزي ووضوحها العاطفي."
+      "feedback": "تشعر ليلي بألم الشوق لما مضى—وجود السيدة رامزي ووضوحها العاطفي.",
+      "id": "q_368bf779d0c4a7d81eb5",
+      "legacyIds": [
+        "id_5a06b962",
+        "qid_12f7e364"
+      ],
+      "legacyPrimaryIds": [
+        "qid_12f7e364"
+      ]
     },
     {
       "q": "Why does Lily finally stop longing for Mrs. Ramsay?",
@@ -1101,7 +1937,15 @@
         "Because Cam explains her death"
       ],
       "correct": 1,
-      "feedback": "تدرك ليلي أن معنى السيدة رامزي منسوج في الحياة، ولا يعتمد على الوجود المادي."
+      "feedback": "تدرك ليلي أن معنى السيدة رامزي منسوج في الحياة، ولا يعتمد على الوجود المادي.",
+      "id": "q_b85c3d77bc38f0aacb64",
+      "legacyIds": [
+        "id_633426ba",
+        "qid_6131747d"
+      ],
+      "legacyPrimaryIds": [
+        "qid_6131747d"
+      ]
     },
     {
       "q": "Why does Cam feel that the island becomes 'small and distant' during the boat trip?",
@@ -1112,7 +1956,15 @@
         "Because James tells her so"
       ],
       "correct": 1,
-      "feedback": "يرمز تقلص حجم الجزيرة إلى تقلص أهمية المخاوف والصراعات الماضية."
+      "feedback": "يرمز تقلص حجم الجزيرة إلى تقلص أهمية المخاوف والصراعات الماضية.",
+      "id": "q_f851dc612d515832640e",
+      "legacyIds": [
+        "id_79619874",
+        "qid_562b4906"
+      ],
+      "legacyPrimaryIds": [
+        "qid_562b4906"
+      ]
     },
     {
       "q": "What does the transformation of the house in 'Time Passes' symbolize?",
@@ -1123,7 +1975,15 @@
         "The triumph of human memory"
       ],
       "correct": 2,
-      "feedback": "تستمر الطبيعة دون اهتمام بالمعاناة البشرية أو الحرب أو الموت."
+      "feedback": "تستمر الطبيعة دون اهتمام بالمعاناة البشرية أو الحرب أو الموت.",
+      "id": "q_2479ba47e44beb482843",
+      "legacyIds": [
+        "id_1ed527a8",
+        "qid_6fdd4627"
+      ],
+      "legacyPrimaryIds": [
+        "qid_6fdd4627"
+      ]
     },
     {
       "q": "Why does the novel emphasize the theme of memory?",
@@ -1134,7 +1994,15 @@
         "Because the story is told backward"
       ],
       "correct": 1,
-      "feedback": "تصبح الذاكرة العدسة التي من خلالها تفهم الشخصيات نفسها والآخرين."
+      "feedback": "تصبح الذاكرة العدسة التي من خلالها تفهم الشخصيات نفسها والآخرين.",
+      "id": "q_9e5a24d07aaf6f39d6b5",
+      "legacyIds": [
+        "id_6c87ca48",
+        "qid_3734525"
+      ],
+      "legacyPrimaryIds": [
+        "qid_3734525"
+      ]
     },
     {
       "q": "Why does James feel satisfied when he finally sees the lighthouse up close?",
@@ -1145,7 +2013,15 @@
         "Because his father praises him"
       ],
       "correct": 1,
-      "feedback": "يدرك جيمس أن كلاً من المنارة المثالية والواقعية حقيقيتان."
+      "feedback": "يدرك جيمس أن كلاً من المنارة المثالية والواقعية حقيقيتان.",
+      "id": "q_7b76c09f82295013e5fb",
+      "legacyIds": [
+        "id_1095f036",
+        "qid_469724f2"
+      ],
+      "legacyPrimaryIds": [
+        "qid_469724f2"
+      ]
     },
     {
       "q": "Why does Lily believe that distance is essential for understanding people?",
@@ -1156,7 +2032,15 @@
         "Because she fears intimacy"
       ],
       "correct": 1,
-      "feedback": "تسمح المسافة لليلي برؤية عائلة رامزي بوضوح، دون تشويه عاطفي."
+      "feedback": "تسمح المسافة لليلي برؤية عائلة رامزي بوضوح، دون تشويه عاطفي.",
+      "id": "q_7c048fe9bea587f3c758",
+      "legacyIds": [
+        "id_22cf30da",
+        "qid_28886e1a"
+      ],
+      "legacyPrimaryIds": [
+        "qid_28886e1a"
+      ]
     },
     {
       "q": "Why does the novel portray men and women as fundamentally different?",
@@ -1167,7 +2051,15 @@
         "To justify Mrs. Ramsay’s choices"
       ],
       "correct": 1,
-      "feedback": "تقارن وولف بين المنطق الذكوري والحدس العاطفي الأنثوي."
+      "feedback": "تقارن وولف بين المنطق الذكوري والحدس العاطفي الأنثوي.",
+      "id": "q_fdeb14ffbf4846adc14d",
+      "legacyIds": [
+        "id_4e293ffe",
+        "qid_1bfcf20c"
+      ],
+      "legacyPrimaryIds": [
+        "qid_1bfcf20c"
+      ]
     },
     {
       "q": "Why does Mr. Ramsay’s grief appear as a 'black-winged harpy' to James?",
@@ -1178,7 +2070,15 @@
         "Because Cam describes it that way"
       ],
       "correct": 1,
-      "feedback": "يرى جيمس الحزن كقوة مفترسة تطغى على والده."
+      "feedback": "يرى جيمس الحزن كقوة مفترسة تطغى على والده.",
+      "id": "q_2a3afc0c05b5091ef9ed",
+      "legacyIds": [
+        "id_4fc67044",
+        "qid_32f2c7c4"
+      ],
+      "legacyPrimaryIds": [
+        "qid_32f2c7c4"
+      ]
     },
     {
       "q": "Why does Lily feel that Carmichael’s poetry success is symbolic?",
@@ -1189,7 +2089,15 @@
         "Because Lily envies him"
       ],
       "correct": 1,
-      "feedback": "يعكس نجاح كارمايكل جوع المجتمع المتجدد للمعنى بعد الحرب."
+      "feedback": "يعكس نجاح كارمايكل جوع المجتمع المتجدد للمعنى بعد الحرب.",
+      "id": "q_9af73c0bac2157c28895",
+      "legacyIds": [
+        "id_24f6d29a",
+        "qid_45b33f2"
+      ],
+      "legacyPrimaryIds": [
+        "qid_45b33f2"
+      ]
     },
     {
       "q": "Why does the novel repeatedly return to the theme of loss?",
@@ -1200,7 +2108,15 @@
         "To justify the characters’ actions"
       ],
       "correct": 1,
-      "feedback": "يصبح الفقد هو المحفز للنمو والرؤية والوضوح العاطفي."
+      "feedback": "يصبح الفقد هو المحفز للنمو والرؤية والوضوح العاطفي.",
+      "id": "q_1be60d8236af88facf0f",
+      "legacyIds": [
+        "id_18699ea6",
+        "qid_376d95e5"
+      ],
+      "legacyPrimaryIds": [
+        "qid_376d95e5"
+      ]
     },
     {
       "q": "Why does Lily feel that the painting will be 'destroyed' but still meaningful?",
@@ -1211,7 +2127,15 @@
         "Because she wants to start over"
       ],
       "correct": 1,
-      "feedback": "تدرك ليلي أن المعنى يأتي من الرؤية التي تحققت، وليس من بقاء اللوحة."
+      "feedback": "تدرك ليلي أن المعنى يأتي من الرؤية التي تحققت، وليس من بقاء اللوحة.",
+      "id": "q_5deaa4c6822f25a94f93",
+      "legacyIds": [
+        "id_1f6798b3",
+        "qid_7ac09579"
+      ],
+      "legacyPrimaryIds": [
+        "qid_7ac09579"
+      ]
     },
     {
       "q": "Why does the novel emphasize the theme of time?",
@@ -1222,7 +2146,15 @@
         "Because Woolf wanted a historical novel"
       ],
       "correct": 1,
-      "feedback": "يحول الزمن العلاقات والذكريات والفهم العاطفي."
+      "feedback": "يحول الزمن العلاقات والذكريات والفهم العاطفي.",
+      "id": "q_fdc041eae73f8dae655e",
+      "legacyIds": [
+        "id_2ffa5df8",
+        "qid_8a599cf"
+      ],
+      "legacyPrimaryIds": [
+        "qid_8a599cf"
+      ]
     },
     {
       "q": "Why does Cam reinterpret her father as 'a lonely figure, marooned and pathetic'?",
@@ -1233,7 +2165,15 @@
         "Because she wants to impress Lily"
       ],
       "correct": 1,
-      "feedback": "ترى كام ضعف والدها بوضوح لأول مرة."
+      "feedback": "ترى كام ضعف والدها بوضوح لأول مرة.",
+      "id": "q_25176586f2ac038f023e",
+      "legacyIds": [
+        "id_30cf35c1",
+        "qid_5f899c5a"
+      ],
+      "legacyPrimaryIds": [
+        "qid_5f899c5a"
+      ]
     },
     {
       "q": "Why does Lily’s final brushstroke symbolize completion?",
@@ -1244,7 +2184,15 @@
         "Because she wants to leave the island"
       ],
       "correct": 1,
-      "feedback": "يمثل الخط الأخير رؤيتها الموحدة للحياة والذاكرة والحقيقة."
+      "feedback": "يمثل الخط الأخير رؤيتها الموحدة للحياة والذاكرة والحقيقة.",
+      "id": "q_204bcc7fea0acece800f",
+      "legacyIds": [
+        "id_734a3954",
+        "qid_11d1377a"
+      ],
+      "legacyPrimaryIds": [
+        "qid_11d1377a"
+      ]
     },
     {
       "q": "Why does the novel end with Lily saying, 'I have had my vision'?",
@@ -1255,7 +2203,15 @@
         "Because she finishes quickly"
       ],
       "correct": 1,
-      "feedback": "ترمز رؤية ليلي إلى توليف الذاكرة والفقد والفهم."
+      "feedback": "ترمز رؤية ليلي إلى توليف الذاكرة والفقد والفهم.",
+      "id": "q_e45704472afa49c17b5d",
+      "legacyIds": [
+        "id_59b0fee5",
+        "qid_5fb01377"
+      ],
+      "legacyPrimaryIds": [
+        "qid_5fb01377"
+      ]
     },
     {
       "q": "Why does Lily believe that 'nothing could be expressed in any language known to men' when thinking of Mrs. Ramsay?",
@@ -1266,7 +2222,15 @@
         "Because Mrs. Ramsay refused to talk"
       ],
       "correct": 1,
-      "feedback": "تشعر ليلي أن جوهر السيدة رامزي يتجاوز الكلمات—يمكن الشعور به فقط، لا قوله."
+      "feedback": "تشعر ليلي أن جوهر السيدة رامزي يتجاوز الكلمات—يمكن الشعور به فقط، لا قوله.",
+      "id": "q_0bec424b395663697ab1",
+      "legacyIds": [
+        "id_4d814ca2",
+        "qid_20b356b6"
+      ],
+      "legacyPrimaryIds": [
+        "qid_20b356b6"
+      ]
     },
     {
       "q": "Why does the novel portray truth as 'not singular'?",
@@ -1277,7 +2241,15 @@
         "Because the plot is fragmented"
       ],
       "correct": 1,
-      "feedback": "تُظهر وولف أن الحقيقة تُبنى من وجهات نظر ذاتية متعددة، وليس من وجهة نظر واحدة."
+      "feedback": "تُظهر وولف أن الحقيقة تُبنى من وجهات نظر ذاتية متعددة، وليس من وجهة نظر واحدة.",
+      "id": "q_05a09470b2394a5f8201",
+      "legacyIds": [
+        "id_2dc6f696",
+        "qid_33ebb19d"
+      ],
+      "legacyPrimaryIds": [
+        "qid_33ebb19d"
+      ]
     },
     {
       "q": "Why does James realize that 'nothing was simply one thing' when seeing the lighthouse?",
@@ -1288,7 +2260,15 @@
         "Because the lighthouse has changed shape"
       ],
       "correct": 1,
-      "feedback": "يتعلم جيمس أن الواقع يحتوي على أشكال مثالية وواقعية في نفس الوقت."
+      "feedback": "يتعلم جيمس أن الواقع يحتوي على أشكال مثالية وواقعية في نفس الوقت.",
+      "id": "q_75613e84d41ea2d95dac",
+      "legacyIds": [
+        "id_43a102da",
+        "qid_7e81d4db"
+      ],
+      "legacyPrimaryIds": [
+        "qid_7e81d4db"
+      ]
     },
     {
       "q": "Why does Lily feel that the Ramsays have become 'part of the nature of things' as she watches the sea?",
@@ -1299,7 +2279,15 @@
         "Because she wants to leave the island"
       ],
       "correct": 1,
-      "feedback": "ترى ليلي عائلة رامزي وقد استوعبها الإيقاع الأكبر للطبيعة والزمن."
+      "feedback": "ترى ليلي عائلة رامزي وقد استوعبها الإيقاع الأكبر للطبيعة والزمن.",
+      "id": "q_97252fc15ec5f430174d",
+      "legacyIds": [
+        "id_4f21344c",
+        "qid_701065f0"
+      ],
+      "legacyPrimaryIds": [
+        "qid_701065f0"
+      ]
     },
     {
       "q": "Why does Cam reinterpret her father as 'a man of sorrows'?",
@@ -1310,7 +2298,15 @@
         "Because he apologizes"
       ],
       "correct": 1,
-      "feedback": "تكشف المسافة عن ضعف السيد رامزي تحت سلطته."
+      "feedback": "تكشف المسافة عن ضعف السيد رامزي تحت سلطته.",
+      "id": "q_6c29b04ec41dd1c57e63",
+      "legacyIds": [
+        "id_287e070d",
+        "qid_76e310ef"
+      ],
+      "legacyPrimaryIds": [
+        "qid_76e310ef"
+      ]
     },
     {
       "q": "Why does Lily feel that Mrs. Ramsay’s shadow still influences her painting?",
@@ -1321,7 +2317,15 @@
         "Because the painting is a portrait of Mrs. Ramsay"
       ],
       "correct": 1,
-      "feedback": "تمثل السيدة رامزي المركز العاطفي الذي يجب على ليلي مواجهته."
+      "feedback": "تمثل السيدة رامزي المركز العاطفي الذي يجب على ليلي مواجهته.",
+      "id": "q_7ac7a23a540d2a124aa3",
+      "legacyIds": [
+        "id_5ba4936b",
+        "qid_67952a47"
+      ],
+      "legacyPrimaryIds": [
+        "qid_67952a47"
+      ]
     },
     {
       "q": "Why does Lily believe that art can 'unite the fragments' of life?",
@@ -1332,7 +2336,15 @@
         "Because Mrs. Ramsay told her so"
       ],
       "correct": 1,
-      "feedback": "يصبح الفن طريقة ليلي لفرض النظام على التجزئة العاطفية."
+      "feedback": "يصبح الفن طريقة ليلي لفرض النظام على التجزئة العاطفية.",
+      "id": "q_2b2692b8b7d71c053883",
+      "legacyIds": [
+        "id_61e26e3",
+        "qid_37e88954"
+      ],
+      "legacyPrimaryIds": [
+        "qid_37e88954"
+      ]
     },
     {
       "q": "Why does the novel repeatedly contrast permanence and impermanence?",
@@ -1343,7 +2355,15 @@
         "To emphasize war"
       ],
       "correct": 1,
-      "feedback": "تحافظ الذاكرة والفن على المعنى حتى مع فناء الحياة والأشياء."
+      "feedback": "تحافظ الذاكرة والفن على المعنى حتى مع فناء الحياة والأشياء.",
+      "id": "q_bb1b8ebf47e318abf20d",
+      "legacyIds": [
+        "id_538b5644",
+        "qid_5d935a19"
+      ],
+      "legacyPrimaryIds": [
+        "qid_5d935a19"
+      ]
     },
     {
       "q": "Why does Lily feel that the house in Part III is 'a stranger'?",
@@ -1354,7 +2374,15 @@
         "Because she wants to leave"
       ],
       "correct": 1,
-      "feedback": "بدون السيدة رامزي، يبدو المنزل فارغًا ومنفصلاً."
+      "feedback": "بدون السيدة رامزي، يبدو المنزل فارغًا ومنفصلاً.",
+      "id": "q_69813f4eb50b39f87b6c",
+      "legacyIds": [
+        "id_213b91e7",
+        "qid_4a1abbc"
+      ],
+      "legacyPrimaryIds": [
+        "qid_4a1abbc"
+      ]
     },
     {
       "q": "Why does Mr. Ramsay’s grief appear as a 'harpy' to James?",
@@ -1365,7 +2393,15 @@
         "Because Mr. Ramsay is cruel"
       ],
       "correct": 1,
-      "feedback": "يرى جيمس الحزن كقوة مفترسة تطغى على والده."
+      "feedback": "يرى جيمس الحزن كقوة مفترسة تطغى على والده.",
+      "id": "q_f56228b3763d8cf0d386",
+      "legacyIds": [
+        "id_72b55128",
+        "qid_1ba5fc2a"
+      ],
+      "legacyPrimaryIds": [
+        "qid_1ba5fc2a"
+      ]
     },
     {
       "q": "Why does Lily believe that understanding people requires 'the outline, not the detail'?",
@@ -1376,18 +2412,15 @@
         "Because Carmichael tells her so"
       ],
       "correct": 1,
-      "feedback": "تدرك ليلي أن الحقيقة العاطفية تكمن في الأنماط، وليس في التفاصيل."
-    },
-    {
-      "q": "Why does Cam feel that the sea is 'more important than the shore'?",
-      "options": [
-        "Because she loves the ocean",
-        "Because the sea represents the vastness and unpredictability of life",
-        "Because she wants to escape her father",
-        "Because she dislikes the house"
+      "feedback": "تدرك ليلي أن الحقيقة العاطفية تكمن في الأنماط، وليس في التفاصيل.",
+      "id": "q_e0fe18b143ce78e100a2",
+      "legacyIds": [
+        "id_4bd58099",
+        "qid_3df0c2f8"
       ],
-      "correct": 1,
-      "feedback": "يرمز البحر إلى القوى الهائلة التي تشكل التجربة الإنسانية."
+      "legacyPrimaryIds": [
+        "qid_3df0c2f8"
+      ]
     },
     {
       "q": "Why does Lily feel that Mrs. Ramsay’s death created a 'gap' that nothing could fill?",
@@ -1398,7 +2431,15 @@
         "Because Mr. Ramsay told her so"
       ],
       "correct": 1,
-      "feedback": "كان وجود السيدة رامزي يوحد العالم العاطفي للشخصيات."
+      "feedback": "كان وجود السيدة رامزي يوحد العالم العاطفي للشخصيات.",
+      "id": "q_3e1d2849e162c734fbc9",
+      "legacyIds": [
+        "id_75273ab",
+        "qid_62ec5ce5"
+      ],
+      "legacyPrimaryIds": [
+        "qid_62ec5ce5"
+      ]
     },
     {
       "q": "Why does James feel that reaching the lighthouse is a form of redemption?",
@@ -1409,7 +2450,15 @@
         "Because he wants to become a sailor"
       ],
       "correct": 1,
-      "feedback": "تصل رحلة الوصول إلى المنارة إلى شفاء صدمة رفض والده المبكر."
+      "feedback": "تصل رحلة الوصول إلى المنارة إلى شفاء صدمة رفض والده المبكر.",
+      "id": "q_6e975f231c700bbd767c",
+      "legacyIds": [
+        "id_5f4f3b0d",
+        "qid_7852782e"
+      ],
+      "legacyPrimaryIds": [
+        "qid_7852782e"
+      ]
     },
     {
       "q": "Why does Lily feel that the final line she draws 'connects past and present'?",
@@ -1420,7 +2469,15 @@
         "Because Carmichael suggests it"
       ],
       "correct": 1,
-      "feedback": "يرمز الخط إلى توليف الذاكرة والفقد والوضوح الفني."
+      "feedback": "يرمز الخط إلى توليف الذاكرة والفقد والوضوح الفني.",
+      "id": "q_e9bae25f5336d7b6da83",
+      "legacyIds": [
+        "id_2513f3e1",
+        "qid_9c1ab86"
+      ],
+      "legacyPrimaryIds": [
+        "qid_9c1ab86"
+      ]
     },
     {
       "q": "Why does the novel emphasize the theme of 'vision'?",
@@ -1431,7 +2488,15 @@
         "Because the lighthouse shines brightly"
       ],
       "correct": 1,
-      "feedback": "ترمز الرؤية إلى البصيرة—العاطفية والفلسفية والفنية."
+      "feedback": "ترمز الرؤية إلى البصيرة—العاطفية والفلسفية والفنية.",
+      "id": "q_c16474ae77e0682bca36",
+      "legacyIds": [
+        "id_3cf6d532",
+        "qid_65c123bc"
+      ],
+      "legacyPrimaryIds": [
+        "qid_65c123bc"
+      ]
     },
     {
       "q": "Why does Lily feel that Mrs. Ramsay’s influence is 'woven into the fabric of life'?",
@@ -1442,7 +2507,15 @@
         "Because Cam imitates her"
       ],
       "correct": 1,
-      "feedback": "يستمر إرث السيدة رامزي من خلال الذاكرة والبنية العاطفية."
+      "feedback": "يستمر إرث السيدة رامزي من خلال الذاكرة والبنية العاطفية.",
+      "id": "q_f43ca15d8fcaa0b3a6d6",
+      "legacyIds": [
+        "id_2222a813",
+        "qid_2c1d05c3"
+      ],
+      "legacyPrimaryIds": [
+        "qid_2c1d05c3"
+      ]
     },
     {
       "q": "Why does the novel portray life as both beautiful and terrifying?",
@@ -1453,7 +2526,15 @@
         "To emphasize war"
       ],
       "correct": 1,
-      "feedback": "تُظهر وولف أن الحياة تحتوي على الانسجام والفوضى في نفس الوقت."
+      "feedback": "تُظهر وولف أن الحياة تحتوي على الانسجام والفوضى في نفس الوقت.",
+      "id": "q_0e694c1dc881680a1c8d",
+      "legacyIds": [
+        "id_67fe7f8d",
+        "qid_7ad9e38c"
+      ],
+      "legacyPrimaryIds": [
+        "qid_7ad9e38c"
+      ]
     },
     {
       "q": "Why does Lily feel that she finally 'has her vision'?",
@@ -1464,7 +2545,15 @@
         "Because Cam helps her"
       ],
       "correct": 1,
-      "feedback": "ترمز رؤية ليلي إلى اللحظة التي يكتمل فيها الفهم."
+      "feedback": "ترمز رؤية ليلي إلى اللحظة التي يكتمل فيها الفهم.",
+      "id": "q_3417f372c789038f6bbe",
+      "legacyIds": [
+        "id_1b7c6f7c",
+        "qid_205329bb"
+      ],
+      "legacyPrimaryIds": [
+        "qid_205329bb"
+      ]
     },
     {
       "q": "Why does the novel end with the simultaneous completion of the painting and the arrival at the lighthouse?",
@@ -1475,7 +2564,15 @@
         "To conclude the plot neatly"
       ],
       "correct": 1,
-      "feedback": "تصل كلتا الرحلتين إلى الوضوح في نفس اللحظة—حيث يتقارب الفن والحياة."
+      "feedback": "تصل كلتا الرحلتين إلى الوضوح في نفس اللحظة—حيث يتقارب الفن والحياة.",
+      "id": "q_d29df7d47c23390c803d",
+      "legacyIds": [
+        "id_58a37204",
+        "qid_b9e2f23"
+      ],
+      "legacyPrimaryIds": [
+        "qid_b9e2f23"
+      ]
     }
   ]
 }

@@ -3,7 +3,8 @@
    ========================================== */
 const USE_LOCAL_TEST_FILE = false;
 const VALID_YEARS = ["First Year", "Second Year", "Third Year", "Fourth Year"];
-const PROGRESS_SCHEMA_VERSION = 2;
+const PROGRESS_SCHEMA_VERSION = 3;
+const LEGACY_PROGRESS_TIMESTAMP = "1970-01-01T00:00:00.000Z";
 const SCORE_CHECKPOINT_SIZE = 50;
 const YEAR_DATA_KEY_PREFIX = "year_data_";
 const YEAR_META_KEY_PREFIX = "year_meta_";
@@ -98,6 +99,7 @@ function ensureStableQuestionIds(questions) {
     const questionFingerprint =
       normaliseQuestionText(question.q) ||
       normaliseQuestionText((question.options || []).join("|"));
+    const previousGeneratedId = `qid_${simpleHash(questionFingerprint)}`;
     const baseId =
       suppliedId && !looksLikeOldGeneratedId
         ? suppliedId
@@ -111,10 +113,24 @@ function ensureStableQuestionIds(questions) {
       stableId,
       baseId,
       suppliedId,
+      previousGeneratedId,
       legacyQuestionId(question),
+      ...(Array.isArray(question.legacyIds) ? question.legacyIds : []),
     ]);
     aliases.delete("");
     question.id = stableId;
+    const primaryAliases = new Set(
+      Array.isArray(question.legacyPrimaryIds)
+        ? question.legacyPrimaryIds.map(String)
+        : [],
+    );
+    primaryAliases.delete("");
+    primaryAliases.delete(stableId);
+    defineHiddenValue(
+      question,
+      "_primaryProgressAliases",
+      [...primaryAliases],
+    );
     defineHiddenValue(question, "_progressAliases", [...aliases]);
   });
 
@@ -141,8 +157,19 @@ function getProgressKey(subjectId, selectedMode) {
 
 function buildQuestionLookup(questions) {
   const lookup = new Map();
+  // Canonical IDs always win. Exact IDs imported from the immediately
+  // previous release come second, before heuristic text-based aliases. This
+  // prevents an identical earlier question from stealing another question's
+  // old qid_* identifier.
   questions.forEach((question) => {
     lookup.set(String(question.id), question.id);
+  });
+  questions.forEach((question) => {
+    (question._primaryProgressAliases || []).forEach((alias) => {
+      if (!lookup.has(String(alias))) lookup.set(String(alias), question.id);
+    });
+  });
+  questions.forEach((question) => {
     (question._progressAliases || []).forEach((alias) => {
       if (!lookup.has(String(alias))) lookup.set(String(alias), question.id);
     });
@@ -202,6 +229,8 @@ function readSubjectProgress(subject, selectedMode) {
       questionOrder: sourceIds,
       lastQuestionId: sourceIds[0] || null,
       index: 0,
+      updatedAt: null,
+      resetAt: null,
     };
   }
 
@@ -222,7 +251,20 @@ function readSubjectProgress(subject, selectedMode) {
       Object.entries(rawAnswers).forEach(([savedId, answer]) => {
         const currentId = mapSavedQuestionId(savedId, lookup);
         if (!currentId || answer === undefined || answer === null) return;
-        answers[currentId] = answer;
+        const existing = answers[currentId];
+        const existingTimestamp =
+          existing && typeof existing === "object"
+            ? cloudTimestamp(existing.updatedAt)
+            : 0;
+        const answerTimestamp =
+          answer && typeof answer === "object"
+            ? cloudTimestamp(answer.updatedAt)
+            : 0;
+        // Deduplication can map several historical question IDs to one
+        // canonical question. Preserve the most recently answered copy.
+        if (existing === undefined || answerTimestamp >= existingTimestamp) {
+          answers[currentId] = answer;
+        }
         if (!knownLegacyOrder.includes(currentId))
           knownLegacyOrder.push(currentId);
       });
@@ -275,6 +317,8 @@ function readSubjectProgress(subject, selectedMode) {
       questionOrder: savedOrder,
       lastQuestionId,
       index: Math.max(savedOrder.indexOf(lastQuestionId), 0),
+      updatedAt: parsed.updatedAt || null,
+      resetAt: parsed.resetAt || null,
     };
   } catch (error) {
     console.warn("Could not read saved progress:", error);
@@ -284,27 +328,94 @@ function readSubjectProgress(subject, selectedMode) {
       questionOrder: sourceIds,
       lastQuestionId: sourceIds[0] || null,
       index: 0,
+      updatedAt: null,
+      resetAt: null,
     };
   }
 }
 
-function writeSubjectProgress(subject, selectedMode, progress) {
+function writeSubjectProgress(subject, selectedMode, progress, options = {}) {
   const questions = getSubjectSourceQuestions(subject);
   const questionById = new Map(
     questions.map((question) => [question.id, question]),
   );
+  const progressKey = getProgressKey(subject.id, selectedMode);
+  const now = options.now || new Date().toISOString();
+  let previousPayload = null;
+  try {
+    previousPayload = JSON.parse(localStorage.getItem(progressKey) || "null");
+  } catch (error) {
+    previousPayload = null;
+  }
+  const preserveTimestamp = options.preserveTimestamp === true;
+  const preservedRecordTimestamp =
+    progress.updatedAt ||
+    previousPayload?.updatedAt ||
+    LEGACY_PROGRESS_TIMESTAMP;
   const encodedAnswers = {};
+
+  const sameAnswer = (first, second) => {
+    if (!first || !second || typeof first !== "object" || typeof second !== "object") {
+      return first === second;
+    }
+    if (
+      first.selectedOption !== undefined &&
+      second.selectedOption !== undefined
+    ) {
+      return first.selectedOption === second.selectedOption;
+    }
+    return Number(first.selectedIndex) === Number(second.selectedIndex);
+  };
 
   Object.entries(progress.answers || {}).forEach(([questionId, answer]) => {
     const question = questionById.get(questionId);
     if (!question || answer === undefined || answer === null) return;
-    encodedAnswers[questionId] =
-      typeof answer === "object" ? answer : encodeAnswer(question, answer);
+    const encoded =
+      typeof answer === "object" ? { ...answer } : encodeAnswer(question, answer);
+    const previousAnswer = previousPayload?.answers?.[questionId];
+    if (preserveTimestamp) {
+      encoded.updatedAt =
+        encoded.updatedAt ||
+        previousAnswer?.updatedAt ||
+        preservedRecordTimestamp;
+    } else {
+      encoded.updatedAt =
+        encoded.updatedAt ||
+        (sameAnswer(encoded, previousAnswer)
+          ? previousAnswer?.updatedAt || previousPayload?.updatedAt || now
+          : now);
+    }
+    encodedAnswers[questionId] = encoded;
   });
+
+  const updatedAt = preserveTimestamp
+    ? preservedRecordTimestamp
+    : options.updatedAt || now;
+
+  const progressDeletion =
+    typeof getCloudTombstones === "function"
+      ? getCloudTombstones()?.progress?.[progressKey]
+      : null;
+  const resetCandidates = [
+    progress.resetAt,
+    previousPayload?.resetAt,
+    progressDeletion,
+  ].filter(Boolean);
+  const resetAt = resetCandidates.reduce((latest, candidate) =>
+    cloudTimestamp(candidate) > cloudTimestamp(latest) ? candidate : latest,
+  null);
+  const normalisedResetAt =
+    resetAt && typeof resetAt === "object"
+      ? resetAt.deletedAt || resetAt.updatedAt || resetAt.at || null
+      : resetAt;
 
   const payload = {
     schemaVersion: PROGRESS_SCHEMA_VERSION,
-    updatedAt: new Date().toISOString(),
+    updatedAt,
+    // A pending whole-record tombstone is also a reset boundary. If the
+    // student starts again before that deletion reaches the server, answers
+    // older than this boundary cannot be resurrected during the merge.
+    resetAt: normalisedResetAt || null,
     lastQuestionId: progress.lastQuestionId || null,
     index: Math.max(Number(progress.index) || 0, 0),
     answers: encodedAnswers,
@@ -313,10 +424,7 @@ function writeSubjectProgress(subject, selectedMode, progress) {
     ],
   };
 
-  localStorage.setItem(
-    getProgressKey(subject.id, selectedMode),
-    JSON.stringify(payload),
-  );
+  localStorage.setItem(progressKey, JSON.stringify(payload));
   return payload;
 }
 
@@ -352,7 +460,9 @@ function restoreCurrentSubjectProgress(preferredQuestionId = null) {
 function upgradeStoredProgress(subject, selectedMode) {
   const progress = readSubjectProgress(subject, selectedMode);
   if (!progress.exists) return;
-  writeSubjectProgress(subject, selectedMode, progress);
+  writeSubjectProgress(subject, selectedMode, progress, {
+    preserveTimestamp: true,
+  });
 }
 
 function saveDetailedProgress() {
@@ -802,6 +912,7 @@ function performSearch(
         (q) => q.id === result.question.id,
       );
       if (currentIndex === -1) currentIndex = 0;
+      saveDetailedProgress();
       renderStep();
     };
     btn.addEventListener("click", openResult);
@@ -929,17 +1040,23 @@ function renderStep() {
   if (!currentSubject) return;
 
   const lang = currentSubject.lang || "en";
-  document.documentElement.setAttribute("lang", lang);
-  document.documentElement.setAttribute("dir", "ltr");
+  const contentDirection = lang === "ar" ? "rtl" : "ltr";
+  document.documentElement.setAttribute("lang", "ar");
+  document.documentElement.setAttribute("dir", "rtl");
 
   const quizScreen = document.getElementById("quiz-screen");
   const studyScreen = document.getElementById("study-screen");
-  if (quizScreen) quizScreen.setAttribute("dir", "ltr");
-  if (studyScreen) studyScreen.setAttribute("dir", "ltr");
+  if (quizScreen) quizScreen.setAttribute("dir", contentDirection);
+  if (studyScreen) studyScreen.setAttribute("dir", contentDirection);
+  ["question-text", "study-question", "study-answer"].forEach((id) => {
+    const element = document.getElementById(id);
+    if (!element) return;
+    element.setAttribute("lang", lang);
+    element.setAttribute("dir", "auto");
+  });
 
   updateProgress();
   displayNotes();
-  saveDetailedProgress();
 
   const studyArea = document.getElementById("study-displayArea");
   const quizArea = document.getElementById("quiz-displayArea");
@@ -1114,7 +1231,11 @@ function showFeedbackMessage(qData, selectedIndex) {
         ? `الإجابة الصحيحة هي: ${qData.options[qData.correct]}`
         : `Correct answer: ${qData.options[qData.correct]}`);
 
-  feedbackBox.innerHTML = `<strong>${title}</strong><br><span>${explanation}</span>`;
+  const heading = document.createElement("strong");
+  const details = document.createElement("span");
+  heading.textContent = title;
+  details.textContent = explanation;
+  feedbackBox.replaceChildren(heading, document.createElement("br"), details);
 }
 
 /* ==========================================
@@ -1188,9 +1309,10 @@ function displayNotes() {
 function playFullSentence(text) {
   if (!text) return;
   const cleanText = text.replace(/["']/g, "");
-  const url = `https://translate.google.com/translate_tts?ie=UTF-8&q=${encodeURIComponent(cleanText)}&tl=en&client=tw-ob`;
+  const language = currentSubject?.lang || "en";
+  const url = `https://translate.google.com/translate_tts?ie=UTF-8&q=${encodeURIComponent(cleanText)}&tl=${encodeURIComponent(language)}&client=tw-ob`;
   const audio = new Audio(url);
-  audio.rate = parseFloat(currentSpeed || 0.8);
+  audio.playbackRate = parseFloat(currentSpeed || 0.8);
   audio.play().catch((e) => console.error("Playback error:", e));
 }
 
@@ -1203,6 +1325,12 @@ async function analyzeCurrentQuestion(currentMode) {
 
   if (!displayArea) return;
 
+  if (!navigator.onLine) {
+    displayArea.textContent =
+      "تحليل النطق يحتاج إلى اتصال بالإنترنت؛ بقية المادة متاحة دون اتصال.";
+    return;
+  }
+
   displayArea.innerHTML =
     '<div style="text-align:center; padding:20px; color:var(--primary);">جاري معالجة النطق المتصل...</div>';
 
@@ -1212,7 +1340,7 @@ async function analyzeCurrentQuestion(currentMode) {
   let ipaParts = [];
 
   for (let word of words) {
-    const clean = word.replace(/[^\w]/g, "");
+    const clean = word.replace(/[^\p{L}\p{M}'’-]/gu, "");
     if (clean) {
       try {
         const params = new URLSearchParams({
@@ -1248,9 +1376,9 @@ async function analyzeCurrentQuestion(currentMode) {
         <div class="word-pill" style="display: block; text-align: left; direction: ltr;">
             <div style="margin-bottom: 15px;">
                 <span style="font-size: 0.7rem; color: var(--accent); font-weight: 800; text-transform: uppercase;">Full Sentence Flow</span>
-                <h3 style="margin: 5px 0; line-height: 1.4; color: #bf8686;">${text}</h3>
+                <h3 style="margin: 5px 0; line-height: 1.4; color: #bf8686;">${escapeCardHTML(text)}</h3>
                 <div class="ipa" style="color: #6366f1; font-size: 1.1rem; margin-top: 10px; background: rgba(99,102,241,0.1); padding: 8px; border-radius: 8px; border-left: 3px solid var(--primary);">
-                    ${fullIpa}
+                    ${escapeCardHTML(fullIpa)}
                 </div>
             </div>
         </div>
@@ -1266,8 +1394,20 @@ function toggleFlip() {
 }
 
 function nextQuestion() {
+  if (
+    mode === "quiz" &&
+    (userAnswers[currentIndex] === undefined || userAnswers[currentIndex] === null)
+  ) {
+    const feedbackBox = document.getElementById("quiz-feedback");
+    if (feedbackBox) {
+      feedbackBox.textContent = "اختر إجابة أولاً قبل الانتقال إلى السؤال التالي.";
+      feedbackBox.classList.remove("hidden");
+    }
+    return;
+  }
   if (currentIndex < currentSubject.questions.length - 1) {
     currentIndex++;
+    saveDetailedProgress();
     renderStep();
   } else {
     showResults();
@@ -1277,6 +1417,7 @@ function nextQuestion() {
 function prevQuestion() {
   if (currentIndex > 0) {
     currentIndex--;
+    saveDetailedProgress();
     renderStep();
   }
 }
@@ -1628,9 +1769,9 @@ document.addEventListener("DOMContentLoaded", () => {
     dictionaryLoadPromise = (async () => {
       for (const path of localDictionaryPaths) {
         try {
-          const response = await fetch(
-            `${path}${path.includes("?") ? "&" : "?"}t=${Date.now()}`,
-          );
+          const response = await fetch(path, {
+            cache: navigator.onLine ? "no-cache" : "default",
+          });
           if (!response.ok) continue;
 
           const data = await response.json();
@@ -1759,7 +1900,10 @@ document.addEventListener("DOMContentLoaded", () => {
     if (trimmedUrl.startsWith("//")) return `https:${trimmedUrl}`;
 
     try {
-      return new URL(trimmedUrl, window.location.href).href;
+      const parsedUrl = new URL(trimmedUrl, window.location.href);
+      return ["http:", "https:"].includes(parsedUrl.protocol)
+        ? parsedUrl.href
+        : "";
     } catch (error) {
       return "";
     }
@@ -2721,6 +2865,7 @@ function watchYearDownloadCompletion() {
 }
 
 function bindYearUpdateNotifications() {
+  if (window.UNIQUIZ_V12_ENABLED) return;
   const yearsContainer = document.getElementById("years-container");
   if (yearsContainer) {
     new MutationObserver(refreshYearUpdateControls).observe(yearsContainer, {
@@ -2952,6 +3097,9 @@ function collectLocalCloudData() {
 }
 
 function cloudTimestamp(value) {
+  if (value && typeof value === "object") {
+    value = value.deletedAt || value.updatedAt || value.at || "";
+  }
   const timestamp = Date.parse(value || "");
   return Number.isFinite(timestamp) ? timestamp : 0;
 }
@@ -3796,6 +3944,7 @@ async function performAutomaticDailyUpdate(force = false) {
 }
 
 function bindAutomaticDailyUpdates() {
+  if (window.UNIQUIZ_V12_ENABLED) return;
   if ("serviceWorker" in navigator && location.protocol !== "file:") {
     let hadController = Boolean(navigator.serviceWorker.controller);
     navigator.serviceWorker.addEventListener("controllerchange", () => {

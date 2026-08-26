@@ -12,30 +12,94 @@
         "all"
       ],
       "correct": 0,
-      "feedback": "الإجابة الصحيحة هي 'the poet's life'. وفقاً للمصدر، يتطلب المنهج التاريخي القديم (Old Historical approach) دراسة حياة المؤلف وعصره لتحليل العمل الأدبي [1]."
+      "feedback": "الإجابة الصحيحة هي 'the poet's life'. وفقاً للمصدر، يتطلب المنهج التاريخي القديم (Old Historical approach) دراسة حياة المؤلف وعصره لتحليل العمل الأدبي [1].",
+      "id": "q_72c3289b95f39a759de6",
+      "legacyIds": [
+        "id_27da9e31",
+        "qid_cf4bbe2"
+      ],
+      "legacyPrimaryIds": [
+        "qid_cf4bbe2"
+      ]
     },
     {
       "q": "The main focus of Formalism is on ....",
       "options": [
         "the poet's life",
-        "the context of the poem",
+        "the text/form of the poem",
         "the reader",
         "all"
       ],
       "correct": 1,
-      "feedback": "تشير الأوراق الذهبية إلى أن الشكلانية (Formalism) تركز على النص نفسه (the text itself) بغض النظر عن المؤلف أو العصر [1]. في خيارات الامتحان، تم تظليل 'context of the poem' كإشارة إلى السياق الداخلي للنص بدلاً من السياق التاريخي الخارجي [2]."
+      "feedback": "Formalism/New Criticism studies the literary text's form and internal relations rather than biography or reader response.",
+      "id": "q_f004adf2a7541b751fba",
+      "legacyIds": [
+        "id_35c3b66e",
+        "qid_692eaae0"
+      ],
+      "legacyPrimaryIds": [
+        "qid_692eaae0"
+      ]
     },
     {
       "q": "..........attempt to discover the code or codes underlying particular kinds of 'message'.",
-      "options": ["Structuralists", "Formalists", "New Critics", "none"],
+      "options": [
+        "Structuralists",
+        "Formalists",
+        "New Critics",
+        "none"
+      ],
       "correct": 0,
-      "feedback": "الإجابة الصحيحة هي 'Structuralists'. يذكر المصدر أن البنيويين يحللون 'الشيفرة' (code) التي تكمن وراء الرسائل أو النصوص [10، 62]."
+      "feedback": "الإجابة الصحيحة هي 'Structuralists'. يذكر المصدر أن البنيويين يحللون 'الشيفرة' (code) التي تكمن وراء الرسائل أو النصوص [10، 62].",
+      "id": "q_b32ae8162d4fe142c636",
+      "legacyIds": [
+        "id_21f5f4b9",
+        "id_42abb9fa",
+        "id_53bd8b68",
+        "id_6ee6cfdd",
+        "id_6ff0f846",
+        "q_19bb7e0ebe19dcf6a560",
+        "q_57fc4487cf0a785cba92",
+        "q_593f5edae1948852b614",
+        "q_966c11a10d8a6c5d137e",
+        "q_a8629014468c1b382eb6",
+        "qid_206b3dcf",
+        "qid_206b3dcf__2",
+        "qid_54ff7e5c",
+        "qid_5b329ece",
+        "qid_777f4b8f",
+        "qid_77dcf421"
+      ],
+      "legacyPrimaryIds": [
+        "q_19bb7e0ebe19dcf6a560",
+        "q_57fc4487cf0a785cba92",
+        "q_593f5edae1948852b614",
+        "q_966c11a10d8a6c5d137e",
+        "q_a8629014468c1b382eb6",
+        "qid_206b3dcf",
+        "qid_206b3dcf__2",
+        "qid_54ff7e5c",
+        "qid_5b329ece",
+        "qid_777f4b8f",
+        "qid_77dcf421"
+      ]
     },
     {
       "q": "New Historicism suggests that history is objective and should not be questioned.",
-      "options": ["True", "False"],
+      "options": [
+        "True",
+        "False"
+      ],
       "correct": 1,
-      "feedback": "الإجابة هي 'False'. التاريخانية الجديدة (New Historicism) ترى أن المعنى منغمس في الثقافة وأن جميع مجالات الحياة تؤثر على تفسير الأدب، مما يجعله غير موضوعي بالكامل [9، 111]."
+      "feedback": "الإجابة هي 'False'. التاريخانية الجديدة (New Historicism) ترى أن المعنى منغمس في الثقافة وأن جميع مجالات الحياة تؤثر على تفسير الأدب، مما يجعله غير موضوعي بالكامل [9، 111].",
+      "id": "q_990a1ffe2cb5b8bbbadc",
+      "legacyIds": [
+        "id_56df07f4",
+        "qid_664a2f0"
+      ],
+      "legacyPrimaryIds": [
+        "qid_664a2f0"
+      ]
     },
     {
       "q": "The essential principles of the moral and physical world order are incorporated in what Plato calls......",
@@ -46,37 +110,152 @@
         "the Essential Form of Goodness"
       ],
       "correct": 3,
-      "feedback": "الإجابة هي 'the Essential Form of Goodness'. يوضح أفلاطون أن هذا العالم الإلهي هو مصدر جميع المفاهيم والأفكار [3]."
+      "feedback": "الإجابة هي 'the Essential Form of Goodness'. يوضح أفلاطون أن هذا العالم الإلهي هو مصدر جميع المفاهيم والأفكار [3].",
+      "id": "q_d9b15cec9fc97007f13d",
+      "legacyIds": [
+        "id_24ca782f",
+        "id_3bf0c9bf",
+        "id_59fcbbd1",
+        "id_641f2bdf",
+        "id_99f2789",
+        "q_2e0971ae1ef30ea43f64",
+        "q_782a22a8fe1ebd362467",
+        "q_90bd4bf67feb33ef2d96",
+        "q_b570b04bad4d35178894",
+        "q_ef0073c28f034ba42e4b",
+        "qid_2759529f",
+        "qid_2759529f__2",
+        "qid_3c2efe91",
+        "qid_573de161",
+        "qid_63c02007",
+        "qid_6a15e491"
+      ],
+      "legacyPrimaryIds": [
+        "q_2e0971ae1ef30ea43f64",
+        "q_782a22a8fe1ebd362467",
+        "q_90bd4bf67feb33ef2d96",
+        "q_b570b04bad4d35178894",
+        "q_ef0073c28f034ba42e4b",
+        "qid_2759529f",
+        "qid_2759529f__2",
+        "qid_3c2efe91",
+        "qid_573de161",
+        "qid_63c02007",
+        "qid_6a15e491"
+      ]
     },
     {
       "q": "Aristotle's Poetics attempts in part to provide a/an ........ account of tragedy.",
-      "options": ["literary", "political", "scientific", "academic"],
+      "options": [
+        "literary",
+        "political",
+        "scientific",
+        "academic"
+      ],
       "correct": 2,
-      "feedback": "الإجابة هي 'scientific'. يشير النص إلى أن كتاب 'فن الشعر' لأرسطو يقدم تقريراً علمياً (scientific account) عن التراجيديا [4]."
+      "feedback": "الإجابة هي 'scientific'. يشير النص إلى أن كتاب 'فن الشعر' لأرسطو يقدم تقريراً علمياً (scientific account) عن التراجيديا [4].",
+      "id": "q_90622f9ab2a59421e3dd",
+      "legacyIds": [
+        "id_17d90ba9",
+        "id_7c219b6e",
+        "q_793ee88ffbc89ef24684",
+        "qid_108f0af7",
+        "qid_1dab58d7"
+      ],
+      "legacyPrimaryIds": [
+        "q_793ee88ffbc89ef24684",
+        "qid_108f0af7",
+        "qid_1dab58d7"
+      ]
     },
     {
       "q": "To Aristotle, the objects the imitator represents are ......",
-      "options": ["images", "actions", "people", "men"],
+      "options": [
+        "images",
+        "actions",
+        "people",
+        "men"
+      ],
       "correct": 1,
-      "feedback": "الإجابة هي 'actions'. يرى أرسطو أن التراجيديا هي محاكاة لفعل (imitation of an action) [31، 57]."
+      "feedback": "الإجابة هي 'actions'. يرى أرسطو أن التراجيديا هي محاكاة لفعل (imitation of an action) [31، 57].",
+      "id": "q_780eb281272b71c54f50",
+      "legacyIds": [
+        "id_2c25569b",
+        "id_341c27bc",
+        "id_7dc28b59",
+        "id_bb5f622",
+        "q_5cd31773438ec6b42fc2",
+        "q_8f86ee47050a673e9a92",
+        "q_d32f1e2754e943c07d19",
+        "qid_3eafe336",
+        "qid_54d60aaa",
+        "qid_9c6e964",
+        "qid_edc3ab2"
+      ],
+      "legacyPrimaryIds": [
+        "q_5cd31773438ec6b42fc2",
+        "q_8f86ee47050a673e9a92",
+        "q_d32f1e2754e943c07d19",
+        "qid_3eafe336",
+        "qid_54d60aaa",
+        "qid_9c6e964",
+        "qid_edc3ab2"
+      ]
     },
     {
       "q": "The idea of the wholeness of a work of art goes back to .....",
-      "options": ["Dennis", "Longinus", "Coleridge", "Plato"],
+      "options": [
+        "Dennis",
+        "Longinus",
+        "Coleridge",
+        "Plato"
+      ],
       "correct": 2,
-      "feedback": "الإجابة هي 'Coleridge'. ارتبط مصطلح 'الوحدة العضوية' (Organic unity) وكُلّية العمل الفني بكولريدج والشكلانيين [6، 111]."
+      "feedback": "الإجابة هي 'Coleridge'. ارتبط مصطلح 'الوحدة العضوية' (Organic unity) وكُلّية العمل الفني بكولريدج والشكلانيين [6، 111].",
+      "id": "q_121b90a844789a0268dd",
+      "legacyIds": [
+        "id_3b305367",
+        "qid_5129a6d9"
+      ],
+      "legacyPrimaryIds": [
+        "qid_5129a6d9"
+      ]
     },
     {
       "q": "Coleridge believes in 'art for art's sake'.",
-      "options": ["True", "False"],
+      "options": [
+        "True",
+        "False"
+      ],
       "correct": 0,
-      "feedback": "الإجابة هي 'True'. يؤمن الشكلانيون والرومانسيون (مثل كولريدج) بمبدأ 'الفن من أجل الفن'، حيث الغرض الوحيد هو الجمال والمتعة [5]."
+      "feedback": "الإجابة هي 'True'. يؤمن الشكلانيون والرومانسيون (مثل كولريدج) بمبدأ 'الفن من أجل الفن'، حيث الغرض الوحيد هو الجمال والمتعة [5].",
+      "id": "q_f4988654f8c84be9c567",
+      "legacyIds": [
+        "id_4a0fd87e",
+        "qid_33fd95a7"
+      ],
+      "legacyPrimaryIds": [
+        "qid_33fd95a7"
+      ]
     },
     {
       "q": "The main focus of Intertextuality is on -------",
-      "options": ["literary tradition", "history", "culture", "all"],
+      "options": [
+        "literary tradition",
+        "history",
+        "culture",
+        "all"
+      ],
       "correct": 0,
-      "feedback": "الإجابة هي 'literary tradition'. النقد التناصي (Intertextual criticism) يركز على مقارنة العمل بأعمال مشابهة أخرى ضمن التقليد الأدبي [6]."
+      "feedback": "الإجابة هي 'literary tradition'. النقد التناصي (Intertextual criticism) يركز على مقارنة العمل بأعمال مشابهة أخرى ضمن التقليد الأدبي [6].",
+      "id": "q_3fa464df272e63bca07e",
+      "legacyIds": [
+        "id_4675cc67",
+        "qid_6f157a30"
+      ],
+      "legacyPrimaryIds": [
+        "qid_6f157a30"
+      ]
     },
     {
       "q": "--------- believe in the indeterminacy of meaning.",
@@ -87,13 +266,32 @@
         "both b and c"
       ],
       "correct": 0,
-      "feedback": "الإجابة هي 'reader-response critics'. يرى نقاد استجابة القارئ أن النص له معانٍ متعددة ومفتوح (open-ended)، مما يعني عدم تحديد المعنى [7]."
+      "feedback": "الإجابة هي 'reader-response critics'. يرى نقاد استجابة القارئ أن النص له معانٍ متعددة ومفتوح (open-ended)، مما يعني عدم تحديد المعنى [7].",
+      "id": "q_c06d16ce9c80c8c4d1c4",
+      "legacyIds": [
+        "id_70bd102",
+        "qid_21997931"
+      ],
+      "legacyPrimaryIds": [
+        "qid_21997931"
+      ]
     },
     {
       "q": "The most recent literary approach is Structuralism.",
-      "options": ["true", "false"],
+      "options": [
+        "true",
+        "false"
+      ],
       "correct": 1,
-      "feedback": "الإجابة هي 'false'. ازدهرت البنيوية في منتصف القرن العشرين [8]، بينما ظهرت التاريخانية الجديدة في الثمانينيات، مما يجعل البنيوية ليست الأحدث [6]."
+      "feedback": "الإجابة هي 'false'. ازدهرت البنيوية في منتصف القرن العشرين [8]، بينما ظهرت التاريخانية الجديدة في الثمانينيات، مما يجعل البنيوية ليست الأحدث [6].",
+      "id": "q_fa8f3d88d9e62b6f0bfa",
+      "legacyIds": [
+        "id_25f87e99",
+        "qid_778b9755"
+      ],
+      "legacyPrimaryIds": [
+        "qid_778b9755"
+      ]
     },
     {
       "q": "Plato insists that historians deal with factuality and are after the truth; hence, they are .......to poets. To Aristotle, poets are after ....... rather than individual situations.",
@@ -104,53 +302,193 @@
         "none"
       ],
       "correct": 0,
-      "feedback": "الإجابة هي 'superior, universality'. بالنسبة لأفلاطون، المؤرخون أسمى لأنهم يسعون للحقيقة، بينما يرى أرسطو أن الشعراء يسعون وراء الكلية (universality) [46، 111]."
+      "feedback": "الإجابة هي 'superior, universality'. بالنسبة لأفلاطون، المؤرخون أسمى لأنهم يسعون للحقيقة، بينما يرى أرسطو أن الشعراء يسعون وراء الكلية (universality) [46، 111].",
+      "id": "q_3cf0b907e17252150ca2",
+      "legacyIds": [
+        "id_1e68f622",
+        "id_4288692c",
+        "id_4b87124e",
+        "id_509cdc86",
+        "q_02727622a806f3d32792",
+        "q_17ea03ec103189a95321",
+        "q_d43758614f38d431bd18",
+        "qid_154c6a79",
+        "qid_2f30ba83",
+        "qid_48334a09",
+        "qid_c443011"
+      ],
+      "legacyPrimaryIds": [
+        "q_02727622a806f3d32792",
+        "q_17ea03ec103189a95321",
+        "q_d43758614f38d431bd18",
+        "qid_154c6a79",
+        "qid_2f30ba83",
+        "qid_48334a09",
+        "qid_c443011"
+      ]
     },
     {
       "q": "Old Historicists suggest that history is subjective.",
-      "options": ["true", "false"],
+      "options": [
+        "true",
+        "false"
+      ],
       "correct": 1,
-      "feedback": "الإجابة هي 'false'. يرى أتباع المنهج التاريخي القديم أن هناك معنى واحداً للنص، مما يشير إلى أنهم يرون التاريخ كمصدر موضوعي وثابت للمعلومات [1]."
+      "feedback": "الإجابة هي 'false'. يرى أتباع المنهج التاريخي القديم أن هناك معنى واحداً للنص، مما يشير إلى أنهم يرون التاريخ كمصدر موضوعي وثابت للمعلومات [1].",
+      "id": "q_3c55f1e2aaf728482902",
+      "legacyIds": [
+        "id_2a75d56e",
+        "qid_26001756"
+      ],
+      "legacyPrimaryIds": [
+        "qid_26001756"
+      ]
     },
     {
       "q": "Plato tackled literature from a political perspective.",
-      "options": ["True", "False"],
+      "options": [
+        "True",
+        "False"
+      ],
       "correct": 0,
-      "feedback": "الإجابة هي 'True'. اهتم أفلاطون بمراقبة الأدب من وجهة نظر سياسية متميزة في كتابه الجمهورية [4]."
+      "feedback": "الإجابة هي 'True'. اهتم أفلاطون بمراقبة الأدب من وجهة نظر سياسية متميزة في كتابه الجمهورية [4].",
+      "id": "q_d4cc32f87e1475ef065c",
+      "legacyIds": [
+        "id_60b0cda0",
+        "qid_10ea5afb"
+      ],
+      "legacyPrimaryIds": [
+        "qid_10ea5afb"
+      ]
     },
     {
       "q": "The main focus of Marxism is on .......",
-      "options": ["history", "culture", "literature", "psychology"],
+      "options": [
+        "history",
+        "culture",
+        "literature",
+        "psychology"
+      ],
       "correct": 0,
-      "feedback": "الإجابة هي 'history'. التركيز الأساسي للماركسية هو التاريخ، ودعوة الطبقة العاملة للثورة ضد البرجوازية [9]."
+      "feedback": "الإجابة هي 'history'. التركيز الأساسي للماركسية هو التاريخ، ودعوة الطبقة العاملة للثورة ضد البرجوازية [9].",
+      "id": "q_089cd5460a9e1aa128db",
+      "legacyIds": [
+        "id_491be127",
+        "qid_33f379c3"
+      ],
+      "legacyPrimaryIds": [
+        "qid_33f379c3"
+      ]
     },
     {
       "q": "Coleridge provided an influential praising of formal principles when he declared that poetic imagination revealed itself 'in the balance or reconciliation of ---- qualities.",
-      "options": ["absolute", "discordant", "artistic", "abstract"],
+      "options": [
+        "absolute",
+        "discordant",
+        "artistic",
+        "abstract"
+      ],
       "correct": 1,
-      "feedback": "الإجابة هي 'discordant'. وصف كولريدج الخيال الشعري بأنه يوفق بين الصفات المتنافرة (discordant qualities) [2]."
+      "feedback": "الإجابة هي 'discordant'. وصف كولريدج الخيال الشعري بأنه يوفق بين الصفات المتنافرة (discordant qualities) [2].",
+      "id": "q_3113ef4baa394490de9f",
+      "legacyIds": [
+        "id_4050bfb3",
+        "id_6a216ef2",
+        "q_14c4fd46fbb6c44188bf",
+        "qid_5c825b71",
+        "qid_7d24a32e"
+      ],
+      "legacyPrimaryIds": [
+        "q_14c4fd46fbb6c44188bf",
+        "qid_5c825b71",
+        "qid_7d24a32e"
+      ]
     },
     {
       "q": "The two terms 'langue' and 'parole' were coined by .........",
-      "options": ["Derrida", "Saussure", "Greenblatt", "d. Taine"],
-      "correct": 1,
-      "feedback": "الإجابة هي 'Saussure'. صاغ عالم اللغويات فرديناند دي سوسير هذين المصطلحين [8]."
-    },
-    {
-      "q": "'A likely .........is always preferable to an unconvincing...........'",
       "options": [
-        "possibility, impossibility",
-        "impossibility, possibility",
-        "probability, possibility"
+        "Derrida",
+        "Saussure",
+        "Greenblatt",
+        "d. Taine"
       ],
       "correct": 1,
-      "feedback": "الإجابة هي 'impossibility, possibility'. يرى أرسطو أن المستحيل المحتمل أفضل دائماً من الممكن غير المقنع [10]."
+      "feedback": "الإجابة هي 'Saussure'. صاغ عالم اللغويات فرديناند دي سوسير هذين المصطلحين [8].",
+      "id": "q_5f934bb43c31f756d249",
+      "legacyIds": [
+        "id_4ec69e2c",
+        "qid_18797f0e"
+      ],
+      "legacyPrimaryIds": [
+        "qid_18797f0e"
+      ]
+    },
+    {
+      "q": "According to Aristotle, a likely _____ is preferable to an unconvincing _____.",
+      "options": [
+        "impossibility, possibility",
+        "possibility, impossibility",
+        "probability, possibility",
+        "possibility, probability"
+      ],
+      "correct": 0,
+      "feedback": "الإجابة الصحيحة هي: impossibility, possibility. يقرر أرسطو في كتاب Poetics أن المستحيل المقنع أو المحتمل يُفضَّل على الممكن غير المقنع.",
+      "id": "q_82dc469f79c85f77bbc0",
+      "legacyIds": [
+        "id_1e97dc1b",
+        "id_4d1f9416",
+        "id_53e331af",
+        "id_7f488eac",
+        "q_65dddb2bb2dd151ba397",
+        "q_729c8e9cfedef558d370",
+        "q_d7884514455e8ae2bd62",
+        "qid_1374d6b2",
+        "qid_1ac3eee5",
+        "qid_24eec81b",
+        "qid_7c9271a5"
+      ],
+      "legacyPrimaryIds": [
+        "q_65dddb2bb2dd151ba397",
+        "q_729c8e9cfedef558d370",
+        "q_d7884514455e8ae2bd62",
+        "qid_1374d6b2",
+        "qid_1ac3eee5",
+        "qid_24eec81b",
+        "qid_7c9271a5"
+      ]
     },
     {
       "q": "One of the following cannot be considered a father of Formalism;",
-      "options": ["Aristotle", "Coleridge", "Zola", "both a and b"],
+      "options": [
+        "Aristotle",
+        "Coleridge",
+        "Zola",
+        "both a and b"
+      ],
       "correct": 2,
-      "feedback": "الإجابة هي 'Zola'. أرسطو وكولريدج يعتبران آباء الشكلانية، بينما إميل زولا هو والد الطبيعية (Naturalism) [6، 14]."
+      "feedback": "الإجابة هي 'Zola'. أرسطو وكولريدج يعتبران آباء الشكلانية، بينما إميل زولا هو والد الطبيعية (Naturalism) [6، 14].",
+      "id": "q_d6eb3854370c77a66270",
+      "legacyIds": [
+        "id_1f8b97e8",
+        "id_359b060d",
+        "id_642ba067",
+        "q_b3383e6897f3d5841c2a",
+        "q_b83a0320d06f91ee53a6",
+        "q_e3a451c880c94e0761f5",
+        "qid_1bf285fd",
+        "qid_39ba765",
+        "qid_39ba766",
+        "qid_39ba766__2"
+      ],
+      "legacyPrimaryIds": [
+        "q_b3383e6897f3d5841c2a",
+        "q_b83a0320d06f91ee53a6",
+        "q_e3a451c880c94e0761f5",
+        "qid_1bf285fd",
+        "qid_39ba765",
+        "qid_39ba766",
+        "qid_39ba766__2"
+      ]
     },
     {
       "q": "Shelley declares that Lord Bacon's language has a ---------- rhythm to satisfy the ----------",
@@ -161,7 +499,15 @@
         "B & C"
       ],
       "correct": 3,
-      "feedback": "الإجابة هي 'B & C' (حلو ومهيب). يذكر شيلي أن لغة بيكون تمتلك إيقاعاً حلواً ومهيباً يرضي الحواس (sense) [11]."
+      "feedback": "الإجابة هي 'B & C' (حلو ومهيب). يذكر شيلي أن لغة بيكون تمتلك إيقاعاً حلواً ومهيباً يرضي الحواس (sense) [11].",
+      "id": "q_cb0a1c06ed5ad283d32d",
+      "legacyIds": [
+        "id_2c46543d",
+        "qid_46832cf8"
+      ],
+      "legacyPrimaryIds": [
+        "qid_46832cf8"
+      ]
     },
     {
       "q": "Zola believes that the novelist is ----------",
@@ -172,13 +518,34 @@
         "neither"
       ],
       "correct": 2,
-      "feedback": "الإجابة هي 'equally an observer and an experimentalist'. يرى زولا أن الروائي هو مراقب ومجرب في آن واحد [12]."
+      "feedback": "الإجابة هي 'equally an observer and an experimentalist'. يرى زولا أن الروائي هو مراقب ومجرب في آن واحد [12].",
+      "id": "q_e7a33480f83d8d4dda40",
+      "legacyIds": [
+        "id_26999afc",
+        "qid_2c9169a1"
+      ],
+      "legacyPrimaryIds": [
+        "qid_2c9169a1"
+      ]
     },
     {
       "q": "Sublimity is characterized by its irresistible effects on ----------",
-      "options": ["readers", "audience", "authors", "A & B"],
+      "options": [
+        "readers",
+        "audience",
+        "authors",
+        "A & B"
+      ],
       "correct": 3,
-      "feedback": "الإجابة هي 'A & B'. السمو (Sublimity) يتميز بتأثيره الذي لا يقاوم على القراء والجمهور [85، 112]."
+      "feedback": "الإجابة هي 'A & B'. السمو (Sublimity) يتميز بتأثيره الذي لا يقاوم على القراء والجمهور [85، 112].",
+      "id": "q_387b5ab130b362ad5ac5",
+      "legacyIds": [
+        "id_17a99654",
+        "qid_7653e112"
+      ],
+      "legacyPrimaryIds": [
+        "qid_7653e112"
+      ]
     },
     {
       "q": "---------- is written by Shelley.",
@@ -189,13 +556,34 @@
         "On the Sublime"
       ],
       "correct": 1,
-      "feedback": "الإجابة هي 'A Defence of Poetry'. شيلي هو مؤلف هذا العمل الشهير في عام 1821 [13]."
+      "feedback": "الإجابة هي 'A Defence of Poetry'. شيلي هو مؤلف هذا العمل الشهير في عام 1821 [13].",
+      "id": "q_bf7cb50fb6404798aca3",
+      "legacyIds": [
+        "id_5e0b0741",
+        "qid_5fdf4"
+      ],
+      "legacyPrimaryIds": [
+        "qid_5fdf4"
+      ]
     },
     {
       "q": "Longinus states that a poet redeems ---------- his mistakes by a single touch of sublimity and true excellence.",
-      "options": ["some of", "all", "few of", "none of"],
+      "options": [
+        "some of",
+        "all",
+        "few of",
+        "none of"
+      ],
       "correct": 1,
-      "feedback": "الإجابة هي 'all'. يرى لونجينوس أن لمسة واحدة من السمو كفيلة بتغطية أو فداء كل أخطاء الشاعر [14]."
+      "feedback": "الإجابة هي 'all'. يرى لونجينوس أن لمسة واحدة من السمو كفيلة بتغطية أو فداء كل أخطاء الشاعر [14].",
+      "id": "q_cb0b93a066ece24fec54",
+      "legacyIds": [
+        "id_4db40591",
+        "qid_6d7bdd42"
+      ],
+      "legacyPrimaryIds": [
+        "qid_6d7bdd42"
+      ]
     },
     {
       "q": "Shelley says that poetry 'marries ----------'",
@@ -206,19 +594,58 @@
         "all"
       ],
       "correct": 3,
-      "feedback": "الإجابة هي 'all'. يذكر شيلي أن الشعر يجمع أو 'يزوج' بين التناقضات كالفرح والرعب، والحزن والمتعة، والأبدية والتغير [15]."
+      "feedback": "الإجابة هي 'all'. يذكر شيلي أن الشعر يجمع أو 'يزوج' بين التناقضات كالفرح والرعب، والحزن والمتعة، والأبدية والتغير [15].",
+      "id": "q_d49892ebeb4b24990865",
+      "legacyIds": [
+        "id_11e3feaa",
+        "qid_4934bcf1"
+      ],
+      "legacyPrimaryIds": [
+        "qid_4934bcf1"
+      ]
     },
     {
       "q": "Longinus calls poets ----------",
-      "options": ["demigods", "writers of genius", "A & B", "Gods"],
+      "options": [
+        "demigods",
+        "writers of genius",
+        "A & B",
+        "Gods"
+      ],
       "correct": 2,
-      "feedback": "الإجابة هي 'A & B'. يصف لونجينوس الشعراء الكلاسيكيين العظماء بأنهم 'أنصاف آلهة' (demigods) وكتاب عباقرة [88، 112]."
+      "feedback": "Here ‘A & B’ means both ‘demigods’ and ‘writers of genius’; the duplicate used the equivalent label ‘A & C’ after reordering options.",
+      "id": "q_3623cfbd56f85cb28a90",
+      "legacyIds": [
+        "id_2335425",
+        "id_2c7d3137",
+        "q_fbdf9f86d2e4457b2eb7",
+        "qid_37a4c467",
+        "qid_6542ad07"
+      ],
+      "legacyPrimaryIds": [
+        "q_fbdf9f86d2e4457b2eb7",
+        "qid_37a4c467",
+        "qid_6542ad07"
+      ]
     },
     {
       "q": "For Longinus, 'great ideas' is a/an ---------- source of the sublime.",
-      "options": ["congenital", "artistic", "contingent", "all"],
+      "options": [
+        "congenital",
+        "artistic",
+        "contingent",
+        "all"
+      ],
       "correct": 0,
-      "feedback": "الإجابة هي 'congenital'. يرى لونجينوس أن القدرة على الأفكار العظيمة هي صفة فطرية (congenital) في الغالب [16]."
+      "feedback": "الإجابة هي 'congenital'. يرى لونجينوس أن القدرة على الأفكار العظيمة هي صفة فطرية (congenital) في الغالب [16].",
+      "id": "q_f433a1840dc24cefe7b9",
+      "legacyIds": [
+        "id_6b841d19",
+        "qid_4796c188"
+      ],
+      "legacyPrimaryIds": [
+        "qid_4796c188"
+      ]
     },
     {
       "q": "Longinus states that the common groundwork of all sources of sublimity is the ----------",
@@ -229,48 +656,115 @@
         "general effect of dignity and elevation"
       ],
       "correct": 0,
-      "feedback": "الإجابة هي 'natural faculty of expression'. يرى لونجينوس أن ملكة التعبير الطبيعية هي الأساس المشترك لجميع مصادر السمو [16]."
+      "feedback": "الإجابة هي 'natural faculty of expression'. يرى لونجينوس أن ملكة التعبير الطبيعية هي الأساس المشترك لجميع مصادر السمو [16].",
+      "id": "q_9056ff984b67f08f8249",
+      "legacyIds": [
+        "id_c1d886d",
+        "qid_68c1e954"
+      ],
+      "legacyPrimaryIds": [
+        "qid_68c1e954"
+      ]
     },
     {
       "q": "'A great poem, for Shelley, is a fountain forever overflowing with the waters of ----------'.",
-      "options": ["wisdom", "delight", "sadness and grief", "A & B"],
+      "options": [
+        "wisdom",
+        "delight",
+        "sadness and grief",
+        "A & B"
+      ],
       "correct": 3,
-      "feedback": "الإجابة هي 'A & B'. يصف شيلي القصيدة العظيمة بأنها نافورة تفيض بمياه الحكمة (wisdom) والمتعة (delight) [17]."
+      "feedback": "الإجابة هي 'A & B'. يصف شيلي القصيدة العظيمة بأنها نافورة تفيض بمياه الحكمة (wisdom) والمتعة (delight) [17].",
+      "id": "q_9edad6e31668950c6a09",
+      "legacyIds": [
+        "id_77045dcf",
+        "qid_3224c128"
+      ],
+      "legacyPrimaryIds": [
+        "qid_3224c128"
+      ]
     },
     {
       "q": "Grounds of Criticism is written by ----------",
-      "options": ["Longinus", "Pope", "Shelley", "Dennis"],
+      "options": [
+        "Longinus",
+        "Pope",
+        "Shelley",
+        "Dennis"
+      ],
       "correct": 3,
-      "feedback": "الإجابة هي 'Dennis'. جون دينيس هو مؤلف هذا الكتاب في عام 1704 [18]."
+      "feedback": "الإجابة هي 'Dennis'. جون دينيس هو مؤلف هذا الكتاب في عام 1704 [18].",
+      "id": "q_2b66c88d5b8ed8cdbca6",
+      "legacyIds": [
+        "id_312e6967",
+        "id_5abbdf39",
+        "q_b519541e9cffaf5a635a",
+        "qid_2b29bc90",
+        "qid_41579ad0"
+      ],
+      "legacyPrimaryIds": [
+        "q_b519541e9cffaf5a635a",
+        "qid_2b29bc90",
+        "qid_41579ad0"
+      ]
     },
     {
       "q": "'---------- on the Stage' is written by Zola.",
-      "options": ["Socialism", "Realism", "Naturalism", "Feminism"],
-      "correct": 2,
-      "feedback": "الإجابة هي 'Naturalism'. كتب زولا مقالاً بعنوان 'الطبيعية على المسرح' (Naturalism on the Stage) [19]."
-    },
-    {
-      "q": "Great ideas, vehement emotions, nobility of phrase, spectacle and plot are all sources of the sublime except---",
       "options": [
-        "vehement emotions",
-        "spectacle & plot",
-        "Great ideas",
-        "nobility of phrase"
+        "Socialism",
+        "Realism",
+        "Naturalism",
+        "Feminism"
       ],
-      "correct": 1,
-      "feedback": "الإجابة هي 'spectacle & plot'. المشهد والحبكة من عناصر التراجيديا عند أرسطو، وليسا من مصادر السمو السبعة عند لونجينوس [20]."
+      "correct": 2,
+      "feedback": "الإجابة هي 'Naturalism'. كتب زولا مقالاً بعنوان 'الطبيعية على المسرح' (Naturalism on the Stage) [19].",
+      "id": "q_c71d7302acfedec07146",
+      "legacyIds": [
+        "id_1976517f",
+        "qid_75f66286"
+      ],
+      "legacyPrimaryIds": [
+        "qid_75f66286"
+      ]
     },
     {
       "q": "Shelley believes that 'A poet participates in the ----------'",
-      "options": ["infinite", "eternal", "one", "all"],
+      "options": [
+        "infinite",
+        "eternal",
+        "one",
+        "all"
+      ],
       "correct": 3,
-      "feedback": "الإجابة هي 'all'. يرى شيلي أن الشاعر يشارك في الأبدي واللانهائي والواحد [11]."
+      "feedback": "الإجابة هي 'all'. يرى شيلي أن الشاعر يشارك في الأبدي واللانهائي والواحد [11].",
+      "id": "q_275f3271af8151e0e912",
+      "legacyIds": [
+        "id_3dfc0d29",
+        "qid_7cf26fb8"
+      ],
+      "legacyPrimaryIds": [
+        "qid_7cf26fb8"
+      ]
     },
     {
       "q": "Zola states that the naturalistic novel is an inquiry into ----------",
-      "options": ["nature", "things", "beings", "all"],
+      "options": [
+        "nature",
+        "things",
+        "beings",
+        "all"
+      ],
       "correct": 3,
-      "feedback": "الإجابة هي 'all'. يرى زولا أن الرواية الطبيعية هي بحث أو تحقيق في الطبيعة والكائنات والأشياء [19]."
+      "feedback": "الإجابة هي 'all'. يرى زولا أن الرواية الطبيعية هي بحث أو تحقيق في الطبيعة والكائنات والأشياء [19].",
+      "id": "q_d5e8b3cbe23a02fe46c4",
+      "legacyIds": [
+        "id_12311073",
+        "qid_7c41961"
+      ],
+      "legacyPrimaryIds": [
+        "qid_7c41961"
+      ]
     },
     {
       "q": "Pope asks us to '----------them [Homer's works] by----------.'",
@@ -281,13 +775,34 @@
         "read & meditate, day & night"
       ],
       "correct": 3,
-      "feedback": "الإجابة هي 'read & meditate, day & night'. ينصح بوب بدراسة أعمال هومر بالقراءة نهاراً والتأمل ليلاً [21]."
+      "feedback": "الإجابة هي 'read & meditate, day & night'. ينصح بوب بدراسة أعمال هومر بالقراءة نهاراً والتأمل ليلاً [21].",
+      "id": "q_16212b33bb6d4349a30e",
+      "legacyIds": [
+        "id_4320e37f",
+        "qid_61c79893"
+      ],
+      "legacyPrimaryIds": [
+        "qid_61c79893"
+      ]
     },
     {
       "q": "Zola tried to apply the experimental methods recommended in ---------- medical theories.",
-      "options": ["Moliere's", "Claude Bernard's", "Flaubert's", "Corneille's"],
+      "options": [
+        "Moliere's",
+        "Claude Bernard's",
+        "Flaubert's",
+        "Corneille's"
+      ],
       "correct": 1,
-      "feedback": "الإجابة هي 'Claude Bernard's'. حاول زولا تطبيق الأساليب التجريبية الموصى بها في نظريات كلود برنارد الطبية [22]."
+      "feedback": "الإجابة هي 'Claude Bernard's'. حاول زولا تطبيق الأساليب التجريبية الموصى بها في نظريات كلود برنارد الطبية [22].",
+      "id": "q_aadfb73d3997a75f8097",
+      "legacyIds": [
+        "id_1e1091cc",
+        "qid_345d539a"
+      ],
+      "legacyPrimaryIds": [
+        "qid_345d539a"
+      ]
     },
     {
       "q": "Zola believes that imagination ----------",
@@ -298,49 +813,158 @@
         "A & C"
       ],
       "correct": 1,
-      "feedback": "الإجابة هي 'no longer has a place'. يرى زولا أن الخيال لم يعد له مكان في الرواية التجريبية الحديثة [23]."
+      "feedback": "الإجابة هي 'no longer has a place'. يرى زولا أن الخيال لم يعد له مكان في الرواية التجريبية الحديثة [23].",
+      "id": "q_427f0f317a4cee0733e9",
+      "legacyIds": [
+        "id_9b34c3d",
+        "qid_57b64628"
+      ],
+      "legacyPrimaryIds": [
+        "qid_57b64628"
+      ]
     },
     {
       "q": "According to Pope, Nature is 'At once the ---------- of art.'",
-      "options": ["source", "end", "test", "all"],
+      "options": [
+        "source",
+        "end",
+        "test",
+        "all"
+      ],
       "correct": 3,
-      "feedback": "الإجابة هي 'all'. يصف بوب الطبيعة بأنها مصدر وغاية واختبار الفن في آن واحد [24]."
+      "feedback": "الإجابة هي 'all'. يصف بوب الطبيعة بأنها مصدر وغاية واختبار الفن في آن واحد [24].",
+      "id": "q_a9a6179065e9d929fb9e",
+      "legacyIds": [
+        "id_2655024d",
+        "qid_309267b7"
+      ],
+      "legacyPrimaryIds": [
+        "qid_309267b7"
+      ]
     },
     {
       "q": "'Nature' is a key term in Pope's essay where he found that 'Nature & ---------- were the same.'",
-      "options": ["Homer", "Shakespeare", "Plato", "Aristotle"],
+      "options": [
+        "Homer",
+        "Shakespeare",
+        "Plato",
+        "Aristotle"
+      ],
       "correct": 0,
-      "feedback": "الإجابة هي 'Homer'. اكتشف فيرجيل (كما يروي بوب) أن الطبيعة وهومر هما نفس الشيء [25]."
+      "feedback": "الإجابة هي 'Homer'. اكتشف فيرجيل (كما يروي بوب) أن الطبيعة وهومر هما نفس الشيء [25].",
+      "id": "q_e847fb981466213627aa",
+      "legacyIds": [
+        "id_4234c4fd",
+        "qid_52277157"
+      ],
+      "legacyPrimaryIds": [
+        "qid_52277157"
+      ]
     },
     {
       "q": "The Moderns appear to regard traditional critics even New Critics as......moles working in the dark before the dawn of structuralism, semiotics, and deconstruction.",
-      "options": ["prehistoric", "historic", "none historic", "ahistoric"],
+      "options": [
+        "prehistoric",
+        "historic",
+        "none historic",
+        "ahistoric"
+      ],
       "correct": 0,
-      "feedback": "الإجابة الصحيحة هي 'prehistoric'. يشير النص إلى أن النقاد المعاصرين ينظرون للنقاد التقليديين وكأنهم كائنات من عصور ما قبل التاريخ (prehistoric) مقارنة بالنهضة التي أحدثتها البنيوية والتفكيكية."
+      "feedback": "الإجابة الصحيحة هي 'prehistoric'. يشير النص إلى أن النقاد المعاصرين ينظرون للنقاد التقليديين وكأنهم كائنات من عصور ما قبل التاريخ (prehistoric) مقارنة بالنهضة التي أحدثتها البنيوية والتفكيكية.",
+      "id": "q_66bbc1cc150cd0dd9f58",
+      "legacyIds": [
+        "id_586b946",
+        "qid_51958450"
+      ],
+      "legacyPrimaryIds": [
+        "qid_51958450"
+      ]
     },
     {
       "q": "As is often the case with ...... battles, there is something to be said on both sides of the argument.",
-      "options": ["Ideological", "logical", "illogical", "tropical"],
+      "options": [
+        "Ideological",
+        "logical",
+        "illogical",
+        "tropical"
+      ],
       "correct": 0,
-      "feedback": "الإجابة الصحيحة هي 'Ideological'. يصف النص الصراع بين القدماء والحداثيين في النقد الأدبي بأنه صراع أيديولوجي (ideological) وليس مجرد صراع منطقي."
+      "feedback": "الإجابة الصحيحة هي 'Ideological'. يصف النص الصراع بين القدماء والحداثيين في النقد الأدبي بأنه صراع أيديولوجي (ideological) وليس مجرد صراع منطقي.",
+      "id": "q_f81a13d6903a340105c4",
+      "legacyIds": [
+        "id_3a165e8f",
+        "qid_103ea7a4"
+      ],
+      "legacyPrimaryIds": [
+        "qid_103ea7a4"
+      ]
     },
     {
       "q": "The rise of Theory in the 1960s did mark a definite break with a predominantly ...... tradition in Criticism.",
-      "options": ["Animalistic", "barbaric", "humanistic", "none of them"],
+      "options": [
+        "Animalistic",
+        "barbaric",
+        "humanistic",
+        "none of them"
+      ],
       "correct": 2,
-      "feedback": "الإجابة الصحيحة هي 'humanistic'. النقد قبل الستينيات كان يتسم بالنزعة الإنسانية (humanistic) والأخلاقية، وهو ما انكسرت معه 'النظرية' الحديثة."
+      "feedback": "الإجابة الصحيحة هي 'humanistic'. النقد قبل الستينيات كان يتسم بالنزعة الإنسانية (humanistic) والأخلاقية، وهو ما انكسرت معه 'النظرية' الحديثة.",
+      "id": "q_68095bc4b4153d651acd",
+      "legacyIds": [
+        "id_417d1b44",
+        "qid_3ae22ca0"
+      ],
+      "legacyPrimaryIds": [
+        "qid_3ae22ca0"
+      ]
     },
     {
       "q": "Even the self-proclaimed ...... of New Criticism which reigned during the 1940s and was founded upon an inherited 'Romantic poetics'",
-      "options": ["Subjectivity", "objectivity", "productivity", "morality"],
+      "options": [
+        "Subjectivity",
+        "objectivity",
+        "productivity",
+        "morality"
+      ],
       "correct": 1,
-      "feedback": "الإجابة الصحيحة هي 'objectivity'. كانت 'الموضوعية' (objectivity) هي الشعار الذي رفعه النقد الجديد (New Criticism) في الأربعينيات."
+      "feedback": "الإجابة الصحيحة هي 'objectivity'. كانت 'الموضوعية' (objectivity) هي الشعار الذي رفعه النقد الجديد (New Criticism) في الأربعينيات.",
+      "id": "q_050f879d062cba5abf3e",
+      "legacyIds": [
+        "id_717b99b3",
+        "qid_37b4ed8e"
+      ],
+      "legacyPrimaryIds": [
+        "qid_37b4ed8e"
+      ]
     },
     {
       "q": "Many proponents of deconstruction or Lacanian criticism write as though all critics before 1968 were naively ......",
-      "options": ["Logocentric", "intrinsic", "extrinsic", "poetic"],
+      "options": [
+        "Logocentric",
+        "intrinsic",
+        "extrinsic",
+        "poetic"
+      ],
       "correct": 0,
-      "feedback": "الإجابة الصحيحة هي 'Logocentric'. مصطلح 'المركزية اللغوية' أو 'المركزية العقلية' (Logocentric) هو المصطلح الذي استخدمه جاك دريدا لوصف النظرة التي انتقدها التفكيكيون في الأعمال السابقة لعام 1968."
+      "feedback": "الإجابة الصحيحة هي 'Logocentric'. مصطلح 'المركزية اللغوية' أو 'المركزية العقلية' (Logocentric) هو المصطلح الذي استخدمه جاك دريدا لوصف النظرة التي انتقدها التفكيكيون في الأعمال السابقة لعام 1968.",
+      "id": "q_58425b56e64ebedb5f4d",
+      "legacyIds": [
+        "id_237d9ec3",
+        "id_3fccf72a",
+        "id_41cef1de",
+        "q_1b9f6fbed6310dd87102",
+        "q_c335aa2f2c01f34a561a",
+        "qid_22ff63ca",
+        "qid_33f2a0c5",
+        "qid_5703a7ad"
+      ],
+      "legacyPrimaryIds": [
+        "q_1b9f6fbed6310dd87102",
+        "q_c335aa2f2c01f34a561a",
+        "qid_22ff63ca",
+        "qid_33f2a0c5",
+        "qid_5703a7ad"
+      ]
     },
     {
       "q": "Wolfgang Iser is interested in ......",
@@ -351,13 +975,34 @@
         "the life of the author"
       ],
       "correct": 1,
-      "feedback": "الإجابة الصحيحة هي 'phenomenology' (الظواهرية). يهتم إيزر بدور القارئ من خلال منظور فلسفي ظواهري."
+      "feedback": "الإجابة الصحيحة هي 'phenomenology' (الظواهرية). يهتم إيزر بدور القارئ من خلال منظور فلسفي ظواهري.",
+      "id": "q_76037198758a04c1deb3",
+      "legacyIds": [
+        "id_675e5f1c",
+        "qid_303a6d34"
+      ],
+      "legacyPrimaryIds": [
+        "qid_303a6d34"
+      ]
     },
     {
       "q": "There can ...... be a complete, all-embracing mode of criticism which would satisfy all the requirements of every type of critical practice.",
-      "options": ["Always", "often", "never", "usually"],
+      "options": [
+        "Always",
+        "often",
+        "never",
+        "usually"
+      ],
       "correct": 2,
-      "feedback": "الإجابة الصحيحة هي 'never'. يوضح النص أنه 'لا يمكن أبداً' (never) وجود منهج نقدي واحد شامل يرضي جميع المدارس النقدية."
+      "feedback": "الإجابة الصحيحة هي 'never'. يوضح النص أنه 'لا يمكن أبداً' (never) وجود منهج نقدي واحد شامل يرضي جميع المدارس النقدية.",
+      "id": "q_aaaa0af97628b6a101f9",
+      "legacyIds": [
+        "id_725b437a",
+        "qid_6f156a82"
+      ],
+      "legacyPrimaryIds": [
+        "qid_6f156a82"
+      ]
     },
     {
       "q": "Plato wrote ......",
@@ -368,25 +1013,67 @@
         "The Implied Reader"
       ],
       "correct": 0,
-      "feedback": "الإجابة الصحيحة هي 'The Republic'. هي العمل الأشهر لأفلاطون الذي يتناول فيه آرائه حول الفن والسياسة."
-    },
-    {
-      "q": "Aristotle's Poetics attempts in part to provide a ...... account of tragedy.",
-      "options": ["Logical", "literal", "literary", "scientific"],
-      "correct": 3,
-      "feedback": "الإجابة الصحيحة هي 'scientific'. حاول أرسطو في كتاب 'فن الشعر' تقديم تحليل منهجي أو 'علمي' (scientific) لبنية التراجيديا."
+      "feedback": "الإجابة الصحيحة هي 'The Republic'. هي العمل الأشهر لأفلاطون الذي يتناول فيه آرائه حول الفن والسياسة.",
+      "id": "q_8661b30b6d8e616ce2e8",
+      "legacyIds": [
+        "id_1ae2de19",
+        "qid_234647a5"
+      ],
+      "legacyPrimaryIds": [
+        "qid_234647a5"
+      ]
     },
     {
       "q": "Traditional critics are being prevented from entering into dialogue with deconstruction or semiotics because theory seems to be insisting upon a total ...... with the past.",
-      "options": ["Discontinuity", "link", "continuity", "break"],
+      "options": [
+        "Discontinuity",
+        "link",
+        "continuity",
+        "break"
+      ],
       "correct": 0,
-      "feedback": "الإجابة الصحيحة هي 'Discontinuity'. الفجوة تكمن في إصرار النظرية الحديثة على 'الانقطاع' (discontinuity) التام عن الماضي."
+      "feedback": "الإجابة الصحيحة هي 'Discontinuity'. الفجوة تكمن في إصرار النظرية الحديثة على 'الانقطاع' (discontinuity) التام عن الماضي.",
+      "id": "q_53ae0fde527eed8e0351",
+      "legacyIds": [
+        "id_37c9c8a8",
+        "qid_5ed8b7f"
+      ],
+      "legacyPrimaryIds": [
+        "qid_5ed8b7f"
+      ]
     },
     {
       "q": "38. The skill in using metaphor is a matter of poetic genius. This is...........idea.",
-      "options": ["A. Aristotle's", "B. Plato's", "C. Dennis'", "D. Selden's"],
+      "options": [
+        "A. Aristotle's",
+        "B. Plato's",
+        "C. Dennis'",
+        "D. Selden's"
+      ],
       "correct": 0,
-      "feedback": "الإجابة الصحيحة هي Aristotle's (أرسطو). أرسطو هو من أشار إلى أن القدرة على استخدام الاستعارة هي دليل على العبقرية الشعرية."
+      "feedback": "الإجابة الصحيحة هي Aristotle's (أرسطو). أرسطو هو من أشار إلى أن القدرة على استخدام الاستعارة هي دليل على العبقرية الشعرية.",
+      "id": "q_22673dfc89b15bea0169",
+      "legacyIds": [
+        "id_418682e0",
+        "id_44eefa98",
+        "id_51c38f1f",
+        "q_dbcad8afe30b2f3f5e16",
+        "q_e5ae51d8f354508ff042",
+        "q_f9a0721b92ee4237be1d",
+        "qid_28af4056",
+        "qid_369df51a",
+        "qid_369df51a__2",
+        "qid_70c2d2d5"
+      ],
+      "legacyPrimaryIds": [
+        "q_dbcad8afe30b2f3f5e16",
+        "q_e5ae51d8f354508ff042",
+        "q_f9a0721b92ee4237be1d",
+        "qid_28af4056",
+        "qid_369df51a",
+        "qid_369df51a__2",
+        "qid_70c2d2d5"
+      ]
     },
     {
       "q": "39. According to Claude Bernard, 'In practical life men but make......on one another.'",
@@ -397,13 +1084,34 @@
         "D. none of them"
       ],
       "correct": 0,
-      "feedback": "الإجابة الصحيحة هي Experiments (تجارب). هذا اقتباس مباشر من كلود برنارد ورد في قسم النقد الطبيعي لزولا."
+      "feedback": "الإجابة الصحيحة هي Experiments (تجارب). هذا اقتباس مباشر من كلود برنارد ورد في قسم النقد الطبيعي لزولا.",
+      "id": "q_e380db6311c7d9fac2ba",
+      "legacyIds": [
+        "id_1e522ef",
+        "qid_2518588"
+      ],
+      "legacyPrimaryIds": [
+        "qid_2518588"
+      ]
     },
     {
       "q": "40. There is a necessary connection between the acts and their......",
-      "options": ["A. Characters", "B. agents", "C. cause", "D. character"],
+      "options": [
+        "A. Characters",
+        "B. agents",
+        "C. cause",
+        "D. character"
+      ],
       "correct": 2,
-      "feedback": "الإجابة الصحيحة هي cause (السبب). يؤكد زولا في نظريته على وجود صلة ضرورية بين الأفعال وأسبابها."
+      "feedback": "الإجابة الصحيحة هي cause (السبب). يؤكد زولا في نظريته على وجود صلة ضرورية بين الأفعال وأسبابها.",
+      "id": "q_93c5e3a1044848d11821",
+      "legacyIds": [
+        "id_cb46c67",
+        "qid_5bf7a5a1"
+      ],
+      "legacyPrimaryIds": [
+        "qid_5bf7a5a1"
+      ]
     },
     {
       "q": "41. According to Claude Bernard, 'The experimentalist is the examining......of nature.'",
@@ -414,13 +1122,34 @@
         "D. measurement"
       ],
       "correct": 0,
-      "feedback": "الإجابة الصحيحة هي Magistrate (قاضي/حاكم). يصف كلود برنارد المجرب بأنه 'قاضي الطبيعة الفاحص'."
+      "feedback": "الإجابة الصحيحة هي Magistrate (قاضي/حاكم). يصف كلود برنارد المجرب بأنه 'قاضي الطبيعة الفاحص'.",
+      "id": "q_647aab4b2d974ee5efc8",
+      "legacyIds": [
+        "id_5fafd10a",
+        "qid_7e8a7ee6"
+      ],
+      "legacyPrimaryIds": [
+        "qid_7e8a7ee6"
+      ]
     },
     {
       "q": "42. According to Zola, nature is......, that you must accept it as it is, without modification or pruning",
-      "options": ["A. Not sufficient", "B. sufficient", "C. big", "D. small"],
+      "options": [
+        "A. Not sufficient",
+        "B. sufficient",
+        "C. big",
+        "D. small"
+      ],
       "correct": 1,
-      "feedback": "الإجابة الصحيحة هي sufficient (كافية). يرى زولا أن الطبيعة غنية وكافية بحد ذاتها ولا تحتاج إلى تعديل."
+      "feedback": "الإجابة الصحيحة هي sufficient (كافية). يرى زولا أن الطبيعة غنية وكافية بحد ذاتها ولا تحتاج إلى تعديل.",
+      "id": "q_4082672ffdee2a273642",
+      "legacyIds": [
+        "id_5711e9b4",
+        "qid_3a925955"
+      ],
+      "legacyPrimaryIds": [
+        "qid_3a925955"
+      ]
     },
     {
       "q": "43. According to Zola, the naturalistic formula carries us back to the source of our national stage, the......formula.",
@@ -431,7 +1160,15 @@
         "D. neoclassical"
       ],
       "correct": 2,
-      "feedback": "الإجابة الصحيحة هي classical (الكلاسيكية). يربط زولا بين الصيغة الطبيعية والصيغة الكلاسيكية."
+      "feedback": "الإجابة الصحيحة هي classical (الكلاسيكية). يربط زولا بين الصيغة الطبيعية والصيغة الكلاسيكية.",
+      "id": "q_6f41610b996d07f68b6c",
+      "legacyIds": [
+        "id_4c7cbccf",
+        "qid_7830c31d"
+      ],
+      "legacyPrimaryIds": [
+        "qid_7830c31d"
+      ]
     },
     {
       "q": "44. According to Zola, the work is a long...... in dialogue on man.",
@@ -442,31 +1179,91 @@
         "D. preparation"
       ],
       "correct": 0,
-      "feedback": "الإجابة الصحيحة هي Dissertation (أطروحة). يصف زولا العمل الأدبي الطبيعي بأنه أطروحة حوارية عن الإنسان."
+      "feedback": "الإجابة الصحيحة هي Dissertation (أطروحة). يصف زولا العمل الأدبي الطبيعي بأنه أطروحة حوارية عن الإنسان.",
+      "id": "q_611c7987c4348e7579c4",
+      "legacyIds": [
+        "id_67ae8d81",
+        "qid_3a3d10ec"
+      ],
+      "legacyPrimaryIds": [
+        "qid_3a3d10ec"
+      ]
     },
     {
       "q": "45. Defence of Poetry is written by ......",
-      "options": ["A. Coleridge", "B. Shelley", "C. Aristotle", "D. Plotinus"],
+      "options": [
+        "A. Coleridge",
+        "B. Shelley",
+        "C. Aristotle",
+        "D. Plotinus"
+      ],
       "correct": 1,
-      "feedback": "الإجابة الصحيحة هي Shelley (شيلي). هذا الكتاب من أشهر مؤلفات بيرسي بيش شيلي."
+      "feedback": "الإجابة الصحيحة هي Shelley (شيلي). هذا الكتاب من أشهر مؤلفات بيرسي بيش شيلي.",
+      "id": "q_3ea11054eb5bf25ba2cb",
+      "legacyIds": [
+        "id_5276d675",
+        "qid_214ee22f"
+      ],
+      "legacyPrimaryIds": [
+        "qid_214ee22f"
+      ]
     },
     {
       "q": "46. The poet beholds the......in the present, and his thoughts are the germs of the flower and the fruit of latest time.",
-      "options": ["A. Future", "B. past", "C. present", "D. time"],
+      "options": [
+        "A. Future",
+        "B. past",
+        "C. present",
+        "D. time"
+      ],
       "correct": 0,
-      "feedback": "الإجابة الصحيحة هي Future (المستقبل). يرى شيلي أن الشاعر يرى المستقبل في الحاضر."
+      "feedback": "الإجابة الصحيحة هي Future (المستقبل). يرى شيلي أن الشاعر يرى المستقبل في الحاضر.",
+      "id": "q_23abdde884bd1f7907eb",
+      "legacyIds": [
+        "id_3811e935",
+        "qid_9536788"
+      ],
+      "legacyPrimaryIds": [
+        "qid_9536788"
+      ]
     },
     {
       "q": "47. Poetry is......reasoning, a power to be exerted according to the determination of the will",
-      "options": ["A. Similar", "B. not like", "C. identical to", "D. like"],
+      "options": [
+        "A. Similar",
+        "B. not like",
+        "C. identical to",
+        "D. like"
+      ],
       "correct": 1,
-      "feedback": "الإجابة الصحيحة هي not like (ليست مثل). يفرق شيلي بين الشعر والمنطق أو التفكير العقلاني."
+      "feedback": "الإجابة الصحيحة هي not like (ليست مثل). يفرق شيلي بين الشعر والمنطق أو التفكير العقلاني.",
+      "id": "q_2becd4fb4501f586a741",
+      "legacyIds": [
+        "id_1c7b81c7",
+        "qid_60639368"
+      ],
+      "legacyPrimaryIds": [
+        "qid_60639368"
+      ]
     },
     {
       "q": "48. The greatest poet even cannot say it; for the mind in......is as a fading coal...",
-      "options": ["A. Similarity", "B. practice", "C. theory", "D. creation"],
+      "options": [
+        "A. Similarity",
+        "B. practice",
+        "C. theory",
+        "D. creation"
+      ],
       "correct": 3,
-      "feedback": "الإجابة الصحيحة هي creation (الخلق/الإبداع). يصف شيلي حالة العقل أثناء عملية الإبداع الشعري."
+      "feedback": "الإجابة الصحيحة هي creation (الخلق/الإبداع). يصف شيلي حالة العقل أثناء عملية الإبداع الشعري.",
+      "id": "q_207dbdcd05fd9ae3a6b1",
+      "legacyIds": [
+        "id_2975a1b7",
+        "qid_35148568"
+      ],
+      "legacyPrimaryIds": [
+        "qid_35148568"
+      ]
     },
     {
       "q": "49. Aristotle's Poetics has generally been thought to have as one of its purposes the attempt to refute Plato's charge by.......the sense in which poetry imitates reality.",
@@ -477,24 +1274,34 @@
         "D. redecorating"
       ],
       "correct": 2,
-      "feedback": "الإجابة الصحيحة هي redefining (إعادة تعريف). يحاول أرسطو دحض اتهامات أفلاطون من خلال إعادة تعريف مفهوم المحاكاة."
+      "feedback": "الإجابة الصحيحة هي redefining (إعادة تعريف). يحاول أرسطو دحض اتهامات أفلاطون من خلال إعادة تعريف مفهوم المحاكاة.",
+      "id": "q_6b385cc9725a6a8b461c",
+      "legacyIds": [
+        "id_49ebe3f3",
+        "qid_3b2c4c67"
+      ],
+      "legacyPrimaryIds": [
+        "qid_3b2c4c67"
+      ]
     },
     {
       "q": "50. Formalism started in......and flourished at the beginning of the 20th century",
-      "options": ["A. Russia", "B. England", "C. America", "D. Germany"],
-      "correct": 0,
-      "feedback": "الإجابة الصحيحة هي Russia (روسيا). نشأت الشكلانية الروسية في أوائل القرن العشرين."
-    },
-    {
-      "q": "1. Many proponents of deconstruction or Lacanian criticism write as though all critics before 1968 were naively......",
       "options": [
-        "A. subjective",
-        "B. objective",
-        "C. sympathetic",
-        "D. logocentric"
+        "A. Russia",
+        "B. England",
+        "C. America",
+        "D. Germany"
       ],
-      "correct": 3,
-      "feedback": "الإجابة الصحيحة هي logocentric (مركزية العقل/اللوغوس). يتهم التفكيكيون النقاد السابقين بأنهم كانوا غارقين في الميتافيزيقا والمركزية اللغوية."
+      "correct": 0,
+      "feedback": "الإجابة الصحيحة هي Russia (روسيا). نشأت الشكلانية الروسية في أوائل القرن العشرين.",
+      "id": "q_b00113f5b7b6e382d31f",
+      "legacyIds": [
+        "id_5f92d727",
+        "qid_1198bbe2"
+      ],
+      "legacyPrimaryIds": [
+        "qid_1198bbe2"
+      ]
     },
     {
       "q": "2. ......believe that a poem means a text that has a meaning, so if the text is not read by a reader, it is a lifeless entity.",
@@ -505,46 +1312,20 @@
         "D. Reader-response critics"
       ],
       "correct": 3,
-      "feedback": "الإجابة الصحيحة هي Reader-response critics (نقاد استجابة القارئ). هم من يركزون على دور القارئ في منح المعنى للنص."
-    },
-    {
-      "q": "3. ......attempt to discover the code or codes underlying particular kinds of 'message'",
-      "options": [
-        "A. Structuralists",
-        "B. Formalists",
-        "C. New Critics",
-        "D. None"
+      "feedback": "الإجابة الصحيحة هي Reader-response critics (نقاد استجابة القارئ). هم من يركزون على دور القارئ في منح المعنى للنص.",
+      "id": "q_af7c2dc57c4e63886c7e",
+      "legacyIds": [
+        "id_2c00a4e5",
+        "id_96854da",
+        "q_b23494717f228c5e676f",
+        "qid_1777bc6",
+        "qid_46fe93d7"
       ],
-      "correct": 0,
-      "feedback": "الإجابة الصحيحة هي Structuralists (البنيويون). يهتم البنيويون بدراسة الأنظمة والرموز (الشفرات) التي تشكل الرسالة."
-    },
-    {
-      "q": "4. ...........is explicitly concerned to politic literature from a distinctly political point of view.",
-      "options": ["A. Aristotle", "B. Plato", "C. Dennis", "D. Longinus"],
-      "correct": 1,
-      "feedback": "الإجابة الصحيحة هي Plato (أفلاطون). كان أفلاطون مهتماً بضبط الأدب سياسياً في جمهوريته."
-    },
-    {
-      "q": "5. Aristotle's Poetics attempts in part to provide a scientific account of tragedy. ......calls......",
-      "options": [
-        "A. Plato's",
-        "B. Plotinus",
-        "C. Longinus'",
-        "D. Aristotle's"
-      ],
-      "correct": 3,
-      "feedback": "الإجابة الصحيحة هي Aristotle's (أرسطو). كتاب 'فن الشعر' هو المحاولة العلمية الأولى لتحليل التراجيديا."
-    },
-    {
-      "q": "6. The essential principles of the moral and physical world order are incorporated in what Plato calls......",
-      "options": [
-        "A. The Allegory of the line",
-        "B. Poetics",
-        "C. Organic Unity",
-        "D. the essential Form of Goodness"
-      ],
-      "correct": 3,
-      "feedback": "الإجابة الصحيحة هي the essential Form of Goodness (صورة الخير الجوهرية). هي مصدر كل المفاهيم والأفكار عند أفلاطون."
+      "legacyPrimaryIds": [
+        "q_b23494717f228c5e676f",
+        "qid_1777bc6",
+        "qid_46fe93d7"
+      ]
     },
     {
       "q": "7. Succeeding Platonists defy Plato's rejection of the poets... by elevating art from the bottom to the top of the............ladder.",
@@ -555,19 +1336,63 @@
         "D. cognitive"
       ],
       "correct": 3,
-      "feedback": "الإجابة الصحيحة هي cognitive (المعرفي). سعى الأفلاطونيون اللاحقون لرفع قيمة الفن على سلم المعرفة."
+      "feedback": "الإجابة الصحيحة هي cognitive (المعرفي). سعى الأفلاطونيون اللاحقون لرفع قيمة الفن على سلم المعرفة.",
+      "id": "q_5517ed5acd6780424c6a",
+      "legacyIds": [
+        "id_1ad0ba17",
+        "qid_7f9c7360"
+      ],
+      "legacyPrimaryIds": [
+        "qid_7f9c7360"
+      ]
     },
     {
       "q": "8. The external world is an apparition of lifeless objects which only the poet's vitalizing intellect can bring to life by endowing it with what..........called the depth and height of the ideal world'.",
-      "options": ["A. Coleridge", "B. Dennis", "C. Longinus", "D. Shelley"],
+      "options": [
+        "A. Coleridge",
+        "B. Dennis",
+        "C. Longinus",
+        "D. Shelley"
+      ],
       "correct": 0,
-      "feedback": "الإجابة الصحيحة هي Coleridge (كولريدج). هو من تحدث عن قدرة خيال الشاعر على بث الحياة في الأشياء."
+      "feedback": "الإجابة الصحيحة هي Coleridge (كولريدج). هو من تحدث عن قدرة خيال الشاعر على بث الحياة في الأشياء.",
+      "id": "q_0f96c9da6c5c0df584ee",
+      "legacyIds": [
+        "id_4d5e6506",
+        "id_505a488c",
+        "q_8c83430a56216f313e3a",
+        "qid_297dcf4e",
+        "qid_2e8a664a"
+      ],
+      "legacyPrimaryIds": [
+        "q_8c83430a56216f313e3a",
+        "qid_297dcf4e",
+        "qid_2e8a664a"
+      ]
     },
     {
       "q": "9. ......a Romantic poet, defended poetry saying that poets are not only the authors of language, but rather they are the institutors of laws.",
-      "options": ["A. Coleridge", "B. Shelley", "C. Keats", "D. none"],
+      "options": [
+        "A. Coleridge",
+        "B. Shelley",
+        "C. Keats",
+        "D. none"
+      ],
       "correct": 1,
-      "feedback": "الإجابة الصحيحة هي Shelley (شيلي). في 'دفاع عن الشعر' يصف الشعراء بأنهم واضعو القوانين."
+      "feedback": "الإجابة الصحيحة هي Shelley (شيلي). في 'دفاع عن الشعر' يصف الشعراء بأنهم واضعو القوانين.",
+      "id": "q_ee485d8a93a2074bf0e6",
+      "legacyIds": [
+        "id_3d7234bc",
+        "id_4e4b7712",
+        "q_20759d2ec1e075726d5f",
+        "qid_2522caa5",
+        "qid_ce434d"
+      ],
+      "legacyPrimaryIds": [
+        "q_20759d2ec1e075726d5f",
+        "qid_2522caa5",
+        "qid_ce434d"
+      ]
     },
     {
       "q": "10. Plato banished poets from his republic because..",
@@ -578,7 +1403,20 @@
         "D. they are responsible for waging wars."
       ],
       "correct": 2,
-      "feedback": "الإجابة الصحيحة هي C. يرى أفلاطون أن الشعراء يقدمون نسخاً مزيفة للواقع ويدعون معرفة لا يملكونها."
+      "feedback": "الإجابة الصحيحة هي C. يرى أفلاطون أن الشعراء يقدمون نسخاً مزيفة للواقع ويدعون معرفة لا يملكونها.",
+      "id": "q_3b2c73f432ca8172153e",
+      "legacyIds": [
+        "id_399d2544",
+        "id_40268edf",
+        "q_4ccdeb0a400b641b1be9",
+        "qid_5524060a",
+        "qid_564fb355"
+      ],
+      "legacyPrimaryIds": [
+        "q_4ccdeb0a400b641b1be9",
+        "qid_5524060a",
+        "qid_564fb355"
+      ]
     },
     {
       "q": "11. ......believe in the determinacy of meaning.",
@@ -589,25 +1427,101 @@
         "D. both b and c"
       ],
       "correct": 3,
-      "feedback": "الإجابة الصحيحة هي D. الشكلانيون والنقاد التاريخيون القدامى يميلون للاعتقاد بوجود معنى واحد محدد للنص."
+      "feedback": "الإجابة الصحيحة هي D. الشكلانيون والنقاد التاريخيون القدامى يميلون للاعتقاد بوجود معنى واحد محدد للنص.",
+      "id": "q_af2418bc2f3c2bb8bafb",
+      "legacyIds": [
+        "id_14b16e15",
+        "id_29f8e153",
+        "id_3c32418c",
+        "q_5d495e1c99208c4082c0",
+        "q_8ab0bf0be3e044083cb3",
+        "qid_3fc73ddf",
+        "qid_458fa45e",
+        "qid_464ceced"
+      ],
+      "legacyPrimaryIds": [
+        "q_5d495e1c99208c4082c0",
+        "q_8ab0bf0be3e044083cb3",
+        "qid_3fc73ddf",
+        "qid_458fa45e",
+        "qid_464ceced"
+      ]
     },
     {
       "q": "12. He provided an influential praising of formal principles... poetic imagination revealed itself in the balance or reconciliation of discordant qualities. The underlined pronoun refers to......",
-      "options": ["A. Coleridge", "B. Dennis", "C. Longinus", "D. Shelley"],
+      "options": [
+        "A. Coleridge",
+        "B. Dennis",
+        "C. Longinus",
+        "D. Shelley"
+      ],
       "correct": 0,
-      "feedback": "الإجابة الصحيحة هي Coleridge (كولريدج). هذا الوصف الشهير للوحدة العضوية والانسجام هو من نظريات كولريدج."
+      "feedback": "الإجابة الصحيحة هي Coleridge (كولريدج). هذا الوصف الشهير للوحدة العضوية والانسجام هو من نظريات كولريدج.",
+      "id": "q_0b5cf28e453ae5095baa",
+      "legacyIds": [
+        "id_79486f83",
+        "qid_1ed243dd"
+      ],
+      "legacyPrimaryIds": [
+        "qid_1ed243dd"
+      ]
     },
     {
       "q": "13. He refuses to grant absolute priority in the process of cognition either to mind or to nature,",
-      "options": ["A. Coleridge", "B. Dennis", "C. Longinus", "D. Shelley"],
+      "options": [
+        "A. Coleridge",
+        "B. Dennis",
+        "C. Longinus",
+        "D. Shelley"
+      ],
       "correct": 0,
-      "feedback": "الإجابة الصحيحة هي Coleridge (كولريدج). كولريدج يرفض منح الأولوية المطلقة للعقل على الطبيعة أو العكس."
+      "feedback": "الإجابة الصحيحة هي Coleridge (كولريدج). كولريدج يرفض منح الأولوية المطلقة للعقل على الطبيعة أو العكس.",
+      "id": "q_d1a7b12d903e8e423f8e",
+      "legacyIds": [
+        "id_2c846bfb",
+        "id_33261e11",
+        "q_255583e44aeab37072f4",
+        "q_9c86cc443a58e6ef9f18",
+        "qid_8289257",
+        "qid_8289257__2",
+        "qid_9cf72a9"
+      ],
+      "legacyPrimaryIds": [
+        "q_255583e44aeab37072f4",
+        "q_9c86cc443a58e6ef9f18",
+        "qid_8289257",
+        "qid_8289257__2",
+        "qid_9cf72a9"
+      ]
     },
     {
       "q": "14. To Coleridge, the poet's task is to effect a reconciliation between a....and a thing",
-      "options": ["A. image", "B. symbol", "C. thought", "D. picture"],
+      "options": [
+        "A. image",
+        "B. symbol",
+        "C. thought",
+        "D. picture"
+      ],
       "correct": 2,
-      "feedback": "الإجابة الصحيحة هي thought (فكرة). مهمة الشاعر هي التوفيق بين الفكرة والشيء المادي."
+      "feedback": "الإجابة الصحيحة هي thought (فكرة). مهمة الشاعر هي التوفيق بين الفكرة والشيء المادي.",
+      "id": "q_0101da363e8bc547d474",
+      "legacyIds": [
+        "id_12aadcb",
+        "id_315084d2",
+        "id_388fcfcf",
+        "q_10c81c9815b851dee70d",
+        "q_fd8079679e926309d429",
+        "qid_5114bdd8",
+        "qid_6f2d6769",
+        "qid_e9df9f7"
+      ],
+      "legacyPrimaryIds": [
+        "q_10c81c9815b851dee70d",
+        "q_fd8079679e926309d429",
+        "qid_5114bdd8",
+        "qid_6f2d6769",
+        "qid_e9df9f7"
+      ]
     },
     {
       "q": "15. Formal concepts are involved when............",
@@ -618,36 +1532,52 @@
         "D. we investigate poems"
       ],
       "correct": 2,
-      "feedback": "الإجابة الصحيحة هي C. تركز المفاهيم الشكلانية على البناء الفني للنص ووحدته وتماسكه."
-    },
-    {
-      "q": "16. One of the following cannot be considered a father of Formalism;",
-      "options": ["A. Aristotle", "B. Coleridge", "C. Zola", "D. both a and b"],
-      "correct": 2,
-      "feedback": "الإجابة الصحيحة هي Zola (زولا). زولا هو رائد الطبيعية (Naturalism)، بينما أرسطو وكولريدج يعتبران آباءً للشكلانية."
-    },
-    {
-      "q": "17. To Aristotle, the objects the imitator represents are..",
-      "options": ["A. images", "B. action", "C. people", "D. men"],
-      "correct": 1,
-      "feedback": "الإجابة الصحيحة هي action (الفعل). يركز أرسطو على أن التراجيديا هي محاكاة للفعل وليس للشخصيات فقط."
-    },
-    {
-      "q": "18. 'A likely ....... always preferable to an unconvincing........",
-      "options": [
-        "A. impossibility, possibility",
-        "B. possibility, impossibility",
-        "C. probability, possibility",
-        "D. probability, possibility"
+      "feedback": "الإجابة الصحيحة هي C. تركز المفاهيم الشكلانية على البناء الفني للنص ووحدته وتماسكه.",
+      "id": "q_3c943a98babd4ff0b5c5",
+      "legacyIds": [
+        "id_127de8c1",
+        "id_191625b1",
+        "id_63e23c14",
+        "q_59fdbc84283859a9f7e0",
+        "q_6baf01ba2ab6f66c372f",
+        "qid_165c3873",
+        "qid_20a8fba3",
+        "qid_6646358c"
       ],
-      "correct": 0,
-      "feedback": "الإجابة الصحيحة هي A (Impossibility, Possibility). مقولة أرسطو: المستحيل المحتمل أفضل من الممكن غير المقنع."
+      "legacyPrimaryIds": [
+        "q_59fdbc84283859a9f7e0",
+        "q_6baf01ba2ab6f66c372f",
+        "qid_165c3873",
+        "qid_20a8fba3",
+        "qid_6646358c"
+      ]
     },
     {
       "q": "19. Zola contradicts Aristotle in arguing that the novelist represents the concrete and the individual rather than the abstract and the general.",
-      "options": ["A. true", "B. false"],
+      "options": [
+        "A. true",
+        "B. false"
+      ],
       "correct": 0,
-      "feedback": "الإجابة صحيحة (True). هذا تناقض جوهري؛ أرسطو يسعى للعام، وزولا يسعى للواقعي المادي الملموس."
+      "feedback": "الإجابة صحيحة (True). هذا تناقض جوهري؛ أرسطو يسعى للعام، وزولا يسعى للواقعي المادي الملموس.",
+      "id": "q_c4b7aa7f4c9b7ceaab90",
+      "legacyIds": [
+        "id_46dad380",
+        "id_486585a1",
+        "id_6a40b40",
+        "q_839d54e604752d7cafc2",
+        "q_b3a4dd7beebbd001c082",
+        "qid_5cdf5bbb",
+        "qid_5cdf5bbb__2",
+        "qid_6c1a2f1f"
+      ],
+      "legacyPrimaryIds": [
+        "q_839d54e604752d7cafc2",
+        "q_b3a4dd7beebbd001c082",
+        "qid_5cdf5bbb",
+        "qid_5cdf5bbb__2",
+        "qid_6c1a2f1f"
+      ]
     },
     {
       "q": "20. The concept of..............is crucial in Naturalism.",
@@ -658,19 +1588,81 @@
         "D. transcendentalism"
       ],
       "correct": 0,
-      "feedback": "الإجابة الصحيحة هي determinism (الحتمية). الحتمية هي الركيزة الأساسية في مذهب زولا الطبيعي."
+      "feedback": "الإجابة الصحيحة هي determinism (الحتمية). الحتمية هي الركيزة الأساسية في مذهب زولا الطبيعي.",
+      "id": "q_569eba1f86dd9cba23a3",
+      "legacyIds": [
+        "id_1305a2f3",
+        "id_1555473b",
+        "id_52153d84",
+        "q_be21f91c2d99ee46f2c5",
+        "q_c3d93ef915882ae10c01",
+        "qid_30f1902a",
+        "qid_5829842d",
+        "qid_5b8fc08b"
+      ],
+      "legacyPrimaryIds": [
+        "q_be21f91c2d99ee46f2c5",
+        "q_c3d93ef915882ae10c01",
+        "qid_30f1902a",
+        "qid_5829842d",
+        "qid_5b8fc08b"
+      ]
     },
     {
       "q": "21. 'All natural philosophy is summed up in this: To know the laws which govern phenomena.'",
-      "options": ["A. True", "B. False"],
+      "options": [
+        "A. True",
+        "B. False"
+      ],
       "correct": 0,
-      "feedback": "الإجابة صحيحة (True). هذا هو المبدأ الذي استلهمه زولا من كلود برنارد."
+      "feedback": "الإجابة صحيحة (True). هذا هو المبدأ الذي استلهمه زولا من كلود برنارد.",
+      "id": "q_09d1d720a0995b136221",
+      "legacyIds": [
+        "id_44b258fe",
+        "id_47b90be",
+        "id_4d70980e",
+        "q_d2435641bd30608a2083",
+        "q_d6ce6f23dbfd49ff23e9",
+        "qid_3f73f1fd",
+        "qid_3f73f1fd__2",
+        "qid_54bcf6b2"
+      ],
+      "legacyPrimaryIds": [
+        "q_d2435641bd30608a2083",
+        "q_d6ce6f23dbfd49ff23e9",
+        "qid_3f73f1fd",
+        "qid_3f73f1fd__2",
+        "qid_54bcf6b2"
+      ]
     },
     {
       "q": "22. ......associated grand ideas with grand words, and recommended certain literary devices to achieve this effect of sublimity.",
-      "options": ["A. Dennis", "B. Longinus", "C. Boileau", "D. none"],
+      "options": [
+        "A. Dennis",
+        "B. Longinus",
+        "C. Boileau",
+        "D. none"
+      ],
       "correct": 1,
-      "feedback": "الإجابة الصحيحة هي Longinus (لونجينوس). هو صاحب نظرية 'السامي' (Sublime) ويربط العظمة الفكرية بالكلمات."
+      "feedback": "الإجابة الصحيحة هي Longinus (لونجينوس). هو صاحب نظرية 'السامي' (Sublime) ويربط العظمة الفكرية بالكلمات.",
+      "id": "q_5652ffeafed91f8882f4",
+      "legacyIds": [
+        "id_131fd313",
+        "id_5c366248",
+        "id_7537905b",
+        "q_4fab1e1cd7fcf69d62ac",
+        "q_5f60188696dd50a77276",
+        "qid_43c8bcab",
+        "qid_5d4c0dc4",
+        "qid_70b17c0d"
+      ],
+      "legacyPrimaryIds": [
+        "q_4fab1e1cd7fcf69d62ac",
+        "q_5f60188696dd50a77276",
+        "qid_43c8bcab",
+        "qid_5d4c0dc4",
+        "qid_70b17c0d"
+      ]
     },
     {
       "q": "23. Plato insists that historians deal With factuality... To Aristotle, poets are after.......rather than individual situations.",
@@ -681,25 +1673,97 @@
         "D. none"
       ],
       "correct": 0,
-      "feedback": "الإجابة الصحيحة هي A. يرى أرسطو أن الشعر أكثر فلسفية من التاريخ لأنه يعنى بالعموميات (Universality)."
+      "feedback": "الإجابة الصحيحة هي A. يرى أرسطو أن الشعر أكثر فلسفية من التاريخ لأنه يعنى بالعموميات (Universality).",
+      "id": "q_0c94aecdf29d4dde24ff",
+      "legacyIds": [
+        "id_a834d90",
+        "qid_5f555a53"
+      ],
+      "legacyPrimaryIds": [
+        "qid_5f555a53"
+      ]
     },
     {
       "q": "24. Intertextuality suggests that we should study all.",
-      "options": ["A. literature", "B. history", "C. languages", "D. arts"],
+      "options": [
+        "A. literature",
+        "B. history",
+        "C. languages",
+        "D. arts"
+      ],
       "correct": 0,
-      "feedback": "الإجابة الصحيحة هي literature (الأدب). التناص يشير إلى دراسة النصوص الأدبية في علاقتها ببعضها."
+      "feedback": "الإجابة الصحيحة هي literature (الأدب). التناص يشير إلى دراسة النصوص الأدبية في علاقتها ببعضها.",
+      "id": "q_b3fde4a492f000fdec64",
+      "legacyIds": [
+        "id_38e88398",
+        "id_3a84d6f0",
+        "q_c7820a12d65bf58fcc5d",
+        "qid_543f0c50",
+        "qid_6a62179c"
+      ],
+      "legacyPrimaryIds": [
+        "q_c7820a12d65bf58fcc5d",
+        "qid_543f0c50",
+        "qid_6a62179c"
+      ]
     },
     {
       "q": "25. The most recent literary approach is New Historicism.",
-      "options": ["A. True", "B. False"],
+      "options": [
+        "A. True",
+        "B. False"
+      ],
       "correct": 0,
-      "feedback": "الإجابة صحيحة (True). التاريخانية الجديدة ظهرت في الثمانينيات وتعتبر من أحدث المناهج المذكورة."
+      "feedback": "الإجابة صحيحة (True). التاريخانية الجديدة ظهرت في الثمانينيات وتعتبر من أحدث المناهج المذكورة.",
+      "id": "q_445b3a2141e65a925548",
+      "legacyIds": [
+        "id_143a9a38",
+        "id_3f7a1478",
+        "id_7fb0dcb8",
+        "q_1bc9f66e3f2f943f6660",
+        "q_5d555a0ff7c457d57d2d",
+        "q_e62ca4b4cd8756aa6ab8",
+        "qid_3b5a728",
+        "qid_4b75b713",
+        "qid_4b75b713__2",
+        "qid_4b75b713__3"
+      ],
+      "legacyPrimaryIds": [
+        "q_1bc9f66e3f2f943f6660",
+        "q_5d555a0ff7c457d57d2d",
+        "q_e62ca4b4cd8756aa6ab8",
+        "qid_3b5a728",
+        "qid_4b75b713",
+        "qid_4b75b713__2",
+        "qid_4b75b713__3"
+      ]
     },
     {
       "q": "26. Formalists suggest that we need nothing but a good dictionary to interpret works of art.",
-      "options": ["A. True", "B. False"],
+      "options": [
+        "A. True",
+        "B. False"
+      ],
       "correct": 1,
-      "feedback": "الإجابة خاطئة (False). الشكلانيون يركزون على النص نفسه وأدواته الفنية، وليس فقط على القاموس."
+      "feedback": "الإجابة خاطئة (False). الشكلانيون يركزون على النص نفسه وأدواته الفنية، وليس فقط على القاموس.",
+      "id": "q_56031ca485c296ea2fd3",
+      "legacyIds": [
+        "id_1072717f",
+        "id_2fc456c1",
+        "id_6b385d46",
+        "q_5d400e789a990478233f",
+        "q_eb6492c9923af9c95606",
+        "qid_4c52119d",
+        "qid_4c52119d__2",
+        "qid_7b9138a7"
+      ],
+      "legacyPrimaryIds": [
+        "q_5d400e789a990478233f",
+        "q_eb6492c9923af9c95606",
+        "qid_4c52119d",
+        "qid_4c52119d__2",
+        "qid_7b9138a7"
+      ]
     },
     {
       "q": "27. ......critics suggest that a work of art open to many interpretations.",
@@ -710,7 +1774,15 @@
         "D. Old Historical"
       ],
       "correct": 0,
-      "feedback": "الإجابة الصحيحة هي Reader-response (استجابة القارئ). هم من يرون أن القارئ يمنح النص معاني متعددة."
+      "feedback": "الإجابة الصحيحة هي Reader-response (استجابة القارئ). هم من يرون أن القارئ يمنح النص معاني متعددة.",
+      "id": "q_bf5a4b26427e9af9bf58",
+      "legacyIds": [
+        "id_1433578e",
+        "qid_786de5fa"
+      ],
+      "legacyPrimaryIds": [
+        "qid_786de5fa"
+      ]
     },
     {
       "q": "28. The most comprehensive approach is.",
@@ -721,7 +1793,25 @@
         "D. Reader-response"
       ],
       "correct": 1,
-      "feedback": "الإجابة الصحيحة هي New Historicism (التاريخانية الجديدة). تعتبر الأكثر شمولاً لأنها تدمج الثقافة والسياسة والتاريخ."
+      "feedback": "الإجابة الصحيحة هي New Historicism (التاريخانية الجديدة). تعتبر الأكثر شمولاً لأنها تدمج الثقافة والسياسة والتاريخ.",
+      "id": "q_26546b82787167eb867e",
+      "legacyIds": [
+        "id_15be9efe",
+        "id_3717e63",
+        "id_4502b54a",
+        "q_1db61df92fc799e1812e",
+        "q_75ed55e6b8a7af91e74f",
+        "qid_1b9cefcf",
+        "qid_b346e87",
+        "qid_d138052"
+      ],
+      "legacyPrimaryIds": [
+        "q_1db61df92fc799e1812e",
+        "q_75ed55e6b8a7af91e74f",
+        "qid_1b9cefcf",
+        "qid_b346e87",
+        "qid_d138052"
+      ]
     },
     {
       "q": "29. ........ believe that literature is cyclic.",
@@ -732,7 +1822,25 @@
         "D. none"
       ],
       "correct": 0,
-      "feedback": "الإجابة الصحيحة هي Intertextualists (التناصيون). يرون الأدب كدائرة مستمرة لا شيء فيها جديد تماماً."
+      "feedback": "الإجابة الصحيحة هي Intertextualists (التناصيون). يرون الأدب كدائرة مستمرة لا شيء فيها جديد تماماً.",
+      "id": "q_3e08183b1ace74f2fdec",
+      "legacyIds": [
+        "id_1d014fd0",
+        "id_26f3d604",
+        "id_5f801618",
+        "q_02e0287140d3c2fd20c7",
+        "q_0a084b3587993688b05f",
+        "qid_11be2228",
+        "qid_318700b6",
+        "qid_52f17bfe"
+      ],
+      "legacyPrimaryIds": [
+        "q_02e0287140d3c2fd20c7",
+        "q_0a084b3587993688b05f",
+        "qid_11be2228",
+        "qid_318700b6",
+        "qid_52f17bfe"
+      ]
     },
     {
       "q": "30. Structuralists argue that discourse never represents because language is a system which... works not by symbolizing objects but by producing.",
@@ -743,19 +1851,73 @@
         "D. symbols"
       ],
       "correct": 1,
-      "feedback": "الإجابة الصحيحة هي differences (الاختلافات). يرى البنيويون أن اللغة تنتج المعنى عبر الاختلاف بين الوحدات الصوتية."
+      "feedback": "الإجابة الصحيحة هي differences (الاختلافات). يرى البنيويون أن اللغة تنتج المعنى عبر الاختلاف بين الوحدات الصوتية.",
+      "id": "q_88f1bd8bc4fdbbefa99f",
+      "legacyIds": [
+        "id_1b89d6d0",
+        "id_a49028",
+        "q_c5762c32ea535fd647de",
+        "qid_3e5a9e9b",
+        "qid_6e043285"
+      ],
+      "legacyPrimaryIds": [
+        "q_c5762c32ea535fd647de",
+        "qid_3e5a9e9b",
+        "qid_6e043285"
+      ]
     },
     {
       "q": "31. Plato regards the artist as an imitator of",
-      "options": ["A. life", "B. art", "C. literature", "D. imitations"],
+      "options": [
+        "A. life",
+        "B. art",
+        "C. literature",
+        "D. imitations"
+      ],
       "correct": 3,
-      "feedback": "الإجابة الصحيحة هي imitations (محاكاة المحاكاة). يرى أفلاطون أن الفنان يحاكي المحاكاة الموجودة في العالم المادي."
+      "feedback": "الإجابة الصحيحة هي imitations (محاكاة المحاكاة). يرى أفلاطون أن الفنان يحاكي المحاكاة الموجودة في العالم المادي.",
+      "id": "q_d83fe0435a78a6769897",
+      "legacyIds": [
+        "id_216b9e07",
+        "id_26f8d5d6",
+        "id_3674df7d",
+        "id_7c869109",
+        "q_7a57952a80a58f451bf8",
+        "q_9323cfcc706b1db19183",
+        "q_bd0197058956e4e9f8a1",
+        "qid_2e677300",
+        "qid_4ab2bdaf",
+        "qid_53a8f038",
+        "qid_7b0e09c1"
+      ],
+      "legacyPrimaryIds": [
+        "q_7a57952a80a58f451bf8",
+        "q_9323cfcc706b1db19183",
+        "q_bd0197058956e4e9f8a1",
+        "qid_2e677300",
+        "qid_4ab2bdaf",
+        "qid_53a8f038",
+        "qid_7b0e09c1"
+      ]
     },
     {
       "q": "32. Coleridge's philosophy and criticism transmit..",
-      "options": ["A. Italian", "B. French", "C. Arab", "D. German"],
+      "options": [
+        "A. Italian",
+        "B. French",
+        "C. Arab",
+        "D. German"
+      ],
       "correct": 3,
-      "feedback": "الإجابة الصحيحة هي German (الألمانية). نقل كولريدج الفلسفة والنظريات الألمانية إلى الثقافة البريطانية."
+      "feedback": "الإجابة الصحيحة هي German (الألمانية). نقل كولريدج الفلسفة والنظريات الألمانية إلى الثقافة البريطانية.",
+      "id": "q_9b3df3ad63980812f073",
+      "legacyIds": [
+        "id_3be98429",
+        "qid_9dd4ce6"
+      ],
+      "legacyPrimaryIds": [
+        "qid_9dd4ce6"
+      ]
     },
     {
       "q": "33. To Zola, the novelist is",
@@ -766,37 +1928,154 @@
         "D. a and b"
       ],
       "correct": 3,
-      "feedback": "الإجابة الصحيحة هي D. يرى زولا الروائي كـ 'مراقب' و 'مجرب' في آن واحد."
+      "feedback": "الإجابة الصحيحة هي D. يرى زولا الروائي كـ 'مراقب' و 'مجرب' في آن واحد.",
+      "id": "q_e2fee532c78530147cbb",
+      "legacyIds": [
+        "id_4d3d30bc",
+        "id_4d983efc",
+        "id_69e6767b",
+        "q_38ff7e2a200fa5e55c8a",
+        "q_3ed127166130ac2841e7",
+        "qid_19c2d40d",
+        "qid_5a0221c5",
+        "qid_6c7af64"
+      ],
+      "legacyPrimaryIds": [
+        "q_38ff7e2a200fa5e55c8a",
+        "q_3ed127166130ac2841e7",
+        "qid_19c2d40d",
+        "qid_5a0221c5",
+        "qid_6c7af64"
+      ]
     },
     {
       "q": "34. Zola said, \"What I want to hear on the stage is the language as it is spoken every day.\"",
-      "options": ["A. True", "B. False"],
+      "options": [
+        "A. True",
+        "B. False"
+      ],
       "correct": 0,
-      "feedback": "الإجابة صحيحة (True). زولا أراد واقعية في اللغة والتمثيل على المسرح."
+      "feedback": "الإجابة صحيحة (True). زولا أراد واقعية في اللغة والتمثيل على المسرح.",
+      "id": "q_157985a612b2e54dd4c0",
+      "legacyIds": [
+        "id_12a30085",
+        "id_4d1e2813",
+        "id_52d9c8c5",
+        "q_21eed09d8c4b0c5d9dfe",
+        "q_26ae92e73f97564357d1",
+        "qid_5ff1766a",
+        "qid_5ff1766a__2",
+        "qid_6084ab4d"
+      ],
+      "legacyPrimaryIds": [
+        "q_21eed09d8c4b0c5d9dfe",
+        "q_26ae92e73f97564357d1",
+        "qid_5ff1766a",
+        "qid_5ff1766a__2",
+        "qid_6084ab4d"
+      ]
     },
     {
       "q": "35. Shelley's Defence of Poetry is built upon an otherworldly view of representation.",
-      "options": ["A. True", "B. False"],
+      "options": [
+        "A. True",
+        "B. False"
+      ],
       "correct": 0,
-      "feedback": "الإجابة صحيحة (True). شيلي يرى أن العالم المادي مجرد ظلال للأشكال الأبدية."
+      "feedback": "الإجابة صحيحة (True). شيلي يرى أن العالم المادي مجرد ظلال للأشكال الأبدية.",
+      "id": "q_c259795e65010f752bd2",
+      "legacyIds": [
+        "id_41f3adc0",
+        "id_53965c0f",
+        "id_7dd58a00",
+        "q_656ca51367708c6489b0",
+        "q_d4bf038d9008fc6c00de",
+        "qid_3ba1f0d1",
+        "qid_3ec4ce1b",
+        "qid_3ec4ce1b__2"
+      ],
+      "legacyPrimaryIds": [
+        "q_656ca51367708c6489b0",
+        "q_d4bf038d9008fc6c00de",
+        "qid_3ba1f0d1",
+        "qid_3ec4ce1b",
+        "qid_3ec4ce1b__2"
+      ]
     },
     {
       "q": "36. The idea that poetry is a mysterious and inexplicable communication between an inspired poet and a receptive reader goes back to ...........",
-      "options": ["A. Coleridge", "B. Zola", "C. Aristotle", "D. Longinus"],
+      "options": [
+        "A. Coleridge",
+        "B. Zola",
+        "C. Aristotle",
+        "D. Longinus"
+      ],
       "correct": 3,
-      "feedback": "الإجابة الصحيحة هي Longinus (لونجينوس). فكرة الإلهام الشعري والنشوة تعود إلى لونجينوس."
+      "feedback": "الإجابة الصحيحة هي Longinus (لونجينوس). فكرة الإلهام الشعري والنشوة تعود إلى لونجينوس.",
+      "id": "q_7c50086d68352f640c9a",
+      "legacyIds": [
+        "id_1196797b",
+        "id_26002661",
+        "id_50bec4bd",
+        "q_04014cbc601ab0724f94",
+        "q_1b7649aba1e1de04893d",
+        "qid_29c18750",
+        "qid_444df836",
+        "qid_57751178"
+      ],
+      "legacyPrimaryIds": [
+        "q_04014cbc601ab0724f94",
+        "q_1b7649aba1e1de04893d",
+        "qid_29c18750",
+        "qid_444df836",
+        "qid_57751178"
+      ]
     },
     {
       "q": "37. For Dennis, literature aims to",
-      "options": ["A. instruct", "B. please", "C. elevate", "D. both a and b"],
+      "options": [
+        "A. instruct",
+        "B. please",
+        "C. elevate",
+        "D. both a and b"
+      ],
       "correct": 3,
-      "feedback": "الإجابة الصحيحة هي D. يرى دنيس أن الهدف الثانوي هو المتعة والهدف النهائي هو التعليم (الإصلاح)."
+      "feedback": "الإجابة الصحيحة هي D. يرى دنيس أن الهدف الثانوي هو المتعة والهدف النهائي هو التعليم (الإصلاح).",
+      "id": "q_59e9c25476587c96089c",
+      "legacyIds": [
+        "id_2dfe9c83",
+        "id_5a0a5e42",
+        "q_caa67237def6b208511b",
+        "qid_4842f3b",
+        "qid_797b766a"
+      ],
+      "legacyPrimaryIds": [
+        "q_caa67237def6b208511b",
+        "qid_4842f3b",
+        "qid_797b766a"
+      ]
     },
     {
       "q": "38. Saussure came up with the concepts competence and performance.",
-      "options": ["A. true", "B. false"],
+      "options": [
+        "A. true",
+        "B. false"
+      ],
       "correct": 1,
-      "feedback": "الإجابة خاطئة (False). سوسير جاء بمفهومي (Langue and parole)، أما (Competence and performance) فهما لتشومسكي."
+      "feedback": "الإجابة خاطئة (False). سوسير جاء بمفهومي (Langue and parole)، أما (Competence and performance) فهما لتشومسكي.",
+      "id": "q_048c0fcf52025fca5945",
+      "legacyIds": [
+        "id_292e8688",
+        "id_4034d630",
+        "q_4a62c628eb4bfbc4eef2",
+        "qid_21ab2531",
+        "qid_7192ee64"
+      ],
+      "legacyPrimaryIds": [
+        "q_4a62c628eb4bfbc4eef2",
+        "qid_21ab2531",
+        "qid_7192ee64"
+      ]
     },
     {
       "q": "39. For ........a text is a self-sufficient entity.",
@@ -807,31 +2086,106 @@
         "D. the Romantics"
       ],
       "correct": 0,
-      "feedback": "الإجابة الصحيحة هي Formalists (الشكلانيون). يرون النص ككيان مستقل ومكتفٍ ذاتياً."
+      "feedback": "الإجابة الصحيحة هي Formalists (الشكلانيون). يرون النص ككيان مستقل ومكتفٍ ذاتياً.",
+      "id": "q_a4b27bad05d3b17a2151",
+      "legacyIds": [
+        "id_349e2660",
+        "id_66957273",
+        "q_40d66f0cfd612c372c1c",
+        "qid_27dac1c6",
+        "qid_4a9645ef"
+      ],
+      "legacyPrimaryIds": [
+        "q_40d66f0cfd612c372c1c",
+        "qid_27dac1c6",
+        "qid_4a9645ef"
+      ]
     },
     {
       "q": "40. ..defines a poem as that species of composition that proposes to itself such delight from the whole as is compatible with the distinct gratification from each component part.",
-      "options": ["A. Dennis", "B. Longinus", "C. Coleridge", "D. Pope"],
+      "options": [
+        "A. Dennis",
+        "B. Longinus",
+        "C. Coleridge",
+        "D. Pope"
+      ],
       "correct": 2,
-      "feedback": "الإجابة الصحيحة هي Coleridge (كولريدج). هذا التعريف يرتبط بفكرته عن الوحدة العضوية."
+      "feedback": "الإجابة الصحيحة هي Coleridge (كولريدج). هذا التعريف يرتبط بفكرته عن الوحدة العضوية.",
+      "id": "q_d12c89c086fa1c3c2a6d",
+      "legacyIds": [
+        "id_2b1a0896",
+        "id_3c6d6ecf",
+        "id_41a25810",
+        "q_9bcb2c805c289221bbef",
+        "q_be1f247169d7d8d89ede",
+        "qid_5257fac4",
+        "qid_69901f51",
+        "qid_6c583bee"
+      ],
+      "legacyPrimaryIds": [
+        "q_9bcb2c805c289221bbef",
+        "q_be1f247169d7d8d89ede",
+        "qid_5257fac4",
+        "qid_69901f51",
+        "qid_6c583bee"
+      ]
     },
     {
       "q": "41. In Plato's Republic, the term 'imitatlon (mimesis) always carried........connotation.",
-      "options": ["A. confusing", "B. negative", "C. neutral", "D. objective"],
+      "options": [
+        "A. confusing",
+        "B. negative",
+        "C. neutral",
+        "D. objective"
+      ],
       "correct": 1,
-      "feedback": "الإجابة الصحيحة هي negative (سلبية). عند أفلاطون، المحاكاة دائماً انتقاص من الحقيقة."
+      "feedback": "الإجابة الصحيحة هي negative (سلبية). عند أفلاطون، المحاكاة دائماً انتقاص من الحقيقة.",
+      "id": "q_ca0593009b52dd394698",
+      "legacyIds": [
+        "id_27999e44",
+        "qid_7099ec4"
+      ],
+      "legacyPrimaryIds": [
+        "qid_7099ec4"
+      ]
     },
     {
       "q": "42. To ......... a poet is a poet owing to the Imitative nature of his work.",
-      "options": ["A. Aristotle", "B. Dennis", "C. Zola", "D. Shelley"],
+      "options": [
+        "A. Aristotle",
+        "B. Dennis",
+        "C. Zola",
+        "D. Shelley"
+      ],
       "correct": 0,
-      "feedback": "الإجابة الصحيحة هي Aristotle (أرسطو). أرسطو يرى المحاكاة قدرة بشرية طبيعية وإيجابية."
+      "feedback": "الإجابة الصحيحة هي Aristotle (أرسطو). أرسطو يرى المحاكاة قدرة بشرية طبيعية وإيجابية.",
+      "id": "q_0c9b45c2da9e3b5a988a",
+      "legacyIds": [
+        "id_317333b2",
+        "qid_18ddefb0"
+      ],
+      "legacyPrimaryIds": [
+        "qid_18ddefb0"
+      ]
     },
     {
       "q": "43. For Aristotle, the most important element in tragedy is",
-      "options": ["A. diction", "B. rhythm", "C. the plot", "D. both a and c."],
+      "options": [
+        "A. diction",
+        "B. rhythm",
+        "C. the plot",
+        "D. both a and c."
+      ],
       "correct": 2,
-      "feedback": "الإجابة الصحيحة هي the plot (الحبكة). الحبكة هي روح التراجيديا عند أرسطو."
+      "feedback": "الإجابة الصحيحة هي the plot (الحبكة). الحبكة هي روح التراجيديا عند أرسطو.",
+      "id": "q_8693338c4f9032575a77",
+      "legacyIds": [
+        "id_23fb6066",
+        "qid_230c4f02"
+      ],
+      "legacyPrimaryIds": [
+        "qid_230c4f02"
+      ]
     },
     {
       "q": "44. The most subjective approach is",
@@ -842,7 +2196,15 @@
         "D. Intertextuality"
       ],
       "correct": 2,
-      "feedback": "الإجابة الصحيحة هي Reader-Response (استجابة القارئ). لأنها تجعل معنى النص معتمداً على ذاتية القارئ."
+      "feedback": "الإجابة الصحيحة هي Reader-Response (استجابة القارئ). لأنها تجعل معنى النص معتمداً على ذاتية القارئ.",
+      "id": "q_485e50651364c2abfd0f",
+      "legacyIds": [
+        "id_1f3da799",
+        "qid_2bd61a4a"
+      ],
+      "legacyPrimaryIds": [
+        "qid_2bd61a4a"
+      ]
     },
     {
       "q": "45. A naturalist views humans as ....who respond in deterministic ways to their environment and internal drives.",
@@ -853,7 +2215,15 @@
         "D. both a and b"
       ],
       "correct": 0,
-      "feedback": "الإجابة الصحيحة هي animals (حيوانات). في المذهب الطبيعي، يُنظر للإنسان ككائن بيولوجي محكوم بغرائزه وبيئته."
+      "feedback": "الإجابة الصحيحة هي animals (حيوانات). في المذهب الطبيعي، يُنظر للإنسان ككائن بيولوجي محكوم بغرائزه وبيئته.",
+      "id": "q_56059679f01d15e6b73a",
+      "legacyIds": [
+        "id_6e03ecfc",
+        "qid_6a172c90"
+      ],
+      "legacyPrimaryIds": [
+        "qid_6a172c90"
+      ]
     },
     {
       "q": "46. Longinus is the father of:",
@@ -864,233 +2234,178 @@
         "D. none"
       ],
       "correct": 3,
-      "feedback": "الإجابة الصحيحة هي none. لونجينوس هو أب 'السامي' (Sublime) والنقد العاطفي، وليس المناهج المذكورة."
+      "feedback": "الإجابة الصحيحة هي none. لونجينوس هو أب 'السامي' (Sublime) والنقد العاطفي، وليس المناهج المذكورة.",
+      "id": "q_f32269da8bb3896b1e8b",
+      "legacyIds": [
+        "id_92c71ee",
+        "qid_3ca77517"
+      ],
+      "legacyPrimaryIds": [
+        "qid_3ca77517"
+      ]
     },
     {
       "q": "47. \"There is link and continuity as much as break and discontinuity.\" This is...........idea.",
-      "options": ["A. Aristotle's", "B. Plato's", "C. Dennis", "D. Selden's"],
+      "options": [
+        "A. Aristotle's",
+        "B. Plato's",
+        "C. Dennis",
+        "D. Selden's"
+      ],
       "correct": 3,
-      "feedback": "الإجابة الصحيحة هي Selden's (سيلدن). هذه فكرة المؤلف رامان سيلدن في كتابه عن نظريات النقد."
-    },
-    {
-      "q": "48. The skill in using metaphor is a matter of poetic genius. This is...........idea.",
-      "options": ["A. Aristotle's", "B. Plato's", "C. Dennis'", "D. Selden's"],
-      "correct": 0,
-      "feedback": "الإجابة الصحيحة هي Aristotle's (أرسطو)."
+      "feedback": "الإجابة الصحيحة هي Selden's (سيلدن). هذه فكرة المؤلف رامان سيلدن في كتابه عن نظريات النقد.",
+      "id": "q_c1485f5415ecb4ee9ffe",
+      "legacyIds": [
+        "id_7017bbcc",
+        "id_7cee6714",
+        "q_82163ded22dcb49e719b",
+        "q_ca8b7227e8ee9833707b",
+        "qid_2d46c8ad",
+        "qid_2d46c8ad__2",
+        "qid_3522a262"
+      ],
+      "legacyPrimaryIds": [
+        "q_82163ded22dcb49e719b",
+        "q_ca8b7227e8ee9833707b",
+        "qid_2d46c8ad",
+        "qid_2d46c8ad__2",
+        "qid_3522a262"
+      ]
     },
     {
       "q": "49. ......is the father of deconstruction.",
-      "options": ["A. Derrida", "B. Coleridge", "C. Shelley", "D. Plato"],
+      "options": [
+        "A. Derrida",
+        "B. Coleridge",
+        "C. Shelley",
+        "D. Plato"
+      ],
       "correct": 0,
-      "feedback": "الإجابة الصحيحة هي Derrida (ديريدا). هو المؤسس الأول للتفكيكية."
+      "feedback": "الإجابة الصحيحة هي Derrida (ديريدا). هو المؤسس الأول للتفكيكية.",
+      "id": "q_81bad19e9945302baa50",
+      "legacyIds": [
+        "id_3fc526ea",
+        "qid_11949cd7"
+      ],
+      "legacyPrimaryIds": [
+        "qid_11949cd7"
+      ]
     },
     {
       "q": "50. Langue and parole",
-      "options": ["A. true", "B. false"],
+      "options": [
+        "A. true",
+        "B. false"
+      ],
       "correct": 0,
-      "feedback": "الإجابة صحيحة (True). هذه هي المفاهيم الأساسية التي أتى بها سوسير (اللغة كنظام مقابل الكلام الفردي)."
+      "feedback": "الإجابة صحيحة (True). هذه هي المفاهيم الأساسية التي أتى بها سوسير (اللغة كنظام مقابل الكلام الفردي).",
+      "id": "q_4e1f36d8b4987d68370c",
+      "legacyIds": [
+        "id_906661b",
+        "qid_6f8196c5"
+      ],
+      "legacyPrimaryIds": [
+        "qid_6f8196c5"
+      ]
     },
     {
       "q": "Even the self-proclaimed 'objectivity' of New Criticism, which reigned during the 1940s and 1950s, was founded upon an inherited...",
-      "options": ["Victorian", "Formal", "Romantic", "Roman"],
+      "options": [
+        "Victorian",
+        "Formal",
+        "Romantic",
+        "Roman"
+      ],
       "correct": 2,
-      "feedback": "الإجابة الصحيحة هي 'Romantic'. توضح الأوراق الذهبية (قسم الدكتور بشار، نقطة 6) أن النقد الجديد (New Criticism) قام في الأساس على 'رومانسية موروثة' (inherited Romantic poetics)."
+      "feedback": "الإجابة الصحيحة هي 'Romantic'. توضح الأوراق الذهبية (قسم الدكتور بشار، نقطة 6) أن النقد الجديد (New Criticism) قام في الأساس على 'رومانسية موروثة' (inherited Romantic poetics).",
+      "id": "q_31e82bd5ac39febf9b86",
+      "legacyIds": [
+        "id_307afeea",
+        "id_696c0ba1",
+        "q_1e40923ec2bb6520a9f9",
+        "q_45a4a1ce861cb7135baa",
+        "qid_48efb152",
+        "qid_5c17947d",
+        "qid_5c17947d__2"
+      ],
+      "legacyPrimaryIds": [
+        "q_1e40923ec2bb6520a9f9",
+        "q_45a4a1ce861cb7135baa",
+        "qid_48efb152",
+        "qid_5c17947d",
+        "qid_5c17947d__2"
+      ]
     },
     {
-      "q": "Many proponents of deconstruction or Lacanian criticism write as though all critics before 1968 were naively...",
-      "options": ["subjective", "objective", "sympathetic", "logocentric"],
-      "correct": 3,
-      "feedback": "الإجابة الصحيحة هي 'logocentric'. تشير الأوراق (قسم الدكتور بشار، نقطة 7) إلى أن نقاد التفكيكية يرون أن ما قبل 1968 كانوا ساذجين في التمركز حول اللوغوس (logocentric)."
-    },
-    {
-      "q": "_____ believe that a poem means a text that has a meaning, so if the text is not read by a reader, it is a lifeless entity.",
+      "q": "Whose Poetics attempts in part to provide a scientific account of tragedy?",
       "options": [
-        "Formalists",
-        "New critics",
-        "Victorians",
-        "Reader-response critics"
+        "Plato's",
+        "Plotinus'",
+        "Longinus",
+        "Aristotle's"
       ],
       "correct": 3,
-      "feedback": "الإجابة الصحيحة هي 'Reader-response critics'. تعتمد نظرية استجابة القارئ على أن المعنى يتشكل في عقل القارئ (راجع: قسم المعلومات العامة، نقطة 12)."
-    },
-    {
-      "q": "_____ attempt to discover the code or codes underlying particular kinds of 'message'.",
-      "options": [
-        "Structuralists",
-        "Formalists",
-        "New Critics",
-        "Reader-response critics"
+      "feedback": "الإجابة الصحيحة هي 'Aristotle's'. هذا مذكور في قسم المعلومات العامة (نقطة 16) حيث أن أرسطو سعى لتقديم تحليل علمي للتراجيديا.",
+      "id": "q_419887bd41374bac8293",
+      "legacyIds": [
+        "id_2a4887f0",
+        "id_56e9b7fa",
+        "q_1d167ecb3100bb5ce599",
+        "qid_2ca8299c",
+        "qid_473eab40"
       ],
-      "correct": 0,
-      "feedback": "الإجابة الصحيحة هي 'Structuralists'. البنيوية تهتم باكتشاف الأنساق والرموز الكامنة وراء الرسائل الأدبية (راجع: قسم المعلومات العامة، نقطة 20)."
-    },
-    {
-      "q": "Plato is explicitly concerned to police literature from a distinctly political point of view.",
-      "options": ["Aristotle", "Plato", "Dennis", "Longinus"],
-      "correct": 1,
-      "feedback": "الإجابة الصحيحة هي 'Plato'. تذكر الأوراق (قسم الدكتور بشار، نقطة 15) أن أفلاطون كان مهتماً سياسياً بمراقبة الأدب."
-    },
-    {
-      "q": "Aristotle's Poetics attempts in part to provide a scientific account of tragedy.",
-      "options": ["Plato's", "Plotinus'", "Longinus", "Aristotle's"],
-      "correct": 3,
-      "feedback": "الإجابة الصحيحة هي 'Aristotle's'. هذا مذكور في قسم المعلومات العامة (نقطة 16) حيث أن أرسطو سعى لتقديم تحليل علمي للتراجيديا."
-    },
-    {
-      "q": "The essential principles of the moral and physical world order are incorporated in what Plato calls...",
-      "options": [
-        "The Allegory of the line",
-        "Poetics",
-        "Organic Unity",
-        "The essential Form of Goodness"
-      ],
-      "correct": 3,
-      "feedback": "الإجابة الصحيحة هي 'The essential Form of Goodness'. هذا ما يسميه أفلاطون عالم الإلهيات وهو مصدر كل المفاهيم (راجع: قسم التمثيل الخيالي، نقطة 4)."
+      "legacyPrimaryIds": [
+        "q_1d167ecb3100bb5ce599",
+        "qid_2ca8299c",
+        "qid_473eab40"
+      ]
     },
     {
       "q": "Succeeding Platonists defy Plato's rejection of the poets in the Republic by elevating art from the bottom to the top of the _____ ladder.",
-      "options": ["imaginative", "emotional", "realistic", "cognitive"],
-      "correct": 3,
-      "feedback": "الإجابة الصحيحة هي 'cognitive'. حيث يرى اللاحقون لأفلاطون (مثل أفلوطين) أن الفن يرتقي بالمعرفة (راجع: قسم التمثيل الخيالي، نقطة 6)."
-    },
-    {
-      "q": "The external world is an apparition of lifeless objects which only the poet's vitalizing intellect can bring to life by endowing it with what _____ called 'the depth and height of the ideal world'.",
-      "options": ["Coleridge", "Dennis", "Longinus", "Shelley"],
-      "correct": 0,
-      "feedback": "الإجابة الصحيحة هي 'Coleridge'. هو من يرى أن خيال الشاعر يبعث الحياة في الأشياء الجامدة (راجع: قسم التمثيل الخيالي، نقطة 9)."
-    },
-    {
-      "q": "_____, a Romantic poet, defended poetry saying that poets are not only the authors of language, but rather they are the institutors of laws.",
-      "options": ["Coleridge", "Shelley", "Keats", "None"],
-      "correct": 1,
-      "feedback": "الإجابة الصحيحة هي 'Shelley'. في كتابه 'دفاع عن الشعر' يصف الشعراء بأنهم مشرعو القوانين (راجع: قسم شيلي، نقطة 1)."
-    },
-    {
-      "q": "Plato banished poets from his republic because...",
       "options": [
-        "they deal with fake copies of reality",
-        "they claim they know everything",
-        "both a and b",
-        "they are responsible for waging wars"
-      ],
-      "correct": 2,
-      "feedback": "الإجابة الصحيحة هي 'both a and b'. لأنهم ينتجون نسخاً زائفة ويدعون معرفة لا يملكونها (راجع: قسم أفلاطون، نقطة 2)."
-    },
-    {
-      "q": "_____ believe in the determinacy of meaning.",
-      "options": [
-        "Reader-response critics",
-        "Formalists",
-        "Old Historical critics",
-        "both b and c"
+        "imaginative",
+        "emotional",
+        "realistic",
+        "cognitive"
       ],
       "correct": 3,
-      "feedback": "الإجابة الصحيحة هي 'both b and c'. الشكليون والنقاد التاريخيون القدامى يؤمنون بأن المعنى محدد وثابت (على عكس استجابة القارئ)."
+      "feedback": "الإجابة الصحيحة هي 'cognitive'. حيث يرى اللاحقون لأفلاطون (مثل أفلوطين) أن الفن يرتقي بالمعرفة (راجع: قسم التمثيل الخيالي، نقطة 6).",
+      "id": "q_f27a64bffba99938ef0a",
+      "legacyIds": [
+        "id_1bf61742",
+        "id_7cfaf33d",
+        "q_30d0f7f2471d5d30a982",
+        "q_e00ad833761e9540a660",
+        "qid_119d1251",
+        "qid_119d1251__2",
+        "qid_6d65b152"
+      ],
+      "legacyPrimaryIds": [
+        "q_30d0f7f2471d5d30a982",
+        "q_e00ad833761e9540a660",
+        "qid_119d1251",
+        "qid_119d1251__2",
+        "qid_6d65b152"
+      ]
     },
     {
       "q": "He provided an influential praising of formal principles when he declared that poetic imagination revealed itself in the balance or reconciliation of discordant qualities. The underlined pronoun refers to...",
-      "options": ["Coleridge", "Dennis", "Longinus", "Shelley"],
-      "correct": 0,
-      "feedback": "الإجابة الصحيحة هي 'Coleridge'. هذا المفهوم (المصالحة بين المتناقضات) جوهري في فلسفة كولريدج (راجع: قسم التمثيل الخيالي، نقطة 15)."
-    },
-    {
-      "q": "He refuses to grant absolute priority in the process of cognition either to mind or to nature.",
-      "options": ["Coleridge", "Dennis", "Longinus", "Shelley"],
-      "correct": 0,
-      "feedback": "الإجابة الصحيحة هي 'Coleridge'. لا يمنح الأولوية للعقل أو الطبيعة بشكل منفصل (راجع: قسم التمثيل الخيالي، نقطة 12)."
-    },
-    {
-      "q": "To Coleridge, the poet's task is to effect a reconciliation between a _____ and a thing.",
-      "options": ["image", "symbol", "thought", "picture"],
-      "correct": 2,
-      "feedback": "الإجابة الصحيحة هي 'thought'. كولريدج يرى مهمة الشاعر التوفيق بين الفكرة (thought) والشيء (thing) (راجع: قسم التمثيل الخيالي، نقطة 15)."
-    },
-    {
-      "q": "Formal concepts are involved when _____.",
       "options": [
-        "the critic looks closely at the artistic unity and coherence of design",
-        "theory stresses the devices of the work of art",
-        "both a and b",
-        "we investigate poems"
-      ],
-      "correct": 2,
-      "feedback": "الإجابة الصحيحة هي 'both a and b'. المفاهيم الشكلية تهتم بالوحدة الفنية والأجهزة الأدبية (راجع: قسم المعلومات العامة، نقطة 6)."
-    },
-    {
-      "q": "One of the following cannot be considered a father of Formalism:",
-      "options": ["Aristotle", "Coleridge", "Zola", "Both a and b"],
-      "correct": 2,
-      "feedback": "الإجابة الصحيحة هي 'Zola'. زولا هو أبو الطبيعية (Naturalism)، بينما أرسطو وكولريدج يعتبران آباء للشكلانية."
-    },
-    {
-      "q": "To Aristotle, the objects the imitator represents are...",
-      "options": ["images", "action", "people", "men"],
-      "correct": 1,
-      "feedback": "الإجابة الصحيحة هي 'action'. بالنسبة لأرسطو، التراجيديا هي محاكاة للفعل (action) وليست للشخصيات (راجع: قسم أرسطو، نقطة 7)."
-    },
-    {
-      "q": "'A likely _____ is always preferable to an unconvincing _____.'",
-      "options": [
-        "impossibility, possibility",
-        "possibility, impossibility",
-        "probability, possibility",
-        "probability, possibility"
-      ],
-      "correct": 1,
-      "feedback": "الإجابة الصحيحة هي 'impossibility, possibility'. هذه مقولة أرسطو الشهيرة بأن المستحيل المقنع أفضل من الممكن غير المقنع (راجع: قسم ميميسيس، نقطة 13)."
-    },
-    {
-      "q": "Zola contradicts Aristotle in arguing that the novelist represents the concrete and the individual rather than the abstract and the general.",
-      "options": ["True", "False"],
-      "correct": 0,
-      "feedback": "الإجابة الصحيحة هي 'True'. زولا يركز على الفرد والواقع الملموس عكس أرسطو الذي يركز على الكلي (راجع: قسم زولا، نقطة 23)."
-    },
-    {
-      "q": "The concept of _____ is crucial in Naturalism.",
-      "options": ["determinism", "probability", "heroism", "transcendentalism"],
-      "correct": 0,
-      "feedback": "الإجابة الصحيحة هي 'determinism'. الطبيعية تهتم بالأسباب الميكانيكية والبيولوجية الحتمية (راجع: قسم زولا، نقطة 2)."
-    },
-    {
-      "q": "'All natural philosophy is summed up in this: To know the laws which govern phenomena.'",
-      "options": ["True", "False"],
-      "correct": 0,
-      "feedback": "الإجابة الصحيحة هي 'True'. هذا اقتباس لكلود برنارد الذي أثر في منهج زولا التجريبي (راجع: قسم زولا، نقطة 23)."
-    },
-    {
-      "q": "_____ associated grand ideas with grand words, and recommended certain literary devices to achieve this effect of sublimity.",
-      "options": ["Dennis", "Longinus", "Boileau", "none"],
-      "correct": 1,
-      "feedback": "الإجابة الصحيحة هي 'Longinus'. هو من ربط الأفكار العظيمة بالكلمات العظيمة لتحقيق السمو (راجع: قسم لونجينوس، نقطة 12)."
-    },
-    {
-      "q": "Plato insists that historians deal with factuality and are after the truth; hence, they are _____ to poets. To Aristotle, poets are after _____ rather than individual situations.",
-      "options": [
-        "superior, universality",
-        "inferior, possibility",
-        "similar, probability",
-        "none"
+        "Coleridge",
+        "Dennis",
+        "Longinus",
+        "Shelley"
       ],
       "correct": 0,
-      "feedback": "الإجابة الصحيحة هي 'superior, universality'. أفلاطون يفضل المؤرخين، وأرسطو يرى أن الشعر يسعى للكلية (universality)."
-    },
-    {
-      "q": "Intertextuality suggests that we should study all...",
-      "options": ["literature", "history", "languages", "arts"],
-      "correct": 0,
-      "feedback": "الإجابة الصحيحة هي 'literature'. تناص النصوص يعني دراسة جميع الأعمال الأدبية كحلقة متصلة (راجع: قسم المعلومات العامة، نقطة 17)."
-    },
-    {
-      "q": "The most recent literary approach is New Historicism.",
-      "options": ["True", "False"],
-      "correct": 0,
-      "feedback": "الإجابة الصحيحة هي 'True'. ظهرت التاريخانية الجديدة في الثمانينيات (راجع: قسم المعلومات العامة، نقطة 18)."
-    },
-    {
-      "q": "Formalists suggest that we need nothing but a good dictionary to interpret works of art.",
-      "options": ["True", "False"],
-      "correct": 1,
-      "feedback": "الإجابة الصحيحة هي 'False'. الشكليون يهتمون بالبنية والأجهزة الفنية وليس فقط بالقاموس."
+      "feedback": "الإجابة الصحيحة هي 'Coleridge'. هذا المفهوم (المصالحة بين المتناقضات) جوهري في فلسفة كولريدج (راجع: قسم التمثيل الخيالي، نقطة 15).",
+      "id": "q_68b53458c0eb12c75020",
+      "legacyIds": [
+        "id_15d0ac0",
+        "qid_5fc5935c"
+      ],
+      "legacyPrimaryIds": [
+        "qid_5fc5935c"
+      ]
     },
     {
       "q": "_____ critics suggest that a work of art is open to many interpretations.",
@@ -1101,125 +2416,119 @@
         "Old Historical"
       ],
       "correct": 0,
-      "feedback": "الإجابة الصحيحة هي 'Reader-response'. هذه النظرية تؤمن بتعدد المعاني (راجع: قسم المعلومات العامة، نقطة 14)."
-    },
-    {
-      "q": "The most comprehensive approach is _____.",
-      "options": [
-        "New Criticism",
-        "New Historicism",
-        "Formalism",
-        "Reader-response"
+      "feedback": "الإجابة الصحيحة هي 'Reader-response'. هذه النظرية تؤمن بتعدد المعاني (راجع: قسم المعلومات العامة، نقطة 14).",
+      "id": "q_4a274ecd3a9f45825795",
+      "legacyIds": [
+        "id_1a693864",
+        "id_354f8554",
+        "q_a716d043c94bbdab1fa9",
+        "qid_15809e28",
+        "qid_6d809070"
       ],
-      "correct": 1,
-      "feedback": "الإجابة الصحيحة هي 'New Historicism'. لأن التاريخانية الجديدة تعتبر أن الثقافة تشمل كل شيء بما في ذلك الأدب والسياسة واللغة (راجع: قسم المعلومات العامة، نقطة 19)."
-    },
-    {
-      "q": "_____ believe that literature is cyclic.",
-      "options": ["Intertextualists", "Formalists", "Structuralists", "none"],
-      "correct": 0,
-      "feedback": "الإجابة الصحيحة هي 'Intertextualists'. يقولون إن الأدب يعمل كدائرة ولا يمكن ابتكار شيء جديد تماماً (راجع: قسم المعلومات العامة، نقطة 17)."
+      "legacyPrimaryIds": [
+        "q_a716d043c94bbdab1fa9",
+        "qid_15809e28",
+        "qid_6d809070"
+      ]
     },
     {
       "q": "Structuralists argue that discourse never represents because language is a system which produces...",
-      "options": ["similarities", "differences", "images", "symbols"],
+      "options": [
+        "similarities",
+        "differences",
+        "images",
+        "symbols"
+      ],
       "correct": 1,
-      "feedback": "الإجابة الصحيحة هي 'differences'. البنيوية ترى أن اللغة تنتج فروقاً بين الأصوات والكلمات لا تمثيلاً للأشياء (راجع: قسم التمثيل، نقطة 2)."
-    },
-    {
-      "q": "Plato regards the artist as an imitator of _____.",
-      "options": ["life", "art", "images", "imitations"],
-      "correct": 3,
-      "feedback": "الإجابة الصحيحة هي 'imitations'. الفنان عند أفلاطون هو مقلد للمقلد (راجع: قسم التمثيل الخيالي، نقطة 3)."
+      "feedback": "الإجابة الصحيحة هي 'differences'. البنيوية ترى أن اللغة تنتج فروقاً بين الأصوات والكلمات لا تمثيلاً للأشياء (راجع: قسم التمثيل، نقطة 2).",
+      "id": "q_9d9560070f1c4f712bd6",
+      "legacyIds": [
+        "id_5c1d3110",
+        "qid_62fc7df3"
+      ],
+      "legacyPrimaryIds": [
+        "qid_62fc7df3"
+      ]
     },
     {
       "q": "Coleridge's philosophy and criticism transmit _____ theories into British culture.",
-      "options": ["Italian", "French", "Arab", "German"],
-      "correct": 3,
-      "feedback": "الإجابة الصحيحة هي 'German'. كولريدج نقل النظريات الألمانية للثقافة البريطانية (راجع: قسم التمثيل الخيالي، نقطة 11)."
-    },
-    {
-      "q": "To Zola, the novelist is _____.",
       "options": [
-        "an observer",
-        "an experimentalist",
-        "a philosopher",
-        "a and b"
+        "Italian",
+        "French",
+        "Arab",
+        "German"
       ],
       "correct": 3,
-      "feedback": "الإجابة الصحيحة هي 'a and b'. يرى زولا أن الروائي مراقب ومجرب في آن واحد (راجع: قسم زولا، نقطة 1)."
-    },
-    {
-      "q": "Zola said, 'What I want to hear on the stage is the language as it is spoken every day.'",
-      "options": ["True", "False"],
-      "correct": 0,
-      "feedback": "الإجابة الصحيحة هي 'True'. زولا يفضل اللغة الواقعية الحية (راجع: قسم زولا، نقطة 18)."
-    },
-    {
-      "q": "Shelley's Defence of Poetry is built upon an otherworldly view of representation.",
-      "options": ["True", "False"],
-      "correct": 0,
-      "feedback": "الإجابة الصحيحة هي 'True'. يتبنى شيلي رؤية ميتافيزيقية وتجاوزية (راجع: قسم شيلي، نقطة 1)."
-    },
-    {
-      "q": "The idea that poetry is a mysterious and inexplicable communication between an inspired poet and a receptive reader goes back to _____.",
-      "options": ["Coleridge", "Zola", "Aristotle", "Longinus"],
-      "correct": 3,
-      "feedback": "الإجابة الصحيحة هي 'Longinus'. هذا المفهوم عن الإلهام يعود للونجينوس (راجع: قسم نظريات العاطفة، نقطة 4)."
-    },
-    {
-      "q": "For Dennis, literature aims to _____.",
-      "options": ["instruct", "please", "elevate", "both a and b"],
-      "correct": 3,
-      "feedback": "الإجابة الصحيحة هي 'both a and b'. دنيس يرى أن هدف الأدب هو الإمتاع والتعليم (راجع: قسم دنيس، نقطة 2)."
-    },
-    {
-      "q": "Saussure came up with the concepts 'competence' and 'performance'.",
-      "options": ["True", "False"],
-      "correct": 1,
-      "feedback": "الإجابة الصحيحة هي 'False'. سوسير صاغ مصطلحي 'اللغة' (langue) و'الكلام' (parole). مفاهيم الكفاءة والأداء تعود لتشومسكي."
-    },
-    {
-      "q": "For _____ a text is a self-sufficient entity.",
-      "options": ["Formalists", "Marxists", "Platonists", "the Romantics"],
-      "correct": 0,
-      "feedback": "الإجابة الصحيحة هي 'Formalists'. الشكليون يرون النص كياناً مستقلاً ومكتفياً بذاته."
-    },
-    {
-      "q": "_____ defines a poem as that species of composition that proposes to itself such delight from the whole as is compatible with the distinct gratification from each component part.",
-      "options": ["Dennis", "Longinus", "Coleridge", "Pope"],
-      "correct": 2,
-      "feedback": "الإجابة الصحيحة هي 'Coleridge'. هذا تعريف كولريدج للقصيدة الذي يركز على المتعة والوحدة العضوية."
-    },
-    {
-      "q": "\"There is link and continuity as much as break and discontinuity.\" This is....idea.",
-      "options": ["Aristotle's", "Plato's", "Dennis'", "Selden's"],
-      "correct": 3,
-      "feedback": "هذه فكرة رامان سيلدن (Selden) كما ورد في مقدمة كتابه 'نظرية النقد'، حيث يرى أن هناك روابط واستمرارية بقدر ما هناك انقطاعات في تاريخ النقد[cite: 1, 2]."
-    },
-    {
-      "q": "The skill in using metaphor is a matter of poetic genius. This is.... idea.",
-      "options": ["Aristotle's", "Plato's", "Dennis'", "Selden's"],
-      "correct": 0,
-      "feedback": "حسب أرسطو، القدرة على استخدام الاستعارة (المجاز) هي علامة على العبقرية الشعرية[cite: 1]."
+      "feedback": "الإجابة الصحيحة هي 'German'. كولريدج نقل النظريات الألمانية للثقافة البريطانية (راجع: قسم التمثيل الخيالي، نقطة 11).",
+      "id": "q_3cd4884a01be3da1cd44",
+      "legacyIds": [
+        "id_30feeda1",
+        "id_3776dd97",
+        "id_6fc4854a",
+        "q_5c50aacfc66c3effc7e1",
+        "q_787c9da60a7f987992f4",
+        "qid_3473c475",
+        "qid_3f74fdaa",
+        "qid_5d47e0e2"
+      ],
+      "legacyPrimaryIds": [
+        "q_5c50aacfc66c3effc7e1",
+        "q_787c9da60a7f987992f4",
+        "qid_3473c475",
+        "qid_3f74fdaa",
+        "qid_5d47e0e2"
+      ]
     },
     {
       "q": "............ the father of deconstruction.",
-      "options": ["Derrida", "Coleridge", "Shelley", "Plato"],
+      "options": [
+        "Derrida",
+        "Coleridge",
+        "Shelley",
+        "Plato"
+      ],
       "correct": 0,
-      "feedback": "جاك دريدا (Jacques Derrida) هو الأب الروحي للتفكيكية[cite: 1]."
-    },
-    {
-      "q": "Even the self-proclaimed 'objectivity' of New Criticism, which reigned during the 1940s and 1950s, was founded upon an inherited '......' poetics.",
-      "options": ["Victorian", "Formal", "Romantic", "Roman"],
-      "correct": 2,
-      "feedback": "يؤكد النص أن النقد الجديد رغم ادعائه الموضوعية، كان قائماً على 'شعرية رومانسية' متوارثة[cite: 2]."
+      "feedback": "جاك دريدا (Jacques Derrida) هو الأب الروحي للتفكيكية[cite: 1].",
+      "id": "q_7b21d2f1e6a4ab88a354",
+      "legacyIds": [
+        "id_64474b75",
+        "q_6b085f016a23087948fb",
+        "qid_50a4e0f8",
+        "qid_50a4e0f8__2"
+      ],
+      "legacyPrimaryIds": [
+        "q_6b085f016a23087948fb",
+        "qid_50a4e0f8",
+        "qid_50a4e0f8__2"
+      ]
     },
     {
       "q": "Many proponents of deconstruction or Lacanian criticism write as though all critics before 1968 were naively'........' and are therefore completely superseded by the new vision of post-structuralism.",
-      "options": ["subjective", "objective", "sympathetic", "logocentric"],
+      "options": [
+        "subjective",
+        "objective",
+        "sympathetic",
+        "logocentric"
+      ],
       "correct": 3,
-      "feedback": "يُتهم النقاد قبل 1968 بأنهم كانوا 'مركزية لوغوسية' (logocentric) بسذاجة، وهو مصطلح لدريدا يعني الانحياز للمركز أو الأصل[cite: 1, 2]."
+      "feedback": "يُتهم النقاد قبل 1968 بأنهم كانوا 'مركزية لوغوسية' (logocentric) بسذاجة، وهو مصطلح لدريدا يعني الانحياز للمركز أو الأصل[cite: 1, 2].",
+      "id": "q_75c6ceb92bb5b77706e0",
+      "legacyIds": [
+        "id_6384de0",
+        "id_7ff660f2",
+        "q_2ada735374a07944080a",
+        "q_69f054c1c9a132705e2f",
+        "qid_49d08862",
+        "qid_49d08862__2",
+        "qid_6e205ed0"
+      ],
+      "legacyPrimaryIds": [
+        "q_2ada735374a07944080a",
+        "q_69f054c1c9a132705e2f",
+        "qid_49d08862",
+        "qid_49d08862__2",
+        "qid_6e205ed0"
+      ]
     },
     {
       "q": "............believe that a poem means a text that has meaning, so if the text is not read by a reader, it is a lifeless entity. The reader alone gives meaning to the text.",
@@ -1230,119 +2539,75 @@
         "Reader-response critics"
       ],
       "correct": 3,
-      "feedback": "نقاد 'استجابة القارئ' (Reader-response) يرون أن القارئ هو من يضفي المعنى على النص، وبدونه يبقى النص كياناً بلا حياة[cite: 1]."
-    },
-    {
-      "q": "............attempt to discover the code or codes underlying particular kinds of 'message'.",
-      "options": ["Structuralists", "Formalists", "New Critics", "none"],
-      "correct": 0,
-      "feedback": "البنيويون (Structuralists) يسعون لاكتشاف الشفرة (code) التي تكمن تحت أي رسالة أدبية[cite: 1, 2]."
+      "feedback": "نقاد 'استجابة القارئ' (Reader-response) يرون أن القارئ هو من يضفي المعنى على النص، وبدونه يبقى النص كياناً بلا حياة[cite: 1].",
+      "id": "q_16cdb933d68c04da4ed3",
+      "legacyIds": [
+        "id_35293659",
+        "q_8bc74b74e4ee15ebe170",
+        "qid_63ed41bb",
+        "qid_63ed41bb__2"
+      ],
+      "legacyPrimaryIds": [
+        "q_8bc74b74e4ee15ebe170",
+        "qid_63ed41bb",
+        "qid_63ed41bb__2"
+      ]
     },
     {
       "q": "........ is explicitly concerned to police literature from a distinctly political point of view.",
-      "options": ["Aristotle", "Plato", "Dennis", "Longinus"],
+      "options": [
+        "Aristotle",
+        "Plato",
+        "Dennis",
+        "Longinus"
+      ],
       "correct": 1,
-      "feedback": "أفلاطون (Plato) كان مهتماً صراحةً بـ 'مراقبة' الأدب (police literature) من منظور سياسي، لذا دعا لنفي الشعراء[cite: 1, 2]."
+      "feedback": "These variants ask the same author-identification fact; Plato is the answer.",
+      "id": "q_1a5fac62ff998f2ec666",
+      "legacyIds": [
+        "id_3a0bd957",
+        "id_4ab78d21",
+        "id_55a07edf",
+        "q_1fa0e628744b1efd2568",
+        "q_7e7175c0163ca5fb2a07",
+        "q_ccd855f78272c82ade8d",
+        "qid_1bafba03",
+        "qid_258475e3",
+        "qid_2fdc7a03",
+        "qid_2fdc7a03__2"
+      ],
+      "legacyPrimaryIds": [
+        "q_1fa0e628744b1efd2568",
+        "q_7e7175c0163ca5fb2a07",
+        "q_ccd855f78272c82ade8d",
+        "qid_1bafba03",
+        "qid_258475e3",
+        "qid_2fdc7a03",
+        "qid_2fdc7a03__2"
+      ]
     },
     {
       "q": "........... Poetics attempts in part to provide a scientific account of tragedy.",
-      "options": ["Plato's", "Plotinus", "Longinus'", "Aristotle's"],
-      "correct": 3,
-      "feedback": "كتاب 'فن الشعر' (Poetics) لأرسطو يحاول تقديم تفسير علمي للمأساة (التراجيديا)[cite: 1, 2]."
-    },
-    {
-      "q": "The essential principles of the moral and physical world order are incorporated in what Plato calls.......",
       "options": [
-        "The Allegory of the Line",
-        "Poetics",
-        "Organic Unity",
-        "the essential Form of Goodness"
+        "Plato's",
+        "Plotinus",
+        "Longinus'",
+        "Aristotle's"
       ],
       "correct": 3,
-      "feedback": "يسمي أفلاطون عالم المثل والجوهر الإلهي بـ 'جوهر الخير' (the essential Form of Goodness)[cite: 1]."
-    },
-    {
-      "q": "Succeeding Platonists defy Plato's rejection of the poets in the Republic by elevating art from the bottom to the top of the....... ladder,",
-      "options": ["Imaginative", "emotional", "realistic", "cognitive"],
-      "correct": 3,
-      "feedback": "أتباع أفلاطون اللاحقون (مثل أفلوطين) رفعوا مكانة الفن من أسفل إلى أعلى 'سلم المعرفة' (Cognitive Ladder)[cite: 1]."
-    },
-
-    {
-      "q": "\"There is link and continuity as much as break and discontinuity.\" This is....idea.",
-      "options": ["Aristotle's", "Plato's", "Dennis'", "Selden's"],
-      "correct": 3,
-      "feedback": "هذه فكرة رامان سيلدن كما ورد في مقدمة كتابه 'نظرية النقد' حول تداخل الاستمرارية والانقطاع في تاريخ النقد."
-    },
-    {
-      "q": "The skill in using metaphor is a matter of poetic genius. This is.... idea.",
-      "options": ["Aristotle's", "Plato's", "Dennis'", "Selden's"],
-      "correct": 0,
-      "feedback": "يرى أرسطو أن القدرة على استخدام الاستعارة هي دليل على العبقرية الشعرية."
-    },
-    {
-      "q": "............ the father of deconstruction.",
-      "options": ["Derrida", "Coleridge", "Shelley", "Plato"],
-      "correct": 0,
-      "feedback": "جاك دريدا هو المؤسس الفعلي لمدرسة التفكيكية."
-    },
-    {
-      "q": "Even the self-proclaimed 'objectivity' of New Criticism, which reigned during the 1940s and 1950s, was founded upon an inherited '......' poetics.",
-      "options": ["Victorian", "Formal", "Romantic", "Roman"],
-      "correct": 2,
-      "feedback": "يشير النص إلى أن النقد الجديد اعتمد في جوهره على شعرية رومانسية موروثة."
-    },
-    {
-      "q": "Many proponents of deconstruction or Lacanian criticism write as though all critics before 1968 were naively'........' and are therefore completely superseded by the new vision of post-structuralism.",
-      "options": ["subjective", "objective", "sympathetic", "logocentric"],
-      "correct": 3,
-      "feedback": "المصطلح المقصود هنا هو 'المركزية اللوغوسية' (logocentric) التي انتقدها دريدا."
-    },
-    {
-      "q": "............believe that a poem means a text that has meaning, so if the text is not read by a reader, it is a lifeless entity. The reader alone gives meaning to the text.",
-      "options": [
-        "Formalists",
-        "New critics",
-        "Victorians",
-        "Reader-response critics"
+      "feedback": "كتاب 'فن الشعر' (Poetics) لأرسطو يحاول تقديم تفسير علمي للمأساة (التراجيديا)[cite: 1, 2].",
+      "id": "q_cbc7e58f58461a7c951c",
+      "legacyIds": [
+        "id_61c411c3",
+        "q_9137da409826dd9f66c2",
+        "qid_1e384c0b",
+        "qid_1e384c0b__2"
       ],
-      "correct": 3,
-      "feedback": "تركز نظرية 'استجابة القارئ' على دور القارئ في إيجاد معنى للنص."
-    },
-    {
-      "q": "............attempt to discover the code or codes underlying particular kinds of 'message'.",
-      "options": ["Structuralists", "Formalists", "New Critics", "none"],
-      "correct": 0,
-      "feedback": "تهتم البنيوية بالكشف عن الشفرات اللغوية والثقافية تحت النصوص."
-    },
-    {
-      "q": "........ is explicitly concerned to police literature from a distinctly political point of view.",
-      "options": ["Aristotle", "Plato", "Dennis", "Longinus"],
-      "correct": 1,
-      "feedback": "أفلاطون دعا إلى مراقبة الأدب سياسياً خوفاً من تأثيره على الدولة."
-    },
-    {
-      "q": "........... Poetics attempts in part to provide a scientific account of tragedy.",
-      "options": ["Plato's", "Plotinus", "Longinus'", "Aristotle's"],
-      "correct": 3,
-      "feedback": "كتاب 'فن الشعر' لأرسطو هو محاولة لتقديم دراسة علمية للمأساة."
-    },
-    {
-      "q": "The essential principles of the moral and physical world order are incorporated in what Plato calls.......",
-      "options": [
-        "The Allegory of the Line",
-        "Poetics",
-        "Organic Unity",
-        "the essential Form of Goodness"
-      ],
-      "correct": 3,
-      "feedback": "يربط أفلاطون النظام الأخلاقي والكوني بجوهر الخير (Form of Goodness)."
-    },
-    {
-      "q": "Succeeding Platonists defy Plato's rejection of the poets in the Republic by elevating art from the bottom to the top of the....... ladder,",
-      "options": ["Imaginative", "emotional", "realistic", "cognitive"],
-      "correct": 3,
-      "feedback": "رفع الأفلاطونيون المحدثون الفن إلى أعلى سلم المعرفة (Cognitive ladder)."
+      "legacyPrimaryIds": [
+        "q_9137da409826dd9f66c2",
+        "qid_1e384c0b",
+        "qid_1e384c0b__2"
+      ]
     },
     {
       "q": "According to Plotinus, the artist does not merely imitate the physical world but accesses the.......",
@@ -1353,13 +2618,34 @@
         "historical facts"
       ],
       "correct": 0,
-      "feedback": "يرى أفلوطين أن الفنان يصل إلى 'العقل الإلهي' بدلاً من محاكاة العالم المادي فقط."
+      "feedback": "يرى أفلوطين أن الفنان يصل إلى 'العقل الإلهي' بدلاً من محاكاة العالم المادي فقط.",
+      "id": "q_c600d1af1f113c5d783a",
+      "legacyIds": [
+        "id_7c6bbd2",
+        "qid_12070840"
+      ],
+      "legacyPrimaryIds": [
+        "qid_12070840"
+      ]
     },
     {
       "q": "Longinus considers the sublime as the expression of a....... soul.",
-      "options": ["weak", "great", "common", "small"],
+      "options": [
+        "weak",
+        "great",
+        "common",
+        "small"
+      ],
       "correct": 1,
-      "feedback": "السامي (Sublime) عند لونجينوس هو انعكاس لروح عظيمة."
+      "feedback": "السامي (Sublime) عند لونجينوس هو انعكاس لروح عظيمة.",
+      "id": "q_ff19bda1a7289fa5ef8a",
+      "legacyIds": [
+        "id_19c8cfa5",
+        "qid_10eeda5"
+      ],
+      "legacyPrimaryIds": [
+        "qid_10eeda5"
+      ]
     },
     {
       "q": "The main concern of the 'New Critics' was to treat the text as.......",
@@ -1370,13 +2656,34 @@
         "social critique"
       ],
       "correct": 1,
-      "feedback": "يرى النقاد الجدد أن النص كيان مكتفٍ بذاته (autotelic)."
+      "feedback": "يرى النقاد الجدد أن النص كيان مكتفٍ بذاته (autotelic).",
+      "id": "q_ec8d7b285bd6607283a3",
+      "legacyIds": [
+        "id_cc450b6",
+        "qid_5809d29b"
+      ],
+      "legacyPrimaryIds": [
+        "qid_5809d29b"
+      ]
     },
     {
       "q": "The 'intentional fallacy' is a concept introduced by.......",
-      "options": ["Wimsatt and Beardsley", "Derrida", "Plato", "Aristotle"],
+      "options": [
+        "Wimsatt and Beardsley",
+        "Derrida",
+        "Plato",
+        "Aristotle"
+      ],
       "correct": 0,
-      "feedback": "مغالطة القصد (Intentional Fallacy) مفهوم أرساه ويمسات وبيردزلي."
+      "feedback": "مغالطة القصد (Intentional Fallacy) مفهوم أرساه ويمسات وبيردزلي.",
+      "id": "q_68e7478c13dd0f1e1630",
+      "legacyIds": [
+        "id_7f9486dc",
+        "qid_27b37db5"
+      ],
+      "legacyPrimaryIds": [
+        "qid_27b37db5"
+      ]
     },
     {
       "q": "The 'affective fallacy' confuses the text with its.......",
@@ -1387,61 +2694,186 @@
         "historical context"
       ],
       "correct": 2,
-      "feedback": "مغالطة التأثير (Affective Fallacy) تعني الخلط بين النص وأثره العاطفي على القارئ."
+      "feedback": "مغالطة التأثير (Affective Fallacy) تعني الخلط بين النص وأثره العاطفي على القارئ.",
+      "id": "q_d2038a1f889cc9905552",
+      "legacyIds": [
+        "id_6338511c",
+        "qid_b91d5cc"
+      ],
+      "legacyPrimaryIds": [
+        "qid_b91d5cc"
+      ]
     },
     {
       "q": "Structuralism is based on the linguistic theory of.......",
-      "options": ["Chomsky", "Saussure", "Jakobson", "Barthes"],
+      "options": [
+        "Chomsky",
+        "Saussure",
+        "Jakobson",
+        "Barthes"
+      ],
       "correct": 1,
-      "feedback": "تعتمد البنيوية بشكل أساسي على نظريات فرديناند دي سوسير اللغوية."
+      "feedback": "تعتمد البنيوية بشكل أساسي على نظريات فرديناند دي سوسير اللغوية.",
+      "id": "q_d28413010f58229533c5",
+      "legacyIds": [
+        "id_13ba0a96",
+        "qid_26b3ff10"
+      ],
+      "legacyPrimaryIds": [
+        "qid_26b3ff10"
+      ]
     },
     {
       "q": "For Saussure, language is a system of.......",
-      "options": ["signs", "sounds", "feelings", "rules"],
+      "options": [
+        "signs",
+        "sounds",
+        "feelings",
+        "rules"
+      ],
       "correct": 0,
-      "feedback": "اللغة عند سوسير هي نظام من العلامات (signs)."
+      "feedback": "اللغة عند سوسير هي نظام من العلامات (signs).",
+      "id": "q_7eaf0a3bb3aff6eea0a9",
+      "legacyIds": [
+        "id_627dc735",
+        "qid_272fb641"
+      ],
+      "legacyPrimaryIds": [
+        "qid_272fb641"
+      ]
     },
     {
       "q": "In deconstruction, meaning is always.......",
-      "options": ["fixed", "deferred", "clear", "absent"],
+      "options": [
+        "fixed",
+        "deferred",
+        "clear",
+        "absent"
+      ],
       "correct": 1,
-      "feedback": "في التفكيكية، المعنى مؤجل (deferred) دائماً ولا يصل إلى استقرار."
+      "feedback": "في التفكيكية، المعنى مؤجل (deferred) دائماً ولا يصل إلى استقرار.",
+      "id": "q_21d51b1fd65bda16c776",
+      "legacyIds": [
+        "id_27433ef",
+        "qid_360b38ad"
+      ],
+      "legacyPrimaryIds": [
+        "qid_360b38ad"
+      ]
     },
     {
       "q": "The 'Death of the Author' is an essay by.......",
-      "options": ["Barthes", "Foucault", "Derrida", "Lacan"],
+      "options": [
+        "Barthes",
+        "Foucault",
+        "Derrida",
+        "Lacan"
+      ],
       "correct": 0,
-      "feedback": "مقال 'موت المؤلف' هو من أشهر أعمال رولان بارت."
+      "feedback": "مقال 'موت المؤلف' هو من أشهر أعمال رولان بارت.",
+      "id": "q_bcb84c3a4edb370067d7",
+      "legacyIds": [
+        "id_fbccfd1",
+        "qid_ad87ca1"
+      ],
+      "legacyPrimaryIds": [
+        "qid_ad87ca1"
+      ]
     },
     {
       "q": "New Historicism emerged in the.......",
-      "options": ["1950s", "1960s", "1980s", "1990s"],
+      "options": [
+        "1950s",
+        "1960s",
+        "1980s",
+        "1990s"
+      ],
       "correct": 2,
-      "feedback": "برز النقد التاريخي الجديد في ثمانينيات القرن العشرين."
+      "feedback": "برز النقد التاريخي الجديد في ثمانينيات القرن العشرين.",
+      "id": "q_005ad807c46c9c8011c3",
+      "legacyIds": [
+        "id_11c8289d",
+        "qid_2c36474d"
+      ],
+      "legacyPrimaryIds": [
+        "qid_2c36474d"
+      ]
     },
     {
       "q": "Post-colonial criticism is mainly concerned with the issues of.......",
-      "options": ["imperialism", "class", "gender", "psychoanalysis"],
+      "options": [
+        "imperialism",
+        "class",
+        "gender",
+        "psychoanalysis"
+      ],
       "correct": 0,
-      "feedback": "النقد ما بعد الاستعماري يهتم بقضايا الإمبريالية وتأثيراتها."
+      "feedback": "النقد ما بعد الاستعماري يهتم بقضايا الإمبريالية وتأثيراتها.",
+      "id": "q_91f4db4d423cb76c32d0",
+      "legacyIds": [
+        "id_38188337",
+        "qid_2a537766"
+      ],
+      "legacyPrimaryIds": [
+        "qid_2a537766"
+      ]
     },
     {
       "q": "The concept of 'Other' is central to....... criticism.",
-      "options": ["Feminist", "Marxist", "Post-colonial", "Formalist"],
+      "options": [
+        "Feminist",
+        "Marxist",
+        "Post-colonial",
+        "Formalist"
+      ],
       "correct": 2,
-      "feedback": "مفهوم 'الآخر' محوري في النقد ما بعد الاستعماري لتحليل علاقة المستعمر بالمستعمَر."
+      "feedback": "مفهوم 'الآخر' محوري في النقد ما بعد الاستعماري لتحليل علاقة المستعمر بالمستعمَر.",
+      "id": "q_c1ff05b6d3df06db58a4",
+      "legacyIds": [
+        "id_412c3c77",
+        "qid_1f398309"
+      ],
+      "legacyPrimaryIds": [
+        "qid_1f398309"
+      ]
     },
     {
       "q": "Marxist criticism focuses on the relationship between literature and.......",
-      "options": ["ideology", "psychology", "biology", "language"],
+      "options": [
+        "ideology",
+        "psychology",
+        "biology",
+        "language"
+      ],
       "correct": 0,
-      "feedback": "يربط النقد الماركسي الأدب بالأيديولوجيا والظروف الاقتصادية."
+      "feedback": "يربط النقد الماركسي الأدب بالأيديولوجيا والظروف الاقتصادية.",
+      "id": "q_a277c61b27ff5556fd91",
+      "legacyIds": [
+        "id_4a4deee7",
+        "qid_2021acbb"
+      ],
+      "legacyPrimaryIds": [
+        "qid_2021acbb"
+      ]
     },
     {
       "q": "Feminist criticism analyzes literature through the lens of.......",
-      "options": ["patriarchy", "capitalism", "nationalism", "religion"],
+      "options": [
+        "patriarchy",
+        "capitalism",
+        "nationalism",
+        "religion"
+      ],
       "correct": 0,
-      "feedback": "يحلل النقد النسوي الأدب من منظور السلطة الأبوية (Patriarchy)."
+      "feedback": "يحلل النقد النسوي الأدب من منظور السلطة الأبوية (Patriarchy).",
+      "id": "q_4e1be25668049e44afd2",
+      "legacyIds": [
+        "id_eab5f7f",
+        "qid_3d458f1"
+      ],
+      "legacyPrimaryIds": [
+        "qid_3d458f1"
+      ]
     },
     {
       "q": "The concept of 'Gynocriticism' was coined by.......",
@@ -1452,13 +2884,34 @@
         "Simone de Beauvoir"
       ],
       "correct": 0,
-      "feedback": "مصطلح 'النقد النسائي' (Gynocriticism) وضعته إيلين شوالتر."
+      "feedback": "مصطلح 'النقد النسائي' (Gynocriticism) وضعته إيلين شوالتر.",
+      "id": "q_bb163311cf6107d1860b",
+      "legacyIds": [
+        "id_4751b62e",
+        "qid_3ec23e52"
+      ],
+      "legacyPrimaryIds": [
+        "qid_3ec23e52"
+      ]
     },
     {
       "q": "Psychoanalytic criticism is primarily based on the theories of.......",
-      "options": ["Freud", "Marx", "Darwin", "Nietsche"],
+      "options": [
+        "Freud",
+        "Marx",
+        "Darwin",
+        "Nietsche"
+      ],
       "correct": 0,
-      "feedback": "يعتمد النقد النفسي في جوهره على نظريات سيغموند فرويد."
+      "feedback": "يعتمد النقد النفسي في جوهره على نظريات سيغموند فرويد.",
+      "id": "q_9291158510717de32b88",
+      "legacyIds": [
+        "id_4fbc647a",
+        "qid_5a29fa6a"
+      ],
+      "legacyPrimaryIds": [
+        "qid_5a29fa6a"
+      ]
     },
     {
       "q": "In psychoanalytic terms, the 'unconscious' is the repository of.......",
@@ -1469,7 +2922,15 @@
         "social rules"
       ],
       "correct": 0,
-      "feedback": "اللاشعور هو مستودع الرغبات المكبوتة حسب التحليل النفسي."
+      "feedback": "اللاشعور هو مستودع الرغبات المكبوتة حسب التحليل النفسي.",
+      "id": "q_b3e638acd7a78e652cb1",
+      "legacyIds": [
+        "id_18e658e4",
+        "qid_77267071"
+      ],
+      "legacyPrimaryIds": [
+        "qid_77267071"
+      ]
     },
     {
       "q": "Archetypal criticism was popularized by.......",
@@ -1480,7 +2941,15 @@
         "T.S. Eliot"
       ],
       "correct": 0,
-      "feedback": "نورثروب فراي هو من نشر النقد النمطي (Archetypal) في الدراسات الأدبية."
+      "feedback": "نورثروب فراي هو من نشر النقد النمطي (Archetypal) في الدراسات الأدبية.",
+      "id": "q_c348e9f6946d18323055",
+      "legacyIds": [
+        "id_5a540200",
+        "qid_17016edf"
+      ],
+      "legacyPrimaryIds": [
+        "qid_17016edf"
+      ]
     },
     {
       "q": "The 'collective unconscious' is a concept by.......",
@@ -1491,13 +2960,34 @@
         "Alfred Adler"
       ],
       "correct": 0,
-      "feedback": "اللاشعور الجمعي هو مصطلح ابتكره عالم النفس كارل يونغ."
+      "feedback": "اللاشعور الجمعي هو مصطلح ابتكره عالم النفس كارل يونغ.",
+      "id": "q_24e23292daaa05088d55",
+      "legacyIds": [
+        "id_4a9564e4",
+        "qid_9b7b93a"
+      ],
+      "legacyPrimaryIds": [
+        "qid_9b7b93a"
+      ]
     },
     {
       "q": "Reader-response theory shifted the focus from the text to the.......",
-      "options": ["author", "reader", "history", "language"],
+      "options": [
+        "author",
+        "reader",
+        "history",
+        "language"
+      ],
       "correct": 1,
-      "feedback": "نقلت نظرية استجابة القارئ التركيز من النص إلى القارئ."
+      "feedback": "نقلت نظرية استجابة القارئ التركيز من النص إلى القارئ.",
+      "id": "q_87ca6feec4287e3fc492",
+      "legacyIds": [
+        "id_40727f2b",
+        "qid_18ac1b38"
+      ],
+      "legacyPrimaryIds": [
+        "qid_18ac1b38"
+      ]
     },
     {
       "q": "Stanley Fish is a major figure in....... theory.",
@@ -1508,7 +2998,15 @@
         "New Historicism"
       ],
       "correct": 0,
-      "feedback": "ستانلي فيش شخصية بارزة في مدرسة استجابة القارئ."
+      "feedback": "ستانلي فيش شخصية بارزة في مدرسة استجابة القارئ.",
+      "id": "q_db716d6baa0c6608ba19",
+      "legacyIds": [
+        "id_617a1f9e",
+        "qid_5160098"
+      ],
+      "legacyPrimaryIds": [
+        "qid_5160098"
+      ]
     },
     {
       "q": "The 'interpretive community' is a term used by.......",
@@ -1519,13 +3017,34 @@
         "Jacques Derrida"
       ],
       "correct": 0,
-      "feedback": "مصطلح 'الجماعة التأويلية' يرتبط بستانلي فيش."
+      "feedback": "مصطلح 'الجماعة التأويلية' يرتبط بستانلي فيش.",
+      "id": "q_e0fc93d7578ce92e7bfd",
+      "legacyIds": [
+        "id_573c5c62",
+        "qid_2e612758"
+      ],
+      "legacyPrimaryIds": [
+        "qid_2e612758"
+      ]
     },
     {
       "q": "Formalism emerged in.......",
-      "options": ["Russia", "France", "USA", "England"],
+      "options": [
+        "Russia",
+        "France",
+        "USA",
+        "England"
+      ],
       "correct": 0,
-      "feedback": "نشأت الشكلانية في روسيا في أوائل القرن العشرين."
+      "feedback": "نشأت الشكلانية في روسيا في أوائل القرن العشرين.",
+      "id": "q_06ce4bdd153b51f8993a",
+      "legacyIds": [
+        "id_6a199b5a",
+        "qid_1ac9ae52"
+      ],
+      "legacyPrimaryIds": [
+        "qid_1ac9ae52"
+      ]
     },
     {
       "q": "The concept of 'defamiliarization' is central to.......",
@@ -1536,25 +3055,72 @@
         "Post-colonialism"
       ],
       "correct": 0,
-      "feedback": "التغريب (Defamiliarization) هو المفهوم الجوهري في الشكلانية الروسية."
+      "feedback": "التغريب (Defamiliarization) هو المفهوم الجوهري في الشكلانية الروسية.",
+      "id": "q_2c3a661ce2873934229c",
+      "legacyIds": [
+        "id_27adf24a",
+        "qid_1e1ebf64"
+      ],
+      "legacyPrimaryIds": [
+        "qid_1e1ebf64"
+      ]
     },
     {
       "q": "Viktor Shklovsky is a key figure in.......",
-      "options": ["Formalism", "Marxism", "Feminism", "Psychoanalysis"],
+      "options": [
+        "Formalism",
+        "Marxism",
+        "Feminism",
+        "Psychoanalysis"
+      ],
       "correct": 0,
-      "feedback": "شكلوفسكي أحد أبرز رواد الشكلانية."
+      "feedback": "شكلوفسكي أحد أبرز رواد الشكلانية.",
+      "id": "q_92508e277b2c69d79a5c",
+      "legacyIds": [
+        "id_b9c70cb",
+        "qid_2894ffba"
+      ],
+      "legacyPrimaryIds": [
+        "qid_2894ffba"
+      ]
     },
     {
       "q": "The 'base and superstructure' model is derived from.......",
-      "options": ["Marxism", "Structuralism", "Feminism", "New Criticism"],
+      "options": [
+        "Marxism",
+        "Structuralism",
+        "Feminism",
+        "New Criticism"
+      ],
       "correct": 0,
-      "feedback": "نموذج القاعدة والبناء الفوقي أساسي في النظرية الماركسية."
+      "feedback": "نموذج القاعدة والبناء الفوقي أساسي في النظرية الماركسية.",
+      "id": "q_9d1c7dc2cb52cb8649ee",
+      "legacyIds": [
+        "id_2c96ccdf",
+        "qid_5001d4f3"
+      ],
+      "legacyPrimaryIds": [
+        "qid_5001d4f3"
+      ]
     },
     {
       "q": "According to Marxist critics, art can be a form of.......",
-      "options": ["resistance", "leisure", "religion", "science"],
+      "options": [
+        "resistance",
+        "leisure",
+        "religion",
+        "science"
+      ],
       "correct": 0,
-      "feedback": "يرى النقاد الماركسيون أن الأدب قد يكون وسيلة للمقاومة الاجتماعية."
+      "feedback": "يرى النقاد الماركسيون أن الأدب قد يكون وسيلة للمقاومة الاجتماعية.",
+      "id": "q_d8080fd38b05b67a6e2a",
+      "legacyIds": [
+        "id_eeec5",
+        "qid_5f2a4132"
+      ],
+      "legacyPrimaryIds": [
+        "qid_5f2a4132"
+      ]
     },
     {
       "q": "Edward Said's 'Orientalism' is a landmark text in.......",
@@ -1565,7 +3131,15 @@
         "Formalism"
       ],
       "correct": 0,
-      "feedback": "كتاب 'الاستشراق' لإدوارد سعيد هو حجر الزاوية في النقد ما بعد الاستعماري."
+      "feedback": "كتاب 'الاستشراق' لإدوارد سعيد هو حجر الزاوية في النقد ما بعد الاستعماري.",
+      "id": "q_81e0cb39adbe8d86e242",
+      "legacyIds": [
+        "id_346ebbd8",
+        "qid_447decb4"
+      ],
+      "legacyPrimaryIds": [
+        "qid_447decb4"
+      ]
     },
     {
       "q": "The 'mimetic' theory of art is associated with.......",
@@ -1576,31 +3150,91 @@
         "Freud and Jung"
       ],
       "correct": 0,
-      "feedback": "نظرية المحاكاة ترتبط تاريخياً بأفلاطون وأرسطو."
+      "feedback": "نظرية المحاكاة ترتبط تاريخياً بأفلاطون وأرسطو.",
+      "id": "q_9d0d8d70e523a7a98231",
+      "legacyIds": [
+        "id_68e583d1",
+        "qid_27f78d7e"
+      ],
+      "legacyPrimaryIds": [
+        "qid_27f78d7e"
+      ]
     },
     {
       "q": "The 'expressive' theory of art focuses on the.......",
-      "options": ["author", "reader", "text", "context"],
+      "options": [
+        "author",
+        "reader",
+        "text",
+        "context"
+      ],
       "correct": 0,
-      "feedback": "النظرية التعبيرية تركز على مشاعر المؤلف وعالمه الداخلي."
+      "feedback": "النظرية التعبيرية تركز على مشاعر المؤلف وعالمه الداخلي.",
+      "id": "q_ae4deb63d4eea2f2638d",
+      "legacyIds": [
+        "id_7ab0a9e4",
+        "qid_2a2e9860"
+      ],
+      "legacyPrimaryIds": [
+        "qid_2a2e9860"
+      ]
     },
     {
       "q": "The 'pragmatic' theory of art focuses on the.......",
-      "options": ["reader", "author", "language", "structure"],
+      "options": [
+        "reader",
+        "author",
+        "language",
+        "structure"
+      ],
       "correct": 0,
-      "feedback": "النظرية التداولية (الذرائعية) تركز على تأثير الأدب على الجمهور."
+      "feedback": "النظرية التداولية (الذرائعية) تركز على تأثير الأدب على الجمهور.",
+      "id": "q_ba5c71b47b5f080e669b",
+      "legacyIds": [
+        "id_1c0e2609",
+        "qid_34cc11a6"
+      ],
+      "legacyPrimaryIds": [
+        "qid_34cc11a6"
+      ]
     },
     {
       "q": "The 'objective' theory of art focuses on the.......",
-      "options": ["text", "author", "reader", "history"],
+      "options": [
+        "text",
+        "author",
+        "reader",
+        "history"
+      ],
       "correct": 0,
-      "feedback": "النظرية الموضوعية تركز على النص ككيان مستقل (مثل النقد الجديد)."
+      "feedback": "النظرية الموضوعية تركز على النص ككيان مستقل (مثل النقد الجديد).",
+      "id": "q_0c779e91cdb79deb26ca",
+      "legacyIds": [
+        "id_456133aa",
+        "qid_406cbe9f"
+      ],
+      "legacyPrimaryIds": [
+        "qid_406cbe9f"
+      ]
     },
     {
       "q": "T.S. Eliot's 'Tradition and the Individual Talent' promotes the concept of.......",
-      "options": ["impersonality", "emotion", "biography", "politics"],
+      "options": [
+        "impersonality",
+        "emotion",
+        "biography",
+        "politics"
+      ],
       "correct": 0,
-      "feedback": "إليوت يدافع في مقاله عن ضرورة 'اللاتشخيصية' (impersonality) في الشعر."
+      "feedback": "إليوت يدافع في مقاله عن ضرورة 'اللاتشخيصية' (impersonality) في الشعر.",
+      "id": "q_2b4501395b27c6c2abfc",
+      "legacyIds": [
+        "id_53d209d1",
+        "qid_20af655c"
+      ],
+      "legacyPrimaryIds": [
+        "qid_20af655c"
+      ]
     },
     {
       "q": "The 'objective correlative' is a term used by.......",
@@ -1611,7 +3245,15 @@
         "Matthew Arnold"
       ],
       "correct": 0,
-      "feedback": "المعادل الموضوعي هو مصطلح شهير لـ ت. س. إليوت."
+      "feedback": "المعادل الموضوعي هو مصطلح شهير لـ ت. س. إليوت.",
+      "id": "q_563a01efdb3db63e6334",
+      "legacyIds": [
+        "id_64c71159",
+        "qid_286eec5f"
+      ],
+      "legacyPrimaryIds": [
+        "qid_286eec5f"
+      ]
     },
     {
       "q": "I.A. Richards' 'Practical Criticism' emphasizes the importance of.......",
@@ -1622,13 +3264,34 @@
         "psychoanalysis"
       ],
       "correct": 0,
-      "feedback": "ركز ريتشاردز في النقد التطبيقي على القراءة الفاحصة للنص."
+      "feedback": "ركز ريتشاردز في النقد التطبيقي على القراءة الفاحصة للنص.",
+      "id": "q_3d8dac7e518394584eea",
+      "legacyIds": [
+        "id_a601ca0",
+        "qid_3e345f90"
+      ],
+      "legacyPrimaryIds": [
+        "qid_3e345f90"
+      ]
     },
     {
       "q": "New Criticism is often associated with the.......",
-      "options": ["USA", "Russia", "France", "Germany"],
+      "options": [
+        "USA",
+        "Russia",
+        "France",
+        "Germany"
+      ],
       "correct": 0,
-      "feedback": "ارتبطت حركة النقد الجديد بشكل رئيسي بالولايات المتحدة."
+      "feedback": "ارتبطت حركة النقد الجديد بشكل رئيسي بالولايات المتحدة.",
+      "id": "q_bc32047b6c62f02deb91",
+      "legacyIds": [
+        "id_504f32fa",
+        "qid_608b7b04"
+      ],
+      "legacyPrimaryIds": [
+        "qid_608b7b04"
+      ]
     },
     {
       "q": "For the New Critics, the poem is a.......",
@@ -1639,165 +3302,127 @@
         "personal diary"
       ],
       "correct": 0,
-      "feedback": "استخدم النقاد الجدد تشبيه 'الجرة المصنوعة جيداً' (well-wrought urn) للدلالة على اكتمال النص."
+      "feedback": "استخدم النقاد الجدد تشبيه 'الجرة المصنوعة جيداً' (well-wrought urn) للدلالة على اكتمال النص.",
+      "id": "q_371cb31e854af9adb88d",
+      "legacyIds": [
+        "id_37bc387c",
+        "qid_5c43561a"
+      ],
+      "legacyPrimaryIds": [
+        "qid_5c43561a"
+      ]
     },
     {
       "q": "Deconstruction challenges the....... of traditional criticism.",
-      "options": ["binaries", "emotions", "intentions", "history"],
+      "options": [
+        "binaries",
+        "emotions",
+        "intentions",
+        "history"
+      ],
       "correct": 0,
-      "feedback": "التفكيكية تتحدى الثنائيات الضدية (binaries) التي اعتمد عليها النقد التقليدي."
+      "feedback": "التفكيكية تتحدى الثنائيات الضدية (binaries) التي اعتمد عليها النقد التقليدي.",
+      "id": "q_407b4cba392c941a665f",
+      "legacyIds": [
+        "id_a02adba",
+        "qid_62683ca0"
+      ],
+      "legacyPrimaryIds": [
+        "qid_62683ca0"
+      ]
     },
     {
       "q": "Post-structuralism moves beyond the constraints of.......",
-      "options": ["Structuralism", "Romanticism", "Marxism", "Feminism"],
-      "correct": 0,
-      "feedback": "تجاوزت ما بعد البنيوية حدود وقيود البنيوية الصارمة."
-    },
-
-    {
-      "q": "Formal concepts are involved when......",
       "options": [
-        "the critic looks closely at the artistic design and devices of poems",
-        "theory stresses the unity and coherence of the work of art",
-        "both a and b",
-        "we investigate readers' responses"
+        "Structuralism",
+        "Romanticism",
+        "Marxism",
+        "Feminism"
       ],
-      "correct": 2,
-      "feedback": "الإجابة الصحيحة هي (c)، لأن المفاهيم الشكلية (Formalism) تهتم بتصميم العمل الفني وأجهزته وكذلك تركز على الوحدة والتماسك."
-    },
-    {
-      "q": "To Coleridge, the poet's task is to effect a reconciliation between a....and a thing,",
-      "options": ["image", "symbol", "thought", "picture"],
-      "correct": 2,
-      "feedback": "الإجابة الصحيحة هي (c) thought، حيث يرى كولريدج أن مهمة الشاعر هي التوفيق بين الفكرة والشيء."
-    },
-    {
-      "q": "...attempt to discover the code or codes underlying particular kinds of 'message'.",
-      "options": ["Structuralists", "Formalists", "New Critics", "none"],
       "correct": 0,
-      "feedback": "الإجابة الصحيحة هي (a) Structuralists، لأن البنيويين هم من يسعون لاكتشاف الشفرات الكامنة وراء الرسالة."
-    },
-    {
-      "q": "Many proponents of deconstruction or Lacanian criticism write as though all critics before 1968 were naively ......... and are therefore completely superseded by the new vision of post-structuralism.",
-      "options": ["subjective", "objective", "sympathetic", "logocentric"],
-      "correct": 3,
-      "feedback": "الإجابة الصحيحة هي (d) logocentric، حيث يرى نقاد ما بعد البنيوية أن النقاد السابقين كانوا غارقين في المركزية اللوجوسية."
-    },
-    {
-      "q": "The essential principles of the moral and physical world order are incorporated in what Plato calls........",
-      "options": [
-        "The Allegory of the Line",
-        "Poetics",
-        "Organic Unity",
-        "the essential Form of Goodness"
+      "feedback": "تجاوزت ما بعد البنيوية حدود وقيود البنيوية الصارمة.",
+      "id": "q_e9d3b8736efafe9d002f",
+      "legacyIds": [
+        "id_64c5ba6b",
+        "qid_10420dee"
       ],
-      "correct": 3,
-      "feedback": "الإجابة الصحيحة هي (d) the essential Form of Goodness، وهو المصطلح الذي يستخدمه أفلاطون لوصف النظام الأخلاقي والكوني."
+      "legacyPrimaryIds": [
+        "qid_10420dee"
+      ]
     },
     {
       "q": "Aristotle's Poetics attempts in part to provide a scientific account of",
-      "options": ["drama", "melodrama", "comedy", "tragedy"],
-      "correct": 3,
-      "feedback": "الإجابة الصحيحة هي (d) tragedy، حيث يركز كتاب أرسطو 'فن الشعر' بشكل أساسي على تحليل التراجيديا."
-    },
-    {
-      "q": "To Aristotle, the objects the imitator represents are",
-      "options": ["images", "actions", "people", "men"],
-      "correct": 1,
-      "feedback": "الإجابة الصحيحة هي (b) actions، لأن أرسطو يرى أن المحاكاة في التراجيديا هي محاكاة للفعل."
-    },
-    {
-      "q": "........ defines a poem as that species of composition that proposes to itself such delight from the whole as is compatible with the distinct gratification from each component part.",
-      "options": ["Dennis", "Longinus", "Coleridge", "Pope"],
-      "correct": 2,
-      "feedback": "الإجابة الصحيحة هي (c) Coleridge، وهو تعريفه الشهير للقصيدة الذي يجمع بين المتعة الكلية ومتعة الأجزاء."
-    },
-    {
-      "q": "Coleridge's philosophy and criticism transmit.... theories into British culture.",
-      "options": ["Italian", "French", "Arab", "German"],
-      "correct": 3,
-      "feedback": "الإجابة الصحيحة هي (d) German، حيث تأثر كولريدج بالفلسفة والنظريات الألمانية ونقلها للثقافة البريطانية."
-    },
-    {
-      "q": "He refuses to grant absolute priority in the process of cognition either to mind or to nature.",
-      "options": ["Coleridge", "Dennis", "Longinus", "Shelley"],
-      "correct": 0,
-      "feedback": "الإجابة الصحيحة هي (a) Coleridge، فهو يرى توازناً بين العقل والطبيعة."
-    },
-    {
-      "q": "........ believe in the determinacy of meaning.",
       "options": [
-        "reader-response critics",
-        "Formalists",
-        "Old Historical critics",
-        "both b and c"
+        "drama",
+        "melodrama",
+        "comedy",
+        "tragedy"
       ],
       "correct": 3,
-      "feedback": "الإجابة الصحيحة هي (d) both b and c، حيث يؤمن كل من الشكلانيين والنقاد التاريخيين القدامى بوجود معنى محدد وثابت للنص."
-    },
-    {
-      "q": "The most recent literary approach is New Historicism.",
-      "options": ["true", "false"],
-      "correct": 0,
-      "feedback": "الإجابة صحيحة (a) True، حيث تُعتبر التاريخانية الجديدة من أحدث المناهج المذكورة."
-    },
-    {
-      "q": "Plato insists that historians deal with factuality and are after the truth; hence, they are .......to poets. To Aristotle, poets are after ........ rather than individual situations.",
-      "options": [
-        "superior, universality",
-        "inferior, possibility",
-        "similar, probability",
-        "none"
+      "feedback": "الإجابة الصحيحة هي (d) tragedy، حيث يركز كتاب أرسطو 'فن الشعر' بشكل أساسي على تحليل التراجيديا.",
+      "id": "q_82b68722ec4629b7f6c3",
+      "legacyIds": [
+        "id_1e3153ad",
+        "qid_26635b38"
       ],
-      "correct": 0,
-      "feedback": "الإجابة الصحيحة هي (a) superior, universality، حيث يرى أفلاطون المؤرخين متفوقين، بينما يرى أرسطو أن الشعر يهدف للشمولية."
+      "legacyPrimaryIds": [
+        "qid_26635b38"
+      ]
     },
     {
       "q": "New Historicists suggest that history is subjective.",
-      "options": ["true", "false"],
+      "options": [
+        "true",
+        "false"
+      ],
       "correct": 0,
-      "feedback": "الإجابة الصحيحة هي (a) True، حيث تؤكد التاريخانية الجديدة أن قراءتنا للتاريخ خاضعة للذاتية."
-    },
-    {
-      "q": "Plato regards the artist as an imitator of",
-      "options": ["life", "art", "literature", "imitations"],
-      "correct": 3,
-      "feedback": "الإجابة الصحيحة هي (d) imitations، لأن أفلاطون يرى الفن محاكاة للمحاكاة (نسخة من نسخة)."
+      "feedback": "الإجابة الصحيحة هي (a) True، حيث تؤكد التاريخانية الجديدة أن قراءتنا للتاريخ خاضعة للذاتية.",
+      "id": "q_aaa031a595dbdee30a44",
+      "legacyIds": [
+        "id_65a39088",
+        "qid_ef100fd"
+      ],
+      "legacyPrimaryIds": [
+        "qid_ef100fd"
+      ]
     },
     {
       "q": "For ........ reality resides in the world of goodness.",
-      "options": ["Plotinus", "Plato", "Coleridge", "Aristotle"],
+      "options": [
+        "Plotinus",
+        "Plato",
+        "Coleridge",
+        "Aristotle"
+      ],
       "correct": 1,
-      "feedback": "الإجابة الصحيحة هي (b) Plato، الذي وضع الحقيقة في عالم الأفكار أو عالم الخير."
-    },
-    {
-      "q": "Coleridge provided an influential praising of formal principles when he declared that poetic imagination revealed itself \"in the balance or reconciliation of ........ qualities.\"",
-      "options": ["absolute", "discordant", "artistic", "abstract"],
-      "correct": 1,
-      "feedback": "الإجابة الصحيحة هي (b) discordant، حيث يتحدث كولريدج عن التوفيق بين المتناقضات."
+      "feedback": "الإجابة الصحيحة هي (b) Plato، الذي وضع الحقيقة في عالم الأفكار أو عالم الخير.",
+      "id": "q_8d4ef16020810ed3161b",
+      "legacyIds": [
+        "id_277c49d",
+        "qid_6f23fda7"
+      ],
+      "legacyPrimaryIds": [
+        "qid_6f23fda7"
+      ]
     },
     {
       "q": "Plato is explicitly concerned to ........ literature from a distinctly political point of view.",
-      "options": ["divert", "diverge", "police", "elevate"],
-      "correct": 2,
-      "feedback": "الإجابة الصحيحة هي (c) police، بمعنى مراقبة وتقييد الأدب سياسياً."
-    },
-    {
-      "q": "'A likely ....... is always preferable to an unconvincing..",
       "options": [
-        "possibility, impossibility",
-        "impossibility, possibility",
-        "probability, possibility",
-        "none"
+        "divert",
+        "diverge",
+        "police",
+        "elevate"
       ],
-      "correct": 1,
-      "feedback": "الإجابة الصحيحة هي (b) impossibility, possibility، وهي مقولة أرسطو الشهيرة حول تفضيل المستحيل المحتمل على الممكن غير المقنع."
-    },
-    {
-      "q": "One of the following cannot be considered a father of Formalism;",
-      "options": ["Aristotle", "Coleridge", "Zola", "both a and b"],
       "correct": 2,
-      "feedback": "الإجابة الصحيحة هي (c) Zola، فهو رائد الطبيعية (Naturalism) وليس الشكلانية."
+      "feedback": "الإجابة الصحيحة هي (c) police، بمعنى مراقبة وتقييد الأدب سياسياً.",
+      "id": "q_f6839099cf4955422aea",
+      "legacyIds": [
+        "id_5690c83",
+        "qid_4ec3bbbf"
+      ],
+      "legacyPrimaryIds": [
+        "qid_4ec3bbbf"
+      ]
     },
     {
       "q": "........ is written by Pope.",
@@ -1808,19 +3433,53 @@
         "On the Sublime"
       ],
       "correct": 0,
-      "feedback": "الإجابة الصحيحة هي (a) An Essay on Criticism."
+      "feedback": "الإجابة الصحيحة هي (a) An Essay on Criticism.",
+      "id": "q_a9dd46a8b8da35ee437c",
+      "legacyIds": [
+        "id_3df8ca48",
+        "qid_46e01690"
+      ],
+      "legacyPrimaryIds": [
+        "qid_46e01690"
+      ]
     },
     {
       "q": "Longinus declares that art can ........ enhance natural ability.",
-      "options": ["often", "never", "rarely", "always"],
+      "options": [
+        "often",
+        "never",
+        "rarely",
+        "always"
+      ],
       "correct": 3,
-      "feedback": "الإجابة الصحيحة هي (d) always، يرى لونجينوس أن الفن يعزز الموهبة دائماً."
+      "feedback": "الإجابة الصحيحة هي (d) always، يرى لونجينوس أن الفن يعزز الموهبة دائماً.",
+      "id": "q_b3a20f7d418ce5d63e7e",
+      "legacyIds": [
+        "id_6b192b52",
+        "qid_760065bd"
+      ],
+      "legacyPrimaryIds": [
+        "qid_760065bd"
+      ]
     },
     {
       "q": "Longinus states that the gift of genius may be innate but it must be moulded and trained by emulation of the sublime writers of the",
-      "options": ["future", "present", "past", "near future"],
+      "options": [
+        "future",
+        "present",
+        "past",
+        "near future"
+      ],
       "correct": 2,
-      "feedback": "الإجابة الصحيحة هي (c) past، أي محاكاة كتاب العصور السابقة."
+      "feedback": "الإجابة الصحيحة هي (c) past، أي محاكاة كتاب العصور السابقة.",
+      "id": "q_0a5753673cf3b12b8abf",
+      "legacyIds": [
+        "id_1b6ccd71",
+        "qid_6a261452"
+      ],
+      "legacyPrimaryIds": [
+        "qid_6a261452"
+      ]
     },
     {
       "q": "Zola believes that \"........\"",
@@ -1831,7 +3490,15 @@
         "experiment indicates & observation teaches"
       ],
       "correct": 2,
-      "feedback": "الإجابة الصحيحة هي (c)، الملاحظة تشير والتجربة تُعلم."
+      "feedback": "الإجابة الصحيحة هي (c)، الملاحظة تشير والتجربة تُعلم.",
+      "id": "q_974f5f3cfe7f1fb1ad13",
+      "legacyIds": [
+        "id_1c6f02ae",
+        "qid_23a998b2"
+      ],
+      "legacyPrimaryIds": [
+        "qid_23a998b2"
+      ]
     },
     {
       "q": "The experimental novelist is the one who........ facts.",
@@ -1842,19 +3509,34 @@
         "accepts proven"
       ],
       "correct": 3,
-      "feedback": "الإجابة الصحيحة هي (d) accepts proven، الروائي التجريبي يعتمد على الحقائق المثبتة."
+      "feedback": "الإجابة الصحيحة هي (d) accepts proven، الروائي التجريبي يعتمد على الحقائق المثبتة.",
+      "id": "q_3bed580498371aa7b8ce",
+      "legacyIds": [
+        "id_58aafd19",
+        "qid_59ef0b61"
+      ],
+      "legacyPrimaryIds": [
+        "qid_59ef0b61"
+      ]
     },
     {
       "q": "Zola's essay is titled \"........ on the Stage.\"",
-      "options": ["Naturalism", "Realism", "Criticism", "Romanticism"],
+      "options": [
+        "Naturalism",
+        "Realism",
+        "Criticism",
+        "Romanticism"
+      ],
       "correct": 0,
-      "feedback": "الإجابة الصحيحة هي (a) Naturalism."
-    },
-    {
-      "q": "Grounds of Criticism is written by",
-      "options": ["Longinus", "Pope", "Shelley", "Dennis"],
-      "correct": 3,
-      "feedback": "الإجابة الصحيحة هي (d) Dennis."
+      "feedback": "الإجابة الصحيحة هي (a) Naturalism.",
+      "id": "q_98013a3568345392697b",
+      "legacyIds": [
+        "id_5b50b513",
+        "qid_647796b"
+      ],
+      "legacyPrimaryIds": [
+        "qid_647796b"
+      ]
     },
     {
       "q": "Great ideas, vehement emotions, nobility of phrase and spectacle are all sources of the sublime except.",
@@ -1865,7 +3547,20 @@
         "nobility of phrase"
       ],
       "correct": 1,
-      "feedback": "الإجابة الصحيحة هي (b) spectacle، فهي ليست من مصادر السامي عند لونجينوس."
+      "feedback": "الإجابة الصحيحة هي (b) spectacle، فهي ليست من مصادر السامي عند لونجينوس.",
+      "id": "q_e287cb4ff727314e82ee",
+      "legacyIds": [
+        "id_1be55a18",
+        "id_7557bbf5",
+        "q_47ec8fb52604d9b80bea",
+        "qid_45358e57",
+        "qid_78846289"
+      ],
+      "legacyPrimaryIds": [
+        "q_47ec8fb52604d9b80bea",
+        "qid_45358e57",
+        "qid_78846289"
+      ]
     },
     {
       "q": "Pope asks us to make \"........ works your study & delight/ ........ them by day & ........ by night.\"",
@@ -1876,7 +3571,15 @@
         "Shakespeare's, Meditate, read"
       ],
       "correct": 0,
-      "feedback": "الإجابة الصحيحة هي (a)، وهي الأبيات الشهيرة للشاعر بوب."
+      "feedback": "الإجابة الصحيحة هي (a)، وهي الأبيات الشهيرة للشاعر بوب.",
+      "id": "q_edc437775cfe90c674b4",
+      "legacyIds": [
+        "id_6bfdb0f7",
+        "qid_768d5499"
+      ],
+      "legacyPrimaryIds": [
+        "qid_768d5499"
+      ]
     },
     {
       "q": "Shelley says that poetry adds ........ to that which is most ........",
@@ -1887,25 +3590,53 @@
         "beauty, ugly"
       ],
       "correct": 0,
-      "feedback": "الإجابة الصحيحة هي (a) beauty, deformed، الشعر يضيف الجمال لما هو مشوه."
+      "feedback": "الإجابة الصحيحة هي (a) beauty, deformed، الشعر يضيف الجمال لما هو مشوه.",
+      "id": "q_c7907161c1fa64127e1e",
+      "legacyIds": [
+        "id_348e60e8",
+        "qid_2ef1071e"
+      ],
+      "legacyPrimaryIds": [
+        "qid_2ef1071e"
+      ]
     },
     {
       "q": "Longinus states that poets redeem all their mistakes by true........",
-      "options": ["pleasure", "excellence", "delight", "wisdom"],
+      "options": [
+        "pleasure",
+        "excellence",
+        "delight",
+        "wisdom"
+      ],
       "correct": 1,
-      "feedback": "الإجابة الصحيحة هي (b) excellence."
+      "feedback": "الإجابة الصحيحة هي (b) excellence.",
+      "id": "q_6b2adb5c8f84490d18c1",
+      "legacyIds": [
+        "id_2b1e5e9a",
+        "qid_1c8a9c02"
+      ],
+      "legacyPrimaryIds": [
+        "qid_1c8a9c02"
+      ]
     },
     {
       "q": "According to Shelley, poetry's secret alchemy turns to ........ gold the poisonous waters which flow from death through life.",
-      "options": ["drinkable", "potable", "portable", "A & B"],
+      "options": [
+        "drinkable",
+        "potable",
+        "portable",
+        "A & B"
+      ],
       "correct": 3,
-      "feedback": "الإجابة الصحيحة هي (d) A & B، كلاهما يعني قابل للشرب (drinkable/potable)."
-    },
-    {
-      "q": "Longinus calls poets........",
-      "options": ["demigods", "gods", "writers of genius", "A & C"],
-      "correct": 3,
-      "feedback": "الإجابة الصحيحة هي (d) A & C، أطلق عليهم أنصاف آلهة وكتاب عباقرة."
+      "feedback": "الإجابة الصحيحة هي (d) A & B، كلاهما يعني قابل للشرب (drinkable/potable).",
+      "id": "q_d1b641308f4263bc12aa",
+      "legacyIds": [
+        "id_3d3210da",
+        "qid_48ac2a1c"
+      ],
+      "legacyPrimaryIds": [
+        "qid_48ac2a1c"
+      ]
     },
     {
       "q": "The true sublime turns ........ to ........",
@@ -1916,19 +3647,53 @@
         "physical words, physical gold"
       ],
       "correct": 1,
-      "feedback": "الإجابة الصحيحة هي (b) earthly words, spiritual gold، تحويل الكلمات الدنيوية إلى ذهب روحي."
+      "feedback": "الإجابة الصحيحة هي (b) earthly words, spiritual gold، تحويل الكلمات الدنيوية إلى ذهب روحي.",
+      "id": "q_0bf94ba1a102b7463642",
+      "legacyIds": [
+        "id_284b17f8",
+        "qid_68f6fbc3"
+      ],
+      "legacyPrimaryIds": [
+        "qid_68f6fbc3"
+      ]
     },
     {
       "q": "Shelley declares that Lord Bacon's language has a sweet and majestic rhythm to satisfy the ........",
-      "options": ["sense", "ear", "eye", "body"],
+      "options": [
+        "sense",
+        "ear",
+        "eye",
+        "body"
+      ],
       "correct": 0,
-      "feedback": "الإجابة الصحيحة هي (a) sense."
+      "feedback": "الإجابة الصحيحة هي (a) sense.",
+      "id": "q_a41d22c548f0ff2b4895",
+      "legacyIds": [
+        "id_6d4c51ba",
+        "qid_2a3fdc4b"
+      ],
+      "legacyPrimaryIds": [
+        "qid_2a3fdc4b"
+      ]
     },
     {
       "q": "Zola tried to apply the ........ methods recommended in Claude Bernard's medical theories.",
-      "options": ["literary", "logical", "artistic", "experimental"],
+      "options": [
+        "literary",
+        "logical",
+        "artistic",
+        "experimental"
+      ],
       "correct": 3,
-      "feedback": "الإجابة الصحيحة هي (d) experimental."
+      "feedback": "الإجابة الصحيحة هي (d) experimental.",
+      "id": "q_9bab66d7d75439511a53",
+      "legacyIds": [
+        "id_246fd621",
+        "qid_2331af44"
+      ],
+      "legacyPrimaryIds": [
+        "qid_2331af44"
+      ]
     },
     {
       "q": "Zola's essay is titled \"The ........ Novel.\"",
@@ -1939,19 +3704,53 @@
         "Expressionistic"
       ],
       "correct": 2,
-      "feedback": "الإجابة الصحيحة هي (c) Experimental."
+      "feedback": "الإجابة الصحيحة هي (c) Experimental.",
+      "id": "q_b118319fcd36a7d4dd1b",
+      "legacyIds": [
+        "id_9e19459",
+        "qid_2252b44a"
+      ],
+      "legacyPrimaryIds": [
+        "qid_2252b44a"
+      ]
     },
     {
       "q": "For Shelley, a/an ........ poem, is a fountain forever overflowing with the waters of wisdom and delight.",
-      "options": ["legitimate", "illegitimate", "legible", "great"],
+      "options": [
+        "legitimate",
+        "illegitimate",
+        "legible",
+        "great"
+      ],
       "correct": 3,
-      "feedback": "الإجابة الصحيحة هي (d) great."
+      "feedback": "الإجابة الصحيحة هي (d) great.",
+      "id": "q_f4e7887ba190d2aa6acd",
+      "legacyIds": [
+        "id_40581d5f",
+        "qid_4664e326"
+      ],
+      "legacyPrimaryIds": [
+        "qid_4664e326"
+      ]
     },
     {
       "q": "Sublimity is characterized by its ........ effects on readers.",
-      "options": ["irresistible", "resistible", "irresponsible", "resistable"],
+      "options": [
+        "irresistible",
+        "resistible",
+        "irresponsible",
+        "resistable"
+      ],
       "correct": 0,
-      "feedback": "الإجابة الصحيحة هي (a) irresistible، التأثير الذي لا يُقاوم."
+      "feedback": "الإجابة الصحيحة هي (a) irresistible، التأثير الذي لا يُقاوم.",
+      "id": "q_db2e15b7488258838c74",
+      "legacyIds": [
+        "id_279b38e7",
+        "qid_6f283e39"
+      ],
+      "legacyPrimaryIds": [
+        "qid_6f283e39"
+      ]
     },
     {
       "q": "Shelley believes that ........ say \"I will compose poetry.\"",
@@ -1962,136 +3761,34 @@
         "B & C"
       ],
       "correct": 3,
-      "feedback": "الإجابة الصحيحة هي (d) B & C، لا يستطيع الإنسان ولا حتى أعظم شاعر أن يقرر ذلك بملء إرادته لأن الإلهام لا يُطلب."
-    },
-
-    {
-      "q": "Zola contradicts Aristotle in arguing that the novelist represents the concrete and the individual rather than the abstract and the general.",
-      "options": ["true", "false"],
-      "correct": 0,
-      "feedback": "صحيح. زولا يجادل بأن الروائي يمثل 'الملموس والفردي' على عكس أرسطو الذي ركز على 'العام والكلي'."
-    },
-    {
-      "q": "The concept of [ _____ ] is crucial in Naturalism.",
-      "options": ["determinism", "probability", "heroism", "transcendentalism"],
-      "correct": 0,
-      "feedback": "الإجابة الصحيحة هي 'الحتمية' (determinism)، وهي جوهر المذهب الطبيعي (Naturalism) حيث تؤثر البيئة والوراثة على سلوك الشخصيات."
-    },
-    {
-      "q": "'All natural philosophy is summed up in this: To know the laws which govern phenomena.'",
-      "options": ["true", "false"],
-      "correct": 0,
-      "feedback": "صحيح. هذه العبارة المنسوبة لكلود برنار تلخص جوهر المنهج التجريبي في الفلسفة الطبيعية."
-    },
-    {
-      "q": "[ _____ ] associated grand ideas with grand words, and recommended certain literary devices to achieve this effect of sublimity.",
-      "options": ["Dennis", "Longinus", "Boileau", "none"],
-      "correct": 1,
-      "feedback": "لونجينوس (Longinus) هو من ربط بين الأفكار العظيمة والكلمات العظيمة لتحقيق تأثير 'السامي' (sublimity)."
-    },
-    {
-      "q": "Plato insists that historians deal with factuality and are after the truth; hence, they are [ _____ ] to poets. To Aristotle, poets are after [ _____ ] rather than individual situations.",
-      "options": [
-        "superior, universality",
-        "inferior, possibility",
-        "similar, probability",
-        "none"
+      "feedback": "الإجابة الصحيحة هي (d) B & C، لا يستطيع الإنسان ولا حتى أعظم شاعر أن يقرر ذلك بملء إرادته لأن الإلهام لا يُطلب.",
+      "id": "q_5f32884c9c028ec235ac",
+      "legacyIds": [
+        "id_33950b2b",
+        "qid_6824c60d"
       ],
-      "correct": 0,
-      "feedback": "وفقاً لأفلاطون، المؤرخون أفضل من الشعراء لأنهم يتعاملون مع الحقائق، بينما يرى أرسطو أن الشعراء يهتمون بـ 'الكلية' (universality) وليس فقط الحالات الفردية."
+      "legacyPrimaryIds": [
+        "qid_6824c60d"
+      ]
     },
     {
       "q": "Intertextuality suggests that we should study all [ _____ ] to analyze a work of art.",
-      "options": ["literature", "history", "languages", "arts"],
-      "correct": 0,
-      "feedback": "التناص (Intertextuality) يقترح دراسة كل الأدب لفهم النص، حيث أن النصوص مرتبطة ببعضها البعض."
-    },
-    {
-      "q": "The most recent literary approach is New Historicism.",
-      "options": ["true", "false"],
-      "correct": 0,
-      "feedback": "صحيح. التاريخانية الجديدة (New Historicism) تعتبر من المناهج النقدية الأحدث مقارنة بالمناهج التقليدية المذكورة."
-    },
-    {
-      "q": "Formalists suggest that we need nothing but a good dictionary to interpret works of art.",
-      "options": ["true", "false"],
-      "correct": 1,
-      "feedback": "خطأ. الشكلانيون (Formalists) يركزون على النص نفسه وبنيته الداخلية، ولا يعتمدون على القاموس وحده للتفسير."
-    },
-    {
-      "q": "[ _____ ] critics suggest that a work of art is open to many interpretations.",
       "options": [
-        "Reader-response",
-        "Formal",
-        "Intertextual",
-        "Old Historical"
+        "literature",
+        "history",
+        "languages",
+        "arts"
       ],
       "correct": 0,
-      "feedback": "نقد استجابة القارئ (Reader-response) هو الذي يؤكد أن معنى النص مفتوح لتفسيرات متعددة بناءً على عقل القارئ."
-    },
-    {
-      "q": "The most comprehensive approach is [ _____ ].",
-      "options": [
-        "New Criticism",
-        "New Historicism",
-        "Formalism",
-        "Reader-response"
+      "feedback": "التناص (Intertextuality) يقترح دراسة كل الأدب لفهم النص، حيث أن النصوص مرتبطة ببعضها البعض.",
+      "id": "q_0c14f04b351b098bb359",
+      "legacyIds": [
+        "id_7303fdca",
+        "qid_155b4aee"
       ],
-      "correct": 1,
-      "feedback": "التاريخانية الجديدة (New Historicism) تعتبر أكثر شمولية لأنها تربط النص بالسياقات الثقافية والتاريخية المحيطة."
-    },
-    {
-      "q": "[ _____ ] believe that literature is cyclic.",
-      "options": ["Intertextualists", "Formalists", "Structuralists", "none"],
-      "correct": 0,
-      "feedback": "المؤمنون بالتناص (Intertextualists) يرون أن الأدب يعمل كدائرة، حيث لا يمكن إنتاج شيء جديد تماماً."
-    },
-    {
-      "q": "Structuralists argue that discourse never represents because language is a system which works not by symbolizing objects but by producing [ _____ ].",
-      "options": ["similarities", "differences", "images", "symbols"],
-      "correct": 1,
-      "feedback": "البنيويون (Structuralists) يجادلون بأن اللغة تعمل من خلال 'الفروق' (differences) بين العناصر وليس من خلال رمزية الأشياء."
-    },
-    {
-      "q": "Plato regards the artist as an imitator of [ _____ ].",
-      "options": ["life", "art", "literature", "imitations"],
-      "correct": 3,
-      "feedback": "أفلاطون يرى الفنان كمقلد للمقلدات (imitator of imitations)، لأن الفن بعيد ثلاث درجات عن الحقيقة."
-    },
-    {
-      "q": "Coleridge's philosophy and criticism transmit [ _____ ] theories into British culture.",
-      "options": ["Italian", "French", "Arab", "German"],
-      "correct": 3,
-      "feedback": "كولريدج نقل النظريات الألمانية (German theories) إلى الثقافة البريطانية من خلال فلسفته."
-    },
-    {
-      "q": "To Zola, the novelist is [ _____ ].",
-      "options": [
-        "an observer",
-        "an experimentalist",
-        "a philosopher",
-        "a and b"
-      ],
-      "correct": 3,
-      "feedback": "بالنسبة لزولا، الروائي هو مراقب ومجرب (observer and experimentalist) في آن واحد."
-    },
-    {
-      "q": "Zola said, 'What I want to hear on the stage is the language as it is spoken every day.'",
-      "options": ["true", "false"],
-      "correct": 0,
-      "feedback": "صحيح. زولا سعى لتمثيل اللغة الواقعية كما تُستخدم في الحياة اليومية على المسرح."
-    },
-    {
-      "q": "Shelley's Defence of Poetry is built upon an otherworldly view of representation.",
-      "options": ["true", "false"],
-      "correct": 0,
-      "feedback": "صحيح. شيلي يرى الأشياء الطبيعية كأشباح غير حقيقية تحجب الأشكال الأبدية."
-    },
-    {
-      "q": "The idea that poetry is a mysterious and inexplicable communication between an inspired poet and a receptive reader goes back to [ _____ ].",
-      "options": ["Coleridge", "Zola", "Aristotle", "Longinus"],
-      "correct": 3,
-      "feedback": "هذه الفكرة تعود إلى لونجينوس (Longinus) الذي وصف الشعر بأنه تواصل غامض وملهم."
+      "legacyPrimaryIds": [
+        "qid_155b4aee"
+      ]
     }
   ]
 }

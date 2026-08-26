@@ -1,1067 +1,2178 @@
 {
   "subject": "3 اللغة الفرنسية ",
   "description": "  الفصل 1",
-  "lang": "en",
+  "lang": "fr",
   "questions": [
+     {
+      "q": "Lylia a trouvé le livre qu'elle cherchait.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": 1,
+      "feedback": "الإجابة الصحيحة هي 'Faux' (خطأ). وفقاً للنص، فإن ليليا لم تجد الكتاب لأنه مفقود أو نفد من السوق (il est épuisé)."
+    },
     {
-    "q": "1. Aiko est à la montagne avec Benoit seulement.",
-    "options": [
-      "Vrai",
-      "Faux"
-    ],
-    "correct": 1,
-    "feedback": "فابيو هو من في الجبال مع أصدقائه، وليس آيكو."
-  },
-  {
-    "q": "2. Benoit a participé à l'initiation à l'escalade mardi.",
-    "options": [
-      "Vrai",
-      "Faux"
-    ],
-    "correct": 1,
-    "feedback": "بينوا يعاني من الدوار ولم يشارك في التسلق."
-  },
-  {
-    "q": "3. Hier, ils ont fait du rafting.",
-    "options": [
-      "Vrai",
-      "Faux"
-    ],
-    "correct": 1,
-    "feedback": "البارحة قاموا بمسير (randonnée)، أما الرافتينغ فكان هذا الصباح."
-  },
-  {
-    "q": "4. Ce matin, ils ont fait du rafting sur la rivière.",
-    "options": [
-      "Vrai",
-      "Faux"
-    ],
-    "correct": 0,
-    "feedback": "النص يذكر بوضوح أنهم قاموا بالرافتينغ في النهر هذا الصباح."
-  },
-  {
-    "q": "5. Demain, ils feront une randonnée avec une nuit en refuge à 3000 mètres.",
-    "options": [
-      "Vrai",
-      "Faux"
-    ],
-    "correct": 0,
-    "feedback": "الجملة مطابقة تماماً لما ورد في النص عن خطة الغد."
-  },
-  {
-    "q": "6. Les parents d'Aiko sont déjà partis au Japon.",
-    "options": [
-      "Vrai",
-      "Faux"
-    ],
-    "correct": 1,
-    "feedback": "فابيو يأمل أن والدي آيكو لم يغادروا بعد إلى اليابان (ne sont pas déjà partis)."
-  },
-  {
-    "q": "7. Fabio conseille à Aiko d'acheter ses billets de train le plus tôt possible pour économiser.",
-    "options": [
-      "Vrai",
-      "Faux"
-    ],
-    "correct": 0,
-    "feedback": "فابيو ينصح آيكو بشراء التذاكر مبكراً لأنها تكون أرخص (c'est moins cher)."
-  },
-  {
-    "q": "8. Benoit a le vertige et n'aime pas l'escalade.",
-    "options": [
-      "Vrai",
-      "Faux"
-    ],
-    "correct": 0,
-    "feedback": "النص يذكر أن بينوا لا يحب التسلق ويعاني من الدوار (a le vertige)."
-  },
-  {
-    "q": "9. Ils ont fait une randonnée dans le Parc National de la Vanoise hier.",
-    "options": [
-      "Vrai",
-      "Faux"
-    ],
-    "correct": 0,
-    "feedback": "النص يؤكد قيامهم بمسير في الحديقة الوطنية للـ Vanoise البارحة."
-  },
-  {
-    "q": "10. Fabio n'aime pas ces vacances.",
-    "options": [
-      "Vrai",
-      "Faux"
-    ],
-    "correct": 1,
-    "feedback": "بالعكس، فابيو يقول أنها حقاً عطلة يحبها (c'est vraiment des vacances que j'adore)."
-  },
-  {
-    "q": "11. Nous (pouvoir).......... venir lundi, à 8 heures ?",
-    "options": [
-      "pouvez",
-      "pouvons",
-      "pouviez",
-      "pu"
-    ],
-    "correct": 1,
-    "feedback": "تصريف الفعل pouvoir مع الضمير Nous في الحاضر هو pouvons."
-  },
-  {
-    "q": "12. Imad (venir).........au théâtre avec nous.",
-    "options": [
-      "venu",
-      "vient",
-      "viens",
-      "viennent"
-    ],
-    "correct": 1,
-    "feedback": "الفاعل Imad يعادل الضمير Il وتصريف الفعل معه في الحاضر هو vient."
-  },
-  {
-    "q": "13. J'ai du travail à faire, je vais.............",
-    "options": [
-      "au lit",
-      "au salon",
-      "au bureau",
-      "au jardin"
-    ],
-    "correct": 2,
-    "feedback": "لدي عمل لأنجزه، المكان المنطقي للذهاب إليه هو المكتب (au bureau)."
-  },
-  {
-    "q": "14. Le poivre est un.............",
-    "options": [
-      "plat",
-      "condiment",
-      "dessert",
-      "jus"
-    ],
-    "correct": 1,
-    "feedback": "الفلفل (Le poivre) يعتبر من التوابل أو البهارات (condiment)."
-  },
-  {
-    "q": "15. « j'ai raté mon examen ». Le verbe « rater » :",
-    "options": [
-      "échouer",
-      "réussir",
-      "annuler",
-      "passer"
-    ],
-    "correct": 0,
-    "feedback": "الفعل rater يعني يفشل أو يرسب وهو مرادف للفعل échouer."
-  },
-  {
-    "q": "16. Je n'aime pas..........lait.",
-    "options": [
-      "le",
-      "de la",
-      "du",
-      "la"
-    ],
-    "correct": 0,
-    "feedback": "مع أفعال الميول (مثل aimer) نستخدم أدوات المعرفة (le, la, les) دائماً حتى في حالة النفي، وكلمة lait مذكر فنستخدم le."
-  },
-  {
-    "q": "17. tu bois souvent .......... café ?",
-    "options": [
-      "de la",
-      "du",
-      "des",
-      "de l'"
-    ],
-    "correct": 1,
-    "feedback": "كلمة café مذكر مفرد وغير معدود، لذا نستخدم أداة التجزئة du."
-  },
-  {
-    "q": "18. tu (pouvoir) .......... garder mon chat ? (Dans une forme plus polie)",
-    "options": [
-      "pourrez",
-      "pourrons",
-      "pourriez",
-      "pourrais"
-    ],
-    "correct": 3,
-    "feedback": "لصيغة الطلب المؤدب مع الضمير tu نستخدم صيغة الشرط (Conditionnel) وهي pourrais."
-  },
-  {
-    "q": "19. J'aime bien aller pêcher dans la..................",
-    "options": [
-      "ferme",
-      "rivière",
-      "forêt",
-      "nature"
-    ],
-    "correct": 1,
-    "feedback": "الصيد (pêcher) يتم عادة في النهر (la rivière)."
-  },
-  {
-    "q": "20. Il a emprunté des livres à la.............",
-    "options": [
-      "librairie",
-      "charcuterie",
-      "papeterie",
-      "bibliothèque"
-    ],
-    "correct": 3,
-    "feedback": "يتم استعارة الكتب (emprunter) من المكتبة العامة (bibliothèque)."
-  },
-  {
-    "q": "21. Hier, Sophie..........à la fête ?",
-    "options": [
-      "a allé",
-      "a allée",
-      "est allé",
-      "est allée"
-    ],
-    "correct": 3,
-    "feedback": "الفعل aller يأخذ المساعد être ويجب مطابقة اسم المفعول مع الفاعل المؤنث (Sophie) فنضيف e."
-  },
-  {
-    "q": "22. Vous..........à Mathieu.",
-    "options": [
-      "avons téléphoné",
-      "avez téléphoné",
-      "téléphoné",
-      "as téléphonés"
-    ],
-    "correct": 1,
-    "feedback": "مع الضمير Vous نستخدم المساعد avez واسم المفعول téléphoné."
-  },
-  {
-    "q": "23. Vous..........aimé la glace au chocolat.",
-    "options": [
-      "avons",
-      "avez",
-      "êtes",
-      "sommes"
-    ],
-    "correct": 1,
-    "feedback": "الفعل aimer يأخذ المساعد avoir، ومع الضمير Vous نستخدم avez."
-  },
-  {
-    "q": "24. Elles..........par la ville.",
-    "options": [
-      "sont passé",
-      "sont passés",
-      "sont passées",
-      "passent"
-    ],
-    "correct": 2,
-    "feedback": "الفعل passer هنا يأخذ المساعد être ويطابق الفاعل جمع المؤنث Elles فنضيف es."
-  },
-  {
-    "q": "25. Je vais chez..........amie italienne ?",
-    "options": [
-      "le",
-      "la",
-      "un",
-      "une"
-    ],
-    "correct": 3,
-    "feedback": "كلمة amie مفرد مؤنث وتبدأ بحرف صوتي فتأخذ أداة التنكير une."
-  },
-  {
-    "q": "26. Tu connais..........homme ?",
-    "options": [
-      "ce",
-      "cette",
-      "cet",
-      "ces"
-    ],
-    "correct": 2,
-    "feedback": "كلمة homme مفرد مذكر تبدأ بحرف صامت (h muet) فنستخدم صفة الإشارة cet."
-  },
-  {
-    "q": "27. J'adore..........rue.",
-    "options": [
-      "ce",
-      "cette",
-      "cet",
-      "ces"
-    ],
-    "correct": 1,
-    "feedback": "كلمة rue مفرد مؤنث، فنستخدم صفة الإشارة cette."
-  },
-  {
-    "q": "28. il y a..........mouche dans mon café !",
-    "options": [
-      "un",
-      "une",
-      "la",
-      "le"
-    ],
-    "correct": 1,
-    "feedback": "كلمة ذبابة (mouche) مؤنث وتأخذ أداة التنكير une."
-  },
-  {
-    "q": "29. Je déteste..........thé.",
-    "options": [
-      "de la",
-      "le",
-      "du",
-      "de la"
-    ],
-    "correct": 1,
-    "feedback": "مع أفعال الميول (détester) نستخدم أدوات المعرفة، وthé مذكر فنستخدم le."
-  },
-  {
-    "q": "30. Hier, ils ont mangé..........poisson.",
-    "options": [
-      "du",
-      "le",
-      "de la",
-      "la"
-    ],
-    "correct": 0,
-    "feedback": "السمك (poisson) مذكر مفرد وغير معدود، وللدلالة على تناول جزء منه نستخدم أداة التجزئة du."
-  },
-  {
-    "q": "31. Elle a rangé..........ses affaires.",
-    "options": [
-      "tout",
-      "toute",
-      "tous",
-      "toutes"
-    ],
-    "correct": 3,
-    "feedback": "كلمة affaires جمع مؤنث فنستخدم toutes."
-  },
-  {
-    "q": "32. .......... gentil message !",
-    "options": [
-      "Quel",
-      "Qui",
-      "Quelle",
-      "Où"
-    ],
-    "correct": 0,
-    "feedback": "كلمة message مفرد مذكر، للتعجب نستخدم Quel."
-  },
-  {
-    "q": "33. .......... mauvaise idée !",
-    "options": [
-      "Qui",
-      "Quelle",
-      "Quels",
-      "Quelles"
-    ],
-    "correct": 1,
-    "feedback": "كلمة idée مفرد مؤنث، نستخدم صفة التعجب Quelle."
-  },
-  {
-    "q": "34. « rouge, orange, vert », ce sont des...........",
-    "options": [
-      "formes",
-      "couleurs",
-      "matières",
-      "meubles"
-    ],
-    "correct": 1,
-    "feedback": "أحمر، برتقالي، أخضر هي أسماء ألوان (couleurs)."
-  },
-  {
-    "q": "35. Le contraire de (long) est :",
-    "options": [
-      "mince",
-      "court",
-      "large",
-      "bas"
-    ],
-    "correct": 1,
-    "feedback": "عكس كلمة طويل (long) هو قصير (court)."
-  },
-  {
-    "q": "36. Le contraire de (calme) est :",
-    "options": [
-      "ancien",
-      "clair",
-      "jolie",
-      "bruyant"
-    ],
-    "correct": 3,
-    "feedback": "عكس كلمة هادئ (calme) هو صاخب أو مزعج (bruyant)."
-  },
-  {
-    "q": "37. Le contraire de (sombre) est :",
-    "options": [
-      "lourd",
-      "clair",
-      "cher",
-      "carré"
-    ],
-    "correct": 1,
-    "feedback": "عكس كلمة داكن (sombre) هو فاتح أو مضيء (clair)."
-  },
-  {
-    "q": "38. Le contraire de (vendre) est :",
-    "options": [
-      "échanger",
-      "prêter",
-      "acheter",
-      "donner"
-    ],
-    "correct": 2,
-    "feedback": "عكس فعل يبيع (vendre) هو يشتري (acheter)."
-  },
-  {
-    "q": "39. On va chez Diane vendredi prochain.",
-    "options": [
-      "elles",
-      "eux",
-      "lui",
-      "elle"
-    ],
-    "correct": 3,
-    "feedback": "Diane اسم فتاة، نعوض عنه بضمير التوكيد elle بعد حرف الجر chez."
-  },
-  {
-    "q": "40. Viens avec les filles de tes voisins.",
-    "options": [
-      "lui",
-      "eux",
-      "elle",
-      "elles"
-    ],
-    "correct": 3,
-    "feedback": "les filles جمع مؤنث، فنستخدم ضمير التوكيد elles بعد حرف الجر avec."
-  },
-  {
-    "q": "41. Trouvez l'intrus :",
-    "options": [
-      "chaîne",
-      "bracelet",
-      "collier",
-      "aller"
-    ],
-    "correct": 3,
-    "feedback": "aller هو فعل (يذهب) بينما البقية هي أسماء مجوهرات، فهو الكلمة الدخيلة."
-  },
-  {
-    "q": "42. Trouvez l'intrus :",
-    "options": [
-      "banane",
-      "pomme",
-      "raisin",
-      "danser"
-    ],
-    "correct": 3,
-    "feedback": "danser هو فعل (يرقص) بينما البقية هي أسماء فواكه، فهو الكلمة الدخيلة."
-  },
-  {
-    "q": "43. Victor Hugo est..........des Misérables.",
-    "options": [
-      "le poète",
-      "l'auteur",
-      "l'animateur",
-      "le fondateur"
-    ],
-    "correct": 1,
-    "feedback": "فيكتور هوغو هو مؤلف (l'auteur) رواية البؤساء."
-  },
-  {
-    "q": "44. Janvier est le..........mois de l'année.",
-    "options": [
-      "premier",
-      "dernier",
-      "neuvième",
-      "onzième"
-    ],
-    "correct": 0,
-    "feedback": "كانون الثاني (Janvier) هو الشهر الأول (premier) من السنة."
-  },
-  {
-    "q": "45. Le basketball est une activité...........",
-    "options": [
-      "sportive",
-      "culturelle",
-      "social",
-      "culinaire"
-    ],
-    "correct": 0,
-    "feedback": "كرة السلة هي نشاط رياضي (sportive)."
-  },
-  {
-    "q": "46. Tarte est un/une...........",
-    "options": [
-      "boisson",
-      "dessert",
-      "entrée",
-      "plat"
-    ],
-    "correct": 1,
-    "feedback": "التارت (Tarte) تعتبر من الحلويات (dessert)."
-  },
-  {
-    "q": "47. c'est une (joli).......... ville.",
-    "options": [
-      "joli",
-      "jolie",
-      "jolies",
-      "belle"
-    ],
-    "correct": 1,
-    "feedback": "مدينة (ville) مفرد مؤنث، نؤنث الصفة بإضافة e لتصبح jolie."
-  },
-  {
-    "q": "48. On va faire les(autre)......exercices.",
-    "options": [
-      "autre",
-      "autres",
-      "autree",
-      "aures"
-    ],
-    "correct": 1,
-    "feedback": "كلمة exercices جمع، فنضيف s لصفة autre لتصبح autres."
-  },
-  {
-    "q": "49. J'ai un (nouveau).........livre.",
-    "options": [
-      "nouveau",
-      "nouveaux",
-      "nouvelles",
-      "nouvelle"
-    ],
-    "correct": 0,
-    "feedback": "كلمة livre مفرد مذكر، والصفة nouveau تبقى كما هي للمفرد المذكر الذي يبدأ بحرف ساكن."
-  },
-  {
-    "q": "50. Je voudrais offrir des (beau).... cadeaux.",
-    "options": [
-      "beau",
-      "belle",
-      "belles",
-      "beaux"
-    ],
-    "correct": 3,
-    "feedback": "كلمة cadeaux جمع مذكر، وجمع الصفة beau يكون بإضافة x لتصبح beaux."
-  },
+      "q": "Le livre de Lima Barreto est disponible.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": 1,
+      "feedback": "الإجابة الصحيحة هي 'Faux' (خطأ). يذكر النص أن الكتاب نفد من السوق أو مفقود (il est épuisé) وبالتالي غير متوفر."
+    },
     {
-    "q": "1. Le message est un mél.",
-    "options": [
-      "Vrai",
-      "Faux"
-    ],
-    "correct": 0,
-    "feedback": "النص عبارة عن رسالة إلكترونية (إيميل) مرسلة عبر الإنترنت."
-  },
-  {
-    "q": "2. Fabio qui envoie ce message Aiko.",
-    "options": [
-      "Vrai",
-      "Faux"
-    ],
-    "correct": 1,
-    "feedback": "المرسل هي Aiko (De: Aiko) والمرسل إليه هو Fabio."
-  },
-  {
-    "q": "3. Le rendez-vous va réunir 4 personnes.",
-    "options": [
-      "Vrai",
-      "Faux"
-    ],
-    "correct": 0,
-    "feedback": "اللقاء يضم Aiko و Fabio و Stephane و Sophie (4 أشخاص)."
-  },
-  {
-    "q": "4. L'expéditeur est Fabio.",
-    "options": [
-      "Vrai",
-      "Faux"
-    ],
-    "correct": 1,
-    "feedback": "المرسل (L'expéditeur) هي Aiko وليس Fabio."
-  },
-  {
-    "q": "5. Fabio doit descendre à la station de métro Montparnasse.",
-    "options": [
-      "Vrai",
-      "Faux"
-    ],
-    "correct": 1,
-    "feedback": "حسب النص يجب النزول في محطة Pernety."
-  },
-  {
-    "q": "6. En sortant du métro, Fabio se trouve rue Raymond Losserand.",
-    "options": [
-      "Vrai",
-      "Faux"
-    ],
-    "correct": 0,
-    "feedback": "النص يذكر بوضوح: Tu sors rue Raymond Losserand."
-  },
-  {
-    "q": "7. Le café du métro se trouve à l'angle de la rue Losserand et de la rue Pernety.",
-    "options": [
-      "Vrai",
-      "Faux"
-    ],
-    "correct": 0,
-    "feedback": "النص يذكر أن المقهى يقع في الزاوية (au coin de) بين الشارعين."
-  },
-  {
-    "q": "8. Fabio doit tourner à gauche au café du métro pour aller au restaurant.",
-    "options": [
-      "Vrai",
-      "Faux"
-    ],
-    "correct": 1,
-    "feedback": "يجب عليه إكمال الطريق بشكل مستقيم ثم الانعطاف يميناً، المقهى سيكون على يساره."
-  },
-  {
-    "q": "9. Fabio doit descendre la rue du château jusqu'à une grande place.",
-    "options": [
-      "Vrai",
-      "Faux"
-    ],
-    "correct": 1,
-    "feedback": "النص يذكر ساحة صغيرة (une petite place) وليس كبيرة (grande)."
-  },
-  {
-    "q": "10. La restaurant le rendez-vous se trouve au numéro 6 de la rue Asseline.",
-    "options": [
-      "Vrai",
-      "Faux"
-    ],
-    "correct": 1,
-    "feedback": "المطعم رقم 6 يقع في passage de la tour de Vanves وليس في شارع Asseline."
-  },
-  {
-    "q": "11. la maison est (vieux)................",
-    "options": [
-      "vieux",
-      "vielle",
-      "vielles",
-      "viellee"
-    ],
-    "correct": 1,
-    "feedback": "كلمة maison مؤنث مفرد، والصفة المناسبة لها هي vieille (مكتوبة vielle في الخيارات كخطأ مطبعي في الأسئلة)."
-  },
-  {
-    "q": "12. Imad (venir).........au théâtre avec nous.",
-    "options": [
-      "venu",
-      "vient",
-      "viens",
-      "viennent"
-    ],
-    "correct": 1,
-    "feedback": "الفاعل Imad يعادل الضمير Il وتصريف الفعل معه في الحاضر هو vient."
-  },
-  {
-    "q": "13. J'ai du travail à faire, je vais.............",
-    "options": [
-      "au lit",
-      "au salon",
-      "au bureau",
-      "au jardin"
-    ],
-    "correct": 2,
-    "feedback": "لدي عمل لأنجزه، المكان المنطقي للذهاب إليه هو المكتب (au bureau)."
-  },
-  {
-    "q": "14. Le poivre est un.............",
-    "options": [
-      "plat",
-      "condiment",
-      "dessert",
-      "jus"
-    ],
-    "correct": 1,
-    "feedback": "الفلفل (Le poivre) يعتبر من التوابل أو البهارات (condiment)."
-  },
-  {
-    "q": "15. « j'ai raté mon examen ». Le verbe rater :>",
-    "options": [
-      "échouer",
-      "réussir",
-      "annuler",
-      "passer"
-    ],
-    "correct": 0,
-    "feedback": "الفعل rater يعني يفشل أو يرسب وهو مرادف للفعل échouer."
-  },
-  {
-    "q": "16. C'est une (joli)...........ville.",
-    "options": [
-      "joli",
-      "jolies",
-      "jolie",
-      "belle"
-    ],
-    "correct": 2,
-    "feedback": "كلمة ville مؤنث مفرد، لذا يتم تأنيث الصفة joli بإضافة e لتصبح jolie."
-  },
-  {
-    "q": "17. tu bois souvent .......... café ?",
-    "options": [
-      "de la",
-      "du",
-      "des",
-      "de l'"
-    ],
-    "correct": 1,
-    "feedback": "كلمة café مذكر مفرد وغير معدود، لذا نستخدم أداة التجزئة du."
-  },
-  {
-    "q": "18. tu (pouvoir) .......... garder mon chat ? (Dans une forme plus polie)",
-    "options": [
-      "pourrez",
-      "pourrons",
-      "pourriez",
-      "pourrais"
-    ],
-    "correct": 3,
-    "feedback": "لصيغة الطلب المؤدب مع الضمير tu نستخدم صيغة الشرط (Conditionnel) وهي pourrais."
-  },
-  {
-    "q": "19. J'aime bien aller pêcher dans la..................",
-    "options": [
-      "ferme",
-      "rivière",
-      "forêt",
-      "nature"
-    ],
-    "correct": 1,
-    "feedback": "الصيد (pêcher) يتم عادة في النهر (la rivière)."
-  },
-  {
-    "q": "20. Il a emprunté des livres à la.............",
-    "options": [
-      "librairie",
-      "charcuterie",
-      "papeterie",
-      "bibliothèque"
-    ],
-    "correct": 3,
-    "feedback": "يتم استعارة الكتب (emprunter) من المكتبة العامة (bibliothèque)."
-  },
-  {
-    "q": "21. Tu (prendre)..........un café ce matin ?",
-    "options": [
-      "a pris",
-      "as pris",
-      "a prend",
-      "as pri"
-    ],
-    "correct": 1,
-    "feedback": "في الماضي المركب مع الضمير Tu نستخدم المساعد as واسم المفعول pris."
-  },
-  {
-    "q": "22. Vous (téléphoner)..........à Mathieu.",
-    "options": [
-      "avons téléphoné",
-      "avez téléphoné",
-      "téléphoné",
-      "as téléphonés"
-    ],
-    "correct": 1,
-    "feedback": "مع الضمير Vous نستخدم المساعد avez واسم المفعول téléphoné."
-  },
-  {
-    "q": "23. Vous (faire)..........bon voyage ?",
-    "options": [
-      "avez fait",
-      "avez fais",
-      "avons fait",
-      "fait"
-    ],
-    "correct": 0,
-    "feedback": "اسم المفعول من faire هو fait، والمساعد المناسب لـ Vous هو avez."
-  },
-  {
-    "q": "24. Elles (passer)......par la ville.",
-    "options": [
-      "sont passé",
-      "sont passés",
-      "sont passées",
-      "passent"
-    ],
-    "correct": 2,
-    "feedback": "الفعل passer هنا يأخذ المساعد être ويجب مطابقة اسم المفعول مع الفاعل (جمع مؤنث) فنضيف es."
-  },
-  {
-    "q": "25. Je vais chez..........amie italienne.",
-    "options": [
-      "le",
-      "la",
-      "un",
-      "une"
-    ],
-    "correct": 3,
-    "feedback": "كلمة amie مفرد مؤنث وتأخذ أداة التنكير une."
-  },
-  {
-    "q": "26. Tu connais..........restaurant Favre d'Anne ?",
-    "options": [
-      "le",
-      "la",
-      "un",
-      "une"
-    ],
-    "correct": 0,
-    "feedback": "المطعم هنا محدد باسمه وهو مذكر مفرد، فنستخدم أداة المعرفة le."
-  },
-  {
-    "q": "27. Je cherche..........livre pour apprendre l'arabe.",
-    "options": [
-      "la",
-      "un",
-      "les",
-      "le"
-    ],
-    "correct": 1,
-    "feedback": "كلمة livre مذكر مفرد، ونحن نبحث عن كتاب نكرة (غير محدد) فنستخدم un."
-  },
-  {
-    "q": "28. il y a..........mouche dans mon café !",
-    "options": [
-      "un",
-      "une",
-      "la",
-      "le"
-    ],
-    "correct": 1,
-    "feedback": "مفردة ذبابة (mouche) في الفرنسية هي مؤنث وتأخذ أداة التنكير une."
-  },
-  {
-    "q": "29. .......... la classe a réussi.",
-    "options": [
-      "tout",
-      "toute",
-      "tous",
-      "toutes"
-    ],
-    "correct": 1,
-    "feedback": "كلمة classe مفرد مؤنث فنستخدم toute."
-  },
-  {
-    "q": "30. Nous avons fait .......... les activités.",
-    "options": [
-      "Tout",
-      "Tous",
-      "Toute",
-      "Toutes"
-    ],
-    "correct": 3,
-    "feedback": "كلمة activités جمع مؤنث فنستخدم Toutes."
-  },
-  {
-    "q": "31. Elle téléphone à sa mère..........les jours.",
-    "options": [
-      "tous",
-      "tout",
-      "toute",
-      "toutes"
-    ],
-    "correct": 0,
-    "feedback": "عبارة 'كل الأيام' (tous les jours)، وjours جمع مذكر فنستخدم tous."
-  },
-  {
-    "q": "32. Elle va être à Berlin..........la semaine.",
-    "options": [
-      "tout",
-      "toute",
-      "tous",
-      "toutes"
-    ],
-    "correct": 1,
-    "feedback": "كلمة semaine مفرد مؤنث، لذا نستخدم toute."
-  },
-  {
-    "q": "33. .......... mauvaise idée !",
-    "options": [
-      "Quelle",
-      "Quel",
-      "Quels",
-      "Quelles"
-    ],
-    "correct": 0,
-    "feedback": "كلمة idée مفرد مؤنث، للتعجب نستخدم صفة الاستفهام Quelle."
-  },
-  {
-    "q": "34. La femme..........parle est ma voisine.",
-    "options": [
-      "quelle",
-      "qui",
-      "quels",
-      "quelles"
-    ],
-    "correct": 1,
-    "feedback": "نحتاج ضمير وصل يحل محل الفاعل (المرأة)، فنستخدم qui."
-  },
-  {
-    "q": "35. Tu as visité..........ville?",
-    "options": [
-      "quelle",
-      "quel",
-      "quelles",
-      "quels"
-    ],
-    "correct": 0,
-    "feedback": "للسؤال عن مدينة (ville) وهي مفرد مؤنث، نستخدم صفة الاستفهام quelle."
-  },
-  {
-    "q": "36. .......... tu ne m'as pas téléphoné?",
-    "options": [
-      "Pourquoi",
-      "Quand",
-      "Comment",
-      "Où"
-    ],
-    "correct": 0,
-    "feedback": "السؤال يسأل عن السبب (لماذا لم تتصل بي؟)، نستخدم Pourquoi."
-  },
-  {
-    "q": "37. Le film .......... j'ai vu hier était passionnant !",
-    "options": [
-      "dont",
-      "Quels",
-      "Que",
-      "Qui"
-    ],
-    "correct": 2,
-    "feedback": "ضمير الوصل Que يحل محل المفعول به المباشر (الفيلم الذي رأيته)."
-  },
-  {
-    "q": "38. J'ai été absent d'Alep..........tout le mois de mars.",
-    "options": [
-      "en",
-      "pendant",
-      "dans",
-      "depuis"
-    ],
-    "correct": 1,
-    "feedback": "للتعبير عن مدة زمنية محددة في الماضي (طوال شهر مارس) نستخدم pendant."
-  },
-  {
-    "q": "39. On va chez Diane vendredi prochain. (chez .....)",
-    "options": [
-      "elles",
-      "eux",
-      "lui",
-      "elle"
-    ],
-    "correct": 3,
-    "feedback": "Diane اسم فتاة، لذا نعوض عنه بضمير التوكيد elle بعد حرف الجر chez."
-  },
-  {
-    "q": "40. Viens avec les filles de tes voisins. (avec .....)",
-    "options": [
-      "lui",
-      "eux",
-      "elle",
-      "elles"
-    ],
-    "correct": 3,
-    "feedback": "les filles جمع مؤنث، فنستخدم ضمير التوكيد elles بعد حرف الجر avec."
-  },
-  {
-    "q": "41. mon frère a (25) livres.",
-    "options": [
-      "vingt",
-      "vignt-cinq",
-      "treize",
-      "quinze"
-    ],
-    "correct": 1,
-    "feedback": "الرقم 25 يكتب vingt-cinq (وهناك خطأ مطبعي في ورقة الأسئلة بكلمة vignt-cinq)."
-  },
-  {
-    "q": "42. je suis né en deux mille cinq.",
-    "options": [
-      "2000",
-      "2005",
-      "2015",
-      "2013"
-    ],
-    "correct": 1,
-    "feedback": "deux mille cinq تعني 2005."
-  },
-  {
-    "q": "43. Victor Hugo est..........des Misérables.",
-    "options": [
-      "le poète",
-      "l'auteur",
-      "l'animateur",
-      "le fondateur"
-    ],
-    "correct": 1,
-    "feedback": "فيكتور هوغو هو مؤلف (l'auteur) رواية البؤساء."
-  },
-  {
-    "q": "44. Elle s'intéresse..........littérature.",
-    "options": [
-      "au",
-      "du",
-      "de la",
-      "à la"
-    ],
-    "correct": 3,
-    "feedback": "الفعل s'intéresser يأخذ حرف الجر à، وlittérature مفرد مؤنث، فتصبح à la."
-  },
-  {
-    "q": "45. ..........monde ici !",
-    "options": [
-      "Quand",
-      "Que de",
-      "Quel",
-      "Où"
-    ],
-    "correct": 1,
-    "feedback": "للتعبير عن التعجب من كثرة الناس نقول Que de monde (يا لكثرة الناس)."
-  },
-  {
-    "q": "46. ..........est-ce qu'il va venir?",
-    "options": [
-      "Qui",
-      "Quand",
-      "Où",
-      "Combien"
-    ],
-    "correct": 1,
-    "feedback": "أداة الاستفهام المناسبة منطقياً في هذه الخيارات هي Quand (متى سيأتي؟)."
-  },
-  {
-    "q": "47. Carine est née .......... Romanie.",
-    "options": [
-      "en",
-      "à",
-      "du",
-      "aux"
-    ],
-    "correct": 0,
-    "feedback": "الدول المؤنثة (التي تنتهي بـ e مثل Romanie) تأخذ حرف الجر en."
-  },
-  {
-    "q": "48. Adam vient.............. Portugal.",
-    "options": [
-      "en",
-      "du",
-      "à",
-      "au"
-    ],
-    "correct": 1,
-    "feedback": "البرتغال دولة مذكر، ومع الفعل venir (يأتي من) نستخدم du."
-  },
-  {
-    "q": "49. Chloé travaille.......... Togo.",
-    "options": [
-      "au",
-      "en",
-      "du",
-      "aux"
-    ],
-    "correct": 0,
-    "feedback": "توغو دولة مذكر، ومع الفعل travaille (في) نستخدم au."
-  },
-  {
-    "q": "50. Je l'ai acheté........... Paris.",
-    "options": [
-      "à",
-      "au",
-      "aux",
-      "en"
-    ],
-    "correct": 0,
-    "feedback": "مع أسماء المدن (مثل باريس) نستخدم دائماً حرف الجر à."
-  }
+      "q": "Aiko a reçu le message de Carla.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": 0,
+      "feedback": "الإجابة الصحيحة هي 'Vrai' (صح). تقول آيكو في رسالتها: 'moi aussi, j'ai reçu le message de Carla' (أنا أيضاً تلقيت رسالة كارلا)."
+    },
+    {
+      "q": "Aiko trouve que Carla est méchante.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": 1,
+      "feedback": "الإجابة الصحيحة هي 'Faux' (خطأ). تصف آيكو كارلا بأنها لطيفة جداً بقولها: 'Elle est très gentille'."
+    },
+    {
+      "q": "Aiko est très heureuse de recevoir le message de Fabio.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": 0,
+      "feedback": "الإجابة الصحيحة هي 'Vrai' (صح). تبدأ آيكو رسالتها بـ: 'J'ai été très heureuse de recevoir ton message'."
+    },
+    {
+      "q": "Fabio va partir en voyage jeudi.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": 0,
+      "feedback": "الإجابة الصحيحة هي 'Vrai' (صح). تتساءل آيكو في النص: 'tu pars jeudi, non?' (أنت ستسافر الخميس، أليس كذلك؟)."
+    },
+    {
+      "q": "Lylia cherche un livre de Lima Barreto et elle ne l'a pas trouvé.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": 0,
+      "feedback": "الإجابة الصحيحة هي 'Vrai' (صح). يذكر النص أن ليليا تبحث عن هذا الكتاب وبحثت عنه في منطقتها ولم تجده لأنه نفد."
+    },
+    {
+      "q": "Aiko n'a pas donné l'adresse de Fabio à Lylia.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": 1,
+      "feedback": "الإجابة الصحيحة هي 'Faux' (خطأ). تقول آيكو في الرسالة: 'J'ai donné ton adresse à Lylia' (لقد أعطيت عنوانك لليليا)."
+    },
+    {
+      "q": "Lylia va envoyer un message à Fabio.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": 0,
+      "feedback": "الإجابة الصحيحة هي 'Vrai' (صح). تذكر آيكو في نهاية النص: 'elle va t'envoyer un message' (سترسل لك رسالة)."
+    },
+    {
+      "q": "Aiko demande à Fabio si tout est prêt pour son voyage.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": 0,
+      "feedback": "الإجابة الصحيحة هي 'Vrai' (صح). تسأل آيكو في رسالتها: 'Tout est prêt pour ton voyage?'."
+    },
+    {
+      "q": "Le contraire de (facile) est............",
+      "options": [
+        "simple",
+        "difficile",
+        "rapide",
+        "petit"
+      ],
+      "correct": 1,
+      "feedback": "الإجابة الصحيحة هي 'difficile'. عكس كلمة سهل (facile) هو صعب (difficile)."
+    },
+    {
+      "q": "Nous (aller)............au cinéma samedi prochain.",
+      "options": [
+        "allez",
+        "allons",
+        "vont",
+        "va"
+      ],
+      "correct": 1,
+      "feedback": "الإجابة الصحيحة هي 'allons'. تصريف فعل الذهاب (aller) مع الضمير Nous هو (Nous allons)."
+    },
+    {
+      "q": "Je suis fatigué, je vais............",
+      "options": [
+        "me coucher",
+        "me lever",
+        "courir",
+        "travailler"
+      ],
+      "correct": 0,
+      "feedback": "الإجابة الصحيحة هي 'me coucher' (أذهب للنوم). بما أن الجملة تبدأ بـ 'أنا متعب'، فالتكملة المنطقية هي النوم."
+    },
+    {
+      "q": "Sarah (prendre)............le bus tous les matins.",
+      "options": [
+        "prends",
+        "prenez",
+        "prend",
+        "prennent"
+      ],
+      "correct": 2,
+      "feedback": "الإجابة الصحيحة هي 'prend'. سارة (Sarah) تعادل الضمير هي (elle)، وتصريف الفعل prendre معها هو prend."
+    },
+    {
+      "q": "Vous (devoir)............faire vos devoirs ce soir.",
+      "options": [
+        "dois",
+        "devez",
+        "doit",
+        "doivent"
+      ],
+      "correct": 1,
+      "feedback": "الإجابة الصحيحة هي 'devez'. تصريف الفعل devoir (يجب) مع الضمير vous هو devez."
+    },
+    {
+      "q": "Tu bois souvent............café ?",
+      "options": [
+        "de la",
+        "du",
+        "des",
+        "de l'"
+      ],
+      "correct": 1,
+      "feedback": "الإجابة الصحيحة هي 'du'. كلمة 'café' مذكر مفرد، ونستخدم أداة التجزئة du للمذكر المفرد."
+    },
+    {
+      "q": "Nous avons faim, nous allons............",
+      "options": [
+        "dormir",
+        "manger",
+        "voyager",
+        "étudier"
+      ],
+      "correct": 1,
+      "feedback": "الإجابة الصحيحة هي 'manger' (نأكل). الجملة تعني 'نحن جائعون، سنذهب لنأكل'."
+    },
+    {
+      "q": "Le pain est un............",
+      "options": [
+        "fruit",
+        "légume",
+        "aliment",
+        "vêtement"
+      ],
+      "correct": 2,
+      "feedback": "الإجابة الصحيحة هي 'aliment'. الخبز (Le pain) هو غذاء/طعام (aliment)، وليس فاكهة أو خضار أو ملابس."
+    },
+    {
+      "q": "Marie (venir)............chez moi ce soir.",
+      "options": [
+        "viens",
+        "vient",
+        "venez",
+        "viennent"
+      ],
+      "correct": 1,
+      "feedback": "الإجابة الصحيحة هي 'vient'. ماري (Marie) تعادل الضمير هي (elle)، وتصريف فعل venir معها هو vient."
+    },
+    {
+      "q": "Tu (vouloir)............un café ?",
+      "options": [
+        "veux",
+        "veut",
+        "voulez",
+        "veulent"
+      ],
+      "correct": 0,
+      "feedback": "الإجابة الصحيحة هي 'veux'. تصريف فعل vouloir (يريد) مع الضمير tu هو veux."
+    },
+    {
+      "q": "Mes parents............en France l'année dernière.",
+      "options": [
+        "sont voyagé",
+        "ont voyagé",
+        "voyager",
+        "voyages"
+      ],
+      "correct": 1,
+      "feedback": "الإجابة الصحيحة هي 'ont voyagé'. فعل voyager يأخذ الفعل المساعد avoir في الماضي المركب (passé composé)، ومع الجمع (Mes parents) يصبح ont voyagé."
+    },
+    {
+      "q": "Hier j'............un bon film ?",
+      "options": [
+        "ai regardé",
+        "as regardé",
+        "ai regarder",
+        "regarde"
+      ],
+      "correct": 0,
+      "feedback": "الإجابة الصحيحة هي 'ai regardé'. مع المؤشر الزمني Hier (البارحة)، نصرف فعل regarder في الماضي المركب مع الضمير Je فيكون المساعد هو ai واسم المفعول هو regardé."
+    },
+    {
+      "q": "Elle............une lettre à son amie.",
+      "options": [
+        "a écrit",
+        "est écrit",
+        "a écrire",
+        "est écrite"
+      ],
+      "correct": 0,
+      "feedback": "الإجابة الصحيحة هي 'a écrit'. فعل écrire يأخذ المساعد avoir في الماضي المركب، وتصريفه مع Elle هو a écrit."
+    },
+    {
+      "q": "Paul............très tôt ce matin.",
+      "options": [
+        "a parti",
+        "est parti",
+        "partir",
+        "a partir"
+      ],
+      "correct": 1,
+      "feedback": "الإجابة الصحيحة هي 'est parti'. فعل partir هو من أفعال الحركة التي تأخذ المساعد être في الماضي المركب، ومع الفاعل المفرد المذكر Paul يكون est parti."
+    },
+    {
+      "q": "On va chez Diane vendredi prochain. Viens avec ............",
+      "options": [
+        "elles",
+        "eux",
+        "lui",
+        "elle"
+      ],
+      "correct": 3,
+      "feedback": "الإجابة الصحيحة هي 'elle'. بما أن ديان اسم علم مؤنث مفرد، نستخدم ضمير التوكيد elle بعد حرف الجر chez."
+    },
+    {
+      "q": "Ils vont............Canada cet été.",
+      "options": [
+        "en",
+        "au",
+        "aux",
+        "d a la"
+      ],
+      "correct": 1,
+      "feedback": "الإجابة الصحيحة هي 'au'. كندا (Canada) دولة مفردة مذكرة، وحرف الجر المناسب مع الدول المذكرة هو au."
+    },
+    {
+      "q": "............gentil message !",
+      "options": [
+        "Quel",
+        "Qui",
+        "Quelle",
+        "Quels"
+      ],
+      "correct": 0,
+      "feedback": "الإجابة الصحيحة هي 'Quel'. كلمة message هي اسم مفرد مذكر، لذا نستخدم صفة التعجب Quel."
+    },
+    {
+      "q": "J'ai acheté............nouvelle voiture.",
+      "options": [
+        "un",
+        "une",
+        "le",
+        "des"
+      ],
+      "correct": 1,
+      "feedback": "الإجابة الصحيحة هي 'une'. كلمة voiture مؤنث مفرد، والصفة nouvelle تؤكد ذلك، لذا نستخدم أداة النكرة une."
+    },
+    {
+      "q": "............monde ici !",
+      "options": [
+        "Quand",
+        "Que de",
+        "quelle",
+        "à"
+      ],
+      "correct": 1,
+      "feedback": "الإجابة الصحيحة هي 'Que de'. تستخدم الصيغة التعجبية 'Que de + اسم' للتعبير عن الكثرة والتعجب (يا لكثرة الناس هنا!)."
+    },
+    {
+      "q": "Elle cherche............appartement à Paris.",
+      "options": [
+        "une",
+        "un",
+        "le",
+        "les"
+      ],
+      "correct": 1,
+      "feedback": "الإجابة الصحيحة هي 'un'. كلمة appartement مفرد مذكر، لذا نستخدم أداة النكرة للمذكر un."
+    },
+    {
+      "q": "Elle achète............fleurs pour sa mère.",
+      "options": [
+        "de la",
+        "un",
+        "des",
+        "du"
+      ],
+      "correct": 2,
+      "feedback": "الإجابة الصحيحة هي 'des'. كلمة fleurs جمع مؤنث، ونستخدم أداة التجزئة/النكرة للجمع des."
+    },
+    {
+      "q": "La femme............parle est ma voisine.",
+      "options": [
+        "quelle",
+        "qui",
+        "quels",
+        "que"
+      ],
+      "correct": 1,
+      "feedback": "الإجابة الصحيحة هي 'qui'. اسم الموصول qui يحل محل الفاعل (La femme) للفعل parle."
+    },
+    {
+      "q": "Elle s'intéresse............littérature.",
+      "options": [
+        "au",
+        "du",
+        "de la",
+        "à la"
+      ],
+      "correct": 3,
+      "feedback": "الإجابة الصحيحة هي 'à la'. الفعل هو s'intéresser à (يهتم بـ)، وبما أن littérature مؤنث مفرد فإنها تأخذ حرف الجر المدغم à la."
+    },
+    {
+      "q": "............est-ce qu'il va venir ?",
+      "options": [
+        "Qu'",
+        "Quand",
+        "Où",
+        "Combien"
+      ],
+      "correct": 1,
+      "feedback": "الإجابة الصحيحة هي 'Quand' (متى). الجملة تسأل عن زمن القدوم: 'متى سيأتي؟'."
+    },
+    {
+      "q": "............belle journée !",
+      "options": [
+        "quelle",
+        "quels",
+        "quelles",
+        "queles"
+      ],
+      "correct": 0,
+      "feedback": "الإجابة الصحيحة هي 'quelle'. كلمة journée مفرد مؤنث، لذا نستخدم صفة التعجب للمفرد المؤنث 'quelle'."
+    },
+    {
+      "q": "Le film............j'ai vu hier était passionnant !",
+      "options": [
+        "dont",
+        "Quels",
+        "Que",
+        "Qui"
+      ],
+      "correct": 2,
+      "feedback": "الإجابة الصحيحة هي 'Que'. اسم الموصول que يحل محل المفعول به المباشر للفعل j'ai vu."
+    },
+    {
+      "q": "J'ai été absent d'Alep............tout le mois de mars.",
+      "options": [
+        "en",
+        "pendant",
+        "dans",
+        "depuis"
+      ],
+      "correct": 1,
+      "feedback": "الإجابة الصحيحة هي 'pendant' (خلال/طوال). نستخدم pendant للتعبير عن مدة زمنية محددة لحدث منتهي."
+    },
+    {
+      "q": "Il a besoin............aide.",
+      "options": [
+        "le",
+        "de l'",
+        "des",
+        "une"
+      ],
+      "correct": 1,
+      "feedback": "الإجابة الصحيحة هي 'de l''. التعبير هو avoir besoin de (بحاجة إلى)، وحيث أن كلمة aide تبدأ بحرف صوتي، فإن أداة التعريف المدغمة تكون de l'."
+    },
+    {
+      "q": "Molière est............de nombreuses pièces de théâtre.",
+      "options": [
+        "le poète",
+        "l'auteur",
+        "l'animateur",
+        "le fondateur"
+      ],
+      "correct": 1,
+      "feedback": "الإجابة الصحيحة هي 'l'auteur' (مؤلف/كاتب). موليير كاتب مسرحي شهير، فهو مؤلف العديد من المسرحيات."
+    },
+    {
+      "q": "Ils habitent............Marseille.",
+      "options": [
+        "au",
+        "en",
+        "à",
+        "aux"
+      ],
+      "correct": 2,
+      "feedback": "الإجابة الصحيحة هي 'à'. نستخدم حرف الجر à قبل أسماء المدن."
+    },
+    {
+      "q": "Viens avec les filles de tes voisins. -> Viens avec ............",
+      "options": [
+        "lui",
+        "eux",
+        "elle",
+        "elles"
+      ],
+      "correct": 3,
+      "feedback": "الإجابة الصحيحة هي 'elles'. بما أن 'les filles' جمع مؤنث، نستخدم ضمير التوكيد المناسب لها وهو elles بعد حرف الجر avec."
+    },
+    {
+      "q": "Elle a rangé............ses affaires.",
+      "options": [
+        "tout",
+        "toute",
+        "tous",
+        "toutes"
+      ],
+      "correct": 3,
+      "feedback": "الإجابة الصحيحة هي 'toutes'. كلمة 'affaires' جمع مؤنث، لذا تطابقها صفة الشمول لتصبح 'toutes'."
+    },
+    {
+      "q": "J'ai (39)............livres dans ma bibliothèque.",
+      "options": [
+        "trente-neuf",
+        "trente-deux",
+        "treize",
+        "quinze"
+      ],
+      "correct": 0,
+      "feedback": "الإجابة الصحيحة هي 'trente-neuf'. الرقم 39 بالفرنسية يكتب trente-neuf."
+    },
+    {
+      "q": "Je suis né en deux mille cinq. -> Je suis né en............",
+      "options": [
+        "2016",
+        "2005",
+        "2015",
+        "2013"
+      ],
+      "correct": 1,
+      "feedback": "الإجابة الصحيحة هي '2005'. التعبير 'deux mille cinq' يعني العام 2005."
+    },
+    {
+      "q": "............mauvaise idée !",
+      "options": [
+        "Qui",
+        "Quelle",
+        "Quels",
+        "Quelles"
+      ],
+      "correct": 1,
+      "feedback": "الإجابة الصحيحة هي 'Quelle'. كلمة 'idée' مفرد مؤنث، لذا نستخدم صفة التعجب للمفرد المؤنث Quelle."
+    },
+    {
+      "q": "............tu ne m'es pas téléphoné ?",
+      "options": [
+        "Pourquoi",
+        "Quand",
+        "Comment",
+        "Où"
+      ],
+      "correct": 0,
+      "feedback": "الإجابة الصحيحة هي 'Pourquoi' (لماذا). السؤال يسأل عن سبب عدم الاتصال: 'لماذا لم تتصل بي؟'."
+    },
+    {
+      "q": "Nous avons des (grand) ............fenêtres.",
+      "options": [
+        "grand",
+        "grande",
+        "grands",
+        "grandes"
+      ],
+      "correct": 3,
+      "feedback": "الإجابة الصحيحة هي 'grandes'. بما أن كلمة fenêtres جمع مؤنث، فإن الصفة grand يجب أن تطابقها وتصبح grandes."
+    },
+    {
+      "q": "C'est un (joli) ............cadeau.",
+      "options": [
+        "joli",
+        "jolie",
+        "jolies",
+        "belle"
+      ],
+      "correct": 0,
+      "feedback": "الإجابة الصحيحة هي 'joli'. كلمة cadeau مفرد مذكر، لذا تبقى الصفة joli دون تغيير."
+    },
+    {
+      "q": "Elle porte une (beau) ............robe.",
+      "options": [
+        "beau",
+        "belle",
+        "beaux",
+        "belles"
+      ],
+      "correct": 1,
+      "feedback": "الإجابة الصحيحة هي 'belle'. كلمة robe مفرد مؤنث، والصفة beau تتحول في المؤنث إلى belle."
+    },
+    {
+      "q": "Elle a une (vieux)............voiture.",
+      "options": [
+        "vieux",
+        "vieil",
+        "vieille",
+        "vieilles"
+      ],
+      "correct": 2,
+      "feedback": "الإجابة الصحيحة هي 'vieille'. كلمة voiture مفرد مؤنث، والصفة vieux تتحول في المؤنث إلى vieille."
+    },
+    {
+      "q": "1. Aiko est à la montagne avec Benoit seulement.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": 1,
+      "feedback": "فابيو هو من في الجبال مع أصدقائه، وليس آيكو.",
+      "id": "q_f07b353b40c44f8e88a9",
+      "legacyIds": [
+        "id_2f870dc",
+        "qid_265ec673"
+      ],
+      "legacyPrimaryIds": [
+        "qid_265ec673"
+      ]
+    },
+    {
+      "q": "2. Benoit a participé à l'initiation à l'escalade mardi.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": 1,
+      "feedback": "بينوا يعاني من الدوار ولم يشارك في التسلق.",
+      "id": "q_b0667d19f2d16f0805b5",
+      "legacyIds": [
+        "id_4d7e570d",
+        "qid_620ee85c"
+      ],
+      "legacyPrimaryIds": [
+        "qid_620ee85c"
+      ]
+    },
+    {
+      "q": "3. Hier, ils ont fait du rafting.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": 1,
+      "feedback": "البارحة قاموا بمسير (randonnée)، أما الرافتينغ فكان هذا الصباح.",
+      "id": "q_d53ec368ac5e7e847009",
+      "legacyIds": [
+        "id_7a2d04f1",
+        "qid_537eca80"
+      ],
+      "legacyPrimaryIds": [
+        "qid_537eca80"
+      ]
+    },
+    {
+      "q": "4. Ce matin, ils ont fait du rafting sur la rivière.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": 0,
+      "feedback": "النص يذكر بوضوح أنهم قاموا بالرافتينغ في النهر هذا الصباح.",
+      "id": "q_1205e04946769d9f3520",
+      "legacyIds": [
+        "id_341165c2",
+        "qid_3bdd918c"
+      ],
+      "legacyPrimaryIds": [
+        "qid_3bdd918c"
+      ]
+    },
+    {
+      "q": "5. Demain, ils feront une randonnée avec une nuit en refuge à 3000 mètres.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": 0,
+      "feedback": "الجملة مطابقة تماماً لما ورد في النص عن خطة الغد.",
+      "id": "q_a9a68eea463e827438b9",
+      "legacyIds": [
+        "id_3ae0f5d3",
+        "qid_135360c1"
+      ],
+      "legacyPrimaryIds": [
+        "qid_135360c1"
+      ]
+    },
+    {
+      "q": "6. Les parents d'Aiko sont déjà partis au Japon.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": 1,
+      "feedback": "فابيو يأمل أن والدي آيكو لم يغادروا بعد إلى اليابان (ne sont pas déjà partis).",
+      "id": "q_794d3353e59e9ce03f80",
+      "legacyIds": [
+        "id_2c10f983",
+        "qid_4e0f7c6e"
+      ],
+      "legacyPrimaryIds": [
+        "qid_4e0f7c6e"
+      ]
+    },
+    {
+      "q": "7. Fabio conseille à Aiko d'acheter ses billets de train le plus tôt possible pour économiser.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": 0,
+      "feedback": "فابيو ينصح آيكو بشراء التذاكر مبكراً لأنها تكون أرخص (c'est moins cher).",
+      "id": "q_d7c42da764e001e31365",
+      "legacyIds": [
+        "id_54026c7a",
+        "qid_2d25ac0c"
+      ],
+      "legacyPrimaryIds": [
+        "qid_2d25ac0c"
+      ]
+    },
+    {
+      "q": "8. Benoit a le vertige et n'aime pas l'escalade.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": 0,
+      "feedback": "النص يذكر أن بينوا لا يحب التسلق ويعاني من الدوار (a le vertige).",
+      "id": "q_6dd6d42654fe0b20d133",
+      "legacyIds": [
+        "id_12dd4a24",
+        "qid_2523ec32"
+      ],
+      "legacyPrimaryIds": [
+        "qid_2523ec32"
+      ]
+    },
+    {
+      "q": "9. Ils ont fait une randonnée dans le Parc National de la Vanoise hier.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": 0,
+      "feedback": "النص يؤكد قيامهم بمسير في الحديقة الوطنية للـ Vanoise البارحة.",
+      "id": "q_9013cf8839c5ac79ec90",
+      "legacyIds": [
+        "id_50f03186",
+        "qid_2350bed8"
+      ],
+      "legacyPrimaryIds": [
+        "qid_2350bed8"
+      ]
+    },
+    {
+      "q": "10. Fabio n'aime pas ces vacances.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": 1,
+      "feedback": "بالعكس، فابيو يقول أنها حقاً عطلة يحبها (c'est vraiment des vacances que j'adore).",
+      "id": "q_a1c18d4fa475428e15fb",
+      "legacyIds": [
+        "id_6681e3",
+        "qid_451bffb2"
+      ],
+      "legacyPrimaryIds": [
+        "qid_451bffb2"
+      ]
+    },
+    {
+      "q": "11. Nous (pouvoir).......... venir lundi, à 8 heures ?",
+      "options": [
+        "pouvez",
+        "pouvons",
+        "pouviez",
+        "pu"
+      ],
+      "correct": 1,
+      "feedback": "تصريف الفعل pouvoir مع الضمير Nous في الحاضر هو pouvons.",
+      "id": "q_e90e9c2d20d3664623d4",
+      "legacyIds": [
+        "id_a4c5bd2",
+        "qid_942e47f"
+      ],
+      "legacyPrimaryIds": [
+        "qid_942e47f"
+      ]
+    },
+    {
+      "q": "12. Imad (venir).........au théâtre avec nous.",
+      "options": [
+        "venu",
+        "vient",
+        "viens",
+        "viennent"
+      ],
+      "correct": 1,
+      "feedback": "الفاعل Imad يعادل الضمير Il وتصريف الفعل معه في الحاضر هو vient.",
+      "id": "q_9d1bfc0569bcad643b2e",
+      "legacyIds": [
+        "id_3f60eada",
+        "q_95dfce0b0f6a149de2b1",
+        "qid_52a3c4b7",
+        "qid_52a3c4b7__2"
+      ],
+      "legacyPrimaryIds": [
+        "q_95dfce0b0f6a149de2b1",
+        "qid_52a3c4b7",
+        "qid_52a3c4b7__2"
+      ]
+    },
+    {
+      "q": "13. J'ai du travail à faire, je vais.............",
+      "options": [
+        "au lit",
+        "au salon",
+        "au bureau",
+        "au jardin"
+      ],
+      "correct": 2,
+      "feedback": "لدي عمل لأنجزه، المكان المنطقي للذهاب إليه هو المكتب (au bureau).",
+      "id": "q_1633d852a7f06687f48b",
+      "legacyIds": [
+        "id_720d4f70",
+        "q_a9e7b60a732c920e067a",
+        "qid_bc56852",
+        "qid_bc56852__2"
+      ],
+      "legacyPrimaryIds": [
+        "q_a9e7b60a732c920e067a",
+        "qid_bc56852",
+        "qid_bc56852__2"
+      ]
+    },
+    {
+      "q": "14. Le poivre est un.............",
+      "options": [
+        "plat",
+        "condiment",
+        "dessert",
+        "jus"
+      ],
+      "correct": 1,
+      "feedback": "الفلفل (Le poivre) يعتبر من التوابل أو البهارات (condiment).",
+      "id": "q_e3fc3355a29fb7c6f6a0",
+      "legacyIds": [
+        "id_33bdbc05",
+        "q_1f7f33ed13e7ddfe3580",
+        "qid_9fef62c",
+        "qid_9fef62c__2"
+      ],
+      "legacyPrimaryIds": [
+        "q_1f7f33ed13e7ddfe3580",
+        "qid_9fef62c",
+        "qid_9fef62c__2"
+      ]
+    },
+    {
+      "q": "15. « j'ai raté mon examen ». Le verbe « rater » :",
+      "options": [
+        "échouer",
+        "réussir",
+        "annuler",
+        "passer"
+      ],
+      "correct": 0,
+      "feedback": "الفعل rater يعني يفشل أو يرسب وهو مرادف للفعل échouer.",
+      "id": "q_3c5b8dbdc1f2f3920a74",
+      "legacyIds": [
+        "id_340d40c7",
+        "id_7212302f",
+        "q_a8a8c1a6a4de41be7e68",
+        "qid_5089d59e",
+        "qid_6d40833a"
+      ],
+      "legacyPrimaryIds": [
+        "q_a8a8c1a6a4de41be7e68",
+        "qid_5089d59e",
+        "qid_6d40833a"
+      ]
+    },
+    {
+      "q": "16. Je n'aime pas..........lait.",
+      "options": [
+        "le",
+        "de la",
+        "du",
+        "la"
+      ],
+      "correct": 0,
+      "feedback": "مع أفعال الميول (مثل aimer) نستخدم أدوات المعرفة (le, la, les) دائماً حتى في حالة النفي، وكلمة lait مذكر فنستخدم le.",
+      "id": "q_89a1c6ebd77bf4b3fa84",
+      "legacyIds": [
+        "id_3e7c2c74",
+        "qid_158bbc9b"
+      ],
+      "legacyPrimaryIds": [
+        "qid_158bbc9b"
+      ]
+    },
+    {
+      "q": "17. tu bois souvent .......... café ?",
+      "options": [
+        "de la",
+        "du",
+        "des",
+        "de l'"
+      ],
+      "correct": 1,
+      "feedback": "كلمة café مذكر مفرد وغير معدود، لذا نستخدم أداة التجزئة du.",
+      "id": "q_f829046ea149158bea97",
+      "legacyIds": [
+        "id_6cf6fa70",
+        "q_02fbf1cf37e98ae80c3e",
+        "qid_43a1def4",
+        "qid_43a1def4__2"
+      ],
+      "legacyPrimaryIds": [
+        "q_02fbf1cf37e98ae80c3e",
+        "qid_43a1def4",
+        "qid_43a1def4__2"
+      ]
+    },
+    {
+      "q": "18. tu (pouvoir) .......... garder mon chat ? (Dans une forme plus polie)",
+      "options": [
+        "pourrez",
+        "pourrons",
+        "pourriez",
+        "pourrais"
+      ],
+      "correct": 3,
+      "feedback": "لصيغة الطلب المؤدب مع الضمير tu نستخدم صيغة الشرط (Conditionnel) وهي pourrais.",
+      "id": "q_8dd45b2fec03898059ae",
+      "legacyIds": [
+        "id_6be921d7",
+        "q_172b6f68cb25ba7a7834",
+        "qid_2db3f784",
+        "qid_2db3f784__2"
+      ],
+      "legacyPrimaryIds": [
+        "q_172b6f68cb25ba7a7834",
+        "qid_2db3f784",
+        "qid_2db3f784__2"
+      ]
+    },
+    {
+      "q": "19. J'aime bien aller pêcher dans la..................",
+      "options": [
+        "ferme",
+        "rivière",
+        "forêt",
+        "nature"
+      ],
+      "correct": 1,
+      "feedback": "الصيد (pêcher) يتم عادة في النهر (la rivière).",
+      "id": "q_cff476d7625224931bde",
+      "legacyIds": [
+        "id_dca390b",
+        "q_9867f5618d3e23285d4f",
+        "qid_5d9d8f38",
+        "qid_5d9d8f38__2"
+      ],
+      "legacyPrimaryIds": [
+        "q_9867f5618d3e23285d4f",
+        "qid_5d9d8f38",
+        "qid_5d9d8f38__2"
+      ]
+    },
+    {
+      "q": "20. Il a emprunté des livres à la.............",
+      "options": [
+        "librairie",
+        "charcuterie",
+        "papeterie",
+        "bibliothèque"
+      ],
+      "correct": 3,
+      "feedback": "يتم استعارة الكتب (emprunter) من المكتبة العامة (bibliothèque).",
+      "id": "q_4b26f9fe2ed3473b6ee4",
+      "legacyIds": [
+        "id_6f896d7e",
+        "q_06d947466b88c3198afd",
+        "qid_41de650a",
+        "qid_41de650a__2"
+      ],
+      "legacyPrimaryIds": [
+        "q_06d947466b88c3198afd",
+        "qid_41de650a",
+        "qid_41de650a__2"
+      ]
+    },
+    {
+      "q": "21. Hier, Sophie..........à la fête ?",
+      "options": [
+        "a allé",
+        "a allée",
+        "est allé",
+        "est allée"
+      ],
+      "correct": 3,
+      "feedback": "الفعل aller يأخذ المساعد être ويجب مطابقة اسم المفعول مع الفاعل المؤنث (Sophie) فنضيف e.",
+      "id": "q_3f2d5725c2593106ea35",
+      "legacyIds": [
+        "id_5546e14d",
+        "qid_709da87c"
+      ],
+      "legacyPrimaryIds": [
+        "qid_709da87c"
+      ]
+    },
+    {
+      "q": "22. Vous..........à Mathieu.",
+      "options": [
+        "avons téléphoné",
+        "avez téléphoné",
+        "téléphoné",
+        "as téléphonés"
+      ],
+      "correct": 1,
+      "feedback": "مع الضمير Vous نستخدم المساعد avez واسم المفعول téléphoné.",
+      "id": "q_c0915fb2a65156f33fdb",
+      "legacyIds": [
+        "id_2278d94d",
+        "qid_70eda8fa"
+      ],
+      "legacyPrimaryIds": [
+        "qid_70eda8fa"
+      ]
+    },
+    {
+      "q": "23. Vous..........aimé la glace au chocolat.",
+      "options": [
+        "avons",
+        "avez",
+        "êtes",
+        "sommes"
+      ],
+      "correct": 1,
+      "feedback": "الفعل aimer يأخذ المساعد avoir، ومع الضمير Vous نستخدم avez.",
+      "id": "q_f411a4fe0a1a7ffcba9b",
+      "legacyIds": [
+        "id_3f5b9c3a",
+        "qid_263788cc"
+      ],
+      "legacyPrimaryIds": [
+        "qid_263788cc"
+      ]
+    },
+    {
+      "q": "24. Elles..........par la ville.",
+      "options": [
+        "sont passé",
+        "sont passés",
+        "sont passées",
+        "passent"
+      ],
+      "correct": 2,
+      "feedback": "الفعل passer هنا يأخذ المساعد être ويطابق الفاعل جمع المؤنث Elles فنضيف es.",
+      "id": "q_793e8a06f5fb4995c379",
+      "legacyIds": [
+        "id_1dd72536",
+        "qid_5223d6a9"
+      ],
+      "legacyPrimaryIds": [
+        "qid_5223d6a9"
+      ]
+    },
+    {
+      "q": "25. Je vais chez..........amie italienne ?",
+      "options": [
+        "le",
+        "la",
+        "un",
+        "une"
+      ],
+      "correct": 3,
+      "feedback": "كلمة amie مفرد مؤنث وتبدأ بحرف صوتي فتأخذ أداة التنكير une.",
+      "id": "q_5c72ba32aeb3ef35665b",
+      "legacyIds": [
+        "id_1bf49ebd",
+        "id_7e56ee94",
+        "q_aeaff9d38bfb05700d2b",
+        "qid_55bbe5fe",
+        "qid_61c0d84f"
+      ],
+      "legacyPrimaryIds": [
+        "q_aeaff9d38bfb05700d2b",
+        "qid_55bbe5fe",
+        "qid_61c0d84f"
+      ]
+    },
+    {
+      "q": "26. Tu connais..........homme ?",
+      "options": [
+        "ce",
+        "cette",
+        "cet",
+        "ces"
+      ],
+      "correct": 2,
+      "feedback": "كلمة homme مفرد مذكر تبدأ بحرف صامت (h muet) فنستخدم صفة الإشارة cet.",
+      "id": "q_58c1e208263484364136",
+      "legacyIds": [
+        "id_59c781c7",
+        "qid_6ed4c079"
+      ],
+      "legacyPrimaryIds": [
+        "qid_6ed4c079"
+      ]
+    },
+    {
+      "q": "27. J'adore..........rue.",
+      "options": [
+        "ce",
+        "cette",
+        "cet",
+        "ces"
+      ],
+      "correct": 1,
+      "feedback": "كلمة rue مفرد مؤنث، فنستخدم صفة الإشارة cette.",
+      "id": "q_2fd90fbdd5996bc8ab4c",
+      "legacyIds": [
+        "id_2d466f78",
+        "qid_31ebca29"
+      ],
+      "legacyPrimaryIds": [
+        "qid_31ebca29"
+      ]
+    },
+    {
+      "q": "28. il y a..........mouche dans mon café !",
+      "options": [
+        "un",
+        "une",
+        "la",
+        "le"
+      ],
+      "correct": 1,
+      "feedback": "كلمة ذبابة (mouche) مؤنث وتأخذ أداة التنكير une.",
+      "id": "q_5d2716a8b28d735f4cb1",
+      "legacyIds": [
+        "id_59cb4806",
+        "q_734c7a680251692fe5a2",
+        "qid_2eff3316",
+        "qid_2eff3316__2"
+      ],
+      "legacyPrimaryIds": [
+        "q_734c7a680251692fe5a2",
+        "qid_2eff3316",
+        "qid_2eff3316__2"
+      ]
+    },
+    {
+      "q": "29. Je déteste..........thé.",
+      "options": [
+        "de la",
+        "le",
+        "du",
+        "des"
+      ],
+      "correct": 1,
+      "feedback": "بعد فعل détester تُستخدم أداة التعريف؛ وthé اسم مذكر، لذلك نقول: Je déteste le thé.",
+      "id": "q_bbe6a791b36b6177a78f",
+      "legacyIds": [
+        "id_4058e820",
+        "qid_13a51c5b"
+      ],
+      "legacyPrimaryIds": [
+        "qid_13a51c5b"
+      ]
+    },
+    {
+      "q": "30. Hier, ils ont mangé..........poisson.",
+      "options": [
+        "du",
+        "le",
+        "de la",
+        "la"
+      ],
+      "correct": 0,
+      "feedback": "السمك (poisson) مذكر مفرد وغير معدود، وللدلالة على تناول جزء منه نستخدم أداة التجزئة du.",
+      "id": "q_6e8d38b942506c9fe9c2",
+      "legacyIds": [
+        "id_1f05b926",
+        "qid_63e44195"
+      ],
+      "legacyPrimaryIds": [
+        "qid_63e44195"
+      ]
+    },
+    {
+      "q": "31. Elle a rangé..........ses affaires.",
+      "options": [
+        "tout",
+        "toute",
+        "tous",
+        "toutes"
+      ],
+      "correct": 3,
+      "feedback": "كلمة affaires جمع مؤنث فنستخدم toutes.",
+      "id": "q_c8480246b02cb4a3a51a",
+      "legacyIds": [
+        "id_5a933d07",
+        "qid_68539c3a"
+      ],
+      "legacyPrimaryIds": [
+        "qid_68539c3a"
+      ]
+    },
+    {
+      "q": "32. .......... gentil message !",
+      "options": [
+        "Quel",
+        "Qui",
+        "Quelle",
+        "Où"
+      ],
+      "correct": 0,
+      "feedback": "كلمة message مفرد مذكر، للتعجب نستخدم Quel.",
+      "id": "q_9f12e4d9567827f52008",
+      "legacyIds": [
+        "id_14f9c146",
+        "qid_41a73ae2"
+      ],
+      "legacyPrimaryIds": [
+        "qid_41a73ae2"
+      ]
+    },
+    {
+      "q": "33. .......... mauvaise idée !",
+      "options": [
+        "Qui",
+        "Quelle",
+        "Quels",
+        "Quelles"
+      ],
+      "correct": 1,
+      "feedback": "كلمة idée مفرد مؤنث، نستخدم صفة التعجب Quelle.",
+      "id": "q_db00e0324f48e55a109b",
+      "legacyIds": [
+        "id_31730461",
+        "id_4a191604",
+        "q_be650726f17a1cefa038",
+        "qid_74927b7b",
+        "qid_74927b7b__2"
+      ],
+      "legacyPrimaryIds": [
+        "q_be650726f17a1cefa038",
+        "qid_74927b7b",
+        "qid_74927b7b__2"
+      ]
+    },
+    {
+      "q": "34. « rouge, orange, vert », ce sont des...........",
+      "options": [
+        "formes",
+        "couleurs",
+        "matières",
+        "meubles"
+      ],
+      "correct": 1,
+      "feedback": "أحمر، برتقالي، أخضر هي أسماء ألوان (couleurs).",
+      "id": "q_79f365f1a0820d9be2da",
+      "legacyIds": [
+        "id_7a7621dd",
+        "qid_1106b700"
+      ],
+      "legacyPrimaryIds": [
+        "qid_1106b700"
+      ]
+    },
+    {
+      "q": "35. Le contraire de (long) est :",
+      "options": [
+        "mince",
+        "court",
+        "large",
+        "bas"
+      ],
+      "correct": 1,
+      "feedback": "عكس كلمة طويل (long) هو قصير (court).",
+      "id": "q_aa39aa1e610cd7834ede",
+      "legacyIds": [
+        "id_280d3bd5",
+        "qid_2120c114"
+      ],
+      "legacyPrimaryIds": [
+        "qid_2120c114"
+      ]
+    },
+    {
+      "q": "36. Le contraire de (calme) est :",
+      "options": [
+        "ancien",
+        "clair",
+        "jolie",
+        "bruyant"
+      ],
+      "correct": 3,
+      "feedback": "عكس كلمة هادئ (calme) هو صاخب أو مزعج (bruyant).",
+      "id": "q_ebef43ebc72e91a4a9e7",
+      "legacyIds": [
+        "id_6c0d303f",
+        "qid_6adbb103"
+      ],
+      "legacyPrimaryIds": [
+        "qid_6adbb103"
+      ]
+    },
+    {
+      "q": "37. Le contraire de (sombre) est :",
+      "options": [
+        "lourd",
+        "clair",
+        "cher",
+        "carré"
+      ],
+      "correct": 1,
+      "feedback": "عكس كلمة داكن (sombre) هو فاتح أو مضيء (clair).",
+      "id": "q_8e1386e50b800fdcc4ba",
+      "legacyIds": [
+        "id_2c8b5abb",
+        "qid_1debc9c6"
+      ],
+      "legacyPrimaryIds": [
+        "qid_1debc9c6"
+      ]
+    },
+    {
+      "q": "38. Le contraire de (vendre) est :",
+      "options": [
+        "échanger",
+        "prêter",
+        "acheter",
+        "donner"
+      ],
+      "correct": 2,
+      "feedback": "عكس فعل يبيع (vendre) هو يشتري (acheter).",
+      "id": "q_07d0876dfd0511dbf006",
+      "legacyIds": [
+        "id_51000203",
+        "qid_682c476d"
+      ],
+      "legacyPrimaryIds": [
+        "qid_682c476d"
+      ]
+    },
+    {
+      "q": "39. On va chez Diane vendredi prochain.",
+      "options": [
+        "elles",
+        "eux",
+        "lui",
+        "elle"
+      ],
+      "correct": 3,
+      "feedback": "Diane اسم فتاة، نعوض عنه بضمير التوكيد elle بعد حرف الجر chez.",
+      "id": "q_4c22cf2a520b2d600bc0",
+      "legacyIds": [
+        "id_10660ba",
+        "id_148f05fd",
+        "q_7b4b797d1fa4bd6353e8",
+        "qid_2f78f462",
+        "qid_3602585b"
+      ],
+      "legacyPrimaryIds": [
+        "q_7b4b797d1fa4bd6353e8",
+        "qid_2f78f462",
+        "qid_3602585b"
+      ]
+    },
+    {
+      "q": "40. Viens avec les filles de tes voisins.",
+      "options": [
+        "lui",
+        "eux",
+        "elle",
+        "elles"
+      ],
+      "correct": 3,
+      "feedback": "les filles جمع مؤنث، فنستخدم ضمير التوكيد elles بعد حرف الجر avec.",
+      "id": "q_15c46ce5607bc0d7ced9",
+      "legacyIds": [
+        "id_3a95404b",
+        "id_57fd27e5",
+        "q_49fa892977f430fc17d9",
+        "qid_2396a8d3",
+        "qid_b554f53"
+      ],
+      "legacyPrimaryIds": [
+        "q_49fa892977f430fc17d9",
+        "qid_2396a8d3",
+        "qid_b554f53"
+      ]
+    },
+    {
+      "q": "41. Trouvez l’intrus (bijoux) :",
+      "options": [
+        "chaîne",
+        "bracelet",
+        "collier",
+        "aller"
+      ],
+      "correct": 3,
+      "feedback": "aller هو فعل (يذهب) بينما البقية هي أسماء مجوهرات، فهو الكلمة الدخيلة.",
+      "id": "q_57c61f5d1834ce4e566a",
+      "legacyIds": [
+        "id_27d4e880",
+        "qid_336462fe"
+      ],
+      "legacyPrimaryIds": [
+        "qid_336462fe"
+      ]
+    },
+    {
+      "q": "41. Trouvez l’intrus (fruits) :",
+      "options": [
+        "banane",
+        "pomme",
+        "raisin",
+        "danser"
+      ],
+      "correct": 3,
+      "feedback": "danser هو فعل (يرقص) بينما البقية هي أسماء فواكه، فهو الكلمة الدخيلة.",
+      "id": "q_6dd54878591e3bc93e10",
+      "legacyIds": [
+        "id_75275d38",
+        "qid_3ffd587f"
+      ],
+      "legacyPrimaryIds": [
+        "qid_3ffd587f"
+      ]
+    },
+    {
+      "q": "43. Victor Hugo est..........des Misérables.",
+      "options": [
+        "le poète",
+        "l'auteur",
+        "l'animateur",
+        "le fondateur"
+      ],
+      "correct": 1,
+      "feedback": "فيكتور هوغو هو مؤلف (l'auteur) رواية البؤساء.",
+      "id": "q_59037d7a4eb4d77b69f1",
+      "legacyIds": [
+        "id_2cff29a7",
+        "q_a2e50bf7e000c737e576",
+        "qid_dea04",
+        "qid_dea04__2"
+      ],
+      "legacyPrimaryIds": [
+        "q_a2e50bf7e000c737e576",
+        "qid_dea04",
+        "qid_dea04__2"
+      ]
+    },
+    {
+      "q": "44. Janvier est le..........mois de l'année.",
+      "options": [
+        "premier",
+        "dernier",
+        "neuvième",
+        "onzième"
+      ],
+      "correct": 0,
+      "feedback": "كانون الثاني (Janvier) هو الشهر الأول (premier) من السنة.",
+      "id": "q_cb5f95ca31db64a602a0",
+      "legacyIds": [
+        "id_1a8f067f",
+        "qid_178fd8c5"
+      ],
+      "legacyPrimaryIds": [
+        "qid_178fd8c5"
+      ]
+    },
+    {
+      "q": "45. Le basketball est une activité...........",
+      "options": [
+        "sportive",
+        "culturelle",
+        "social",
+        "culinaire"
+      ],
+      "correct": 0,
+      "feedback": "كرة السلة هي نشاط رياضي (sportive).",
+      "id": "q_7c16bcf592257a090a24",
+      "legacyIds": [
+        "id_76c1bb88",
+        "qid_938c9da"
+      ],
+      "legacyPrimaryIds": [
+        "qid_938c9da"
+      ]
+    },
+    {
+      "q": "46. Tarte est un/une...........",
+      "options": [
+        "boisson",
+        "dessert",
+        "entrée",
+        "plat"
+      ],
+      "correct": 1,
+      "feedback": "التارت (Tarte) تعتبر من الحلويات (dessert).",
+      "id": "q_993052babfa4ec84a4e3",
+      "legacyIds": [
+        "id_5c4f67ac",
+        "qid_5521d520"
+      ],
+      "legacyPrimaryIds": [
+        "qid_5521d520"
+      ]
+    },
+    {
+      "q": "47. c'est une (joli).......... ville.",
+      "options": [
+        "joli",
+        "jolie",
+        "jolies",
+        "belle"
+      ],
+      "correct": 1,
+      "feedback": "مدينة (ville) مفرد مؤنث، نؤنث الصفة بإضافة e لتصبح jolie.",
+      "id": "q_7a1a0cf9f410589b7cee",
+      "legacyIds": [
+        "id_19200aff",
+        "id_4c1e5d2a",
+        "q_8068af8c4496263c10aa",
+        "qid_35651c56",
+        "qid_6ac5a702"
+      ],
+      "legacyPrimaryIds": [
+        "q_8068af8c4496263c10aa",
+        "qid_35651c56",
+        "qid_6ac5a702"
+      ]
+    },
+    {
+      "q": "48. On va faire les(autre)......exercices.",
+      "options": [
+        "autre",
+        "autres",
+        "autree",
+        "aures"
+      ],
+      "correct": 1,
+      "feedback": "كلمة exercices جمع، فنضيف s لصفة autre لتصبح autres.",
+      "id": "q_baac19b834cbbfe70ff3",
+      "legacyIds": [
+        "id_b407726",
+        "qid_625db730"
+      ],
+      "legacyPrimaryIds": [
+        "qid_625db730"
+      ]
+    },
+    {
+      "q": "49. J'ai un (nouveau).........livre.",
+      "options": [
+        "nouveau",
+        "nouveaux",
+        "nouvelles",
+        "nouvelle"
+      ],
+      "correct": 0,
+      "feedback": "كلمة livre مفرد مذكر، والصفة nouveau تبقى كما هي للمفرد المذكر الذي يبدأ بحرف ساكن.",
+      "id": "q_545831cf8f1a2a66e0a1",
+      "legacyIds": [
+        "id_541555fc",
+        "qid_7b0071c7"
+      ],
+      "legacyPrimaryIds": [
+        "qid_7b0071c7"
+      ]
+    },
+    {
+      "q": "50. Je voudrais offrir des (beau).... cadeaux.",
+      "options": [
+        "beau",
+        "belle",
+        "belles",
+        "beaux"
+      ],
+      "correct": 3,
+      "feedback": "كلمة cadeaux جمع مذكر، وجمع الصفة beau يكون بإضافة x لتصبح beaux.",
+      "id": "q_c5fbbef28732560ee3f1",
+      "legacyIds": [
+        "id_64725836",
+        "qid_616f8564"
+      ],
+      "legacyPrimaryIds": [
+        "qid_616f8564"
+      ]
+    },
+    {
+      "q": "1. Le message est un mél.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": 0,
+      "feedback": "النص عبارة عن رسالة إلكترونية (إيميل) مرسلة عبر الإنترنت.",
+      "id": "q_7f98b865d7502b43e45a",
+      "legacyIds": [
+        "id_4714aac0",
+        "qid_39ccd572"
+      ],
+      "legacyPrimaryIds": [
+        "qid_39ccd572"
+      ]
+    },
+    {
+      "q": "2. Fabio qui envoie ce message Aiko.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": 1,
+      "feedback": "المرسل هي Aiko (De: Aiko) والمرسل إليه هو Fabio.",
+      "id": "q_b0cadc0a5354cb0a974f",
+      "legacyIds": [
+        "id_58cd32ec",
+        "qid_3e7fab3b"
+      ],
+      "legacyPrimaryIds": [
+        "qid_3e7fab3b"
+      ]
+    },
+    {
+      "q": "3. Le rendez-vous va réunir 4 personnes.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": 0,
+      "feedback": "اللقاء يضم Aiko و Fabio و Stephane و Sophie (4 أشخاص).",
+      "id": "q_8cfd572fc9a3b4de654b",
+      "legacyIds": [
+        "id_701b000d",
+        "qid_34d556e1"
+      ],
+      "legacyPrimaryIds": [
+        "qid_34d556e1"
+      ]
+    },
+    {
+      "q": "4. L'expéditeur est Fabio.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": 1,
+      "feedback": "المرسل (L'expéditeur) هي Aiko وليس Fabio.",
+      "id": "q_7075c3fe441206012562",
+      "legacyIds": [
+        "id_172fefac",
+        "qid_20a18bbb"
+      ],
+      "legacyPrimaryIds": [
+        "qid_20a18bbb"
+      ]
+    },
+    {
+      "q": "5. Fabio doit descendre à la station de métro Montparnasse.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": 1,
+      "feedback": "حسب النص يجب النزول في محطة Pernety.",
+      "id": "q_50028db70c8c20a71db9",
+      "legacyIds": [
+        "id_21136b00",
+        "qid_71862f8f"
+      ],
+      "legacyPrimaryIds": [
+        "qid_71862f8f"
+      ]
+    },
+    {
+      "q": "6. En sortant du métro, Fabio se trouve rue Raymond Losserand.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": 0,
+      "feedback": "النص يذكر بوضوح: Tu sors rue Raymond Losserand.",
+      "id": "q_3c50ebd4f19fdeae587f",
+      "legacyIds": [
+        "id_6b5bf8c7",
+        "qid_6ba871d5"
+      ],
+      "legacyPrimaryIds": [
+        "qid_6ba871d5"
+      ]
+    },
+    {
+      "q": "7. Le café du métro se trouve à l'angle de la rue Losserand et de la rue Pernety.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": 0,
+      "feedback": "النص يذكر أن المقهى يقع في الزاوية (au coin de) بين الشارعين.",
+      "id": "q_a770a133155373adb2b1",
+      "legacyIds": [
+        "id_70010a1f",
+        "qid_6f7fd5b3"
+      ],
+      "legacyPrimaryIds": [
+        "qid_6f7fd5b3"
+      ]
+    },
+    {
+      "q": "8. Fabio doit tourner à gauche au café du métro pour aller au restaurant.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": 1,
+      "feedback": "يجب عليه إكمال الطريق بشكل مستقيم ثم الانعطاف يميناً، المقهى سيكون على يساره.",
+      "id": "q_f90fb879150a92c315c0",
+      "legacyIds": [
+        "id_67dc6cca",
+        "qid_5f410a65"
+      ],
+      "legacyPrimaryIds": [
+        "qid_5f410a65"
+      ]
+    },
+    {
+      "q": "9. Fabio doit descendre la rue du château jusqu'à une grande place.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": 1,
+      "feedback": "النص يذكر ساحة صغيرة (une petite place) وليس كبيرة (grande).",
+      "id": "q_5fccab4cbe651643437e",
+      "legacyIds": [
+        "id_420ce223",
+        "qid_34801b14"
+      ],
+      "legacyPrimaryIds": [
+        "qid_34801b14"
+      ]
+    },
+    {
+      "q": "10. La restaurant le rendez-vous se trouve au numéro 6 de la rue Asseline.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": 1,
+      "feedback": "المطعم رقم 6 يقع في passage de la tour de Vanves وليس في شارع Asseline.",
+      "id": "q_736ef945b37529e14e4b",
+      "legacyIds": [
+        "id_3d871768",
+        "qid_48e8b109"
+      ],
+      "legacyPrimaryIds": [
+        "qid_48e8b109"
+      ]
+    },
+    {
+      "q": "11. la maison est (vieux)................",
+      "options": [
+        "vieux",
+        "vieille",
+        "vieilles",
+        "vieillie"
+      ],
+      "correct": 1,
+      "feedback": "Maison is feminine singular, so the adjective is vieille.",
+      "id": "q_7ef62f012d7221a3e984",
+      "legacyIds": [
+        "id_248ab7f1",
+        "qid_7db29768"
+      ],
+      "legacyPrimaryIds": [
+        "qid_7db29768"
+      ]
+    },
+    {
+      "q": "21. Tu (prendre)..........un café ce matin ?",
+      "options": [
+        "a pris",
+        "as pris",
+        "a prend",
+        "as pri"
+      ],
+      "correct": 1,
+      "feedback": "في الماضي المركب مع الضمير Tu نستخدم المساعد as واسم المفعول pris.",
+      "id": "q_21390db0459ab05e101c",
+      "legacyIds": [
+        "id_29312858",
+        "qid_397ff62b"
+      ],
+      "legacyPrimaryIds": [
+        "qid_397ff62b"
+      ]
+    },
+    {
+      "q": "22. Vous (téléphoner)..........à Mathieu.",
+      "options": [
+        "avons téléphoné",
+        "avez téléphoné",
+        "téléphoné",
+        "as téléphonés"
+      ],
+      "correct": 1,
+      "feedback": "مع الضمير Vous نستخدم المساعد avez واسم المفعول téléphoné.",
+      "id": "q_0b1db6b446dd720a54af",
+      "legacyIds": [
+        "id_1e41cd86",
+        "qid_61499ff"
+      ],
+      "legacyPrimaryIds": [
+        "qid_61499ff"
+      ]
+    },
+    {
+      "q": "23. Vous (faire)..........bon voyage ?",
+      "options": [
+        "avez fait",
+        "avez fais",
+        "avons fait",
+        "fait"
+      ],
+      "correct": 0,
+      "feedback": "اسم المفعول من faire هو fait، والمساعد المناسب لـ Vous هو avez.",
+      "id": "q_b6b6010db4deb259b1f8",
+      "legacyIds": [
+        "id_37f55ded",
+        "qid_38047ae9"
+      ],
+      "legacyPrimaryIds": [
+        "qid_38047ae9"
+      ]
+    },
+    {
+      "q": "24. Elles (passer)......par la ville.",
+      "options": [
+        "sont passé",
+        "sont passés",
+        "sont passées",
+        "passent"
+      ],
+      "correct": 2,
+      "feedback": "الفعل passer هنا يأخذ المساعد être ويجب مطابقة اسم المفعول مع الفاعل (جمع مؤنث) فنضيف es.",
+      "id": "q_689757606ba50b25f524",
+      "legacyIds": [
+        "id_ed9d505",
+        "qid_ffb0f84"
+      ],
+      "legacyPrimaryIds": [
+        "qid_ffb0f84"
+      ]
+    },
+    {
+      "q": "26. Tu connais..........restaurant Favre d'Anne ?",
+      "options": [
+        "le",
+        "la",
+        "un",
+        "une"
+      ],
+      "correct": 0,
+      "feedback": "المطعم هنا محدد باسمه وهو مذكر مفرد، فنستخدم أداة المعرفة le.",
+      "id": "q_02a0246e047a905152c9",
+      "legacyIds": [
+        "id_112b5b50",
+        "qid_6edec39b"
+      ],
+      "legacyPrimaryIds": [
+        "qid_6edec39b"
+      ]
+    },
+    {
+      "q": "27. Je cherche..........livre pour apprendre l'arabe.",
+      "options": [
+        "la",
+        "un",
+        "les",
+        "le"
+      ],
+      "correct": 1,
+      "feedback": "كلمة livre مذكر مفرد، ونحن نبحث عن كتاب نكرة (غير محدد) فنستخدم un.",
+      "id": "q_5b6755456bb346d287f3",
+      "legacyIds": [
+        "id_3cb61c8b",
+        "qid_3ca2def7"
+      ],
+      "legacyPrimaryIds": [
+        "qid_3ca2def7"
+      ]
+    },
+    {
+      "q": "29. .......... la classe a réussi.",
+      "options": [
+        "tout",
+        "toute",
+        "tous",
+        "toutes"
+      ],
+      "correct": 1,
+      "feedback": "كلمة classe مفرد مؤنث فنستخدم toute.",
+      "id": "q_11af2116a7d888060154",
+      "legacyIds": [
+        "id_7e2521f4",
+        "qid_7a80de15"
+      ],
+      "legacyPrimaryIds": [
+        "qid_7a80de15"
+      ]
+    },
+    {
+      "q": "30. Nous avons fait .......... les activités.",
+      "options": [
+        "Tout",
+        "Tous",
+        "Toute",
+        "Toutes"
+      ],
+      "correct": 3,
+      "feedback": "كلمة activités جمع مؤنث فنستخدم Toutes.",
+      "id": "q_4132df2cc57d0deea836",
+      "legacyIds": [
+        "id_7adca14",
+        "qid_521fd819"
+      ],
+      "legacyPrimaryIds": [
+        "qid_521fd819"
+      ]
+    },
+    {
+      "q": "31. Elle téléphone à sa mère..........les jours.",
+      "options": [
+        "tous",
+        "tout",
+        "toute",
+        "toutes"
+      ],
+      "correct": 0,
+      "feedback": "عبارة 'كل الأيام' (tous les jours)، وjours جمع مذكر فنستخدم tous.",
+      "id": "q_2ca2055ce606956cc5d2",
+      "legacyIds": [
+        "id_1f92e961",
+        "qid_63d2e8b1"
+      ],
+      "legacyPrimaryIds": [
+        "qid_63d2e8b1"
+      ]
+    },
+    {
+      "q": "32. Elle va être à Berlin..........la semaine.",
+      "options": [
+        "tout",
+        "toute",
+        "tous",
+        "toutes"
+      ],
+      "correct": 1,
+      "feedback": "كلمة semaine مفرد مؤنث، لذا نستخدم toute.",
+      "id": "q_9456717cc773471f5afe",
+      "legacyIds": [
+        "id_14d7457f",
+        "qid_2e254ee0"
+      ],
+      "legacyPrimaryIds": [
+        "qid_2e254ee0"
+      ]
+    },
+    {
+      "q": "34. La femme..........parle est ma voisine.",
+      "options": [
+        "quelle",
+        "qui",
+        "quels",
+        "quelles"
+      ],
+      "correct": 1,
+      "feedback": "نحتاج ضمير وصل يحل محل الفاعل (المرأة)، فنستخدم qui.",
+      "id": "q_e3bbbf6caa39952c41ee",
+      "legacyIds": [
+        "id_726a68c8",
+        "qid_3cf8650f"
+      ],
+      "legacyPrimaryIds": [
+        "qid_3cf8650f"
+      ]
+    },
+    {
+      "q": "35. Tu as visité..........ville?",
+      "options": [
+        "quelle",
+        "quel",
+        "quelles",
+        "quels"
+      ],
+      "correct": 0,
+      "feedback": "للسؤال عن مدينة (ville) وهي مفرد مؤنث، نستخدم صفة الاستفهام quelle.",
+      "id": "q_387a61f41aea3c0c0d51",
+      "legacyIds": [
+        "id_26ec013a",
+        "qid_4bab7eb2"
+      ],
+      "legacyPrimaryIds": [
+        "qid_4bab7eb2"
+      ]
+    },
+    {
+      "q": "36. .......... tu ne m'as pas téléphoné?",
+      "options": [
+        "Pourquoi",
+        "Quand",
+        "Comment",
+        "Où"
+      ],
+      "correct": 0,
+      "feedback": "السؤال يسأل عن السبب (لماذا لم تتصل بي؟)، نستخدم Pourquoi.",
+      "id": "q_d494edec0d3052ff90e1",
+      "legacyIds": [
+        "id_2bca1a44",
+        "qid_68e94d64"
+      ],
+      "legacyPrimaryIds": [
+        "qid_68e94d64"
+      ]
+    },
+    {
+      "q": "37. Le film .......... j'ai vu hier était passionnant !",
+      "options": [
+        "dont",
+        "Quels",
+        "Que",
+        "Qui"
+      ],
+      "correct": 2,
+      "feedback": "ضمير الوصل Que يحل محل المفعول به المباشر (الفيلم الذي رأيته).",
+      "id": "q_8c00bdf6bb17ee7953a4",
+      "legacyIds": [
+        "id_7f8a0c52",
+        "qid_50fcb705"
+      ],
+      "legacyPrimaryIds": [
+        "qid_50fcb705"
+      ]
+    },
+    {
+      "q": "38. J'ai été absent d'Alep..........tout le mois de mars.",
+      "options": [
+        "en",
+        "pendant",
+        "dans",
+        "depuis"
+      ],
+      "correct": 1,
+      "feedback": "للتعبير عن مدة زمنية محددة في الماضي (طوال شهر مارس) نستخدم pendant.",
+      "id": "q_4f74dccdc051132a1fa5",
+      "legacyIds": [
+        "id_32df855f",
+        "qid_3429912d"
+      ],
+      "legacyPrimaryIds": [
+        "qid_3429912d"
+      ]
+    },
+    {
+      "q": "41. mon frère a (25) livres.",
+      "options": [
+        "vingt",
+        "vingt-cinq",
+        "treize",
+        "quinze"
+      ],
+      "correct": 1,
+      "feedback": "Correct spelling: vingt-cinq.",
+      "id": "q_b893272bac2e4e450d2a",
+      "legacyIds": [
+        "id_401c48fc",
+        "qid_37d83a08"
+      ],
+      "legacyPrimaryIds": [
+        "qid_37d83a08"
+      ]
+    },
+    {
+      "q": "42. je suis né en deux mille cinq.",
+      "options": [
+        "2000",
+        "2005",
+        "2015",
+        "2013"
+      ],
+      "correct": 1,
+      "feedback": "deux mille cinq تعني 2005.",
+      "id": "q_91cc4dfa1a3ea1c25bb5",
+      "legacyIds": [
+        "id_778f524b",
+        "qid_6905c99d"
+      ],
+      "legacyPrimaryIds": [
+        "qid_6905c99d"
+      ]
+    },
+    {
+      "q": "44. Elle s'intéresse..........littérature.",
+      "options": [
+        "au",
+        "du",
+        "de la",
+        "à la"
+      ],
+      "correct": 3,
+      "feedback": "الفعل s'intéresser يأخذ حرف الجر à، وlittérature مفرد مؤنث، فتصبح à la.",
+      "id": "q_910905e34f984c58de30",
+      "legacyIds": [
+        "id_236885c",
+        "qid_220f666b"
+      ],
+      "legacyPrimaryIds": [
+        "qid_220f666b"
+      ]
+    },
+    {
+      "q": "45. ..........monde ici !",
+      "options": [
+        "Quand",
+        "Que de",
+        "Quel",
+        "Où"
+      ],
+      "correct": 1,
+      "feedback": "للتعبير عن التعجب من كثرة الناس نقول Que de monde (يا لكثرة الناس).",
+      "id": "q_59711fe2c128d45f534e",
+      "legacyIds": [
+        "id_1f476b4d",
+        "qid_a9deaaa"
+      ],
+      "legacyPrimaryIds": [
+        "qid_a9deaaa"
+      ]
+    },
+    {
+      "q": "46. ..........est-ce qu'il va venir?",
+      "options": [
+        "Qui",
+        "Quand",
+        "Où",
+        "Combien"
+      ],
+      "correct": 1,
+      "feedback": "أداة الاستفهام المناسبة منطقياً في هذه الخيارات هي Quand (متى سيأتي؟).",
+      "id": "q_9dadf68e5d99f4464e29",
+      "legacyIds": [
+        "id_1174b807",
+        "qid_32f2f911"
+      ],
+      "legacyPrimaryIds": [
+        "qid_32f2f911"
+      ]
+    },
+    {
+      "q": "47. Carine est née .......... Roumanie.",
+      "options": [
+        "en",
+        "à",
+        "du",
+        "aux"
+      ],
+      "correct": 0,
+      "feedback": "الدول المؤنثة (التي تنتهي بـ e مثل Romanie) تأخذ حرف الجر en.",
+      "id": "q_7303a68d12ed8d47eb0a",
+      "legacyIds": [
+        "id_700c764e",
+        "qid_7435c646"
+      ],
+      "legacyPrimaryIds": [
+        "qid_7435c646"
+      ]
+    },
+    {
+      "q": "48. Adam vient.............. Portugal.",
+      "options": [
+        "en",
+        "du",
+        "à",
+        "au"
+      ],
+      "correct": 1,
+      "feedback": "البرتغال دولة مذكر، ومع الفعل venir (يأتي من) نستخدم du.",
+      "id": "q_7e342120e091f4e9f559",
+      "legacyIds": [
+        "id_5e21d5c",
+        "qid_5715d00d"
+      ],
+      "legacyPrimaryIds": [
+        "qid_5715d00d"
+      ]
+    },
+    {
+      "q": "49. Chloé travaille.......... Togo.",
+      "options": [
+        "au",
+        "en",
+        "du",
+        "aux"
+      ],
+      "correct": 0,
+      "feedback": "توغو دولة مذكر، ومع الفعل travaille (في) نستخدم au.",
+      "id": "q_92d0e49daafab4738e24",
+      "legacyIds": [
+        "id_6adda3e7",
+        "qid_7ab57aff"
+      ],
+      "legacyPrimaryIds": [
+        "qid_7ab57aff"
+      ]
+    },
+    {
+      "q": "50. Je l'ai acheté........... Paris.",
+      "options": [
+        "à",
+        "au",
+        "aux",
+        "en"
+      ],
+      "correct": 0,
+      "feedback": "مع أسماء المدن (مثل باريس) نستخدم دائماً حرف الجر à.",
+      "id": "q_641d444102db1f67f245",
+      "legacyIds": [
+        "id_76f0f317",
+        "qid_7eb767f2"
+      ],
+      "legacyPrimaryIds": [
+        "qid_7eb767f2"
+      ]
+    }
   ]
 }

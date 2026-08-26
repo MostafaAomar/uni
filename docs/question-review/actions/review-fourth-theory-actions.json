@@ -1,0 +1,4580 @@
+{
+  "generatedAt": "2026-08-23T13:00:53.150Z",
+  "scope": [
+    "Fourth Year/Comparative_1.json",
+    "Fourth Year/comparative_2.json",
+    "Fourth Year/criticism_2.json",
+    "Fourth Year/Teaching_Methodologies.json"
+  ],
+  "note": "Review actions only. No file under work/uni-fixed was modified.",
+  "auditSummary": [
+    {
+      "file": "Fourth Year/Comparative_1.json",
+      "questions": 275,
+      "exactGroups": 45,
+      "exactConflicts": 1,
+      "strictGroups": 2,
+      "strictConflicts": 0,
+      "nearPairs": 0,
+      "strictGroupIds": [
+        {
+          "group": "S1",
+          "ids": [
+            "q_5f9cc3b585776be71fc0",
+            "q_0be5108e11d0b2be3f7b"
+          ],
+          "conflictingAnswers": false
+        },
+        {
+          "group": "S2",
+          "ids": [
+            "q_9cdd2b5caa48c7af163c",
+            "q_56b585ace078a80a78da"
+          ],
+          "conflictingAnswers": false
+        }
+      ],
+      "nearPairIds": []
+    },
+    {
+      "file": "Fourth Year/comparative_2.json",
+      "questions": 452,
+      "exactGroups": 44,
+      "exactConflicts": 15,
+      "strictGroups": 35,
+      "strictConflicts": 5,
+      "nearPairs": 2,
+      "strictGroupIds": [
+        {
+          "group": "S1",
+          "ids": [
+            "q_be97ca4a5ad751428afe",
+            "q_8cc00198e0a9ed4f7044",
+            "q_4882c2902ea64674771b"
+          ],
+          "conflictingAnswers": true
+        },
+        {
+          "group": "S2",
+          "ids": [
+            "q_bb6237f34ac3085a42de",
+            "q_cee4f7925a99aca20415",
+            "q_d7a3f080ea908d724a4e"
+          ],
+          "conflictingAnswers": false
+        },
+        {
+          "group": "S3",
+          "ids": [
+            "q_c4e7c0701f2640d7dacb",
+            "q_cfed2def695cb4d3a4e4"
+          ],
+          "conflictingAnswers": false
+        },
+        {
+          "group": "S4",
+          "ids": [
+            "q_6f5dbef68505987c8c34",
+            "q_8c5015bbf1e3f3f1487a"
+          ],
+          "conflictingAnswers": false
+        },
+        {
+          "group": "S5",
+          "ids": [
+            "q_495689b640795a2fcaf9",
+            "q_da94a38ddc2bb1aff345",
+            "q_68016097554ce5b020e8"
+          ],
+          "conflictingAnswers": false
+        },
+        {
+          "group": "S6",
+          "ids": [
+            "q_a32cf6265a023dd27089",
+            "q_1d07470096cb18d6ff55"
+          ],
+          "conflictingAnswers": false
+        },
+        {
+          "group": "S7",
+          "ids": [
+            "q_c002ce28f1c59446eb21",
+            "q_e64f5c80bd55e1089181"
+          ],
+          "conflictingAnswers": false
+        },
+        {
+          "group": "S8",
+          "ids": [
+            "q_d43e9dd09046be782a89",
+            "q_a3fbbdbb2ad5eaf25c53",
+            "q_28af2083bd0ed4e36c31"
+          ],
+          "conflictingAnswers": false
+        },
+        {
+          "group": "S9",
+          "ids": [
+            "q_1a5ba28a9d8b3b4790ba",
+            "q_69f1df6ace6ac56bc8c0"
+          ],
+          "conflictingAnswers": true
+        },
+        {
+          "group": "S10",
+          "ids": [
+            "q_29074c78ce0f5d31336c",
+            "q_b5e3cc09b60b4c81d962",
+            "q_25ee2ec6964db73bb949"
+          ],
+          "conflictingAnswers": true
+        },
+        {
+          "group": "S11",
+          "ids": [
+            "q_2cf7863600a0e8fbee7e",
+            "q_652d9f51436ec011664a",
+            "q_46f662ad4c34fb02a8e6"
+          ],
+          "conflictingAnswers": false
+        },
+        {
+          "group": "S12",
+          "ids": [
+            "q_3c5f4490f9c19b682fe3",
+            "q_00c114bcf17de4a6d746"
+          ],
+          "conflictingAnswers": false
+        },
+        {
+          "group": "S13",
+          "ids": [
+            "q_4cb2dafb09ff8931083b",
+            "q_3db2cbd07f46da33575d"
+          ],
+          "conflictingAnswers": false
+        },
+        {
+          "group": "S14",
+          "ids": [
+            "q_976d49aa492f741f25e7",
+            "q_38010f7061d00c6ccaef",
+            "q_1cfcb2dfa1b5d6e84365",
+            "q_30be56151b2ac4bc70c0",
+            "q_d3a75b96eef61563b9a5",
+            "q_8c480940518d50a5db46"
+          ],
+          "conflictingAnswers": true
+        },
+        {
+          "group": "S15",
+          "ids": [
+            "q_46dbe98bffdceb36fd02",
+            "q_0521ccdaf38b86d9f6b0"
+          ],
+          "conflictingAnswers": true
+        },
+        {
+          "group": "S16",
+          "ids": [
+            "q_bca019b1825bb6a67c29",
+            "q_bc06d925e15a07f103a6"
+          ],
+          "conflictingAnswers": false
+        },
+        {
+          "group": "S17",
+          "ids": [
+            "q_4abeef6ff171c3cbf8c2",
+            "q_333481f85450cbaa5a64"
+          ],
+          "conflictingAnswers": false
+        },
+        {
+          "group": "S18",
+          "ids": [
+            "q_152352a04a09fc6af6bc",
+            "q_2f661331dd972109980e"
+          ],
+          "conflictingAnswers": false
+        },
+        {
+          "group": "S19",
+          "ids": [
+            "q_5aa12cc2ca0208fd4233",
+            "q_6a7f3ec2d1ae5289412e"
+          ],
+          "conflictingAnswers": false
+        },
+        {
+          "group": "S20",
+          "ids": [
+            "q_641895692e68fb8c4b52",
+            "q_67a6e1242ccad92bc2ce"
+          ],
+          "conflictingAnswers": false
+        },
+        {
+          "group": "S21",
+          "ids": [
+            "q_5b2bdeafc1affe56c318",
+            "q_bf3b31eb82e3cf0d61a2"
+          ],
+          "conflictingAnswers": false
+        },
+        {
+          "group": "S22",
+          "ids": [
+            "q_0715add62cec9baa7510",
+            "q_925b9d1dbbf03517e228"
+          ],
+          "conflictingAnswers": false
+        },
+        {
+          "group": "S23",
+          "ids": [
+            "q_0c1e37e4334e79f49d68",
+            "q_e5eb91264c43079def06"
+          ],
+          "conflictingAnswers": false
+        },
+        {
+          "group": "S24",
+          "ids": [
+            "q_184bc130ca18c25b60a2",
+            "q_a3f5049e21b5f6a543d2"
+          ],
+          "conflictingAnswers": false
+        },
+        {
+          "group": "S25",
+          "ids": [
+            "q_cdc1a699b7d152a17f1f",
+            "q_96317271e9197668f46e"
+          ],
+          "conflictingAnswers": false
+        },
+        {
+          "group": "S26",
+          "ids": [
+            "q_fda4b28f6dba571b15f2",
+            "q_af3f98268f62ddfbaf29"
+          ],
+          "conflictingAnswers": false
+        },
+        {
+          "group": "S27",
+          "ids": [
+            "q_1aaeb2f9c6d878a3e618",
+            "q_493c337f6c0288d4f412"
+          ],
+          "conflictingAnswers": false
+        },
+        {
+          "group": "S28",
+          "ids": [
+            "q_1a2d77348947ae4ea055",
+            "q_8c47fa69be3210c9966b"
+          ],
+          "conflictingAnswers": false
+        },
+        {
+          "group": "S29",
+          "ids": [
+            "q_f3682a0f0181dd0e26fe",
+            "q_b57bcdab4780fca36068"
+          ],
+          "conflictingAnswers": false
+        },
+        {
+          "group": "S30",
+          "ids": [
+            "q_59098903e39722cf9bfc",
+            "q_60f495da543f499a8a8d"
+          ],
+          "conflictingAnswers": false
+        },
+        {
+          "group": "S31",
+          "ids": [
+            "q_89b3d99c55adea2f9635",
+            "q_4f9482a8aef034d70cf9"
+          ],
+          "conflictingAnswers": false
+        },
+        {
+          "group": "S32",
+          "ids": [
+            "q_b7cb3fe75f2441eabbc3",
+            "q_cb3a6d306f20844c9f63"
+          ],
+          "conflictingAnswers": false
+        },
+        {
+          "group": "S33",
+          "ids": [
+            "q_d153e1cd16f33dfce6f3",
+            "q_304621cf3d83cef92198"
+          ],
+          "conflictingAnswers": false
+        },
+        {
+          "group": "S34",
+          "ids": [
+            "q_dc0bcca33b30a2d9589e",
+            "q_0b219a75b0ae35e0e8b8"
+          ],
+          "conflictingAnswers": false
+        },
+        {
+          "group": "S35",
+          "ids": [
+            "q_5004ee5c9b6f7ff7f978",
+            "q_e1895557cab682a5079c"
+          ],
+          "conflictingAnswers": false
+        }
+      ],
+      "nearPairIds": [
+        {
+          "pair": "N1",
+          "similarity": 0.923,
+          "ids": [
+            "q_0bf15fdc54cdc17f5157",
+            "q_b7cb3fe75f2441eabbc3"
+          ]
+        },
+        {
+          "pair": "N2",
+          "similarity": 0.938,
+          "ids": [
+            "q_3df89264124b94972921",
+            "q_cbc9f5367980af5635d8"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "Fourth Year/criticism_2.json",
+      "questions": 210,
+      "exactGroups": 38,
+      "exactConflicts": 3,
+      "strictGroups": 31,
+      "strictConflicts": 2,
+      "nearPairs": 4,
+      "strictGroupIds": [
+        {
+          "group": "S1",
+          "ids": [
+            "q_831246fcda5fd4d02812",
+            "q_8431fbb591e02c1e5596"
+          ],
+          "conflictingAnswers": false
+        },
+        {
+          "group": "S2",
+          "ids": [
+            "q_196379f5362f550885fa",
+            "q_07335ef04db1981dd267"
+          ],
+          "conflictingAnswers": false
+        },
+        {
+          "group": "S3",
+          "ids": [
+            "q_ce862ab4551d3dcfdcaa",
+            "q_646fb17389b32ade55d3"
+          ],
+          "conflictingAnswers": false
+        },
+        {
+          "group": "S4",
+          "ids": [
+            "q_aa0ec997ef4a0677cf15",
+            "q_f55750fecfbcbf7f55b8"
+          ],
+          "conflictingAnswers": false
+        },
+        {
+          "group": "S5",
+          "ids": [
+            "q_0fbb871e40b363deb7d1",
+            "q_3970beb14fa319c0e7d1"
+          ],
+          "conflictingAnswers": false
+        },
+        {
+          "group": "S6",
+          "ids": [
+            "q_940a20a8ab3f0f57b569",
+            "q_83a4c03be93c597dfce2"
+          ],
+          "conflictingAnswers": false
+        },
+        {
+          "group": "S7",
+          "ids": [
+            "q_764a8810866756556c4a",
+            "q_17f80b4bbc0bd927a649"
+          ],
+          "conflictingAnswers": false
+        },
+        {
+          "group": "S8",
+          "ids": [
+            "q_b6230869c0fdf08d5cb3",
+            "q_4d50bdd2f0a3afe0f486"
+          ],
+          "conflictingAnswers": false
+        },
+        {
+          "group": "S9",
+          "ids": [
+            "q_56f4047f62083e2dda83",
+            "q_6cc8539c13d5b17959d7"
+          ],
+          "conflictingAnswers": false
+        },
+        {
+          "group": "S10",
+          "ids": [
+            "q_5d72997ee892c1abeaf2",
+            "q_f90b399df0ed33dc7f75",
+            "q_30296426a04c8a8a62d9"
+          ],
+          "conflictingAnswers": false
+        },
+        {
+          "group": "S11",
+          "ids": [
+            "q_7798ef85b3d946160806",
+            "q_5fbc739e18226b5f0d51"
+          ],
+          "conflictingAnswers": false
+        },
+        {
+          "group": "S12",
+          "ids": [
+            "q_69962cb0c018e9fe3221",
+            "q_022fda636b8c89021093",
+            "q_6de3fabb541f7d199bbb"
+          ],
+          "conflictingAnswers": false
+        },
+        {
+          "group": "S13",
+          "ids": [
+            "q_2c4fe01ca990a3fd89af",
+            "q_82701373c49caac84170"
+          ],
+          "conflictingAnswers": false
+        },
+        {
+          "group": "S14",
+          "ids": [
+            "q_542d499f365b618ea872",
+            "q_19561c2a2438b5b555a3"
+          ],
+          "conflictingAnswers": false
+        },
+        {
+          "group": "S15",
+          "ids": [
+            "q_dc5742282a5bc347d158",
+            "q_1c0f669e4880745d8e30"
+          ],
+          "conflictingAnswers": false
+        },
+        {
+          "group": "S16",
+          "ids": [
+            "q_71905017655788e4fb6d",
+            "q_faaf530106b18927b70f"
+          ],
+          "conflictingAnswers": true
+        },
+        {
+          "group": "S17",
+          "ids": [
+            "q_1421fc951029f7e4a968",
+            "q_6c26aab08ab82485141c"
+          ],
+          "conflictingAnswers": false
+        },
+        {
+          "group": "S18",
+          "ids": [
+            "q_1ffb4b8141eadedbb21c",
+            "q_f2df20d852206573ebe0"
+          ],
+          "conflictingAnswers": false
+        },
+        {
+          "group": "S19",
+          "ids": [
+            "q_2a22e7b9edcbc48ba3d4",
+            "q_2894fcba4098c1121282"
+          ],
+          "conflictingAnswers": false
+        },
+        {
+          "group": "S20",
+          "ids": [
+            "q_62f28acdd0f0f1f6034d",
+            "q_21aff43b6dac1fa51629"
+          ],
+          "conflictingAnswers": false
+        },
+        {
+          "group": "S21",
+          "ids": [
+            "q_49dee4a14567440a0837",
+            "q_6ea2abaec1ffa5a72d5e"
+          ],
+          "conflictingAnswers": true
+        },
+        {
+          "group": "S22",
+          "ids": [
+            "q_e34af29668d2469f82fd",
+            "q_13e012e8eff143f3086c"
+          ],
+          "conflictingAnswers": false
+        },
+        {
+          "group": "S23",
+          "ids": [
+            "q_68db666da784eaedaa5c",
+            "q_e732d4a6c458f31ae950"
+          ],
+          "conflictingAnswers": false
+        },
+        {
+          "group": "S24",
+          "ids": [
+            "q_e38b737ae01f12f6f0eb",
+            "q_639f86ab754ca8dda430"
+          ],
+          "conflictingAnswers": false
+        },
+        {
+          "group": "S25",
+          "ids": [
+            "q_99d7c580c7fb95a4f642",
+            "q_07646e0cf4bc4c6070de"
+          ],
+          "conflictingAnswers": false
+        },
+        {
+          "group": "S26",
+          "ids": [
+            "q_54ac9a1f4cdecc608743",
+            "q_5cd9e48a2cf8969490be"
+          ],
+          "conflictingAnswers": false
+        },
+        {
+          "group": "S27",
+          "ids": [
+            "q_b3350082f833e8b3df1c",
+            "q_73070b1f46da100a0c88"
+          ],
+          "conflictingAnswers": false
+        },
+        {
+          "group": "S28",
+          "ids": [
+            "q_a28ab3e7059f448aed45",
+            "q_b4dffdd15c4db70a437a"
+          ],
+          "conflictingAnswers": false
+        },
+        {
+          "group": "S29",
+          "ids": [
+            "q_674760678fa664a6ea4c",
+            "q_39c36d758027f0a25c49"
+          ],
+          "conflictingAnswers": false
+        },
+        {
+          "group": "S30",
+          "ids": [
+            "q_5ac37dfc2701cc13063a",
+            "q_03c138914af2679828db"
+          ],
+          "conflictingAnswers": false
+        },
+        {
+          "group": "S31",
+          "ids": [
+            "q_32acf44cce7a10fb6ac9",
+            "q_4ca00967fb5738e21154"
+          ],
+          "conflictingAnswers": false
+        }
+      ],
+      "nearPairIds": [
+        {
+          "pair": "N1",
+          "similarity": 0.944,
+          "ids": [
+            "q_e65cea7a21b0c847bebe",
+            "q_ccbfc838bf585a8be5fa"
+          ]
+        },
+        {
+          "pair": "N2",
+          "similarity": 0.929,
+          "ids": [
+            "q_a085168d8c5b864c3d08",
+            "q_65e5b6da928e20a6ceb3"
+          ]
+        },
+        {
+          "pair": "N3",
+          "similarity": 0.923,
+          "ids": [
+            "q_5f2a3a2bc4d0c7f857b3",
+            "q_2c4fe01ca990a3fd89af"
+          ]
+        },
+        {
+          "pair": "N4",
+          "similarity": 0.929,
+          "ids": [
+            "q_10b8c4ede992f74e572e",
+            "q_0e280fe4d67ddb1facf3"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "Fourth Year/Teaching_Methodologies.json",
+      "questions": 326,
+      "exactGroups": 90,
+      "exactConflicts": 20,
+      "strictGroups": 73,
+      "strictConflicts": 5,
+      "nearPairs": 4,
+      "strictGroupIds": [
+        {
+          "group": "S1",
+          "ids": [
+            "q_ce3582f2ec057943c70d",
+            "q_470014ae53b477e928fe",
+            "q_60ab0b944b28aa0a7bd7"
+          ],
+          "conflictingAnswers": false
+        },
+        {
+          "group": "S2",
+          "ids": [
+            "q_0cacf0228d965bc583ff",
+            "q_dd0b5b668eb4a2f5804b",
+            "q_23eaf28ae96de199c1c5"
+          ],
+          "conflictingAnswers": false
+        },
+        {
+          "group": "S3",
+          "ids": [
+            "q_5f750fba529a6671326b",
+            "q_7a97b90d72345cfe6972",
+            "q_c39d43ec24527437b902"
+          ],
+          "conflictingAnswers": false
+        },
+        {
+          "group": "S4",
+          "ids": [
+            "q_cf54538c5d509ed101b1",
+            "q_8bb6d2bb67575e15b8e9"
+          ],
+          "conflictingAnswers": false
+        },
+        {
+          "group": "S5",
+          "ids": [
+            "q_8df189c2b125cfc409f3",
+            "q_4b500bcb61b1218d947d",
+            "q_9e2e35cf7b4c8ecd277f"
+          ],
+          "conflictingAnswers": false
+        },
+        {
+          "group": "S6",
+          "ids": [
+            "q_ac7595131453885886b2",
+            "q_6b5646f70025c2af8bc5",
+            "q_9dd845e9792441f9f656"
+          ],
+          "conflictingAnswers": false
+        },
+        {
+          "group": "S7",
+          "ids": [
+            "q_8953c945cd27a8183e2c",
+            "q_07c450be07c0db6c28a4",
+            "q_dfc8652a4782a9ef9114"
+          ],
+          "conflictingAnswers": false
+        },
+        {
+          "group": "S8",
+          "ids": [
+            "q_2c2416e1e63eee0c22b8",
+            "q_fccc10ae936902b58d6d"
+          ],
+          "conflictingAnswers": true
+        },
+        {
+          "group": "S9",
+          "ids": [
+            "q_7ca45f1bb263501d37c6",
+            "q_5bcf0068258bdcce3969"
+          ],
+          "conflictingAnswers": false
+        },
+        {
+          "group": "S10",
+          "ids": [
+            "q_e9dff339ed09df27f07c",
+            "q_e38959ad80794cd7434e"
+          ],
+          "conflictingAnswers": false
+        },
+        {
+          "group": "S11",
+          "ids": [
+            "q_a60398311d17061d63bc",
+            "q_fca82ae01d71458a81a7"
+          ],
+          "conflictingAnswers": false
+        },
+        {
+          "group": "S12",
+          "ids": [
+            "q_249959b07eefca7acc63",
+            "q_f9bfc8b4b6527d0c6785"
+          ],
+          "conflictingAnswers": false
+        },
+        {
+          "group": "S13",
+          "ids": [
+            "q_712d0d4f65ccb31d46e4",
+            "q_391da703c929ec56025f"
+          ],
+          "conflictingAnswers": false
+        },
+        {
+          "group": "S14",
+          "ids": [
+            "q_85fb9e3e5dd7107c2f5a",
+            "q_6a1773f59e14ab06d345",
+            "q_a1bcd052d1dc599839fd"
+          ],
+          "conflictingAnswers": false
+        },
+        {
+          "group": "S15",
+          "ids": [
+            "q_8a8848ed74155df9ef9a",
+            "q_99f9b38495bf55042722"
+          ],
+          "conflictingAnswers": false
+        },
+        {
+          "group": "S16",
+          "ids": [
+            "q_2d55792c33d8a3fffbde",
+            "q_812fa9e7241caa74850f"
+          ],
+          "conflictingAnswers": false
+        },
+        {
+          "group": "S17",
+          "ids": [
+            "q_dc9977f7e9ac355b8236",
+            "q_19e66125bef25053ecfd"
+          ],
+          "conflictingAnswers": false
+        },
+        {
+          "group": "S18",
+          "ids": [
+            "q_0aa8cfb61d4ec283777a",
+            "q_40807af9a6c739f57037"
+          ],
+          "conflictingAnswers": false
+        },
+        {
+          "group": "S19",
+          "ids": [
+            "q_c8883a929aa2b3ce633b",
+            "q_0a27c8b358c4a56b1e0c"
+          ],
+          "conflictingAnswers": false
+        },
+        {
+          "group": "S20",
+          "ids": [
+            "q_46bce9be0d0ac1bb58f5",
+            "q_989219c447608dcd77e4"
+          ],
+          "conflictingAnswers": false
+        },
+        {
+          "group": "S21",
+          "ids": [
+            "q_4b1757342ad3df102fb6",
+            "q_e6eb56a2128fce368830",
+            "q_e420a81a2fe80e268a79"
+          ],
+          "conflictingAnswers": false
+        },
+        {
+          "group": "S22",
+          "ids": [
+            "q_21bbd3aa633ea57b8600",
+            "q_74cb00f35ae317b4dcbd"
+          ],
+          "conflictingAnswers": false
+        },
+        {
+          "group": "S23",
+          "ids": [
+            "q_b15acfa709703cc511f0",
+            "q_04fe9c41a9f42528f20e"
+          ],
+          "conflictingAnswers": false
+        },
+        {
+          "group": "S24",
+          "ids": [
+            "q_24299cbe7eea58f5d9da",
+            "q_2cfacd30aebb182fcf22"
+          ],
+          "conflictingAnswers": false
+        },
+        {
+          "group": "S25",
+          "ids": [
+            "q_76ecfd87d47fde3f0dbb",
+            "q_5429058c899e5778f92b"
+          ],
+          "conflictingAnswers": false
+        },
+        {
+          "group": "S26",
+          "ids": [
+            "q_4f721fdf7afae78f3c4b",
+            "q_c1e5bc7101071b69be31"
+          ],
+          "conflictingAnswers": false
+        },
+        {
+          "group": "S27",
+          "ids": [
+            "q_35f77f6aab8435f69c73",
+            "q_8f6d432b4066f00a042c"
+          ],
+          "conflictingAnswers": false
+        },
+        {
+          "group": "S28",
+          "ids": [
+            "q_fd8f46c7b57fbe224699",
+            "q_db1b54c163835df7dbf3"
+          ],
+          "conflictingAnswers": false
+        },
+        {
+          "group": "S29",
+          "ids": [
+            "q_4fc27279bb62a030ea1a",
+            "q_8540ce5785cf0587c688"
+          ],
+          "conflictingAnswers": false
+        },
+        {
+          "group": "S30",
+          "ids": [
+            "q_f10cbb3305ba75cbf5b5",
+            "q_e37b3c0cc7470ee2fc04"
+          ],
+          "conflictingAnswers": false
+        },
+        {
+          "group": "S31",
+          "ids": [
+            "q_e696c800e524bbc2ea67",
+            "q_58871fe47931750fb377"
+          ],
+          "conflictingAnswers": false
+        },
+        {
+          "group": "S32",
+          "ids": [
+            "q_583921266fd16dce5897",
+            "q_3c77f9585ca9f645460a"
+          ],
+          "conflictingAnswers": false
+        },
+        {
+          "group": "S33",
+          "ids": [
+            "q_d1d08641dfb1b7f08c28",
+            "q_821310cac1672ee60dd4"
+          ],
+          "conflictingAnswers": false
+        },
+        {
+          "group": "S34",
+          "ids": [
+            "q_6ba834728f29c4f55403",
+            "q_400f883ebc5ae2c04bc8"
+          ],
+          "conflictingAnswers": false
+        },
+        {
+          "group": "S35",
+          "ids": [
+            "q_c98da38e09ee9c4ee951",
+            "q_416c1fdea55a241e27ca"
+          ],
+          "conflictingAnswers": false
+        },
+        {
+          "group": "S36",
+          "ids": [
+            "q_2141f07e1ff41a185fea",
+            "q_d53c0ae68a4d12aa53ea"
+          ],
+          "conflictingAnswers": false
+        },
+        {
+          "group": "S37",
+          "ids": [
+            "q_cf3d8683923388f33738",
+            "q_94e9ed8a9c1d23c0501d"
+          ],
+          "conflictingAnswers": false
+        },
+        {
+          "group": "S38",
+          "ids": [
+            "q_fa49af2b8241002be8cf",
+            "q_8559dc5aa137d94a1794"
+          ],
+          "conflictingAnswers": false
+        },
+        {
+          "group": "S39",
+          "ids": [
+            "q_5cb959b43a03620170dd",
+            "q_578b2313cbe0aefe9de6"
+          ],
+          "conflictingAnswers": false
+        },
+        {
+          "group": "S40",
+          "ids": [
+            "q_e4de699c86ac42cf5c22",
+            "q_b7cb3f982bdadb2a16d7"
+          ],
+          "conflictingAnswers": false
+        },
+        {
+          "group": "S41",
+          "ids": [
+            "q_0876035c4c1f055066ff",
+            "q_953347aa17c6e4aa0d15"
+          ],
+          "conflictingAnswers": false
+        },
+        {
+          "group": "S42",
+          "ids": [
+            "q_858460ccdb63df790165",
+            "q_458d0eabb4dc7b41a792"
+          ],
+          "conflictingAnswers": false
+        },
+        {
+          "group": "S43",
+          "ids": [
+            "q_65f6515678b503dd2442",
+            "q_bf563cd22c442acaa916"
+          ],
+          "conflictingAnswers": false
+        },
+        {
+          "group": "S44",
+          "ids": [
+            "q_c61d57d25551a414044a",
+            "q_c768a56d38cc8d432a7a"
+          ],
+          "conflictingAnswers": false
+        },
+        {
+          "group": "S45",
+          "ids": [
+            "q_a0d510331d9eda95e2d3",
+            "q_1d1b8b276133810c5b3e"
+          ],
+          "conflictingAnswers": false
+        },
+        {
+          "group": "S46",
+          "ids": [
+            "q_759f5810d456b42d08ec",
+            "q_5e602858ced560b95933"
+          ],
+          "conflictingAnswers": false
+        },
+        {
+          "group": "S47",
+          "ids": [
+            "q_df3351b35f3cd944595b",
+            "q_ea438881f2188ade753e"
+          ],
+          "conflictingAnswers": false
+        },
+        {
+          "group": "S48",
+          "ids": [
+            "q_bdb49f470ea83dc3307a",
+            "q_ef5e75a6be8089e0dd63"
+          ],
+          "conflictingAnswers": false
+        },
+        {
+          "group": "S49",
+          "ids": [
+            "q_53e85414d48ac34520d6",
+            "q_b6b87acc27e4e406166b"
+          ],
+          "conflictingAnswers": false
+        },
+        {
+          "group": "S50",
+          "ids": [
+            "q_5f66cb70990cb99f32b8",
+            "q_3841701fcc1c95911d80"
+          ],
+          "conflictingAnswers": false
+        },
+        {
+          "group": "S51",
+          "ids": [
+            "q_7e3a6341c47bd28e295d",
+            "q_34efb231200a2751e00e"
+          ],
+          "conflictingAnswers": false
+        },
+        {
+          "group": "S52",
+          "ids": [
+            "q_c4ca4f7b0b7961680332",
+            "q_03e1e19badebbf7a446a"
+          ],
+          "conflictingAnswers": false
+        },
+        {
+          "group": "S53",
+          "ids": [
+            "q_f3a0777b2b5f22d003c9",
+            "q_c909c1e239b5245b9fc3"
+          ],
+          "conflictingAnswers": false
+        },
+        {
+          "group": "S54",
+          "ids": [
+            "q_bf5be03fd551c3cb094d",
+            "q_397cebde63046a5463c6"
+          ],
+          "conflictingAnswers": false
+        },
+        {
+          "group": "S55",
+          "ids": [
+            "q_6ac585d4b7fe517a2a52",
+            "q_3e4b47bfcc70350b800e"
+          ],
+          "conflictingAnswers": false
+        },
+        {
+          "group": "S56",
+          "ids": [
+            "q_2d5c6f9e28ba4e60e52e",
+            "q_f401d78d7457d05acc30"
+          ],
+          "conflictingAnswers": false
+        },
+        {
+          "group": "S57",
+          "ids": [
+            "q_ad3113489245b913e3f1",
+            "q_775016f6c9e73104236b"
+          ],
+          "conflictingAnswers": true
+        },
+        {
+          "group": "S58",
+          "ids": [
+            "q_11b1cdd3ac738ad92784",
+            "q_c8dbc593d516357b640f"
+          ],
+          "conflictingAnswers": true
+        },
+        {
+          "group": "S59",
+          "ids": [
+            "q_b3441907f350e0c46702",
+            "q_8ae10aee9d6720129c83"
+          ],
+          "conflictingAnswers": false
+        },
+        {
+          "group": "S60",
+          "ids": [
+            "q_8c0a0032bc0406da2fa6",
+            "q_03feca5b8960ab3e5e57"
+          ],
+          "conflictingAnswers": false
+        },
+        {
+          "group": "S61",
+          "ids": [
+            "q_a031f8cc447d479e2ef9",
+            "q_82a8126bf72ac2c28018"
+          ],
+          "conflictingAnswers": false
+        },
+        {
+          "group": "S62",
+          "ids": [
+            "q_94efc382456527a0b625",
+            "q_fe2bc891adc7b769f84e"
+          ],
+          "conflictingAnswers": false
+        },
+        {
+          "group": "S63",
+          "ids": [
+            "q_6079592926410a4fa1e3",
+            "q_9f7eabe9ee5a7af65914"
+          ],
+          "conflictingAnswers": false
+        },
+        {
+          "group": "S64",
+          "ids": [
+            "q_bd36b83390bd953509d5",
+            "q_49b4e4546adf66d8bf49"
+          ],
+          "conflictingAnswers": true
+        },
+        {
+          "group": "S65",
+          "ids": [
+            "q_3dbf54035c468691059b",
+            "q_dd1000596b18edc4fe13"
+          ],
+          "conflictingAnswers": false
+        },
+        {
+          "group": "S66",
+          "ids": [
+            "q_4662cb6e9df8168c969b",
+            "q_2a89e47fd9cf50283d0f"
+          ],
+          "conflictingAnswers": false
+        },
+        {
+          "group": "S67",
+          "ids": [
+            "q_5af52c769a5869dd4f3d",
+            "q_f315f80c31233e821203"
+          ],
+          "conflictingAnswers": false
+        },
+        {
+          "group": "S68",
+          "ids": [
+            "q_3fd8a226d4e449bb140d",
+            "q_36da4912d22fb9fc5520"
+          ],
+          "conflictingAnswers": false
+        },
+        {
+          "group": "S69",
+          "ids": [
+            "q_2254289632af189d59b4",
+            "q_4aba6b8415d40465c4a8"
+          ],
+          "conflictingAnswers": false
+        },
+        {
+          "group": "S70",
+          "ids": [
+            "q_2fbed126574bf9402a90",
+            "q_4ca41fa3f5d2baa1199b"
+          ],
+          "conflictingAnswers": false
+        },
+        {
+          "group": "S71",
+          "ids": [
+            "q_af918ea9b03dd83e8dc0",
+            "q_ce84a06210135b3fe304"
+          ],
+          "conflictingAnswers": false
+        },
+        {
+          "group": "S72",
+          "ids": [
+            "q_45535106df283c12ed24",
+            "q_cde041a915b7011ded46"
+          ],
+          "conflictingAnswers": true
+        },
+        {
+          "group": "S73",
+          "ids": [
+            "q_8b0f557ae803f52763fa",
+            "q_a1776c375ef8c7b95f11"
+          ],
+          "conflictingAnswers": false
+        }
+      ],
+      "nearPairIds": [
+        {
+          "pair": "N1",
+          "similarity": 0.933,
+          "ids": [
+            "q_2ece247ceeb8b8511c29",
+            "q_583921266fd16dce5897"
+          ]
+        },
+        {
+          "pair": "N2",
+          "similarity": 0.929,
+          "ids": [
+            "q_2d55792c33d8a3fffbde",
+            "q_3fd8a226d4e449bb140d"
+          ]
+        },
+        {
+          "pair": "N3",
+          "similarity": 0.923,
+          "ids": [
+            "q_db3627b7b2f0c4f9c749",
+            "q_d632f2143e862d716313"
+          ]
+        },
+        {
+          "pair": "N4",
+          "similarity": 0.933,
+          "ids": [
+            "q_fa49af2b8241002be8cf",
+            "q_2fbed126574bf9402a90"
+          ]
+        }
+      ]
+    }
+  ],
+  "mergeGroups": [
+    {
+      "file": "Fourth Year/Comparative_1.json",
+      "keeper": "q_2a14188c3a89844c7a67",
+      "remove": [
+        "q_7ae2e54724bab25f2d7a"
+      ],
+      "q": "1. \"Without difference, no similarity\" implies that:",
+      "correctIndex": 2,
+      "correctAnswer": "C) Recognizing differences is essential to identifying similarities",
+      "feedback": "لأن المقارنة تفترض مسبقاً القدرة على التباين؛ فلا يمكننا إدراك أوجه التشابه إلا إذا استطعنا أولاً تمييز أوجه الاختلاف [16، 89].",
+      "auditGroup": "E1",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/Comparative_1.json",
+      "keeper": "q_a346bf40017fd5f66ce5",
+      "remove": [
+        "q_a488662d098888468e65"
+      ],
+      "q": "2. The relationship between comparative and contrastive literature is best described as:",
+      "correctIndex": 2,
+      "correctAnswer": "C) Mutually dependent analytical approaches",
+      "feedback": "الأدب التبايني هو النظير الضروري للأدب المقارن؛ فهما منهجان يكملان بعضهما البعض ولا ينفصلان في العملية التحليلية [15، 88].",
+      "auditGroup": "E2",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/Comparative_1.json",
+      "keeper": "q_44c091254f49bb16d350",
+      "remove": [
+        "q_80f9eb26bebff5a518dd"
+      ],
+      "q": "3. The phrase \"willed homelessness\" is used to describe comparatists':",
+      "correctIndex": 2,
+      "correctAnswer": "C) Deliberate distancing from a single national or cultural canon",
+      "feedback": "يختار المقارنون الابتعاد المتعمد عن ثقافاتهم الأصلية ليكونوا مثل \"المسافرين\" الموضوعيين، متجنبين الأحكام المسبقة التي قد يفرضها الانتماء لثقافة واحدة [17، 92].",
+      "auditGroup": "E3",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/Comparative_1.json",
+      "keeper": "q_6a851c9de73c4a7d0850",
+      "remove": [
+        "q_c0f29b762628c5f7a546"
+      ],
+      "q": "4. According to the textbook, comparatists distance themselves from their \"home literatures\" in order to:",
+      "correctIndex": 1,
+      "correctAnswer": "B) Engage more fully with transnational texts and tropes",
+      "feedback": "الهدف من هذا التباعد هو اكتساب قدرة أفضل على فهم والسيطرة على النصوص والصور البلاغية التي تتجاوز حدود أي لغة أو ثقافة وطنية واحدة [17، 92].",
+      "auditGroup": "E4",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/Comparative_1.json",
+      "keeper": "q_8224ad896aaaf180a34f",
+      "remove": [
+        "q_ca1b30653f70c81ef3d8"
+      ],
+      "q": "5. The concept of \"unbelonging\" is presented as:",
+      "correctIndex": 0,
+      "correctAnswer": "A) A defining feature of the comparatist's identity",
+      "feedback": "يعتبر \"عدم الانتماء\" لتقليد محدد هو السمة الجوهرية والمميزة لهوية دارس الأدب المقارن، مما يمنحه رؤية أوسع [17، 93].",
+      "auditGroup": "E5",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/Comparative_1.json",
+      "keeper": "q_687b292bc3012ab878ed",
+      "remove": [
+        "q_fcf9b091c73965cfd612"
+      ],
+      "q": "6. According to the textbook, comparative literature differs from other disciplines because:",
+      "correctIndex": 2,
+      "correctAnswer": "C) It must constantly renew its sense of mission and justification",
+      "feedback": "على عكس التخصصات المستقرة، يجب على الأدب المقارن دائماً أن يجدد أهدافه ويبرر سبب حاجتنا لمقارنة الآداب [18، 96].",
+      "auditGroup": "E6",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/Comparative_1.json",
+      "keeper": "q_2e93bc62f89fd3d4bae6",
+      "remove": [
+        "q_56ae4cb21b131ad995b9"
+      ],
+      "q": "7. The \"unceasing sense of insecurity\" in comparative literature arises from:",
+      "correctIndex": 1,
+      "correctAnswer": "B) Its position between established disciplines",
+      "feedback": "ينبع هذا القلق من كون الأدب المقارن يعمل في \"الفجوات\" أو المساحات الفاصلة بين التخصصات الأكاديمية الأخرى [18، 98].",
+      "auditGroup": "E7",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/Comparative_1.json",
+      "keeper": "q_2eb9fca6ddb4b1ff3d5c",
+      "remove": [
+        "q_8fab3583d9b6e3104d77"
+      ],
+      "q": "8. The textbook implies that other Humanities disciplines:",
+      "correctIndex": 3,
+      "correctAnswer": "D) Are innovative but not defined by perpetual disciplinary crisis",
+      "feedback": "التخصصات الأخرى مبتكرة، لكنها لا تعاني من نفس \"أزمة الهوية\" أو الشعور الدائم بعدم الأمان الذي يميز الأدب المقارن [97، 98].",
+      "auditGroup": "E8",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/Comparative_1.json",
+      "keeper": "q_36173edd9ae29071b7cb",
+      "remove": [
+        "q_13aa7ac6948d589b66f0"
+      ],
+      "q": "9. The phrase \"works in the gaps between disciplines\" highlights comparative literature's:",
+      "correctIndex": 2,
+      "correctAnswer": "C) Interdisciplinary and boundary-crossing nature",
+      "feedback": "تعني العبارة أن جوهر هذا التخصص ليس مراقبة الحدود الثقافية بل عبورها والربط بين مجالات معرفية ولغوية مختلفة [17، 51].",
+      "auditGroup": "E9",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/Comparative_1.json",
+      "keeper": "q_97ca8354a68e73d8df75",
+      "remove": [
+        "q_516e6e48fd52ffb8bcaa"
+      ],
+      "q": "10. Close reading primarily focuses on:",
+      "correctIndex": 2,
+      "correctAnswer": "C) Detailed analysis of language, style, and textual minutiae",
+      "feedback": "تركز القراءة المتعمقة على التفاصيل الدقيقة داخل النص مثل النحو، بنية الجملة، والغموض الدلالي [29، 149].",
+      "auditGroup": "E10",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/Comparative_1.json",
+      "keeper": "q_d90a253c428a4df168d9",
+      "remove": [
+        "q_06a976514f7053fddc85"
+      ],
+      "q": "11. Distant or macro analysis is characterized by:",
+      "correctIndex": 1,
+      "correctAnswer": "B) Observation of large-scale patterns across texts or traditions",
+      "feedback": "القراءة عن بعد تستخدم البيانات والخرائط لتتبع أنماط كبرى وتطورات أدبية عبر آلاف النصوص التي لا يمكن لباحث واحد قراءتها تفصيلياً [31، 161].",
+      "auditGroup": "E11",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/Comparative_1.json",
+      "keeper": "q_147d7bd84eff81239a32",
+      "remove": [
+        "q_cbd532c1307f647abab8"
+      ],
+      "q": "12. Comparative literature is described as both \"natural\" and \"constructed\" because:",
+      "correctIndex": 0,
+      "correctAnswer": "A) It occurs both naturally and methodologically",
+      "feedback": "هي \"طبيعية\" لأننا نقارن تلقائياً لفهم العالم، و\"مصطنعة\" لأنها تتطلب بناءً منهجياً وأطراً فكرية معقدة كدراسة أكاديمية [4، 12].",
+      "auditGroup": "E12",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/Comparative_1.json",
+      "keeper": "q_6726d5d3894aab7c0d94",
+      "remove": [
+        "q_bf551dd52b4be788a706"
+      ],
+      "q": "13. The variation in terms for comparative literature across French, German, and English primarily illustrates:",
+      "correctIndex": 2,
+      "correctAnswer": "C) Conceptual and cultural differences embedded in language",
+      "feedback": "اختلاف المصطلحات (مقارَن، يُقارن، مُقارِن) يفتح \"صندوق باندورا\" من الاختلافات الثقافية والرؤى المختلفة لكيفية فهم المقارنة [10، 68].",
+      "auditGroup": "E13",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/Comparative_1.json",
+      "keeper": "q_ce869f3e92e332cc65d8",
+      "remove": [
+        "q_0d06583984415f6c2564"
+      ],
+      "q": "14. The French term (littérature comparée) implies that:",
+      "correctIndex": 2,
+      "correctAnswer": "C) The act of comparison is already completed",
+      "feedback": "استخدام اسم المفعول في الفرنسية (comparée) يشير إلى أن عملية المقارنة قد حدثت وانتهت بالفعل [9، 67].",
+      "auditGroup": "E14",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/Comparative_1.json",
+      "keeper": "q_6685b9e028e68fd0b579",
+      "remove": [
+        "q_2e6d2cafc22da0e44429"
+      ],
+      "q": "15. The ambiguity of the English term \"comparative literature\" highlights:",
+      "correctIndex": 1,
+      "correctAnswer": "B) Uncertainty over whether comparison lies in the texts or the method",
+      "feedback": "الصفة في الإنجليزية (Comparative) تطمس الفرق بين ما إذا كان الأدب نفسه هو المقارن أم أن طريقتنا في القراءة هي المقارنة [67، 68].",
+      "auditGroup": "E15",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/Comparative_1.json",
+      "keeper": "q_22dc4b4c911372e382af",
+      "remove": [
+        "q_a706c011801ef9b6c5d5"
+      ],
+      "q": "16. The textbook characterizes comparative literature as:",
+      "correctIndex": 1,
+      "correctAnswer": "B) A mode of enquiry rather than a rigid practical practice",
+      "feedback": "يُنظر إليها كنمط من الاستقصاء (Mode of enquiry) حيث تلعب ميول وافتراضات المراقب دوراً مساوياً للمادة المدروسة [16، 55].",
+      "auditGroup": "E16",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/Comparative_1.json",
+      "keeper": "q_10239d1ed94c5ecda4f0",
+      "remove": [
+        "q_d2f672f9edcabbe10741"
+      ],
+      "q": "17. The claim that \"the history of comparative literature is also the history of its self-understanding\" suggests that:",
+      "correctIndex": 2,
+      "correctAnswer": "C) The discipline continually redefines its own purpose and identity",
+      "feedback": "يعني أن تاريخ العلم لا يقتصر على النصوص، بل يشمل كيفية قيام المقارنين بإعادة تعريف تخصصهم وأهدافه باستمرار [12، 73].",
+      "auditGroup": "E17",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/Comparative_1.json",
+      "keeper": "q_a01c4cc8f8aedb62deb2",
+      "remove": [
+        "q_0b7c1f11ba5b21abc0a5"
+      ],
+      "q": "18. According to the textbook, which two concepts have most strongly shaped the traditional self-understanding of comparative literature?",
+      "correctIndex": 1,
+      "correctAnswer": "B) Modernity and Europe",
+      "feedback": "الحداثة وأوروبا هما الفئتان اللتان هيمنتا تاريخياً على تشكيل هوية هذا العلم وفهمه لذاته [12، 74].",
+      "auditGroup": "E18",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/Comparative_1.json",
+      "keeper": "q_aa0a3a6732bd6f281097",
+      "remove": [
+        "q_6a3aab6be278d443900b"
+      ],
+      "q": "19. The author argues that focusing on Modernity and Europe in the discipline's history:",
+      "correctIndex": 2,
+      "correctAnswer": "C) Accurately reflects how the discipline historically developed",
+      "feedback": "تتبع هذه المصطلحات ضروري لأن القيام بغير ذلك سيشوه التاريخ الفعلي لتطور العلم، رغم وجود توجهات عالمية حديثة [12، 75].",
+      "auditGroup": "E19",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/Comparative_1.json",
+      "keeper": "q_818121be75db503f8c10",
+      "remove": [
+        "q_cb03a32818b78961ec73"
+      ],
+      "q": "20. The \"marketplace\" metaphor introduced in the textbook is used to explain:",
+      "correctIndex": 0,
+      "correctAnswer": "A) How economic and global forces shape literary comparison and production",
+      "feedback": "يشير نموذج \"السوق\" إلى أن قابلية التسويق العالمي أصبحت معياراً يحدد ما يتم كتابته وما يستحق المقارنة في عصر العولمة [14، 86].",
+      "auditGroup": "E20",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/Comparative_1.json",
+      "keeper": "q_79cce3261ea90b8574c2",
+      "remove": [
+        "q_ecf5a2e13eb2e9aef92f"
+      ],
+      "q": "21. According to the textbook, the growing importance of an international audience has led authors to:",
+      "correctIndex": 2,
+      "correctAnswer": "C) Write as much for an international as for a national audience",
+      "feedback": "في العصر الحالي، يكتب المؤلفون الناجحون واضعين في اعتبارهم الجمهور العالمي والوطني في آن واحد لضمان الانتشار [14، 86].",
+      "auditGroup": "E21",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/Comparative_1.json",
+      "keeper": "q_82ff079cd881f5c46cf4",
+      "remove": [
+        "q_4f6329bf8ceeb55949c8"
+      ],
+      "q": "22. The criterion of \"cross-cultural marketability\" influences comparative literature by:",
+      "correctIndex": 3,
+      "correctAnswer": "D) Affecting which texts are selected for comparison",
+      "feedback": "تؤثر القوى الاقتصادية في اختيار النصوص التي تخضع للدراسة المقارنة بناءً على نجاحها التجاري العابر للثقافات [14، 86].",
+      "auditGroup": "E22",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/Comparative_1.json",
+      "keeper": "q_2c661930a30e6a596536",
+      "remove": [
+        "q_64e7419c1106eca7f938"
+      ],
+      "q": "23. According to the textbook, \"reading literature is also reading into literature,\" means:",
+      "correctIndex": 2,
+      "correctAnswer": "C) The reader's opinions in shaping meaning",
+      "feedback": "القراءة ليست عملية سلبية، بل القارئ يضفي ميوله ومعرفته لتشكيل المعنى، مثل اختبار بقع الحبر (رورشاخ) [5، 121].",
+      "auditGroup": "E23",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/Comparative_1.json",
+      "keeper": "q_b4976953b06807ac6c6f",
+      "remove": [
+        "q_9a1cf1b73a653db801c8"
+      ],
+      "q": "24. The statement \"literature exists, after all, comparatively\" suggests that:",
+      "correctIndex": 0,
+      "correctAnswer": "A) Literary texts cannot be fully understood on their own",
+      "feedback": "لا يوجد نص في التاريخ مكتفٍ بذاته؛ ففهم أي عمل يعتمد دائماً على علاقته بنصوص وتقاليد أخرى [5، 24].",
+      "auditGroup": "E24",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/Comparative_1.json",
+      "keeper": "q_aa6df0115bf00a41c39a",
+      "remove": [
+        "q_9c244ef971edccf3105a"
+      ],
+      "q": "25. The textbook presents reading and writing as practices that:",
+      "correctIndex": 2,
+      "correctAnswer": "C) Take place within inherited patterns, forms, and shared traditions",
+      "feedback": "الكتابة تعني وضع الذات ضمن إطار موجود من المراجع؛ فالكلمات والأفكار الجديدة تشتق دائماً من أفكار قديمة [15، 41].",
+      "auditGroup": "E25",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/Comparative_1.json",
+      "keeper": "q_571ac959018bd6851a93",
+      "remove": [
+        "q_53a1dd89f0947c5233aa"
+      ],
+      "q": "26. The claim that \"knowledge itself is comparative\" emphasizes that:",
+      "correctIndex": 3,
+      "correctAnswer": "D) Understanding depends on relationships and context",
+      "feedback": "كلما تعلمنا أكثر، زادت قدرتنا على وضع الأمور في سياقها والمقارنة بينها؛ فالمعرفة عملية ربط مستمرة [6، 26].",
+      "auditGroup": "E26",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/Comparative_1.json",
+      "keeper": "q_498a50a9100c4f465eaa",
+      "remove": [
+        "q_f1cf901cd668da7f6420"
+      ],
+      "q": "27. The textbook's use of Hermann Rorschach's inkblot test functions primarily as a metaphor to argue that:",
+      "correctIndex": 2,
+      "correctAnswer": "C) Acts of interpretation tell us about the interpreter as well as the text",
+      "feedback": "مثلما نرى صوراً في بقع الحبر بناءً على حالتنا، فإن تفسيرنا للنصوص يكشف عن هويتنا وأفكارنا المسبقة [27، 121].",
+      "auditGroup": "E27",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/Comparative_1.json",
+      "keeper": "q_0e71c3d3a105efd2e0ef",
+      "remove": [
+        "q_d9d01a0b710586d50d0b"
+      ],
+      "q": "28. Which of the following is the most correct statement:",
+      "correctIndex": 2,
+      "correctAnswer": "C) To look at literature comparatively is to discover more about other literatures and one's own",
+      "feedback": "النظر للأدب مقارناً يسمح لنا ليس فقط بفهم الآخر، بل باكتشاف جوانب خفية في أدبنا وثقافتنا المحلية [10، 69].",
+      "auditGroup": "E28",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/Comparative_1.json",
+      "keeper": "q_0592e762b73b6d26c335",
+      "remove": [
+        "q_c46abf975990fdc158e5"
+      ],
+      "q": "29. The reference to George Steiner's phrase \"to read is to compare\" raises which central problem?",
+      "correctIndex": 0,
+      "correctAnswer": "A) The necessity of comparative literature as a separate discipline",
+      "feedback": "إذا كانت كل قراءة هي مقارنة بطبيعتها، فقد يبدو من غير الضروري تخصيص علم مستقل لها طالما أننا نفعل ذلك تلقائياً [6، 29].",
+      "auditGroup": "E29",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/Comparative_1.json",
+      "keeper": "q_3341d7e594c58b0bcd3e",
+      "remove": [
+        "q_353ff4bc3786eff11ae8"
+      ],
+      "q": "30. The q \"what is the force of comparative literature, as opposed to that of literature?\" points to:",
+      "correctIndex": 0,
+      "correctAnswer": "A) A need to justify the discipline's distinct purpose and methodology",
+      "feedback": "يشير إلى التحدي المستمر للأدب المقارن في إثبات قيمته المضافة ومنهجه المختلف عن مجرد دراسة الأدب العادية [18، 96].",
+      "auditGroup": "E30",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/Comparative_1.json",
+      "keeper": "q_ff6942ab735913940b9d",
+      "remove": [
+        "q_351b160586c3d67b0490"
+      ],
+      "q": "31. The textbook identifies identifying comparison as:",
+      "correctIndex": 3,
+      "correctAnswer": "D) A fundamental human instinct",
+      "feedback": "المقارنة \"مدمجة\" في صلب تفكيرنا البشري، وهي نشاط طبيعي نقوم به لفهم الأشياء [6، 31].",
+      "auditGroup": "E31",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/Comparative_1.json",
+      "keeper": "q_bd4e194c63a6424fef67",
+      "remove": [
+        "q_246d39eccf120c5f2300"
+      ],
+      "q": "32. According to the textbook, comparison helps individuals primarily to:",
+      "correctIndex": 3,
+      "correctAnswer": "D) Understand themselves in relation to others",
+      "feedback": "من خلال النظر وراء أفق تقاليدنا، نكتشف المزيد عن أنفسنا وعن مكانتنا في العالم [10، 69].",
+      "auditGroup": "E32",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/Comparative_1.json",
+      "keeper": "q_7373f53ec5ab6f2ea330",
+      "remove": [
+        "q_33b57c827ae635456eb7"
+      ],
+      "q": "33. The various forms comparison can take (such as empathy or envy) all share:",
+      "correctIndex": 2,
+      "correctAnswer": "C) Recognition of diversity and multiplicity",
+      "feedback": "مهما اختلف الدافع، فإن المقارنة تعود دائماً للاعتراف بوجود أكثر من طريقة للوجود وفعل الأشياء [7، 33].",
+      "auditGroup": "E33",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/Comparative_1.json",
+      "keeper": "q_2f9fdadaba057aa31363",
+      "remove": [
+        "q_ff14b513817119a9c1da"
+      ],
+      "q": "34. The author argues that comparative literature's claim to objectivity is:",
+      "correctIndex": 3,
+      "correctAnswer": "D) Undermined by cultural and ideological bias",
+      "feedback": "رغم سعي التخصص للموضوعية، فإنه يظل متواطئاً مع الأحكام المسبقة والمواقف الثقافية التي ينطلق منها الباحث [7، 34].",
+      "auditGroup": "E34",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/Comparative_1.json",
+      "keeper": "q_3497febe01708e7b687c",
+      "remove": [
+        "q_2784efa6bfce9c48bacd"
+      ],
+      "q": "35. The statement that \"there is no such thing as a single, objective sense of comparative literature\" implies that:",
+      "correctIndex": 0,
+      "correctAnswer": "A) Definitions and methods vary according to the comparatist",
+      "feedback": "لا يوجد إجماع واحد؛ فلكل مقارن فكرته الخاصة حول \"كيف\" و \"ماذا\" يقارن بناءً على أولوياته [8، 35].",
+      "auditGroup": "E35",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/Comparative_1.json",
+      "keeper": "q_792d972fc346d311be91",
+      "remove": [
+        "q_b87113fb981d185a7fdf"
+      ],
+      "q": "36. The comparison between comparative literature and democratic government suggests that:",
+      "correctIndex": 2,
+      "correctAnswer": "C) Methods reflect collective choices and values",
+      "feedback": "(استنتاجاً من فكرة \"أدب المقارنين\")، المناهج المتبعة تعكس خيارات وقيم الباحثين أنفسهم وليس قواعد مفروضة من الخارج [56، 249].",
+      "auditGroup": "E36",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/Comparative_1.json",
+      "keeper": "q_d2e4007fed7a69deb061",
+      "remove": [
+        "q_42e319e047d7f222ef46"
+      ],
+      "q": "37. The claim that comparative literature has a \"canon of approaches\" rather than texts highlights its:",
+      "correctIndex": 2,
+      "correctAnswer": "C) Methodological flexibility and openness",
+      "feedback": "التخصص لا يقدس نصوصاً محددة بل يركز على تنوع المناهج التي يمكن من خلالها مقارنة أي نصوص [9، 37].",
+      "auditGroup": "E37",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/Comparative_1.json",
+      "keeper": "q_2761bb6002b472ef67f6",
+      "remove": [
+        "q_0cd63594a8926de6f919"
+      ],
+      "q": "38. According to the textbook, the essential qualities required for making comparisons are:",
+      "correctIndex": 2,
+      "correctAnswer": "C) Curiosity, open-mindedness and intellectual ambition",
+      "feedback": "الفضول والانفتاح هما المتطلبان الأساسيان الوحيدان لإجراء مقارنات مثمرة [7، 38].",
+      "auditGroup": "E38",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/Comparative_1.json",
+      "keeper": "q_d0c36e2103fe1c47bcec",
+      "remove": [
+        "q_4080d276d1aebac209be"
+      ],
+      "q": "39. According to the textbook, the \"instability\" of comparative literature is presented as:",
+      "correctIndex": 3,
+      "correctAnswer": "D) Its very essence, enabling fresh connections",
+      "feedback": "عدم الاستقرار هو جوهر التخصص؛ لأنه يسمح بزعزعة القوانين الثابتة وبناء صلات جديدة [8، 39].",
+      "auditGroup": "E39",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/Comparative_1.json",
+      "keeper": "q_06fdaa47b3aa6a2ee0d9",
+      "remove": [
+        "q_ca3ce049ac8cc9a14bfd"
+      ],
+      "q": "40. \"Forging fresh connections and mutually enriching links\" emphasizes comparative that focus on:",
+      "correctIndex": 3,
+      "correctAnswer": "D) Creating dynamic relationships between diverse texts and traditions",
+      "feedback": "الهدف هو خلق روابط حركية ومتبادلة بين النصوص المتباعدة لإثراء الفهم [8، 40].",
+      "auditGroup": "E40",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/Comparative_1.json",
+      "keeper": "q_5f9cc3b585776be71fc0",
+      "remove": [
+        "q_0be5108e11d0b2be3f7b"
+      ],
+      "q": "What are people who work in the field of Comparative Literature called?",
+      "correctIndex": 0,
+      "correctAnswer": "Comparatists",
+      "feedback": "يُطلق على المشتغلين في هذا المجال اسم 'Comparatists' أو المقارنون[cite: 1, 665].",
+      "auditGroup": "E41",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/Comparative_1.json",
+      "keeper": "q_fa9c80dc89487a174802",
+      "remove": [
+        "q_70a87d20ec197f6799b2"
+      ],
+      "q": "Newer sub-fields of Comparative Literature are influenced by:",
+      "correctIndex": 3,
+      "correctAnswer": "A and B",
+      "feedback": "تتأثر الحقول الفرعية الجديدة بالفطنة النظرية والقدرة على دراسة أنواع مختلفة من الفنون في آن واحد[cite: 3, 666].",
+      "auditGroup": "E42",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/Comparative_1.json",
+      "keeper": "q_79feacf0ae3087317d6e",
+      "remove": [
+        "q_d8f0c42566b37f77e5a2"
+      ],
+      "q": "Direct influence is marked by:",
+      "correctIndex": 1,
+      "correctAnswer": "Actual contact between writers",
+      "feedback": "يتميز التأثير المباشر بوجود تواصل فعلي بين الكتاب[cite: 608, 609].",
+      "auditGroup": "E43",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/Comparative_1.json",
+      "keeper": "q_bad64d823d9ad06249e4",
+      "remove": [
+        "q_01dbb452e93ea7382cf2"
+      ],
+      "q": "What is 'False Influence'?",
+      "correctIndex": 1,
+      "correctAnswer": "Writer influenced by a countryman believing it is foreign",
+      "feedback": "التأثير الزائف هو تأثر الكاتب بكاتب من بلده ظناً منه أنه يعكس نصوصاً أجنبية[cite: 614].",
+      "auditGroup": "E44",
+      "auditConflict": true
+    },
+    {
+      "file": "Fourth Year/Comparative_1.json",
+      "keeper": "q_9cdd2b5caa48c7af163c",
+      "remove": [
+        "q_56b585ace078a80a78da"
+      ],
+      "q": "Romanticism appeared in the Arab world in the:",
+      "correctIndex": 1,
+      "correctAnswer": "First half of the 20th century",
+      "feedback": "ظهرت الرومانسية في العالم العربي في النصف الأول من القرن العشرين[cite: 635, 636].",
+      "auditGroup": "E45",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/comparative_2.json",
+      "keeper": "q_1be17ab5283043003133",
+      "remove": [
+        "q_adc0465c2a9e3de80389"
+      ],
+      "q": "78. Sartre is a?",
+      "correctIndex": 3,
+      "correctAnswer": "D) All of the above",
+      "feedback": "سارتر كاتب موسوعي عمل كفيلسوف، وكاتب مسرحي، وروائي، وناقد أدبي [من النظرية 3 لمسرحية الذباب].",
+      "auditGroup": "E2",
+      "auditConflict": true
+    },
+    {
+      "file": "Fourth Year/comparative_2.json",
+      "keeper": "q_a2a8cc7ad59b718b793c",
+      "remove": [
+        "q_0bb30866fffc0ad0f9c6"
+      ],
+      "q": "  (Quote 1) The addressee is:",
+      "correctIndex": 1,
+      "correctAnswer": "B. The Chorus",
+      "feedback": "توجه كاساندرا صرختها ونبوءتها الفاجعة إلى جوقة شيوخ أرغوس (The Chorus) الحائرين.",
+      "auditGroup": "E3",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/comparative_2.json",
+      "keeper": "q_bb6237f34ac3085a42de",
+      "remove": [
+        "q_cee4f7925a99aca20415",
+        "q_d7a3f080ea908d724a4e"
+      ],
+      "q": "  What is the Watchman's role in Agamemnon?",
+      "correctIndex": 3,
+      "correctAnswer": "D. He is on duty on the roof of the palace, waiting for a signal announcing the fall of Troy",
+      "feedback": "دور الحارس في مطلع مسرحية أغاممنون هو المكوث فوق سطح القصر مترقباً ظهور إشارات النيران التي تبشر بسقوط طروادة.",
+      "auditGroup": "E4",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/comparative_2.json",
+      "keeper": "q_a156bcb6808d3091b57e",
+      "remove": [
+        "q_fc6faf79115fac625ab7"
+      ],
+      "q": "Q37: What role does Zeus play in The Flies?",
+      "correctIndex": 2,
+      "correctAnswer": "C. He is a god of flies and death",
+      "feedback": "يمثل زيوس في مسرحية سارتر 'إله الذباب والموت' (god of flies and death) الذي يتغذى روحياً على خضوع البشر وشعورهم بالذنب المرضي.",
+      "auditGroup": "E5",
+      "auditConflict": true,
+      "sources": [
+        "https://sphinxlibrary.com/Calibre/Jean-Paul%20Sartre/No%20Exit%20and%20Three%20Other%20Plays%20%281329%29/No%20Exit%20and%20Three%20Other%20Plays%20-%20Jean-Paul%20Sartre.pdf"
+      ]
+    },
+    {
+      "file": "Fourth Year/comparative_2.json",
+      "keeper": "q_c4e7c0701f2640d7dacb",
+      "remove": [
+        "q_cfed2def695cb4d3a4e4"
+      ],
+      "q": "Q20: What is the significance of Iphigeneia in The Libation Bearers?",
+      "correctIndex": 3,
+      "correctAnswer": "D. Her sacrificial murder by Agamemnon sets the events of the play in motion",
+      "feedback": "تضحية أغاممنون بابنته إيفيجينيا هي النقطة التاريخية المفصلية التي بررت قتل كليتمنسترا له وأطلقت شرارة اللعنة الدموية للثلاثية.",
+      "auditGroup": "E6",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/comparative_2.json",
+      "keeper": "q_6f5dbef68505987c8c34",
+      "remove": [
+        "q_8c5015bbf1e3f3f1487a"
+      ],
+      "q": "Q43: How does Sartre depict Clytemnestra in The Flies?",
+      "correctIndex": 1,
+      "correctAnswer": "B. Ugly and monstrous",
+      "feedback": "يصور سارتر كليتمنسترا كشخصية قبيحة ومشوّهة ووحشية (Ugly and monstrous) انعكاساً للندم والذنب والمهانة التي تعتصر روحها.",
+      "auditGroup": "E7",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/comparative_2.json",
+      "keeper": "q_495689b640795a2fcaf9",
+      "remove": [
+        "q_da94a38ddc2bb1aff345",
+        "q_68016097554ce5b020e8"
+      ],
+      "q": "Q30: ------ was renowned to be the most beautiful woman in the world.",
+      "correctIndex": 2,
+      "correctAnswer": "c) Helen",
+      "feedback": "هيلين (Helen) هي الشخصية الأسطورية التي اشتُهرت بكونها أجمل امرأة في العالم، وتسببت في اندلاع حرب طروادة.",
+      "auditGroup": "E8",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/comparative_2.json",
+      "keeper": "q_3bf370f9040ecd05b6aa",
+      "remove": [
+        "q_f5b3f0d922037c321863"
+      ],
+      "q": "Q31: In obedience to a command given to him by -----, Orestes returns to Argos to avenge his father.",
+      "correctIndex": 2,
+      "correctAnswer": "c) Apollo",
+      "feedback": "يعود أوريست إلى أرغوس لينتقم لوالده طاعةً للأمر والوحي الإلهي المباشر الذي تلقاه من الإله أبولو (Apollo).",
+      "auditGroup": "E9",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/comparative_2.json",
+      "keeper": "q_a32cf6265a023dd27089",
+      "remove": [
+        "q_1d07470096cb18d6ff55"
+      ],
+      "q": "Q32: The Furies follow Orestes and insist that he must be punished for ------",
+      "correctIndex": 2,
+      "correctAnswer": "c) matricide",
+      "feedback": "تلاحق الغاضبات (The Furies) أوريست وتصر على عقابه بتهمة قتل أمه (matricide)، وهو سفك دم الرحم الذي يقع تحت اختصاص عقابهن الصارم.",
+      "auditGroup": "E10",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/comparative_2.json",
+      "keeper": "q_c002ce28f1c59446eb21",
+      "remove": [
+        "q_973e3104c834fc698ee2",
+        "q_e64f5c80bd55e1089181"
+      ],
+      "q": "Q33: ----- casts the deciding vote and Orestes is acquitted.",
+      "correctIndex": 1,
+      "correctAnswer": "b) Athena",
+      "feedback": "تقوم الإلهة أثينا (Athena) بالإدلاء بالصوت الحاسم لكسر التعادل وتبرئة أوريست في أول محكمة قانونية جنائية.",
+      "auditGroup": "E11",
+      "auditConflict": true,
+      "sources": [
+        "https://classics.mit.edu/Aeschylus/eumendides.html"
+      ]
+    },
+    {
+      "file": "Fourth Year/comparative_2.json",
+      "keeper": "q_d43e9dd09046be782a89",
+      "remove": [
+        "q_a3fbbdbb2ad5eaf25c53",
+        "q_28af2083bd0ed4e36c31"
+      ],
+      "q": "Q34: The Time And Place the Flies was Written are:",
+      "correctIndex": 0,
+      "correctAnswer": "a) 1943, Paris",
+      "feedback": "كُتبت مسرحية 'الذباب' وعُرضت للمرة الأولى في باريس عام 1943 (1943, Paris) أثناء فترة الاحتلال النازي لفرنسا.",
+      "auditGroup": "E12",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/comparative_2.json",
+      "keeper": "q_2804a550e2fa9245b065",
+      "remove": [
+        "q_5d637bec290f0136ab46"
+      ],
+      "q": "31- In the Flies, the history of Argos is told by:",
+      "correctIndex": 2,
+      "correctAnswer": "c) Jupiter",
+      "feedback": "الإله جوبيتر (Jupiter) هو من يقوم بسرد تاريخ مدينة أرغوس وصعود الطغيان والندم فيها لأوريست والمعلم عند مدخل المدينة.",
+      "auditGroup": "E13",
+      "auditConflict": true,
+      "sources": [
+        "https://sphinxlibrary.com/Calibre/Jean-Paul%20Sartre/No%20Exit%20and%20Three%20Other%20Plays%20%281329%29/No%20Exit%20and%20Three%20Other%20Plays%20-%20Jean-Paul%20Sartre.pdf"
+      ]
+    },
+    {
+      "file": "Fourth Year/comparative_2.json",
+      "keeper": "q_3c5f4490f9c19b682fe3",
+      "remove": [
+        "q_00c114bcf17de4a6d746"
+      ],
+      "q": "Q40: In Agamemnon, the chorus consists of:",
+      "correctIndex": 1,
+      "correctAnswer": "b) The elder men of Argos",
+      "feedback": "تتشكل الجوقة في مسرحية أغاممنون الكلاسيكية من شيوخ ورجال أرغوس المسنين (The elder men of Argos) الذين لم يذهبوا للحرب بسبب تقدم سنهم.",
+      "auditGroup": "E17",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/comparative_2.json",
+      "keeper": "q_4cb2dafb09ff8931083b",
+      "remove": [
+        "q_3db2cbd07f46da33575d"
+      ],
+      "q": "Q42: The addressee is:",
+      "correctIndex": 1,
+      "correctAnswer": "b) Agamemnon",
+      "feedback": "الخطاب موجه بوضوح إلى الملك العائد والمنتصر أغاممنون (Agamemnon).",
+      "auditGroup": "E18",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/comparative_2.json",
+      "keeper": "q_bca019b1825bb6a67c29",
+      "remove": [
+        "q_bc06d925e15a07f103a6"
+      ],
+      "q": "Q47: “I am not ashamed to tell you/How I love the man”, The speaker is:",
+      "correctIndex": 1,
+      "correctAnswer": "B- Clytemnestra",
+      "feedback": "القائل هي الملكة كليتمنسترا (Clytemnestra) عندما تتظاهر علناً بلا خجل بمدى حبها لزوجها الغائب أمام الجوقة للتغطية على مؤامرتها.",
+      "auditGroup": "E21",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/comparative_2.json",
+      "keeper": "q_4abeef6ff171c3cbf8c2",
+      "remove": [
+        "q_333481f85450cbaa5a64"
+      ],
+      "q": "Q48: The addressee in the above-mentioned quotation is/are:",
+      "correctIndex": 2,
+      "correctAnswer": "C- people of Argos",
+      "feedback": "توجه كليتمنسترا كلامها إلى شعب أرغوس (people of Argos) الممثل بالجوقة لتبرئة نفسها وإقناعهم بوفائها قبل عودة زوجها.",
+      "auditGroup": "E22",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/comparative_2.json",
+      "keeper": "q_152352a04a09fc6af6bc",
+      "remove": [
+        "q_2f661331dd972109980e"
+      ],
+      "q": "  How many plays did Aeschylus write, and how many have survived to the modern era?",
+      "correctIndex": 1,
+      "correctAnswer": "b. He wrote 90 plays, and 7 of them have survived.",
+      "feedback": "كتب إيسخيلوس ما يقرب من 90 مسرحية، ولم ينجُ منها سوى 7 مسرحيات كاملة حتى يومنا هذا.",
+      "auditGroup": "E23",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/comparative_2.json",
+      "keeper": "q_5aa12cc2ca0208fd4233",
+      "remove": [
+        "q_6a7f3ec2d1ae5289412e"
+      ],
+      "q": "  What is the reason for Agamemnon's sacrifice of his daughter Iphigenia?",
+      "correctIndex": 0,
+      "correctAnswer": "a. To obtain a favorable wind to carry the Greek fleet to Troy",
+      "feedback": "قام أغاممنون بالتضحية بابنته للحصول على رياح مواتية تبحر بالسفن الإغريقية المحاصرة في ميناء أوليس باتجاه طروادة.",
+      "auditGroup": "E24",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/comparative_2.json",
+      "keeper": "q_641895692e68fb8c4b52",
+      "remove": [
+        "q_67a6e1242ccad92bc2ce"
+      ],
+      "q": "  Who is Cassandra in the play?",
+      "correctIndex": 2,
+      "correctAnswer": "c. A Trojan Princess and Agamemnon's concubine",
+      "feedback": "كاساندرا هي أميرة طروادية أسيرة أحضرها أغاممنون معه من الحرب كجارية وعشيقة مرافقة.",
+      "auditGroup": "E25",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/comparative_2.json",
+      "keeper": "q_5b2bdeafc1affe56c318",
+      "remove": [
+        "q_bf3b31eb82e3cf0d61a2"
+      ],
+      "q": "  In The Libation Bearers, who makes up the chorus?",
+      "correctIndex": 0,
+      "correctAnswer": "a. Slave women from the palace",
+      "feedback": "تتشكل الجوقة في الجزء الثاني من إماء القصر والنساء الأسيرات المرتديات لملابس الحداد السوداء.",
+      "auditGroup": "E26",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/comparative_2.json",
+      "keeper": "q_0715add62cec9baa7510",
+      "remove": [
+        "q_925b9d1dbbf03517e228"
+      ],
+      "q": "Q20: Who is Apollo in Greek mythology?",
+      "correctIndex": 1,
+      "correctAnswer": "b. The god of light, civilization, and learning",
+      "feedback": "أبولو هو إله الضياء، النور، الحضارة، النظام العقلي، والقوانين المدنية.",
+      "auditGroup": "E27",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/comparative_2.json",
+      "keeper": "q_90f2321b03967b3868dc",
+      "remove": [
+        "q_2b4bb4923ed35b560220"
+      ],
+      "q": "  The Roman counterpart of Zeus is -----",
+      "correctIndex": 2,
+      "correctAnswer": "C) Jupiter",
+      "feedback": "المقابل الروماني لكبير الآلهة الإغريقية زيوس هو الإله جوبيتر (Jupiter).",
+      "auditGroup": "E28",
+      "auditConflict": true
+    },
+    {
+      "file": "Fourth Year/comparative_2.json",
+      "keeper": "q_0c1e37e4334e79f49d68",
+      "remove": [
+        "q_e5eb91264c43079def06"
+      ],
+      "q": "  What element did Aeschylus add to his plays, creating a new range of dramatic possibilities?",
+      "correctIndex": 0,
+      "correctAnswer": "a) A second actor",
+      "feedback": "أضاف إيسخيلوس الممثل الثاني (A second actor) إلى المسرح التراجيدي، مما سمح بحدوث حوار حقيقي وتفاعل درامي مباشر على المسرح بعد أن كان العرض يعتمد على ممثل واحد مع الجوقة.",
+      "auditGroup": "E29",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/comparative_2.json",
+      "keeper": "q_47d94644c5038de1dda4",
+      "remove": [
+        "q_ffd7f821a59b6c599570"
+      ],
+      "q": "  Which of the following does Electra say keeps her going?",
+      "correctIndex": 3,
+      "correctAnswer": "d) Hatred",
+      "feedback": "تؤكد إلكترا صراحةً أن الكراهية (Hatred) والرغبة العميقة في الانتقام هما الوقود الأساسي والوحيد الذي يبقيها على قيد الحياة وتستمد منه طاقتها.",
+      "auditGroup": "E30",
+      "auditConflict": true,
+      "sources": [
+        "https://sphinxlibrary.com/Calibre/Jean-Paul%20Sartre/No%20Exit%20and%20Three%20Other%20Plays%20%281329%29/No%20Exit%20and%20Three%20Other%20Plays%20-%20Jean-Paul%20Sartre.pdf"
+      ]
+    },
+    {
+      "file": "Fourth Year/comparative_2.json",
+      "keeper": "q_184bc130ca18c25b60a2",
+      "remove": [
+        "q_a3f5049e21b5f6a543d2"
+      ],
+      "q": "  When he leaves Argos, what does Orestes NOT take with him?",
+      "correctIndex": 2,
+      "correctAnswer": "c) His sister's love",
+      "feedback": "عندما يغادر أوريست أرغوس في نهاية مسرحية سارتر، يأخذ معه ذنوب أهل المدينة والذباب الذي يتبعها، لكنه لا يحظى بحب أخته (His sister's love) التي تخلت عنه مفضلةً الغرق في الندم والخوف.",
+      "auditGroup": "E31",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/comparative_2.json",
+      "keeper": "q_cdc1a699b7d152a17f1f",
+      "remove": [
+        "q_96317271e9197668f46e"
+      ],
+      "q": "  From 1943 forward, what philosophical idea takes center stage in Sartre's work?",
+      "correctIndex": 3,
+      "correctAnswer": "d) Human freedom",
+      "feedback": "منذ عام 1943 فصاعداً (وهو عام نشر مسرحية الذباب وكتاب الوجود والعدم)، احتلت فكرة الحرية الإنسانية والوجودية (Human freedom) صدارة أعمال وفكر سارتر.",
+      "auditGroup": "E32",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/comparative_2.json",
+      "keeper": "q_1dddf89051f084d7adba",
+      "remove": [
+        "q_197615b2f452a67f0912"
+      ],
+      "q": "  What does Electra tell Orestes she is forced to wash?",
+      "correctIndex": 0,
+      "correctAnswer": "a) Underwear",
+      "feedback": "تشتكي إلكترا لأوريست من المعاملة المذلة التي تلقاها في القصر كخادمة، مشيرةً إلى أنها تُجبر على غسل الملابس المتسخة والملابس الداخلية (Underwear) لقتلة أبيها.",
+      "auditGroup": "E33",
+      "auditConflict": true,
+      "sources": [
+        "https://sphinxlibrary.com/Calibre/Jean-Paul%20Sartre/No%20Exit%20and%20Three%20Other%20Plays%20%281329%29/No%20Exit%20and%20Three%20Other%20Plays%20-%20Jean-Paul%20Sartre.pdf"
+      ]
+    },
+    {
+      "file": "Fourth Year/comparative_2.json",
+      "keeper": "q_fda4b28f6dba571b15f2",
+      "remove": [
+        "q_af3f98268f62ddfbaf29"
+      ],
+      "q": "  In his address to the people of Argos, what does Orestes say he will take with him when he leaves?",
+      "correctIndex": 3,
+      "correctAnswer": "d) All of the above",
+      "feedback": "يعد أوريست الوجودي أهل أرغوس بأنه سيأخذ معه موتاهم، وخطاياهم، وذبابهم (All of the above) ليحررهم بالكامل من عبء الماضي والندم.",
+      "auditGroup": "E34",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/comparative_2.json",
+      "keeper": "q_1aaeb2f9c6d878a3e618",
+      "remove": [
+        "q_493c337f6c0288d4f412"
+      ],
+      "q": "  How many of the more than ninety plays written by Aeschylus have survived to the modern era?",
+      "correctIndex": 2,
+      "correctAnswer": "c) Seven",
+      "feedback": "كتب إيسخيلوس ما يزيد عن تسعين مسرحية، لم ينجُ منها كاملة حتى يومنا هذا سوى سبع مسرحيات (Seven) فقط.",
+      "auditGroup": "E35",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/comparative_2.json",
+      "keeper": "q_1a2d77348947ae4ea055",
+      "remove": [
+        "q_8c47fa69be3210c9966b"
+      ],
+      "q": "  Where is Agamemnon set?",
+      "correctIndex": 0,
+      "correctAnswer": "a) The palace at Argos",
+      "feedback": "تدور أحداث مسرحية أغاممنون لإيسخيلوس أمام وداخل القصر الملكي في مدينة أرغوس (The palace at Argos).",
+      "auditGroup": "E36",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/comparative_2.json",
+      "keeper": "q_51512b7ba5dd385af912",
+      "remove": [
+        "q_1a8b1a9c37a28b7b987b"
+      ],
+      "q": "17-Before her capture, Cassandra was the lover of which Greek god?",
+      "correctIndex": 1,
+      "correctAnswer": "b) Apollo",
+      "feedback": "كانت كاساندرا محبوبة من قِبل الإله أبولو (Apollo)، وهو الذي وهبها القدرة على التنبؤ بالمستقبل قبل أن يلعنها بعدم تصديق الناس لها.",
+      "auditGroup": "E37",
+      "auditConflict": true,
+      "sources": [
+        "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0022%3Atext%3DLibrary%3Abook%3D3%3Achapter%3D12"
+      ]
+    },
+    {
+      "file": "Fourth Year/comparative_2.json",
+      "keeper": "q_f3682a0f0181dd0e26fe",
+      "remove": [
+        "q_b57bcdab4780fca36068"
+      ],
+      "q": "Q21: Aegisthus is Agamemnon's -----",
+      "correctIndex": 2,
+      "correctAnswer": "c) Cousin",
+      "feedback": "إيجيسثوس هو ابن عم الملك أغاممنون (Cousin)، حيث أن والد إيجيسثوس (ثايستيس) هو شقيق والد أغاممنون (أتريوس).",
+      "auditGroup": "E38",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/comparative_2.json",
+      "keeper": "q_59098903e39722cf9bfc",
+      "remove": [
+        "q_60f495da543f499a8a8d"
+      ],
+      "q": "Q23: What was the primary role of the chorus?",
+      "correctIndex": 1,
+      "correctAnswer": "b) To explain what was happening so the audience would understand.",
+      "feedback": "كان الدور الأساسي للجوقة (the chorus) في المسرح اليوناني القديم هو التعليق على الأحداث وتفسير ما يجري لمساعدة الجمهور على فهم مغزى القصة.",
+      "auditGroup": "E39",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/comparative_2.json",
+      "keeper": "q_d153e1cd16f33dfce6f3",
+      "remove": [
+        "q_304621cf3d83cef92198"
+      ],
+      "q": "Q44: \"Silence, dogs! Back to your places!\" The speaker is:",
+      "correctIndex": 0,
+      "correctAnswer": "a) Aegisthus",
+      "feedback": "القائل هو الطاغية إيجيسثوس (Aegisthus) موبخاً ومستعرضاً سلطته وقسوته لترهيب الجماهير الحاشدة وإجبارهم على الانصياع.",
+      "auditGroup": "E41",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/comparative_2.json",
+      "keeper": "q_5004ee5c9b6f7ff7f978",
+      "remove": [
+        "q_e1895557cab682a5079c"
+      ],
+      "q": "Q47: \"It's your weakness gives them their strength\" \"your weakness\" refers to:",
+      "correctIndex": 1,
+      "correctAnswer": "B) Electra",
+      "feedback": "وفقاً لمفتاح التصحيح الجامعي المعتمد، فإن الإشارة موجهة لإلكترا (Electra) في صراعها النفسي؛ لكن سياقياً تبرز أهمية الوعي بمواطن الضعف الإنساني عموماً.",
+      "auditGroup": "E43",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/comparative_2.json",
+      "keeper": "q_15591fd0d3d19db9e3ba",
+      "remove": [
+        "q_8f44926eb1bc9e362ecd"
+      ],
+      "q": "Q48: \"Their strength\" refers to:",
+      "correctIndex": 0,
+      "correctAnswer": "a) the Furies",
+      "feedback": "تستمد ربات الغضب والانتقام (the Furies) القوة الكامنة للتعذيب من ضعف الإنسان وخوفه واستسلامه لعقدة الذنب.",
+      "auditGroup": "E44",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/criticism_2.json",
+      "keeper": "q_9c76f11586b92ead151d",
+      "remove": [
+        "q_f94fc15a318be8f5cfc3"
+      ],
+      "q": "To -------- a \"poem\" exists only when a reader \"compenetrates\" a text, that is, when he or she chooses to read it \"aesthetically.\"",
+      "correctIndex": 3,
+      "correctAnswer": "Rosenblatt",
+      "feedback": "وفقاً لروزنبلات، النص الثابت يصبح 'قصيدة' (كحدث حي) فقط عندما 'يتغلغل' فيه القارئ ويقرأه قراءة جمالية [6].",
+      "auditGroup": "E1",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/criticism_2.json",
+      "keeper": "q_e3aceb49b985616c30b6",
+      "remove": [
+        "q_588caa1c98c540dceb8e"
+      ],
+      "q": "Phenomenology is a philosophy that stresses the -------- role in perception.",
+      "correctIndex": 1,
+      "correctAnswer": "perceiver's",
+      "feedback": "الظاهراتية هي فلسفة تؤكد على دور 'المدرك' (perceiver) في عملية الإدراك، حيث لا يمكن فصل الشيء المدرك عن العقل الذي يدركه [16].",
+      "auditGroup": "E2",
+      "auditConflict": true
+    },
+    {
+      "file": "Fourth Year/criticism_2.json",
+      "keeper": "q_794a67136d38fb8d198b",
+      "remove": [
+        "q_6ed236153f0267f20e7d"
+      ],
+      "q": "The Dynamics of Literary Response is by --------",
+      "correctIndex": 0,
+      "correctAnswer": "Holland",
+      "feedback": "كتاب 'ديناميكيات الاستجابة الأدبية' هو أحد المؤلفات الأساسية للناقد نورمان هولاند الذي ركز على التحليل النفسي [17].",
+      "auditGroup": "E3",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/criticism_2.json",
+      "keeper": "q_831246fcda5fd4d02812",
+      "remove": [
+        "q_8431fbb591e02c1e5596"
+      ],
+      "q": "Iser would insist on the poem's ability to transcend the code, to violate the conventions. It does so by presenting readers with -------- that they must bridge.",
+      "correctIndex": 2,
+      "correctAnswer": "gaps",
+      "feedback": "يرى إيزر أن النص الأدبي يحتوي على 'فجوات' (gaps) أو مساحات غير محددة يجب على القارئ ملؤها وربطها للوصول إلى المعنى [16].",
+      "auditGroup": "E4",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/criticism_2.json",
+      "keeper": "q_196379f5362f550885fa",
+      "remove": [
+        "q_07335ef04db1981dd267"
+      ],
+      "q": "Rosenblatt offers a/an \"--------\" theory of the reading experience in which the \"poem\" comes into being only when the reader and the text \"compenetrate\".",
+      "correctIndex": 1,
+      "correctAnswer": "transactional",
+      "feedback": "تسمى نظرية روزنبلات بالنظرية 'التبادلية' (transactional) لأنها ترى المعنى كعملية تبادل وتفاعل مستمر بين النص والقارئ [6, 7].",
+      "auditGroup": "E5",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/criticism_2.json",
+      "keeper": "q_ce862ab4551d3dcfdcaa",
+      "remove": [
+        "q_646fb17389b32ade55d3"
+      ],
+      "q": "To Iser, the reader's role is prestructured by the different perspectives represented in --------",
+      "correctIndex": 0,
+      "correctAnswer": "the text",
+      "feedback": "بالنسبة لإيزر، دور القارئ ليس عشوائياً، بل هو محدد مسبقاً من خلال وجهات النظر والمنظورات التي يقدمها 'النص' نفسه [16].",
+      "auditGroup": "E6",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/criticism_2.json",
+      "keeper": "q_aa0ec997ef4a0677cf15",
+      "remove": [
+        "q_f55750fecfbcbf7f55b8"
+      ],
+      "q": "Norman Holland is more concerned with the ways -------- readers control the text.",
+      "correctIndex": 2,
+      "correctAnswer": "actual",
+      "feedback": "يركز نورمان هولاند اهتمامه على استجابات 'القراء الحقيقيين' (actual readers) وكيف تؤثر هوياتهم النفسية على فهمهم للنص [17].",
+      "auditGroup": "E7",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/criticism_2.json",
+      "keeper": "q_0fbb871e40b363deb7d1",
+      "remove": [
+        "q_3970beb14fa319c0e7d1"
+      ],
+      "q": "Poststructuralist criticism has occasionally been -------- as well.",
+      "correctIndex": 1,
+      "correctAnswer": "antihistorical",
+      "feedback": "وُصف النقد ما بعد البنيوي في بعض الأحيان بأنه 'ضد تاريخي' (antihistorical) لميله للتركيز على البنية اللغوية وتفكيكها بعيداً عن السياق الزمني التقليدي [صورة 2].",
+      "auditGroup": "E8",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/criticism_2.json",
+      "keeper": "q_940a20a8ab3f0f57b569",
+      "remove": [
+        "q_83a4c03be93c597dfce2"
+      ],
+      "q": "Foucault's project was to examine the intricately structured -------- that obtain in a society at a given time.",
+      "correctIndex": 0,
+      "correctAnswer": "power relations",
+      "feedback": "ركز مشروع ميشيل فوكو على تحليل 'علاقات القوة' المتغلغلة في الخطابات الاجتماعية والمؤسسات في زمن معين [15, 20].",
+      "auditGroup": "E9",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/criticism_2.json",
+      "keeper": "q_764a8810866756556c4a",
+      "remove": [
+        "q_17f80b4bbc0bd927a649"
+      ],
+      "q": " \"Literature and History\" is by --------",
+      "correctIndex": 1,
+      "correctAnswer": "Eagleton",
+      "feedback": "الناقد والمنظر الماركسي تيري إيغلتون هو مؤلف كتاب 'الأدب والتاريخ' [صورة 2].",
+      "auditGroup": "E10",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/criticism_2.json",
+      "keeper": "q_b6230869c0fdf08d5cb3",
+      "remove": [
+        "q_4d50bdd2f0a3afe0f486"
+      ],
+      "q": "Greenblatt reminds us that art sometimes challenges cultural boundaries, becoming thereby a/an \"--------\" force.",
+      "correctIndex": 1,
+      "correctAnswer": "transgressive",
+      "feedback": "يرى غرينبلات أن الفن لا يعكس الثقافة فحسب، بل قد يتحدى حدودها ويصبح 'قوة تجاوز' (transgressive force) تفتح آفاقاً جديدة [14].",
+      "auditGroup": "E11",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/criticism_2.json",
+      "keeper": "q_56f4047f62083e2dda83",
+      "remove": [
+        "q_6cc8539c13d5b17959d7"
+      ],
+      "q": "[_____] means that every age has its own unique characteristics so that it needs a specialist to study and analyze those characteristics.",
+      "correctIndex": 2,
+      "correctAnswer": "The pastness of the past",
+      "feedback": "مفهوم 'ماضوية الماضي' هو مفهوم تاريخي قديم يشير إلى أن لكل عصر تاريخي قيم ومعايير لغوية وافتراضات مختلفة.",
+      "auditGroup": "E12",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/criticism_2.json",
+      "keeper": "q_5d72997ee892c1abeaf2",
+      "remove": [
+        "q_f90b399df0ed33dc7f75",
+        "q_30296426a04c8a8a62d9"
+      ],
+      "q": "To Watson, the only way to be objective is to be subjective.",
+      "correctIndex": 0,
+      "correctAnswer": "True",
+      "feedback": "جورج واتسون، دفاعاً عن التاريخ الأدبي التقليدي، يتفق مع الموقف القائم على القصد بأن الموضوعية تعتمد على استعادة العقل التاريخي للمؤلف.",
+      "auditGroup": "E13",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/criticism_2.json",
+      "keeper": "q_7798ef85b3d946160806",
+      "remove": [
+        "q_5fbc739e18226b5f0d51"
+      ],
+      "q": "Critical procedures using the life to explain the work can easily get entangled with [_____] procedures.",
+      "correctIndex": 2,
+      "correctAnswer": "Psychological",
+      "feedback": "الإجراءات التي تحاول تفسير العمل من خلال حياة المبدع تتداخل بسهولة مع التفسيرات النفسية/التحليلية للقصد اللاواعي.",
+      "auditGroup": "E14",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/criticism_2.json",
+      "keeper": "q_69962cb0c018e9fe3221",
+      "remove": [
+        "q_022fda636b8c89021093",
+        "q_6de3fabb541f7d199bbb"
+      ],
+      "q": "Formalists agree with genetic critics that meaning is indeterminate.",
+      "correctIndex": 1,
+      "correctAnswer": "False",
+      "feedback": "يعتقد كل من الشكليين والنقاد التاريخيين القدامى (النشوئيين) أن المعنى الأدبي مستقر ومحدد؛ ويختلفون فقط في مكان وجود هذا المعنى.",
+      "auditGroup": "E15",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/criticism_2.json",
+      "keeper": "q_8a5ec7a8d967d0c66182",
+      "remove": [
+        "q_9b5a9be5a22f0f1dc860"
+      ],
+      "q": "[_____] call for the study of the verbal construction of a poem.",
+      "correctIndex": 0,
+      "correctAnswer": "Formalists",
+      "feedback": "يُعرّف الشكليون القصيدة بدقة بأنها 'هذه الكلمات المحددة في هذا الترتيب المحدد' ويعطون الأولوية لدراسة تصميمها اللغوي.",
+      "auditGroup": "E16",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/criticism_2.json",
+      "keeper": "q_d32862fc9208bd3369fe",
+      "remove": [
+        "q_32acf44cce7a10fb6ac9",
+        "q_4ca00967fb5738e21154"
+      ],
+      "q": "To [_____], being objective requires isolating the text from all surrounding or extrinsic elements.",
+      "correctIndex": 0,
+      "correctAnswer": "Formalists",
+      "feedback": "يرى الشكليون أن الموضوعية النقدية تتحقق فقط من خلال تجاهل العوامل الخارجية (السيرة الذاتية، التاريخ، الجمهور) والتركيز بدقة على النص نفسه.",
+      "auditGroup": "E17",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/criticism_2.json",
+      "keeper": "q_2c4fe01ca990a3fd89af",
+      "remove": [
+        "q_82701373c49caac84170"
+      ],
+      "q": "Coleridge defined a poem as that species of composition that 'proposes to itself such delight from the whole as is compatible with the distinct gratification from each component part.'",
+      "correctIndex": 0,
+      "correctAnswer": "True",
+      "feedback": "يؤكد المصدر أن هذه الصياغة المحددة للبنية الشعرية تُنسب إلى صامويل تايلور كولريدج.",
+      "auditGroup": "E18",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/criticism_2.json",
+      "keeper": "q_a5ab3a746cb3038422c9",
+      "remove": [
+        "q_3ab4adfceb6ab62f837b"
+      ],
+      "q": "To [_____], form and content or meaning are one and the same simply because the form decides the meaning or the content.",
+      "correctIndex": 0,
+      "correctAnswer": "Formalists",
+      "feedback": "يرفض الشكليون الفصل بين الشكل والمضمون، ويلخصون ذلك بـ: 'ما تعنيه القصيدة هو بالضبط كيف تعنيه'.",
+      "auditGroup": "E19",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/criticism_2.json",
+      "keeper": "q_8cfa331a6ef8224d4cda",
+      "remove": [
+        "q_05c27f134c609e99e5b3"
+      ],
+      "q": "To [_____], complexity and coherence are the essential qualities of any poem.",
+      "correctIndex": 0,
+      "correctAnswer": "Formalists",
+      "feedback": "يؤكد الشكليون أنه لكي يتم اعتبار البنية اللفظية قصيدة على الإطلاق، يجب أن تمتلك درجة عالية من التعقيد والتماسك العضوي.",
+      "auditGroup": "E20",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/criticism_2.json",
+      "keeper": "q_542d499f365b618ea872",
+      "remove": [
+        "q_19561c2a2438b5b555a3"
+      ],
+      "q": "[_____] focus on placing the poem in the larger context of literature as a whole.",
+      "correctIndex": 2,
+      "correctAnswer": "Intertextualists",
+      "feedback": "تذهب التناصية إلى أن المعنى يكمن في العلاقات بين النصوص المتشابهة والاصطلاحات الأدبية العامة.",
+      "auditGroup": "E21",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/criticism_2.json",
+      "keeper": "q_dc5742282a5bc347d158",
+      "remove": [
+        "q_1c0f669e4880745d8e30"
+      ],
+      "q": "According to Old Historicists, we should study the writers within each period and the periods themselves in [_____] order.",
+      "correctIndex": 0,
+      "correctAnswer": "Chronological",
+      "feedback": "يدرس النقاد التاريخيون القدامى المؤلفين والفترات بشكل متسلسل باستخدام الترتيب الزمني.",
+      "auditGroup": "E22",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/criticism_2.json",
+      "keeper": "q_71905017655788e4fb6d",
+      "remove": [
+        "q_faaf530106b18927b70f"
+      ],
+      "q": "Old Historicists are accused of ignoring simple literary works.",
+      "correctIndex": 1,
+      "correctAnswer": "False",
+      "feedback": "هذا الاتهام المحدد بإهمال الأعمال البسيطة والمباشرة موجه إلى الشكليين، وليس إلى التاريخيين القدامى.",
+      "auditGroup": "E23",
+      "auditConflict": true,
+      "rationale": "The bank itself correctly assigns the “ignores simple works” criticism to Formalists; keeping False resolves the exact-prompt contradiction.",
+      "sources": [
+        "https://books.google.com/books/about/Contexts_for_Criticism.html?id=hVSkQgAACAAJ"
+      ]
+    },
+    {
+      "file": "Fourth Year/criticism_2.json",
+      "keeper": "q_1421fc951029f7e4a968",
+      "remove": [
+        "q_6c26aab08ab82485141c"
+      ],
+      "q": "Unlike other formalists, [_____] has grounded his theory in the affective theory of value.",
+      "correctIndex": 1,
+      "correctAnswer": "Richards",
+      "feedback": "دافع آي. إيه. ريتشاردز عن التعقيد والتماسك بناءً على أسس نفسية/تأثيرية—كيف تلبي وتنظم رغبات القارئ.",
+      "auditGroup": "E24",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/criticism_2.json",
+      "keeper": "q_1ffb4b8141eadedbb21c",
+      "remove": [
+        "q_f2df20d852206573ebe0",
+        "q_193c49e4fe9c550fa8df"
+      ],
+      "q": "To Bleich, each person's most urgent motivations are to understand [_____].",
+      "correctIndex": 1,
+      "correctAnswer": "Himself",
+      "feedback": "بصفته ناقداً ذاتياً لاستجابة القارئ، يجادل ديفيد بليتش بأن دافعنا التفسيري الأساسي هو فهم الذات.",
+      "auditGroup": "E25",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/criticism_2.json",
+      "keeper": "q_2a22e7b9edcbc48ba3d4",
+      "remove": [
+        "q_2894fcba4098c1121282"
+      ],
+      "q": "Formalists think that the definitions of genre are irrelevant and aim to distract our search for the uniqueness of a work of art.",
+      "correctIndex": 0,
+      "correctAnswer": "True",
+      "feedback": "يركز الشكليون على الفرادة الاستثنائية للقصيدة؛ ويرفضون تعريفات الأنواع الأدبية العامة كعناصر تشتيت ثانوية.",
+      "auditGroup": "E26",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/criticism_2.json",
+      "keeper": "q_62f28acdd0f0f1f6034d",
+      "remove": [
+        "q_21aff43b6dac1fa51629"
+      ],
+      "q": "[_____] critics believe that meanings are, in fact, in words, and especially in the arrangement of words.",
+      "correctIndex": 1,
+      "correctAnswer": "Formal",
+      "feedback": "يصر الشكليون على أن المعاني تكمن داخل النمط اللفظي المحدد للنص، وليس في عقل المؤلف أو استجابة القارئ.",
+      "auditGroup": "E27",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/criticism_2.json",
+      "keeper": "q_6ea2abaec1ffa5a72d5e",
+      "remove": [
+        "q_49dee4a14567440a0837"
+      ],
+      "q": "In simple words, criticism means ...",
+      "correctIndex": 1,
+      "correctAnswer": "judgement",
+      "feedback": "ببساطة، النقد يعني إعطاء حكم (judgement).",
+      "auditGroup": "E28",
+      "auditConflict": true,
+      "rationale": "Keep the judgement answer, but rewrite the stem to ask about criticism as judging/evaluation; “in simple words” is otherwise too broad."
+    },
+    {
+      "file": "Fourth Year/criticism_2.json",
+      "keeper": "q_e34af29668d2469f82fd",
+      "remove": [
+        "q_13e012e8eff143f3086c"
+      ],
+      "q": "While he grants the relevance of most formalist criteria for meaning, [_____] argues that 'coherence' is not an absolute quality.",
+      "correctIndex": 0,
+      "correctAnswer": "Hirsch",
+      "feedback": "في كتاب 'التفسير الموضوعي'، يرفض إي. دي. هيرش صراحة الاعتقاد الشكلي بالتماسك المطلق، مشيراً إلى أنه نسبي وسياقي بالنسبة للمؤلف.",
+      "auditGroup": "E29",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/criticism_2.json",
+      "keeper": "q_68db666da784eaedaa5c",
+      "remove": [
+        "q_e732d4a6c458f31ae950"
+      ],
+      "q": "[_____] is the most comprehensive approach.",
+      "correctIndex": 0,
+      "correctAnswer": "New historicism",
+      "feedback": "تعتبر التاريخانية الجديدة (New historicism) هي المنهج الأكثر شمولاً.",
+      "auditGroup": "E30",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/criticism_2.json",
+      "keeper": "q_e38b737ae01f12f6f0eb",
+      "remove": [
+        "q_639f86ab754ca8dda430",
+        "q_ca83c54bfb0cc24f84e1"
+      ],
+      "q": "According to Hirsch, objectivity in textual interpretation requires explicit reference to the [_____] subjectivity.",
+      "correctIndex": 2,
+      "correctAnswer": "Speaker's",
+      "feedback": "يجادل هيرش بأن الموضوعية لا تُحفظ إلا إذا أسسنا المعنى في القصد الذاتي للمؤلف (المتحدث).",
+      "auditGroup": "E31",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/criticism_2.json",
+      "keeper": "q_99d7c580c7fb95a4f642",
+      "remove": [
+        "q_07646e0cf4bc4c6070de"
+      ],
+      "q": "According to Keesey, every reader must bring to a text at least a basic understanding of the work's [_____].",
+      "correctIndex": 2,
+      "correctAnswer": "Language",
+      "feedback": "كحد أدنى، تتطلب أي عملية قراءة معرفة أساسية بالرمز اللغوي المشترك للعمل الأدبي.",
+      "auditGroup": "E32",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/criticism_2.json",
+      "keeper": "q_54ac9a1f4cdecc608743",
+      "remove": [
+        "q_5cd9e48a2cf8969490be"
+      ],
+      "q": "To [_____], cultural poetics dissolve the distinction between what is within and what is outside the text.",
+      "correctIndex": 2,
+      "correctAnswer": "Greenblatt",
+      "feedback": "ترفض الشاعرية الثقافية لستيفن غرينبلات وجود حدود صارمة بين العناصر النصية الداخلية (الذاتية) والخارجية (الموضوعية)، وتتعامل مع النصوص كأنشطة ثقافية حية.",
+      "auditGroup": "E33",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/criticism_2.json",
+      "keeper": "q_b3350082f833e8b3df1c",
+      "remove": [
+        "q_73070b1f46da100a0c88"
+      ],
+      "q": "[_____] is a term used by New Critics in recognition of their belief that a work of art is a concrete entity.",
+      "correctIndex": 2,
+      "correctAnswer": "Ontological",
+      "feedback": "يطلق النقاد الجدد على النص اسم كيان 'وجودي' (ontological) لأنهم يعتقدون أنه يوجد كشيء ملموس ومستقل بذاته.",
+      "auditGroup": "E34",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/criticism_2.json",
+      "keeper": "q_a28ab3e7059f448aed45",
+      "remove": [
+        "q_b4dffdd15c4db70a437a"
+      ],
+      "q": "New Historicism declares that all history is objective.",
+      "correctIndex": 1,
+      "correctAnswer": "False",
+      "feedback": "على عكس التاريخ القديم، تؤكد التاريخانية الجديدة أن التاريخ دائماً ذاتي، مرن، ومرتبط بالتحيز التفسيري.",
+      "auditGroup": "E35",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/criticism_2.json",
+      "keeper": "q_3ab56da08b4034b4a5b4",
+      "remove": [
+        "q_2068e5a14e5369b083ac"
+      ],
+      "q": "[_____] means studying one language at one particular time in its evolution.",
+      "correctIndex": 1,
+      "correctAnswer": "Synchronic",
+      "feedback": "تدرس اللسانيات التزامنية (Synchronic) عند سوسور اللغة كالنظام البنيوي المجمد في نقطة زمنية واحدة محددة.",
+      "auditGroup": "E36",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/criticism_2.json",
+      "keeper": "q_674760678fa664a6ea4c",
+      "remove": [
+        "q_39c36d758027f0a25c49"
+      ],
+      "q": "'Intention Floreat' is an article by:",
+      "correctIndex": 1,
+      "correctAnswer": "Fowler",
+      "feedback": "ألاستير فاولر هو مؤلف مقال 'فلينمُ القصد' (Intention Floreat)، مدافعاً عن مقاربة ظاهراتية للقصد التأليفي التاريخي.",
+      "auditGroup": "E37",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/criticism_2.json",
+      "keeper": "q_5ac37dfc2701cc13063a",
+      "remove": [
+        "q_03c138914af2679828db"
+      ],
+      "q": "'Are Poems Historical Acts' is an article by:",
+      "correctIndex": 0,
+      "correctAnswer": "Watson",
+      "feedback": "جورج واتسون هو مؤلف هذه المقالة التي تدافع عن الحدود التقليدية للتاريخ الأدبي.",
+      "auditGroup": "E38",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/Teaching_Methodologies.json",
+      "keeper": "q_c909c1e239b5245b9fc3",
+      "remove": [
+        "26",
+        "q_f3a0777b2b5f22d003c9"
+      ],
+      "q": "ESP stands for",
+      "correctIndex": 1,
+      "correctAnswer": "English for Specific Purposes",
+      "feedback": "اختصار (ESP) يعني اللغة الإنجليزية لأغراض خاصة أو معينة (English for Specific Purposes).",
+      "auditGroup": "E1",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/Teaching_Methodologies.json",
+      "keeper": "q_ce3582f2ec057943c70d",
+      "remove": [
+        "q_470014ae53b477e928fe",
+        "q_60ab0b944b28aa0a7bd7"
+      ],
+      "q": "What is the purpose of the teacher's feedback when acting as a prompter?",
+      "correctIndex": 1,
+      "correctAnswer": "B) To make suggestions and help students improve",
+      "feedback": "دور الملقن (Prompter) يهدف إلى توجيه الطلاب وتقديم اقتراحات لمساعدتهم على التحسن دون السيطرة الكاملة على العملية.",
+      "auditGroup": "E2",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/Teaching_Methodologies.json",
+      "keeper": "q_0cacf0228d965bc583ff",
+      "remove": [
+        "q_dd0b5b668eb4a2f5804b",
+        "q_23eaf28ae96de199c1c5"
+      ],
+      "q": "When teachers act as monitors and evidence gatherers, their role is to keep an eye on what is happening to:",
+      "correctIndex": 3,
+      "correctAnswer": "D) both B & C",
+      "feedback": "دور المعلم كمراقب يهدف إلى جمع معلومات عن أداء الطلاب والتأكد من انخراطهم في المهام المطلوبة.",
+      "auditGroup": "E3",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/Teaching_Methodologies.json",
+      "keeper": "q_012cab502720593323a2",
+      "remove": [
+        "q_64dd971c1e8ad780eea6"
+      ],
+      "q": "What is one way to act out a word, action, or feeling to help students understand?",
+      "correctIndex": 1,
+      "correctAnswer": "B) Using mime",
+      "feedback": "التمثيل الصامت (Mime) وسيلة فعالة جداً لشرح المعاني والأفعال دون الاعتماد على اللغة اللفظية فقط.",
+      "auditGroup": "E6",
+      "auditConflict": true,
+      "sources": [
+        "https://api.ziyonet.uz/uploads/books/49959/5de6105b1fd90.pdf"
+      ]
+    },
+    {
+      "file": "Fourth Year/Teaching_Methodologies.json",
+      "keeper": "q_b06be9594eccec8d7275",
+      "remove": [
+        "q_5f750fba529a6671326b",
+        "q_7a97b90d72345cfe6972",
+        "q_c39d43ec24527437b902"
+      ],
+      "q": "What is an example of using gestures to indicate quantity?",
+      "correctIndex": 2,
+      "correctAnswer": "Showing the size of an object",
+      "feedback": "الإشارة لحجم شيء توضح الكمية.",
+      "auditGroup": "E7",
+      "auditConflict": true,
+      "sources": [
+        "https://api.ziyonet.uz/uploads/books/49959/5de6105b1fd90.pdf"
+      ]
+    },
+    {
+      "file": "Fourth Year/Teaching_Methodologies.json",
+      "keeper": "q_3343a77c5b672371723d",
+      "remove": [
+        "q_6ba834728f29c4f55403",
+        "q_400f883ebc5ae2c04bc8"
+      ],
+      "q": "What is the purpose of using mime to tell a story?",
+      "correctIndex": 2,
+      "correctAnswer": "C) To help students develop their vocabulary",
+      "feedback": "يساعد التمثيل الصامت في ربط الكلمات بمعانيها البصرية، مما يعزز حفظ وتطوير الحصيلة اللغوية.",
+      "auditGroup": "E8",
+      "auditConflict": true,
+      "sources": [
+        "https://api.ziyonet.uz/uploads/books/49959/5de6105b1fd90.pdf"
+      ]
+    },
+    {
+      "file": "Fourth Year/Teaching_Methodologies.json",
+      "keeper": "q_88de6dfe69576ff4ae78",
+      "remove": [
+        "q_42088e76d66f796f0219"
+      ],
+      "q": "A common feeling experienced by new teachers is:",
+      "correctIndex": 1,
+      "correctAnswer": "B) Excitement",
+      "feedback": "الإثارة (Excitement) شعور إيجابي وشائع جداً للمعلمين في بداياتهم المهنية.",
+      "auditGroup": "E9",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/Teaching_Methodologies.json",
+      "keeper": "q_cf54538c5d509ed101b1",
+      "remove": [
+        "q_8bb6d2bb67575e15b8e9",
+        "q_438cb992df74195b175d"
+      ],
+      "q": "What is burnout?",
+      "correctIndex": 2,
+      "correctAnswer": "C) A state of emotional exhaustion and lack of motivation",
+      "feedback": "الاحتراق النفسي هو حالة ناتجة عن الضغط المستمر وتؤدي إلى فقدان الشغف والإنهاك العاطفي.",
+      "auditGroup": "E10",
+      "auditConflict": true
+    },
+    {
+      "file": "Fourth Year/Teaching_Methodologies.json",
+      "keeper": "q_8df189c2b125cfc409f3",
+      "remove": [
+        "q_4b500bcb61b1218d947d",
+        "q_9e2e35cf7b4c8ecd277f"
+      ],
+      "q": "Which of the following countries is NOT included in Kachru's \"Inner circle\"?",
+      "correctIndex": 3,
+      "correctAnswer": "D) Mexico",
+      "feedback": "المكسيك ليست من الدول الناطقة بالإنجليزية كلغة أم (Inner Circle) حسب نموذج كاشرو.",
+      "auditGroup": "E11",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/Teaching_Methodologies.json",
+      "keeper": "q_85a29a12539363d4f530",
+      "remove": [
+        "q_af918ea9b03dd83e8dc0",
+        "q_ce84a06210135b3fe304"
+      ],
+      "q": "What is the typical structure of a General English syllabus?",
+      "correctIndex": 1,
+      "correctAnswer": "B) Based on grammar, vocabulary, and language skills",
+      "feedback": "معظم مناهج الإنجليزية العامة تبنى حول المكونات الهيكلية للغة (القواعد والمفردات).",
+      "auditGroup": "E12",
+      "auditConflict": true
+    },
+    {
+      "file": "Fourth Year/Teaching_Methodologies.json",
+      "keeper": "q_ac7595131453885886b2",
+      "remove": [
+        "q_6b5646f70025c2af8bc5",
+        "q_9dd845e9792441f9f656"
+      ],
+      "q": "Which of the following is NOT true for the Grammar Translation method?",
+      "correctIndex": 3,
+      "correctAnswer": "D) The native language should not be used in the classroom.",
+      "feedback": "طريقة القواعد والترجمة تعتمد بشكل كبير على اللغة الأم، لذا فالخيار D هو العبارة الخاطئة.",
+      "auditGroup": "E13",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/Teaching_Methodologies.json",
+      "keeper": "q_8953c945cd27a8183e2c",
+      "remove": [
+        "q_07c450be07c0db6c28a4",
+        "q_dfc8652a4782a9ef9114"
+      ],
+      "q": "CLT places a stronger emphasis on which of the following?",
+      "correctIndex": 3,
+      "correctAnswer": "D) Meaning over form",
+      "feedback": "المنهج التواصلي (CLT) يعطي الأولوية لنجاح عملية التواصل (المعنى) على الدقة اللغوية الصارمة (الشكل).",
+      "auditGroup": "E14",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/Teaching_Methodologies.json",
+      "keeper": "q_2c2416e1e63eee0c22b8",
+      "remove": [
+        "q_ad18d5495b5366be6b5d",
+        "q_fccc10ae936902b58d6d"
+      ],
+      "q": "The Teacher introduces grammatical structures and rules by showing a video. The students practice the grammar in context. The Teacher gives lots of meaningful examples to demonstrate the grammar. This is a/an:",
+      "correctIndex": 0,
+      "correctAnswer": "Inductive method",
+      "feedback": "الطريقة الاستقرائية (Inductive) تبدأ بالأمثلة ثم يستنتج الطالب القاعدة.",
+      "auditGroup": "E15",
+      "auditConflict": true,
+      "rationale": "Examples lead to induction only when learners infer the rule; rewrite the scenario to say this explicitly.",
+      "sources": [
+        "https://www.teachingenglish.org.uk/en/article/inductive-approach"
+      ]
+    },
+    {
+      "file": "Fourth Year/Teaching_Methodologies.json",
+      "keeper": "q_e9dff339ed09df27f07c",
+      "remove": [
+        "q_e38959ad80794cd7434e",
+        "q_bd8a5d0275e4e4111637"
+      ],
+      "q": "What is a key goal of ESP course design?",
+      "correctIndex": 2,
+      "correctAnswer": "C) Link language with real-world tasks",
+      "feedback": "الإنجليزية لأغراض خاصة (ESP) تركز على المهارات العملية والمهام المرتبطة باحتياجات الطالب المهنية.",
+      "auditGroup": "E17",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/Teaching_Methodologies.json",
+      "keeper": "q_a60398311d17061d63bc",
+      "remove": [
+        "q_fca82ae01d71458a81a7",
+        "q_d01bfebdabb7b01d10e6"
+      ],
+      "q": "Providing \"comprehensible input\" means:",
+      "correctIndex": 2,
+      "correctAnswer": "C) Speaking English students can understand",
+      "feedback": "المدخلات المفهومة تعني التحدث بلغة تناسب مستوى الطالب لضمان الفهم والتعلم.",
+      "auditGroup": "E18",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/Teaching_Methodologies.json",
+      "keeper": "q_249959b07eefca7acc63",
+      "remove": [
+        "q_f9bfc8b4b6527d0c6785"
+      ],
+      "q": "A tutor role is best seen when the teacher:",
+      "correctIndex": 1,
+      "correctAnswer": "B) Works one-on-one with a student",
+      "feedback": "دور المعلم كموجه (Tutor) يبرز بوضوح عند العمل الفردي مع طالب لمساعدته.",
+      "auditGroup": "E19",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/Teaching_Methodologies.json",
+      "keeper": "q_712d0d4f65ccb31d46e4",
+      "remove": [
+        "q_391da703c929ec56025f"
+      ],
+      "q": "The thumb pointing backward over the shoulder generally indicates:",
+      "correctIndex": 3,
+      "correctAnswer": "D) Past",
+      "feedback": "إيماءة الإبهام للخلف تُستخدم عالمياً للإشارة إلى الماضي.",
+      "auditGroup": "E20",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/Teaching_Methodologies.json",
+      "keeper": "q_85fb9e3e5dd7107c2f5a",
+      "remove": [
+        "q_6a1773f59e14ab06d345",
+        "q_a1bcd052d1dc599839fd"
+      ],
+      "q": "What does CEFR stand for?",
+      "correctIndex": 2,
+      "correctAnswer": "C) Common European Framework of Reference",
+      "feedback": "هذا هو المصطلح القياسي للإطار المرجعي الأوروبي المشترك لتعلم اللغات.",
+      "auditGroup": "E21",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/Teaching_Methodologies.json",
+      "keeper": "q_8a8848ed74155df9ef9a",
+      "remove": [
+        "q_99f9b38495bf55042722"
+      ],
+      "q": "Reliability can be enhanced by:",
+      "correctIndex": 0,
+      "correctAnswer": "A) making the test instructions clear",
+      "feedback": "الموثوقية (Reliability) تعني اتساق النتائج، والوضوح في التعليمات يقلل من تشتت الطلاب.",
+      "auditGroup": "E22",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/Teaching_Methodologies.json",
+      "keeper": "q_c8883a929aa2b3ce633b",
+      "remove": [
+        "q_0a27c8b358c4a56b1e0c"
+      ],
+      "q": "Portfolio assessment aims to:",
+      "correctIndex": 0,
+      "correctAnswer": "A) measure a student's progress over time",
+      "feedback": "تقييم الملف (Portfolio) يركز على تتبع تطور الطالب وتقدمه عبر فترة زمنية طويلة.",
+      "auditGroup": "E27",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/Teaching_Methodologies.json",
+      "keeper": "q_46bce9be0d0ac1bb58f5",
+      "remove": [
+        "q_989219c447608dcd77e4",
+        "q_6b1ac73467a8adff1fa5"
+      ],
+      "q": "Portfolio assessment has some disadvantages, including:",
+      "correctIndex": 3,
+      "correctAnswer": "D) Both A & C",
+      "feedback": "من عيوب الملف أنه يتطلب مجهوداً كبيراً من الطالب ووقت تقييم طويل من المعلم.",
+      "auditGroup": "E28",
+      "auditConflict": true
+    },
+    {
+      "file": "Fourth Year/Teaching_Methodologies.json",
+      "keeper": "q_21bbd3aa633ea57b8600",
+      "remove": [
+        "q_74cb00f35ae317b4dcbd"
+      ],
+      "q": "10. The acronym TEFL stands for \"teaching English as a .... language \".",
+      "correctIndex": 2,
+      "correctAnswer": "C) foreign",
+      "feedback": "اختصار TEFL يرمز لـ Teaching English as a Foreign Language[cite: 1].",
+      "auditGroup": "E30",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/Teaching_Methodologies.json",
+      "keeper": "q_b15acfa709703cc511f0",
+      "remove": [
+        "q_6c3321347848cbd8a93f",
+        "q_04fe9c41a9f42528f20e"
+      ],
+      "q": "11. 'EAP' stands for...",
+      "correctIndex": 2,
+      "correctAnswer": "C) English for academic purposes",
+      "feedback": "اختصار EAP يرمز لـ English for Academic Purposes[cite: 1].",
+      "auditGroup": "E31",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/Teaching_Methodologies.json",
+      "keeper": "q_f531308d0c22a4f60ba4",
+      "remove": [
+        "q_1a16220fba59f874e322"
+      ],
+      "q": "12. Name the key in the process of habit formation in the Audio Lingual method",
+      "correctIndex": 0,
+      "correctAnswer": "A) imitation",
+      "feedback": "التقليد (imitation) هو المفتاح الأساسي في عملية تكوين العادات في الطريقة السمعية الشفهية (Audio Lingual)[cite: 1].",
+      "auditGroup": "E32",
+      "auditConflict": true,
+      "sources": [
+        "https://api.ziyonet.uz/uploads/books/49959/5de6105b1fd90.pdf"
+      ]
+    },
+    {
+      "file": "Fourth Year/Teaching_Methodologies.json",
+      "keeper": "q_24299cbe7eea58f5d9da",
+      "remove": [
+        "q_2cfacd30aebb182fcf22"
+      ],
+      "q": "13. In Grammar-Translation Method, the skills that are not neglected are",
+      "correctIndex": 1,
+      "correctAnswer": "B) reading and writing",
+      "feedback": "في طريقة القواعد والترجمة، التركيز يكون على القواعد، الترجمة، القراءة والكتابة، بينما يتم إهمال التحدث والاستماع[cite: 1].",
+      "auditGroup": "E33",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/Teaching_Methodologies.json",
+      "keeper": "q_76ecfd87d47fde3f0dbb",
+      "remove": [
+        "q_605d13eff4fc3f31482d",
+        "q_5429058c899e5778f92b"
+      ],
+      "q": "15. The integral part of the communicative approach is",
+      "correctIndex": 1,
+      "correctAnswer": "B) meaningful interaction",
+      "feedback": "الجزء الجوهري في المنهج التواصلي هو التفاعل الهادف (meaningful interaction)[cite: 1].",
+      "auditGroup": "E35",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/Teaching_Methodologies.json",
+      "keeper": "q_4f721fdf7afae78f3c4b",
+      "remove": [
+        "q_c1e5bc7101071b69be31"
+      ],
+      "q": "16. When learners of different levels form small groups that must complete tasks together, this teaching method is called",
+      "correctIndex": 0,
+      "correctAnswer": "A) CLT",
+      "feedback": "العمل في مجموعات لإكمال المهام التفاعلية هو سمة أساسية للمنهج التواصلي (CLT)[cite: 1].",
+      "auditGroup": "E36",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/Teaching_Methodologies.json",
+      "keeper": "q_35f77f6aab8435f69c73",
+      "remove": [
+        "q_8f6d432b4066f00a042c"
+      ],
+      "q": "17. The teacher tells a story about animals. Children make animal noises every time they hear the name of the animal. This teaching method is....",
+      "correctIndex": 0,
+      "correctAnswer": "A) TPR",
+      "feedback": "هذا النشاط يعتمد على الاستجابة الجسدية (Total Physical Response) حيث يقوم الطلاب برد فعل جسدي (إصدار أصوات) تجاه المدخلات اللغوية[cite: 1].",
+      "auditGroup": "E37",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/Teaching_Methodologies.json",
+      "keeper": "q_fd8f46c7b57fbe224699",
+      "remove": [
+        "q_db1b54c163835df7dbf3"
+      ],
+      "q": "18. Students ask their classmates when their birthdays are and write the answers down. They try to find a different child for each month of the year. This teaching method is",
+      "correctIndex": 1,
+      "correctAnswer": "B) CLT",
+      "feedback": "هذا نشاط تواصلي (CLT) يعتمد على التفاعل بين الطلاب لتبادل المعلومات الحقيقية[cite: 1].",
+      "auditGroup": "E38",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/Teaching_Methodologies.json",
+      "keeper": "q_4fc27279bb62a030ea1a",
+      "remove": [
+        "q_8540ce5785cf0587c688"
+      ],
+      "q": "20. Students work in groups to make five qs about vocabulary from the previous unit. Then, they exchange qs with another group and try to answer the qs.",
+      "correctIndex": 3,
+      "correctAnswer": "D) Communicative Language Teaching",
+      "feedback": "العمل في مجموعات للقيام بمهام لغوية وتبادل المعلومات هو جزء من المنهج التواصلي (CLT)[cite: 1].",
+      "auditGroup": "E39",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/Teaching_Methodologies.json",
+      "keeper": "q_f10cbb3305ba75cbf5b5",
+      "remove": [
+        "q_e37b3c0cc7470ee2fc04"
+      ],
+      "q": "21. Students sing a song \" Head and shoulders, knees and toes \". They touch the correct part of their body as they sing the song. This teaching method is....",
+      "correctIndex": 3,
+      "correctAnswer": "D) TPR",
+      "feedback": "هذا النشاط هو مثال كلاسيكي على الاستجابة الجسدية الكلية (TPR) حيث يربط الطلاب اللغة بالحركة الجسدية[cite: 1].",
+      "auditGroup": "E40",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/Teaching_Methodologies.json",
+      "keeper": "q_d1d08641dfb1b7f08c28",
+      "remove": [
+        "q_821310cac1672ee60dd4"
+      ],
+      "q": "28. Using flash cards in the classrooms is a",
+      "correctIndex": 2,
+      "correctAnswer": "C) technique",
+      "feedback": "استخدام البطاقات التعليمية يُعتبر 'تقنية' (Technique) تعليمية[cite: 1].",
+      "auditGroup": "E43",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/Teaching_Methodologies.json",
+      "keeper": "q_c98da38e09ee9c4ee951",
+      "remove": [
+        "q_416c1fdea55a241e27ca"
+      ],
+      "q": "33. Ahmad really enjoys reading books. This gives him great personal satisfaction. His desire to reading books connects to?",
+      "correctIndex": 2,
+      "correctAnswer": "C) intrinsic motivation",
+      "feedback": "الرغبة النابعة من الشغف الشخصي والمتعة هي دافع داخلي (intrinsic motivation)[cite: 1].",
+      "auditGroup": "E44",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/Teaching_Methodologies.json",
+      "keeper": "q_2141f07e1ff41a185fea",
+      "remove": [
+        "q_d53c0ae68a4d12aa53ea"
+      ],
+      "q": "34. Which of the following is NOT an example of extrinsic motivation?",
+      "correctIndex": 2,
+      "correctAnswer": "C) Playing video games with your best friend because you enjoy spending time together",
+      "feedback": "اللعب مع الصديق بدافع الاستمتاع هو دافع داخلي، وليس خارجياً (Extrinsic) الذي يعتمد على مكافأة أو جائزة[cite: 1].",
+      "auditGroup": "E45",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/Teaching_Methodologies.json",
+      "keeper": "q_94e9ed8a9c1d23c0501d",
+      "remove": [
+        "q_cf3d8683923388f33738",
+        "q_a031f8cc447d479e2ef9",
+        "q_82a8126bf72ac2c28018"
+      ],
+      "q": "Any of a wide variety of exercises, activities, or devices used in the language classroom for realizing lesson objectives.",
+      "correctIndex": 0,
+      "correctAnswer": "Technique",
+      "feedback": "الأسلوب أو التقنية (Technique) تشير إلى الأنشطة والتمارين العملية التي ينفذها المعلم داخل الفصل لتحقيق أهداف معينة.",
+      "auditGroup": "E46",
+      "auditConflict": true,
+      "sources": [
+        "https://webhome.auburn.edu/~nunnath/engl6240/method.html"
+      ]
+    },
+    {
+      "file": "Fourth Year/Teaching_Methodologies.json",
+      "keeper": "q_5cb959b43a03620170dd",
+      "remove": [
+        "q_578b2313cbe0aefe9de6"
+      ],
+      "q": "37. If we wish to develop a good learning environment in the classroom, we need to establish an appropriate relationship with our students. This relationship is often termed..",
+      "correctIndex": 2,
+      "correctAnswer": "C) rapport",
+      "feedback": "العلاقة الودية والتفاهم بين المعلم والطلاب تُسمى 'Rapport'[cite: 1].",
+      "auditGroup": "E48",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/Teaching_Methodologies.json",
+      "keeper": "q_e4de699c86ac42cf5c22",
+      "remove": [
+        "q_b7cb3f982bdadb2a16d7"
+      ],
+      "q": "38. Applying a particular methodology thoughtlessly to any and every learning context we come into contact with may not always be appropriate.",
+      "correctIndex": 0,
+      "correctAnswer": "A) True",
+      "feedback": "صحيح، تطبيق منهجية معينة دون تفكير في سياق التعلم لا يكون مناسباً دائماً[cite: 1].",
+      "auditGroup": "E49",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/Teaching_Methodologies.json",
+      "keeper": "q_0876035c4c1f055066ff",
+      "remove": [
+        "q_953347aa17c6e4aa0d15"
+      ],
+      "q": "39. A procedure is bigger than a method and smaller than a technique.",
+      "correctIndex": 1,
+      "correctAnswer": "B) False",
+      "feedback": "خطأ، الإجراء (Procedure) هو أصغر من الطريقة (Method) وأكبر من التقنية (Technique)[cite: 1].",
+      "auditGroup": "E50",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/Teaching_Methodologies.json",
+      "keeper": "q_858460ccdb63df790165",
+      "remove": [
+        "q_458d0eabb4dc7b41a792"
+      ],
+      "q": "40. Students of different ages have similar needs, competences and cognitive skills.",
+      "correctIndex": 1,
+      "correctAnswer": "B) False",
+      "feedback": "خطأ، لكل فئة عمرية احتياجات وكفاءات ومهارات إدراكية مختلفة[cite: 1].",
+      "auditGroup": "E51",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/Teaching_Methodologies.json",
+      "keeper": "q_65f6515678b503dd2442",
+      "remove": [
+        "q_bf563cd22c442acaa916"
+      ],
+      "q": "41. 'ELT' stands for",
+      "correctIndex": 2,
+      "correctAnswer": "C) English Language Teaching",
+      "feedback": "اختصار ELT يرمز لـ English Language Teaching[cite: 1].",
+      "auditGroup": "E52",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/Teaching_Methodologies.json",
+      "keeper": "q_c61d57d25551a414044a",
+      "remove": [
+        "q_c768a56d38cc8d432a7a"
+      ],
+      "q": "42. The acronym TTT stands for \"Teacher... Time\".",
+      "correctIndex": 3,
+      "correctAnswer": "D) Talking",
+      "feedback": "اختصار TTT يرمز لـ Teacher Talking Time[cite: 1].",
+      "auditGroup": "E53",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/Teaching_Methodologies.json",
+      "keeper": "q_a0d510331d9eda95e2d3",
+      "remove": [
+        "q_1d1b8b276133810c5b3e"
+      ],
+      "q": "43. The acronym PPP stands for \"presentation, ..., production \"",
+      "correctIndex": 1,
+      "correctAnswer": "B) practice",
+      "feedback": "اختصار PPP يرمز لـ Presentation, Practice, Production[cite: 1].",
+      "auditGroup": "E54",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/Teaching_Methodologies.json",
+      "keeper": "q_759f5810d456b42d08ec",
+      "remove": [
+        "q_5e602858ced560b95933"
+      ],
+      "q": "46. Which of the following is often regarded as the most important element in teaching?",
+      "correctIndex": 0,
+      "correctAnswer": "A) The relationship between teachers and students",
+      "feedback": "العلاقة الودية بين المعلم والطلاب تُعتبر من أهم العناصر في التدريس الناجح[cite: 1].",
+      "auditGroup": "E55",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/Teaching_Methodologies.json",
+      "keeper": "q_df3351b35f3cd944595b",
+      "remove": [
+        "q_ea438881f2188ade753e"
+      ],
+      "q": "48. Which of the following is an incorrect assumption in language teaching?",
+      "correctIndex": 1,
+      "correctAnswer": "B) Language teaching should give importance to writing rather than speaking",
+      "feedback": "الافتراض الخاطئ هو إعطاء أهمية للكتابة على حساب التحدث، فالطرق الحديثة تركز على التواصل والمهارات المتكاملة[cite: 1].",
+      "auditGroup": "E56",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/Teaching_Methodologies.json",
+      "keeper": "q_bdb49f470ea83dc3307a",
+      "remove": [
+        "q_ef5e75a6be8089e0dd63"
+      ],
+      "q": "49. Effective learning happens when learners are",
+      "correctIndex": 2,
+      "correctAnswer": "C) Interactive",
+      "feedback": "التعلم الفعال يحدث عندما يكون المتعلمون تفاعليين (Interactive)[cite: 1].",
+      "auditGroup": "E57",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/Teaching_Methodologies.json",
+      "keeper": "q_53e85414d48ac34520d6",
+      "remove": [
+        "q_b6b87acc27e4e406166b"
+      ],
+      "q": "50. The ability to be in charge of one's own learning is",
+      "correctIndex": 2,
+      "correctAnswer": "C) autonomy",
+      "feedback": "القدرة على تحمل مسؤولية التعلم الذاتي تسمى الاستقلالية (autonomy)[cite: 1].",
+      "auditGroup": "E58",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/Teaching_Methodologies.json",
+      "keeper": "q_48d4ed79e31fa5337df4",
+      "remove": [
+        "q_2772e0a3f47e827fc491"
+      ],
+      "q": "The main challenge for English teachers today is:",
+      "correctIndex": 2,
+      "correctAnswer": "C. Deciding what kind of English to teach and how",
+      "feedback": "يتطلب التدريس المعاصر وعياً بالتنوع اللغوي واختيار المنهجية التي تناسب احتياجات الطلاب وسياقهم الثقافي.",
+      "auditGroup": "E59",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/Teaching_Methodologies.json",
+      "keeper": "q_5f66cb70990cb99f32b8",
+      "remove": [
+        "q_3841701fcc1c95911d80"
+      ],
+      "q": "The 'inner circle' includes countries where English is:",
+      "correctIndex": 2,
+      "correctAnswer": "C. The national language and mother tongue",
+      "feedback": "نموذج كاشرو يصنف الدول التي تعتبر الإنجليزية لغتها الأم (مثل أمريكا وبريطانيا) كدائرة داخلية (Inner Circle).",
+      "auditGroup": "E60",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/Teaching_Methodologies.json",
+      "keeper": "q_7e3a6341c47bd28e295d",
+      "remove": [
+        "q_34efb231200a2751e00e"
+      ],
+      "q": "Countries like Sweden, China, and Turkey are in the:",
+      "correctIndex": 3,
+      "correctAnswer": "D. Expanding circle",
+      "feedback": "الدول التي تُدرس الإنجليزية فيها كلغة أجنبية دون وضع رسمي للغة في المجتمع تُصنف ضمن الدائرة المتوسعة (Expanding Circle).",
+      "auditGroup": "E61",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/Teaching_Methodologies.json",
+      "keeper": "q_10f53dd7a2d86502d137",
+      "remove": [
+        "q_0abe3795a32fa4d02eb2"
+      ],
+      "q": "The term English as a lingua franca (ELF) refers to:",
+      "correctIndex": 3,
+      "correctAnswer": "D. A shared communication language among non-native speakers",
+      "feedback": "اللغة الإنجليزية كلغة تواصل مشترك (ELF) تعمل كجسر للتواصل بين أشخاص من لغات أم مختلفة.",
+      "auditGroup": "E62",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/Teaching_Methodologies.json",
+      "keeper": "q_c4ca4f7b0b7961680332",
+      "remove": [
+        "q_03e1e19badebbf7a446a"
+      ],
+      "q": "ESL refers to English learned:",
+      "correctIndex": 2,
+      "correctAnswer": "C. In an English-speaking country",
+      "feedback": "مصطلح ESL (English as a Second Language) يُستخدم عندما يتعلم المتعلم الإنجليزية في بيئة تتحدث الإنجليزية أصلاً.",
+      "auditGroup": "E63",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/Teaching_Methodologies.json",
+      "keeper": "q_9b30a73f3feea205beb8",
+      "remove": [
+        "q_b71374fb6a42564bf104"
+      ],
+      "q": "General English teaching typically focuses on:",
+      "correctIndex": 2,
+      "correctAnswer": "C. Grammar and vocabulary",
+      "feedback": "يركز تعليم الإنجليزية العامة على الأساسيات اللغوية والقواعد والمفردات لبناء الكفاءة العامة.",
+      "auditGroup": "E64",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/Teaching_Methodologies.json",
+      "keeper": "q_2f0b739e1dca1b8b7bed",
+      "remove": [
+        "q_19c9a4e00c8cce4cbfb8"
+      ],
+      "q": "Needs analysis helps:",
+      "correctIndex": 0,
+      "correctAnswer": "A. Identify learners' goals",
+      "feedback": "تحليل الاحتياجات هو الخطوة الأولى لتصميم مناهج ESP لضمان ملاءمتها لهدف المتعلم.",
+      "auditGroup": "E65",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/Teaching_Methodologies.json",
+      "keeper": "q_bf5be03fd551c3cb094d",
+      "remove": [
+        "q_397cebde63046a5463c6"
+      ],
+      "q": "Aviation English is an example of:",
+      "correctIndex": 2,
+      "correctAnswer": "C. ESP",
+      "feedback": "إنجلزية الطيران هي نوع متخصص جداً (ESP) مصمم لاستخدامات مهنية محددة.",
+      "auditGroup": "E66",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/Teaching_Methodologies.json",
+      "keeper": "q_6ac585d4b7fe517a2a52",
+      "remove": [
+        "q_3e4b47bfcc70350b800e"
+      ],
+      "q": "Students in business English classes may typically study:",
+      "correctIndex": 1,
+      "correctAnswer": "B. Writing emails",
+      "feedback": "تعتبر مراسلات البريد الإلكتروني مهارة عملية وأساسية في دورات الإنجليزية للأعمال.",
+      "auditGroup": "E67",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/Teaching_Methodologies.json",
+      "keeper": "q_b1963ca0b19e8ea67cdb",
+      "remove": [
+        "q_5c538e67e3fad73a3dc2"
+      ],
+      "q": "The metaphor 'sage on the stage' refers to:",
+      "correctIndex": 2,
+      "correctAnswer": "C. The teacher as an expert person",
+      "feedback": "تصف هذه الاستعارة دور المعلم التقليدي الذي يلقي المعلومات كخبير أو مصدر وحيد للمعرفة.",
+      "auditGroup": "E68",
+      "auditConflict": true
+    },
+    {
+      "file": "Fourth Year/Teaching_Methodologies.json",
+      "keeper": "q_b39a5abad852cea325fd",
+      "remove": [
+        "q_28d3cd3dc36b66b71b41"
+      ],
+      "q": "The idea of teachers being a 'guide on the side' suggests they should:",
+      "correctIndex": 0,
+      "correctAnswer": "A. Facilitate rather than giving instructions",
+      "feedback": "هذا الدور يركز على تمكين الطلاب وتسهيل عملية التعلم بدلاً من التلقين المباشر.",
+      "auditGroup": "E69",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/Teaching_Methodologies.json",
+      "keeper": "q_2d5c6f9e28ba4e60e52e",
+      "remove": [
+        "q_f401d78d7457d05acc30"
+      ],
+      "q": "When teachers offer encouragement to continue, they are acting as:",
+      "correctIndex": 3,
+      "correctAnswer": "D. Prompters",
+      "feedback": "دور الملقن (Prompter) هو تشجيع الطلاب ومساعدتهم على المضي قدماً دون إيقاف تدفق الكلام.",
+      "auditGroup": "E70",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/Teaching_Methodologies.json",
+      "keeper": "q_b61344d4c5575aecd9e5",
+      "remove": [
+        "q_e112c0162174bc6afdfe"
+      ],
+      "q": "Modelling language means:",
+      "correctIndex": 1,
+      "correctAnswer": "B. Giving clear language examples for students to imitate",
+      "feedback": "النمذجة (Modelling) هي تقديم مثال واضح ودقيق للغة ليحاكيه الطلاب.",
+      "auditGroup": "E71",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/Teaching_Methodologies.json",
+      "keeper": "q_ad3113489245b913e3f1",
+      "remove": [
+        "q_775016f6c9e73104236b"
+      ],
+      "q": "Shrugging shoulders to show 'boredom' is an example of:",
+      "correctIndex": 2,
+      "correctAnswer": "Mime",
+      "feedback": "التمثيل الصامت (Mime) يتضمن استخدام حركات الجسم لتمثيل مشاعر أو أفعال لتعزيز الفهم.",
+      "auditGroup": "E72",
+      "auditConflict": true,
+      "sources": [
+        "https://api.ziyonet.uz/uploads/books/49959/5de6105b1fd90.pdf"
+      ]
+    },
+    {
+      "file": "Fourth Year/Teaching_Methodologies.json",
+      "keeper": "q_11b1cdd3ac738ad92784",
+      "remove": [
+        "q_c8dbc593d516357b640f"
+      ],
+      "q": "What does rotating both arms typically signal in class?",
+      "correctIndex": 2,
+      "correctAnswer": "Choral repetition",
+      "feedback": "الإشارات الجسدية (Non-verbal communication) تساعد في إدارة الفصل، وتدوير الذراعين غالباً ما يستخدم للإشارة إلى تقسيم الطلاب لمجموعات.",
+      "auditGroup": "E73",
+      "auditConflict": true,
+      "sources": [
+        "https://api.ziyonet.uz/uploads/books/49959/5de6105b1fd90.pdf"
+      ]
+    },
+    {
+      "file": "Fourth Year/Teaching_Methodologies.json",
+      "keeper": "q_b3441907f350e0c46702",
+      "remove": [
+        "q_8ae10aee9d6720129c83"
+      ],
+      "q": "A progress test is mainly used to:",
+      "correctIndex": 1,
+      "correctAnswer": "B. Measure how students have progressed through a course",
+      "feedback": "اختبارات التقدم تهدف لقياس مدى تطور مستوى الطالب أثناء الدورة وليس في نهايتها فقط.",
+      "auditGroup": "E74",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/Teaching_Methodologies.json",
+      "keeper": "q_8c0a0032bc0406da2fa6",
+      "remove": [
+        "q_03feca5b8960ab3e5e57"
+      ],
+      "q": "Proficiency tests are typically used for:",
+      "correctIndex": 3,
+      "correctAnswer": "D. Both B&C",
+      "feedback": "اختبارات الكفاءة (Proficiency) عامة وتهدف لقياس المستوى الكلي للغة لأغراض مهنية أو أكاديمية.",
+      "auditGroup": "E75",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/Teaching_Methodologies.json",
+      "keeper": "q_94efc382456527a0b625",
+      "remove": [
+        "q_fe2bc891adc7b769f84e"
+      ],
+      "q": "How does kinesthetic learning differ from other teaching strategies?",
+      "correctIndex": 0,
+      "correctAnswer": "A. It involves physical movement and activity",
+      "feedback": "التعلم الحركي (Kinesthetic) يعتمد على دمج الحركة والنشاط البدني في عملية التعلم.",
+      "auditGroup": "E76",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/Teaching_Methodologies.json",
+      "keeper": "q_49b4e4546adf66d8bf49",
+      "remove": [
+        "q_bd36b83390bd953509d5"
+      ],
+      "q": "CLT typically uses which of the following as central to learning?",
+      "correctIndex": 0,
+      "correctAnswer": "Authentic material",
+      "feedback": "النهج التواصلي يعتمد بشكل محوري على المواد الأصلية (Authentic material) المستمدة من الحياة الواقعية لتدريب الطلاب على التواصل الطبيعي.",
+      "auditGroup": "E78",
+      "auditConflict": true,
+      "sources": [
+        "https://www.teachingenglish.org.uk/professional-development/teachers/teaching-knowledge-database/c/communicative-approach?page=1"
+      ]
+    },
+    {
+      "file": "Fourth Year/Teaching_Methodologies.json",
+      "keeper": "q_3dbf54035c468691059b",
+      "remove": [
+        "q_dd1000596b18edc4fe13"
+      ],
+      "q": "Which lesson framework is most consistent with CLT?",
+      "correctIndex": 1,
+      "correctAnswer": "B. Task-Based Learning",
+      "feedback": "التعلم القائم على المهام (TBL) هو تطبيق عملي لمبادئ المنهج التواصلي (CLT).",
+      "auditGroup": "E79",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/Teaching_Methodologies.json",
+      "keeper": "q_72f48cf1eac88cb1c7e1",
+      "remove": [
+        "q_4b83123943763123ad1f",
+        "q_f49d5f760c3e0e789189",
+        "q_9548d9c344fd3d6e449b"
+      ],
+      "q": "A critique often directed at CLT is that it:",
+      "correctIndex": 0,
+      "correctAnswer": "A. May neglect accuracy for fluency",
+      "feedback": "أحد الانتقادات الشائعة هو أن التركيز المكثف على التواصل قد يؤدي إلى إهمال الدقة اللغوية (القواعد).",
+      "auditGroup": "E80",
+      "auditConflict": true
+    },
+    {
+      "file": "Fourth Year/Teaching_Methodologies.json",
+      "keeper": "q_4662cb6e9df8168c969b",
+      "remove": [
+        "q_2a89e47fd9cf50283d0f"
+      ],
+      "q": "The students learn patterns of language by repeating model sentences that the teacher provides. They memorize set phrases and receive positive reinforcement from their teacher when they perform drills correctly. This is:",
+      "correctIndex": 1,
+      "correctAnswer": "B. Audio lingual method",
+      "feedback": "هذه الطريقة السمعية الشفوية تعتمد كلياً على التكرار والحفظ والتعزيز الإيجابي.",
+      "auditGroup": "E81",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/Teaching_Methodologies.json",
+      "keeper": "q_5af52c769a5869dd4f3d",
+      "remove": [
+        "q_f315f80c31233e821203"
+      ],
+      "q": "In Grammar Translation Method, the skills that are focused on are",
+      "correctIndex": 2,
+      "correctAnswer": "Reading and writing",
+      "feedback": "طريقة القواعد والترجمة تركز بشكل أساسي على تطوير مهارتي القراءة والكتابة.",
+      "auditGroup": "E82",
+      "auditConflict": false
+    },
+    {
+      "file": "Fourth Year/comparative_2.json",
+      "keeper": "q_2cf7863600a0e8fbee7e",
+      "remove": [
+        "q_652d9f51436ec011664a",
+        "q_46f662ad4c34fb02a8e6"
+      ],
+      "q": "Q39: All of the following are true Except:",
+      "correctIndex": 2,
+      "correctAnswer": "The battle of Marathon was between the Greeks and the Trojans",
+      "feedback": "الخيار الخاطئ (العبارة غير الصحيحة) هو C؛ لأن معركة ماراثون الشهيرة دارت تاريخياً بين الإغريق والفرس (Persians) وليس الطرواديين.",
+      "auditGroup": "E14-partition-Marathon",
+      "rationale": "This is the false statement: Marathon was fought by Greeks against Persia, not Troy."
+    },
+    {
+      "file": "Fourth Year/comparative_2.json",
+      "keeper": "q_89b3d99c55adea2f9635",
+      "remove": [
+        "q_4f9482a8aef034d70cf9"
+      ],
+      "q": "Q35: All of the following are false, Except:",
+      "correctIndex": 2,
+      "correctAnswer": "While in Aeschylus we have paganism, in Sartre we have Existentialism",
+      "feedback": "جميع العبارات خاطئة باستثناء العبارة (C)؛ فبينما يتميز عالم إيسخيلوس بالوثنية والميثولوجيا الكلاسيكية الإغريقية، تتمحور مسرحية سارتر حول الفلسفة الوجودية.",
+      "auditGroup": "E16-partition-schools"
+    },
+    {
+      "file": "Fourth Year/comparative_2.json",
+      "keeper": "q_976d49aa492f741f25e7",
+      "remove": [
+        "q_38010f7061d00c6ccaef",
+        "q_30be56151b2ac4bc70c0"
+      ],
+      "q": "Q43: This quotation is taken from:",
+      "correctIndex": 0,
+      "correctAnswer": "Agamemnon",
+      "feedback": "هذا الاقتباس مأخوذ من مسرحية 'أغاممنون' (Agamemnon) عند عودته واستقباله الحافل قبيل مقتله.",
+      "auditGroup": "E19-partition-Agamemnon-quotation"
+    },
+    {
+      "file": "Fourth Year/comparative_2.json",
+      "keeper": "q_1cfcb2dfa1b5d6e84365",
+      "remove": [
+        "q_d3a75b96eef61563b9a5"
+      ],
+      "q": "Q46: This quotation is taken from:",
+      "correctIndex": 3,
+      "correctAnswer": "The Flies",
+      "feedback": "هذه الجملة الحوارية القاسية مأخوذة من مسرحية 'الذباب' (The Flies) لجان بول سارتر.",
+      "auditGroup": "E19-partition-Flies-silence-quotation"
+    },
+    {
+      "file": "Fourth Year/comparative_2.json",
+      "keeper": "q_0521ccdaf38b86d9f6b0",
+      "remove": [
+        "q_46dbe98bffdceb36fd02",
+        "q_ccc519d17adac01abbbd",
+        "q_75311688f45aa6aa1ffc"
+      ],
+      "q": "  What did the gods do after Agamemnon's murder?",
+      "correctIndex": 2,
+      "correctAnswer": "Sent the flies to Argos",
+      "feedback": "في مسرحية 'الذباب' لجان بول سارتر، أرسل الآلهة (وعلى رأسهم جوبيتر) أسراباً من الذباب إلى مدينة أرغوس كرمز للندم وعقاباً جماعياً على صمتهم ومشاركتهم غير المباشرة في جريمة قتل أغاممنون.",
+      "auditGroup": "E20-plus-semantic-duplicates",
+      "sources": [
+        "https://sphinxlibrary.com/Calibre/Jean-Paul%20Sartre/No%20Exit%20and%20Three%20Other%20Plays%20%281329%29/No%20Exit%20and%20Three%20Other%20Plays%20-%20Jean-Paul%20Sartre.pdf"
+      ]
+    },
+    {
+      "file": "Fourth Year/comparative_2.json",
+      "keeper": "q_b7cb3fe75f2441eabbc3",
+      "remove": [
+        "q_cb3a6d306f20844c9f63",
+        "q_0bf15fdc54cdc17f5157"
+      ],
+      "q": "Q38: \"Come, my king, the scourge of Troy, the true son of Atreus\" The speaker is:",
+      "correctIndex": 2,
+      "correctAnswer": "The Chorus",
+      "feedback": "القائل المرحب بعودة الملك هو الجوقة (the Chorus) المكونة من شيوخ أرغوس الموالين لأوباما ومجد العائلة الملكية.",
+      "auditGroup": "E40-plus-N1"
+    },
+    {
+      "file": "Fourth Year/comparative_2.json",
+      "keeper": "q_dc0bcca33b30a2d9589e",
+      "remove": [
+        "q_0b219a75b0ae35e0e8b8"
+      ],
+      "q": "Q45: The addressee is/are:",
+      "correctIndex": 0,
+      "correctAnswer": "The people of Argos",
+      "feedback": "يوجه إيجيسثوس هذه الإهانة الصارخة لشعب ورعية أرغوس (the people of Argos) لإبقائهم خانعين.",
+      "auditGroup": "E42-partition-silence-addressee"
+    },
+    {
+      "file": "Fourth Year/comparative_2.json",
+      "keeper": "q_cbc9f5367980af5635d8",
+      "remove": [
+        "q_3df89264124b94972921"
+      ],
+      "q": "22- It's revealed that ----- was tricked into eating his own children by Atreus, Agamemnon's father.",
+      "correctIndex": 1,
+      "correctAnswer": "Thyestes",
+      "feedback": "الشخصية التي تعرضت لخدعة أكل لحم أبنائها المطبوخ هو ثايستيس (Thyestes) على يد شقيقه أتريوس.",
+      "auditGroup": "N2-semantic"
+    },
+    {
+      "file": "Fourth Year/comparative_2.json",
+      "keeper": "q_b46c1fdbaefd272dd1e9",
+      "remove": [
+        "q_1977e276bd44a531ddbb"
+      ],
+      "q": "41. \"Her land\" refers to?",
+      "correctIndex": 2,
+      "correctAnswer": "Sparta",
+      "feedback": "تم تصحيح الإجابة: بلادها تشير إلى سبارتا (Sparta) التي غادرتها هيلين مسببة دماراً وفوضى [من الاقتباس 26 لمسرحية أغاممنون].",
+      "auditGroup": "manual-semantic-Her-land",
+      "sources": [
+        "https://sourcebooks.web.fordham.edu/ancient/aeschylus-agamemno.asp"
+      ]
+    },
+    {
+      "file": "Fourth Year/criticism_2.json",
+      "keeper": "q_e65cea7a21b0c847bebe",
+      "remove": [
+        "q_ccbfc838bf585a8be5fa"
+      ],
+      "q": "To Holland, the secret of the greatness of Hamlet and, finally, of all great works of art: they permit us to become -------- ourselves.",
+      "correctIndex": 2,
+      "correctAnswer": "creators",
+      "feedback": "يرى هولاند أن عظمة الأعمال الفنية تكمن في أنها تسمح لنا بأن نصبح 'خالقين' (creators) لأنفسنا من خلال تجربتنا النفسية معها [17].",
+      "auditGroup": "N1"
+    },
+    {
+      "file": "Fourth Year/criticism_2.json",
+      "keeper": "q_a085168d8c5b864c3d08",
+      "remove": [
+        "q_65e5b6da928e20a6ceb3"
+      ],
+      "q": "The most notable trend in recent literary theory has been a turn to -------- criticism.",
+      "correctIndex": 2,
+      "correctAnswer": "historical",
+      "feedback": "شهدت النظرية الأدبية الحديثة توجهاً بارزاً نحو النقد 'التاريخي'، وتحديداً ما يعرف بالتاريخانية الجديدة (New Historicism) [18, 19].",
+      "auditGroup": "N2"
+    },
+    {
+      "file": "Fourth Year/criticism_2.json",
+      "keeper": "q_10b8c4ede992f74e572e",
+      "remove": [
+        "q_0e280fe4d67ddb1facf3"
+      ],
+      "q": "[_____] is the dictionary definition of a word as distinct from its suggestive meaning.",
+      "correctIndex": 0,
+      "correctAnswer": "Denotation",
+      "feedback": "الدلالة الحرفية (Denotation) هي المعنى الحرفي المحدد في القاموس للكلمة، على عكس معناها الإيحائي الكنائي.",
+      "auditGroup": "N4"
+    },
+    {
+      "file": "Fourth Year/Teaching_Methodologies.json",
+      "keeper": "q_7ca45f1bb263501d37c6",
+      "remove": [
+        "q_1788e0dd0bca3d721c88",
+        "q_5bcf0068258bdcce3969",
+        "q_91399bb501ca25330c85"
+      ],
+      "q": "Students listen to a dialogue between a taxi driver and passenger. They fill in gaps and then practice a dialogue with a partner. Tomorrow they will go outside and practice asking for directions. This is:",
+      "correctIndex": 0,
+      "correctAnswer": "CLT",
+      "feedback": "The culminating real-world information/practice task makes the scenario communicative; the old Oral Approach key conflicts with the scenario and with its near-duplicate.",
+      "auditGroup": "E16-plus-near-scenario",
+      "sources": [
+        "https://www.cambridge.org/elt/passages2e/teacher/downloads/articles/Richards_Communicative_Language_Teaching_Today.pdf",
+        "https://www.teachingenglish.org.uk/professional-development/teachers/teaching-knowledge-database/c/communicative-approach?page=1"
+      ]
+    },
+    {
+      "file": "Fourth Year/Teaching_Methodologies.json",
+      "keeper": "q_50f43d821c22a12f3e04",
+      "remove": [
+        "q_84b76e589206a7c48f5c",
+        "q_e696c800e524bbc2ea67",
+        "q_58871fe47931750fb377",
+        "q_45535106df283c12ed24",
+        "q_cde041a915b7011ded46"
+      ],
+      "q": "What is the role of the teacher when working one-on-one with a student?",
+      "correctIndex": 0,
+      "correctAnswer": "Tutor",
+      "feedback": "عندما يعمل المعلم بشكل فردي مع طالب، فإنه يقوم بدور الموجه أو 'Tutor'.",
+      "auditGroup": "E4+E41+E88"
+    },
+    {
+      "file": "Fourth Year/Teaching_Methodologies.json",
+      "keeper": "q_25c6f2a9534979e3abd3",
+      "remove": [
+        "q_c2bf7741fd275350806b",
+        "q_8b0f557ae803f52763fa",
+        "q_a1776c375ef8c7b95f11"
+      ],
+      "q": "The input teachers provide must be:",
+      "correctIndex": 3,
+      "correctAnswer": "Comprehensible",
+      "feedback": "يجب أن تكون المدخلات (Input) مفهومة (Comprehensible) لضمان اكتساب اللغة بفعالية وفقاً لنظريات كراشن.",
+      "auditGroup": "E5+E89"
+    },
+    {
+      "file": "Fourth Year/Teaching_Methodologies.json",
+      "keeper": "q_2d55792c33d8a3fffbde",
+      "remove": [
+        "q_812fa9e7241caa74850f",
+        "q_3fd8a226d4e449bb140d",
+        "q_36da4912d22fb9fc5520"
+      ],
+      "q": "A test that measures the intended skills or abilities is said to have:",
+      "correctIndex": 1,
+      "correctAnswer": "Validity",
+      "feedback": "الصلاحية (Validity) هي قياس الاختبار لما وُضع لقياسه بالفعل.",
+      "auditGroup": "E23+E83+N2"
+    },
+    {
+      "file": "Fourth Year/Teaching_Methodologies.json",
+      "keeper": "q_dc9977f7e9ac355b8236",
+      "remove": [
+        "q_19e66125bef25053ecfd",
+        "q_ca44f510f0b3a3c93ff0"
+      ],
+      "q": "If a test of writing ability in English requires specialized knowledge of history or biology, which type of validity is lacking?",
+      "correctIndex": 0,
+      "correctAnswer": "Construct validity",
+      "feedback": "Specialized subject knowledge is construct-irrelevant variance in a writing-ability test; the old Content validity key is incorrect.",
+      "auditGroup": "E24-plus-semantic",
+      "sources": [
+        "https://www.es.ets.org/content/dam/ets-org/pdfs/about/standards-quality-fairness.pdf"
+      ]
+    },
+    {
+      "file": "Fourth Year/Teaching_Methodologies.json",
+      "keeper": "q_5ae2618f007335dcd13a",
+      "remove": [
+        "q_7d5ed8a720b0f5267020",
+        "q_d7ad76311b71bf3af360",
+        "q_3ca3dd0f821ce7bb8b4a"
+      ],
+      "q": "The purpose of placement test is to:",
+      "correctIndex": 1,
+      "correctAnswer": "Determine which class or level a student should be in",
+      "feedback": "اختبار تحديد المستوى هدفه وضع الطالب في الصف المناسب لقدراته الحالية.",
+      "auditGroup": "E25+E84"
+    },
+    {
+      "file": "Fourth Year/Teaching_Methodologies.json",
+      "keeper": "q_0aa8cfb61d4ec283777a",
+      "remove": [
+        "q_40807af9a6c739f57037",
+        "q_2254289632af189d59b4",
+        "q_4aba6b8415d40465c4a8"
+      ],
+      "q": "What type of test is given at the end of a course of study?",
+      "correctIndex": 2,
+      "correctAnswer": "Achievement test",
+      "feedback": "اختبار التحصيل (Achievement test) يقيس ما تعلمه الطلاب بنهاية الدورة الدراسية.",
+      "auditGroup": "E26+E85"
+    },
+    {
+      "file": "Fourth Year/Teaching_Methodologies.json",
+      "keeper": "q_4b1757342ad3df102fb6",
+      "remove": [
+        "q_e6eb56a2128fce368830",
+        "q_e420a81a2fe80e268a79",
+        "q_5c9d0d74824283950490",
+        "q_7fd786c353e6293b8d6c"
+      ],
+      "q": "What is the role of the teacher when taking the roll/register or giving students information?",
+      "correctIndex": 1,
+      "correctAnswer": "Controller",
+      "feedback": "في المهام الإدارية البحتة، يقوم المعلم بدور المسيطر (Controller) لإدارة وقت الفصل.",
+      "auditGroup": "E29+E87",
+      "sources": [
+        "https://api.ziyonet.uz/uploads/books/49959/5de6105b1fd90.pdf"
+      ]
+    },
+    {
+      "file": "Fourth Year/Teaching_Methodologies.json",
+      "keeper": "q_db3627b7b2f0c4f9c749",
+      "remove": [
+        "q_3957a99c0782b0137d92",
+        "q_d632f2143e862d716313"
+      ],
+      "q": "14. This method emerged as a reaction to the various demerits of the Grammar Translation method:",
+      "correctIndex": 1,
+      "correctAnswer": "Direct Method",
+      "feedback": "الطريقة المباشرة (Direct Method) ظهرت في نهاية القرن التاسع عشر كرد فعل على عيوب طريقة القواعد والترجمة[cite: 1].",
+      "auditGroup": "E34+N3",
+      "sources": [
+        "https://www.teachingenglish.org.uk/comment/203884"
+      ]
+    },
+    {
+      "file": "Fourth Year/Teaching_Methodologies.json",
+      "keeper": "q_2ece247ceeb8b8511c29",
+      "remove": [
+        "q_583921266fd16dce5897",
+        "q_3c77f9585ca9f645460a"
+      ],
+      "q": "Who is the person that students are likely to hear speaking English most often?",
+      "correctIndex": 0,
+      "correctAnswer": "Their teacher",
+      "feedback": "في بيئات تعلم اللغة، غالباً ما يكون المعلم هو المصدر الرئيسي والمستمر للغة الإنجليزية للطلاب.",
+      "auditGroup": "E42+N1"
+    },
+    {
+      "file": "Fourth Year/Teaching_Methodologies.json",
+      "keeper": "q_2fbed126574bf9402a90",
+      "remove": [
+        "q_fa49af2b8241002be8cf",
+        "q_8559dc5aa137d94a1794",
+        "q_4ca41fa3f5d2baa1199b"
+      ],
+      "q": "Theoretical positions and beliefs about the nature of language, the nature of language learning, and the applicability of both to pedagogical settings.",
+      "correctIndex": 2,
+      "correctAnswer": "Approach",
+      "feedback": "النهج (Approach) هو مجموعة النظريات والمعتقدات التي تفسر طبيعة اللغة وكيفية تعلمها، وهو الأساس الذي تُبنى عليه الطرق.",
+      "auditGroup": "E47+E86+N4"
+    },
+    {
+      "file": "Fourth Year/Teaching_Methodologies.json",
+      "keeper": "q_6079592926410a4fa1e3",
+      "remove": [
+        "q_9f7eabe9ee5a7af65914",
+        "q_3584da764a0c3b21412c",
+        "q_dbda501a20c8ae48585c"
+      ],
+      "q": "Which type of classroom activity is most aligned with CLT principles?",
+      "correctIndex": 2,
+      "correctAnswer": "Role play",
+      "feedback": "تمثيل الأدوار (Role play) يعزز التواصل الواقعي والتفاعل الهادف، وهو جوهر المنهج التواصلي (CLT).",
+      "auditGroup": "E77+E90",
+      "sources": [
+        "https://www.teachingenglish.org.uk/professional-development/teachers/teaching-knowledge-database/c/communicative-approach?page=1"
+      ]
+    }
+  ],
+  "corrections": [
+    {
+      "file": "Fourth Year/Comparative_1.json",
+      "id": "q_30d6e4f6f6aaae694f0b",
+      "q": "A writer may try to blend another text into his own, yet the alignment between the two texts can always be entirely broken.",
+      "oldCorrectIndex": 0,
+      "oldAnswer": "True",
+      "correctIndex": 1,
+      "correctAnswer": "False",
+      "rationale": "Intertextual relations may be transformed or obscured, but a text does not become a completely closed system once it has absorbed another text.",
+      "sources": [
+        "https://www.cambridge.org/core/books/cambridge-companion-to-the-greek-and-roman-novel/intertextuality/9C00145A047BFBCCE84EDB5C5A1B9ABF"
+      ]
+    },
+    {
+      "file": "Fourth Year/comparative_2.json",
+      "id": "q_d74b92e4ec4b46b3396b",
+      "q": "69. Oresteia amoral and apolitical?",
+      "oldCorrectIndex": 0,
+      "oldAnswer": "A) True",
+      "correctIndex": 1,
+      "correctAnswer": "False",
+      "rationale": "The Oresteia explicitly stages the movement from blood vengeance to civic law and democratic adjudication, so it is neither apolitical nor amoral.",
+      "sources": [
+        "https://uwpress.wisc.edu/Books/T/The-Oresteia"
+      ]
+    },
+    {
+      "file": "Fourth Year/comparative_2.json",
+      "id": "q_2be1cf0fb056892af918",
+      "q": "Q31: What does Orestes fear the most in *The Libation Bearers*?",
+      "oldCorrectIndex": 0,
+      "oldAnswer": "A) The wrath of Athena",
+      "correctIndex": 2,
+      "correctAnswer": "The anger of the Furies",
+      "rationale": "After matricide Orestes fears his mother’s curse and the pursuing Furies, not Athena.",
+      "sources": [
+        "https://www.law.berkeley.edu/wp-content/uploads/2025/05/toa.pdf"
+      ]
+    },
+    {
+      "file": "Fourth Year/comparative_2.json",
+      "id": "q_de4a537a838663a0fe2c",
+      "q": "Q42: What is Athena's stance on men in The Eumenides?",
+      "oldCorrectIndex": 0,
+      "oldAnswer": "A) She honors men in all things, including marriage",
+      "correctIndex": 2,
+      "correctAnswer": "She honors the male in all things except marriage",
+      "rationale": "Athena explicitly says she honors the male in all things save wedlock.",
+      "sources": [
+        "https://classics.mit.edu/Aeschylus/eumendides.html"
+      ]
+    },
+    {
+      "file": "Fourth Year/comparative_2.json",
+      "id": "q_069ea9f2222c0b4305dd",
+      "q": "  What is the significance of the purple robes in Agamemnon?",
+      "oldCorrectIndex": 0,
+      "oldAnswer": "A) They symbolize royal honor and status",
+      "correctIndex": 3,
+      "correctAnswer": "They symbolize the king's arrogance and pride",
+      "rationale": "Agamemnon himself identifies walking on the costly purple as arrogance; the cloth is Clytemnestra’s hubris trap.",
+      "sources": [
+        "https://sourcebooks.web.fordham.edu/ancient/aeschylus-agamemno.asp"
+      ]
+    },
+    {
+      "file": "Fourth Year/criticism_2.json",
+      "id": "q_45afe836c4b635061ecb",
+      "q": "[ _____ ] is a term used in linguistics and first used by Ferdinand de Saussure to denote the definition of a word.",
+      "oldCorrectIndex": 2,
+      "oldAnswer": "sign",
+      "correctIndex": 1,
+      "correctAnswer": "signified",
+      "rationale": "For Saussure, the signifier is the sound-image/form and the signified is the concept; the sign is their combination.",
+      "sources": [
+        "https://cup.columbia.edu/book/course-in-general-linguistics/9780231157261/"
+      ]
+    },
+    {
+      "file": "Fourth Year/criticism_2.json",
+      "id": "q_a89080e49d0d987fa773",
+      "q": "'Genetic criticism' means that the focus is on the origin of the author.",
+      "oldCorrectIndex": 0,
+      "oldAnswer": "True",
+      "correctIndex": 1,
+      "correctAnswer": "False",
+      "rationale": "Genetic criticism studies the genesis/compositional process of the work, not the “origin of the author.”",
+      "sources": [
+        "https://www.pennpress.org/9780812237771/genetic-criticism/"
+      ]
+    },
+    {
+      "file": "Fourth Year/criticism_2.json",
+      "id": "q_416d8f05aba38e6c5812",
+      "q": "The need for information about the author's milieu grows as the author is _________.",
+      "oldCorrectIndex": 3,
+      "oldAnswer": "A and C",
+      "correctIndex": 1,
+      "correctAnswer": "More distant from us",
+      "rationale": "This question duplicates the bank’s correctly keyed fuller item q_05568c692963f97052b4; option “A and C” does not even include the required distance answer.",
+      "sources": [
+        "https://books.google.com/books/about/Contexts_for_Criticism.html?id=hVSkQgAACAAJ"
+      ]
+    },
+    {
+      "file": "Fourth Year/Teaching_Methodologies.json",
+      "id": "q_5b1b8a6a7959963d4ad0",
+      "q": "In which decade was Communicative Language Teaching first proposed?",
+      "oldCorrectIndex": 3,
+      "oldAnswer": "None of the above",
+      "correctIndex": 1,
+      "correctAnswer": "1970s",
+      "rationale": "Communicative Language Teaching was proposed/developed as an approach in the 1970s, not first in the 1980s.",
+      "sources": [
+        "https://www.cambridge.org/elt/passages2e/teacher/downloads/articles/Richards_Communicative_Language_Teaching_Today.pdf"
+      ]
+    }
+  ],
+  "rewrites": [
+    {
+      "file": "Fourth Year/comparative_2.json",
+      "ids": [
+        "q_be97ca4a5ad751428afe",
+        "q_8cc00198e0a9ed4f7044",
+        "q_4882c2902ea64674771b"
+      ],
+      "reason": "The identical generic stem “Quotation taken from?” points to three different preceding quotations. Keep all three facts, but embed the quotation in each stem; do not merge them.",
+      "correctAnswers": [
+        "Agamemnon",
+        "Agamemnon",
+        "The Flies"
+      ]
+    },
+    {
+      "file": "Fourth Year/comparative_2.json",
+      "ids": [
+        "q_69f1df6ace6ac56bc8c0",
+        "q_1a5ba28a9d8b3b4790ba"
+      ],
+      "reason": "Two options are false: Sartre does not reject every possible morality, and Electra brings rubbish/a parody offering rather than ordinary libations. Replace the EXCEPT item with two direct true/false questions.",
+      "proposedQuestions": [
+        {
+          "q": "Sartrean existentialism rejects all morality.",
+          "correctAnswer": "False"
+        },
+        {
+          "q": "In The Flies, Electra approaches Jupiter’s statue to mock it with rubbish rather than to perform a sincere libation.",
+          "correctAnswer": "True"
+        }
+      ],
+      "sources": [
+        "https://sphinxlibrary.com/Calibre/Jean-Paul%20Sartre/No%20Exit%20and%20Three%20Other%20Plays%20%281329%29/No%20Exit%20and%20Three%20Other%20Plays%20-%20Jean-Paul%20Sartre.pdf",
+        "https://plato.stanford.edu/entries/existentialism/"
+      ]
+    },
+    {
+      "file": "Fourth Year/comparative_2.json",
+      "ids": [
+        "q_8c480940518d50a5db46",
+        "q_53e347d57c754a044676"
+      ],
+      "reason": "These generic stems belong to the distinct “Someone else will come, to set me free” quotation. Embed that quotation; keep separate from the “Silence, dogs!” items.",
+      "correctAnswers": [
+        "The Flies",
+        "Orestes"
+      ]
+    },
+    {
+      "file": "Fourth Year/comparative_2.json",
+      "ids": [
+        "q_89891f412e0a44feaa57",
+        "q_753e81e833fd950cd988"
+      ],
+      "reason": "The primary edition identifies The Flies as a play in three acts; “tragicomedy” is not securely established by the supplied choices. Rewrite genre as “a play/drama in three acts.”",
+      "correctAnswer": "A play (modern drama) in three acts",
+      "sources": [
+        "https://sphinxlibrary.com/Calibre/Jean-Paul%20Sartre/No%20Exit%20and%20Three%20Other%20Plays%20%281329%29/No%20Exit%20and%20Three%20Other%20Plays%20-%20Jean-Paul%20Sartre.pdf"
+      ]
+    },
+    {
+      "file": "Fourth Year/comparative_2.json",
+      "ids": [
+        "q_a29ecf42c121771b7a47"
+      ],
+      "reason": "Athena is not a character in The Flies. If the intended answer is the rationalist Tutor, add Tutor to the options; otherwise remove the item.",
+      "correctAnswer": "The Tutor (if the intended contrast is rationalism versus Orestes’s existential commitment)",
+      "sources": [
+        "https://sphinxlibrary.com/Calibre/Jean-Paul%20Sartre/No%20Exit%20and%20Three%20Other%20Plays%20%281329%29/No%20Exit%20and%20Three%20Other%20Plays%20-%20Jean-Paul%20Sartre.pdf"
+      ]
+    },
+    {
+      "file": "Fourth Year/comparative_2.json",
+      "ids": [
+        "q_70eead94901b1f4a9095"
+      ],
+      "reason": "Athena institutes the jury, casts the tie-breaking/final vote, and later reconciles the Furies. The current wording “leaves the final vote to Athens” is incomplete.",
+      "correctAnswer": "She establishes a jury, casts the decisive vote for Orestes, and reconciles the Furies",
+      "sources": [
+        "https://classics.mit.edu/Aeschylus/eumendides.html",
+        "https://uwpress.wisc.edu/Books/T/The-Oresteia"
+      ]
+    },
+    {
+      "file": "Fourth Year/comparative_2.json",
+      "ids": [
+        "q_af3974fed9cc1868eaf2"
+      ],
+      "reason": "No option matches the final procession: Athena is accompanied by female attendants/citizens carrying robes, torches, and offerings—not a herald plus the ten jurors.",
+      "correctAnswer": "Athena’s female attendants/citizens with torches and offerings",
+      "sources": [
+        "https://www.law.berkeley.edu/wp-content/uploads/2025/05/toa.pdf"
+      ]
+    },
+    {
+      "file": "Fourth Year/comparative_2.json",
+      "ids": [
+        "q_15b7ba88fe34c23f2df8"
+      ],
+      "reason": "The stem/options are structurally broken and the stored index selects Orestes while the feedback names Clytemnestra. Rewrite cleanly if this course-specific interpretive claim is retained.",
+      "correctAnswer": "Clytemnestra (according to the item’s own feedback)"
+    },
+    {
+      "file": "Fourth Year/comparative_2.json",
+      "ids": [
+        "q_36978b2cf23d90b329a7"
+      ],
+      "reason": "“Overarching theme” is too broad for a single-answer item. Rewrite to ask about the trilogy’s movement from blood vengeance to civic adjudication.",
+      "correctAnswer": "The nature of justice",
+      "sources": [
+        "https://uwpress.wisc.edu/Books/T/The-Oresteia"
+      ]
+    },
+    {
+      "file": "Fourth Year/criticism_2.json",
+      "ids": [
+        "q_6ea2abaec1ffa5a72d5e",
+        "q_49dee4a14567440a0837"
+      ],
+      "reason": "After merging, replace “In simple words” with a precise stem about criticism as judging/evaluating; “understanding” is otherwise also defensible.",
+      "correctAnswer": "judgement"
+    },
+    {
+      "file": "Fourth Year/Teaching_Methodologies.json",
+      "ids": [
+        "q_2c2416e1e63eee0c22b8"
+      ],
+      "reason": "Say explicitly that learners infer the grammar rule from the examples. The current phrase “teacher introduces ... rules” sounds deductive.",
+      "correctAnswer": "Inductive method",
+      "sources": [
+        "https://www.teachingenglish.org.uk/en/article/inductive-approach"
+      ]
+    },
+    {
+      "file": "Fourth Year/Teaching_Methodologies.json",
+      "ids": [
+        "q_6d97f1f4e71d6cf55de2"
+      ],
+      "reason": "Replace “None” with Audio-Lingual Method; imitation and habit-forming drills are core audiolingual features.",
+      "correctAnswer": "Audio-Lingual Method",
+      "sources": [
+        "https://api.ziyonet.uz/uploads/books/49959/5de6105b1fd90.pdf"
+      ]
+    },
+    {
+      "file": "Fourth Year/Teaching_Methodologies.json",
+      "ids": [
+        "q_8da04e635f0d2775789a"
+      ],
+      "reason": "Replace “None of the above” with Teaching; ELT expands to English Language Teaching.",
+      "correctAnswer": "Teaching"
+    },
+    {
+      "file": "Fourth Year/Teaching_Methodologies.json",
+      "ids": [
+        "q_83ec4809feb7ca2a72fd"
+      ],
+      "reason": "CLT does not inherently designate one of the four skills as always “most emphasized.” Ask instead what it prioritizes.",
+      "proposedQuestion": "What does CLT prioritize across language skills?",
+      "correctAnswer": "Meaningful communication / communicative competence",
+      "sources": [
+        "https://www.cambridge.org/elt/passages2e/teacher/downloads/articles/Richards_Communicative_Language_Teaching_Today.pdf",
+        "https://www.teachingenglish.org.uk/professional-development/teachers/teaching-knowledge-database/c/communicative-approach?page=1"
+      ]
+    },
+    {
+      "file": "Fourth Year/Teaching_Methodologies.json",
+      "ids": [
+        "q_8e5797dd7bc62b386965"
+      ],
+      "reason": "No option defines grouping. Add an option describing organizing learners into pairs/small groups for an activity.",
+      "correctAnswer": "Organizing learners into pairs or groups for classroom work",
+      "sources": [
+        "https://africa.teachingenglish.org.uk/skills/tips/understanding-different-ways-of-forming-groups"
+      ]
+    },
+    {
+      "file": "Fourth Year/Teaching_Methodologies.json",
+      "ids": [
+        "q_169215e23c9ddd5dba2b"
+      ],
+      "reason": "“Easiest for CLT learning” is not a meaningful criterion and “All” includes distractors that are not central CLT resources. Rewrite to ask which material is typically central.",
+      "correctAnswer": "Authentic material",
+      "sources": [
+        "https://www.teachingenglish.org.uk/professional-development/teachers/teaching-knowledge-database/c/communicative-approach?page=1"
+      ]
+    }
+  ],
+  "removals": [
+    {
+      "file": "Fourth Year/Comparative_1.json",
+      "ids": [
+        "q_f29be9f0f6badf3ccab1",
+        "q_1aeb1b8f317a56deb2ca"
+      ],
+      "reason": "These nonduplicate items make opposite claims about the same vaguely worded “confinement ... to the boundary of language.” Remove both unless the course source is quoted in a rewritten stem."
+    },
+    {
+      "file": "Fourth Year/comparative_2.json",
+      "ids": [
+        "q_29074c78ce0f5d31336c",
+        "q_b5e3cc09b60b4c81d962",
+        "q_25ee2ec6964db73bb949"
+      ],
+      "reason": "Exact duplicate E15 is a sweeping, academically indefensible claim that characters in “most Greek tragedies” never decide, are submissive, and are superstitious. No single keeper is reliable."
+    },
+    {
+      "file": "Fourth Year/comparative_2.json",
+      "ids": [
+        "q_4ffdc32dd069fdf74c4b"
+      ],
+      "reason": "The NOT-true item is ambiguous: Sartre is often called a father/leader of existentialism, while gods are literally present in the play despite its atheistic argument. Rewrite from a primary-text fact or remove.",
+      "sources": [
+        "https://sphinxlibrary.com/Calibre/Jean-Paul%20Sartre/No%20Exit%20and%20Three%20Other%20Plays%20%281329%29/No%20Exit%20and%20Three%20Other%20Plays%20-%20Jean-Paul%20Sartre.pdf",
+        "https://plato.stanford.edu/entries/existentialism/"
+      ]
+    },
+    {
+      "file": "Fourth Year/comparative_2.json",
+      "ids": [
+        "q_75addff4bad505d3d8aa"
+      ],
+      "reason": "There is no defensible single country in which both existentialism and nihilism “originated”; the option itself contains an editorial dispute. Remove.",
+      "sources": [
+        "https://plato.stanford.edu/entries/existentialism/"
+      ]
+    },
+    {
+      "file": "Fourth Year/comparative_2.json",
+      "ids": [
+        "q_ca22bea39831e8a0675b"
+      ],
+      "reason": "“Definitely ahead of his time on feminist issues” is an unbounded evaluative claim, not a stable single-answer fact. Replace with a text-specific question or remove."
+    },
+    {
+      "file": "Fourth Year/criticism_2.json",
+      "ids": [
+        "q_b1f042532b3266996f90"
+      ],
+      "reason": "The fill-blank asserts the same disputed proposition that exact group E23 correctly retains as False. None of its alternatives supplies a securely documented criticism of Old Historicism; remove rather than key “simple literary works.”",
+      "sources": [
+        "https://books.google.com/books/about/Contexts_for_Criticism.html?id=hVSkQgAACAAJ"
+      ]
+    },
+    {
+      "file": "Fourth Year/Teaching_Methodologies.json",
+      "ids": [
+        "q_eb3698f3dee793fd9680"
+      ],
+      "reason": "No option is correct: Grammar-Translation is not most consistent with Task-Based Learning, TPR, Audio-Lingualism, or the Oral Approach.",
+      "sources": [
+        "https://www.teachingenglish.org.uk/comment/203884"
+      ]
+    }
+  ],
+  "keepSeparate": [
+    {
+      "file": "Fourth Year/comparative_2.json",
+      "auditGroup": "E1",
+      "ids": [
+        "q_be97ca4a5ad751428afe",
+        "q_8cc00198e0a9ed4f7044",
+        "q_4882c2902ea64674771b"
+      ],
+      "reason": "Same generic stem, but each depends on a different preceding quotation; rewrite stems, do not merge facts."
+    },
+    {
+      "file": "Fourth Year/comparative_2.json",
+      "auditGroup": "E14-partition",
+      "ids": [
+        "q_d076e5e2804a189c80d4"
+      ],
+      "reason": "Different option set and a different tested proposition (Sartre is not polytheist)."
+    },
+    {
+      "file": "Fourth Year/comparative_2.json",
+      "auditGroup": "E16-partition",
+      "ids": [
+        "q_0d94b38fc4e195cfed19"
+      ],
+      "reason": "Different option set; tests polytheism in the Oresteia, not the Aeschylus/Sartre school contrast."
+    },
+    {
+      "file": "Fourth Year/comparative_2.json",
+      "auditGroup": "E19/E42-partition",
+      "ids": [
+        "q_8c480940518d50a5db46",
+        "q_53e347d57c754a044676"
+      ],
+      "reason": "These refer to the distinct “Someone else will come” quotation and must stay separate from the “Silence, dogs!” quotation after stems are made self-contained."
+    },
+    {
+      "file": "Fourth Year/criticism_2.json",
+      "auditGroup": "N3",
+      "ids": [
+        "q_5f2a3a2bc4d0c7f857b3",
+        "q_2c4fe01ca990a3fd89af"
+      ],
+      "reason": "Near-identical quotations deliberately test different attribution: Aristotle=False, Coleridge=True."
+    }
+  ]
+}

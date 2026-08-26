@@ -12,7 +12,15 @@
         "type of fish"
       ],
       "correct": 0,
-      "feedback": "الإجابة الصحيحة هي 'serious'. وفقاً لقائمة الكلمات الصعبة في النص الأول من الأوراق الذهبية، فإن 'solemn' تعني جاد أو رصين (very serious)."
+      "feedback": "الإجابة الصحيحة هي 'serious'. وفقاً لقائمة الكلمات الصعبة في النص الأول من الأوراق الذهبية، فإن 'solemn' تعني جاد أو رصين (very serious).",
+      "id": "q_05b772739b6effa92d32",
+      "legacyIds": [
+        "id_2dacdcc7",
+        "qid_4cf0ab08"
+      ],
+      "legacyPrimaryIds": [
+        "qid_4cf0ab08"
+      ]
     },
     {
       "q": "All they were interested in ...... her money.",
@@ -23,7 +31,15 @@
         "none is correct"
       ],
       "correct": 3,
-      "feedback": "الإجابة الصحيحة هي 'none is correct'. تشير الملاحظات في المصدر إلى أن الفعل الصحيح يجب أن يكون 'was' (ماضي مفرد)، وبما أنه غير موجود في الخيارات، نختار 'none is correct'."
+      "feedback": "الإجابة الصحيحة هي 'none is correct'. تشير الملاحظات في المصدر إلى أن الفعل الصحيح يجب أن يكون 'was' (ماضي مفرد)، وبما أنه غير موجود في الخيارات، نختار 'none is correct'.",
+      "id": "q_bde1edddc5d1fc5314bb",
+      "legacyIds": [
+        "id_4db31355",
+        "qid_6d283571"
+      ],
+      "legacyPrimaryIds": [
+        "qid_6d283571"
+      ]
     },
     {
       "q": "They gathered to hear the lawyer ...... the will.",
@@ -34,7 +50,15 @@
         "red"
       ],
       "correct": 2,
-      "feedback": "الإجابة الصحيحة هي 'read'. ورد في النص الأول: 'gathered at the house to hear Sally's lawyer read her will'، حيث يأتي الفعل مجرداً بعد الفعل hear المتبوع بمفعول به."
+      "feedback": "الإجابة الصحيحة هي 'read'. ورد في النص الأول: 'gathered at the house to hear Sally's lawyer read her will'، حيث يأتي الفعل مجرداً بعد الفعل hear المتبوع بمفعول به.",
+      "id": "q_177cb53ac9ebbf3f8cd9",
+      "legacyIds": [
+        "id_5c86bd2d",
+        "qid_10e77ebf"
+      ],
+      "legacyPrimaryIds": [
+        "qid_10e77ebf"
+      ]
     },
     {
       "q": "Dark black clouds in a \"......\" sky meant there was going to be a thunderstorm.",
@@ -45,7 +69,15 @@
         "dille"
       ],
       "correct": 1,
-      "feedback": "الإجابة الصحيحة هي 'dull'. يفتتح النص الثاني بوصف السماء بأنها باهتة أو كئيبة (dull) قبل العاصفة."
+      "feedback": "الإجابة الصحيحة هي 'dull'. يفتتح النص الثاني بوصف السماء بأنها باهتة أو كئيبة (dull) قبل العاصفة.",
+      "id": "q_c474e663c7e6bcb9c94d",
+      "legacyIds": [
+        "id_5dce3510",
+        "qid_4988e3cc"
+      ],
+      "legacyPrimaryIds": [
+        "qid_4988e3cc"
+      ]
     },
     {
       "q": "The boys ran here and there like a wild \"......\"",
@@ -56,7 +88,15 @@
         "tribe"
       ],
       "correct": 3,
-      "feedback": "الإجابة الصحيحة هي 'tribe'. وصف الكاتب في النص الثاني حركة الأولاد الفوضوية في المتحف بأنها تشبه ركض 'قبيلة همجية' (wild tribe)."
+      "feedback": "الإجابة الصحيحة هي 'tribe'. وصف الكاتب في النص الثاني حركة الأولاد الفوضوية في المتحف بأنها تشبه ركض 'قبيلة همجية' (wild tribe).",
+      "id": "q_081d7faf8bccbd240fa1",
+      "legacyIds": [
+        "id_21f9c502",
+        "qid_7afd2738"
+      ],
+      "legacyPrimaryIds": [
+        "qid_7afd2738"
+      ]
     },
     {
       "q": "The boys came \"............\" an educational visit.",
@@ -67,7 +107,15 @@
         "about"
       ],
       "correct": 2,
-      "feedback": "الإجابة الصحيحة هي 'on'. حرف الجر المستخدم مع 'educational visit' في النص هو 'on'."
+      "feedback": "الإجابة الصحيحة هي 'on'. حرف الجر المستخدم مع 'educational visit' في النص هو 'on'.",
+      "id": "q_9d35bb25305c2456a42f",
+      "legacyIds": [
+        "id_6190f5f8",
+        "qid_4ae93ce3"
+      ],
+      "legacyPrimaryIds": [
+        "qid_4ae93ce3"
+      ]
     },
     {
       "q": "The word \"empty\" is close in meaning to",
@@ -78,7 +126,15 @@
         "none is correct"
       ],
       "correct": 0,
-      "feedback": "الإجابة الصحيحة هي 'deserted'. في قاموس المفردات المرفق بالنص، كلمة 'deserted' تعني مهجور أو فارغ من الناس (empty)."
+      "feedback": "الإجابة الصحيحة هي 'deserted'. في قاموس المفردات المرفق بالنص، كلمة 'deserted' تعني مهجور أو فارغ من الناس (empty).",
+      "id": "q_760dfa93e53e9222ba9b",
+      "legacyIds": [
+        "id_700d377e",
+        "qid_6f934c0b"
+      ],
+      "legacyPrimaryIds": [
+        "qid_6f934c0b"
+      ]
     },
     {
       "q": "We arrived just as large drops of rain \"......\" to fall.",
@@ -89,7 +145,15 @@
         "none is correct"
       ],
       "correct": 3,
-      "feedback": "الإجابة الصحيحة هي 'none is correct'. تنبه الأوراق الذهبية في الحاشية إلى أن الخيار القواعدي الصحيح هو 'were beginning'، وبما أنه غير متوفر، نختار لا شيء مما سبق."
+      "feedback": "الإجابة الصحيحة هي 'none is correct'. تنبه الأوراق الذهبية في الحاشية إلى أن الخيار القواعدي الصحيح هو 'were beginning'، وبما أنه غير متوفر، نختار لا شيء مما سبق.",
+      "id": "q_a4214f1410ff7fe37b0c",
+      "legacyIds": [
+        "id_7fcabeb8",
+        "qid_5a2e270b"
+      ],
+      "legacyPrimaryIds": [
+        "qid_5a2e270b"
+      ]
     },
     {
       "q": "Leaving my hotel, I bought a map and ...... a car.",
@@ -100,7 +164,15 @@
         "hires"
       ],
       "correct": 2,
-      "feedback": "الإجابة الصحيحة هي 'hired'. يتحدث النص الثالث في زمن الماضي البسيط: 'Leaving my hotel, I bought a map and hired a car'."
+      "feedback": "الإجابة الصحيحة هي 'hired'. يتحدث النص الثالث في زمن الماضي البسيط: 'Leaving my hotel, I bought a map and hired a car'.",
+      "id": "q_fbf24ad0d6a674a519c2",
+      "legacyIds": [
+        "id_67c24271",
+        "qid_5ed78b1"
+      ],
+      "legacyPrimaryIds": [
+        "qid_5ed78b1"
+      ]
     },
     {
       "q": "The opposite of \"shallow\" is......",
@@ -111,7 +183,15 @@
         "deep"
       ],
       "correct": 3,
-      "feedback": "الإجابة الصحيحة هي 'deep'. كلمة 'shallow' تعني ضحل، وعكسها هو 'deep' (عميق) حسب قائمة المرادفات والأضداد."
+      "feedback": "الإجابة الصحيحة هي 'deep'. كلمة 'shallow' تعني ضحل، وعكسها هو 'deep' (عميق) حسب قائمة المرادفات والأضداد.",
+      "id": "q_e48c273f6a2be28ebeb4",
+      "legacyIds": [
+        "id_5498ce5",
+        "qid_526bafa7"
+      ],
+      "legacyPrimaryIds": [
+        "qid_526bafa7"
+      ]
     },
     {
       "q": "A five ...... house was built in a garage workshop.",
@@ -122,7 +202,15 @@
         "room's"
       ],
       "correct": 1,
-      "feedback": "الإجابة الصحيحة هي 'room'. عند استخدام الرقم والاسم كصفة مركبة لاسم آخر، يبقى الاسم مفرداً: 'a five-room house'."
+      "feedback": "الإجابة الصحيحة هي 'room'. عند استخدام الرقم والاسم كصفة مركبة لاسم آخر، يبقى الاسم مفرداً: 'a five-room house'.",
+      "id": "q_90403425b4898ba1b580",
+      "legacyIds": [
+        "id_428ab25a",
+        "qid_7a1582"
+      ],
+      "legacyPrimaryIds": [
+        "qid_7a1582"
+      ]
     },
     {
       "q": "The men said they \".......\" no difficulty in breathing.",
@@ -133,7 +221,15 @@
         "have no experien"
       ],
       "correct": 2,
-      "feedback": "الإجابة الصحيحة هي 'had experienced'. ورد في النص الخامس: 'the men said that they had experienced no difficulty'."
+      "feedback": "الإجابة الصحيحة هي 'had experienced'. ورد في النص الخامس: 'the men said that they had experienced no difficulty'.",
+      "id": "q_9ec20dc540f4afab141f",
+      "legacyIds": [
+        "id_44991f57",
+        "qid_68ac9f43"
+      ],
+      "legacyPrimaryIds": [
+        "qid_68ac9f43"
+      ]
     },
     {
       "q": "Cousteau spoke \".......\" the possibility of cultivating the sea bed.",
@@ -144,7 +240,15 @@
         "about to"
       ],
       "correct": 2,
-      "feedback": "الإجابة الصحيحة هي 'of'. الفعل 'speak' يُتبع بحرف الجر 'of' عندما نتحدث عن موضوع معين في هذا السياق: 'spoke of the possibility'."
+      "feedback": "الإجابة الصحيحة هي 'of'. الفعل 'speak' يُتبع بحرف الجر 'of' عندما نتحدث عن موضوع معين في هذا السياق: 'spoke of the possibility'.",
+      "id": "q_f37b2e63265293b668dc",
+      "legacyIds": [
+        "id_546293fa",
+        "qid_446b3f5d"
+      ],
+      "legacyPrimaryIds": [
+        "qid_446b3f5d"
+      ]
     },
     {
       "q": "There was \".......\" colony of crabs that numbered hundreds of millions.",
@@ -155,7 +259,15 @@
         "an enormous"
       ],
       "correct": 3,
-      "feedback": "الإجابة الصحيحة هي 'an enormous'. يصف النص المستعمرة بأنها 'immense'، وهي مرادفة لـ 'enormous' (هائلة/ضخمة)."
+      "feedback": "الإجابة الصحيحة هي 'an enormous'. يصف النص المستعمرة بأنها 'immense'، وهي مرادفة لـ 'enormous' (هائلة/ضخمة).",
+      "id": "q_d4b49f5dbe2e47d878c3",
+      "legacyIds": [
+        "id_6b8bc692",
+        "qid_18920583"
+      ],
+      "legacyPrimaryIds": [
+        "qid_18920583"
+      ]
     },
     {
       "q": "Some \"...\" ago, scientists began experiments to find out whether it would be possible to set \"...\" a village under the sea.",
@@ -166,7 +278,15 @@
         "age / in"
       ],
       "correct": 2,
-      "feedback": "الإجابة الصحيحة هي 'time / up'. التعبير هو 'Some time ago' (منذ فترة) و 'set up' (يقيم/يؤسس)."
+      "feedback": "الإجابة الصحيحة هي 'time / up'. التعبير هو 'Some time ago' (منذ فترة) و 'set up' (يقيم/يؤسس).",
+      "id": "q_89763c5778c8bee7ed34",
+      "legacyIds": [
+        "id_348e56b5",
+        "qid_6ca263c6"
+      ],
+      "legacyPrimaryIds": [
+        "qid_6ca263c6"
+      ]
     },
     {
       "q": "Hunting was originally a means of providing food, but it \"...........\" now a sport.",
@@ -177,7 +297,15 @@
         "has become"
       ],
       "correct": 3,
-      "feedback": "الإجابة الصحيحة هي 'has become'. يستخدم النص زمن المضارع التام للتعبير عن حالة بدأت في الماضي ومستمرة للآن: 'has now become a sport'."
+      "feedback": "الإجابة الصحيحة هي 'has become'. يستخدم النص زمن المضارع التام للتعبير عن حالة بدأت في الماضي ومستمرة للآن: 'has now become a sport'.",
+      "id": "q_85e8196e696d7c944299",
+      "legacyIds": [
+        "id_29b68390",
+        "qid_355126d1"
+      ],
+      "legacyPrimaryIds": [
+        "qid_355126d1"
+      ]
     },
     {
       "q": "Fishermen are not seriously ...... in catching fish.",
@@ -188,7 +316,15 @@
         "interestingly"
       ],
       "correct": 2,
-      "feedback": "الإجابة الصحيحة هي 'interested'. نستخدم الصفة المنتهية بـ ed لوصف شعور الأشخاص: 'interested in' (مهتم بـ)."
+      "feedback": "الإجابة الصحيحة هي 'interested'. نستخدم الصفة المنتهية بـ ed لوصف شعور الأشخاص: 'interested in' (مهتم بـ).",
+      "id": "q_27d41bb2f8c8055f3d07",
+      "legacyIds": [
+        "id_317de56b",
+        "qid_549292cf"
+      ],
+      "legacyPrimaryIds": [
+        "qid_549292cf"
+      ]
     },
     {
       "q": "The fishermen must take care to keep the birds separate \"......\" each other.",
@@ -199,7 +335,15 @@
         "for"
       ],
       "correct": 0,
-      "feedback": "الإجابة الصحيحة هي 'from'. حرف الجر الذي يأتي مع 'separate' هو 'from' (منفصل عن)."
+      "feedback": "الإجابة الصحيحة هي 'from'. حرف الجر الذي يأتي مع 'separate' هو 'from' (منفصل عن).",
+      "id": "q_258a64cdb06b3a292945",
+      "legacyIds": [
+        "id_45a71911",
+        "qid_7226600"
+      ],
+      "legacyPrimaryIds": [
+        "qid_7226600"
+      ]
     },
     {
       "q": "The synonym of \"dislike\" is",
@@ -210,7 +354,15 @@
         "none is correct"
       ],
       "correct": 3,
-      "feedback": "الإجابة الصحيحة هي 'none is correct'. مرادف 'dislike' هو 'hate' (يكره)، وهو غير موجود في الخيارات المعطاة."
+      "feedback": "الإجابة الصحيحة هي 'none is correct'. مرادف 'dislike' هو 'hate' (يكره)، وهو غير موجود في الخيارات المعطاة.",
+      "id": "q_0ee1a0ec549fe9f5b8ab",
+      "legacyIds": [
+        "id_5ca78fd4",
+        "qid_84e7a00"
+      ],
+      "legacyPrimaryIds": [
+        "qid_84e7a00"
+      ]
     },
     {
       "q": "It was my responsibility to lead a small ...... of soldiers back to camp.",
@@ -221,7 +373,15 @@
         "herd"
       ],
       "correct": 1,
-      "feedback": "الإجابة الصحيحة هي 'band'. ورد في النص السابع أن الكاتب كان مسؤولاً عن قيادة 'small band of soldiers' (مجموعة صغيرة من الجنود)."
+      "feedback": "الإجابة الصحيحة هي 'band'. ورد في النص السابع أن الكاتب كان مسؤولاً عن قيادة 'small band of soldiers' (مجموعة صغيرة من الجنود).",
+      "id": "q_2168d9fcb130039d7020",
+      "legacyIds": [
+        "id_52d3cf47",
+        "qid_4e72845c"
+      ],
+      "legacyPrimaryIds": [
+        "qid_4e72845c"
+      ]
     },
     {
       "q": "The soldiers smiled as they saw me ...... at the map.",
@@ -232,7 +392,15 @@
         "be looking"
       ],
       "correct": 2,
-      "feedback": "الإجابة الصحيحة هي 'looking'. نستخدم صيغة الحاضر المستمر (V-ing) بعد مفعول به الفعل 'saw' لوصف مشهد مستمر."
+      "feedback": "الإجابة الصحيحة هي 'looking'. نستخدم صيغة الحاضر المستمر (V-ing) بعد مفعول به الفعل 'saw' لوصف مشهد مستمر.",
+      "id": "q_2502d1dc5144d4624a13",
+      "legacyIds": [
+        "id_31c9fd5e",
+        "qid_6f9e5f4f"
+      ],
+      "legacyPrimaryIds": [
+        "qid_6f9e5f4f"
+      ]
     },
     {
       "q": "The opposite of \"artificial\" is",
@@ -243,7 +411,15 @@
         "unnatural"
       ],
       "correct": 2,
-      "feedback": "الإجابة الصحيحة هي 'natural'. عكس 'artificial' (اصطناعي) هو 'natural' (طبيعي) كما ورد في النص الثامن."
+      "feedback": "الإجابة الصحيحة هي 'natural'. عكس 'artificial' (اصطناعي) هو 'natural' (طبيعي) كما ورد في النص الثامن.",
+      "id": "q_95c42250fa4d6303952b",
+      "legacyIds": [
+        "id_399c9eee",
+        "qid_3ebca7db"
+      ],
+      "legacyPrimaryIds": [
+        "qid_3ebca7db"
+      ]
     },
     {
       "q": "The cat ...... a salary of 13 pounds per year.",
@@ -254,7 +430,15 @@
         "is got"
       ],
       "correct": 2,
-      "feedback": "الإجابة الصحيحة هي 'earns'. يتحدث النص عن راتب القطة السنوي باستخدام الفعل 'earns' (تكسب)."
+      "feedback": "الإجابة الصحيحة هي 'earns'. يتحدث النص عن راتب القطة السنوي باستخدام الفعل 'earns' (تكسب).",
+      "id": "q_00aac54c118cb96f04a5",
+      "legacyIds": [
+        "id_246f1f93",
+        "qid_75dfef1a"
+      ],
+      "legacyPrimaryIds": [
+        "qid_75dfef1a"
+      ]
     },
     {
       "q": "Glass is lightweight, ...... to liquids, readily cleaned and reused.",
@@ -265,7 +449,15 @@
         "unpermeable"
       ],
       "correct": 1,
-      "feedback": "الإجابة الصحيحة هي 'impermeable'. من خصائص الزجاج أنه 'impermeable' (غير منفذ للسوائل)."
+      "feedback": "الإجابة الصحيحة هي 'impermeable'. من خصائص الزجاج أنه 'impermeable' (غير منفذ للسوائل).",
+      "id": "q_ae6154812f247ac41c7d",
+      "legacyIds": [
+        "id_56bda4bd",
+        "qid_395215b9"
+      ],
+      "legacyPrimaryIds": [
+        "qid_395215b9"
+      ]
     },
     {
       "q": "The opposite of \"urban\" is:",
@@ -276,7 +468,19 @@
         "foreign"
       ],
       "correct": 0,
-      "feedback": "الإجابة الصحيحة هي 'rural'. عكس كلمة 'urban' (مدني/حضري) هو 'rural' (ريفي)."
+      "feedback": "الإجابة الصحيحة هي 'rural'. عكس كلمة 'urban' (مدني/حضري) هو 'rural' (ريفي).",
+      "id": "q_0bd01ecf233ac6125f3a",
+      "legacyIds": [
+        "id_43c4df88",
+        "q_35190b7bf40af1530e48",
+        "qid_fc3a6c3",
+        "qid_fc3a6c3__2"
+      ],
+      "legacyPrimaryIds": [
+        "q_35190b7bf40af1530e48",
+        "qid_fc3a6c3",
+        "qid_fc3a6c3__2"
+      ]
     },
     {
       "q": "\"Recycle\" means:",
@@ -287,7 +491,20 @@
         "pollute"
       ],
       "correct": 1,
-      "feedback": "الإجابة الصحيحة هي 'use again'. إعادة التدوير تعني استخدام الشيء مرة أخرى."
+      "feedback": "الإجابة الصحيحة هي 'use again'. إعادة التدوير تعني استخدام الشيء مرة أخرى.",
+      "id": "q_0cf4ac5a7f79cf247c7e",
+      "legacyIds": [
+        "id_2f5473a9",
+        "id_5df01e40",
+        "q_a892380483664912660d",
+        "qid_4011499b",
+        "qid_4011499b__2"
+      ],
+      "legacyPrimaryIds": [
+        "q_a892380483664912660d",
+        "qid_4011499b",
+        "qid_4011499b__2"
+      ]
     },
     {
       "q": "Which word is a synonym for \"protect\"?",
@@ -298,7 +515,19 @@
         "destroy"
       ],
       "correct": 1,
-      "feedback": "الإجابة الصحيحة هي 'guard'. كلمة 'guard' تعني يحمي أو يحرس وهي مرادفة لـ 'protect'."
+      "feedback": "الإجابة الصحيحة هي 'guard'. كلمة 'guard' تعني يحمي أو يحرس وهي مرادفة لـ 'protect'.",
+      "id": "q_864f285946137d955006",
+      "legacyIds": [
+        "id_3c755fce",
+        "q_71ebb42efa49abe9e398",
+        "qid_7b263268",
+        "qid_7b263268__2"
+      ],
+      "legacyPrimaryIds": [
+        "q_71ebb42efa49abe9e398",
+        "qid_7b263268",
+        "qid_7b263268__2"
+      ]
     },
     {
       "q": "A synonym of \"deserted\" is:",
@@ -309,7 +538,19 @@
         "noisy"
       ],
       "correct": 0,
-      "feedback": "الإجابة الصحيحة هي 'empty'. كلمة 'deserted' تعني مهجور أي فارغ تماماً من الناس."
+      "feedback": "الإجابة الصحيحة هي 'empty'. كلمة 'deserted' تعني مهجور أي فارغ تماماً من الناس.",
+      "id": "q_e9a82b70536867ddd649",
+      "legacyIds": [
+        "id_2d461e2a",
+        "q_990f79f6f642bb6d7808",
+        "qid_1fd636ff",
+        "qid_1fd636ff__2"
+      ],
+      "legacyPrimaryIds": [
+        "q_990f79f6f642bb6d7808",
+        "qid_1fd636ff",
+        "qid_1fd636ff__2"
+      ]
     },
     {
       "q": "\"Extinct\" means:",
@@ -320,7 +561,19 @@
         "completely gone"
       ],
       "correct": 3,
-      "feedback": "الإجابة الصحيحة هي 'completely gone'. الانقراض يعني أن النوع قد اختفى تماماً من الوجود."
+      "feedback": "الإجابة الصحيحة هي 'completely gone'. الانقراض يعني أن النوع قد اختفى تماماً من الوجود.",
+      "id": "q_68c9f9d7b622b58451c0",
+      "legacyIds": [
+        "id_1a9b19e8",
+        "q_f55e46e76793685bae5a",
+        "qid_4e3d28ff",
+        "qid_4e3d28ff__2"
+      ],
+      "legacyPrimaryIds": [
+        "q_f55e46e76793685bae5a",
+        "qid_4e3d28ff",
+        "qid_4e3d28ff__2"
+      ]
     },
     {
       "q": "\"Maintain\" means:",
@@ -331,7 +584,19 @@
         "remove"
       ],
       "correct": 0,
-      "feedback": "الإجابة الصحيحة هي 'keep in good condition'. الحفاظ على الشيء (maintain) يعني إبقاؤه في حالة جيدة."
+      "feedback": "الإجابة الصحيحة هي 'keep in good condition'. الحفاظ على الشيء (maintain) يعني إبقاؤه في حالة جيدة.",
+      "id": "q_29c713148b328f8d6025",
+      "legacyIds": [
+        "id_16b3a531",
+        "q_c4a55168e670190ffe83",
+        "qid_1ad2e6e9",
+        "qid_1ad2e6e9__2"
+      ],
+      "legacyPrimaryIds": [
+        "q_c4a55168e670190ffe83",
+        "qid_1ad2e6e9",
+        "qid_1ad2e6e9__2"
+      ]
     },
     {
       "q": "\"To examine something closely\" means to:",
@@ -342,7 +607,19 @@
         "inspect"
       ],
       "correct": 3,
-      "feedback": "الإجابة الصحيحة هي 'inspect'. فحص الشيء عن قرب وبدقة يسمى 'inspect' (يفتش/يفحص)."
+      "feedback": "الإجابة الصحيحة هي 'inspect'. فحص الشيء عن قرب وبدقة يسمى 'inspect' (يفتش/يفحص).",
+      "id": "q_4e24ca29bce4e3995f31",
+      "legacyIds": [
+        "id_7350472c",
+        "q_c697e5afec0d52e80e12",
+        "qid_8df412",
+        "qid_8df412__2"
+      ],
+      "legacyPrimaryIds": [
+        "q_c697e5afec0d52e80e12",
+        "qid_8df412",
+        "qid_8df412__2"
+      ]
     },
     {
       "q": "The glass was so ...... that it broke easily.",
@@ -353,7 +630,19 @@
         "heavy"
       ],
       "correct": 0,
-      "feedback": "الإجابة الصحيحة هي 'fragile'. الزجاج هش (fragile) ولذلك ينكسر بسهولة."
+      "feedback": "الإجابة الصحيحة هي 'fragile'. الزجاج هش (fragile) ولذلك ينكسر بسهولة.",
+      "id": "q_ad9fbc6438af2991e204",
+      "legacyIds": [
+        "id_7676abfd",
+        "q_d3c17c6cf3e6871f8a2f",
+        "qid_6f326866",
+        "qid_6f326866__2"
+      ],
+      "legacyPrimaryIds": [
+        "q_d3c17c6cf3e6871f8a2f",
+        "qid_6f326866",
+        "qid_6f326866__2"
+      ]
     },
     {
       "q": "A \"malleable\" material can be:",
@@ -364,7 +653,19 @@
         "shaped easily"
       ],
       "correct": 3,
-      "feedback": "الإجابة الصحيحة هي 'shaped easily'. المادة القابلة للطرق (malleable) هي التي يمكن تشكيلها بسهولة."
+      "feedback": "الإجابة الصحيحة هي 'shaped easily'. المادة القابلة للطرق (malleable) هي التي يمكن تشكيلها بسهولة.",
+      "id": "q_5332f89bcd4bfca48af8",
+      "legacyIds": [
+        "id_23bc0214",
+        "q_868ff4a1158a1bdd595d",
+        "qid_92a0ecc",
+        "qid_92a0ecc__2"
+      ],
+      "legacyPrimaryIds": [
+        "q_868ff4a1158a1bdd595d",
+        "qid_92a0ecc",
+        "qid_92a0ecc__2"
+      ]
     },
     {
       "q": "Which word means the same as \"shatter\"?",
@@ -375,9 +676,21 @@
         "melt"
       ],
       "correct": 2,
-      "feedback": "الإجابة الصحيحة هي 'break into pieces'. كلمة 'shatter' تعني يتحطم إلى قطع صغيرة."
+      "feedback": "الإجابة الصحيحة هي 'break into pieces'. كلمة 'shatter' تعني يتحطم إلى قطع صغيرة.",
+      "id": "q_5f5ce1b4a50d983d46f1",
+      "legacyIds": [
+        "id_464f9b96",
+        "q_75ddde0f53982d4d82f6",
+        "qid_1f8a83bc",
+        "qid_1f8a83bc__2"
+      ],
+      "legacyPrimaryIds": [
+        "q_75ddde0f53982d4d82f6",
+        "qid_1f8a83bc",
+        "qid_1f8a83bc__2"
+      ]
     },
-     {
+    {
       "q": "What do studies mentioned in the passage indicate?",
       "options": [
         "Silence improves physical health",
@@ -386,7 +699,15 @@
         "Solitude enhances creativity and decision-making"
       ],
       "correct": 3,
-      "feedback": "الإجابة الصحيحة هي 'Solitude enhances creativity and decision-making'. وفقاً للنص الخارجي في الصورة، فإن العزلة تعزز التفكير النقدي والإبداع واتخاذ القرارات."
+      "feedback": "الإجابة الصحيحة هي 'Solitude enhances creativity and decision-making'. وفقاً للنص الخارجي في الصورة، فإن العزلة تعزز التفكير النقدي والإبداع واتخاذ القرارات.",
+      "id": "q_47c233916de86ad47d02",
+      "legacyIds": [
+        "id_1ae25a20",
+        "qid_1a1ab4d3"
+      ],
+      "legacyPrimaryIds": [
+        "qid_1a1ab4d3"
+      ]
     },
     {
       "q": "What does the author imply by \"reclaiming silence\"?",
@@ -397,7 +718,15 @@
         "None of the above"
       ],
       "correct": 2,
-      "feedback": "الإجابة الصحيحة هي 'Making a conscious effort to embrace quiet'. استعادة الصمت تعني بذل جهد واعٍ لتبني الهدوء في الحياة اليومية."
+      "feedback": "الإجابة الصحيحة هي 'Making a conscious effort to embrace quiet'. استعادة الصمت تعني بذل جهد واعٍ لتبني الهدوء في الحياة اليومية.",
+      "id": "q_0551182fa72c971438c9",
+      "legacyIds": [
+        "id_e5886d7",
+        "qid_742c0b72"
+      ],
+      "legacyPrimaryIds": [
+        "qid_742c0b72"
+      ]
     },
     {
       "q": "Which statement best captures the author's overall message?",
@@ -408,7 +737,15 @@
         "Technology should be limited by law"
       ],
       "correct": 2,
-      "feedback": "الإجابة الصحيحة هي 'Quiet moments are essential for personal growth'. الرسالة الجوهرية هي أن لحظات الهدوء ضرورية للنمو الشخصي والتفكير."
+      "feedback": "الإجابة الصحيحة هي 'Quiet moments are essential for personal growth'. الرسالة الجوهرية هي أن لحظات الهدوء ضرورية للنمو الشخصي والتفكير.",
+      "id": "q_acab8164ab5ae1cff0b9",
+      "legacyIds": [
+        "id_57f3255e",
+        "qid_5be4957a"
+      ],
+      "legacyPrimaryIds": [
+        "qid_5be4957a"
+      ]
     },
     {
       "q": "Which word is closest in meaning to \"undervalued\"?",
@@ -419,7 +756,15 @@
         "Expensive"
       ],
       "correct": 1,
-      "feedback": "الإجابة الصحيحة هي 'Underestimated'. كلمة 'undervalued' تعني أن الشيء لم يُعطَ حقه من التقدير، وهو مرادف لـ 'underestimated'."
+      "feedback": "الإجابة الصحيحة هي 'Underestimated'. كلمة 'undervalued' تعني أن الشيء لم يُعطَ حقه من التقدير، وهو مرادف لـ 'underestimated'.",
+      "id": "q_07782b9e0a3fb780d57a",
+      "legacyIds": [
+        "id_5c3dd3a7",
+        "qid_14971ff7"
+      ],
+      "legacyPrimaryIds": [
+        "qid_14971ff7"
+      ]
     },
     {
       "q": "The word \"relentless\" in the final sentence most nearly means:",
@@ -430,7 +775,15 @@
         "Unexpected"
       ],
       "correct": 2,
-      "feedback": "الإجابة الصحيحة هي 'Continuous'. كلمة 'relentless' تعني مستمر بلا هوادة أو لا يتوقف."
+      "feedback": "الإجابة الصحيحة هي 'Continuous'. كلمة 'relentless' تعني مستمر بلا هوادة أو لا يتوقف.",
+      "id": "q_5c8a29788a06d5d4ed95",
+      "legacyIds": [
+        "id_74f3ec80",
+        "qid_472ef179"
+      ],
+      "legacyPrimaryIds": [
+        "qid_472ef179"
+      ]
     },
     {
       "q": "Which word is the opposite in meaning of \"constant\" as used in \"constant digital stimulation\"?",
@@ -441,7 +794,15 @@
         "Modern"
       ],
       "correct": 1,
-      "feedback": "الإجابة الصحيحة هي 'Occasional'. عكس كلمة 'constant' (دائم/مستمر) هو 'occasional' (عرضي/متقطع)."
+      "feedback": "الإجابة الصحيحة هي 'Occasional'. عكس كلمة 'constant' (دائم/مستمر) هو 'occasional' (عرضي/متقطع).",
+      "id": "q_f791a2b526b346433428",
+      "legacyIds": [
+        "id_3df12294",
+        "qid_7fccd920"
+      ],
+      "legacyPrimaryIds": [
+        "qid_7fccd920"
+      ]
     },
     {
       "q": "What does the author suggest about silence in modern society?",
@@ -452,7 +813,15 @@
         "It is widely appreciated"
       ],
       "correct": 2,
-      "feedback": "الإجابة الصحيحة هي 'It is often ignored or avoided'. يشير النص إلى أن المجتمع الحديث يميل إلى تجنب أو تجاهل الصمت لصالح الضجيج الرقمي."
+      "feedback": "الإجابة الصحيحة هي 'It is often ignored or avoided'. يشير النص إلى أن المجتمع الحديث يميل إلى تجنب أو تجاهل الصمت لصالح الضجيج الرقمي.",
+      "id": "q_5d28d6e280047e2e0d76",
+      "legacyIds": [
+        "id_9d0fa19",
+        "qid_7e160be6"
+      ],
+      "legacyPrimaryIds": [
+        "qid_7e160be6"
+      ]
     },
     {
       "q": "Why is silence called an \"undervalued resource\"?",
@@ -463,7 +832,15 @@
         "It causes discomfort"
       ],
       "correct": 1,
-      "feedback": "الإجابة الصحيحة هي 'Its benefits are frequently overlooked'. يُطلق عليه مورد غير مقدر لأن فوائده غالباً ما تُغفل في حياتنا الصاخبة."
+      "feedback": "الإجابة الصحيحة هي 'Its benefits are frequently overlooked'. يُطلق عليه مورد غير مقدر لأن فوائده غالباً ما تُغفل في حياتنا الصاخبة.",
+      "id": "q_42e6166cd2b6d9dd8915",
+      "legacyIds": [
+        "id_87f98ed",
+        "qid_28dd1295"
+      ],
+      "legacyPrimaryIds": [
+        "qid_28dd1295"
+      ]
     },
     {
       "q": "According to the passage, silence allows individuals to:",
@@ -474,62 +851,15 @@
         "avoid emotional challenges"
       ],
       "correct": 2,
-      "feedback": "الإجابة الصحيحة هي 'reflect and think critically'. الصمت يمنح الفرد الفرصة للتأمل والتفكير النقدي بعيداً عن المشتتات."
-    },
-    {
-      "q": "The opposite of \"urban\" is:",
-      "options": [
-        "rural",
-        "global",
-        "cultural",
-        "foreign"
+      "feedback": "الإجابة الصحيحة هي 'reflect and think critically'. الصمت يمنح الفرد الفرصة للتأمل والتفكير النقدي بعيداً عن المشتتات.",
+      "id": "q_7ad2c26a865b3c873dcd",
+      "legacyIds": [
+        "id_2d239269",
+        "qid_77d5d0d2"
       ],
-      "correct": 0,
-      "feedback": "الإجابة الصحيحة هي 'rural'. كلمة 'urban' تعني حضري أو مدني، وعكسها هو 'rural' أي ريفي."
-    },
-    {
-      "q": "\"Recycle\" means:",
-      "options": [
-        "harm",
-        "guard",
-        "use again",
-        "destroy"
-      ],
-      "correct": 2,
-      "feedback": "الإجابة الصحيحة هي 'use again'. إعادة التدوير تعني استخدام المواد مرة أخرى بدلاً من رميها."
-    },
-    {
-      "q": "Which word is a synonym for \"protect\"?",
-      "options": [
-        "harm",
-        "guard",
-        "ignore",
-        "destroy"
-      ],
-      "correct": 1,
-      "feedback": "الإجابة الصحيحة هي 'guard'. كلمة 'guard' (يحرس/يحمي) هي مرادف للفعل 'protect'."
-    },
-    {
-      "q": "A synonym of \"deserted\" is:",
-      "options": [
-        "empty",
-        "full",
-        "busy",
-        "noisy"
-      ],
-      "correct": 0,
-      "feedback": "الإجابة الصحيحة هي 'empty'. كلمة 'deserted' تعني مهجور أو خالٍ من الناس."
-    },
-    {
-      "q": "\"Extinct\" means:",
-      "options": [
-        "still existing",
-        "in danger",
-        "rare",
-        "completely gone"
-      ],
-      "correct": 3,
-      "feedback": "الإجابة الصحيحة هي 'completely gone'. الانقراض يعني اختفاء النوع تماماً من الوجود."
+      "legacyPrimaryIds": [
+        "qid_77d5d0d2"
+      ]
     },
     {
       "q": "\"Adapt\" means to:",
@@ -540,7 +870,15 @@
         "escape danger"
       ],
       "correct": 0,
-      "feedback": "الإجابة الصحيحة هي 'change in order to survive'. التكيف يعني التغير من أجل البقاء في بيئة معينة."
+      "feedback": "الإجابة الصحيحة هي 'change in order to survive'. التكيف يعني التغير من أجل البقاء في بيئة معينة.",
+      "id": "q_ca4fa78d6379747fba6b",
+      "legacyIds": [
+        "id_32ace697",
+        "qid_12bc8771"
+      ],
+      "legacyPrimaryIds": [
+        "qid_12bc8771"
+      ]
     },
     {
       "q": "The verb \"to vanish\" means:",
@@ -551,7 +889,15 @@
         "stay"
       ],
       "correct": 1,
-      "feedback": "الإجابة الصحيحة هي 'disappear'. الفعل 'vanish' يعني يتلاشى أو يختفي."
+      "feedback": "الإجابة الصحيحة هي 'disappear'. الفعل 'vanish' يعني يتلاشى أو يختفي.",
+      "id": "q_4c2235c1c594a06fc743",
+      "legacyIds": [
+        "id_4c562b5",
+        "qid_5281e83a"
+      ],
+      "legacyPrimaryIds": [
+        "qid_5281e83a"
+      ]
     },
     {
       "q": "To \"pretend\" means to:",
@@ -562,7 +908,15 @@
         "none is correct"
       ],
       "correct": 3,
-      "feedback": "الإجابة الصحيحة هي 'none is correct'. معنى الفعل 'pretend' هو 'to act like' (يتظاهر)، وبما أنه غير موجود نختار الخيار الأخير."
+      "feedback": "الإجابة الصحيحة هي 'none is correct'. معنى الفعل 'pretend' هو 'to act like' (يتظاهر)، وبما أنه غير موجود نختار الخيار الأخير.",
+      "id": "q_b084b5723c006196e623",
+      "legacyIds": [
+        "id_1c605283",
+        "qid_25477002"
+      ],
+      "legacyPrimaryIds": [
+        "qid_25477002"
+      ]
     },
     {
       "q": "While ...... there was nothing I ...... so much as the map-reading course.",
@@ -573,7 +927,15 @@
         "had been in the army"
       ],
       "correct": 1,
-      "feedback": "الإجابة الصحيحة هي 'in the army'. وردت في النص السابع: 'While in the army...'. [1]"
+      "feedback": "الإجابة الصحيحة هي 'in the army'. وردت في النص السابع: 'While in the army...'. [1]",
+      "id": "q_e255454ca8783e39a2b7",
+      "legacyIds": [
+        "id_674144bc",
+        "qid_165d1b2e"
+      ],
+      "legacyPrimaryIds": [
+        "qid_165d1b2e"
+      ]
     },
     {
       "q": "A synonym for \"fragile\" is:",
@@ -584,29 +946,15 @@
         "breakable"
       ],
       "correct": 3,
-      "feedback": "الإجابة الصحيحة هي 'breakable'. الشيء 'fragile' هو الشيء الهش القابل للكسر بسهولة."
-    },
-    {
-      "q": "\"Maintain\" means:",
-      "options": [
-        "keep in good condition",
-        "destroy",
-        "ignore",
-        "remove"
+      "feedback": "الإجابة الصحيحة هي 'breakable'. الشيء 'fragile' هو الشيء الهش القابل للكسر بسهولة.",
+      "id": "q_5284e73fa1e4bac2f582",
+      "legacyIds": [
+        "id_23434d79",
+        "qid_40df7cf7"
       ],
-      "correct": 0,
-      "feedback": "الإجابة الصحيحة هي 'keep in good condition'. الحفاظ على الشيء يعني إبقاؤه في حالة جيدة."
-    },
-    {
-      "q": "\"To examine something closely\" means to:",
-      "options": [
-        "glance",
-        "scan",
-        "ignore",
-        "inspect"
-      ],
-      "correct": 3,
-      "feedback": "الإجابة الصحيحة هي 'inspect'. الفحص الدقيق والمقرب يسمى 'inspect' (تفتيش/فحص)."
+      "legacyPrimaryIds": [
+        "qid_40df7cf7"
+      ]
     },
     {
       "q": "The man was accused of breaking ...... a house and stealing a cheap watch.",
@@ -617,7 +965,15 @@
         "through into"
       ],
       "correct": 1,
-      "feedback": "الإجابة الصحيحة هي 'into'. الفعل المركب 'break into' يعني يقتحم مكاناً."
+      "feedback": "الإجابة الصحيحة هي 'into'. الفعل المركب 'break into' يعني يقتحم مكاناً.",
+      "id": "q_475c279809173ec2a326",
+      "legacyIds": [
+        "id_309a4aa9",
+        "qid_3426a336"
+      ],
+      "legacyPrimaryIds": [
+        "qid_3426a336"
+      ]
     },
     {
       "q": "\"To evolve\" means to:",
@@ -628,7 +984,15 @@
         "disappear"
       ],
       "correct": 2,
-      "feedback": "الإجابة الصحيحة هي 'change and develop over time'. التطور يعني التغير والنمو عبر الزمن."
+      "feedback": "الإجابة الصحيحة هي 'change and develop over time'. التطور يعني التغير والنمو عبر الزمن.",
+      "id": "q_9dfb482e783cf0a012cb",
+      "legacyIds": [
+        "id_5a6c2dc",
+        "qid_5fef2411"
+      ],
+      "legacyPrimaryIds": [
+        "qid_5fef2411"
+      ]
     },
     {
       "q": "A synonym for \"consume\" is:",
@@ -639,7 +1003,15 @@
         "return"
       ],
       "correct": 0,
-      "feedback": "الإجابة الصحيحة هي 'use up'. يستهلك تعني استخدام الموارد حتى تنفد."
+      "feedback": "الإجابة الصحيحة هي 'use up'. يستهلك تعني استخدام الموارد حتى تنفد.",
+      "id": "q_e0cb1390c1b73b482960",
+      "legacyIds": [
+        "id_7760e87a",
+        "qid_57c1c2fd"
+      ],
+      "legacyPrimaryIds": [
+        "qid_57c1c2fd"
+      ]
     },
     {
       "q": "\"Migration\" means:",
@@ -650,40 +1022,15 @@
         "disappearing"
       ],
       "correct": 1,
-      "feedback": "الإجابة الصحيحة هي 'moving from one place to another'. الهجرة تعني الانتقال من مكان إلى آخر."
-    },
-    {
-      "q": "The glass was so ...... that it broke easily.",
-      "options": [
-        "fragile",
-        "strong",
-        "durable",
-        "heavy"
+      "feedback": "الإجابة الصحيحة هي 'moving from one place to another'. الهجرة تعني الانتقال من مكان إلى آخر.",
+      "id": "q_9df5afcefb9a906bdfca",
+      "legacyIds": [
+        "id_22c33600",
+        "qid_6c313056"
       ],
-      "correct": 0,
-      "feedback": "الإجابة الصحيحة هي 'fragile'. الزجاج هش بطبعه ولذلك ينكسر بسهولة."
-    },
-    {
-      "q": "A \"malleable\" material can be:",
-      "options": [
-        "broken easily",
-        "colored",
-        "eaten",
-        "shaped easily"
-      ],
-      "correct": 3,
-      "feedback": "الإجابة الصحيحة هي 'shaped easily'. المادة القابلة للطرق هي التي يمكن تشكيلها بسهولة."
-    },
-    {
-      "q": "Which word means the same as \"shatter\"?",
-      "options": [
-        "build",
-        "destroy",
-        "break into pieces",
-        "melt"
-      ],
-      "correct": 2,
-      "feedback": "الإجابة الصحيحة هي 'break into pieces'. يتحطم (shatter) تعني التكسر إلى قطع صغيرة."
+      "legacyPrimaryIds": [
+        "qid_6c313056"
+      ]
     },
     {
       "q": "The antonym of \"lightweight\" is:",
@@ -694,7 +1041,15 @@
         "large"
       ],
       "correct": 0,
-      "feedback": "الإجابة الصحيحة هي 'heavy'. عكس خفيف الوزن هو ثقيل الوزن."
+      "feedback": "الإجابة الصحيحة هي 'heavy'. عكس خفيف الوزن هو ثقيل الوزن.",
+      "id": "q_7bb0df2a7de4e3b25be6",
+      "legacyIds": [
+        "id_31500b5a",
+        "qid_46dfe932"
+      ],
+      "legacyPrimaryIds": [
+        "qid_46dfe932"
+      ]
     },
     {
       "q": "\"Impermeable\" means:",
@@ -705,7 +1060,15 @@
         "softens with heat"
       ],
       "correct": 1,
-      "feedback": "الإجابة الصحيحة هي 'blocks liquids'. المادة الكتيمة (impermeable) هي التي تمنع مرور السوائل."
+      "feedback": "الإجابة الصحيحة هي 'blocks liquids'. المادة الكتيمة (impermeable) هي التي تمنع مرور السوائل.",
+      "id": "q_eff66b9d1bb2bebbcc38",
+      "legacyIds": [
+        "id_5d21fb7a",
+        "qid_27579b3"
+      ],
+      "legacyPrimaryIds": [
+        "qid_27579b3"
+      ]
     },
     {
       "q": "A \"ductile\" metal can be:",
@@ -716,7 +1079,15 @@
         "stretched into wires"
       ],
       "correct": 3,
-      "feedback": "الإجابة الصحيحة هي 'stretched into wires'. المادة القابلة للسحب (ductile) هي التي يمكن تحويلها لأسلاك رفيعة."
+      "feedback": "الإجابة الصحيحة هي 'stretched into wires'. المادة القابلة للسحب (ductile) هي التي يمكن تحويلها لأسلاك رفيعة.",
+      "id": "q_2a5d066a93f822a2a2d4",
+      "legacyIds": [
+        "id_4447b646",
+        "qid_630b9f4d"
+      ],
+      "legacyPrimaryIds": [
+        "qid_630b9f4d"
+      ]
     },
     {
       "q": "\"Temporarily\" is the opposite of:",
@@ -727,10 +1098,18 @@
         "silently"
       ],
       "correct": 2,
-      "feedback": "الإجابة الصحيحة هي 'permanently'. عكس 'مؤقتاً' هو 'دائماً' (permanently)."
+      "feedback": "الإجابة الصحيحة هي 'permanently'. عكس 'مؤقتاً' هو 'دائماً' (permanently).",
+      "id": "q_83a61fdaddd149ac50cf",
+      "legacyIds": [
+        "id_2b6f0255",
+        "qid_68779b9b"
+      ],
+      "legacyPrimaryIds": [
+        "qid_68779b9b"
+      ]
     },
     {
-      "q": "Which verb means \"to dismiss a legal case\"?",
+      "q": "Which verb means ‘to suspend a legal case or hearing until a later time’?",
       "options": [
         "finally",
         "adjourn",
@@ -738,7 +1117,15 @@
         "approve"
       ],
       "correct": 1,
-      "feedback": "الإجابة الصحيحة هي 'adjourn'. تعني تأجيل أو فض الجلسة القانونية."
+      "feedback": "To adjourn is to suspend proceedings until a later time, not to dismiss a case permanently.",
+      "id": "q_319721eb44d30098ddd8",
+      "legacyIds": [
+        "id_15c4ed4c",
+        "qid_6216c4e4"
+      ],
+      "legacyPrimaryIds": [
+        "qid_6216c4e4"
+      ]
     },
     {
       "q": "\"Obtain\" means:",
@@ -749,7 +1136,15 @@
         "avoid"
       ],
       "correct": 0,
-      "feedback": "الإجابة الصحيحة هي 'receive through effort'. الحصول على شيء (obtain) يعني نيله بعد بذل جهد."
+      "feedback": "الإجابة الصحيحة هي 'receive through effort'. الحصول على شيء (obtain) يعني نيله بعد بذل جهد.",
+      "id": "q_792cf5535da5166e4ab7",
+      "legacyIds": [
+        "id_623f12b0",
+        "qid_23916ab1"
+      ],
+      "legacyPrimaryIds": [
+        "qid_23916ab1"
+      ]
     },
     {
       "q": "\"Puzzled\" means:",
@@ -760,7 +1155,15 @@
         "angry"
       ],
       "correct": 1,
-      "feedback": "الإجابة الصحيحة هي 'confused'. كلمة 'puzzled' تعني مرتبك أو محتار."
+      "feedback": "الإجابة الصحيحة هي 'confused'. كلمة 'puzzled' تعني مرتبك أو محتار.",
+      "id": "q_54b41a51d01444e10178",
+      "legacyIds": [
+        "id_2d12d127",
+        "qid_19720bee"
+      ],
+      "legacyPrimaryIds": [
+        "qid_19720bee"
+      ]
     },
     {
       "q": "The opposite of \"to take off\" is:",
@@ -771,7 +1174,15 @@
         "to land"
       ],
       "correct": 3,
-      "feedback": "الإجابة الصحيحة هي 'to land'. عكس الإقلاع هو الهبوط."
+      "feedback": "الإجابة الصحيحة هي 'to land'. عكس الإقلاع هو الهبوط.",
+      "id": "q_686a101f89b2c9b4ce0f",
+      "legacyIds": [
+        "id_7ee58c47",
+        "qid_25c5dbe6"
+      ],
+      "legacyPrimaryIds": [
+        "qid_25c5dbe6"
+      ]
     },
     {
       "q": "\"Myriad\" means:",
@@ -782,7 +1193,15 @@
         "unclear"
       ],
       "correct": 2,
-      "feedback": "الإجابة الصحيحة هي 'countless'. كلمة 'myriad' تعني عدداً كبيراً جداً لا يحصى."
+      "feedback": "الإجابة الصحيحة هي 'countless'. كلمة 'myriad' تعني عدداً كبيراً جداً لا يحصى.",
+      "id": "q_7bc7cd921a02fab74797",
+      "legacyIds": [
+        "id_2268af6e",
+        "qid_79a26ae"
+      ],
+      "legacyPrimaryIds": [
+        "qid_79a26ae"
+      ]
     },
     {
       "q": "\"Discipline\" refers to:",
@@ -793,7 +1212,15 @@
         "punishment"
       ],
       "correct": 0,
-      "feedback": "الإجابة الصحيحة هي 'control and order'. الانضباط يعني السيطرة والنظام."
+      "feedback": "الإجابة الصحيحة هي 'control and order'. الانضباط يعني السيطرة والنظام.",
+      "id": "q_ae6097dbe4e22d6eb833",
+      "legacyIds": [
+        "id_564ec1c7",
+        "qid_33315c42"
+      ],
+      "legacyPrimaryIds": [
+        "qid_33315c42"
+      ]
     },
     {
       "q": "When someone is ......, he finds fault with everything around him.",
@@ -804,7 +1231,15 @@
         "cruel"
       ],
       "correct": 2,
-      "feedback": "الإجابة الصحيحة هي 'critical'. الشخص الناقد هو من يبحث عن الأخطاء والعيوب في كل شيء."
+      "feedback": "الإجابة الصحيحة هي 'critical'. الشخص الناقد هو من يبحث عن الأخطاء والعيوب في كل شيء.",
+      "id": "q_b7d3da7d0ad2aa5939ad",
+      "legacyIds": [
+        "id_6f3bc7fd",
+        "qid_1c78aab1"
+      ],
+      "legacyPrimaryIds": [
+        "qid_1c78aab1"
+      ]
     },
     {
       "q": "The verb \"to approve\" means to:",
@@ -815,7 +1250,15 @@
         "applauded"
       ],
       "correct": 0,
-      "feedback": "الإجابة الصحيحة هي 'agree with'. الموافقة تعني الاتفاق مع رأي أو قرار ما."
+      "feedback": "الإجابة الصحيحة هي 'agree with'. الموافقة تعني الاتفاق مع رأي أو قرار ما.",
+      "id": "q_2c4edeb2fcef78003b01",
+      "legacyIds": [
+        "id_3fa38223",
+        "qid_3bdc7b37"
+      ],
+      "legacyPrimaryIds": [
+        "qid_3bdc7b37"
+      ]
     },
     {
       "q": "He threatened to punish them, but they did not pay the ...... attention.",
@@ -826,7 +1269,15 @@
         "lowest"
       ],
       "correct": 1,
-      "feedback": "الإجابة الصحيحة هي 'slightest'. التعبير الشائع هو 'not pay the slightest attention' (لم يعيروا أدنى اهتمام)."
+      "feedback": "الإجابة الصحيحة هي 'slightest'. التعبير الشائع هو 'not pay the slightest attention' (لم يعيروا أدنى اهتمام).",
+      "id": "q_3b1b6f12d8c9cf0498c3",
+      "legacyIds": [
+        "id_16de9fca",
+        "qid_7faa9193"
+      ],
+      "legacyPrimaryIds": [
+        "qid_7faa9193"
+      ]
     },
     {
       "q": "In the end, the noise ...... too much for us and we decided to leave.",
@@ -837,7 +1288,15 @@
         "proving"
       ],
       "correct": 2,
-      "feedback": "الإجابة الصحيحة هي 'proved'. وردت في النص الثاني بصيغة الماضي البسيط."
+      "feedback": "الإجابة الصحيحة هي 'proved'. وردت في النص الثاني بصيغة الماضي البسيط.",
+      "id": "q_3b5127a4ce2d7caaf90d",
+      "legacyIds": [
+        "id_9ab37f0",
+        "qid_17b75ce7"
+      ],
+      "legacyPrimaryIds": [
+        "qid_17b75ce7"
+      ]
     },
     {
       "q": "Apologizing for this lack of ......, he explained that the boys were rather excited.",
@@ -848,7 +1307,15 @@
         "proving"
       ],
       "correct": 1,
-      "feedback": "الإجابة الصحيحة هي 'discipline'. اعتذر المعلم عن نقص 'الانضباط' بين الأولاد."
+      "feedback": "الإجابة الصحيحة هي 'discipline'. اعتذر المعلم عن نقص 'الانضباط' بين الأولاد.",
+      "id": "q_ee96717fe53f12456974",
+      "legacyIds": [
+        "id_615bcaa0",
+        "qid_3045e131"
+      ],
+      "legacyPrimaryIds": [
+        "qid_3045e131"
+      ]
     },
     {
       "q": "After ...... through cornfields for over an hour, we came to a wide stream.",
@@ -859,7 +1326,15 @@
         "we are walking"
       ],
       "correct": 1,
-      "feedback": "الإجابة الصحيحة هي 'walking'. نستخدم صيغة المصدر (V-ing) بعد حرف الجر الزمني 'after'."
+      "feedback": "الإجابة الصحيحة هي 'walking'. نستخدم صيغة المصدر (V-ing) بعد حرف الجر الزمني 'after'.",
+      "id": "q_de6fd2e0405406839b8c",
+      "legacyIds": [
+        "id_3c18cea6",
+        "qid_3d6b2e51"
+      ],
+      "legacyPrimaryIds": [
+        "qid_3d6b2e51"
+      ]
     },
     {
       "q": "Nowadays, it is much easier to walk than ...... .",
@@ -870,7 +1345,15 @@
         "drive"
       ],
       "correct": 2,
-      "feedback": "الإجابة الصحيحة هي 'to drive'. للمقارنة بين فعلين نستخدم نفس الصيغة: 'to walk than to drive'."
+      "feedback": "الإجابة الصحيحة هي 'to drive'. للمقارنة بين فعلين نستخدم نفس الصيغة: 'to walk than to drive'.",
+      "id": "q_58f7b444eebd9971d305",
+      "legacyIds": [
+        "id_1a404f59",
+        "qid_374c216"
+      ],
+      "legacyPrimaryIds": [
+        "qid_374c216"
+      ]
     },
     {
       "q": "The opposite of \"increase\" is:",
@@ -881,7 +1364,15 @@
         "reduce"
       ],
       "correct": 3,
-      "feedback": "الإجابة الصحيحة هي 'reduce'. عكس الزيادة هو النقصان أو التخفيض."
+      "feedback": "الإجابة الصحيحة هي 'reduce'. عكس الزيادة هو النقصان أو التخفيض.",
+      "id": "q_a1d532ff307b1d598d99",
+      "legacyIds": [
+        "id_20ed7891",
+        "qid_7759deed"
+      ],
+      "legacyPrimaryIds": [
+        "qid_7759deed"
+      ]
     },
     {
       "q": "The adjective of \"conventionally\" is:",
@@ -892,7 +1383,15 @@
         "none is correct"
       ],
       "correct": 3,
-      "feedback": "الإجابة الصحيحة هي 'none is correct'. الصفة الصحيحة هي 'conventional'، وهي غير موجودة في الخيارات."
+      "feedback": "الإجابة الصحيحة هي 'none is correct'. الصفة الصحيحة هي 'conventional'، وهي غير موجودة في الخيارات.",
+      "id": "q_1f76dc48d0e11cfcc978",
+      "legacyIds": [
+        "id_51dd7c9d",
+        "qid_2aa8682a"
+      ],
+      "legacyPrimaryIds": [
+        "qid_2aa8682a"
+      ]
     },
     {
       "q": "The witness who was called did not give a very clear ...... of what had happened.",
@@ -903,7 +1402,15 @@
         "mark"
       ],
       "correct": 1,
-      "feedback": "الإجابة الصحيحة هي 'account'. كلمة 'account' هنا تعني وصفاً أو سرداً للأحداث."
+      "feedback": "الإجابة الصحيحة هي 'account'. كلمة 'account' هنا تعني وصفاً أو سرداً للأحداث.",
+      "id": "q_0ec0de604ae7ba568129",
+      "legacyIds": [
+        "id_1b4235c5",
+        "qid_1642434a"
+      ],
+      "legacyPrimaryIds": [
+        "qid_1642434a"
+      ]
     },
     {
       "q": "Some time ago, a friend of mine who works in the city invited me to call ...... him.",
@@ -914,7 +1421,15 @@
         "in"
       ],
       "correct": 0,
-      "feedback": "الإجابة الصحيحة هي 'on'. الفعل المركب 'call on' يعني يزور شخصاً ما."
+      "feedback": "الإجابة الصحيحة هي 'on'. الفعل المركب 'call on' يعني يزور شخصاً ما.",
+      "id": "q_7fc0bb3755eaa3b0bc7b",
+      "legacyIds": [
+        "id_62389301",
+        "qid_79fcc8c2"
+      ],
+      "legacyPrimaryIds": [
+        "qid_79fcc8c2"
+      ]
     },
     {
       "q": "The word \"scent\" is closely related to:",
@@ -925,127 +1440,395 @@
         "touch"
       ],
       "correct": 0,
-      "feedback": "الإجابة الصحيحة هي 'smell'. كلمة 'scent' تعني رائحة."
+      "feedback": "الإجابة الصحيحة هي 'smell'. كلمة 'scent' تعني رائحة.",
+      "id": "q_2c22d9e0e0f08069d46b",
+      "legacyIds": [
+        "id_5f0001a4",
+        "qid_23e501b7"
+      ],
+      "legacyPrimaryIds": [
+        "qid_23e501b7"
+      ]
     },
     {
       "q": "Artificial intelligence is described in the passage as:",
-      "options": ["an art", "a science", "an area", "none is correct"],
+      "options": [
+        "an art",
+        "a science",
+        "an area",
+        "none is correct"
+      ],
       "correct": 1,
-      "feedback": "الإجابة الصحيحة هي 'a science'. يذكر النص في الصفحة الأولى من أسئلة الدورات أن الذكاء الاصطناعي هو 'wide-ranging branch of computer science'."
+      "feedback": "الإجابة الصحيحة هي 'a science'. يذكر النص في الصفحة الأولى من أسئلة الدورات أن الذكاء الاصطناعي هو 'wide-ranging branch of computer science'.",
+      "id": "q_fed082ff790767936a2a",
+      "legacyIds": [
+        "id_643a4632",
+        "qid_7bcff8ce"
+      ],
+      "legacyPrimaryIds": [
+        "qid_7bcff8ce"
+      ]
     },
     {
       "q": "The word 'building' in the AI passage can be best replaced by:",
-      "options": ["concurring", "instructing", "constructing", "formulating"],
+      "options": [
+        "concurring",
+        "instructing",
+        "constructing",
+        "formulating"
+      ],
       "correct": 2,
-      "feedback": "الإجابة الصحيحة هي 'constructing'. في سياق بناء الآلات الذكية (building smart machines)، فإن 'constructing' هي المرادف الأنسب."
+      "feedback": "الإجابة الصحيحة هي 'constructing'. في سياق بناء الآلات الذكية (building smart machines)، فإن 'constructing' هي المرادف الأنسب.",
+      "id": "q_b14075ebd43d57312733",
+      "legacyIds": [
+        "id_25447f4c",
+        "qid_3477adf1"
+      ],
+      "legacyPrimaryIds": [
+        "qid_3477adf1"
+      ]
     },
     {
       "q": "What does 'proliferation' mean in the context of AI tools?",
-      "options": ["exploration", "exploitation", "spread", "reduction"],
+      "options": [
+        "exploration",
+        "exploitation",
+        "spread",
+        "reduction"
+      ],
       "correct": 2,
-      "feedback": "الإجابة الصحيحة هي 'spread'. تعني كلمة 'proliferation' الانتشار السريع أو التكاثر، وهو ما ينطبق على انتشار أدوات الذكاء الاصطناعي."
+      "feedback": "الإجابة الصحيحة هي 'spread'. تعني كلمة 'proliferation' الانتشار السريع أو التكاثر، وهو ما ينطبق على انتشار أدوات الذكاء الاصطناعي.",
+      "id": "q_75c5181906a576f4c73a",
+      "legacyIds": [
+        "id_6a7a9add",
+        "qid_4a1aa4fc"
+      ],
+      "legacyPrimaryIds": [
+        "qid_4a1aa4fc"
+      ]
     },
     {
       "q": "The phrase 'to lose consciousness' means to:",
-      "options": ["flirt", "fling", "paint", "faint"],
+      "options": [
+        "flirt",
+        "fling",
+        "paint",
+        "faint"
+      ],
       "correct": 3,
-      "feedback": "الإجابة الصحيحة هي 'faint'. فقدان الوعي مرادفه الطبي هو 'faint' (يغمى عليه)."
+      "feedback": "الإجابة الصحيحة هي 'faint'. فقدان الوعي مرادفه الطبي هو 'faint' (يغمى عليه).",
+      "id": "q_f3241fceb70bd7979142",
+      "legacyIds": [
+        "id_57e555f6",
+        "qid_44ddd464"
+      ],
+      "legacyPrimaryIds": [
+        "qid_44ddd464"
+      ]
     },
     {
       "q": "Environmental pollution is increasing due to:",
-      "options": ["urbanization", "technological development", "hazardous waste", "all is correct"],
+      "options": [
+        "urbanization",
+        "technological development",
+        "hazardous waste",
+        "all is correct"
+      ],
       "correct": 3,
-      "feedback": "الإجابة الصحيحة هي 'all is correct'. يذكر نص البيئة (دورة 2024) أن التمدن والتطور التكنولوجي والنفايات الخطرة كلها عوامل تساهم في زيادة التلوث."
+      "feedback": "الإجابة الصحيحة هي 'all is correct'. يذكر نص البيئة (دورة 2024) أن التمدن والتطور التكنولوجي والنفايات الخطرة كلها عوامل تساهم في زيادة التلوث.",
+      "id": "q_47e61d76ba4b222d1f9f",
+      "legacyIds": [
+        "id_1b9d7eca",
+        "qid_78c3c970"
+      ],
+      "legacyPrimaryIds": [
+        "qid_78c3c970"
+      ]
     },
     {
       "q": "The word 'detrimental' can be replaced by:",
-      "options": ["beneficial", "decided", "harmful", "synthesized"],
+      "options": [
+        "beneficial",
+        "decided",
+        "harmful",
+        "synthesized"
+      ],
       "correct": 2,
-      "feedback": "الإجابة الصحيحة هي 'harmful'. كلمة 'detrimental' تعني ضار أو مؤذٍ."
+      "feedback": "الإجابة الصحيحة هي 'harmful'. كلمة 'detrimental' تعني ضار أو مؤذٍ.",
+      "id": "q_0ca07fe7c08b1f8c0cf3",
+      "legacyIds": [
+        "id_5e298399",
+        "qid_6bbcdd4c"
+      ],
+      "legacyPrimaryIds": [
+        "qid_6bbcdd4c"
+      ]
     },
     {
       "q": "The antonym of 'lessen' is:",
-      "options": ["upgrade", "increase", "decrease", "cease"],
+      "options": [
+        "upgrade",
+        "increase",
+        "decrease",
+        "cease"
+      ],
       "correct": 1,
-      "feedback": "الإجابة الصحيحة هي 'increase'. عكس كلمة 'lessen' (يقلل) هو 'increase' (يزيد)."
+      "feedback": "الإجابة الصحيحة هي 'increase'. عكس كلمة 'lessen' (يقلل) هو 'increase' (يزيد).",
+      "id": "q_86c7f628c1b98935a709",
+      "legacyIds": [
+        "id_3cb8a326",
+        "qid_45c7d802"
+      ],
+      "legacyPrimaryIds": [
+        "qid_45c7d802"
+      ]
     },
     {
       "q": "Renewable energy is also called:",
-      "options": ["black energy", "green energy", "blue energy", "red energy"],
+      "options": [
+        "black energy",
+        "green energy",
+        "blue energy",
+        "red energy"
+      ],
       "correct": 1,
-      "feedback": "الإجابة الصحيحة هي 'green energy'. يفتتح نص الطاقة المتجددة (دورة 2025) بالقول إن الطاقة المتجددة تسمى أيضاً 'green energy'."
+      "feedback": "الإجابة الصحيحة هي 'green energy'. يفتتح نص الطاقة المتجددة (دورة 2025) بالقول إن الطاقة المتجددة تسمى أيضاً 'green energy'.",
+      "id": "q_20c959a6709663f7f1dd",
+      "legacyIds": [
+        "id_6bb156b5",
+        "qid_300af17b"
+      ],
+      "legacyPrimaryIds": [
+        "qid_300af17b"
+      ]
     },
     {
       "q": "The word 'replenished' means:",
-      "options": ["refreshed", "referred", "replaced", "replicated"],
+      "options": [
+        "refreshed",
+        "referred",
+        "replaced",
+        "replicated"
+      ],
       "correct": 2,
-      "feedback": "الإجابة الصحيحة هي 'replaced'. الموارد المتجددة هي التي يتم تجديدها أو استبدالها (replenished) طبيعياً ضمن مقياس زمني بشري."
+      "feedback": "الإجابة الصحيحة هي 'replaced'. الموارد المتجددة هي التي يتم تجديدها أو استبدالها (replenished) طبيعياً ضمن مقياس زمني بشري.",
+      "id": "q_57675c610740ee4eafdb",
+      "legacyIds": [
+        "id_242cce26",
+        "qid_17602116"
+      ],
+      "legacyPrimaryIds": [
+        "qid_17602116"
+      ]
     },
     {
       "q": "Variable renewable energy sources include:",
-      "options": ["wind and solar power", "geothermal and bioenergy", "hydroelectricity", "none is correct"],
+      "options": [
+        "wind and solar power",
+        "geothermal and bioenergy",
+        "hydroelectricity",
+        "none is correct"
+      ],
       "correct": 0,
-      "feedback": "الإجابة الصحيحة هي 'wind and solar power'. يذكر النص أن هذه المصادر لها طبيعة متقلبة (fluctuating nature)."
+      "feedback": "الإجابة الصحيحة هي 'wind and solar power'. يذكر النص أن هذه المصادر لها طبيعة متقلبة (fluctuating nature).",
+      "id": "q_3d4970ba7c26a049ef58",
+      "legacyIds": [
+        "id_748c7244",
+        "qid_1cbe4235"
+      ],
+      "legacyPrimaryIds": [
+        "qid_1cbe4235"
+      ]
     },
     {
       "q": "What is 'minimalism' based on the environmental text?",
-      "options": ["a type of pollution", "a way of life with fewer materials", "a scientific law", "a political system"],
+      "options": [
+        "a type of pollution",
+        "a way of life with fewer materials",
+        "a scientific law",
+        "a political system"
+      ],
       "correct": 1,
-      "feedback": "الإجابة الصحيحة هي 'a way of life with fewer materials'. التبسيط (minimalism) هو نمط حياة يعتمد على استهلاك أقل للمواد والنفايات."
+      "feedback": "الإجابة الصحيحة هي 'a way of life with fewer materials'. التبسيط (minimalism) هو نمط حياة يعتمد على استهلاك أقل للمواد والنفايات.",
+      "id": "q_c8890c0ab0a9f17ad3d6",
+      "legacyIds": [
+        "id_5fed0fdf",
+        "qid_262d8eab"
+      ],
+      "legacyPrimaryIds": [
+        "qid_262d8eab"
+      ]
     },
     {
       "q": "The term 'habitat' refers to:",
-      "options": ["natural home of an organism", "a shopping center", "a new species", "a water source"],
+      "options": [
+        "natural home of an organism",
+        "a shopping center",
+        "a new species",
+        "a water source"
+      ],
       "correct": 0,
-      "feedback": "الإجابة الصحيحة هي 'natural home of an organism'. الموطن (habitat) هو البيئة الطبيعية التي يعيش فيها الكائن الحي."
+      "feedback": "الإجابة الصحيحة هي 'natural home of an organism'. الموطن (habitat) هو البيئة الطبيعية التي يعيش فيها الكائن الحي.",
+      "id": "q_b18caa268b0bc21ba47a",
+      "legacyIds": [
+        "id_5efae3d8",
+        "qid_306b0010"
+      ],
+      "legacyPrimaryIds": [
+        "qid_306b0010"
+      ]
     },
     {
       "q": "The word 'harvest' means to:",
-      "options": ["plant", "gather crops", "bury", "burn"],
+      "options": [
+        "plant",
+        "gather crops",
+        "bury",
+        "burn"
+      ],
       "correct": 1,
-      "feedback": "الإجابة الصحيحة هي 'gather crops'. كلمة الحصاد تعني جمع المحاصيل الزراعية."
+      "feedback": "الإجابة الصحيحة هي 'gather crops'. كلمة الحصاد تعني جمع المحاصيل الزراعية.",
+      "id": "q_7aae2693f874e37c5bfb",
+      "legacyIds": [
+        "id_2f3f9f96",
+        "qid_3f0f02ab"
+      ],
+      "legacyPrimaryIds": [
+        "qid_3f0f02ab"
+      ]
     },
     {
       "q": "A 'biodegradable' object:",
-      "options": ["lasts forever", "becomes toxic", "breaks down naturally", "is made of glass"],
+      "options": [
+        "lasts forever",
+        "becomes toxic",
+        "breaks down naturally",
+        "is made of glass"
+      ],
       "correct": 2,
-      "feedback": "الإجابة الصحيحة هي 'breaks down naturally'. المادة القابلة للتحلل الحيوي هي التي تتفكك بشكل طبيعي في البيئة."
+      "feedback": "الإجابة الصحيحة هي 'breaks down naturally'. المادة القابلة للتحلل الحيوي هي التي تتفكك بشكل طبيعي في البيئة.",
+      "id": "q_390c226f8baa68924a19",
+      "legacyIds": [
+        "id_71be8f9e",
+        "qid_3de6e407"
+      ],
+      "legacyPrimaryIds": [
+        "qid_3de6e407"
+      ]
     },
     {
       "q": "What does 'drought' mean?",
-      "options": ["heavy rain", "long period without rain", "flood", "snowstorm"],
+      "options": [
+        "heavy rain",
+        "long period without rain",
+        "flood",
+        "snowstorm"
+      ],
       "correct": 1,
-      "feedback": "الإجابة الصحيحة هي 'long period without rain'. الجفاف (drought) هو فترة زمنية طويلة وشديدة من نقص الأمطار."
+      "feedback": "الإجابة الصحيحة هي 'long period without rain'. الجفاف (drought) هو فترة زمنية طويلة وشديدة من نقص الأمطار.",
+      "id": "q_ea0615f3f37fcc1b58b3",
+      "legacyIds": [
+        "id_3d5513e9",
+        "qid_7d025d22"
+      ],
+      "legacyPrimaryIds": [
+        "qid_7d025d22"
+      ]
     },
     {
       "q": "The word 'idly' means:",
-      "options": ["lazily", "happily", "weakly", "sadly"],
+      "options": [
+        "lazily",
+        "happily",
+        "weakly",
+        "sadly"
+      ],
       "correct": 0,
-      "feedback": "الإجابة الصحيحة هي 'lazily'. وردت الكلمة في نص 'فقدان السيارة' وتعني السير بكسل أو دون هدف واضح."
+      "feedback": "الإجابة الصحيحة هي 'lazily'. وردت الكلمة في نص 'فقدان السيارة' وتعني السير بكسل أو دون هدف واضح.",
+      "id": "q_b9ad39fa6e1926853cd8",
+      "legacyIds": [
+        "id_2131c0f",
+        "qid_470c51cd"
+      ],
+      "legacyPrimaryIds": [
+        "qid_470c51cd"
+      ]
     },
     {
       "q": "A 'deal' can mean:",
-      "options": ["a treaty", "a bargain", "an agreement", "all is correct"],
+      "options": [
+        "a treaty",
+        "a bargain",
+        "an agreement",
+        "all is correct"
+      ],
       "correct": 3,
-      "feedback": "الإجابة الصحيحة هي 'all is correct'. كلمة 'deal' يمكن أن تأتي بمعنى معاهدة أو صفقة أو اتفاق."
+      "feedback": "الإجابة الصحيحة هي 'all is correct'. كلمة 'deal' يمكن أن تأتي بمعنى معاهدة أو صفقة أو اتفاق.",
+      "id": "q_c8abbe95a6ebcb721864",
+      "legacyIds": [
+        "id_45615bac",
+        "qid_5af14108"
+      ],
+      "legacyPrimaryIds": [
+        "qid_5af14108"
+      ]
     },
     {
       "q": "The word 'relief' means:",
-      "options": ["satisfaction", "pleading", "comfort", "both A & C"],
+      "options": [
+        "satisfaction",
+        "pleading",
+        "comfort",
+        "both A & C"
+      ],
       "correct": 3,
-      "feedback": "الإجابة الصحيحة هي 'both A & C'. الشعور بالراحة (relief) يتضمن الرضا (satisfaction) والسكينة أو الراحة (comfort)."
+      "feedback": "الإجابة الصحيحة هي 'both A & C'. الشعور بالراحة (relief) يتضمن الرضا (satisfaction) والسكينة أو الراحة (comfort).",
+      "id": "q_48e86a74af55a0862fcb",
+      "legacyIds": [
+        "id_530eff4",
+        "qid_65167c76"
+      ],
+      "legacyPrimaryIds": [
+        "qid_65167c76"
+      ]
     },
     {
       "q": "In the phrase 'dealt a blow', the word 'blow' means:",
-      "options": ["to breathe out", "a hard hit", "a flower", "wind"],
+      "options": [
+        "to breathe out",
+        "a hard hit",
+        "a flower",
+        "wind"
+      ],
       "correct": 1,
-      "feedback": "الإجابة الصحيحة هي 'a hard hit'. في سياق تحطم الزجاج (dealt a blow)، تعني الضربة القوية أو الصدمة."
+      "feedback": "الإجابة الصحيحة هي 'a hard hit'. في سياق تحطم الزجاج (dealt a blow)، تعني الضربة القوية أو الصدمة.",
+      "id": "q_19fe3a4f9bc1628ac3e6",
+      "legacyIds": [
+        "id_2c1848bb",
+        "qid_5202cc81"
+      ],
+      "legacyPrimaryIds": [
+        "qid_5202cc81"
+      ]
     },
     {
       "q": "What does 'occupational' mean?",
-      "options": ["leisurely", "related to a job", "accidental", "historical"],
+      "options": [
+        "leisurely",
+        "related to a job",
+        "accidental",
+        "historical"
+      ],
       "correct": 1,
-      "feedback": "الإجابة الصحيحة هي 'related to a job'. كلمة 'occupational' (مهني) تشير إلى كل ما هو متعلق بمهنة الشخص أو وظيفته."
+      "feedback": "الإجابة الصحيحة هي 'related to a job'. كلمة 'occupational' (مهني) تشير إلى كل ما هو متعلق بمهنة الشخص أو وظيفته.",
+      "id": "q_dc192285c1ebffea1969",
+      "legacyIds": [
+        "id_5e0e513c",
+        "qid_723465cf"
+      ],
+      "legacyPrimaryIds": [
+        "qid_723465cf"
+      ]
     }
   ]
 }

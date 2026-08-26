@@ -1,0 +1,37 @@
+name: Refresh content manifest
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "First Year/**/*.json"
+      - "Second Year/**/*.json"
+      - "Third Year/**/*.json"
+      - "Fourth Year/**/*.json"
+      - "scripts/normalize-content.mjs"
+      - "scripts/build-content-manifest.mjs"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Normalize stable IDs and rebuild the lightweight catalog
+        run: |
+          node scripts/normalize-content.mjs
+          node scripts/build-content-manifest.mjs
+      - name: Commit generated content metadata
+        run: |
+          if git diff --quiet; then exit 0; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "First Year" "Second Year" "Third Year" "Fourth Year" content-manifest.json
+          git commit -m "Refresh stable question IDs and content manifest"
+          git push

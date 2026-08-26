@@ -66,7 +66,199 @@
 * {
   box-sizing: border-box;
   -webkit-tap-highlight-color: transparent;
-  outline: none;
+}
+
+:focus-visible {
+  outline: 3px solid color-mix(in srgb, var(--primary) 78%, white);
+  outline-offset: 3px;
+}
+
+.subject-library-card {
+  width: 100%;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 1rem;
+  align-items: center;
+  margin: 0.75rem 0;
+  padding: 1rem;
+  border: 1px solid var(--glass-border);
+  border-radius: 1.25rem;
+  background: var(--card-bg);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.12);
+}
+
+.subject-library-card.status-update {
+  border-color: #f59e0b;
+  box-shadow: 0 0 0 1px rgba(245, 158, 11, 0.2);
+}
+
+.subject-library-main {
+  min-width: 0;
+}
+
+.subject-library-title-row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.75rem;
+}
+
+.subject-library-title-row h3 {
+  margin: 0;
+  color: var(--text-main);
+  font-size: 1.05rem;
+  line-height: 1.55;
+}
+
+.subject-library-main p {
+  margin: 0.35rem 0;
+  color: var(--text-muted);
+  font-size: 0.88rem;
+}
+
+.subject-library-main small {
+  color: var(--text-muted);
+}
+
+.subject-state-badge {
+  flex: 0 0 auto;
+  border-radius: 999px;
+  padding: 0.3rem 0.6rem;
+  font-size: 0.72rem;
+  font-weight: 800;
+  color: var(--text-main);
+  background: rgba(148, 163, 184, 0.2);
+}
+
+.subject-state-badge.state-current {
+  color: #d1fae5;
+  background: rgba(5, 150, 105, 0.42);
+}
+
+.light-theme .subject-state-badge.state-current {
+  color: #064e3b;
+  background: #a7f3d0;
+}
+
+.subject-state-badge.state-update {
+  color: #fff7d6;
+  background: #92400e;
+}
+
+.light-theme .subject-state-badge.state-update {
+  color: #78350f;
+  background: #fde68a;
+}
+
+.subject-library-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 0.5rem;
+}
+
+.subject-library-actions button {
+  min-height: 42px;
+  border: 1px solid transparent;
+  border-radius: 0.85rem;
+  padding: 0.65rem 0.9rem;
+  font: inherit;
+  font-size: 0.82rem;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.subject-library-actions button:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.subject-open-btn,
+.subject-transfer-btn.download {
+  color: white;
+  background: var(--primary);
+}
+
+.subject-transfer-btn.update {
+  color: #451a03;
+  background: #fbbf24;
+}
+
+.subject-remove-btn {
+  color: #fecaca;
+  border-color: rgba(248, 113, 113, 0.5) !important;
+  background: rgba(127, 29, 29, 0.35);
+}
+
+.light-theme .subject-remove-btn {
+  color: #991b1b;
+  background: #fee2e2;
+}
+
+.subject-library-progress-label {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0.65rem 0 0.25rem;
+  color: var(--primary);
+  font-size: 0.75rem;
+  font-weight: 800;
+}
+
+.subject-library-progress-track {
+  height: 0.45rem;
+  overflow: hidden;
+  border-radius: 999px;
+  background: rgba(148, 163, 184, 0.25);
+}
+
+.subject-library-progress-track span {
+  display: block;
+  height: 100%;
+  border-radius: inherit;
+  background: var(--primary);
+}
+
+.subject-library-empty {
+  margin: 2rem auto;
+  max-width: 34rem;
+  color: var(--text-muted);
+  text-align: center;
+}
+
+#account-sync-btn.sync-active {
+  color: #059669;
+}
+
+@media (max-width: 640px) {
+  .subject-library-card {
+    grid-template-columns: 1fr;
+  }
+
+  .subject-library-title-row {
+    flex-direction: column;
+  }
+
+  .subject-library-actions {
+    justify-content: stretch;
+  }
+
+  .subject-library-actions button {
+    flex: 1 1 auto;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto !important;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
 }
 
 body {
@@ -570,9 +762,6 @@ input[type="text"]:focus {
   unicode-bidi: plaintext;
 }
 
-.flip-card-back h3 {
-  color: white;
-}
 
 .card-label {
   position: absolute;
@@ -605,10 +794,10 @@ input[type="text"]:focus {
   gap: 6px;
 }
 
-.tap-hint:before {
+/* .tap-hint:before {
   content: "\f25a";
   font-family: "Font Awesome 6 Free";
-}
+} */
 
 .question-bubble h3[dir="ltr"],
 .flip-card h3[dir="ltr"] {

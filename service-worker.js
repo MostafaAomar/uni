@@ -1,12 +1,19 @@
-const SHELL_CACHE = "uniquiz-shell-v10";
+const APP_VERSION = "13";
+const SHELL_CACHE = `uniquiz-shell-v${APP_VERSION}`;
+const CATALOG_CACHE = "uniquiz-catalog-v2";
 const APP_SHELL = [
   "./index.html",
-  "./offline.css?v=10",
-  "./style.css?v=10",
-  "./supabase.js?v=10",
-  "./app.js?v=10",
+  "./offline.css?v=13",
+  "./style.css?v=13",
+  "./supabase.js?v=13",
+  "./subject-storage.js?v=13",
+  "./content-catalog.js?v=13",
+  "./app.js?v=13",
+  "./app-v12.js?v=13",
   "./manifest.webmanifest",
   "./icon.svg",
+  "./icon.png",
+  "./myOwnDic.json",
 ];
 
 self.addEventListener("install", (event) => {
@@ -14,7 +21,11 @@ self.addEventListener("install", (event) => {
     caches
       .open(SHELL_CACHE)
       .then((cache) => cache.addAll(APP_SHELL))
-      .then(() => self.skipWaiting()),
+      .then(() => self.skipWaiting())
+      .catch(async (error) => {
+        await caches.delete(SHELL_CACHE);
+        throw error;
+      }),
   );
 });
 
@@ -26,7 +37,8 @@ self.addEventListener("activate", (event) => {
         Promise.all(
           keys
             .filter(
-              (key) => key.startsWith("uniquiz-shell-") && key !== SHELL_CACHE,
+              (key) =>
+                key.startsWith("uniquiz-shell-") && key !== SHELL_CACHE,
             )
             .map((key) => caches.delete(key)),
         ),
@@ -35,54 +47,12 @@ self.addEventListener("activate", (event) => {
   );
 });
 
-async function cachedResponseChanged(cached, fresh) {
-  if (!cached) return true;
-  const cachedEtag = cached.headers.get("etag");
-  const freshEtag = fresh.headers.get("etag");
-  if (cachedEtag && freshEtag && cachedEtag === freshEtag) return false;
-
-  const [cachedBytes, freshBytes] = await Promise.all([
-    cached.clone().arrayBuffer(),
-    fresh.clone().arrayBuffer(),
-  ]);
-  if (cachedBytes.byteLength !== freshBytes.byteLength) return true;
-  const cachedView = new Uint8Array(cachedBytes);
-  const freshView = new Uint8Array(freshBytes);
-  for (let index = 0; index < cachedView.length; index++) {
-    if (cachedView[index] !== freshView[index]) return true;
-  }
-  return false;
-}
-
-async function refreshAppShellCache() {
-  const cache = await caches.open(SHELL_CACHE);
-  let changed = false;
-  let refreshed = 0;
-
-  for (const path of APP_SHELL) {
-    try {
-      const request = new Request(new URL(path, self.registration.scope).href, {
-        cache: "no-store",
-      });
-      const cached = await cache.match(request);
-      const fresh = await fetch(request);
-      if (!fresh || !fresh.ok) continue;
-      if (await cachedResponseChanged(cached, fresh)) changed = true;
-      await cache.put(request, fresh.clone());
-      refreshed++;
-    } catch (error) {
-      console.warn(`Could not refresh ${path}:`, error);
-    }
-  }
-  return { changed, refreshed };
-}
-
 async function notifyOpenClients(message) {
-  const openClients = await self.clients.matchAll({
+  const clients = await self.clients.matchAll({
     type: "window",
     includeUncontrolled: true,
   });
-  openClients.forEach((client) => client.postMessage(message));
+  clients.forEach((client) => client.postMessage(message));
 }
 
 self.addEventListener("message", (event) => {
@@ -91,85 +61,77 @@ self.addEventListener("message", (event) => {
     return;
   }
   if (event.data?.type === "REFRESH_APP_SHELL") {
-    event.waitUntil(
-      refreshAppShellCache()
-        .then((result) => {
-          event.ports[0]?.postMessage({ ok: true, ...result });
-          if (result.changed) {
-            return notifyOpenClients({
-              type: "APP_SHELL_REFRESHED",
-              changed: true,
-            });
-          }
-        })
-        .catch((error) =>
-          event.ports[0]?.postMessage({
-            ok: false,
-            changed: false,
-            message: error.message,
-          }),
-        ),
-    );
+    // A new worker is the atomic app-shell update. Never mutate the active
+    // cache file by file because an interrupted refresh can mix releases.
+    event.ports[0]?.postMessage({ ok: true, changed: false });
   }
 });
 
 self.addEventListener("periodicsync", (event) => {
   if (event.tag !== "uniquiz-daily-update") return;
-  event.waitUntil(
-    refreshAppShellCache().then(async (result) => {
-      await notifyOpenClients({ type: "RUN_DAILY_CONTENT_UPDATE" });
-      if (result.changed) {
-        await notifyOpenClients({ type: "APP_SHELL_REFRESHED", changed: true });
-      }
-    }),
-  );
+  event.waitUntil(notifyOpenClients({ type: "CHECK_CONTENT_CATALOG" }));
 });
+
+function isSubjectContent(pathname) {
+  const decoded = decodeURIComponent(pathname);
+  return ["First Year", "Second Year", "Third Year", "Fourth Year"].some(
+    (year) => decoded.includes(`/${year}/`),
+  );
+}
+
+async function catalogResponse(request) {
+  const canonical = new Request(
+    new URL("./content-manifest.json", self.registration.scope).href,
+  );
+  try {
+    const fresh = await fetch(new Request(request, { cache: "no-store" }));
+    if (fresh?.ok) {
+      const cache = await caches.open(CATALOG_CACHE);
+      await cache.put(canonical, fresh.clone());
+      return fresh;
+    }
+    // A temporary 404/500 must not replace the last known-good catalogue.
+    // Keeping the cached response also keeps downloaded-subject update states
+    // usable while the publishing server is being updated.
+    return (await caches.match(canonical)) || fresh;
+  } catch (error) {
+    const cached = await caches.match(canonical);
+    if (cached) return cached;
+    throw error;
+  }
+}
 
 self.addEventListener("fetch", (event) => {
   const request = event.request;
   if (request.method !== "GET") return;
-
   const url = new URL(request.url);
   if (url.origin !== self.location.origin) return;
 
-  const decodedPath = decodeURIComponent(url.pathname);
-  const isLiveContentRequest =
-    decodedPath.endsWith("/content-manifest.json") ||
-    decodedPath.includes("/First Year/") ||
-    decodedPath.includes("/Second Year/") ||
-    decodedPath.includes("/Third Year/") ||
-    decodedPath.includes("/Fourth Year/");
-  if (isLiveContentRequest) {
+  if (decodeURIComponent(url.pathname).endsWith("/content-manifest.json")) {
+    event.respondWith(catalogResponse(request));
+    return;
+  }
+
+  // Subject files are fetched only after the student presses Download or
+  // Update. IndexedDB owns their offline copy; the service worker must not
+  // prefetch or silently refresh them.
+  if (isSubjectContent(url.pathname)) {
     event.respondWith(fetch(new Request(request, { cache: "no-store" })));
     return;
   }
 
   if (request.mode === "navigate") {
     event.respondWith(
-      fetch(request)
-        .then((response) => {
-          if (response && response.ok) {
-            const copy = response.clone();
-            caches
-              .open(SHELL_CACHE)
-              .then((cache) => cache.put("./index.html", copy));
-          }
-          return response;
-        })
-        .catch(() => caches.match("./index.html")),
+      caches
+        .match("./index.html")
+        .then((cached) => cached || fetch(request)),
     );
     return;
   }
 
   event.respondWith(
-    caches.match(request).then((cached) => {
-      if (cached) return cached;
-      return fetch(request).then((response) => {
-        if (!response || !response.ok) return response;
-        const copy = response.clone();
-        caches.open(SHELL_CACHE).then((cache) => cache.put(request, copy));
-        return response;
-      });
-    }),
+    caches.match(request).then(
+      (cached) => cached || fetch(request),
+    ),
   );
 });

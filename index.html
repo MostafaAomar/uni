@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta
       name="viewport"
-      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, viewport-fit=cover"
+      content="width=device-width, initial-scale=1.0, viewport-fit=cover"
     />
     <meta name="theme-color" content="#4648d4" />
     <meta name="mobile-web-app-capable" content="yes" />
@@ -13,10 +13,8 @@
     <title>أسئلة الدورات السابقة</title>
     <link rel="manifest" href="manifest.webmanifest" />
     <link rel="icon" href="icon.svg" type="image/svg+xml" />
-    <link rel="stylesheet" href="offline.css?v=10" />
-    <link rel="stylesheet" href="style.css?v=10" />
-    <link href="https://googleapis.com" rel="stylesheet" />
-
+    <link rel="stylesheet" href="offline.css?v=13" />
+    <link rel="stylesheet" href="style.css?v=13" />
     <style>
       html {
         min-height: 100%;
@@ -1028,6 +1026,16 @@
         <div class="flex items-center gap-1">
           <button
             type="button"
+            id="account-sync-btn"
+            onclick="openAccountSync()"
+            class="rounded-full text-primary"
+            aria-label="الحساب والمزامنة"
+            title="الحساب والمزامنة"
+          >
+            <span class="material-symbols-outlined" aria-hidden="true">☁</span>
+          </button>
+          <button
+            type="button"
             onclick="fullReset()"
             class="rounded-full text-error"
             aria-label="إعادة الضبط"
@@ -1098,8 +1106,8 @@
                   </div>
 
                   <div class="subjects-heading">
-                    <h2>Your Subjects</h2>
-                    <span id="subjects-count" aria-live="polite">0 Total</span>
+                  <h2>موادك الدراسية</h2>
+                    <span id="subjects-count" aria-live="polite">0 مادة</span>
                   </div>
 
                   <div class="subject-actions">
@@ -1130,90 +1138,6 @@
                 </div>
               </section>
 
-              <section
-                id="sync-settings-container"
-                class="custom-glass mt-lg hidden rounded-3xl border border-outline-variant p-lg shadow-lg"
-              >
-                <div class="mb-md flex items-center gap-3">
-                  <span
-                    class="material-symbols-outlined text-primary"
-                    aria-hidden="true"
-                    >↻</span
-                  >
-                  <h3
-                    id="sync-status"
-                    class="text-title-lg font-semibold text-on-surface"
-                  >
-                    المزامنة معطلة
-                  </h3>
-                </div>
-                <p class="mb-lg text-body-md text-on-surface-variant">
-                  لحفظ تقدمك عبر الأجهزة، اربط حسابك في GitHub.
-                  <a
-                    class="text-primary underline"
-                    href="https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    >كيفية إنشاء توكن</a
-                  >
-                </p>
-                <div class="space-y-4">
-                  <label
-                    class="flex items-center justify-between gap-4 text-on-surface"
-                  >
-                    <span>تفعيل المزامنة</span>
-                    <input
-                      type="checkbox"
-                      id="sync-enabled"
-                      class="rounded text-primary"
-                    />
-                  </label>
-                  <label class="block text-on-surface">
-                    <span class="mb-2 block">اسم مستخدم GitHub</span>
-                    <input
-                      type="text"
-                      id="sync-username"
-                      class="glass-input w-full"
-                      placeholder="e.g., MostafaAomar"
-                    />
-                  </label>
-                  <label class="block text-on-surface">
-                    <span class="mb-2 block">اسم المستودع</span>
-                    <input
-                      type="text"
-                      id="sync-repo"
-                      class="glass-input w-full"
-                      placeholder="e.g., uni-progress"
-                    />
-                  </label>
-                  <label class="block text-on-surface">
-                    <span class="mb-2 block">توكن الوصول الشخصي (PAT)</span>
-                    <input
-                      type="password"
-                      id="sync-token"
-                      class="glass-input w-full"
-                      autocomplete="new-password"
-                      placeholder="يبدأ بـ ghp_..."
-                    />
-                  </label>
-                </div>
-                <div class="mt-lg flex gap-3">
-                  <button
-                    type="button"
-                    class="action-btn flex-1"
-                    onclick="saveSyncConfig()"
-                  >
-                    حفظ
-                  </button>
-                  <button
-                    type="button"
-                    class="secondary-btn flex-1"
-                    onclick="toggleSyncSettings()"
-                  >
-                    إغلاق
-                  </button>
-                </div>
-              </section>
             </div>
           </div>
         </div>
@@ -1235,7 +1159,7 @@
                   <h2 id="vocabulary-title">مفرداتي</h2>
                   <p>
                     احفظ كلماتك ومعانيها محليًا، ويمكنك تفعيل المزامنة
-                    الاختيارية لرؤيتها مع ملاحظاتك على أكثر من جهاز.
+                    الاختيارية لرؤيتها مع ملاحظاتك وتقدمك على أكثر من جهاز.
                   </p>
                 </div>
                 <div class="vocabulary-heading-actions">
@@ -1281,8 +1205,8 @@
                 </div>
                 <p class="vocabulary-cloud-help">
                   أنشئ حسابًا بالبريد الإلكتروني وكلمة المرور، ثم استخدم الحساب
-                  نفسه على كل جهاز. تُحفَظ الكلمات والملاحظات في حسابك فقط، ولا
-                  يحفظ التطبيق كلمة المرور.
+                  نفسه على كل جهاز. تُحفَظ الكلمات والملاحظات والتقدم في حسابك
+                  فقط، ولا يحفظ التطبيق كلمة المرور داخل بيانات الدراسة.
                 </p>
                 <div id="vocabulary-auth-fields" class="vocabulary-cloud-grid">
                   <label>
@@ -1987,10 +1911,13 @@
         </div>
       </section>
 
-      <!-- Download modal retained for the existing open/close functions -->
+      <!-- Subject download/update confirmation -->
       <div
         id="download-modal"
         class="fixed inset-0 z-[120] flex hidden items-center justify-center p-gutter"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="download-modal-title"
       >
         <div
           class="modal-backdrop absolute inset-0"
@@ -2015,11 +1942,11 @@
             تحميل البيانات؟
           </h3>
           <p class="mb-xl text-center text-body-md text-on-surface-variant">
-            هل تريد تحميل مواد
+            المادة المحددة:
             <span id="target-year" class="font-bold text-primary"
-              >هذه السنة</span
+              >المادة</span
             >
-            للاستخدام دون اتصال؟
+            .
           </p>
           <div
             id="download-status"
@@ -2049,8 +1976,11 @@
       </div>
     </div>
 
-    <script src="supabase.js?v=10"></script>
-    <script src="app.js?v=10"></script>
+    <script src="supabase.js?v=13"></script>
+    <script src="subject-storage.js?v=13"></script>
+    <script src="content-catalog.js?v=13"></script>
+    <script src="app.js?v=13"></script>
+    <script src="app-v12.js?v=13"></script>
     <script>
       // Small compatibility helpers for visual-only elements introduced by t.html.
       function toggleDictionary(forceOpen) {
@@ -2111,13 +2041,17 @@
 
         let total = cards.length;
         try {
-          if (Array.isArray(quizData)) total = quizData.length;
+          if (typeof window.getVisibleSubjectCount === "function") {
+            total = window.getVisibleSubjectCount();
+          } else if (Array.isArray(quizData)) {
+            total = quizData.length;
+          }
         } catch (error) {
           // The DOM count remains a safe fallback while app.js initializes.
         }
 
         const count = document.getElementById("subjects-count");
-        const countText = `${total} Total`;
+        const countText = `${total} مادة`;
         if (count && count.textContent !== countText)
           count.textContent = countText;
       }

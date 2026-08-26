@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_f29be9f0f6badf3ccab1",
+    "file": "Fourth Year/Comparative_1.json",
+    "reason": "These nonduplicate items make opposite claims about the same vaguely worded “confinement ... to the boundary of language.” Remove both unless the course source is quoted in a rewritten stem."
+  },
+  {
+    "id": "q_1aeb1b8f317a56deb2ca",
+    "file": "Fourth Year/Comparative_1.json",
+    "reason": "These nonduplicate items make opposite claims about the same vaguely worded “confinement ... to the boundary of language.” Remove both unless the course source is quoted in a rewritten stem."
+  },
+  {
+    "id": "q_29074c78ce0f5d31336c",
+    "file": "Fourth Year/comparative_2.json",
+    "reason": "Exact duplicate E15 is a sweeping, academically indefensible claim that characters in “most Greek tragedies” never decide, are submissive, and are superstitious. No single keeper is reliable."
+  },
+  {
+    "id": "q_b5e3cc09b60b4c81d962",
+    "file": "Fourth Year/comparative_2.json",
+    "reason": "Exact duplicate E15 is a sweeping, academically indefensible claim that characters in “most Greek tragedies” never decide, are submissive, and are superstitious. No single keeper is reliable."
+  },
+  {
+    "id": "q_25ee2ec6964db73bb949",
+    "file": "Fourth Year/comparative_2.json",
+    "reason": "Exact duplicate E15 is a sweeping, academically indefensible claim that characters in “most Greek tragedies” never decide, are submissive, and are superstitious. No single keeper is reliable."
+  },
+  {
+    "id": "q_4ffdc32dd069fdf74c4b",
+    "file": "Fourth Year/comparative_2.json",
+    "reason": "The NOT-true item is ambiguous: Sartre is often called a father/leader of existentialism, while gods are literally present in the play despite its atheistic argument. Rewrite from a primary-text fact or remove."
+  },
+  {
+    "id": "q_75addff4bad505d3d8aa",
+    "file": "Fourth Year/comparative_2.json",
+    "reason": "There is no defensible single country in which both existentialism and nihilism “originated”; the option itself contains an editorial dispute. Remove."
+  },
+  {
+    "id": "q_ca22bea39831e8a0675b",
+    "file": "Fourth Year/comparative_2.json",
+    "reason": "“Definitely ahead of his time on feminist issues” is an unbounded evaluative claim, not a stable single-answer fact. Replace with a text-specific question or remove."
+  },
+  {
+    "id": "q_b1f042532b3266996f90",
+    "file": "Fourth Year/criticism_2.json",
+    "reason": "The fill-blank asserts the same disputed proposition that exact group E23 correctly retains as False. None of its alternatives supplies a securely documented criticism of Old Historicism; remove rather than key “simple literary works.”"
+  },
+  {
+    "id": "q_eb3698f3dee793fd9680",
+    "file": "Fourth Year/Teaching_Methodologies.json",
+    "reason": "No option is correct: Grammar-Translation is not most consistent with Task-Based Learning, TPR, Audio-Lingualism, or the Oral Approach."
+  }
+]

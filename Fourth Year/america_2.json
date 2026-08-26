@@ -12,7 +12,15 @@
         "Emily Dickinson's poetry"
       ],
       "correct": 1,
-      "feedback": "عنوان الرواية مقتبس من قصيدة للشاعر الأسكتلندي روبرت بيرنز بعنوان 'إلى فأرة'، وتحديداً من البيت الذي يقول إن 'أفضل الخطط للفئران والرجال غالباً ما تفشل' [1]."
+      "feedback": "عنوان الرواية مقتبس من قصيدة للشاعر الأسكتلندي روبرت بيرنز بعنوان 'إلى فأرة'، وتحديداً من البيت الذي يقول إن 'أفضل الخطط للفئران والرجال غالباً ما تفشل' [1].",
+      "id": "q_f5db203c3112eea0b588",
+      "legacyIds": [
+        "id_27050449",
+        "qid_2c4c0098"
+      ],
+      "legacyPrimaryIds": [
+        "qid_2c4c0098"
+      ]
     },
     {
       "q": "George and Lennie travel together because......",
@@ -23,13 +31,34 @@
         "they escaped from prison."
       ],
       "correct": 1,
-      "feedback": "يسافر جورج مع ليني لأنه وعد عمته كلارا قبل وفاتها بأنه سيعتني به نظراً لإعاقته الذهنية [69، 133]."
+      "feedback": "يسافر جورج مع ليني لأنه وعد عمته كلارا قبل وفاتها بأنه سيعتني به نظراً لإعاقته الذهنية [69، 133].",
+      "id": "q_63c232b42f6981ff07bd",
+      "legacyIds": [
+        "id_6f234563",
+        "qid_39a643e5"
+      ],
+      "legacyPrimaryIds": [
+        "qid_39a643e5"
+      ]
     },
     {
       "q": "What animal does Lennie accidentally kill at the beginning of the novel?",
-      "options": ["A rabbit", "A mouse", "A puppy", "A bird"],
+      "options": [
+        "A rabbit",
+        "A mouse",
+        "A puppy",
+        "A bird"
+      ],
       "correct": 1,
-      "feedback": "في بداية الرواية، يقتل ليني فأراً عن طريق الخطأ لأنه يداعبه بقوة مفرطة لا يدركها [133، 199]."
+      "feedback": "في بداية الرواية، يقتل ليني فأراً عن طريق الخطأ لأنه يداعبه بقوة مفرطة لا يدركها [133، 199].",
+      "id": "q_4de0a8b2b5b055cedfa9",
+      "legacyIds": [
+        "id_f17c3c0",
+        "qid_289031af"
+      ],
+      "legacyPrimaryIds": [
+        "qid_289031af"
+      ]
     },
     {
       "q": "Candy's dog symbolizes .......",
@@ -40,7 +69,15 @@
         "protection and guidance"
       ],
       "correct": 0,
-      "feedback": "يرمز كلب كاندي إلى مصير الضعفاء وكبار السن في مجتمع الكساد الكبير؛ فبمجرد أن يفقد الكائن (أو الإنسان) فائدته العملية يتم التخلص منه [51، 137]."
+      "feedback": "يرمز كلب كاندي إلى مصير الضعفاء وكبار السن في مجتمع الكساد الكبير؛ فبمجرد أن يفقد الكائن (أو الإنسان) فائدته العملية يتم التخلص منه [51، 137].",
+      "id": "q_1c5e978672f445d0e3e5",
+      "legacyIds": [
+        "id_4d9de0ee",
+        "qid_7bf4d2e8"
+      ],
+      "legacyPrimaryIds": [
+        "qid_7bf4d2e8"
+      ]
     },
     {
       "q": "Why does Candy want to join George and Lennie?",
@@ -51,7 +88,15 @@
         "He fears Curley."
       ],
       "correct": 1,
-      "feedback": "يرغب كاندي في الانضمام إليهما لأنه يملك مدخرات مالية يود المساهمة بها مقابل تأمين مستقبله في مزرعتهما الخاصة خوفاً من طرده من المزرعة الحالية [2]."
+      "feedback": "يرغب كاندي في الانضمام إليهما لأنه يملك مدخرات مالية يود المساهمة بها مقابل تأمين مستقبله في مزرعتهما الخاصة خوفاً من طرده من المزرعة الحالية [2].",
+      "id": "q_8aff778405335b416b38",
+      "legacyIds": [
+        "id_182f2d71",
+        "qid_2d1879a9"
+      ],
+      "legacyPrimaryIds": [
+        "qid_2d1879a9"
+      ]
     },
     {
       "q": "After the accident, Lennie goes to ......",
@@ -62,7 +107,15 @@
         "Slim's cabin."
       ],
       "correct": 1,
-      "feedback": "اتفق جورج وليني مسبقاً على أنه في حال وقوع أي مشكلة، يجب على ليني الذهاب والاختباء عند ضفة النهر (بين الشجيرات) [36، 132، 287]."
+      "feedback": "اتفق جورج وليني مسبقاً على أنه في حال وقوع أي مشكلة، يجب على ليني الذهاب والاختباء عند ضفة النهر (بين الشجيرات) [36، 132، 287].",
+      "id": "q_c6c67093819246d2408a",
+      "legacyIds": [
+        "id_4e6adc3a",
+        "qid_38c63e50"
+      ],
+      "legacyPrimaryIds": [
+        "qid_38c63e50"
+      ]
     },
     {
       "q": "Which historical event forms the background of the novel?",
@@ -73,7 +126,15 @@
         "The American Revolution."
       ],
       "correct": 1,
-      "feedback": "تدور أحداث الرواية خلال فترة الكساد الكبير في ثلاثينيات القرن العشرين، وهي فترة الفقر والبطالة في أمريكا [3]."
+      "feedback": "تدور أحداث الرواية خلال فترة الكساد الكبير في ثلاثينيات القرن العشرين، وهي فترة الفقر والبطالة في أمريكا [3].",
+      "id": "q_a6382be687e5b826ea9b",
+      "legacyIds": [
+        "id_5bdadcc9",
+        "qid_15c182fe"
+      ],
+      "legacyPrimaryIds": [
+        "qid_15c182fe"
+      ]
     },
     {
       "q": "Carlson's reaction to Lennie's death reveals.......",
@@ -84,7 +145,15 @@
         "religious faith."
       ],
       "correct": 2,
-      "feedback": "يُظهر كارلسون افتقاراً تاماً للتعاطف عندما يسأل في نهاية الرواية 'ما الذي يزعج هذين الرجلين؟'، وهو ما يعكس قسوة ذلك العصر [1]."
+      "feedback": "يُظهر كارلسون افتقاراً تاماً للتعاطف عندما يسأل في نهاية الرواية 'ما الذي يزعج هذين الرجلين؟'، وهو ما يعكس قسوة ذلك العصر [1].",
+      "id": "q_671480c5083e98df4e5a",
+      "legacyIds": [
+        "id_549631a0",
+        "qid_2b122535"
+      ],
+      "legacyPrimaryIds": [
+        "qid_2b122535"
+      ]
     },
     {
       "q": "Candy's regret over his dog reflects........",
@@ -95,31 +164,91 @@
         "his health."
       ],
       "correct": 0,
-      "feedback": "ندم كاندي يعكس خوفه الشخصي من أن يصبح عجوزاً وعاجزاً ويتم التخلص منه كما فُعل بكلبه [2]."
+      "feedback": "ندم كاندي يعكس خوفه الشخصي من أن يصبح عجوزاً وعاجزاً ويتم التخلص منه كما فُعل بكلبه [2].",
+      "id": "q_528796610d22c86527ab",
+      "legacyIds": [
+        "id_230416a",
+        "qid_6ea2f70"
+      ],
+      "legacyPrimaryIds": [
+        "qid_6ea2f70"
+      ]
     },
     {
       "q": "Now what the hell ya suppose is eatin' them two guys? is said by........",
-      "options": ["Curley", "Carlson", "Slim", "Candy"],
+      "options": [
+        "Curley",
+        "Carlson",
+        "Slim",
+        "Candy"
+      ],
       "correct": 1,
-      "feedback": "كارلسون هو من قال هذه العبارة في ختام الرواية، وهي تدل على الجهل بمعنى الصداقة والحزن الإنساني [1]."
+      "feedback": "كارلسون هو من قال هذه العبارة في ختام الرواية، وهي تدل على الجهل بمعنى الصداقة والحزن الإنساني [1].",
+      "id": "q_33c770e0caeed60fa363",
+      "legacyIds": [
+        "id_7d12ddff",
+        "qid_c53daa2"
+      ],
+      "legacyPrimaryIds": [
+        "qid_c53daa2"
+      ]
     },
     {
       "q": "With us it ain't like that. We got a future is said by.........",
-      "options": ["George", "Lennie", "Candy", "Slim"],
+      "options": [
+        "George",
+        "Lennie",
+        "Candy",
+        "Slim"
+      ],
       "correct": 0,
-      "feedback": "جورج هو من يقول ذلك ليعزز فكرة أن علاقته بليني مختلفة عن بقية العمال المشردين لأن لديهما حلماً مشتركاً ومستقبلاً [4]."
+      "feedback": "جورج هو من يقول ذلك ليعزز فكرة أن علاقته بليني مختلفة عن بقية العمال المشردين لأن لديهما حلماً مشتركاً ومستقبلاً [4].",
+      "id": "q_e2704057da87eecc017e",
+      "legacyIds": [
+        "id_456df1e8",
+        "qid_7740822a"
+      ],
+      "legacyPrimaryIds": [
+        "qid_7740822a"
+      ]
     },
     {
       "q": "Ain't many guys travel around together, I don't know why. Maybe ever'body in the whole world is scared of each other.",
-      "options": ["proud", "scared", "impressed", "friendly"],
+      "options": [
+        "proud",
+        "scared",
+        "impressed",
+        "friendly"
+      ],
       "correct": 1,
-      "feedback": "هذا التساؤل طرحه سليم (Slim)، مشيراً إلى أن الخوف والشك هما ما يمنعان الناس من تكوين صداقات في العالم الحديث [5]."
+      "feedback": "هذا التساؤل طرحه سليم (Slim)، مشيراً إلى أن الخوف والشك هما ما يمنعان الناس من تكوين صداقات في العالم الحديث [5].",
+      "id": "q_b81861d5062e7d95809e",
+      "legacyIds": [
+        "id_6dbb3563",
+        "qid_5d4e47d9"
+      ],
+      "legacyPrimaryIds": [
+        "qid_5d4e47d9"
+      ]
     },
     {
       "q": "Lennie's rabbit is symbolic of the ...... he wants to find in a home place.",
-      "options": ["comfort", "false hope", "both a & b", "evil"],
+      "options": [
+        "comfort",
+        "false hope",
+        "both a & b",
+        "evil"
+      ],
       "correct": 2,
-      "feedback": "تمثل الأرانب الراحة التي ينشدها ليني، ولكنها تمثل أيضاً الأمل الكاذب لأن هذا الحلم لا يتحقق أبداً وينتهي بمأساة [133، 280]."
+      "feedback": "تمثل الأرانب الراحة التي ينشدها ليني، ولكنها تمثل أيضاً الأمل الكاذب لأن هذا الحلم لا يتحقق أبداً وينتهي بمأساة [133، 280].",
+      "id": "q_0d05d8e383213e4bfbe2",
+      "legacyIds": [
+        "id_210d4fc8",
+        "qid_2079c5c9"
+      ],
+      "legacyPrimaryIds": [
+        "qid_2079c5c9"
+      ]
     },
     {
       "q": "Just like heaven. Everybody wants a little piece of lan'...Nobody never gets to heaven, and nobody gets no land. It's just in their head. is speaking to ........",
@@ -130,13 +259,34 @@
         "George/Lennie"
       ],
       "correct": 1,
-      "feedback": "كروكس (السايس الأسود) هو من قال هذه الكلمات لليني، معبراً عن تشاؤمه من قدرة أي عامل مزارع على امتلاك أرض [6]."
+      "feedback": "كروكس (السايس الأسود) هو من قال هذه الكلمات لليني، معبراً عن تشاؤمه من قدرة أي عامل مزارع على امتلاك أرض [6].",
+      "id": "q_32c838b4987f1384fc20",
+      "legacyIds": [
+        "id_34b4db48",
+        "qid_19074b60"
+      ],
+      "legacyPrimaryIds": [
+        "qid_19074b60"
+      ]
     },
     {
       "q": "... was a proud aloof man. He kept his distance and demanded that other people keep theirs. This is a description of ........",
-      "options": ["Candy", "Slim", "George", "Crooks"],
+      "options": [
+        "Candy",
+        "Slim",
+        "George",
+        "Crooks"
+      ],
       "correct": 3,
-      "feedback": "هذا الوصف يخص كروكس (Crooks)، الذي اضطر لعزل نفسه بسبب التمييز العنصري والوحدة [6]."
+      "feedback": "هذا الوصف يخص كروكس (Crooks)، الذي اضطر لعزل نفسه بسبب التمييز العنصري والوحدة [6].",
+      "id": "q_b06c1fed4ceeded7a90f",
+      "legacyIds": [
+        "id_5eb37039",
+        "qid_500ddf42"
+      ],
+      "legacyPrimaryIds": [
+        "qid_500ddf42"
+      ]
     },
     {
       "q": "Lennie hallucinates .......",
@@ -147,115 +297,357 @@
         "the alfalfa"
       ],
       "correct": 2,
-      "feedback": "في نهاية الرواية، تظهر لليني هلاوس بصرية تتمثل في عمته كلارا وأرنب ضخم يوبخانه [7]."
+      "feedback": "في نهاية الرواية، تظهر لليني هلاوس بصرية تتمثل في عمته كلارا وأرنب ضخم يوبخانه [7].",
+      "id": "q_f5cc357a97f8ad8e1335",
+      "legacyIds": [
+        "id_1d1f9422",
+        "qid_332bd746"
+      ],
+      "legacyPrimaryIds": [
+        "qid_332bd746"
+      ]
     },
     {
       "q": "..... is a symbol of George and Lennie's dream.",
-      "options": ["Weed", "The alfalfa", "The rabbit", "The old dog"],
+      "options": [
+        "Weed",
+        "The alfalfa",
+        "The rabbit",
+        "The old dog"
+      ],
       "correct": 2,
-      "feedback": "تُعد الأرانب الرمز الأقوى لحلم ليني وجورج في امتلاك مزرعة خاصة بهما [8]."
+      "feedback": "تُعد الأرانب الرمز الأقوى لحلم ليني وجورج في امتلاك مزرعة خاصة بهما [8].",
+      "id": "q_98e5fc73f37e2865d649",
+      "legacyIds": [
+        "id_4c66c538",
+        "qid_2f1d05bc"
+      ],
+      "legacyPrimaryIds": [
+        "qid_2f1d05bc"
+      ]
     },
     {
       "q": "Candy is a ............",
-      "options": ["swamper", "skinner", "ranch hand", "none"],
+      "options": [
+        "swamper",
+        "skinner",
+        "ranch hand",
+        "none"
+      ],
       "correct": 0,
-      "feedback": "كاندي يعمل كـ 'swamper' (عامل تنظيف) في المزرعة بسبب كبر سنه وفقدانه ليده [15، 294]."
+      "feedback": "كاندي يعمل كـ 'swamper' (عامل تنظيف) في المزرعة بسبب كبر سنه وفقدانه ليده [15، 294].",
+      "id": "q_dc338d004da95607f9d6",
+      "legacyIds": [
+        "id_7ad91c9e",
+        "qid_74f28966"
+      ],
+      "legacyPrimaryIds": [
+        "qid_74f28966"
+      ]
     },
     {
       "q": "George confides in ...... revealing the tragic incident in Weed.",
-      "options": ["Candy", "Curley", "Crooks", "Slim"],
+      "options": [
+        "Candy",
+        "Curley",
+        "Crooks",
+        "Slim"
+      ],
       "correct": 3,
-      "feedback": "جورج يثق في سليم (Slim) ويخبره بالحقيقة عما حدث في بلدة 'ويد' نظراً لحكمة سليم واتزانه [76، 137]."
+      "feedback": "جورج يثق في سليم (Slim) ويخبره بالحقيقة عما حدث في بلدة 'ويد' نظراً لحكمة سليم واتزانه [76، 137].",
+      "id": "q_24a26fff104f1167e7fa",
+      "legacyIds": [
+        "id_5ee7f6bd",
+        "qid_82ea823"
+      ],
+      "legacyPrimaryIds": [
+        "qid_82ea823"
+      ]
     },
     {
       "q": "A guy needs somebody to be near him. This quotation refers to ......",
-      "options": ["alienation", "protection", "aggression", "separation"],
+      "options": [
+        "alienation",
+        "protection",
+        "aggression",
+        "separation"
+      ],
       "correct": 0,
-      "feedback": "تشير هذه العبارة إلى موضوع 'الاغتراب' (Alienation) والوحدة التي يعاني منها العمال المهاجرون [9]."
+      "feedback": "تشير هذه العبارة إلى موضوع 'الاغتراب' (Alienation) والوحدة التي يعاني منها العمال المهاجرون [9].",
+      "id": "q_c71636511e2461a8d2ab",
+      "legacyIds": [
+        "id_46982a92",
+        "qid_3c8cb87d"
+      ],
+      "legacyPrimaryIds": [
+        "qid_3c8cb87d"
+      ]
     },
     {
       "q": "The action of the novel is centered on a --- operation",
-      "options": ["killing", "sabotage", "destruction", "none"],
+      "options": [
+        "killing",
+        "sabotage",
+        "destruction",
+        "none"
+      ],
       "correct": 1,
-      "feedback": "تتمحور أحداث رواية همنغواي حول مهمة 'تخريب' (Sabotage) عسكرية لتفجير جسر [10]."
+      "feedback": "تتمحور أحداث رواية همنغواي حول مهمة 'تخريب' (Sabotage) عسكرية لتفجير جسر [10].",
+      "id": "q_a08c0a0fa706d8e97def",
+      "legacyIds": [
+        "id_4b91fca6",
+        "qid_7ea3635"
+      ],
+      "legacyPrimaryIds": [
+        "qid_7ea3635"
+      ]
     },
     {
       "q": "behind the ---lines",
-      "options": ["Communist", "Republican", "Fascist", "all"],
+      "options": [
+        "Communist",
+        "Republican",
+        "Fascist",
+        "all"
+      ],
       "correct": 2,
-      "feedback": "تجري أحداث المهمة خلف خطوط القوات 'الفاشية' (Fascist) التابعة للجنرال فرانكو [10]."
+      "feedback": "تجري أحداث المهمة خلف خطوط القوات 'الفاشية' (Fascist) التابعة للجنرال فرانكو [10].",
+      "id": "q_b406ae14ab00c6d694b7",
+      "legacyIds": [
+        "id_4f61afe9",
+        "qid_12d3379"
+      ],
+      "legacyPrimaryIds": [
+        "qid_12d3379"
+      ]
     },
     {
       "q": "during the ---Civil War",
-      "options": ["Spanish", "American", "Republican", "none"],
+      "options": [
+        "Spanish",
+        "American",
+        "Republican",
+        "none"
+      ],
       "correct": 0,
-      "feedback": "الرواية تقع أحداثها خلال 'الحرب الأهلية الإسبانية' (Spanish Civil War) [10]."
+      "feedback": "الرواية تقع أحداثها خلال 'الحرب الأهلية الإسبانية' (Spanish Civil War) [10].",
+      "id": "q_b18d7f92af3f6558c0d2",
+      "legacyIds": [
+        "id_29843fb7",
+        "qid_384bad64"
+      ],
+      "legacyPrimaryIds": [
+        "qid_384bad64"
+      ]
     },
     {
       "q": "Robert Jordan, an American ---",
-      "options": ["volunteer", "soldier", "fighter", "all"],
+      "options": [
+        "volunteer",
+        "soldier",
+        "fighter",
+        "all"
+      ],
       "correct": 0,
-      "feedback": "روبرت جوردان هو 'متطوع' (Volunteer) أمريكي جاء لدعم القضية الجمهورية [101، 163]."
+      "feedback": "روبرت جوردان هو 'متطوع' (Volunteer) أمريكي جاء لدعم القضية الجمهورية [101، 163].",
+      "id": "q_aeaa2d78fe8de9b016c9",
+      "legacyIds": [
+        "id_19767dea",
+        "qid_30e67eea"
+      ],
+      "legacyPrimaryIds": [
+        "qid_30e67eea"
+      ]
     },
     {
       "q": "has been charged with the mission of ---",
-      "options": ["destroying", "changing", "blowing up", "all"],
+      "options": [
+        "destroying",
+        "changing",
+        "blowing up",
+        "all"
+      ],
       "correct": 2,
-      "feedback": "المهمة التي كُلف بها جوردان هي 'تفجير' (Blowing up) الجسر الاستراتيجي [10]."
+      "feedback": "المهمة التي كُلف بها جوردان هي 'تفجير' (Blowing up) الجسر الاستراتيجي [10].",
+      "id": "q_9f10a7791aa236cd6c7e",
+      "legacyIds": [
+        "id_29e82934",
+        "qid_4703d8e3"
+      ],
+      "legacyPrimaryIds": [
+        "qid_4703d8e3"
+      ]
     },
     {
       "q": "a bridge in order to prevent --- troops",
-      "options": ["Republican", "American", "Fascist", "none"],
+      "options": [
+        "Republican",
+        "American",
+        "Fascist",
+        "none"
+      ],
       "correct": 2,
-      "feedback": "الهدف هو منع وصول تعزيزات القوات 'الفاشية' (Fascist) لموقع القتال [10]."
+      "feedback": "الهدف هو منع وصول تعزيزات القوات 'الفاشية' (Fascist) لموقع القتال [10].",
+      "id": "q_049c7f6a2a96d47f7884",
+      "legacyIds": [
+        "id_2cd8ff0",
+        "qid_12a1f374"
+      ],
+      "legacyPrimaryIds": [
+        "qid_12a1f374"
+      ]
     },
     {
       "q": "The novel's predominant theme is the ---",
-      "options": ["disintegration", "chivalry", "romance", "none"],
+      "options": [
+        "disintegration",
+        "chivalry",
+        "romance",
+        "none"
+      ],
       "correct": 0,
-      "feedback": "الموضوع المهيمن هو 'تفكك' (Disintegration) العالم القديم وقيمه في ظل الحداثة والحرب [11]."
+      "feedback": "الموضوع المهيمن هو 'تفكك' (Disintegration) العالم القديم وقيمه في ظل الحداثة والحرب [11].",
+      "id": "q_0351b64e544336550c15",
+      "legacyIds": [
+        "id_41fb9186",
+        "qid_e2e109d"
+      ],
+      "legacyPrimaryIds": [
+        "qid_e2e109d"
+      ]
     },
     {
       "q": "of the chivalric order of the old --- world",
-      "options": ["English", "American", "Spanish", "none"],
+      "options": [
+        "English",
+        "American",
+        "Spanish",
+        "none"
+      ],
       "correct": 2,
-      "feedback": "تشير الرواية إلى زوال نظام الفروسية في العالم 'الإسباني' (Spanish) القديم [111، 160]."
+      "feedback": "تشير الرواية إلى زوال نظام الفروسية في العالم 'الإسباني' (Spanish) القديم [111، 160].",
+      "id": "q_5d23119076553820b8b8",
+      "legacyIds": [
+        "id_1a793bad",
+        "qid_688d1317"
+      ],
+      "legacyPrimaryIds": [
+        "qid_688d1317"
+      ]
     },
     {
       "q": "as it is being replaced by the newer ---",
-      "options": ["technology", "ideology", "both a&b", "all"],
+      "options": [
+        "technology",
+        "ideology",
+        "both a&b",
+        "all"
+      ],
       "correct": 2,
-      "feedback": "يتم استبدال القيم القديمة بكل من 'التكنولوجيا' و'الأيديولوجيا' (Both a & b) في العالم الحديث [12]."
+      "feedback": "يتم استبدال القيم القديمة بكل من 'التكنولوجيا' و'الأيديولوجيا' (Both a & b) في العالم الحديث [12].",
+      "id": "q_a669dfd661922ef445c8",
+      "legacyIds": [
+        "id_5308cc37",
+        "qid_ba5b5c2"
+      ],
+      "legacyPrimaryIds": [
+        "qid_ba5b5c2"
+      ]
     },
     {
       "q": "and --- of the modern world.",
-      "options": ["technology", "ideology", "philosophy", "all"],
+      "options": [
+        "technology",
+        "ideology",
+        "philosophy",
+        "all"
+      ],
       "correct": 1,
-      "feedback": "تم استبدال العالم القديم بالأيديولوجيات (Ideology) المتصارعة في القرن العشرين [12]."
+      "feedback": "تم استبدال العالم القديم بالأيديولوجيات (Ideology) المتصارعة في القرن العشرين [12].",
+      "id": "q_e998c3ca4aa17cba8fd1",
+      "legacyIds": [
+        "id_125b0038",
+        "qid_6ea0961"
+      ],
+      "legacyPrimaryIds": [
+        "qid_6ea0961"
+      ]
     },
     {
       "q": "Hemingway employs the --- of the horse and airplane",
-      "options": ["tropes", "range", "troops", "none"],
+      "options": [
+        "tropes",
+        "range",
+        "troops",
+        "none"
+      ],
       "correct": 0,
-      "feedback": "استخدم همنغواي 'استعارات' أو رموز (Tropes) الحصان والطائرة للمقارنة بين الماضي والحاضر [13]."
+      "feedback": "استخدم همنغواي 'استعارات' أو رموز (Tropes) الحصان والطائرة للمقارنة بين الماضي والحاضر [13].",
+      "id": "q_017dbe697ebffc1fc21c",
+      "legacyIds": [
+        "id_24abc323",
+        "qid_4d3d3dd6"
+      ],
+      "legacyPrimaryIds": [
+        "qid_4d3d3dd6"
+      ]
     },
     {
       "q": "to --- these larger themes",
-      "options": ["deal", "portray", "convey", "all"],
+      "options": [
+        "deal",
+        "portray",
+        "convey",
+        "all"
+      ],
       "correct": 1,
-      "feedback": "استخدم هذه الصور لكي 'يصور' (Portray) المواضيع الكبرى التي يتناولها في الرواية."
+      "feedback": "استخدم هذه الصور لكي 'يصور' (Portray) المواضيع الكبرى التي يتناولها في الرواية.",
+      "id": "q_f224021308bee414ad56",
+      "legacyIds": [
+        "id_43ff5657",
+        "qid_4edae422"
+      ],
+      "legacyPrimaryIds": [
+        "qid_4edae422"
+      ]
     },
     {
       "q": "Hemingway uses these images to comment upon the Complex relationship between Spaniards and ---",
-      "options": ["Fascists", "Communists", "religion", "none"],
+      "options": [
+        "Fascists",
+        "Communists",
+        "religion",
+        "none"
+      ],
       "correct": 2,
-      "feedback": "تشير الصور إلى العلاقة المعقدة مع 'الدين' (Religion)، خاصة مع رفض الجمهوريين للكنيسة الكاثوليكية [12]."
+      "feedback": "تشير الصور إلى العلاقة المعقدة مع 'الدين' (Religion)، خاصة مع رفض الجمهوريين للكنيسة الكاثوليكية [12].",
+      "id": "q_76f77563d8c66df33fe2",
+      "legacyIds": [
+        "id_70267e6b",
+        "qid_a162de4"
+      ],
+      "legacyPrimaryIds": [
+        "qid_a162de4"
+      ]
     },
     {
       "q": "The frequent occurrence of these images is not purely ---",
-      "options": ["accidental", "temporary", "influential", "none"],
+      "options": [
+        "accidental",
+        "temporary",
+        "influential",
+        "none"
+      ],
       "correct": 0,
-      "feedback": "تكرار هذه الصور في أعمال همنغواي ليس 'محض صدفة' (Accidental)، بل هو توظيف رمزي مقصود."
+      "feedback": "تكرار هذه الصور في أعمال همنغواي ليس 'محض صدفة' (Accidental)، بل هو توظيف رمزي مقصود.",
+      "id": "q_09dce86a7ee55aab7f31",
+      "legacyIds": [
+        "id_103deeb",
+        "qid_3d39c699"
+      ],
+      "legacyPrimaryIds": [
+        "qid_3d39c699"
+      ]
     },
     {
       "q": "Hemingway uses the horse to represent the --- of the Old World",
@@ -266,115 +658,353 @@
         "all"
       ],
       "correct": 0,
-      "feedback": "يمثل الحصان 'التسلسل الهرمي الأرستقراطي' (Aristocratic hierarchy) والتقاليد العريقة للعالم القديم."
+      "feedback": "يمثل الحصان 'التسلسل الهرمي الأرستقراطي' (Aristocratic hierarchy) والتقاليد العريقة للعالم القديم.",
+      "id": "q_63b041ff1e0bf2c72319",
+      "legacyIds": [
+        "id_31e1da67",
+        "qid_29f1f203"
+      ],
+      "legacyPrimaryIds": [
+        "qid_29f1f203"
+      ]
     },
     {
       "q": "He uses the airplane to represent the invasion of ---",
-      "options": ["America", "Britain", "Spain", "none"],
+      "options": [
+        "America",
+        "Britain",
+        "Spain",
+        "none"
+      ],
       "correct": 2,
-      "feedback": "تمثل الطائرات غزو التكنولوجيا القاتلة لسماء 'إسبانيا' (Spain) وتدمير بساطتها."
+      "feedback": "تمثل الطائرات غزو التكنولوجيا القاتلة لسماء 'إسبانيا' (Spain) وتدمير بساطتها.",
+      "id": "q_72d17b0ee22983affad5",
+      "legacyIds": [
+        "id_e95dbef",
+        "qid_7af34f41"
+      ],
+      "legacyPrimaryIds": [
+        "qid_7af34f41"
+      ]
     },
     {
       "q": "by modern technology and ---",
-      "options": ["ideologies", "theories", "notions", "all"],
+      "options": [
+        "ideologies",
+        "theories",
+        "notions",
+        "all"
+      ],
       "correct": 0,
-      "feedback": "الحداثة جلبت معها التكنولوجيا المتطورة والأيديولوجيات (Ideologies) السياسية الجديدة."
+      "feedback": "الحداثة جلبت معها التكنولوجيا المتطورة والأيديولوجيات (Ideologies) السياسية الجديدة.",
+      "id": "q_84c36869e6b36c829475",
+      "legacyIds": [
+        "id_6c9519d6",
+        "qid_54349c8"
+      ],
+      "legacyPrimaryIds": [
+        "qid_54349c8"
+      ]
     },
     {
       "q": "No man is an Iland\", \"Iland\" means ---",
-      "options": ["Iceland", "Island", "Isle", "All"],
+      "options": [
+        "Iceland",
+        "Island",
+        "Isle",
+        "All"
+      ],
       "correct": 1,
-      "feedback": "كلمة 'Iland' في الإنجليزية القديمة المستخدمة في قصيدة جون دون تعني 'جزيرة' (Island) [14]."
+      "feedback": "كلمة 'Iland' في الإنجليزية القديمة المستخدمة في قصيدة جون دون تعني 'جزيرة' (Island) [14].",
+      "id": "q_b9aff43aa4df573d1796",
+      "legacyIds": [
+        "id_4e3d5c77",
+        "qid_70833b19"
+      ],
+      "legacyPrimaryIds": [
+        "qid_70833b19"
+      ]
     },
     {
-      "q": "intire of itself\", \"intire\" means ---",
-      "options": ["enter", "entirety", "entirely", "all"],
+      "q": "In Donne’s phrase “No man is an island, intire of itself,” the archaic word “intire” means:",
+      "options": [
+        "enter",
+        "whole / complete",
+        "entirely",
+        "all"
+      ],
       "correct": 1,
-      "feedback": "كلمة 'intire' تعني 'بالكامل' أو 'بأكمله' (Entirety) [14]."
+      "feedback": "In Donne’s phrase “No man is an island, intire of itself,” archaic “intire” is an adjective meaning whole/complete; the noun “entirety” is grammatically wrong.",
+      "id": "q_2b593ace7adc9787ebd0",
+      "legacyIds": [
+        "id_75a24745",
+        "qid_1d5c60d7"
+      ],
+      "legacyPrimaryIds": [
+        "qid_1d5c60d7"
+      ]
     },
     {
       "q": "Any man's death --- me",
-      "options": ["decreases", "reduces", "diminishes", "none"],
+      "options": [
+        "decreases",
+        "reduces",
+        "diminishes",
+        "none"
+      ],
       "correct": 2,
-      "feedback": "يقول جون دون إن موت أي إنسان 'ينقصني' (Diminishes) لأنني جزء من البشرية [14]."
+      "feedback": "يقول جون دون إن موت أي إنسان 'ينقصني' (Diminishes) لأنني جزء من البشرية [14].",
+      "id": "q_990822a13d4a1b3bb920",
+      "legacyIds": [
+        "id_5d057ce2",
+        "qid_57d727c5"
+      ],
+      "legacyPrimaryIds": [
+        "qid_57d727c5"
+      ]
     },
     {
       "q": "All the characters in the novel can justify killing for the cause.",
-      "options": ["True", "False"],
+      "options": [
+        "True",
+        "False"
+      ],
       "correct": 1,
-      "feedback": "الإجابة خاطئة (False)؛ لأن أنسيلمو (Anselmo) لا يستطيع تبرير القتل تماماً، فهو يراه خطيئة وجريمة بحق البشرية رغم أنه يقوم به كواجب [1, 2]."
+      "feedback": "الإجابة خاطئة (False)؛ لأن أنسيلمو (Anselmo) لا يستطيع تبرير القتل تماماً، فهو يراه خطيئة وجريمة بحق البشرية رغم أنه يقوم به كواجب [1, 2].",
+      "id": "q_6cc0863154649828ff35",
+      "legacyIds": [
+        "id_35418f89",
+        "qid_2ed58ed"
+      ],
+      "legacyPrimaryIds": [
+        "qid_2ed58ed"
+      ]
     },
     {
       "q": "'I am not of the race of Pablo' is said by.......",
-      "options": ["Eladio", "Anselmo", "Robert", "Rafael"],
+      "options": [
+        "Eladio",
+        "Anselmo",
+        "Robert",
+        "Rafael"
+      ],
       "correct": 1,
-      "feedback": "أنسيلمو (Anselmo) هو من قال هذه العبارة ليؤكد أنه لا يشبه بابلو في خيانته أو قسوته، بل هو مخلص للقضية [1, 3]."
+      "feedback": "أنسيلمو (Anselmo) هو من قال هذه العبارة ليؤكد أنه لا يشبه بابلو في خيانته أو قسوته، بل هو مخلص للقضية [1, 3].",
+      "id": "q_b2d5721f1a46579956d5",
+      "legacyIds": [
+        "id_767a4ea9",
+        "qid_50afb8c8"
+      ],
+      "legacyPrimaryIds": [
+        "qid_50afb8c8"
+      ]
     },
     {
       "q": "'reluctant' means..",
-      "options": ["unwilling", "aggressive", "precise", "whimsical"],
+      "options": [
+        "unwilling",
+        "aggressive",
+        "precise",
+        "whimsical"
+      ],
       "correct": 0,
-      "feedback": "كلمة 'reluctant' تعني الممانعة أو عدم الرغبة (unwilling) في القيام بشيء ما [1, 4]."
+      "feedback": "كلمة 'reluctant' تعني الممانعة أو عدم الرغبة (unwilling) في القيام بشيء ما [1, 4].",
+      "id": "q_ec6ef625f8042e8bd0a0",
+      "legacyIds": [
+        "id_6686a4ef",
+        "qid_47c1301e"
+      ],
+      "legacyPrimaryIds": [
+        "qid_47c1301e"
+      ]
     },
     {
       "q": "'But with or without God, I think it is a sin to kill' is said by.....",
-      "options": ["Agustin", "Robert", "Anselmo", "Pilar"],
+      "options": [
+        "Agustin",
+        "Robert",
+        "Anselmo",
+        "Pilar"
+      ],
       "correct": 2,
-      "feedback": "أنسيلمو (Anselmo) هو من قال هذه العبارة، حيث تعكس صراعه الأخلاقي العميق تجاه فكرة القتل حتى في أوقات الحرب [1, 2]."
+      "feedback": "أنسيلمو (Anselmo) هو من قال هذه العبارة، حيث تعكس صراعه الأخلاقي العميق تجاه فكرة القتل حتى في أوقات الحرب [1, 2].",
+      "id": "q_612c71c12984f77e7632",
+      "legacyIds": [
+        "id_1639e77c",
+        "qid_10425076"
+      ],
+      "legacyPrimaryIds": [
+        "qid_10425076"
+      ]
     },
     {
       "q": "[ _____ ] is the belief that nothing has any meaning or value.",
-      "options": ["Fascism", "Nihilism", "Communism", "Modernism"],
+      "options": [
+        "Fascism",
+        "Nihilism",
+        "Communism",
+        "Modernism"
+      ],
       "correct": 1,
-      "feedback": "العدمية (Nihilism) هي الاعتقاد الفلسفي بأن الحياة والقيم ليس لها معنى أو قيمة حقيقية [1, 2]."
+      "feedback": "العدمية (Nihilism) هي الاعتقاد الفلسفي بأن الحياة والقيم ليس لها معنى أو قيمة حقيقية [1, 2].",
+      "id": "q_91b960a9145af6cdd97d",
+      "legacyIds": [
+        "id_4de95114",
+        "qid_1b4590f4"
+      ],
+      "legacyPrimaryIds": [
+        "qid_1b4590f4"
+      ]
     },
     {
       "q": "Robert Jordan is prepared to [ _____ ] to avoid being captured.",
-      "options": ["kill himself", "be killed", "kill enemies", "All"],
+      "options": [
+        "kill himself",
+        "be killed",
+        "kill enemies",
+        "All"
+      ],
       "correct": 0,
-      "feedback": "روبرت جوردان مستعد لقتل نفسه (kill himself) لتجنب الوقوع في أسر الفاشيين، تماماً كما فعل كاشكين [5, 6]."
+      "feedback": "روبرت جوردان مستعد لقتل نفسه (kill himself) لتجنب الوقوع في أسر الفاشيين، تماماً كما فعل كاشكين [5, 6].",
+      "id": "q_2cb934126355e988bcdb",
+      "legacyIds": [
+        "id_18249a2b",
+        "qid_626ecebe"
+      ],
+      "legacyPrimaryIds": [
+        "qid_626ecebe"
+      ]
     },
     {
       "q": "Hemingway characterizes suicide as an act of cowardice by associating it with vulnerable characters.",
-      "options": ["True", "False"],
+      "options": [
+        "True",
+        "False"
+      ],
       "correct": 0,
-      "feedback": "صحيح (True)؛ همنغواي ربط الانتحار بشخصيات ضعيفة مثل والد روبرت جوردان، واعتبره عملاً جباناً في البداية [1, 7]."
+      "feedback": "صحيح (True)؛ همنغواي ربط الانتحار بشخصيات ضعيفة مثل والد روبرت جوردان، واعتبره عملاً جباناً في البداية [1, 7].",
+      "id": "q_2315dbb64ba8e959bcce",
+      "legacyIds": [
+        "id_31e40594",
+        "qid_2adb4a07"
+      ],
+      "legacyPrimaryIds": [
+        "qid_2adb4a07"
+      ]
     },
     {
       "q": "Robert Jordan's nickname for Maria is....",
-      "options": ["Dove", "Rabbit", "squirrel", "both b & c"],
+      "options": [
+        "Dove",
+        "Rabbit",
+        "squirrel",
+        "both b & c"
+      ],
       "correct": 1,
-      "feedback": "روبرت جوردان ينادي ماريا بلقب 'الأرنب' (Rabbit) نظراً لطريقتها في الحركة وخجلها [1, 2]."
+      "feedback": "روبرت جوردان ينادي ماريا بلقب 'الأرنب' (Rabbit) نظراً لطريقتها في الحركة وخجلها [1, 2].",
+      "id": "q_db4b6283cd3e71e316a7",
+      "legacyIds": [
+        "id_cb741b3",
+        "qid_110a2b8b"
+      ],
+      "legacyPrimaryIds": [
+        "qid_110a2b8b"
+      ]
     },
     {
       "q": "'any mans death..... me, because I am involved in Mankind'.",
-      "options": ["occupies", "diminishes", "defeats", "controls"],
+      "options": [
+        "occupies",
+        "diminishes",
+        "defeats",
+        "controls"
+      ],
       "correct": 1,
-      "feedback": "الكلمة الصحيحة هي 'diminishes' (يُنقصني)؛ وهي جزء من الاقتباس الاستهلالي لجون دون، وتعني أن موت أي إنسان يُنقص من قدر البشرية ككل [1, 8]."
+      "feedback": "الكلمة الصحيحة هي 'diminishes' (يُنقصني)؛ وهي جزء من الاقتباس الاستهلالي لجون دون، وتعني أن موت أي إنسان يُنقص من قدر البشرية ككل [1, 8].",
+      "id": "q_10f601aa2c229b40003a",
+      "legacyIds": [
+        "id_37077e83",
+        "qid_689ebd6"
+      ],
+      "legacyPrimaryIds": [
+        "qid_689ebd6"
+      ]
     },
     {
       "q": "'You do know that he is going bad fast without hiding it' is said by....",
-      "options": ["Pilar", "Pablo", "Anselmo", "Robert"],
+      "options": [
+        "Pilar",
+        "Pablo",
+        "Anselmo",
+        "Robert"
+      ],
       "correct": 3,
-      "feedback": "روبرت جوردان (Robert) هو من قال هذه العبارة في مونولوج داخلي واصفاً تدهور حالة بابلو النفسية واتجاهه نحو الخيانة [1, 9]."
+      "feedback": "روبرت جوردان (Robert) هو من قال هذه العبارة في مونولوج داخلي واصفاً تدهور حالة بابلو النفسية واتجاهه نحو الخيانة [1, 9].",
+      "id": "q_d611141c91293dce6b10",
+      "legacyIds": [
+        "id_489dae68",
+        "qid_3dce983a"
+      ],
+      "legacyPrimaryIds": [
+        "qid_3dce983a"
+      ]
     },
     {
       "q": "'If a Clod bee washed away by the Sea, Europe is the lesse' is a(n).....",
-      "options": ["epigraph", "memento mori", "reflection", "monologue"],
+      "options": [
+        "epigraph",
+        "memento mori",
+        "reflection",
+        "monologue"
+      ],
       "correct": 0,
-      "feedback": "هذا النص هو جزء من 'الاقتباس الاستهلالي' (epigraph) للرواية المأخوذ من عظة جون دون [1, 8]."
+      "feedback": "هذا النص هو جزء من 'الاقتباس الاستهلالي' (epigraph) للرواية المأخوذ من عظة جون دون [1, 8].",
+      "id": "q_8d7f3a7dd68def4a59a5",
+      "legacyIds": [
+        "id_3c853512",
+        "qid_d123bcc"
+      ],
+      "legacyPrimaryIds": [
+        "qid_d123bcc"
+      ]
     },
     {
       "q": "Rafael is described as [ _____ ] in the novel.",
-      "options": ["honest", "patriotic", "worthless", "brave"],
+      "options": [
+        "honest",
+        "patriotic",
+        "worthless",
+        "brave"
+      ],
       "correct": 2,
-      "feedback": "وُصف رافائيل الغجري بأنه 'بلا قيمة' (worthless) لأن الغجر وُصفوا بأنهم يتحدثون كثيراً ويفعلون قليلاً [1, 10]."
+      "feedback": "وُصف رافائيل الغجري بأنه 'بلا قيمة' (worthless) لأن الغجر وُصفوا بأنهم يتحدثون كثيراً ويفعلون قليلاً [1, 10].",
+      "id": "q_34adfe35f9738f0c8e05",
+      "legacyIds": [
+        "id_2c565ce",
+        "qid_4a0180d3"
+      ],
+      "legacyPrimaryIds": [
+        "qid_4a0180d3"
+      ]
     },
     {
       "q": "Hemingway gives Pilar some masculine traits such as......",
-      "options": ["self-sufficiency", "hostility", "both a & b", "obedience"],
+      "options": [
+        "self-sufficiency",
+        "hostility",
+        "both a & b",
+        "obedience"
+      ],
       "correct": 2,
-      "feedback": "أعطى همنغواي بيلار صفات ذكورية مثل الاكتفاء الذاتي والعدائية/القوة (both a & b) ليعزز دورها كقائدة قوية [1, 11]."
+      "feedback": "أعطى همنغواي بيلار صفات ذكورية مثل الاكتفاء الذاتي والعدائية/القوة (both a & b) ليعزز دورها كقائدة قوية [1, 11].",
+      "id": "q_da1412b49a0d5a47e429",
+      "legacyIds": [
+        "id_56aab1f8",
+        "qid_6b47ca26"
+      ],
+      "legacyPrimaryIds": [
+        "qid_6b47ca26"
+      ]
     },
     {
       "q": "'When he starts to hide it, he will have made a decision. Remember that..,' is speaking to",
@@ -385,121 +1015,370 @@
         "Pablo/Robert"
       ],
       "correct": 2,
-      "feedback": "روبرت جوردان يتحدث إلى نفسه (Robert/himself) في مونولوج داخلي حول توقيت اتخاذ بابلو لقرار الخيانة [1, 12]."
+      "feedback": "روبرت جوردان يتحدث إلى نفسه (Robert/himself) في مونولوج داخلي حول توقيت اتخاذ بابلو لقرار الخيانة [1, 12].",
+      "id": "q_fefe7531091846d189f0",
+      "legacyIds": [
+        "id_2e1fab0f",
+        "qid_38ad5672"
+      ],
+      "legacyPrimaryIds": [
+        "qid_38ad5672"
+      ]
     },
     {
       "q": "'it' in the previous quotation refers to [ _____ ]",
-      "options": ["reality", "loyalty", "betrayal", "duty"],
+      "options": [
+        "reality",
+        "loyalty",
+        "betrayal",
+        "duty"
+      ],
       "correct": 2,
-      "feedback": "كلمة 'it' تشير إلى 'الخيانة' (betrayal)؛ حيث يراقب جوردان متى سيقرر بابلو خيانتهم [1, 12]."
+      "feedback": "كلمة 'it' تشير إلى 'الخيانة' (betrayal)؛ حيث يراقب جوردان متى سيقرر بابلو خيانتهم [1, 12].",
+      "id": "q_b301130bc297ad060d0d",
+      "legacyIds": [
+        "id_65e8a181",
+        "qid_2b118861"
+      ],
+      "legacyPrimaryIds": [
+        "qid_2b118861"
+      ]
     },
     {
       "q": "Pilar foretells Jordan's future through.......",
-      "options": ["palm reading", "the stars", "prophecy", "imagination"],
+      "options": [
+        "palm reading",
+        "the stars",
+        "prophecy",
+        "imagination"
+      ],
       "correct": 0,
-      "feedback": "بيلار تتنبأ بمستقبل جوردان من خلال 'قراءة الكف' (palm reading) في بداية لقائهم [1, 13]."
+      "feedback": "بيلار تتنبأ بمستقبل جوردان من خلال 'قراءة الكف' (palm reading) في بداية لقائهم [1, 13].",
+      "id": "q_d534ef5b553ac8a1258f",
+      "legacyIds": [
+        "id_57c69498",
+        "qid_1ec2bb74"
+      ],
+      "legacyPrimaryIds": [
+        "qid_1ec2bb74"
+      ]
     },
     {
       "q": "El Sordo's name refers to which characteristic?",
-      "options": ["courage", "blindness", "deafness", "lameness"],
+      "options": [
+        "courage",
+        "blindness",
+        "deafness",
+        "lameness"
+      ],
       "correct": 2,
-      "feedback": "كلمة 'Sordo' تعني 'الأصم' (deafness) باللغة الإسبانية، وهو لقب قائد المقاومة [1]."
+      "feedback": "كلمة 'Sordo' تعني 'الأصم' (deafness) باللغة الإسبانية، وهو لقب قائد المقاومة [1].",
+      "id": "q_5b94eb34d64bc9c1121b",
+      "legacyIds": [
+        "id_5a3e685",
+        "qid_57218da0"
+      ],
+      "legacyPrimaryIds": [
+        "qid_57218da0"
+      ]
     },
     {
       "q": "'Go on, guerilla leader with the sad face' is said by.....",
-      "options": ["Robert", "Anselmo", "Maria", "Pilar"],
+      "options": [
+        "Robert",
+        "Anselmo",
+        "Maria",
+        "Pilar"
+      ],
       "correct": 1,
-      "feedback": "أنسيلمو (Anselmo) هو من قال هذه العبارة مخاطباً بابلو وواصفاً 'وجهه الحزين' الذي يربطه همنغواي بالخيانة [1, 14]."
+      "feedback": "أنسيلمو (Anselmo) هو من قال هذه العبارة مخاطباً بابلو وواصفاً 'وجهه الحزين' الذي يربطه همنغواي بالخيانة [1, 14].",
+      "id": "q_6790d3cb571eeaf8e459",
+      "legacyIds": [
+        "id_13199a4f",
+        "qid_3af6623b"
+      ],
+      "legacyPrimaryIds": [
+        "qid_3af6623b"
+      ]
     },
     {
       "q": "Anselmo shows revulsion at killing people in all circumstances.",
-      "options": ["True", "False"],
+      "options": [
+        "True",
+        "False"
+      ],
       "correct": 1,
-      "feedback": "خطأ (False)؛ لأنه رغم كرهه للقتل، إلا أنه يقوم به إذا كان ضرورياً لمهمته (مثل قتل الحراس) [1, 2]."
+      "feedback": "خطأ (False)؛ لأنه رغم كرهه للقتل، إلا أنه يقوم به إذا كان ضرورياً لمهمته (مثل قتل الحراس) [1, 2].",
+      "id": "q_0f060bd61b3569626af4",
+      "legacyIds": [
+        "id_459348bc",
+        "qid_87815e0"
+      ],
+      "legacyPrimaryIds": [
+        "qid_87815e0"
+      ]
     },
     {
       "q": "What theme does John Donne's epigraph establish?",
-      "options": ["War", "Fear", "Solitude", "Death"],
+      "options": [
+        "War",
+        "Fear",
+        "Solitude",
+        "Death"
+      ],
       "correct": 3,
-      "feedback": "موضوع المقدمة الرئيسي هو الموت (Death) وترابط البشر في مواجهته [1, 8]."
+      "feedback": "موضوع المقدمة الرئيسي هو الموت (Death) وترابط البشر في مواجهته [1, 8].",
+      "id": "q_9a4f213bb8851eb2d957",
+      "legacyIds": [
+        "id_5b5ce1a9",
+        "qid_410de225"
+      ],
+      "legacyPrimaryIds": [
+        "qid_410de225"
+      ]
     },
     {
       "q": "How many days do the events of the novel span?....",
-      "options": ["One", "Two", "Three", "None"],
+      "options": [
+        "One",
+        "Two",
+        "Three",
+        "None"
+      ],
       "correct": 2,
-      "feedback": "تمتد أحداث الرواية على مدار ثلاثة أيام (Three) فقط [1, 15]."
+      "feedback": "تمتد أحداث الرواية على مدار ثلاثة أيام (Three) فقط [1, 15].",
+      "id": "q_758202202f1f7a619c80",
+      "legacyIds": [
+        "id_41fbf6aa",
+        "qid_42db0a8c"
+      ],
+      "legacyPrimaryIds": [
+        "qid_42db0a8c"
+      ]
     },
     {
       "q": "What was Robert Jordan's occupation in America?",
-      "options": ["Soldier", "Professor", "Volunteer", "Dynamiter"],
+      "options": [
+        "Soldier",
+        "Professor",
+        "Volunteer",
+        "Dynamiter"
+      ],
       "correct": 1,
-      "feedback": "كان يعمل أستاذاً جامعياً (Professor) للغة الإسبانية في أمريكا [1, 16]."
+      "feedback": "كان يعمل أستاذاً جامعياً (Professor) للغة الإسبانية في أمريكا [1, 16].",
+      "id": "q_cf6172f0a606f740cfe1",
+      "legacyIds": [
+        "id_45112c35",
+        "qid_3188abdc"
+      ],
+      "legacyPrimaryIds": [
+        "qid_3188abdc"
+      ]
     },
     {
       "q": "Robert suggests that a form of civic penance should be organized after the war to cleanse people from the killing.",
-      "options": ["True", "False"],
+      "options": [
+        "True",
+        "False"
+      ],
       "correct": 0,
-      "feedback": "صحيح (True)؛ جوردان وأنسيلمو ناقشا ضرورة القيام بعمل من أعمال التكفير (penance) بعد الحرب للتطهير من خطيئة القتل [1, 2]."
+      "feedback": "صحيح (True)؛ جوردان وأنسيلمو ناقشا ضرورة القيام بعمل من أعمال التكفير (penance) بعد الحرب للتطهير من خطيئة القتل [1, 2].",
+      "id": "q_39f8ba9f01a4f8114a7b",
+      "legacyIds": [
+        "id_1eb90437",
+        "qid_716b4d92"
+      ],
+      "legacyPrimaryIds": [
+        "qid_716b4d92"
+      ]
     },
     {
       "q": "Lieutenant Berrendo is allied with the.......",
-      "options": ["Fascists", "Spanish", "Russians", "Republicans"],
+      "options": [
+        "Fascists",
+        "Spanish",
+        "Russians",
+        "Republicans"
+      ],
       "correct": 0,
-      "feedback": "الملازم بيرندو (Berrendo) ينتمي لجانب الفاشيين (Fascists) [1, 2]."
+      "feedback": "الملازم بيرندو (Berrendo) ينتمي لجانب الفاشيين (Fascists) [1, 2].",
+      "id": "q_9c750fe1755896b4d225",
+      "legacyIds": [
+        "id_17a62eae",
+        "qid_3aa488ac"
+      ],
+      "legacyPrimaryIds": [
+        "qid_3aa488ac"
+      ]
     },
     {
       "q": "The twentieth century is known as the century of....",
-      "options": ["experience", "war", "absurdism", "naturalness"],
+      "options": [
+        "experience",
+        "war",
+        "absurdism",
+        "naturalness"
+      ],
       "correct": 1,
-      "feedback": "يُوصف القرن العشرون بقرن الحرب (war) نظراً للنزاعات العنيفة التي شهدها [3, 17]."
+      "feedback": "يُوصف القرن العشرون بقرن الحرب (war) نظراً للنزاعات العنيفة التي شهدها [3, 17].",
+      "id": "q_93d4b3ff86fec197cbc2",
+      "legacyIds": [
+        "id_625b2af1",
+        "qid_220c6370"
+      ],
+      "legacyPrimaryIds": [
+        "qid_220c6370"
+      ]
     },
     {
       "q": "[ _____ ] are people who refuse having any government.",
-      "options": ["Fascists", "Republicans", "Anarchists", "Communists"],
+      "options": [
+        "Fascists",
+        "Republicans",
+        "Anarchists",
+        "Communists"
+      ],
       "correct": 2,
-      "feedback": "الفوضويون (Anarchists) هم الذين يرفضون وجود أي حكومة أو سلطة مركزية [3, 18]."
+      "feedback": "الفوضويون (Anarchists) هم الذين يرفضون وجود أي حكومة أو سلطة مركزية [3, 18].",
+      "id": "q_f4b3b5272f65f4cafce4",
+      "legacyIds": [
+        "id_1b36d762",
+        "qid_568364fc"
+      ],
+      "legacyPrimaryIds": [
+        "qid_568364fc"
+      ]
     },
     {
       "q": "Kashkin gives orders to Robert Jordan to blow the bridge.",
-      "options": ["True", "False"],
+      "options": [
+        "True",
+        "False"
+      ],
       "correct": 1,
-      "feedback": "خطأ (False)؛ فالجنرال غولز (Golz) هو من أعطاه الأوامر، بينما كاشكين كان خبير متفجرات سابق وتوفي [3, 19]."
+      "feedback": "خطأ (False)؛ فالجنرال غولز (Golz) هو من أعطاه الأوامر، بينما كاشكين كان خبير متفجرات سابق وتوفي [3, 19].",
+      "id": "q_46230a3429ee2efe3cba",
+      "legacyIds": [
+        "id_3060618",
+        "qid_15685e4c"
+      ],
+      "legacyPrimaryIds": [
+        "qid_15685e4c"
+      ]
     },
     {
       "q": "Gypsies are known for their [ _____ ]",
-      "options": ["intimacy", "wizardry", "harm", "pride"],
+      "options": [
+        "intimacy",
+        "wizardry",
+        "harm",
+        "pride"
+      ],
       "correct": 1,
-      "feedback": "وفقاً لمفتاح الحل والملف، يُعرف الغجر بقدراتهم على التنبؤ أو السحر (wizardry) مثل بيلار [3, 20]."
+      "feedback": "وفقاً لمفتاح الحل والملف، يُعرف الغجر بقدراتهم على التنبؤ أو السحر (wizardry) مثل بيلار [3, 20].",
+      "id": "q_87ac9a5765eb5950cf86",
+      "legacyIds": [
+        "id_7acf551a",
+        "qid_4eb4eb33"
+      ],
+      "legacyPrimaryIds": [
+        "qid_4eb4eb33"
+      ]
     },
     {
       "q": "'I am for the Republic. And the Republic is the bridge' is said by....",
-      "options": ["Robert Jordan", "Anselmo", "Pilar", "Fernando"],
+      "options": [
+        "Robert Jordan",
+        "Anselmo",
+        "Pilar",
+        "Fernando"
+      ],
       "correct": 2,
-      "feedback": "بيلار (Pilar) هي من أكدت ولائها للجمهورية وارتباط ذلك بنجاح مهمة الجسر [3, 20]."
+      "feedback": "بيلار (Pilar) هي من أكدت ولائها للجمهورية وارتباط ذلك بنجاح مهمة الجسر [3, 20].",
+      "id": "q_7217fd49607ea28f6a53",
+      "legacyIds": [
+        "id_3ad77005",
+        "qid_50fa2523"
+      ],
+      "legacyPrimaryIds": [
+        "qid_50fa2523"
+      ]
     },
     {
       "q": "Many characters prefer death over [ _____ ]",
-      "options": ["capture", "assassination", "war", "sin"],
+      "options": [
+        "capture",
+        "assassination",
+        "war",
+        "sin"
+      ],
       "correct": 0,
-      "feedback": "يفضل العديد من الشخصيات الموت على الوقوع في الأسر (capture) تجنباً للتعذيب [3, 21]."
+      "feedback": "يفضل العديد من الشخصيات الموت على الوقوع في الأسر (capture) تجنباً للتعذيب [3, 21].",
+      "id": "q_08620c4b6882011e4208",
+      "legacyIds": [
+        "id_2e145a64",
+        "qid_2f64368e"
+      ],
+      "legacyPrimaryIds": [
+        "qid_2f64368e"
+      ]
     },
     {
       "q": "'demolition' means [ _____ ]",
-      "options": ["atonement", "destruction", "repugnance", "corruption"],
+      "options": [
+        "atonement",
+        "destruction",
+        "repugnance",
+        "corruption"
+      ],
       "correct": 1,
-      "feedback": "كلمة 'demolition' تعني التدمير أو الهدم (destruction) [3, 22]."
+      "feedback": "كلمة 'demolition' تعني التدمير أو الهدم (destruction) [3, 22].",
+      "id": "q_64988b3579c9ec19c047",
+      "legacyIds": [
+        "id_7c25b9aa",
+        "qid_1ddf2c51"
+      ],
+      "legacyPrimaryIds": [
+        "qid_1ddf2c51"
+      ]
     },
     {
       "q": "The sabotage operation is within a [ _____ ] day duration.",
-      "options": ["one", "two", "three", "five"],
+      "options": [
+        "one",
+        "two",
+        "three",
+        "five"
+      ],
       "correct": 2,
-      "feedback": "عملية التخريب بأكملها تحدث ضمن إطار زمني مدته ثلاثة أيام (three) [3, 15]."
+      "feedback": "عملية التخريب بأكملها تحدث ضمن إطار زمني مدته ثلاثة أيام (three) [3, 15].",
+      "id": "q_3061d6bbbaed3e19957c",
+      "legacyIds": [
+        "id_53accf6d",
+        "qid_53343d15"
+      ],
+      "legacyPrimaryIds": [
+        "qid_53343d15"
+      ]
     },
     {
       "q": "For Whom the Bell Tolls opens with (a)n....",
-      "options": ["elegy", "soliloquy", "melody", "epigraph"],
+      "options": [
+        "elegy",
+        "soliloquy",
+        "melody",
+        "epigraph"
+      ],
       "correct": 3,
-      "feedback": "تفتتح الرواية بنص 'الاقتباس الاستهلالي' (epigraph) لجون دون [3, 23]."
+      "feedback": "تفتتح الرواية بنص 'الاقتباس الاستهلالي' (epigraph) لجون دون [3, 23].",
+      "id": "q_1443fac95bb8e6e16cfb",
+      "legacyIds": [
+        "id_79ef1dc5",
+        "qid_2b026d5b"
+      ],
+      "legacyPrimaryIds": [
+        "qid_2b026d5b"
+      ]
     },
     {
       "q": "'It is not you who decides what shall be done.' [ _____ ] is speaking to [ _____ ]",
@@ -510,163 +1389,507 @@
         "Pablo/Robert"
       ],
       "correct": 2,
-      "feedback": "روبرت جوردان يتحدث إلى نفسه (Robert/himself) متمسكاً بالتزامه بالأوامر العسكرية رغم شكوكه [3, 20]."
+      "feedback": "روبرت جوردان يتحدث إلى نفسه (Robert/himself) متمسكاً بالتزامه بالأوامر العسكرية رغم شكوكه [3, 20].",
+      "id": "q_38230ee911c38e4113e9",
+      "legacyIds": [
+        "id_7db9cb69",
+        "qid_7e014840"
+      ],
+      "legacyPrimaryIds": [
+        "qid_7e014840"
+      ]
     },
     {
       "q": "[ _____ ] suggests to imprison Pablo.",
-      "options": ["Primitivo", "Fernando", "Rafael", "Anselmo"],
+      "options": [
+        "Primitivo",
+        "Fernando",
+        "Rafael",
+        "Anselmo"
+      ],
       "correct": 1,
-      "feedback": "فرناندو (Fernando) هو من اقترح سجن بابلو في لحظات التوتر داخل المجموعة [3, 20]."
+      "feedback": "فرناندو (Fernando) هو من اقترح سجن بابلو في لحظات التوتر داخل المجموعة [3, 20].",
+      "id": "q_b558f1c246d8449ffb3c",
+      "legacyIds": [
+        "id_4dbb6aa9",
+        "qid_e1a8ece"
+      ],
+      "legacyPrimaryIds": [
+        "qid_e1a8ece"
+      ]
     },
     {
       "q": "General Golz is allied with the..",
-      "options": ["Fascists", "Spanish", "Italians", "Republicans"],
+      "options": [
+        "Fascists",
+        "Spanish",
+        "Italians",
+        "Republicans"
+      ],
       "correct": 3,
-      "feedback": "الجنرال غولز (Golz) هو قائد روسي حليف للجمهوريين (Republicans) [21, 24]."
+      "feedback": "الجنرال غولز (Golz) هو قائد روسي حليف للجمهوريين (Republicans) [21, 24].",
+      "id": "q_6a690a5bee9bbb6a67bd",
+      "legacyIds": [
+        "id_77dd4d90",
+        "qid_3b39b10c"
+      ],
+      "legacyPrimaryIds": [
+        "qid_3b39b10c"
+      ]
     },
     {
       "q": "Robert Jordan is torn between love and [ _____ ]",
-      "options": ["reality", "loyalty", "family", "duty"],
+      "options": [
+        "reality",
+        "loyalty",
+        "family",
+        "duty"
+      ],
       "correct": 3,
-      "feedback": "يعاني روبرت جوردان من صراع داخلي بين مشاعر حبه لماريا وبين التزامه بواجبه (duty) العسكري [21, 25]."
+      "feedback": "يعاني روبرت جوردان من صراع داخلي بين مشاعر حبه لماريا وبين التزامه بواجبه (duty) العسكري [21, 25].",
+      "id": "q_63e65013f15d6afe6441",
+      "legacyIds": [
+        "id_12c726ba",
+        "qid_3a4392e9"
+      ],
+      "legacyPrimaryIds": [
+        "qid_3a4392e9"
+      ]
     },
     {
       "q": "The bell is a [ _____ ] a reminder of death.",
-      "options": ["momento", "memento mori", "momenta mori", "mementa"],
+      "options": [
+        "momento",
+        "memento mori",
+        "momenta mori",
+        "mementa"
+      ],
       "correct": 1,
-      "feedback": "يُعتبر الجرس 'memento mori'؛ أي تذكاراً بالموت أو رمزاً له [21, 26]."
+      "feedback": "يُعتبر الجرس 'memento mori'؛ أي تذكاراً بالموت أو رمزاً له [21, 26].",
+      "id": "q_69c2b310e1f4e6ef586d",
+      "legacyIds": [
+        "id_71fc6ef7",
+        "qid_1983a53c"
+      ],
+      "legacyPrimaryIds": [
+        "qid_1983a53c"
+      ]
     },
     {
       "q": "Robert Jordan had not had an opportunity to test Anselmo's [ _____ ]",
-      "options": ["faithfulness", "devotion", "judgment", "responsibility"],
+      "options": [
+        "faithfulness",
+        "devotion",
+        "judgment",
+        "responsibility"
+      ],
       "correct": 2,
-      "feedback": "في البداية، لم تكن لدى جوردان فرصة لاختبار 'حكم' أنسيلمو (judgment) أو قدرته على اتخاذ القرارات [21, 27]."
+      "feedback": "في البداية، لم تكن لدى جوردان فرصة لاختبار 'حكم' أنسيلمو (judgment) أو قدرته على اتخاذ القرارات [21, 27].",
+      "id": "q_4c64e98daf441dce58e1",
+      "legacyIds": [
+        "id_1293f606",
+        "qid_300793c2"
+      ],
+      "legacyPrimaryIds": [
+        "qid_300793c2"
+      ]
     },
     {
       "q": "Love can distract Jordan from his duty.",
-      "options": ["True", "False"],
+      "options": [
+        "True",
+        "False"
+      ],
       "correct": 1,
-      "feedback": "خطأ (False)؛ فرغم قوة حبه، إلا أنه لم يسمح له بتعطيله عن تنفيذ واجبه بتفجير الجسر في النهاية [21, 26]."
+      "feedback": "خطأ (False)؛ فرغم قوة حبه، إلا أنه لم يسمح له بتعطيله عن تنفيذ واجبه بتفجير الجسر في النهاية [21, 26].",
+      "id": "q_cb311410a03deacef6f7",
+      "legacyIds": [
+        "id_71935c30",
+        "qid_713d0eb4"
+      ],
+      "legacyPrimaryIds": [
+        "qid_713d0eb4"
+      ]
     },
     {
       "q": "\"I don't want to do that business that my father did\". The addressee is.....",
-      "options": ["Augustin", "Robert", "Maria", "Pilar"],
+      "options": [
+        "Augustin",
+        "Robert",
+        "Maria",
+        "Pilar"
+      ],
       "correct": 1,
-      "feedback": "روبرت جوردان (Robert) يوجه هذا الكلام لنفسه في مونولوج داخلي، مشيراً إلى انتحار والده الذي يعتبره فعلاً جباناً ولا يريد تكراره [1, 2]."
+      "feedback": "روبرت جوردان (Robert) يوجه هذا الكلام لنفسه في مونولوج داخلي، مشيراً إلى انتحار والده الذي يعتبره فعلاً جباناً ولا يريد تكراره [1, 2].",
+      "id": "q_4081b6d13064d8cbb4d3",
+      "legacyIds": [
+        "id_5c5e5e30",
+        "qid_5e1593e9"
+      ],
+      "legacyPrimaryIds": [
+        "qid_5e1593e9"
+      ]
     },
     {
       "q": "\"There is no such thing as safety\". This quotation refers to...",
-      "options": ["war", "victory", "fortune", "courage"],
+      "options": [
+        "war",
+        "victory",
+        "fortune",
+        "courage"
+      ],
       "correct": 0,
-      "feedback": "هذه العبارة تشير إلى طبيعة الحرب (war) حيث لا يوجد مكان آمن والجميع معرض للموت في أي لحظة [3, 4]."
+      "feedback": "هذه العبارة تشير إلى طبيعة الحرب (war) حيث لا يوجد مكان آمن والجميع معرض للموت في أي لحظة [3, 4].",
+      "id": "q_500c4ede767cefe10564",
+      "legacyIds": [
+        "id_33007eed",
+        "qid_3054effc"
+      ],
+      "legacyPrimaryIds": [
+        "qid_3054effc"
+      ]
     },
     {
       "q": "There is no [ _____ ] when it comes to war.",
-      "options": ["hatred", "chaos", "humanity", "experience"],
+      "options": [
+        "hatred",
+        "chaos",
+        "humanity",
+        "experience"
+      ],
       "correct": 2,
-      "feedback": "وفقاً للمحاضرات، الحرب تُغيّب الإنسانية (humanity) وتجعل القتل أمراً واقعاً يتجاوز المشاعر الشخصية [117، 378]."
+      "feedback": "وفقاً للمحاضرات، الحرب تُغيّب الإنسانية (humanity) وتجعل القتل أمراً واقعاً يتجاوز المشاعر الشخصية [117، 378].",
+      "id": "q_fad422396265c15e8448",
+      "legacyIds": [
+        "id_451bf126",
+        "qid_1eb5a3e3"
+      ],
+      "legacyPrimaryIds": [
+        "qid_1eb5a3e3"
+      ]
     },
     {
       "q": "\"War is a bitchery\" is said by.....",
-      "options": ["Anselmo", "Robert Jordan", "Fernando", "Agustin"],
+      "options": [
+        "Anselmo",
+        "Robert Jordan",
+        "Fernando",
+        "Agustin"
+      ],
       "correct": 3,
-      "feedback": "أغوستين (Agustin) هو من استخدم هذا التعبير الفظ لوصف فظاعة الحرب وقذارتها [5, 6]."
+      "feedback": "أغوستين (Agustin) هو من استخدم هذا التعبير الفظ لوصف فظاعة الحرب وقذارتها [5, 6].",
+      "id": "q_fcae4cf726822ab541c3",
+      "legacyIds": [
+        "id_3e9cf607",
+        "qid_69c7131d"
+      ],
+      "legacyPrimaryIds": [
+        "qid_69c7131d"
+      ]
     },
     {
       "q": "\"valiant\" means very [ _____ ]",
-      "options": ["serious", "proud", "brave", "intelligent"],
+      "options": [
+        "serious",
+        "proud",
+        "brave",
+        "intelligent"
+      ],
       "correct": 2,
-      "feedback": "كلمة 'valiant' هي مرادف لكلمة شجاع (brave)، وهي من الصفات التي وُصف بها الثوار [7-12]."
+      "feedback": "كلمة 'valiant' هي مرادف لكلمة شجاع (brave)، وهي من الصفات التي وُصف بها الثوار [7-12].",
+      "id": "q_e0d2611598f39d4cec17",
+      "legacyIds": [
+        "id_2f423717",
+        "qid_424c0c66"
+      ],
+      "legacyPrimaryIds": [
+        "qid_424c0c66"
+      ]
     },
     {
       "q": "\"At bottom I am not a coward\" is said by.......",
-      "options": ["Eladio", "Pablo", "El-Sordo", "Rafael"],
+      "options": [
+        "Eladio",
+        "Pablo",
+        "El-Sordo",
+        "Rafael"
+      ],
       "correct": 1,
-      "feedback": "بابلو (Pablo) هو من قال ذلك محاولاً تبرير خوفه على حياته وخيوله بأنه 'حس تكتيكي' وليس جبناً [320، 395]."
+      "feedback": "بابلو (Pablo) هو من قال ذلك محاولاً تبرير خوفه على حياته وخيوله بأنه 'حس تكتيكي' وليس جبناً [320، 395].",
+      "id": "q_02c517b45dd5600480ce",
+      "legacyIds": [
+        "id_5bd97712",
+        "qid_49b7880f"
+      ],
+      "legacyPrimaryIds": [
+        "qid_49b7880f"
+      ]
     },
     {
       "q": "\"discard\" means [ _____ ]",
-      "options": ["suppose", "get rid of sth", "forget", "stop"],
+      "options": [
+        "suppose",
+        "get rid of sth",
+        "forget",
+        "stop"
+      ],
       "correct": 1,
-      "feedback": "كلمة 'discard' تعني التخلص من شيء ما (get rid of something) [7-12]."
+      "feedback": "كلمة 'discard' تعني التخلص من شيء ما (get rid of something) [7-12].",
+      "id": "q_0cd7890710a548c8b1c2",
+      "legacyIds": [
+        "id_310dedcd",
+        "qid_38cf7b4b"
+      ],
+      "legacyPrimaryIds": [
+        "qid_38cf7b4b"
+      ]
     },
     {
       "q": "\"We should have killed all or none\" is said by.....",
-      "options": ["Agustin", "Primitivo", "Anselmo", "Pablo"],
+      "options": [
+        "Agustin",
+        "Primitivo",
+        "Anselmo",
+        "Pablo"
+      ],
       "correct": 3,
-      "feedback": "بابلو (Pablo) قال هذه العبارة ليعكس وحشية الحرب والواقعية السياسية التي يؤمن بها في التعامل مع الأعداء [10-12]."
+      "feedback": "بابلو (Pablo) قال هذه العبارة ليعكس وحشية الحرب والواقعية السياسية التي يؤمن بها في التعامل مع الأعداء [10-12].",
+      "id": "q_5ce79dbd38dd151f660a",
+      "legacyIds": [
+        "id_5463728",
+        "qid_770c1bca"
+      ],
+      "legacyPrimaryIds": [
+        "qid_770c1bca"
+      ]
     },
     {
       "q": "Robert Jordan uses his love to justify [ _____ ]",
-      "options": ["betrayal", "fighting", "dying", "assassination"],
+      "options": [
+        "betrayal",
+        "fighting",
+        "dying",
+        "assassination"
+      ],
       "correct": 1,
-      "feedback": "حبه لماريا يجعله يجد سبباً شخصياً للقتال (fighting) من أجل مستقبل أفضل وبناء عالم جديد [111، 386]."
+      "feedback": "حبه لماريا يجعله يجد سبباً شخصياً للقتال (fighting) من أجل مستقبل أفضل وبناء عالم جديد [111، 386].",
+      "id": "q_e7d58e804f31fe6b7441",
+      "legacyIds": [
+        "id_407e834c",
+        "qid_2843c234"
+      ],
+      "legacyPrimaryIds": [
+        "qid_2843c234"
+      ]
     },
     {
       "q": "\"The most important thing that can happen to a human being\" refers to..",
-      "options": ["love", "death", "sacrifice", "justice"],
+      "options": [
+        "love",
+        "death",
+        "sacrifice",
+        "justice"
+      ],
       "correct": 0,
-      "feedback": "يقصد همنغواي هنا 'الحب' (love)؛ ففي وسط الموت والدمار، يظل الحب هو التجربة الإنسانية الأسمى [111، 366-367]."
+      "feedback": "يقصد همنغواي هنا 'الحب' (love)؛ ففي وسط الموت والدمار، يظل الحب هو التجربة الإنسانية الأسمى [111، 366-367].",
+      "id": "q_a48b00cfb25c5a596b0c",
+      "legacyIds": [
+        "id_6e48b0f",
+        "qid_2cd4ee0f"
+      ],
+      "legacyPrimaryIds": [
+        "qid_2cd4ee0f"
+      ]
     },
     {
       "q": "Pablo views Robert Jordan as a [ _____ ] to the guerrillas' safety.",
-      "options": ["shame", "threat", "spot", "stain"],
+      "options": [
+        "shame",
+        "threat",
+        "spot",
+        "stain"
+      ],
       "correct": 1,
-      "feedback": "يرى بابلو أن وجود جوردان ومهمته لتفجير الجسر يشكلان تهديداً (threat) لأمان المجموعة لأن الفاشيين سيطاردونهم بعدها [163، 315]."
+      "feedback": "يرى بابلو أن وجود جوردان ومهمته لتفجير الجسر يشكلان تهديداً (threat) لأمان المجموعة لأن الفاشيين سيطاردونهم بعدها [163، 315].",
+      "id": "q_23f4fe844fa47192a255",
+      "legacyIds": [
+        "id_1e87abb9",
+        "qid_1efbc91b"
+      ],
+      "legacyPrimaryIds": [
+        "qid_1efbc91b"
+      ]
     },
     {
       "q": "Hemingway was born in [ _____ ]",
-      "options": ["1890", "1895", "1899", "1900"],
+      "options": [
+        "1890",
+        "1895",
+        "1899",
+        "1900"
+      ],
       "correct": 2,
-      "feedback": "ولد إرنست همنغواي في عام 1899 [13]."
+      "feedback": "ولد إرنست همنغواي في عام 1899 [13].",
+      "id": "q_ef668ad4f248c1192cb0",
+      "legacyIds": [
+        "id_6a902029",
+        "qid_1a82ba19"
+      ],
+      "legacyPrimaryIds": [
+        "qid_1a82ba19"
+      ]
     },
     {
       "q": "Hemingway focuses on his characters' [ _____ ]",
-      "options": ["feelings", "death", "betrayal", "images"],
+      "options": [
+        "feelings",
+        "death",
+        "betrayal",
+        "images"
+      ],
       "correct": 0,
-      "feedback": "يركز همنغواي بشكل كبير على 'مشاعر' (feelings) شخصياته وصراعاتهم الداخلية ونضجهم النفسي [117، 378]."
+      "feedback": "يركز همنغواي بشكل كبير على 'مشاعر' (feelings) شخصياته وصراعاتهم الداخلية ونضجهم النفسي [117، 378].",
+      "id": "q_34485ee17e0ec80f2a51",
+      "legacyIds": [
+        "id_3173019",
+        "qid_638bee5e"
+      ],
+      "legacyPrimaryIds": [
+        "qid_638bee5e"
+      ]
     },
     {
       "q": "Jordan fights as an American [ _____ ] in the Spanish Civil war.",
-      "options": ["soldier", "lieutenant", "officer", "volunteer"],
+      "options": [
+        "soldier",
+        "lieutenant",
+        "officer",
+        "volunteer"
+      ],
       "correct": 3,
-      "feedback": "جوردان ليس جندياً نظامياً، بل هو متطوع (volunteer) أمريكي جاء لدعم القضية الجمهورية [101، 163]."
+      "feedback": "جوردان ليس جندياً نظامياً، بل هو متطوع (volunteer) أمريكي جاء لدعم القضية الجمهورية [101، 163].",
+      "id": "q_449d8b96d8e5694147f5",
+      "legacyIds": [
+        "id_1d7c87b4",
+        "qid_4bd3b69a"
+      ],
+      "legacyPrimaryIds": [
+        "qid_4bd3b69a"
+      ]
     },
     {
       "q": "Although he is wounded, Robert Jordan still thinks about the fate of......",
-      "options": ["fascists", "republicans", "Maria", "both b and c"],
+      "options": [
+        "fascists",
+        "republicans",
+        "Maria",
+        "both b and c"
+      ],
       "correct": 3,
-      "feedback": "حتى وهو يحتضر، ظل جوردان يفكر في نجاة ماريا واستمرار القضية الجمهورية (both b and c) [168، 390]."
+      "feedback": "حتى وهو يحتضر، ظل جوردان يفكر في نجاة ماريا واستمرار القضية الجمهورية (both b and c) [168، 390].",
+      "id": "q_1c5705325c14e817a463",
+      "legacyIds": [
+        "id_46748163",
+        "qid_204a7039"
+      ],
+      "legacyPrimaryIds": [
+        "qid_204a7039"
+      ]
     },
     {
       "q": "\"You treat a man as coward because he has a tactical sense\". The addressee is........",
-      "options": ["Anselmo", "Robert", "Pilar", "Rafael"],
+      "options": [
+        "Anselmo",
+        "Robert",
+        "Pilar",
+        "Rafael"
+      ],
       "correct": 1,
-      "feedback": "بابلو يوجه هذا الكلام لروبرت (Robert) رداً على اتهامه بالجبن، معتبراً حذره ذكاءً تكتيكياً [14-16]."
+      "feedback": "بابلو يوجه هذا الكلام لروبرت (Robert) رداً على اتهامه بالجبن، معتبراً حذره ذكاءً تكتيكياً [14-16].",
+      "id": "q_f2604c36b864deb63d29",
+      "legacyIds": [
+        "id_484e6afb",
+        "qid_860f34e"
+      ],
+      "legacyPrimaryIds": [
+        "qid_860f34e"
+      ]
     },
     {
       "q": "\"In the old days people devoted a lifetime to it\" refers to [ _____ ]",
-      "options": ["war", "cause", "killing", "love"],
+      "options": [
+        "war",
+        "cause",
+        "killing",
+        "love"
+      ],
       "correct": 3,
-      "feedback": "تشير هذه العبارة إلى 'الحب' (love)؛ حيث يرى جوردان أن الحب في زمن الحرب يختزل عمراً كاملاً في أيام قليلة [14-16]."
+      "feedback": "تشير هذه العبارة إلى 'الحب' (love)؛ حيث يرى جوردان أن الحب في زمن الحرب يختزل عمراً كاملاً في أيام قليلة [14-16].",
+      "id": "q_430f5a1d0a6b992b1beb",
+      "legacyIds": [
+        "id_1bd78ff7",
+        "qid_74ae0799"
+      ],
+      "legacyPrimaryIds": [
+        "qid_74ae0799"
+      ]
     },
     {
       "q": "\"They are poor men as we are. They should never be fighting against us\" is said by.........",
-      "options": ["Robert", "Pilar", "Anselmo", "Fernando"],
+      "options": [
+        "Robert",
+        "Pilar",
+        "Anselmo",
+        "Fernando"
+      ],
       "correct": 2,
-      "feedback": "أنسيلمو (Anselmo) هو من قال ذلك، معبراً عن تضامنه الإنساني مع جنود العدو الذين هم فلاحون فقراء مثله [175، 395]."
+      "feedback": "أنسيلمو (Anselmo) هو من قال ذلك، معبراً عن تضامنه الإنساني مع جنود العدو الذين هم فلاحون فقراء مثله [175، 395].",
+      "id": "q_1745f2b62dccbeaf917e",
+      "legacyIds": [
+        "id_15e194f3",
+        "qid_6c3348db"
+      ],
+      "legacyPrimaryIds": [
+        "qid_6c3348db"
+      ]
     },
     {
       "q": "He had not [ _____ ] once since the movement.",
-      "options": ["disobeyed", "killed", "loved", "prayed"],
+      "options": [
+        "disobeyed",
+        "killed",
+        "loved",
+        "prayed"
+      ],
       "correct": 3,
-      "feedback": "أنسيلمو لم يصلّ (prayed) منذ بداية الحركة لأن الجمهوريين ألغوا الدين الرسمي [164، 395]."
+      "feedback": "أنسيلمو لم يصلّ (prayed) منذ بداية الحركة لأن الجمهوريين ألغوا الدين الرسمي [164، 395].",
+      "id": "q_e1f2ed1a6503fd54ef70",
+      "legacyIds": [
+        "id_16cbf700",
+        "qid_2c11aa39"
+      ],
+      "legacyPrimaryIds": [
+        "qid_2c11aa39"
+      ]
     },
     {
       "q": "[ _____ ] suggests that they blind Pablo.",
-      "options": ["Anselmo", "Eladio", "Primitivo", "Rafael"],
+      "options": [
+        "Anselmo",
+        "Eladio",
+        "Primitivo",
+        "Rafael"
+      ],
       "correct": 3,
-      "feedback": "رافائيل (Rafael) الغجري هو من اقترح فكرة سمل عيني بابلو أو تعميته كعقاب له [14-16]."
+      "feedback": "رافائيل (Rafael) الغجري هو من اقترح فكرة سمل عيني بابلو أو تعميته كعقاب له [14-16].",
+      "id": "q_3b86b45e06b846d72c8c",
+      "legacyIds": [
+        "id_1dadcd64",
+        "qid_94290cc"
+      ],
+      "legacyPrimaryIds": [
+        "qid_94290cc"
+      ]
     },
     {
       "q": "\"How many of those you have killed have been real fascists?.\" is speaking to [ _____ ]",
@@ -677,31 +1900,91 @@
         "Pablo/Robert"
       ],
       "correct": 2,
-      "feedback": "روبرت جوردان يوجه هذا السؤال لنفسه (Robert/himself) في تساؤل أخلاقي حول هويات من يقتلهم في الحرب [14-16]."
+      "feedback": "روبرت جوردان يوجه هذا السؤال لنفسه (Robert/himself) في تساؤل أخلاقي حول هويات من يقتلهم في الحرب [14-16].",
+      "id": "q_ca245f0491d55da18f2f",
+      "legacyIds": [
+        "id_67147dd1",
+        "qid_5fe3ff86"
+      ],
+      "legacyPrimaryIds": [
+        "qid_5fe3ff86"
+      ]
     },
     {
       "q": "The work of the 'Lost Generation' is [ _____ ]",
-      "options": ["autobiographical", "general", "academic", "childish"],
+      "options": [
+        "autobiographical",
+        "general",
+        "academic",
+        "childish"
+      ],
       "correct": 0,
-      "feedback": "أعمال هذا الجيل (ومنهم همنغواي) غالباً ما تكون مستمدة من سيرهم الذاتية (autobiographical) وتجاربهم في الحرب [17, 18]."
+      "feedback": "أعمال هذا الجيل (ومنهم همنغواي) غالباً ما تكون مستمدة من سيرهم الذاتية (autobiographical) وتجاربهم في الحرب [17, 18].",
+      "id": "q_28647a5df83614cbec47",
+      "legacyIds": [
+        "id_6275fe98",
+        "qid_6b6a4641"
+      ],
+      "legacyPrimaryIds": [
+        "qid_6b6a4641"
+      ]
     },
     {
       "q": "Robert Jordan is a(n) [ _____ ]",
-      "options": ["fascist", "anti-fascist", "anti-republican", "Communist"],
+      "options": [
+        "fascist",
+        "anti-fascist",
+        "anti-republican",
+        "Communist"
+      ],
       "correct": 1,
-      "feedback": "جوردان هو 'مناهض للفاشية' (anti-fascist)؛ فهو يقاتل ضدهم رغم أنه لا يعتبر نفسه شيوعياً صرفاً [162، 398]."
+      "feedback": "جوردان هو 'مناهض للفاشية' (anti-fascist)؛ فهو يقاتل ضدهم رغم أنه لا يعتبر نفسه شيوعياً صرفاً [162، 398].",
+      "id": "q_075ebec36de76b381afa",
+      "legacyIds": [
+        "id_7c637882",
+        "qid_79e32a8f"
+      ],
+      "legacyPrimaryIds": [
+        "qid_79e32a8f"
+      ]
     },
     {
       "q": "\"I feel nothing against it when it is necessary\". \"it\" refers to [ _____ ]",
-      "options": ["love", "the bridge", "killing", "hatred"],
+      "options": [
+        "love",
+        "the bridge",
+        "killing",
+        "hatred"
+      ],
       "correct": 2,
-      "feedback": "يشير الضمير 'it' هنا إلى القتل (killing)؛ حيث يراه جوردان ضرورة عسكرية رغم عدم حبه له [19-23]."
+      "feedback": "يشير الضمير 'it' هنا إلى القتل (killing)؛ حيث يراه جوردان ضرورة عسكرية رغم عدم حبه له [19-23].",
+      "id": "q_cf1de9d689c5f6dc9d0b",
+      "legacyIds": [
+        "id_1b125000",
+        "qid_7341a302"
+      ],
+      "legacyPrimaryIds": [
+        "qid_7341a302"
+      ]
     },
     {
       "q": "The bridge is a symbol of [ _____ ]",
-      "options": ["death", "sacrifice", "hope", "war"],
+      "options": [
+        "death",
+        "sacrifice",
+        "hope",
+        "war"
+      ],
       "correct": 2,
-      "feedback": "يمثل الجسر 'الأمل' (hope) في نجاح الهجوم الجمهوري وتغيير مجرى الحرب لصالحهم [163، 404]."
+      "feedback": "يمثل الجسر 'الأمل' (hope) في نجاح الهجوم الجمهوري وتغيير مجرى الحرب لصالحهم [163، 404].",
+      "id": "q_04a2817d82b5bd9387ec",
+      "legacyIds": [
+        "id_1ec59c0c",
+        "qid_33662d29"
+      ],
+      "legacyPrimaryIds": [
+        "qid_33662d29"
+      ]
     }
   ]
 }

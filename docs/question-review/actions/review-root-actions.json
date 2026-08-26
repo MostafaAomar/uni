@@ -1,0 +1,326 @@
+{
+  "mergeGroups": [
+    {
+      "file": "Fourth Year/comparative_2.json",
+      "keeper": "q_89891f412e0a44feaa57",
+      "remove": ["q_753e81e833fd950cd988"],
+      "q": "How is Jean-Paul Sartre's The Flies formally described?",
+      "options": [
+        "A comedy in one act",
+        "A classical Greek tragedy",
+        "A satire in five acts",
+        "A play in three acts"
+      ],
+      "correctAnswer": "A play in three acts",
+      "feedback": "The primary English edition presents The Flies as a play in three acts."
+    }
+  ],
+  "corrections": [
+    {
+      "file": "Third Year/criticism_1.json",
+      "id": "q_d7884514455e8ae2bd62",
+      "q": "According to Aristotle, a likely _____ is preferable to an unconvincing _____.",
+      "options": [
+        "impossibility, possibility",
+        "possibility, impossibility",
+        "probability, possibility",
+        "possibility, probability"
+      ],
+      "correctAnswer": "impossibility, possibility",
+      "feedback": "الإجابة الصحيحة هي: impossibility, possibility. يقرر أرسطو في كتاب Poetics أن المستحيل المقنع أو المحتمل يُفضَّل على الممكن غير المقنع."
+    },
+    {
+      "file": "Third Year/french.json",
+      "id": "q_bbe6a791b36b6177a78f",
+      "options": ["de la", "le", "du", "des"],
+      "correctAnswer": "le",
+      "feedback": "بعد فعل détester تُستخدم أداة التعريف؛ وthé اسم مذكر، لذلك نقول: Je déteste le thé."
+    },
+    {
+      "file": "Fourth Year/comparative_2.json",
+      "id": "q_adbcbf795aeaa7f0586e",
+      "options": [
+        "He is Clytemnestra's son",
+        "He knows he is free",
+        "He is Electra's brother",
+        "He is a stranger to Argos"
+      ],
+      "correctAnswer": "He knows he is free"
+    },
+    {
+      "file": "Fourth Year/comparative_2.json",
+      "id": "q_c002ce28f1c59446eb21",
+      "q": "Who casts the deciding vote that acquits Orestes?",
+      "options": ["Apollo", "Athena", "Zeus", "Ares"],
+      "correctAnswer": "Athena",
+      "feedback": "تدلي أثينا بالصوت الحاسم عند تعادل الأصوات، فيُبرَّأ أوريست."
+    },
+    {
+      "file": "Fourth Year/poetry4.json",
+      "id": "q_d78b349c2e0684c1e58b",
+      "options": ["A married woman", "A young man", "An old man", "An angry husband"],
+      "correctAnswer": "A young man"
+    },
+    {
+      "file": "Fourth Year/poetry4.json",
+      "id": "q_ae3d4fcf86ef638e08d3",
+      "options": ["appearance", "appearing", "apparition", "apparitions"],
+      "correctAnswer": "apparition"
+    },
+    {
+      "file": "Fourth Year/poetry4.json",
+      "id": "q_15cef53bbe370484f7a1",
+      "options": ["urban prosperity", "scientific certainty", "loneliness", "social harmony"],
+      "correctAnswer": "loneliness"
+    },
+    {
+      "file": "Fourth Year/poetry4.json",
+      "id": "q_ff0369167a8207e1bfca",
+      "options": [
+        "Bureau of Statistics",
+        "Ministry of Justice",
+        "Central Census Office",
+        "Police Department"
+      ],
+      "correctAnswer": "Bureau of Statistics"
+    },
+    {
+      "file": "Fourth Year/comparative_2.json",
+      "id": "q_be97ca4a5ad751428afe",
+      "q": "The quotation beginning ‘He came to Atreus’ house...’ is taken from which play?",
+      "correctAnswer": "Agamemnon"
+    },
+    {
+      "file": "Fourth Year/comparative_2.json",
+      "id": "q_8cc00198e0a9ed4f7044",
+      "q": "The quotation beginning ‘I am not ashamed...’ is taken from which play?",
+      "correctAnswer": "Agamemnon"
+    },
+    {
+      "file": "Fourth Year/comparative_2.json",
+      "id": "q_4882c2902ea64674771b",
+      "q": "The quotation beginning ‘Freeze their courage...’ is taken from which play?",
+      "correctAnswer": "The Flies"
+    },
+    {
+      "file": "Fourth Year/comparative_2.json",
+      "id": "q_53e347d57c754a044676",
+      "q": "In the line ‘Someone else will come, to set me free,’ whom is Electra addressing?",
+      "correctAnswer": "Orestes"
+    },
+    {
+      "file": "Fourth Year/comparative_2.json",
+      "id": "q_8c480940518d50a5db46",
+      "q": "The line ‘Someone else will come, to set me free’ is taken from which play?",
+      "correctAnswer": "The Flies"
+    },
+    {
+      "file": "Fourth Year/comparative_2.json",
+      "id": "q_69f1df6ace6ac56bc8c0",
+      "q": "Sartrean existentialism rejects every possible form of morality.",
+      "options": ["True", "False"],
+      "correctAnswer": "False",
+      "feedback": "Sartre rejects externally imposed moral absolutes, not responsibility or every possible ethical commitment."
+    },
+    {
+      "file": "Fourth Year/comparative_2.json",
+      "id": "q_1a5ba28a9d8b3b4790ba",
+      "q": "In The Flies, Electra approaches Jupiter's statue to mock it with rubbish rather than to make a sincere offering.",
+      "options": ["True", "False"],
+      "correctAnswer": "True",
+      "feedback": "Electra's action is a mocking parody of an offering, not a sincere act of worship."
+    },
+    {
+      "file": "Fourth Year/comparative_2.json",
+      "id": "q_a29ecf42c121771b7a47",
+      "q": "Which character in The Flies most clearly represents rationalist detachment before Orestes commits himself to action?",
+      "options": ["The Tutor", "Jupiter", "Orestes", "Aegisthus"],
+      "correctAnswer": "The Tutor",
+      "feedback": "The Tutor voices rationalist detachment; Athena is not a character in The Flies."
+    },
+    {
+      "file": "Fourth Year/comparative_2.json",
+      "id": "q_70eead94901b1f4a9095",
+      "q": "How does Athena resolve the conflict over Orestes in The Eumenides?",
+      "options": [
+        "She establishes a jury, casts the decisive vote for Orestes, and reconciles the Furies",
+        "She offers a sacrifice and ends the trial",
+        "She punishes Orestes without a vote",
+        "She sends Orestes into permanent exile"
+      ],
+      "correctAnswer": "She establishes a jury, casts the decisive vote for Orestes, and reconciles the Furies"
+    },
+    {
+      "file": "Fourth Year/comparative_2.json",
+      "id": "q_af3974fed9cc1868eaf2",
+      "q": "Who accompanies Athena in the final procession of The Eumenides?",
+      "options": [
+        "Athena's female attendants and Athenian citizens carrying torches and offerings",
+        "Apollo and Orestes",
+        "A herald and the ten jurors only",
+        "Electra and Orestes"
+      ],
+      "correctAnswer": "Athena's female attendants and Athenian citizens carrying torches and offerings"
+    },
+    {
+      "file": "Fourth Year/comparative_2.json",
+      "id": "q_15b7ba88fe34c23f2df8",
+      "q": "Which portrayal in The Flies is criticized in the course material as containing misogynistic elements?",
+      "options": [
+        "The portrayal of Electra",
+        "The portrayal of Clytemnestra",
+        "The portrayal of Orestes",
+        "The portrayal of Jupiter"
+      ],
+      "correctAnswer": "The portrayal of Clytemnestra"
+    },
+    {
+      "file": "Fourth Year/comparative_2.json",
+      "id": "q_36978b2cf23d90b329a7",
+      "q": "Which theme connects the Oresteia's movement from blood vengeance to civic adjudication?",
+      "options": ["The power of the gods", "The nature of justice", "Military glory", "Romantic love"],
+      "correctAnswer": "The nature of justice"
+    },
+    {
+      "file": "Fourth Year/criticism_2.json",
+      "id": "q_6ea2abaec1ffa5a72d5e",
+      "q": "In its simplest evaluative sense, literary criticism involves making a _____ about a work.",
+      "correctAnswer": "judgement",
+      "feedback": "In its basic evaluative sense, criticism involves forming and supporting a judgement about a work."
+    },
+    {
+      "file": "Fourth Year/Teaching_Methodologies.json",
+      "id": "q_2c2416e1e63eee0c22b8",
+      "q": "Learners study meaningful examples in context and infer the grammar rule for themselves. This is a/an:",
+      "correctAnswer": "Inductive method"
+    },
+    {
+      "file": "Fourth Year/Teaching_Methodologies.json",
+      "id": "q_6d97f1f4e71d6cf55de2",
+      "q": "Imitation and habit-forming drills are central to which teaching method?",
+      "options": ["Audio-Lingual Method", "Grammar-Translation Method", "Communicative Language Teaching", "Total Physical Response"],
+      "correctAnswer": "Audio-Lingual Method"
+    },
+    {
+      "file": "Fourth Year/Teaching_Methodologies.json",
+      "id": "q_8da04e635f0d2775789a",
+      "q": "ELT stands for English Language _____.",
+      "options": ["Teaching", "Training", "Testing", "Translation"],
+      "correctAnswer": "Teaching"
+    },
+    {
+      "file": "Fourth Year/Teaching_Methodologies.json",
+      "id": "q_83ec4809feb7ca2a72fd",
+      "q": "What does Communicative Language Teaching prioritize across language skills?",
+      "options": [
+        "Meaningful communication and communicative competence",
+        "Mastery of grammar rules only",
+        "Silent reading only",
+        "Translation of isolated sentences"
+      ],
+      "correctAnswer": "Meaningful communication and communicative competence"
+    },
+    {
+      "file": "Fourth Year/Teaching_Methodologies.json",
+      "id": "q_8e5797dd7bc62b386965",
+      "q": "What does grouping learners mean in classroom management?",
+      "options": [
+        "Memorizing every learner's name",
+        "Organizing learners into pairs or groups for a classroom task",
+        "Moving seats without a learning purpose",
+        "Using name cards only"
+      ],
+      "correctAnswer": "Organizing learners into pairs or groups for a classroom task"
+    },
+    {
+      "file": "Fourth Year/Teaching_Methodologies.json",
+      "id": "q_169215e23c9ddd5dba2b",
+      "q": "Which material is typically central to Communicative Language Teaching?",
+      "options": [
+        "Authentic material",
+        "Isolated translation lists",
+        "Decontextualized verb paradigms",
+        "Only teacher-made substitution drills"
+      ],
+      "correctAnswer": "Authentic material"
+    },
+    {
+      "file": "Fourth Year/world_lit.json",
+      "id": "q_889b330fe78787704465",
+      "q": "In the Iliad, the gods act only as external forces and never mirror the characters' internal motives or impulses.",
+      "options": ["True", "False"],
+      "correctAnswer": "False",
+      "feedback": "The statement is too absolute: Homeric divine intervention can operate as an external action while also mirroring or motivating a character's inner impulse (often discussed as double motivation)."
+    },
+    {
+      "file": "Fourth Year/comparative_2.json",
+      "id": "q_0d94b38fc4e195cfed19",
+      "q": "Which statement about religion in the Oresteia is true?",
+      "correctAnswer": "In the Oresteia, we have polytheism"
+    },
+    {
+      "file": "Fourth Year/comparative_2.json",
+      "id": "q_89b3d99c55adea2f9635",
+      "q": "Which statement correctly contrasts Aeschylus's Oresteia with Sartre's The Flies?",
+      "correctAnswer": "While in Aeschylus we have paganism, in Sartre we have Existentialism"
+    },
+    {
+      "file": "Fourth Year/comparative_2.json",
+      "id": "q_2cf7863600a0e8fbee7e",
+      "q": "Which statement about The Flies and its historical context is false?",
+      "correctAnswer": "The battle of Marathon was between the Greeks and the Trojans"
+    },
+    {
+      "file": "Fourth Year/comparative_2.json",
+      "id": "q_d076e5e2804a189c80d4",
+      "q": "Jean-Paul Sartre was a polytheist.",
+      "options": ["True", "False"],
+      "correctAnswer": "False",
+      "feedback": "Sartre's existentialism was atheistic; describing him as a polytheist is false."
+    },
+    {
+      "file": "Fourth Year/comparative_2.json",
+      "id": "q_4cb2dafb09ff8931083b",
+      "q": "In ‘Come, my king, the scourge of Troy, the true son of Atreus,’ whom is the speaker addressing?",
+      "correctAnswer": "Agamemnon"
+    },
+    {
+      "file": "Fourth Year/comparative_2.json",
+      "id": "q_976d49aa492f741f25e7",
+      "q": "The line ‘Come, my king, the scourge of Troy, the true son of Atreus’ is taken from which play?",
+      "correctAnswer": "Agamemnon"
+    },
+    {
+      "file": "Fourth Year/comparative_2.json",
+      "id": "q_dc0bcca33b30a2d9589e",
+      "q": "In ‘Silence, dogs! Back to your places!’, whom is Aegisthus addressing?",
+      "correctAnswer": "the people of Argos"
+    },
+    {
+      "file": "Fourth Year/comparative_2.json",
+      "id": "q_1cfcb2dfa1b5d6e84365",
+      "q": "The line ‘Silence, dogs! Back to your places!’ is taken from which play?",
+      "correctAnswer": "the Flies"
+    },
+    {
+      "file": "Fourth Year/comparative_2.json",
+      "id": "q_a31eb81d6a3ebb7e10af",
+      "correctAnswer": "All",
+      "feedback": "All three descriptions are true: Cassandra is Priam's daughter, Paris's sister, and Agamemnon's captive after the fall of Troy."
+    },
+    {
+      "file": "Fourth Year/comparative_2.json",
+      "id": "q_4d3299f91551584836f1",
+      "q": "Which word is the closest synonym for ‘repudiate’ in the sense ‘reject or disown’?",
+      "options": ["Renounce", "Commit", "Approve", "Embrace"],
+      "correctAnswer": "Renounce",
+      "feedback": "In this sense, to repudiate something is to reject, disown, or renounce it."
+    },
+    {
+      "file": "Fourth Year/criticism_2.json",
+      "id": "q_416d8f05aba38e6c5812",
+      "correctAnswer": "More distant from us",
+      "feedback": "The more historically or culturally distant an author is from the reader, the greater the need for information about the author's milieu."
+    }
+  ]
+}
