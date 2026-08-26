@@ -2133,7 +2133,7 @@
         "melancholic",
         "ecstatic",
         "wise"
-      ], 
+      ],
       "correct": 1,
       "feedback": "نبرة الكثير من قصيدة 'تشايلد هارولد' لبايرون هي نبرة تأملية وكئيبة، وهي سمة نموذجية لبطل بايرون (Byronic hero).",
       "id": "q_b93086e03613da5446b2",
@@ -2164,14 +2164,12 @@
         "id_3cffd5ea",
         "id_3cffd5ed",
         "q_7478cade482f053a4ce5",
-        "q_c7bea2f6d5d222df23c9",
         "qid_a1ca989",
         "qid_a1ca989__2",
         "qid_a1ca989__3"
       ],
       "legacyPrimaryIds": [
         "q_7478cade482f053a4ce5",
-        "q_c7bea2f6d5d222df23c8",
         "qid_a1ca989",
         "qid_a1ca989__2",
         "qid_a1ca989__3"
