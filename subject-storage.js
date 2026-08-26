@@ -55,6 +55,20 @@
     return databasePromise;
   }
 
+  function startTransaction(database, storeName, mode) {
+    try {
+      return database.transaction(storeName, mode);
+    } catch (err) {
+      if (err && err.name === 'InvalidStateError') {
+        console.warn('IndexedDB connection closing; falling back to localStorage.', err);
+        useLocalStorageFallback = true;
+        databasePromise = null;
+        return null;
+      }
+      throw err;
+    }
+  }
+
   function fallbackSubjectKey(id) {
     return `${FALLBACK_SUBJECT_PREFIX}${encodeURIComponent(id)}`;
   }
@@ -84,7 +98,21 @@
       return records;
     }
 
-    const transaction = database.transaction(SUBJECT_STORE, "readonly");
+    const transaction = startTransaction(database, SUBJECT_STORE, "readonly");
+    if (!transaction) {
+      const records = [];
+      for (let index = 0; index < localStorage.length; index++) {
+        const key = localStorage.key(index);
+        if (!key?.startsWith(FALLBACK_SUBJECT_PREFIX)) continue;
+        try {
+          const record = JSON.parse(localStorage.getItem(key) || "null");
+          if (record?.id) records.push(record);
+        } catch (error) {
+          console.warn("Skipped an invalid fallback subject record.", error);
+        }
+      }
+      return records;
+    }
     return requestResult(transaction.objectStore(SUBJECT_STORE).getAll());
   }
 
@@ -97,7 +125,14 @@
         return null;
       }
     }
-    const transaction = database.transaction(SUBJECT_STORE, "readonly");
+    const transaction = startTransaction(database, SUBJECT_STORE, "readonly");
+    if (!transaction) {
+      try {
+        return JSON.parse(localStorage.getItem(fallbackSubjectKey(id)) || "null");
+      } catch (error) {
+        return null;
+      }
+    }
     return requestResult(transaction.objectStore(SUBJECT_STORE).get(id));
   }
 
@@ -110,7 +145,12 @@
       localStorage.setItem(fallbackSubjectKey(record.id), JSON.stringify(record));
       return record;
     }
-    const transaction = database.transaction(SUBJECT_STORE, "readwrite");
+    const transaction = startTransaction(database, SUBJECT_STORE, "readwrite");
+    if (!transaction) {
+      // Fallback to localStorage when the DB connection is not usable.
+      localStorage.setItem(fallbackSubjectKey(record.id), JSON.stringify(record));
+      return record;
+    }
     transaction.objectStore(SUBJECT_STORE).put(record);
     await transactionComplete(transaction);
     return record;
@@ -122,7 +162,11 @@
       localStorage.removeItem(fallbackSubjectKey(id));
       return;
     }
-    const transaction = database.transaction(SUBJECT_STORE, "readwrite");
+    const transaction = startTransaction(database, SUBJECT_STORE, "readwrite");
+    if (!transaction) {
+      localStorage.removeItem(fallbackSubjectKey(id));
+      return;
+    }
     transaction.objectStore(SUBJECT_STORE).delete(id);
     await transactionComplete(transaction);
   }
@@ -138,7 +182,16 @@
       keys.forEach((key) => localStorage.removeItem(key));
       return;
     }
-    const transaction = database.transaction(SUBJECT_STORE, "readwrite");
+    const transaction = startTransaction(database, SUBJECT_STORE, "readwrite");
+    if (!transaction) {
+      const keys = [];
+      for (let index = 0; index < localStorage.length; index++) {
+        const key = localStorage.key(index);
+        if (key?.startsWith(FALLBACK_SUBJECT_PREFIX)) keys.push(key);
+      }
+      keys.forEach((key) => localStorage.removeItem(key));
+      return;
+    }
     transaction.objectStore(SUBJECT_STORE).clear();
     await transactionComplete(transaction);
   }
@@ -152,7 +205,14 @@
         return null;
       }
     }
-    const transaction = database.transaction(META_STORE, "readonly");
+    const transaction = startTransaction(database, META_STORE, "readonly");
+    if (!transaction) {
+      try {
+        return JSON.parse(localStorage.getItem(fallbackMetaKey(key)) || "null")?.value ?? null;
+      } catch (error) {
+        return null;
+      }
+    }
     const record = await requestResult(transaction.objectStore(META_STORE).get(key));
     return record?.value ?? null;
   }
@@ -163,7 +223,11 @@
       localStorage.setItem(fallbackMetaKey(key), JSON.stringify({ key, value }));
       return;
     }
-    const transaction = database.transaction(META_STORE, "readwrite");
+    const transaction = startTransaction(database, META_STORE, "readwrite");
+    if (!transaction) {
+      localStorage.setItem(fallbackMetaKey(key), JSON.stringify({ key, value }));
+      return;
+    }
     transaction.objectStore(META_STORE).put({ key, value });
     await transactionComplete(transaction);
   }
