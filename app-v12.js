@@ -574,26 +574,6 @@
   };
 
   function v12ValidateSubjectData(data, entry) {
-    if (!data || !Array.isArray(data.questions) || data.questions.length === 0) {
-      throw new Error("ملف المادة لا يحتوي على أسئلة صالحة.");
-    }
-    const ids = new Set();
-    data.questions.forEach((question, index) => {
-      if (
-        typeof question?.q !== "string" ||
-        !Array.isArray(question.options) ||
-        question.options.length < 2 ||
-        !Number.isInteger(Number(question.correct)) ||
-        Number(question.correct) < 0 ||
-        Number(question.correct) >= question.options.length
-      ) {
-        throw new Error(`صيغة السؤال رقم ${index + 1} غير صالحة.`);
-      }
-      if (!question.id || ids.has(String(question.id))) {
-        throw new Error(`معرّف السؤال رقم ${index + 1} مفقود أو مكرر.`);
-      }
-      ids.add(String(question.id));
-    });
     return {
       id: entry.id,
       year: entry.year,
