@@ -3,6 +3,446 @@
   "description": "  الفصل 1",
   "lang": "en",
   "questions": [
+     {
+      "q": "Which of the following is NOT an English inflectional morpheme?",
+      "options": [
+        "-s plural",
+        "-'s possessive",
+        "-ing progressive",
+        "-ness noun-forming"
+      ],
+      "correct": 3,
+      "feedback": "الإجابة الصحيحة هي '-ness noun-forming'. وفقاً للجدول في الصفحة 16 من الأوراق الذهبية، فإن اللواحق التصريفية (inflectional morphemes) في اللغة الإنجليزية تشمل: s الجمع، s الملكية، وing المستمر، بينما لاحقة '-ness' هي لاحقة اشتقاقية (derivational suffix) تُستخدم للاشتقاق وتحويل الصفات إلى أسماء (مثل kind إلى kindness)."
+    },
+    {
+      "q": "In \"This is Lina's notebook,\" \"-'s\" expresses:",
+      "options": [
+        "Plurality",
+        "Possession",
+        "Past tense",
+        "Agency"
+      ],
+      "correct": 1,
+      "feedback": "الإجابة الصحيحة هي 'Possession' (الملكية). في الجملة 'This is Lina's notebook'، تُعبر اللاحقة '-'s' عن الملكية (possessive)، وهي تقع ضمن اللواحق التصريفية كما هو موضح في الصفحة 16 من الأوراق الذهبية."
+    },
+    {
+      "q": "Derivational morphemes generally have:",
+      "options": [
+        "No semantic contribution",
+        "Clear lexical or semantic content",
+        "Only tense functions",
+        "Only plural functions"
+      ],
+      "correct": 1,
+      "feedback": "الإجابة الصحيحة هي 'Clear lexical or semantic content'. اللواحق الاشتقاقية (derivational morphemes) تضيف معنى معجمياً أو دلالياً جديداً للكلمة الأساسية التي تتصل بها (مثل البادئة un- التي تعني 'النفي' واللاحقة -er التي تعني 'فاعل الفعل')، على عكس اللواحق التصريفية النحوية بحتة."
+    },
+    {
+      "q": "Which is an example of coinage?",
+      "options": [
+        "edit from editor",
+        "brunch from breakfast + lunch",
+        "exam from examination",
+        "Kodak"
+      ],
+      "correct": 3,
+      "feedback": "الإجابة الصحيحة هي 'Kodak'. وفقاً لفقرة 'Word Coinage' في الصفحة 12 من الأوراق الذهبية، فإن الابتكار (coinage) هو ابتكار كلمات جديدة تماماً وغالباً ما تكون أسماء تجارية مثل 'Kodak' و 'Xerox'."
+    },
+    {
+      "q": "An eponym is a word:",
+      "options": [
+        "Formed by adding a plural suffix",
+        "Formed by deleting a suffix",
+        "Borrowed from another language",
+        "Formed from a proper name"
+      ],
+      "correct": 3,
+      "feedback": "الإجابة الصحيحة هي 'Formed from a proper name'. وفقاً للتعريف في الصفحة 12 من الأوراق الذهبية: 'Eponyms are words that are coined from proper names' (الأسماء المنتسبة لأشخاص أو أماكن)."
+    },
+    {
+      "q": "\"Sandwich\" is traditionally described as:",
+      "options": [
+        "A back-formation",
+        "An eponym",
+        "A clipping",
+        "An acronym"
+      ],
+      "correct": 1,
+      "feedback": "الإجابة الصحيحة هي 'An eponym'. وفقاً لفقرة 'Eponyms' في الصفحة 12 من الأوراق الذهبية، فإن كلمة 'Sandwich' سميت تيمناً بـ 'fourth Earl of Sandwich' الذي ابتكرها ليأكلها أثناء اللعب."
+    },
+    {
+      "q": "\"Edit\" historically developed from:",
+      "options": [
+        "Edited",
+        "Editing",
+        "Edition",
+        "Editor"
+      ],
+      "correct": 3,
+      "feedback": "الإجابة الصحيحة هي 'Editor'. وفقاً لفقرة 'Backformations' في الصفحة 12 من الأوراق الذهبية، فإن الفعل 'edit' ظهر في اللغة كاشتقاق عكسي (back-formation) من الاسم 'editor' بناءً على تحليل خاطئ بأن اللاحقة '-er' هي لاحقة الفاعل."
+    },
+    {
+      "q": "Blending involves:",
+      "options": [
+        "Changing a verb into a noun",
+        "Joining two complete words without modification",
+        "Borrowing a complete word",
+        "Combining parts of two words"
+      ],
+      "correct": 3,
+      "feedback": "الإجابة الصحيحة هي 'Combining parts of two words'. المزج (Blending) يتضمن دمج أجزاء من كلمتين مع حذف بعض الحروف منهما لتشكيل كلمة جديدة (مثل smoke + fog = smog)، كما ورد في الصفحة 14."
+    },
+    {
+      "q": "The word \"snowman\" is formed through:",
+      "options": [
+        "Coinage",
+        "Compounding",
+        "Back-formation",
+        "Suppletion"
+      ],
+      "correct": 1,
+      "feedback": "الإجابة الصحيحة هي 'Compounding' (التركيب). كلمة 'snowman' تتكون من دمج كلمتين كاملتين مستقلتين هما الاسم 'snow' والاسم 'man' لتشكيل كلمة مركبة واحدة دون تعديل في بنيتهما (الصفحة 13)."
+    },
+    {
+      "q": "A word formed from the initial letters of a series of words and pronounced as a word is an:",
+      "options": [
+        "Infix",
+        "Eponym",
+        "Inflection",
+        "Acronym"
+      ],
+      "correct": 3,
+      "feedback": "الإجابة الصحيحة هي 'Acronym' (الاسم التاجي). يعرف الأكرونيم في الصفحة 15 من الأوراق الذهبية بأنه الكلمات المشتقة من الحروف الأولى لعدة كلمات وتُلفظ ككلمة واحدة مثل NASA و UNESCO."
+    },
+    {
+      "q": "An abbreviation such as \"MRI\" differs from an acronym because:",
+      "options": [
+        "It is always borrowed",
+        "Its letters are normally pronounced individually",
+        "It is a compound",
+        "It contains an inflectional suffix"
+      ],
+      "correct": 1,
+      "feedback": "الإجابة الصحيحة هي 'Its letters are normally pronounced individually'. وفقاً للصفحة 15-16 من الأوراق الذهبية، فإن الاختصار الأبجدي (alphabetical abbreviation) يختلف عن الأكرونيم في أنه لا يمكن نطق الكلمة مجتمعة بل تُنطق الحروف بشكل منفصل (مثل MRI و UCLA)."
+    },
+    {
+      "q": "Which of the following would most likely be studied under phonology?",
+      "options": [
+        "How /p/ and /b/ contrast in a language",
+        "How \"teach\" becomes \"teacher\"",
+        "Why a sentence has two meanings",
+        "How nouns combine with adjectives"
+      ],
+      "correct": 0,
+      "feedback": "الإجابة الصحيحة هي 'How /p/ and /b/ contrast in a language'. علم الأصوات الوظيفي (Phonology) يدرس النظام الصوتي وخصائص الأصوات في اللغة وكيفية تباينها وتأليفها لتشكيل وحدات أكبر (الصفحة 2 و3)."
+    },
+    {
+      "q": "A linguist studying how the suffix \"-ness\" creates nouns from adjectives is primarily studying:",
+      "options": [
+        "Syntax",
+        "Phonetics",
+        "Morphology",
+        "Pragmatics"
+      ],
+      "correct": 2,
+      "feedback": "الإجابة الصحيحة هي 'Morphology' (علم الصرف). علم الصرف يدرس بنية الكلمة وكيفية صياغتها من أجزاء أصغر (المورفيمات) مثل دراسة كيفية تحويل الصفات إلى أسماء بإضافة اللاحقة '-ness' (الورقة الذهبية، الصفحة 2 و7)."
+    },
+    {
+      "q": "The word \"replayed\" contains:",
+      "options": [
+        "One morpheme",
+        "Two morphemes",
+        "Three morphemes",
+        "Four morphemes"
+      ],
+      "correct": 2,
+      "feedback": "الإجابة الصحيحة هي 'Three morphemes'. الكلمة تتكون من ثلاثة مورفيمات: البادئة الاشتقاقية 're-' (تكرار)، والجذر 'play' (فعل حُر)، واللاحقة التصريفية الماضي '-ed'."
+    },
+    {
+      "q": "Which segmentation is correct for \"carelessness\"?",
+      "options": [
+        "careless + s",
+        "car + eless + ness",
+        "care + lessness",
+        "care + less + ness"
+      ],
+      "correct": 3,
+      "feedback": "الإجابة الصحيحة هي 'care + less + ness'. كلمة 'carelessness' تتكون من ثلاثة مورفيمات واضحة: الجذر الحُر 'care'، تليها اللاحقة الاشتقاقية '-less' (بمعنى بدون)، ثم اللاحقة الاشتقاقية '-ness' (لتحويل الصفة إلى اسم)."
+    },
+    {
+      "q": "Which word contains three morphemes?",
+      "options": [
+        "dogs",
+        "kindness",
+        "unhelpful",
+        "table"
+      ],
+      "correct": 2,
+      "feedback": "الإجابة الصحيحة هي 'unhelpful'. تتكون الكلمة من ثلاثة مورفيمات: البادئة 'un-'، الجذر 'help'، واللاحقة '-ful'. بينما 'dogs' يحتوي على 2، 'kindness' على 2، و'table' على 1."
+    },
+    {
+      "q": "In the word \"national,\" \"-al\" functions as the:",
+      "options": [
+        "Prefix",
+        "Infix",
+        "Inflection",
+        "Root"
+      ],
+      "correct": 2,
+      "feedback": "تنبيه: هناك خطأ مطبعي في خيارات السؤال في ورقة الامتحان؛ اللاحقة '-al' في كلمة 'national' هي لاحقة اشتقاقية (derivational suffix) وتعتبر من الزوائد (affixes)، ولكنها ليست بادئة (prefix) ولا مقحمة (infix) وليست جذراً (root)، وبالتأكيد ليست تصريفية (inflection). الخيار المظلل في ورقة الإجابة المرفقة بالامتحان هو 'C. Inflection' رغم عدم دقته علمياً، حيث تقع اللاحقة في نهاية الكلمة كـ suffix اشتقاقي (الصفحة 9)."
+    },
+    {
+      "q": "Inflectional morphemes primarily:",
+      "options": [
+        "Create completely new lexical items",
+        "Change roots into bound morphemes",
+        "Create compounds",
+        "Mark grammatical information"
+      ],
+      "correct": 3,
+      "feedback": "الإجابة الصحيحة هي 'Mark grammatical information'. وفقاً للصفحة 16 من الأوراق الذهبية، فإن اللواحق التصريفية (inflectional morphemes) لها وظيفة قواعدية بحتة (strictly grammatical function) وتُستخدم لتحديد السمات النحوية كزمن الفعل والعدد والملكيات."
+    },
+    {
+      "q": "Which word contains an inflectional superlative?",
+      "options": [
+        "impossible",
+        "teacher",
+        "darkness",
+        "tallest"
+      ],
+      "correct": 3,
+      "feedback": "الإجابة الصحيحة هي 'tallest'. اللاحقة '-est' في كلمة 'tallest' هي لاحقة تصريفية تدل على صيغة التفضيل العليا (superlative)، كما هو موضح في جدول اللواحق التصريفية بالصفحة 16 من الأوراق الذهبية."
+    },
+    {
+      "q": "Blending involves:",
+      "options": [
+        "Combining parts of two words",
+        "Joining two complete words without modification",
+        "Borrowing a complete word",
+        "Changing a verb into a noun"
+      ],
+      "correct": 0,
+      "feedback": "الإجابة الصحيحة هي 'Combining parts of two words'. هذا السؤال مكرر في الامتحان (مطابق للسؤال 8). المزج (Blending) يعني دمج أجزاء من كلمتين بعد حذف بعض الأجزاء منهما (الصفحة 14)."
+    },
+    {
+      "q": "Which word is best analyzed as a blend?",
+      "options": [
+        "football",
+        "notebook",
+        "classroom",
+        "motel"
+      ],
+      "correct": 3,
+      "feedback": "الإجابة الصحيحة هي 'motel'. كلمة 'motel' هي مزيج (blend) من كلمتين: motorist + hotel = motel، كما ورد في أمثلة الـ Blending بالصفحة 14 من الأوراق الذهبية."
+    },
+    {
+      "q": "Which compound has the structure adjective + noun?",
+      "options": [
+        "spoonfeed",
+        "sleepwalk",
+        "pickpocket",
+        "darkroom"
+      ],
+      "correct": 3,
+      "feedback": "الإجابة الصحيحة هي 'darkroom'. الكلمة المركبة 'darkroom' تتكون من صفة (dark) واسم (room). بقية الخيارات: 'spoonfeed' (noun + verb)، 'sleepwalk' (verb + verb)، 'pickpocket' (verb + noun) (الصفحة 13)."
+    },
+    {
+      "q": "Which compound has the structure verb + noun?",
+      "options": [
+        "bluebird",
+        "pickpocket",
+        "darkroom",
+        "bittersweet"
+      ],
+      "correct": 1,
+      "feedback": "الإجابة الصحيحة هي 'pickpocket'. الكلمة المركبة 'pickpocket' تتكون من فعل (pick) واسم (pocket)، وهو ما يعطي بنية verb + noun (الصفحة 13 من الأوراق الذهبية)."
+    },
+    {
+      "q": "In \"The children opened the window,\" which can function as a constituent?",
+      "options": [
+        "children opened",
+        "the window",
+        "opened the",
+        "window the"
+      ],
+      "correct": 1,
+      "feedback": "الإجابة الصحيحة هي 'the window'. العبارة الاسمية 'the window' تشكل مكوناً تركيبياً (constituent) كاملاً في الجملة (مفعول به NP)، حيث يمكنها الوقوف بمفردها أو استبدالها بضمير مثل 'it' (الصفحة 18-19)."
+    },
+    {
+      "q": "Which test is illustrated by \"The book was placed on the table\" -> \"On the table, the book was placed\"?",
+      "options": [
+        "Stand-alone test",
+        "Movement test",
+        "Replacement test",
+        "Agreement test"
+      ],
+      "correct": 1,
+      "feedback": "الإجابة الصحيحة هي 'Movement test' (اختبار النقل/التحريك). نقل شبه الجملة 'on the table' من نهاية الجملة إلى بدايتها يدل على أنها تشكل مكوناً تركيبياً واحداً يتحرك معاً، وهو اختبار النقل (الصفحة 18)."
+    },
+    {
+      "q": "In \"The children played in the garden,\" the expression \"in the garden\" is a:",
+      "options": [
+        "Noun phrase",
+        "Verb phrase",
+        "Adjective phrase",
+        "Prepositional phrase"
+      ],
+      "correct": 3,
+      "feedback": "الإجابة الصحيحة هي 'Prepositional phrase' (شبه جملة جار ومجرور PP). العبارة تبدأ بحرف الجر 'in' متبوعاً بالعبارة الاسمية 'the garden'، مما يجعلها PP (الصفحة 19-20)."
+    },
+    {
+      "q": "In \"The extremely talented artist painted a portrait,\" the phrase \"the extremely talented artist\" can be represented as:",
+      "options": [
+        "NP",
+        "VP",
+        "AP",
+        "PP"
+      ],
+      "correct": 0,
+      "feedback": "الإجابة الصحيحة هي 'NP' (عبارة اسمية Noun Phrase). العبارة الاسمية بأكملها تدور حول الاسم الرأس 'artist' وتتضمن المحدد 'the' والعبارة الصفية 'extremely talented'، وتعمل كفاعل للجملة (الصفحة 19)."
+    },
+    {
+      "q": "Which statement about phrase structure is correct?",
+      "options": [
+        "Every phrase must contain a verb.",
+        "Prepositional phrases cannot contain noun phrases.",
+        "Only noun phrases can contain smaller phrases.",
+        "Every phrase has a head that determines its category."
+      ],
+      "correct": 3,
+      "feedback": "الإجابة الصحيحة هي 'Every phrase has a head that determines its category'. وفقاً لنظرية سيمانتك والتركيب في الصفحة 25: 'The head of a phrase is the word whose lexical category defines the type of phrase' (الاسم يرأس NP، والجر يرأس PP، إلخ)."
+    },
+    {
+      "q": "Which sentence provides the clearest evidence of a complex-transitive pattern?",
+      "options": [
+        "The baby slept peacefully.",
+        "Nora opened the window.",
+        "The judges considered the proposal unrealistic.",
+        "Omar sent his friend a photograph."
+      ],
+      "correct": 2,
+      "feedback": "الإجابة الصحيحة هي 'The judges considered the proposal unrealistic'. الأفعال متعدية التعقيد (complex-transitive verbs) مثل consider تأخذ مفعولاً به (the proposal) ومكملاً للمفعول به (unrealistic)، وهو ما ينطبق على هذا النمط (SVOC)."
+    },
+    {
+      "q": "Which sentence most clearly contains an Instrument role?",
+      "options": [
+        "Daniel received a letter.",
+        "Daniel entered the room.",
+        "Daniel cut the rope with a knife.",
+        "Daniel visited his uncle."
+      ],
+      "correct": 2,
+      "feedback": "الإجابة الصحيحة هي 'Daniel cut the rope with a knife'. شبه الجملة 'with a knife' تعبر عن الأداة (Instrument) المستخدمة للقيام بالفعل (القطع)، وهي تصف دور الأداة دلالياً."
+    },
+    {
+      "q": "Which of the following is associated with phonetics?",
+      "options": [
+        "Semantic ambiguity",
+        "Word order",
+        "Place of articulation",
+        "both B & C"
+      ],
+      "correct": 2,
+      "feedback": "الإجابة الصحيحة هي 'Place of articulation' (مخرج الحرف/مكان النطق). هذا المفهوم يتعلق بكيفية إنتاج الأصوات في جهاز النطق البشري، وهو موضوع دراسة علم الأصوات الفيزيائي واللفظي (Phonetics)."
+    },
+    {
+      "q": "The word \"seal\" can refer to an animal or an official mark. This is an example of:",
+      "options": [
+        "Synonymy",
+        "Antonymy",
+        "Lexical ambiguity",
+        "Inflection"
+      ],
+      "correct": 2,
+      "feedback": "الإجابة الصحيحة هي 'Lexical ambiguity' (الغموض المعجمي). يحدث الغموض المعجمي عندما تمتلك الكلمة الواحدة أكثر من معنى مستقل (مثل كلمة seal التي تعني حيوان الفقمة أو الختم الرسمي)، كما هو موضح بالصفحة 17."
+    },
+    {
+      "q": "If \"with binoculars\" in \"He saw the man with binoculars\" describes the man's possession, the phrase is structurally associated with:",
+      "options": [
+        "The adjective \"man\"",
+        "The verb phrase containing \"saw\"",
+        "The noun phrase containing \"the man\"",
+        "The subject only"
+      ],
+      "correct": 2,
+      "feedback": "الإجابة الصحيحة هي 'The noun phrase containing \"the man\"'. إذا كانت 'with binoculars' تصف ما يمتلكه الرجل، فإنها تكون مكملاً أو صفة داخل العبارة الاسمية (NP) التي تحوي 'the man' (أي الرجل الذي يحمل المنظار)، كما هو موضح في الصفحتين 29 و30 من الأوراق الذهبية."
+    },
+    {
+      "q": "The words \"night\" and \"knight\" demonstrate that:",
+      "options": [
+        "Different spellings always have different pronunciations",
+        "Similar meanings require similar sounds",
+        "Different words may have the same pronunciation",
+        "All English words are morphologically complex"
+      ],
+      "correct": 2,
+      "feedback": "الإجابة الصحيحة هي 'Different words may have the same pronunciation'. الكلمتان 'night' و'knight' هما متجانسات صوتية (homophones)؛ لهما نفس النطق تماماً بالرغم من اختلاف الكتابة والمعنى."
+    },
+    {
+      "q": "Which pair illustrates derivation?",
+      "options": [
+        "walk / walked",
+        "cat / cats",
+        "teach / teacher",
+        "tall / taller"
+      ],
+      "correct": 2,
+      "feedback": "الإجابة الصحيحة هي 'teach / teacher'. الانتقال من الفعل 'teach' إلى الاسم 'teacher' بإضافة اللاحقة '-er' هو عملية اشتقاق (derivation) تغير الفئة النحوية للكلمة وتنتج معنى معجمياً جديداً (الصفحة 10)."
+    },
+    {
+      "q": "Which pair illustrates inflection?",
+      "options": [
+        "happy / unhappy",
+        "kind / kindness",
+        "teach / teacher",
+        "play / played"
+      ],
+      "correct": 3,
+      "feedback": "الإجابة الصحيحة هي 'play / played'. إضافة اللاحقة '-ed' للفعل 'play' لتحويله للماضي هي عملية تصريف (inflection) قواعدية لا تغير الفئة التركيبية للكلمة (تظل فعلاً)، وتتبع جدول اللواحق التصريفية في الصفحة 16."
+    },
+    {
+      "q": "The two occurrences of \"-er\" in \"worker\" and \"faster\" differ because:",
+      "options": [
+        "They are pronounced differently",
+        "One is always free",
+        "They have different grammatical functions",
+        "One is a prefix"
+      ],
+      "correct": 2,
+      "feedback": "الإجابة الصحيحة هي 'They have different grammatical functions'. اللاحقة '-er' في 'worker' هي لاحقة اشتقاقية (derivational) تدل على اسم الفاعل (agentive)، بينما اللاحقة '-er' في 'faster' هي لاحقة تصريفية (inflectional) تدل على المقارنة (comparative) (الصفحة 10 و11)."
+    },
+    {
+      "q": "Which word contains both a derivational and an inflectional morpheme?",
+      "options": [
+        "books",
+        "workers",
+        "played",
+        "taller"
+      ],
+      "correct": 1,
+      "feedback": "الإجابة الصحيحة هي 'workers'. تحتوي الكلمة على الجذر 'work'، متبوعاً باللاحقة الاشتقاقية '-er' (لتحويلها لاسم فاعل: worker)، متبوعاً باللاحقة التصريفية '-s' للجمع (workers)، وبذلك تجمع بين الاشتقاق والتصريف (الصفحة 16)."
+    },
+    {
+      "q": "Which word demonstrates derivation without a change in grammatical category?",
+      "options": [
+        "beauty -> beautiful",
+        "teach -> teacher",
+        "sing -> singer",
+        "agree -> disagree"
+      ],
+      "correct": 3,
+      "feedback": "الإجابة الصحيحة هي 'agree -> disagree'. يتشارك الفعل 'agree' والكلمة المشتقة منه 'disagree' في نفس الفئة النحوية (كلاهما أفعال Verbs)، وبالتالي حدث اشتقاق دون تغيير في الفئة النحوية (الصفحة 10 من الأوراق الذهبية)."
+    },
+    {
+      "q": "Which of the following is an English inflectional morpheme?",
+      "options": [
+        "-ment",
+        "un-",
+        "-ed",
+        "-ness"
+      ],
+      "correct": 2,
+      "feedback": "الإجابة الصحيحة هي '-ed'. اللاحقة '-ed' هي لاحقة تصريفية (inflectional morpheme) تُستخدم للدلالة على الزمن الماضي، كما هو مبين في جدول اللواحق التصريفية بالصفحة 16 من الأوراق الذهبية."
+    },
     {
       "q": "To understand the relationship between language and society is the primary goal of...",
       "options": [
