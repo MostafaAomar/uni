@@ -1,15 +1,15 @@
-const APP_VERSION = "13";
+const APP_VERSION = "14";
 const SHELL_CACHE = `uniquiz-shell-v${APP_VERSION}`;
 const CATALOG_CACHE = "uniquiz-catalog-v2";
 const APP_SHELL = [
   "./index.html",
-  "./offline.css?v=13",
-  "./style.css?v=13",
-  "./supabase.js?v=13",
-  "./subject-storage.js?v=13",
-  "./content-catalog.js?v=13",
-  "./app.js?v=13",
-  "./app-v12.js?v=13",
+  "./offline.css?v=14",
+  "./style.css?v=14",
+  "./supabase.js?v=14",
+  "./subject-storage.js?v=14",
+  "./content-catalog.js?v=14",
+  "./app.js?v=14",
+  "./app-v12.js?v=14",
   "./manifest.webmanifest",
   "./icon.svg",
   "./icon.png",
