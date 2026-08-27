@@ -411,7 +411,7 @@
       : 0;
     const card = document.createElement("article");
     card.className = `subject-btn subject-library-card status-${status}`;
-    card.dir = installed?.lang === "en" || entry.lang === "en" ? "ltr" : "rtl";
+    card.dir = ["en", "fr"].includes(installed?.lang) || ["en", "fr"].includes(entry.lang) ? "ltr" : "rtl";
     if (installed) {
       card.setAttribute("role", "button");
       card.tabIndex = 0;
