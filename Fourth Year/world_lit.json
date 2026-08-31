@@ -3,6 +3,776 @@
   "description": " فصل 2 الدكتور مهند",
   "lang": "en",
   "questions": [
+       {
+      "q": "Which is NOT a Greek Hero or Legend?",
+      "options": [
+        "Theseus",
+        "Aeneas",
+        "Gilgamesh",
+        "Heracles"
+      ],
+      "correct": 2,
+      "feedback": "الإجابة الصحيحة هي 'Gilgamesh' (جلجامش). جلجامش هو بطل ملحمي من بلاد الرافدين (ميزوبوتاميا) وليس بطلاً أو أسطورة إغريقية، بينما الآخرون (ثيسيوس، إينياس، هرقل) هم أبطال إغريق ميثولوجيون معروفون."
+    },
+    {
+      "q": "What is the destination for ordinary souls in Greek belief?",
+      "options": [
+        "Asphodel",
+        "Elysium",
+        "Tartarus",
+        "Hades"
+      ],
+      "correct": 0,
+      "feedback": "الإجابة الصحيحة هي 'Asphodel'. في المعتقدات الإغريقية، تذهب أرواح عامة الناس والنفوس العادية التي لم تكن شريرة جداً ولا بطلة متميزة إلى سهول أسفوديل (Asphodel Meadows)، وهي برزخ رمادي غامض لا يحمل عذاباً ولا نعيماً."
+    },
+    {
+      "q": "Tartarus is described as:",
+      "options": [
+        "A paradise for heroes",
+        "A deep pit for torment",
+        "The river to cross into the underworld",
+        "A grey plain with pale flowers, no pain or joy"
+      ],
+      "correct": 1,
+      "feedback": "الإجابة الصحيحة هي 'A deep pit for torment'. تارتاروس (Tartarus) هو هاوية سحيقة تحت الأرض تُستخدم كسجن ومكان لتعذيب الأشرار والجبابرة (التيتانز) الذين تمردوا على الآلهة الأولمبيين."
+    },
+    {
+      "q": "Who is the ferryman requiring a coin for the River Styx?",
+      "options": [
+        "Hermes",
+        "Charon",
+        "Proteus",
+        "Tiresias"
+      ],
+      "correct": 1,
+      "feedback": "الإجابة الصحيحة هي 'Charon' (خارون). في الميثولوجيا الإغريقية، خارون هو المراكبي الأسطوري الذي ينقل أرواح الموتى عبر نهر ستيكس مقابل عملة معدنية (أوبول) توضع تقليدياً في فم الميت أثناء الدفن."
+    },
+    {
+      "q": "The Greek value 'Kleos' refers to:",
+      "options": [
+        "Guest-friendship",
+        "Homecoming",
+        "Glory/Fame",
+        "Moderation"
+      ],
+      "correct": 2,
+      "feedback": "الإجابة الصحيحة هي 'Glory/Fame'. يعبر مصطلح 'Kleos' عن المجد الخالد والسمعة الطيبة التي ينالها البطل الإغريقي من خلال إنجازاته العظيمة، وتنتقل عبر قصائد المنشدين وأغانيهم لتعيش بعد موته."
+    },
+    {
+      "q": "For Achilles, Kleos is important because:",
+      "options": [
+        "Life is short and death is inevitable; only story brings immortality",
+        "It ensures wealth and power",
+        "It pleases the gods",
+        "It ensures he lives forever"
+      ],
+      "correct": 0,
+      "feedback": "الإجابة الصحيحة هي 'Life is short and death is inevitable; only story brings immortality'. بالنسبة لأخيل، الخيار كان بين حياة طويلة ومملة، أو حياة قصيرة ممتلئة بالمجد (Kleos). فاختار الأخيرة لأن الذكر الطيب والقصة الملحمية هما الوسيلة الوحيدة لنيل خلود حقيقي بعد الموت."
+    },
+    {
+      "q": "The central theme of the Odyssey, contrasting with the Iliad, is:",
+      "options": [
+        "Kleos",
+        "Xenia",
+        "Hubris",
+        "Nostos (Homecoming)"
+      ],
+      "correct": 3,
+      "feedback": "الإجابة الصحيحة هي 'Nostos (Homecoming)'. الموضوع المركزي لملحمة الأوديسة هو 'Nostos' (رحلة العودة والرجوع إلى الوطن والزوجة والابن)، مما يتباين مع ملحمة الإلياذة التي تدور حول الحرب والمجد العسكري (Kleos) والغضب الفردي."
+    },
+    {
+      "q": "Xenia is defined as:",
+      "options": [
+        "The desire for glory",
+        "A sacred law of Guest-Friendship",
+        "The journey to the underworld",
+        "Excessive pride"
+      ],
+      "correct": 1,
+      "feedback": "الإجابة الصحيحة هي 'A sacred law of Guest-Friendship'. تشير 'Xenia' إلى ميثاق حسن الضيافة المقدس والواجب الديني والاجتماعي لإكرام الضيف وحماية الغرباء، وهو قانون كان الإغريق يعتبرونه تحت الرعاية المباشرة للإله زوس (Zeus Xenios)."
+    },
+    {
+      "q": "The violation of Xenia is cited as the cause of:",
+      "options": [
+        "The Trojan War",
+        "War of the Titans",
+        "Fall of Troy",
+        "Sacking of Rome"
+      ],
+      "correct": 0,
+      "feedback": "الإجابة الصحيحة هي 'The Trojan War'. كان السبب المباشر لحرب طروادة هو انتهاك باريس الصارخ لمبدأ الضيافة (Xenia) عندما حل ضيفاً في قصر مينلاوس ملك إسبرطة ثم فرّ هارباً مع زوجته هيلين."
+    },
+    {
+      "q": "Which primordial deity represents the Earth?",
+      "options": [
+        "Uranus",
+        "Gaia",
+        "Chaos",
+        "Rhea"
+      ],
+      "correct": 1,
+      "feedback": "الإجابة الصحيحة هي 'Gaia' (غايا). غايا هي الإلهة الأم البدائية التي تجسد الأرض وتعتبر أساس السلالات الإلهية ووالدة أورانوس والعمالقة والتيتانز."
+    },
+    {
+      "q": "The Olympians defeated which group to establish order?",
+      "options": [
+        "The Cyclopes",
+        "The Giants",
+        "The Titans",
+        "The primordial deities"
+      ],
+      "correct": 2,
+      "feedback": "الإجابة الصحيحة هي 'The Titans' (الجبابرة). خاض الآلهة الأولمبيون الشباب بزعامة زوس معركة كونية طويلة وضارية تدعى حرب الجبابرة (Titanomachy) ضد التيتانز لإرساء حكمهم ونظامهم الجديد."
+    },
+    {
+      "q": "When were the Iliad and Odyssey generally thought to be composed?",
+      "options": [
+        "10th century BC",
+        "3rd or 2nd century BC",
+        "Late 8th or early 7th century BC",
+        "Late 5th or early 4th century BC"
+      ],
+      "correct": 2,
+      "feedback": "الإجابة الصحيحة هي 'Late 8th or early 7th century BC'. يرجح علماء الآداب الكلاسيكية والتاريخ أن صياغة ملحمتي الإلياذة والأوديسة في نسختهما المستقرة تم في أواخر القرن الثامن أو مطلع القرن السابع قبل الميلاد."
+    },
+    {
+      "q": "What is the most widespread traditional description of Homer?",
+      "options": [
+        "A deaf bard",
+        "A Trojan citizen",
+        "A one-eyed bard",
+        "A blind bard"
+      ],
+      "correct": 3,
+      "feedback": "الإجابة الصحيحة هي 'A blind bard'. تصف التقاليد الإغريقية الكلاسيكية الشاعر الأسطوري هوميروس بأنه كان منشداً جوالاً كفيفاً (blind bard) من إقليم إيونيا."
+    },
+    {
+      "q": "Which region is Homer traditionally associated with?",
+      "options": [
+        "Sparta",
+        "Ionia",
+        "Crete",
+        "Athens"
+      ],
+      "correct": 1,
+      "feedback": "الإجابة الصحيحة هي 'Ionia'. ترتبط شخصية هوميروس ولغة ملاحمه (التي تجمع بين اللهجتين الأيونية والآيولية) بساحل إقليم إيونيا (Ionia) غرب آسيا الصغرى وجزيرة خيوس."
+    },
+    {
+      "q": "What did Greeks of the 3rd and 2nd centuries BC question about Homer?",
+      "options": [
+        "Whether he existed",
+        "Whether he wrote the poems",
+        "Whether he was from Ionia",
+        "Whether he was blind"
+      ],
+      "correct": 0,
+      "feedback": "الإجابة الصحيحة هي 'Whether he existed'. بدأ نقاد وعلماء مكتبة الإسكندرية في القرنين الثالث والثاني قبل الميلاد يتساءلون ويبحثون في حقيقة وجود شاعر واحد يدعى هوميروس أم أن الملاحم نتاج تقاليد شفهية تراكمية، وهو ما يدعى 'المسألة الهوميرية'."
+    },
+    {
+      "q": "What is the primary purpose of epic poems in terms of culture?",
+      "options": [
+        "To record history accurately",
+        "To hand down ideas to the next generation",
+        "To entertain the gods",
+        "To teach medical terms"
+      ],
+      "correct": 1,
+      "feedback": "الإجابة الصحيحة هي 'To hand down ideas to the next generation'. الأغراض الثقافية للملاحم في المجتمعات القديمة تمحورت حول الحفاظ على هوية المجتمع، ونقل قيمه، وأخلاقياته، وعاداته، ونماذجه البطولية عبر الأجيال."
+    },
+    {
+      "q": "Pegasus is a:",
+      "options": [
+        "Shamanic horse",
+        "Winged horse",
+        "Fleeing horse",
+        "Fast horse"
+      ],
+      "correct": 1,
+      "feedback": "الإجابة الصحيحة هي 'Winged horse'. بيغاسوس (Pegasus) هو الحصان الطائر الأسطوري ذو الجناحين الأبيضين الذي ولد من دماء جورجون ميدوسا عند قطع رأسها."
+    },
+    {
+      "q": "Prometheus was punished by Zeus for:",
+      "options": [
+        "Abducting Helen",
+        "Blinding a Cyclops",
+        "Stealing fire for humans",
+        "Refusing to rule the Underworld"
+      ],
+      "correct": 2,
+      "feedback": "الإجابة الصحيحة هي 'Stealing fire for humans'. عاقب زوس التيتان بروميثيوس بتقييده إلى صخرة وسلط عليه نسراً يلتهم كبده يومياً، عقاباً له على سرقة سر النار المقدسة وإهدائها للبشر لتمكينهم من الحضارة."
+    },
+    {
+      "q": "Scylla and Charybdis represent:",
+      "options": [
+        "Choosing between evils",
+        "The beauty of love",
+        "The power of agriculture",
+        "The wisdom of strategy"
+      ],
+      "correct": 0,
+      "feedback": "الإجابة الصحيحة هي 'Choosing between evils'. تمثل الوحشتان البحريتان سيلا وتشاريبديس مأزقاً وتشبهاً بمثل 'بين المطرقة والسندان'، حيث تعني المفاضلة بين خيارين سيئين واختيار أخفهما ضرراً للنجاة."
+    },
+    {
+      "q": "The Sirens are known for:",
+      "options": [
+        "Turning men to stone with their gaze",
+        "Snatching food and people",
+        "Asking riddles to travelers",
+        "Their beautiful singing that lures sailors to death"
+      ],
+      "correct": 3,
+      "feedback": "الإجابة الصحيحة هي 'Their beautiful singing that lures sailors to death'. حوريات البحر أو السايرنز تميزن بغنائهن الساحر الذي يسلب العقول والقلوب، مما يدفع البحارة للتوجه بسفنهم نحو الصخور ليموتوا غرقاً."
+    },
+    {
+      "q": "Which creature asks riddles to travelers before killing them?",
+      "options": [
+        "Harpy",
+        "Sphinx",
+        "Unicorn",
+        "Nymph"
+      ],
+      "correct": 1,
+      "feedback": "الإجابة الصحيحة هي 'Sphinx' (أبو الهول الإغريقي). السفينكس مخلوق مرعب برأس امرأة، وجسد أسد، وجناحي طير، كان يجلس خارج مدينة طيبة ويخنق كل مسافر يعجز عن حل لغزه الشهير."
+    },
+    {
+      "q": "Which mythological term did Freud use in psychology?",
+      "options": [
+        "Achilles' Heel",
+        "Pandora's Box",
+        "Oedipus Complex",
+        "Golden Fleece"
+      ],
+      "correct": 2,
+      "feedback": "الإجابة الصحيحة هي 'Oedipus Complex' (عقدة أوديب). استعار طبيب النفس سيغموند فرويد اسم الملك التراجيدي أوديب (الذي قتل والده وتزوج والدته دون علم) لصياغة نظريته النفسية حول رغبات الطفل اللاشعورية تجاه أبويه."
+    },
+    {
+      "q": "Which of the following are used in modern day space programs?",
+      "options": [
+        "Artemis and Apollo",
+        "Zeus and Apollo",
+        "Zeus and Hera",
+        "Apollo and Hera"
+      ],
+      "correct": 0,
+      "feedback": "الإجابة الصحيحة هي 'Artemis and Apollo'. استخدمت وكالة ناسا اسم الإله اليوناني أبولو (إله النور والشعر والنبؤة) لرحلات الهبوط على القمر، واسم توأمه أرتميس (إلهة الصيد والقمر) لبرنامج استكشاف القمر الحديث."
+    },
+    {
+      "q": "Which device helps bards remember lines, and 'rosy-fingered Dawn'?",
+      "options": [
+        "Extended simile",
+        "In medias res",
+        "Repetition",
+        "Dactylic hexameter"
+      ],
+      "correct": 0,
+      "feedback": "الإجابة الصحيحة المحددة في ورقة الامتحان الرسمية هي 'Extended simile' (التشبيه الممتد). تجدر الإشارة الأكاديمية إلى أن العبارات المتكررة مثل 'rosy-fingered Dawn' تعتبر أيضاً صفات هوميرية صيغية تساعد في الإنشاد الشفهي."
+    },
+    {
+      "q": "What specific rhythm is used in these epic poems?",
+      "options": [
+        "Dactylic hexameter",
+        "Free verse",
+        "Trochaic tetrameter",
+        "Iambic pentameter"
+      ],
+      "correct": 0,
+      "feedback": "الإجابة الصحيحة هي 'Dactylic hexameter' (البحر السداسي التفاعيل الدكتيلي). هو الوزن الإيقاعي الذي يحكم صياغة الشعر الملحمي الكلاسيكي اليوناني والروماني، ويتألف من ست تفعيلات دكتيلية في كل بيت."
+    },
+    {
+      "q": "Which creature is a serpent king with a deadly gaze?",
+      "options": [
+        "Chimera",
+        "Sphinx",
+        "Hydra",
+        "Basilisk"
+      ],
+      "correct": 3,
+      "feedback": "الإجابة الصحيحة هي 'Basilisk' (البازيليسق). يوصف البازيليسق في الميثولوجيات بأنه ملك الزواحف الأسطوري الصغير القادر على قتل المخلوقات بمجرد النظر إليها أو من خلال أنفاسه الحارقة."
+    },
+    {
+      "q": "What does the Centaur represent?",
+      "options": [
+        "Brute strength",
+        "The conflict between reason and instinct",
+        "The underworld",
+        "Sea travel"
+      ],
+      "correct": 1,
+      "feedback": "الإجابة الصحيحة هي 'The conflict between reason and instinct'. يمثل القنطور (مخلوق بنصف إنسان ونصف حصان) ازدواجية الكينونة والصراع الداخلي المستمر بين العقل والمدنية (الجزء البشري) والغرائز البرية والحيوانية الجامحة (الجزء الخيلي)."
+    },
+    {
+      "q": "Which creature guards the gates of the Underworld?",
+      "options": [
+        "Minotaur",
+        "Scylla",
+        "Cerberus",
+        "Harpy"
+      ],
+      "correct": 2,
+      "feedback": "الإجابة الصحيحة هي 'Cerberus' (سيربيروس). سيربيروس هو الكلب ذو الرؤوس الثلاثة المخيف والذيل الذي ينتهي برأس ثعبان، ومهمته حراسة بوابة العالم السفلي لضمان بقاء الأرواح بالداخل وعدم دخول الأحياء."
+    },
+    {
+      "q": "The Chimera is best described as:",
+      "options": [
+        "Fire-breathing monster with lion/goat/serpent parts",
+        "One-eyed giant",
+        "Fish-woman",
+        "Winged horse"
+      ],
+      "correct": 0,
+      "feedback": "الإجابة الصحيحة هي 'Fire-breathing monster with lion/goat/serpent parts'. الكايميرا هي أنثى وحش هجين يضم رأس أسد ينفث اللهب، ورأس ماعز يبرز من ظهرها، وذيل ينتهي برأس أفعى."
+    },
+    {
+      "q": "Who is the Titan leader known for devouring his children?",
+      "options": [
+        "Zeus",
+        "Prometheus",
+        "Hades",
+        "Cronus"
+      ],
+      "correct": 3,
+      "feedback": "الإجابة الصحيحة هي 'Cronus' (كرونوس). كرونوس، ملك الجبابرة التيتانز، تلقى نبوءة أن أحد أبنائه سيهزمه ويسلبه العرش، فكان يبتلع كل طفل تلده زوجته ريا فور ولادته، حتى خدعته بإخفاء طفلها زوس."
+    },
+    {
+      "q": "The Cyclops represents which traits?",
+      "options": [
+        "Wisdom and strategy",
+        "Brute strength, lawlessness, and isolation",
+        "Music and prophecy",
+        "Agriculture and harvest"
+      ],
+      "correct": 1,
+      "feedback": "الإجابة الصحيحة هي 'Brute strength, lawlessness, and isolation'. يمثل العمالقة أحاديو العين (Cyclopes) حياة همجية بدائية تخلو من القوانين والأنظمة الاجتماعية، ويعتمدون على القوة البدنية العنيفة والعيش المنعزل في الكهوف."
+    },
+    {
+      "q": "Who are the Fates (Moirai)?",
+      "options": [
+        "Vengeful spirits who punish blood crimes",
+        "Nature spirits of trees and water",
+        "Three goddesses who spin, measure, and cut the thread of life",
+        "Sea monsters that cause whirlpools"
+      ],
+      "correct": 2,
+      "feedback": "الإجابة الصحيحة هي 'Three goddesses who spin, measure, and cut the thread of life'. ربات القدر الثلاثة (كلotho، لاكيسيس، وأتروبوس) هن المسؤولات عن تحديد مسير وقدر كل بشر وفانٍ، حيث تغزل الأولى الخيط، وتقيس الثانية طوله، وتقطع الثالثة خيط الحياة معلنة الموت."
+    },
+    {
+      "q": "Which creature grows two heads for every one cut off?",
+      "options": [
+        "Hydra",
+        "Basilisk",
+        "Echidna",
+        "Gorgon"
+      ],
+      "correct": 0,
+      "feedback": "الإجابة الصحيحة هي 'Hydra' (الهيدرا). الهيدرا وحش مستنقعات ليرنا المائي المرعب، ويتميز بامتلاكه لعدة رؤوس ثعبانية، وكان كل رأس يُقطع منه ينمو بدلاً منه رأسان جديدان على الفور."
+    },
+    {
+      "q": "The Minotaur is described as:",
+      "options": [
+        "Half-man, half-horse",
+        "Winged spirit with bird claws",
+        "Lion with a woman's head",
+        "Half-man, half-bull living in the Labyrinth"
+      ],
+      "correct": 3,
+      "feedback": "الإجابة الصحيحة هي 'Half-man, half-bull living in the Labyrinth'. المينوتور هو كائن هجين برأس ثور وجسم رجل، ولد من حب ملكة كريت للثور الأبيض، وحُجز في متاهة معقدة صممها ديدالوس."
+    },
+    {
+      "q": "Which idiom is still used in everyday speech?",
+      "options": [
+        "Nemesis",
+        "Atlas",
+        "Titan",
+        "Achilles' heel"
+      ],
+      "correct": 3,
+      "feedback": "الإجابة الصحيحة هي 'Achilles' heel' (كعب أخيل). يعود التعبير إلى الأسطورة التي تروي أن والدة أخيل غطسته في نهر ستيكس ليصبح جسده غير قابل للاختراق إلا كعبه الذي أمسكت به، فصار الكعب رمزاً لنقطة الضعف القاتلة."
+    },
+    {
+      "q": "Tiresias tells Odysseus, “Even so, you and your crew may still reach home, suffering all the way, if you only have the power to curb their wild desire and curb your own.” What is the text implying about survival on the journey?",
+      "options": [
+        "The real danger is the monsters and gods, not the choices people make.",
+        "True survival depends on self-control, not just luck or divine help.",
+        "The journey will be easy if Odysseus stays close to the coast.",
+        "The crew will be saved if they follow every god’s command without question."
+      ],
+      "correct": 1,
+      "feedback": "الإجابة الصحيحة هي 'True survival depends on self-control, not just luck or divine help.'. تبرز نصيحة الكاهن الأعمى تيريسياس أن النجاة والعودة للوطن ليست رهناً بالمصادفات بل بقدرة القائد وطاقمه على ضبط النفس وكبح جماح رغباتهم الطائشة (مثل عدم المساس بماشية الإله هليوس)."
+    },
+    {
+      "q": "According to Hector’s quote, “And fate? No one alive has ever escaped it, neither brave man nor coward, I tell you—it’s born with us the day that we are born,” what is the text suggesting about human life?",
+      "options": [
+        "Gods decide who lives and who dies based on their strength.",
+        "Human life is shaped by an unavoidable force that everyone carries from birth.",
+        "Only kings and heroes are allowed to understand their destiny.",
+        "Fate can be changed if a person prays to the gods at the right time."
+      ],
+      "correct": 1,
+      "feedback": "الإجابة الصحيحة هي 'Human life is shaped by an unavoidable force that everyone carries from birth.'. تعكس كلمات البطل الطروادي هيكتور عمق الإيمان الإغريقي بجبرية القدر الذي يصاحب المخلوق منذ ولادته ولا مفر لأحد منه، شجاعاً كان أم جباناً."
+    },
+    {
+      "q": "Based on your reading of the two epics, how did the Greeks perceive the relationship between mortal suffering and divine will?",
+      "options": [
+        "Gods arbitrarily inflict pain to test mortal faith.",
+        "Mortals are entirely powerless, with fate dictated solely by capricious deities.",
+        "Divine intervention is consistently benevolent and aimed at correcting mortal mistakes.",
+        "Human suffering is compounded by mortal choices, while gods serve as both catalysts and observers of inevitable outcomes."
+      ],
+      "correct": 3,
+      "feedback": "الإجابة الصحيحة هي 'Human suffering is compounded by mortal choices, while gods serve as both catalysts and observers of inevitable outcomes.'. تُظهر الملاحم فلسفة إغريقية ترى أن تصرفات البشر وحماقاتهم تجلب لهم بؤساً إضافياً فوق ما قدره لهم الآلهة، في حين تتدخل الآلهة كداعمين أو محفزين للمصائر الحتمية."
+    },
+    {
+      "q": "Why does Odysseus reveal his true identity to Polyphemus after escaping, and what narrative consequence does the text explicitly link to this decision?",
+      "options": [
+        "He sought to claim heroic glory, which ironically triggers Poseidon’s wrath and prolongs his suffering.",
+        "He forgot the ruse due to exhaustion after the escape.",
+        "He wanted to ensure the Cyclops would pray to Poseidon for his safe passage.",
+        "He believed the gods would protect him if a legendary hero was known to have triumphed."
+      ],
+      "correct": 0,
+      "feedback": "الإجابة الصحيحة هي 'He sought to claim heroic glory, which ironically triggers Poseidon’s wrath and prolongs his suffering.'. دافع الكبرياء والغرور البطولي دفعا أوديسيوس لإخبار السيكلوب باسمه الحقيقي ليفخر بإنجازه، مما مكن بليفيموس من توجيه دعاء دقيق لوالده بوسيدون ليلعن أوديسيوس ويحرمه من العودة السريعة لبيته."
+    },
+    {
+      "q": "According to the provided text, who is ultimately responsible for orchestrating the circumstances that allow Hector to kill Patroclus?",
+      "options": [
+        "Apollo (who physically strikes him down)",
+        "Achilles (who gave flawed instructions)",
+        "Zeus (who planned the sequence and permitted divine intervention)",
+        "Athena (who abandoned the Greek forces)"
+      ],
+      "correct": 2,
+      "feedback": "الإجابة الصحيحة هي 'Zeus (who planned the sequence and permitted divine intervention)'. زوس هو العقل المدبر الأعلى الذي دبر تسلسل الأحداث وسمح لآلهة مثل أبولو بالتدخل لإضعاف باتروكلوس وتسهيل قتله على يد هيكتور، تلبيةً لوعده لإلهة البحر ثيتس بتمجيد أخيل."
+    },
+    {
+      "q": "The story of the Iliad is the story of:",
+      "options": [
+        "Wrath of Achilles",
+        "Death of Patroclus",
+        "Anger of the Olympians",
+        "Agamemnon's selfishness"
+      ],
+      "correct": 0,
+      "feedback": "الإجابة الصحيحة هي 'Wrath of Achilles' (غضب أخيل). الملحمة تفتتح بإنشاد غضب أخيل المدمر الذي ألحق بالإغريق خسائر لا حصر لها، وتدور أحداثها حول هذا الغضب وعواقبه."
+    },
+    {
+      "q": "What is the cause of the Trojan War?",
+      "options": [
+        "The kidnapping of Helen of Troy",
+        "The death of Iphigenia",
+        "The sinking of the Greek Armada",
+        "None of the above"
+      ],
+      "correct": 0,
+      "feedback": "الإجابة الصحيحة هي 'The kidnapping of Helen of Troy'. فرار باريس مع هيلين، زوجة مضيفه الإسبيرطي مينلاوس، كان الانتهاك الذي تسبب في تشكيل التحالف الإغريقي وإعلان الحرب الشاملة على طروادة."
+    },
+    {
+      "q": "Who was Agamemnon?",
+      "options": [
+        "King of one of the largest armies in ancient Greece.",
+        "A brave leader who fought in all wars",
+        "A ferocious fighter",
+        "Briseis's husband"
+      ],
+      "correct": 0,
+      "feedback": "الإجابة الصحيحة هي 'King of one of the largest armies in ancient Greece.'. كان أجاممنون ملكاً لمملكة ميكيني القوية، واختير كقائد أعلى للقوات الإغريقية المتحالفة لشن الهجوم على طروادة."
+    },
+    {
+      "q": "Who was the king of Sparta?",
+      "options": [
+        "Agamemnon",
+        "Paris",
+        "Priam",
+        "Menelaus"
+      ],
+      "correct": 3,
+      "feedback": "الإجابة الصحيحة هي 'Menelaus' (مينلاوس). مينلاوس هو ملك إسبرطة، وشقيق أجاممنون، والزوج الأصلي لهيلين التي اختطفها باريس."
+    },
+    {
+      "q": "Who is the King of Troy?",
+      "options": [
+        "Priam",
+        "Paris",
+        "Hector",
+        "Briseis"
+      ],
+      "correct": 0,
+      "feedback": "الإجابة الصحيحة هي 'Priam' (بريام). بريام هو ملك طروادة الحكيم والشيخ الوقور، وهو والد الأميرين البطلين هيكتور وباريس."
+    },
+    {
+      "q": "Which Greek goddess supports the Trojans in Iliad?",
+      "options": [
+        "Aphrodite",
+        "Hera",
+        "Athena",
+        "Both Hera and Athena"
+      ],
+      "correct": 0,
+      "feedback": "الإجابة الصحيحة هي 'Aphrodite' (أفروديت). تدعم أفروديت الطرواديين وتحمي باريس بالتحديد لأنها نالت تفاحة الفتنة منه كأجمل آلهة، في حين تكن هيرا وأثينا عداءً شديداً لطروادة."
+    },
+    {
+      "q": "What is Achilles' fatal flaw?",
+      "options": [
+        "Pride",
+        "Weakness",
+        "Strength",
+        "Raison d'etre"
+      ],
+      "correct": 0,
+      "feedback": "الإجابة الصحيحة هي 'Pride' (الكبرياء/الغطرسة - Hubris). الكبرياء الشديد والاعتزاز المفرط بالنفس هما السمة البطولية القاتلة التي جعلت أخيل يرفض مساعدة قومه حتى بعد توسلاتهم، مما كبدهم خسائر هائلة."
+    },
+    {
+      "q": "Who is the Greek king who leads the Attack against Troy in the Iliad?",
+      "options": [
+        "Diomedes",
+        "Menelaus",
+        "Ajax",
+        "Agamemnon"
+      ],
+      "correct": 3,
+      "feedback": "الإجابة الصحيحة هي 'Agamemnon' (أجاممنون). بالرغم من أن مينلاوس هو صاحب القضية المباشر، إلا أن شقيقه الأكبر والملك الأقوى أجاممنون هو من قاد الحملة الحربية الكبرى كقائد عام."
+    },
+    {
+      "q": "Which Greek warrior is known for his bravery and fighting skills in the Iliad?",
+      "options": [
+        "Hector",
+        "Paris",
+        "Priam",
+        "Achilles"
+      ],
+      "correct": 3,
+      "feedback": "الإجابة الصحيحة هي 'Achilles' (أخيل). أخيل هو أعظم محارب على الإطلاق بين القوات الإغريقية، وقوته القتالية الخارقة للطبيعة حسمت النصر للإغريق."
+    },
+    {
+      "q": "Which Trojan prince is known for his bravery and fighting skills in the Iliad?",
+      "options": [
+        "Hector",
+        "Paris",
+        "Priam",
+        "Aeneas"
+      ],
+      "correct": 0,
+      "feedback": "الإجابة الصحيحة هي 'Hector' (هيكتور). الأمير هيكتور هو البطل الأكبر والشجاع لطروادة، والمدافع الأول والغيور عن بلده وعائلته ضد الغزاة."
+    },
+    {
+      "q": "Odysseus is a hero known for his:",
+      "options": [
+        "Madness",
+        "Wit and Cunning",
+        "Fatherly love",
+        "Rebelliousness"
+      ],
+      "correct": 1,
+      "feedback": "الإجابة الصحيحة هي 'Wit and Cunning' (الدهاء والحيلة الماكرة). يشتهر أوديسيوس بذكائه الحاد وقدرته على المناورة وتخطيط الخدع الحربية، وأبرزها فكرة حصان طروادة."
+    },
+    {
+      "q": "Who pleads with Achilles for the return of Hector's body?",
+      "options": [
+        "Priam",
+        "Paris",
+        "Andromache",
+        "Aeneas"
+      ],
+      "correct": 0,
+      "feedback": "الإجابة الصحيحة هي 'Priam' (الملك بريام). بعد مقتل هيكتور، تسلل والده بريام سراً بزي متواضع وذهب لخيمة أخيل مقبلاً يديه اللتين قتلتا ابنه ليتوسل إليه لإرجاع الجثة ودفنها بكرامة."
+    },
+    {
+      "q": "Who is the Greek warrior known for his bravery and loyalty to Achilles in the Iliad?",
+      "options": [
+        "Nestor",
+        "Ajax",
+        "Patroclus",
+        "Diomedes"
+      ],
+      "correct": 2,
+      "feedback": "الإجابة الصحيحة هي 'Patroclus' (باتروكلوس). باتروكلوس هو صديق أخيل الحميم، ومرافقه الشجاع والمخلص الذي أشعل مقتله غضب أخيل من جديد وجعله ينهي مقاطعته للقتال."
+    },
+    {
+      "q": "By the end of the Iliad, which of the following happens?",
+      "options": [
+        "The Trojan war ends",
+        "Hector is killed and his body is desecrated",
+        "The Trojan horse is built",
+        "The Greeks return home"
+      ],
+      "correct": 1,
+      "feedback": "الإجابة الصحيحة هي 'Hector is killed and his body is desecrated'. تنهي الملحمة أحداثها قبل سقوط طروادة الفعلي، حيث تركز النهاية على مقتل هيكتور والتمثيل بجثته، ثم إرجاع جثمانه لتقام له جنازة مهيبة داخل أسوار المدينة."
+    },
+    {
+      "q": "In terms of religion, the Greeks can be best described as being:",
+      "options": [
+        "Monotheistic",
+        "Polytheistic",
+        "Monogamous",
+        "Polygamous"
+      ],
+      "correct": 1,
+      "feedback": "الإجابة الصحيحة هي 'Polytheistic' (شركيين/متعددي الآلهة). كان الإغريق يعبدون آلهة متعددة تسكن جبل أوليمبوس، ولكل إله تخصص وقدرات وإرادة تؤثر في الشأن البشري."
+    },
+    {
+      "q": "According to the Greeks, a coin was placed in the mouth or eyes of the dead as:",
+      "options": [
+        "Payment for the grim reaper",
+        "Compensation for the wagon",
+        "A payment for Charon",
+        "Cremation fees"
+      ],
+      "correct": 2,
+      "feedback": "الإجابة الصحيحة هي 'A payment for Charon' (أجرة المراكبي خارون). كانت الطقوس الجنائزية تفرض وضع عملة معدنية رمزية مع الموتى ليدفعوها لخارون كأجرة لنقل أرواحهم عبر النهر المقدس إلى المقر النهائي."
+    },
+    {
+      "q": "The Iliad and the Odyssey are considered:",
+      "options": [
+        "Epic poems",
+        "Novels",
+        "Oral traditions",
+        "Poetic narrations"
+      ],
+      "correct": 0,
+      "feedback": "الإجابة الصحيحة هي 'Epic poems' (ملاحم شعرية). العملان يمثلان قمة التراث الشعري الملحمي الكلاسيكي المكتوب باللغة اليونانية القديمة ومقياس الأدب الملحمي عبر العصور."
+    },
+    {
+      "q": "The phrase 'the lesser of two evils' is associated with:",
+      "options": [
+        "Minotaur and Labyrinth",
+        "Trojans and Greeks",
+        "Scylla and Charybdis",
+        "Pegasus and Hermes"
+      ],
+      "correct": 2,
+      "feedback": "الإجابة الصحيحة هي 'Scylla and Charybdis' (سيلا وتشاريبديس). العبارة تعبر عن الموقف الذي تجد فيه نفسك مضطراً للاختيار بين أمرين كلاهما سيئ جداً، وهو المأزق الذي واجهه أوديسيوس عند الملاحة بقرب الوحشين."
+    },
+    {
+      "q": "What caused Achilles to become so upset that he stops fighting?",
+      "options": [
+        "Hector took Helen",
+        "Apollo told him to remain angry",
+        "Patroclus dies",
+        "Agamemnon took Briseis"
+      ],
+      "correct": 3,
+      "feedback": "الإجابة الصحيحة هي 'Agamemnon took Briseis'. توقف أخيل عن القتال واعتزل في سفنه لشعوره بالإهانة الشديدة بعد أن انتزع منه أجاممنون سبية حربه الجميلة 'بريسيس' بقوة سلطانه كقائد عام."
+    },
+    {
+      "q": "What caused Achilles to become so angry that he returns to the fight?",
+      "options": [
+        "Hector took Helen to Sparta",
+        "Apollo told him to remain angry",
+        "Patroclus dies",
+        "Agamemnon took Briseis"
+      ],
+      "correct": 2,
+      "feedback": "الإجابة الصحيحة هي 'Patroclus dies' (موت باتروكلوس). بعد أن رفض أخيل كل العروض السابقة، صدمه خبر مقتل صديقه المقرب باتروكلوس على يد هيكتور، فدفعه غضبه العارم ورغبته الملحة في الانتقام للعودة الفورية للحرب."
+    },
+    {
+      "q": "During which year does the Iliad take place?",
+      "options": [
+        "Ninth year B.C.",
+        "Last year of the Trojan War",
+        "Before the beginning of the Trojan War",
+        "None of the above"
+      ],
+      "correct": 1,
+      "feedback": "الإجابة الصحيحة هي 'Last year of the Trojan War'. تغطي الإلياذة بضعة أسابيع في السنة العاشرة (الأخيرة) لحصار طروادة، ولا تروي قصة الحرب برمتها بل تركز على مرحلة حاسمة من سنتها الأخيرة."
+    },
+    {
+      "q": "How many years did the Trojan War last?",
+      "options": [
+        "10 years",
+        "11 years",
+        "9 years",
+        "8 years"
+      ],
+      "correct": 0,
+      "feedback": "الإجابة الصحيحة هي '10 years'. استمرت حرب طروادة عشر سنوات كاملة قبل أن يتمكن الإغريق أخيراً من اقتحام وتدمير المدينة بواسطة خدعة الحصان الخشبي الكبيرة."
+    },
+    {
+      "q": "Which of the following is NOT a creature that Odysseus encounters:",
+      "options": [
+        "Sirens",
+        "Lotus Eaters",
+        "Minotaur",
+        "Cyclopes"
+      ],
+      "correct": 2,
+      "feedback": "الإجابة الصحيحة هي 'Minotaur' (المينوتور). واجه أوديسيوس خلال رحلته الطويلة السايرنز وأكلة اللوتس والسيكلوب البشري بليفيموس، أما المينوتور فهو وحش متاهة كريت وبطل قصته هو ثيسيوس."
+    },
+    {
+      "q": "The origin and meaning of Odysseus' name means:",
+      "options": [
+        "Son of pain",
+        "Eternal pain",
+        "Bringer of pain",
+        "All of the above"
+      ],
+      "correct": 0,
+      "feedback": "الإجابة الصحيحة المعتمدة رسمياً في مفتاح الكلية هي 'Son of pain' (ابن الألم)، وهي دلالة رمزية تشير للألم والمعاناة الكبيرة التي لاقاها وعانى منها هو وأسرته طيلة رحلته."
+    },
+    {
+      "q": "Which of the following is characteristic of the 'cyclopes':",
+      "options": [
+        "Cannibals",
+        "Huge creatures with one eye",
+        "Uncivilized",
+        "All of the above"
+      ],
+      "correct": 3,
+      "feedback": "الإجابة الصحيحة هي 'All of the above'. السيكلوب هم عمالقة متوحشون بعين واحدة وسط الجبين، لا يعرفون الزراعة أو القوانين، ويأكلون لحم البشر كأكلة لحوم بشر همج."
+    },
+    {
+      "q": "What does Odysseus do to avoid falling victim to the sirens?",
+      "options": [
+        "Asks his men to tie him to the ship mast",
+        "Hides in the anchor chamber",
+        "Wears a blindfold",
+        "Pricks his thumb using a dagger"
+      ],
+      "correct": 0,
+      "feedback": "الإجابة الصحيحة هي 'Asks his men to tie him to the ship mast'. لكي يستمع أوديسيوس لغناء السايرنز الساحر دون أن يُفتن وينقاد للهلاك، قام بسد آذان بحارته بالشمع وأمرهم بربطه بقوة إلى سارية السفينة وعدم فكه مهما توسل."
+    },
+    {
+      "q": "Which of the following statements is NOT true:",
+      "options": [
+        "Patroclus is Achilles' brother",
+        "Agamemnon quarreled with Achilles",
+        "Priam is Achilles' enemy",
+        "Thetis is Achilles' mother"
+      ],
+      "correct": 0,
+      "feedback": "الإجابة الصحيحة هي 'Patroclus is Achilles' brother'. هذه العبارة خاطئة، فباتروكلوس ليس شقيق أخيل، بل رفيقه المقرب وسلاحه المخلص وأخوه في السلاح، بينما العبارات الأخرى صحيحة تماماً ميثولوجياً."
+    },
+    {
+      "q": "Which of the following is true about Homeric characters?",
+      "options": [
+        "Characters do not develop significantly",
+        "Characters learn from their mistakes and change",
+        "They develop a lot and quickly",
+        "All characters die in the end"
+      ],
+      "correct": 0,
+      "feedback": "الإجابة الصحيحة هي 'Characters do not develop significantly'. في ملاحم هوميروس، توصف الشخصيات بأنها شخصيات ثابتة أو 'مكتملة النضج' منذ البداية (Static characters)، ولا تشهد تحولات نفسية أو تطور شخصي معقد كالشخصيات الروائية الحديثة."
+    },
+    {
+      "q": "Which of the following applies to Patroclus around his time of death:",
+      "options": [
+        "He was wearing Achilles' armor",
+        "He kills Hector",
+        "He breaches the Greek camp",
+        "He kills 10 soldiers using arrows"
+      ],
+      "correct": 0,
+      "feedback": "الإجابة الصحيحة هي 'He was wearing Achilles' armor'. قبل مقتله، لبس باتروكلوس درع أخيل وسلاحه وهجم على رأس جيش الميرميدونز ليبث الرعب في نفوس الطرواديين الذين توهموا أنه البطل العظيم أخيل."
+    },
+    {
+      "q": "How many years does Odysseus spend in total away from home?",
+      "options": [
+        "10 years",
+        "1 month",
+        "20 years",
+        "2 days"
+      ],
+      "correct": 2,
+      "feedback": "الإجابة الصحيحة هي '20 years' (عشرون عاماً). قضى أوديسيوس 10 سنوات يقاتل في حرب طروادة، ثم قضى 10 سنوات أخرى يصارع أمواج البحر والأهوال في طريق العودة لبلده إيثاكا، ليصبح المجموع 20 عاماً كاملاً."
+    },
     {
       "q": "Who is the protagonist of The Iliad?",
       "options": [
