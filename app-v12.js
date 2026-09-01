@@ -1501,6 +1501,21 @@
     scheduleVocabularyCloudSync();
     currentSubject = null;
     backToYears();
+    renderDynamicYears();
+
+    // Show a brief success toast so the user knows the reset worked
+    const toast = document.createElement("div");
+    toast.textContent = "✅ تمت إعادة الضبط بنجاح";
+    Object.assign(toast.style, {
+      position: "fixed", bottom: "32px", left: "50%", transform: "translateX(-50%)",
+      background: "#1a1a2e", color: "#fff", padding: "12px 24px",
+      borderRadius: "12px", fontSize: "0.95rem", fontWeight: "600",
+      zIndex: "9999", boxShadow: "0 4px 20px rgba(0,0,0,0.3)",
+      transition: "opacity 0.4s ease", opacity: "1",
+    });
+    document.body.appendChild(toast);
+    setTimeout(() => { toast.style.opacity = "0"; }, 2200);
+    setTimeout(() => { toast.remove(); }, 2700);
   };
 
   const v12OriginalRefreshCloudInterface = refreshVocabularyCloudInterface;

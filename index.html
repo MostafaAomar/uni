@@ -1069,8 +1069,9 @@
                   <input
                     id="global-subject-search"
                     type="search"
+                    name="subject-search-query"
                     placeholder="Search across all subjects..."
-                    autocomplete="off"
+                    autocomplete="new-password"
                     aria-label="Search across all subjects"
                   />
                 </div>
@@ -2067,6 +2068,9 @@
       const globalSearch = document.getElementById("global-subject-search");
       if (globalSearch) {
         globalSearch.addEventListener("input", handleGlobalSearchInput);
+        // Browsers sometimes autofill async — clear after a short delay to win the race.
+        globalSearch.value = "";
+        setTimeout(() => { globalSearch.value = ""; }, 200);
       }
 
       refreshSubjectsDashboard();
