@@ -68,15 +68,111 @@
 
       .app-header {
         direction: ltr;
-        background: color-mix(
-          in srgb,
-          var(--bg-dark) 94%,
-          transparent
-        ) !important;
-        color: var(--text-main);
-        border-bottom: 1px solid var(--glass-border);
-        backdrop-filter: blur(18px);
-        -webkit-backdrop-filter: blur(18px);
+        min-height: 72px;
+        padding: 8px clamp(16px, 5vw, 72px);
+        background: linear-gradient(115deg, #25384d 0%, #2d6389 52%, #3498db 100%) !important;
+        color: #fff;
+        border: 0;
+        box-shadow: 0 5px 18px rgba(24, 52, 78, .22);
+      }
+
+      .site-header-inner {
+        position: relative;
+        width: 100%;
+        min-height: 56px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 16px;
+      }
+
+      .header-back,
+      .header-tools {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+      }
+
+      .site-brand-heading {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        margin: 0;
+        font-size: inherit;
+        line-height: inherit;
+      }
+
+      .site-brand {
+        display: inline-flex;
+        align-items: center;
+        gap: 11px;
+        color: #fff;
+        font-size: 20px;
+        font-weight: 800;
+        text-decoration: none;
+        white-space: nowrap;
+        transition: opacity .2s ease, transform .2s ease;
+      }
+
+      .site-brand:hover {
+        opacity: .92;
+        transform: scale(1.02);
+      }
+
+      .site-brand span {
+        background: linear-gradient(45deg, #8bd5ff, #d7b7ff, #f4c95d);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+      }
+
+      .site-brand img {
+        width: 50px;
+        height: 50px;
+        flex: 0 0 auto;
+        border: 2px solid #fff;
+        border-radius: 50%;
+        box-shadow: 0 0 10px rgba(255, 255, 255, .4);
+      }
+
+      .project-nav {
+        display: flex;
+        justify-content: center;
+        gap: 5px;
+        padding: 8px 12px;
+        overflow-x: auto;
+        background: #0069d9;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, .1);
+      }
+
+      .project-nav a {
+        min-height: 48px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px 19px;
+        border-bottom: 4px solid transparent;
+        color: rgba(255, 255, 255, .9);
+        font-size: 14px;
+        font-weight: 700;
+        text-decoration: none;
+        white-space: nowrap;
+      }
+
+      .project-nav a:hover,
+      .project-nav a[aria-current="page"] {
+        color: #fff;
+        background: rgba(0, 0, 0, .1);
+      }
+
+      .project-nav a[aria-current="page"] {
+        border-bottom-color: #fff;
+      }
+
+      .project-nav a:focus-visible {
+        outline: 3px solid #fff;
+        outline-offset: -4px;
       }
 
       .app-header button {
@@ -86,8 +182,16 @@
         align-items: center;
         justify-content: center;
         border: 0;
-        background: transparent;
+        border-radius: 12px;
+        background: rgba(255, 255, 255, .1);
+        color: #fff;
         cursor: pointer;
+        transition: background .2s ease, transform .2s ease;
+      }
+
+      .app-header button:hover {
+        background: rgba(255, 255, 255, .2);
+        transform: translateY(-1px);
       }
 
       .screen {
@@ -927,6 +1031,67 @@
       }
 
       @media (max-width: 480px) {
+        .app-header {
+          min-height: 112px;
+          padding: 8px 10px;
+        }
+
+        .site-header-inner {
+          min-height: 96px;
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          grid-template-rows: 48px 40px;
+          gap: 4px;
+        }
+
+        .header-back {
+          grid-column: 1;
+          grid-row: 2;
+        }
+
+        .header-tools {
+          grid-column: 2;
+          grid-row: 2;
+          justify-content: flex-end;
+          gap: 2px;
+        }
+
+        .site-brand-heading {
+          grid-column: 1 / -1;
+          grid-row: 1;
+          position: static;
+          justify-self: center;
+          transform: none;
+        }
+
+        .site-brand {
+          gap: 6px;
+          font-size: 15px;
+        }
+
+        .site-brand:hover {
+          transform: none;
+        }
+
+        .site-brand img {
+          width: 38px;
+          height: 38px;
+        }
+
+        .app-header button {
+          width: 34px;
+          height: 36px;
+        }
+
+        .project-nav {
+          justify-content: flex-start;
+        }
+
+        .project-nav a {
+          padding-inline: 13px;
+          font-size: 12px;
+        }
+
         .view-content {
           padding-inline: 16px;
         }
@@ -1003,58 +1168,63 @@
     </script>
 
     <div id="app-container">
-      <header
-        class="app-header sticky top-0 z-50 flex h-16 w-full items-center justify-between px-margin-mobile shadow-sm"
-      >
-        <div class="flex items-center gap-3">
-          <button
-            type="button"
-            onclick="goBackToSubjects()"
-            class="rounded-full text-primary"
-            aria-label="العودة إلى الرئيسية"
-            title="الرئيسية"
-          >
-            <span class="material-symbols-outlined" aria-hidden="true">←</span>
-          </button>
-          <h1
-            class="cursor-pointer text-display-lg-mobile font-bold text-primary"
-            onclick="goBackToSubjects()"
-          >
-            UniQuiz
+      <header class="app-header sticky top-0 z-50 flex w-full shadow-sm">
+        <div class="site-header-inner">
+          <div class="header-back">
+            <button
+              type="button"
+              onclick="goBackToSubjects()"
+              class="rounded-full text-primary"
+              aria-label="العودة إلى المواد"
+              title="العودة إلى المواد"
+            >
+              <span class="material-symbols-outlined" aria-hidden="true">←</span>
+            </button>
+          </div>
+          <h1 class="site-brand-heading">
+            <a class="site-brand" href="../school_project/index.html" title="الصفحة الرئيسية">
+              <img src="../school_project/images/pagelogo.png" alt="">
+              <span>منصة التعليم السورية</span>
+            </a>
           </h1>
-        </div>
-        <div class="flex items-center gap-1">
-          <button
-            type="button"
-            id="account-sync-btn"
-            onclick="openAccountSync()"
-            class="rounded-full text-primary"
-            aria-label="الحساب والمزامنة"
-            title="الحساب والمزامنة"
-          >
-            <span class="material-symbols-outlined" aria-hidden="true">☁</span>
-          </button>
-          <button
-            type="button"
-            onclick="fullReset()"
-            class="rounded-full text-error"
-            aria-label="إعادة الضبط"
-            title="إعادة ضبط التطبيق"
-          >
-            <span class="material-symbols-outlined" aria-hidden="true">↻</span>
-          </button>
-          <button
-            type="button"
-            id="theme-toggle-btn"
-            onclick="toggleTheme()"
-            class="rounded-full text-primary"
-            aria-label=" تغيير خلفية التطبيق"
-            title="تغيير خلفية التطبيق"
-          >
-            🌙
-          </button>
+          <div class="header-tools">
+            <button
+              type="button"
+              id="account-sync-btn"
+              onclick="openAccountSync()"
+              class="rounded-full text-primary"
+              aria-label="الحساب والمزامنة"
+              title="الحساب والمزامنة"
+            >
+              <span class="material-symbols-outlined" aria-hidden="true">☁</span>
+            </button>
+            <button
+              type="button"
+              onclick="fullReset()"
+              class="rounded-full text-error"
+              aria-label="إعادة الضبط"
+              title="إعادة ضبط التطبيق"
+            >
+              <span class="material-symbols-outlined" aria-hidden="true">↻</span>
+            </button>
+            <button
+              type="button"
+              id="theme-toggle-btn"
+              onclick="toggleTheme()"
+              class="rounded-full text-primary"
+              aria-label="تغيير خلفية التطبيق"
+              title="تغيير خلفية التطبيق"
+            >
+              🌙
+            </button>
+          </div>
         </div>
       </header>
+      <nav class="project-nav" aria-label="المشاريع">
+        <a href="../school_project/index.html">المواد الدراسية</a>
+        <a href="./index.html" aria-current="page">أسئلة الجامعة</a>
+        <a href="../New%20folder/index.html">إنشاء السيرة الذاتية</a>
+      </nav>
 
       <main id="main-content" class="flex flex-1 flex-col">
         <!-- Main setup screen: IDs are preserved for app.js -->
