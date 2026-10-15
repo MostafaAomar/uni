@@ -65,7 +65,7 @@ Automatic updates
   shell while the installed PWA is closed. All other browsers run the same check
   when the app opens, becomes visible, or reconnects to the internet.
 - After deploying this version, replace every file once and reopen/refresh the
-  app so cache version v10 becomes active. Future releases no longer require the
+  app so cache version v18 becomes active. Future releases no longer require the
   student to clear browser storage manually.
 - To change the interval later, edit `AUTOMATIC_UPDATE_INTERVAL_MS` near the top
   of app.js. For 24 hours, use `24 * 60 * 60 * 1000`.

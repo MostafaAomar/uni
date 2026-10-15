@@ -1,15 +1,15 @@
-const APP_VERSION = "17";
+const APP_VERSION = "18";
 const SHELL_CACHE = `uniquiz-shell-v${APP_VERSION}`;
 const CATALOG_CACHE = "uniquiz-catalog-v2";
 const APP_SHELL = [
   "./index.html",
-  "./offline.css?v=17",
-  "./style.css?v=17",
-  "./supabase.js?v=17",
-  "./subject-storage.js?v=17",
-  "./content-catalog.js?v=17",
-  "./app.js?v=17",
-  "./app-v12.js?v=17",
+  "./offline.css?v=18",
+  "./style.css?v=18",
+  "./supabase.js?v=18",
+  "./subject-storage.js?v=18",
+  "./content-catalog.js?v=18",
+  "./app.js?v=18",
+  "./app-v12.js?v=18",
   "./manifest.webmanifest",
   "./icon.svg",
   "./icon.png",
@@ -121,10 +121,26 @@ self.addEventListener("fetch", (event) => {
   }
 
   if (request.mode === "navigate") {
+    const canonical = new Request(
+      new URL("./index.html", self.registration.scope).href,
+    );
     event.respondWith(
-      caches
-        .match("./index.html")
-        .then((cached) => cached || fetch(request)),
+      fetch(new Request(request, { cache: "no-store" }))
+        .then(async (fresh) => {
+          if (!fresh.ok) return (await caches.match(canonical)) || fresh;
+          const cache = await caches.open(SHELL_CACHE);
+          try {
+            await cache.put(canonical, fresh.clone());
+          } catch (error) {
+            console.warn("Could not update the cached app page:", error);
+          }
+          return fresh;
+        })
+        .catch(async (error) => {
+          const cached = await caches.match(canonical);
+          if (cached) return cached;
+          throw error;
+        }),
     );
     return;
   }

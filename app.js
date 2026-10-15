@@ -517,7 +517,7 @@ async function init() {
 function registerOfflineWorker() {
   if (!("serviceWorker" in navigator) || location.protocol === "file:") return;
   navigator.serviceWorker
-    .register("./service-worker.js?v=10", { updateViaCache: "none" })
+    .register("./service-worker.js?v=18", { updateViaCache: "none" })
     .catch((error) =>
       console.warn("Offline worker registration failed:", error),
     );
@@ -1453,6 +1453,7 @@ function goBackToSubjects() {
   if (currentSubject) {
     saveDetailedProgress();
   }
+  localStorage.removeItem("app_last_position");
   currentSubject = null;
   document.documentElement.setAttribute("dir", "rtl");
   document.documentElement.setAttribute("lang", "ar");

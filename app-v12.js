@@ -12,7 +12,7 @@
   const V12_GUEST_PROFILE_KEY = `${V12_SYNC_PROFILE_PREFIX}guest`;
   const V12_SYNC_DIRTY_KEY = "uniquiz_sync_dirty_v2";
   const V12_SYNC_SCHEMA_VERSION = 3;
-  const V12_APP_VERSION = "13";
+  const V12_APP_VERSION = "18";
   const V12_LEGACY_TIMESTAMP = "1970-01-01T00:00:00.000Z";
   const V12_YEAR_LABELS = {
     "First Year": "السنة الأولى",

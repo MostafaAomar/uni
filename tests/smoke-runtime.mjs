@@ -112,6 +112,13 @@ assert.equal(typeof context.openAccountSync, "function");
 assert.equal(typeof context.removeDownloadedSubject, "function");
 assert.equal(typeof context.getVisibleSubjectCount, "function");
 
+context.localStorage.setItem(
+  "app_last_position",
+  JSON.stringify({ subjectId: "First Year/test.json", mode: "quiz" }),
+);
+context.goBackToSubjects();
+assert.equal(context.localStorage.getItem("app_last_position"), null);
+
 const deduplicatedProgress = vm.runInContext(
   `(() => {
     const subject = {
