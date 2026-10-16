@@ -6,13 +6,14 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0, viewport-fit=cover"
     />
-    <meta name="theme-color" content="#4648d4" />
+    <meta name="theme-color" content="#4356d6" />
     <meta name="mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="default" />
     <title>أسئلة الدورات السابقة</title>
-    <link rel="manifest" href="manifest.webmanifest" />
-    <link rel="icon" href="logo.png" type="image/svg+xml" />
+    <script>document.documentElement.dataset.theme = localStorage.getItem("theme") === "dark" ? "dark" : "light";</script>
+    <link rel="manifest" href="../manifest.webmanifest" />
+    <link rel="icon" href="../icon.svg" type="image/svg+xml" />
     <link rel="stylesheet" href="offline.css?v=18" />
     <link rel="stylesheet" href="style.css?v=18" />
     <style>
@@ -31,15 +32,6 @@
         background-color: var(--bg-dark) !important;
         color: var(--text-main);
         -webkit-tap-highlight-color: transparent;
-      }
-
-      body.light-theme {
-        --bg-dark: #f7f9fb;
-        --glass-bg: #f0f1f4;
-        --glass-border: #c9c7dc;
-        --card-bg: #ffffff;
-        --text-main: #202124;
-        --text-muted: #62636f;
       }
 
       button,
@@ -1155,6 +1147,7 @@
         }
       }
     </style>
+    <link rel="stylesheet" href="../shared-theme.css?v=5">
   </head>
 
   <body class="bg-background text-on-background">
@@ -1171,15 +1164,7 @@
       <header class="app-header sticky top-0 z-50 flex w-full shadow-sm">
         <div class="site-header-inner">
           <div class="header-back">
-            <button
-              type="button"
-              onclick="goBackToSubjects()"
-              class="rounded-full text-primary"
-              aria-label="العودة إلى المواد"
-              title="العودة إلى المواد"
-            >
-              <span class="material-symbols-outlined" aria-hidden="true">←</span>
-            </button>
+          
           </div>
           <h1 class="site-brand-heading">
             <a class="site-brand" href="../school_project/index.html" title="الصفحة الرئيسية">
@@ -1187,7 +1172,54 @@
               <span>منصة التعليم السورية</span>
             </a>
           </h1>
-          <div class="header-tools">
+                <button
+          type="button"
+          id="theme-toggle-btn"
+          class="theme-toggle"
+          aria-pressed="false"
+        >
+          ☾
+        </button>
+        </div>
+      </header>
+      <nav class="project-nav" aria-label="المشاريع">
+        <a href="../school_project/index.html">المواد الدراسية</a>
+        <a href="./index.html" aria-current="page">أسئلة الجامعة</a>
+        <a href="../cv/index.html">إنشاء السيرة الذاتية</a>
+
+      </nav>
+  <nav class="main-nav-container">
+        <button class="main-nav-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="main-nav-links-list">
+            <i class="fas fa-bars" aria-hidden="true"></i>
+        </button>
+        <div class="main-nav-links" id="main-nav-links-list">
+            <!-- Buttons now use data-main-target matching IDs of main content sections -->
+            <button class="main-nav-button active" data-main-target="#subject-grade-lesson-flow" id="main-nav-subjects-btn">
+                 <i class="fas fa-shapes"></i> المواد الدراسية
+            </button>
+            <button class="main-nav-button" data-main-target="#advice-section" id="main-nav-advice-btn">
+                <i class="fas fa-book-open"></i> خطة الدراسة
+            </button>
+            <button class="main-nav-button" data-main-target="#handwriting-section" id="main-nav-handwrite-btn">
+                <i class="fa-solid fa-pen-to-square"></i> كتابة
+            </button>
+            <button class="main-nav-button" data-main-target="#chatbot-section" id="main-nav-chatbot-btn">
+                <i class="fa-solid fa-comments"></i> دردشة
+            </button>
+            <button class="main-nav-button" data-main-target="#nonspeaker-arabic-section" id="main-nav-nonspeaker-btn">
+                <i class="fa-solid fa-language"></i> العربية لغير المتحدثين
+            </button>
+            <button class="main-nav-button" data-main-target="#external-sources-section" id="main-nav-sources-btn">
+                <i class="fa-solid fa-paperclip"></i> بعض المصادر
+            </button>
+            <button class="main-nav-button" data-main-target="#contact-section" id="main-nav-contact-btn">
+                <i class="fa-solid fa-address-book"></i> اتصال
+            </button>
+        </div>
+    </nav>
+      <main id="main-content" class="flex flex-1 flex-col">
+        <!-- Main setup screen: IDs are preserved for app.js -->
+         <div class="header-tools">
             <button
               type="button"
               id="account-sync-btn"
@@ -1207,27 +1239,10 @@
             >
               <span class="material-symbols-outlined" aria-hidden="true">↻</span>
             </button>
-            <button
-              type="button"
-              id="theme-toggle-btn"
-              onclick="toggleTheme()"
-              class="rounded-full text-primary"
-              aria-label="تغيير خلفية التطبيق"
-              title="تغيير خلفية التطبيق"
-            >
-              🌙
-            </button>
           </div>
-        </div>
-      </header>
-      <nav class="project-nav" aria-label="المشاريع">
-        <a href="../school_project/index.html">المواد الدراسية</a>
-        <a href="./index.html" aria-current="page">أسئلة الجامعة</a>
-        <a href="../cv/index.html">إنشاء السيرة الذاتية</a>
-      </nav>
-
-      <main id="main-content" class="flex flex-1 flex-col">
-        <!-- Main setup screen: IDs are preserved for app.js -->
+       
+       
+       
         <div id="setup-screen" class="screen">
           <div id="view-subjects" class="view-screen flex min-h-full flex-col">
             <div class="view-content">
@@ -2251,5 +2266,6 @@
         dictionaryInput.addEventListener("input", () => toggleDictionary(true));
       }
     </script>
+    <script src="../shared-theme.js?v=5"></script>
   </body>
 </html>
