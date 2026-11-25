@@ -1,26 +1,1022 @@
 [
   {
-    "word": "Serendipity",
-    "arabic": "الصدفة السعيدة",
-    "english": "Finding good things by chance",
-    "example": "Finding that bookshop was pure serendipity."
+    "word": "absurdism",
+    "arabic": "العبثية",
+    "english": "The idea that life may have no clear meaning.",
+    "example": "Absurdism is common in some modern literature."
   },
   {
-    "word": "Hello, how are you?",
-    "arabic": "مرحباً، كيف حالك؟",
-    "english": "A friendly greeting asking how someone feels",
-    "example": "Hello, how are you? I hope you're having a good day."
+    "word": "accommodate",
+    "arabic": "يستوعب / يلائم",
+    "english": "To provide what someone needs.",
+    "example": "The hotel can accommodate 200 guests."
   },
   {
-    "word": "Take it easy",
-    "arabic": "خذ الأمور ببساطة",
-    "english": "Relax and do not worry too much",
-    "example": "You have worked hard today, so take it easy tonight."
+    "word": "adolescence",
+    "arabic": "المراهقة",
+    "english": "The period between childhood and adulthood.",
+    "example": "Adolescence can be a difficult period."
   },
   {
-    "word": "Take it not easy",
-    "arabic": "خذnot  الأمور ببساطة",
-    "english": "Relax and do not worry too much",
-    "example": "You have worked hard today, so take it easy tonight."
+    "word": "alienation",
+    "arabic": "الاغتراب",
+    "english": "Feeling separated from others.",
+    "example": "He experienced alienation from society."
+  },
+  {
+    "word": "align",
+    "arabic": "يتوافق / يصطف",
+    "english": "To put things in the correct position or agree.",
+    "example": "Our goals align with the company's goals."
+  },
+  {
+    "word": "amalgam",
+    "arabic": "مزيج / خليط",
+    "english": "A mixture or combination.",
+    "example": "The book is an amalgam of history and fiction."
+  },
+  {
+    "word": "amending",
+    "arabic": "تعديل",
+    "english": "Changing something to improve or correct it.",
+    "example": "They are amending the law."
+  },
+  {
+    "word": "anxious",
+    "arabic": "قَلِق",
+    "english": "Worried or nervous.",
+    "example": "She felt anxious before the exam."
+  },
+  {
+    "word": "apart from",
+    "arabic": "باستثناء / بالإضافة إلى",
+    "english": "Except for; besides.",
+    "example": "Apart from John, everyone came."
+  },
+  {
+    "word": "arousal",
+    "arabic": "إثارة / استثارة",
+    "english": "A state of being awake or excited.",
+    "example": "The music increased emotional arousal."
+  },
+  {
+    "word": "articulating",
+    "arabic": "التعبير بوضوح",
+    "english": "Expressing an idea clearly.",
+    "example": "She is good at articulating her thoughts."
+  },
+  {
+    "word": "assertion",
+    "arabic": "تأكيد / ادعاء",
+    "english": "A confident statement.",
+    "example": "His assertion was difficult to prove."
+  },
+  {
+    "word": "authenticity",
+    "arabic": "الأصالة / المصداقية",
+    "english": "Being genuine or real.",
+    "example": "People questioned the authenticity of the painting."
+  },
+  {
+    "word": "authorize",
+    "arabic": "يُخوّل / يأذن",
+    "english": "To officially give permission.",
+    "example": "The manager authorized the payment."
+  },
+  {
+    "word": "autonomy",
+    "arabic": "الاستقلالية / الحكم الذاتي",
+    "english": "Freedom to make your own decisions.",
+    "example": "The university has financial autonomy."
+  },
+  {
+    "word": "bay",
+    "arabic": "خليج",
+    "english": "A part of the sea partly surrounded by land.",
+    "example": "The boat entered the bay."
+  },
+  {
+    "word": "beat",
+    "arabic": "يهزم / إيقاع",
+    "english": "To defeat; also a regular rhythm.",
+    "example": "Our team beat the other team."
+  },
+  {
+    "word": "bladder",
+    "arabic": "المثانة",
+    "english": "The organ that stores urine.",
+    "example": "The bladder stores urine."
+  },
+  {
+    "word": "blending",
+    "arabic": "مزج / خلط",
+    "english": "Mixing things together.",
+    "example": "The blending of colors created a beautiful picture."
+  },
+  {
+    "word": "burdens",
+    "arabic": "أعباء",
+    "english": "Heavy responsibilities or problems.",
+    "example": "Financial burdens can cause stress."
+  },
+  {
+    "word": "clamour",
+    "arabic": "ضجيج / صخب",
+    "english": "A loud mixture of sounds or demands.",
+    "example": "There was a clamour outside the building."
+  },
+  {
+    "word": "cognitive",
+    "arabic": "معرفي / إدراكي",
+    "english": "Related to thinking and understanding.",
+    "example": "Reading improves cognitive skills."
+  },
+  {
+    "word": "collaboration",
+    "arabic": "تعاون",
+    "english": "Working together.",
+    "example": "The project was a collaboration between two universities."
+  },
+  {
+    "word": "collocation",
+    "arabic": "متلازمة لفظية / مصاحبة لغوية",
+    "english": "Words that naturally occur together.",
+    "example": "“Make a decision” is a common collocation."
+  },
+  {
+    "word": "compensatory",
+    "arabic": "تعويضي",
+    "english": "Intended to make up for something.",
+    "example": "He received compensatory payment."
+  },
+  {
+    "word": "competing",
+    "arabic": "متنافس",
+    "english": "Trying to win against others.",
+    "example": "Several companies are competing for the contract."
+  },
+  {
+    "word": "constant",
+    "arabic": "مستمر / ثابت",
+    "english": "Happening all the time.",
+    "example": "The machine makes a constant noise."
+  },
+  {
+    "word": "constituent",
+    "arabic": "مكوّن / عنصر",
+    "english": "A person or thing that is part of something.",
+    "example": "Water is a constituent of the human body."
+  },
+  {
+    "word": "constituted",
+    "arabic": "شكّل / تكوّن من",
+    "english": "Formed or made up.",
+    "example": "The committee was constituted of ten members."
+  },
+  {
+    "word": "consuming",
+    "arabic": "مستهلك / يستهلك",
+    "english": "Using or taking up something.",
+    "example": "The project is consuming a lot of time."
+  },
+  {
+    "word": "contemporary",
+    "arabic": "معاصر",
+    "english": "Modern; existing at the same time.",
+    "example": "She studies contemporary art."
+  },
+  {
+    "word": "controversial",
+    "arabic": "مثير للجدل",
+    "english": "Causing disagreement.",
+    "example": "The decision was controversial."
+  },
+  {
+    "word": "conventions",
+    "arabic": "أعراف / قواعد متعارف عليها",
+    "english": "Accepted rules or usual ways of doing things.",
+    "example": "Writers sometimes break literary conventions."
+  },
+  {
+    "word": "counterparts",
+    "arabic": "نظراء",
+    "english": "People or things with similar positions.",
+    "example": "She met her French counterparts."
+  },
+  {
+    "word": "crucially",
+    "arabic": "بشكل حاسم / بشكل أساسي",
+    "english": "In a very important way.",
+    "example": "Crucially, we need more time."
+  },
+  {
+    "word": "debate",
+    "arabic": "مناظرة / نقاش",
+    "english": "A formal discussion about a topic.",
+    "example": "The students had a debate about education."
+  },
+  {
+    "word": "deductively",
+    "arabic": "استنتاجيًا",
+    "english": "By using logical reasoning from general ideas.",
+    "example": "He solved the problem deductively."
+  },
+  {
+    "word": "deliberate",
+    "arabic": "متعمّد / مقصود",
+    "english": "Intentional; carefully considered.",
+    "example": "It was a deliberate decision."
+  },
+  {
+    "word": "depict",
+    "arabic": "يُصوّر / يُجسّد",
+    "english": "To show or describe something.",
+    "example": "The painting depicts a beautiful village."
+  },
+  {
+    "word": "depicted",
+    "arabic": "صوّر / جسّد",
+    "english": "Shown or described.",
+    "example": "The artist depicted a peaceful scene."
+  },
+  {
+    "word": "devoid",
+    "arabic": "خالٍ من",
+    "english": "Completely without something.",
+    "example": "The room was devoid of furniture."
+  },
+  {
+    "word": "dictation",
+    "arabic": "إملاء",
+    "english": "Words spoken for someone to write down.",
+    "example": "The teacher gave us a dictation exercise."
+  },
+  {
+    "word": "distracting",
+    "arabic": "مشتّت للانتباه",
+    "english": "Taking your attention away.",
+    "example": "The noise is very distracting."
+  },
+  {
+    "word": "drill",
+    "arabic": "تدريب متكرر",
+    "english": "Repeated practice.",
+    "example": "Students did a grammar drill."
+  },
+  {
+    "word": "echoing",
+    "arabic": "مُتردّد / صادح",
+    "english": "Repeating a sound or idea.",
+    "example": "Her voice was echoing in the hall."
+  },
+  {
+    "word": "effectiveness",
+    "arabic": "فعالية",
+    "english": "How well something works.",
+    "example": "We measured the effectiveness of the method."
+  },
+  {
+    "word": "elaborately",
+    "arabic": "بشكل مفصّل / بإتقان",
+    "english": "In a detailed or complicated way.",
+    "example": "The room was elaborately decorated."
+  },
+  {
+    "word": "elite",
+    "arabic": "النخبة",
+    "english": "A small group of powerful or successful people.",
+    "example": "He belongs to the political elite."
+  },
+  {
+    "word": "elongate",
+    "arabic": "يُطيل / يمدّد",
+    "english": "To make longer.",
+    "example": "The process can elongate the material."
+  },
+  {
+    "word": "enacted",
+    "arabic": "سنَّ / أقرَّ",
+    "english": "Made a law official; performed.",
+    "example": "The government enacted a new law."
+  },
+  {
+    "word": "engender",
+    "arabic": "يُولّد / يُسبّب",
+    "english": "To cause or produce a feeling.",
+    "example": "His actions engendered trust."
+  },
+  {
+    "word": "enthusiastic",
+    "arabic": "متحمّس",
+    "english": "Very excited and interested.",
+    "example": "The students were enthusiastic about the project."
+  },
+  {
+    "word": "epistemological",
+    "arabic": "إبستمولوجي / متعلق بنظرية المعرفة",
+    "english": "Relating to knowledge and how we know things.",
+    "example": "The book raises epistemological questions."
+  },
+  {
+    "word": "etymologist",
+    "arabic": "عالم أصول الكلمات",
+    "english": "A person who studies the origins of words.",
+    "example": "The etymologist explained the origin of the word."
+  },
+  {
+    "word": "evoked",
+    "arabic": "استحضر / أثار",
+    "english": "Brought a feeling or memory to mind.",
+    "example": "The song evoked memories of childhood."
+  },
+  {
+    "word": "explicit",
+    "arabic": "صريح / واضح",
+    "english": "Clear and direct.",
+    "example": "The instructions were explicit."
+  },
+  {
+    "word": "extroverted",
+    "arabic": "منفتح اجتماعيًا",
+    "english": "Outgoing and sociable.",
+    "example": "She is very extroverted and enjoys meeting people."
+  },
+  {
+    "word": "facilitator",
+    "arabic": "مُيسّر",
+    "english": "Someone who helps a process happen.",
+    "example": "The facilitator guided the discussion."
+  },
+  {
+    "word": "foster",
+    "arabic": "يعزّز / يرعى",
+    "english": "To encourage development.",
+    "example": "Teachers should foster creativity."
+  },
+  {
+    "word": "fraudulent",
+    "arabic": "احتيالي / مزيف",
+    "english": "Dishonest or involving deception.",
+    "example": "The company was accused of fraudulent activity."
+  },
+  {
+    "word": "futile",
+    "arabic": "عقيم / عديم الجدوى",
+    "english": "Useless; unlikely to succeed.",
+    "example": "It is futile to argue with him."
+  },
+  {
+    "word": "gain",
+    "arabic": "يكتسب / يحصل على",
+    "english": "To get or increase something.",
+    "example": "She gained valuable experience."
+  },
+  {
+    "word": "genesis",
+    "arabic": "نشأة / أصل / بداية",
+    "english": "The beginning or origin of something.",
+    "example": "The book explains the genesis of the idea."
+  },
+  {
+    "word": "gospel",
+    "arabic": "الإنجيل",
+    "english": "A Christian religious teaching or book.",
+    "example": "He reads the Gospel every morning."
+  },
+  {
+    "word": "heredity",
+    "arabic": "الوراثة",
+    "english": "Qualities passed from parents to children.",
+    "example": "Eye color is influenced by heredity."
+  },
+  {
+    "word": "holistic",
+    "arabic": "شمولي",
+    "english": "Considering the whole thing, not just parts.",
+    "example": "We need a holistic approach to education."
+  },
+  {
+    "word": "implement",
+    "arabic": "ينفّذ / يطبّق",
+    "english": "To put a plan into action.",
+    "example": "The school implemented a new policy."
+  },
+  {
+    "word": "incessant",
+    "arabic": "متواصل / لا ينقطع",
+    "english": "Continuing without stopping.",
+    "example": "The incessant noise was annoying."
+  },
+  {
+    "word": "inconvenient",
+    "arabic": "غير ملائم / غير مريح",
+    "english": "Causing difficulty or trouble.",
+    "example": "The meeting time is inconvenient."
+  },
+  {
+    "word": "indicate",
+    "arabic": "يشير إلى",
+    "english": "To show or suggest.",
+    "example": "The results indicate a problem."
+  },
+  {
+    "word": "indifferent",
+    "arabic": "غير مبالٍ",
+    "english": "Not interested or concerned.",
+    "example": "He seemed indifferent to the problem."
+  },
+  {
+    "word": "induce",
+    "arabic": "يسبّب / يحفّز",
+    "english": "To cause something to happen.",
+    "example": "The medicine may induce sleep."
+  },
+  {
+    "word": "inductive",
+    "arabic": "استقرائي",
+    "english": "Based on specific examples to reach a general idea.",
+    "example": "The teacher used an inductive approach."
+  },
+  {
+    "word": "infantilisation",
+    "arabic": "معاملة البالغين كالأطفال",
+    "english": "Treating adults like children.",
+    "example": "The article criticized the infantilisation of students."
+  },
+  {
+    "word": "infinity",
+    "arabic": "اللانهاية",
+    "english": "Endlessness.",
+    "example": "Space seems to continue to infinity."
+  },
+  {
+    "word": "influx",
+    "arabic": "تدفّق / توافد",
+    "english": "A large arrival of people or things.",
+    "example": "There was an influx of tourists."
+  },
+  {
+    "word": "infrastructure",
+    "arabic": "البنية التحتية",
+    "english": "Basic systems such as roads and electricity.",
+    "example": "The country needs better infrastructure."
+  },
+  {
+    "word": "infuse",
+    "arabic": "يُضفي / يُشبع",
+    "english": "To fill something with a quality or feeling.",
+    "example": "The music infused the room with energy."
+  },
+  {
+    "word": "ingredient",
+    "arabic": "مكوّن",
+    "english": "One of the things used to make food or something else.",
+    "example": "Flour is an important ingredient in bread."
+  },
+  {
+    "word": "inherent",
+    "arabic": "متأصل / كامن",
+    "english": "Naturally existing as part of something.",
+    "example": "Risk is inherent in this activity."
+  },
+  {
+    "word": "initiate",
+    "arabic": "يبدأ / يشرع في",
+    "english": "To start something.",
+    "example": "The company initiated a new project."
+  },
+  {
+    "word": "integrative",
+    "arabic": "تكاملي",
+    "english": "Combining different parts.",
+    "example": "The course uses an integrative approach."
+  },
+  {
+    "word": "intellectual hub",
+    "arabic": "مركز فكري",
+    "english": "A center of ideas and learning.",
+    "example": "The city became an intellectual hub."
+  },
+  {
+    "word": "interlock",
+    "arabic": "يتشابك / يتداخل",
+    "english": "To fit together.",
+    "example": "The pieces interlock perfectly."
+  },
+  {
+    "word": "intervene",
+    "arabic": "يتدخّل",
+    "english": "To become involved to change a situation.",
+    "example": "The teacher intervened in the argument."
+  },
+  {
+    "word": "intrinsic",
+    "arabic": "جوهري / متأصل",
+    "english": "Naturally part of something.",
+    "example": "Curiosity has intrinsic value."
+  },
+  {
+    "word": "introverted",
+    "arabic": "انطوائي",
+    "english": "Quiet and more focused on oneself.",
+    "example": "He is introverted and enjoys spending time alone."
+  },
+  {
+    "word": "irritated",
+    "arabic": "منزعج / متهيج",
+    "english": "Annoyed.",
+    "example": "She was irritated by the noise."
+  },
+  {
+    "word": "lexical approach",
+    "arabic": "المنهج المعجمي",
+    "english": "A way of teaching language through words and phrases.",
+    "example": "The teacher uses a lexical approach."
+  },
+  {
+    "word": "liberally",
+    "arabic": "بسخاء / بكثرة",
+    "english": "Generously or freely.",
+    "example": "Add salt liberally to the soup."
+  },
+  {
+    "word": "lucid",
+    "arabic": "واضح / جلي",
+    "english": "Clear and easy to understand.",
+    "example": "She gave a lucid explanation."
+  },
+  {
+    "word": "manuscript",
+    "arabic": "مخطوطة",
+    "english": "An author's original written work.",
+    "example": "She sent her manuscript to a publisher."
+  },
+  {
+    "word": "minimalist",
+    "arabic": "بسيط / تقليلي",
+    "english": "Using only simple or essential things.",
+    "example": "He prefers a minimalist design."
+  },
+  {
+    "word": "morphed",
+    "arabic": "تحوّل / تغيّر",
+    "english": "Changed into another form.",
+    "example": "The small project morphed into a large company."
+  },
+  {
+    "word": "mournfully",
+    "arabic": "بحزن / بأسى",
+    "english": "In a sad way.",
+    "example": "He spoke mournfully about his friend."
+  },
+  {
+    "word": "neglected",
+    "arabic": "مهمل",
+    "english": "Not given enough care or attention.",
+    "example": "The old building was neglected."
+  },
+  {
+    "word": "nihilism",
+    "arabic": "العدمية",
+    "english": "Belief that life has no inherent meaning or value.",
+    "example": "The novel explores themes of nihilism."
+  },
+  {
+    "word": "nihilistic",
+    "arabic": "عدمي",
+    "english": "Relating to nihilism.",
+    "example": "The character has a nihilistic view of life."
+  },
+  {
+    "word": "nurturing",
+    "arabic": "داعم / حنون / راعٍ",
+    "english": "Caring and helping someone grow.",
+    "example": "Children need a nurturing environment."
+  },
+  {
+    "word": "oppression",
+    "arabic": "اضطهاد",
+    "english": "Cruel or unfair control over people.",
+    "example": "The people suffered under oppression."
+  },
+  {
+    "word": "out of date",
+    "arabic": "قديم / منتهي الصلاحية",
+    "english": "Old and no longer useful.",
+    "example": "This information is out of date."
+  },
+  {
+    "word": "outline",
+    "arabic": "مخطط / ملخص",
+    "english": "A general plan or description.",
+    "example": "The teacher gave us an outline of the lesson."
+  },
+  {
+    "word": "outnumber",
+    "arabic": "يفوق عددُه",
+    "english": "To be more numerous than.",
+    "example": "The students outnumber the teachers."
+  },
+  {
+    "word": "paralysis",
+    "arabic": "شلل",
+    "english": "Inability to move.",
+    "example": "The accident caused paralysis in his legs."
+  },
+  {
+    "word": "parody",
+    "arabic": "محاكاة ساخرة",
+    "english": "A funny imitation of something.",
+    "example": "The show was a parody of a famous film."
+  },
+  {
+    "word": "perceive",
+    "arabic": "يدرك / يلاحظ",
+    "english": "To notice or understand something.",
+    "example": "People perceive the situation differently."
+  },
+  {
+    "word": "performed",
+    "arabic": "أدّى / قام بـ",
+    "english": "Did something; presented a show.",
+    "example": "The actors performed on stage."
+  },
+  {
+    "word": "perplexed",
+    "arabic": "حائر / مرتبك",
+    "english": "Very confused.",
+    "example": "I was perplexed by his answer."
+  },
+  {
+    "word": "persuasive",
+    "arabic": "مُقنع",
+    "english": "Good at convincing people.",
+    "example": "He gave a persuasive argument."
+  },
+  {
+    "word": "pledged",
+    "arabic": "تعهّد",
+    "english": "Promised seriously.",
+    "example": "He pledged to help the community."
+  },
+  {
+    "word": "postmodern",
+    "arabic": "ما بعد حداثي",
+    "english": "Relating to a modern cultural movement.",
+    "example": "The novel has a postmodern style."
+  },
+  {
+    "word": "postpubescent",
+    "arabic": "ما بعد البلوغ",
+    "english": "After puberty.",
+    "example": "The study focused on postpubescent teenagers."
+  },
+  {
+    "word": "precise",
+    "arabic": "دقيق",
+    "english": "Exact and accurate.",
+    "example": "Please give me the precise location."
+  },
+  {
+    "word": "prefabricated chunks",
+    "arabic": "عبارات جاهزة",
+    "english": "Ready-made groups of words.",
+    "example": "Learners can memorize prefabricated chunks."
+  },
+  {
+    "word": "preface",
+    "arabic": "مقدمة",
+    "english": "An introduction at the beginning of a book.",
+    "example": "The author wrote a short preface."
+  },
+  {
+    "word": "prominence",
+    "arabic": "بروز / أهمية",
+    "english": "Importance or being noticeable.",
+    "example": "The issue gained prominence in the media."
+  },
+  {
+    "word": "promote",
+    "arabic": "يشجّع / يروّج",
+    "english": "To encourage or support.",
+    "example": "The campaign promotes healthy eating."
+  },
+  {
+    "word": "prompter",
+    "arabic": "مُلقّن",
+    "english": "Someone or something that helps another person remember what to say.",
+    "example": "The actor needed a prompter."
+  },
+  {
+    "word": "pronounced",
+    "arabic": "واضح / ملحوظ",
+    "english": "Very noticeable or obvious.",
+    "example": "There was a pronounced difference between them."
+  },
+  {
+    "word": "provocation",
+    "arabic": "استفزاز / إثارة",
+    "english": "An action intended to cause a reaction.",
+    "example": "His comment was a deliberate provocation."
+  },
+  {
+    "word": "provocative",
+    "arabic": "استفزازي / مثير",
+    "english": "Causing a strong reaction.",
+    "example": "His comments were provocative."
+  },
+  {
+    "word": "puberty",
+    "arabic": "البلوغ",
+    "english": "The period when a child becomes physically mature.",
+    "example": "Puberty usually begins during adolescence."
+  },
+  {
+    "word": "punctuated",
+    "arabic": "تخلّل / قُطّع بـ",
+    "english": "Interrupted or marked by something.",
+    "example": "The speech was punctuated by laughter."
+  },
+  {
+    "word": "pursue",
+    "arabic": "يسعى إلى / يتابع",
+    "english": "To try to achieve something.",
+    "example": "She wants to pursue a career in teaching."
+  },
+  {
+    "word": "questionnaire",
+    "arabic": "استبيان / استمارة أسئلة",
+    "english": "A list of questions.",
+    "example": "I completed a questionnaire about the course."
+  },
+  {
+    "word": "rampant",
+    "arabic": "متفشٍّ / منتشر بشدة",
+    "english": "Spreading quickly and difficult to control.",
+    "example": "Corruption was rampant in the city."
+  },
+  {
+    "word": "reassurance",
+    "arabic": "طمأنة",
+    "english": "Words or actions that make someone feel less worried.",
+    "example": "Her words gave me reassurance."
+  },
+  {
+    "word": "rebel",
+    "arabic": "متمرّد",
+    "english": "A person who fights against authority.",
+    "example": "The rebel refused to obey the government."
+  },
+  {
+    "word": "reconcile",
+    "arabic": "يُصالح / يوفّق",
+    "english": "To make two ideas or people agree again.",
+    "example": "They tried to reconcile their differences."
+  },
+  {
+    "word": "reconciling",
+    "arabic": "التوفيق / المصالحة",
+    "english": "Making two things agree or restoring a relationship.",
+    "example": "They are working on reconciling their differences."
+  },
+  {
+    "word": "recount",
+    "arabic": "يروي / يسرد",
+    "english": "To tell something that happened.",
+    "example": "She recounted her experience."
+  },
+  {
+    "word": "reinforcement",
+    "arabic": "تعزيز / تدعيم",
+    "english": "Additional support or encouragement.",
+    "example": "The teacher used repetition as reinforcement."
+  },
+  {
+    "word": "reliance",
+    "arabic": "اعتماد",
+    "english": "Dependence on someone or something.",
+    "example": "Too much reliance on technology can be a problem."
+  },
+  {
+    "word": "representative",
+    "arabic": "ممثّل",
+    "english": "Someone who represents others.",
+    "example": "She is a representative of the company."
+  },
+  {
+    "word": "reputed",
+    "arabic": "مشهور بأنه / يُقال عنه",
+    "english": "Generally believed to be.",
+    "example": "He is reputed to be an excellent teacher."
+  },
+  {
+    "word": "resign",
+    "arabic": "يستقيل",
+    "english": "To leave a job officially.",
+    "example": "He decided to resign from his position."
+  },
+  {
+    "word": "retention",
+    "arabic": "الاحتفاظ / التذكّر",
+    "english": "The ability to keep or remember something.",
+    "example": "Repetition improves vocabulary retention."
+  },
+  {
+    "word": "role",
+    "arabic": "دور",
+    "english": "A function or position.",
+    "example": "She played an important role in the project."
+  },
+  {
+    "word": "salvation",
+    "arabic": "خلاص / نجاة",
+    "english": "Being saved from danger or suffering.",
+    "example": "They believed the hero offered salvation."
+  },
+  {
+    "word": "sarcastic",
+    "arabic": "ساخر",
+    "english": "Using words that mean the opposite to mock someone.",
+    "example": "He made a sarcastic comment."
+  },
+  {
+    "word": "sentimental",
+    "arabic": "عاطفي / وجداني",
+    "english": "Strongly affected by emotions or memories.",
+    "example": "She kept the letter for sentimental reasons."
+  },
+  {
+    "word": "shell",
+    "arabic": "قشرة / صدفة",
+    "english": "A hard outer covering.",
+    "example": "The turtle has a hard shell."
+  },
+  {
+    "word": "silence",
+    "arabic": "صمت",
+    "english": "Complete absence of sound.",
+    "example": "The room fell into silence."
+  },
+  {
+    "word": "skepticism",
+    "arabic": "تشكّك",
+    "english": "Doubt about whether something is true.",
+    "example": "The claim was met with skepticism."
+  },
+  {
+    "word": "slum",
+    "arabic": "حي فقير / عشوائي",
+    "english": "A poor, crowded area of a city.",
+    "example": "Many families live in the slum."
+  },
+  {
+    "word": "sparked",
+    "arabic": "أثار / أشعل",
+    "english": "Caused something to start.",
+    "example": "The speech sparked a debate."
+  },
+  {
+    "word": "spatial",
+    "arabic": "مكاني / متعلق بالحيّز",
+    "english": "Relating to space or position.",
+    "example": "The game develops spatial awareness."
+  },
+  {
+    "word": "spell",
+    "arabic": "فترة / مدة قصيرة",
+    "english": "A period of time.",
+    "example": "He stayed there for a short spell."
+  },
+  {
+    "word": "squabbles",
+    "arabic": "مشاجرات صغيرة / خلافات",
+    "english": "Small, unimportant arguments.",
+    "example": "The children had squabbles over toys."
+  },
+  {
+    "word": "strain",
+    "arabic": "إجهاد / ضغط",
+    "english": "Pressure, difficulty, or injury from overuse.",
+    "example": "The long hours put a strain on him."
+  },
+  {
+    "word": "strand",
+    "arabic": "خصلة / شريط رفيع",
+    "english": "A single thin part of something.",
+    "example": "A strand of hair fell across her face."
+  },
+  {
+    "word": "subdued",
+    "arabic": "خافت / هادئ",
+    "english": "Quiet or not very strong.",
+    "example": "She spoke in a subdued voice."
+  },
+  {
+    "word": "subgenre",
+    "arabic": "نوع فرعي",
+    "english": "A smaller type within a genre.",
+    "example": "Horror comedy is a popular subgenre."
+  },
+  {
+    "word": "suspense",
+    "arabic": "تشويق / ترقّب",
+    "english": "A feeling of excitement or worry about what will happen.",
+    "example": "The movie was full of suspense."
+  },
+  {
+    "word": "sustain",
+    "arabic": "يحافظ على / يدعم",
+    "english": "To continue or support something.",
+    "example": "The money helped sustain the project."
+  },
+  {
+    "word": "tenable",
+    "arabic": "قابل للدفاع عنه / معقول",
+    "english": "Reasonable and able to be defended.",
+    "example": "His argument is no longer tenable."
+  },
+  {
+    "word": "tension",
+    "arabic": "توتر",
+    "english": "Stress or conflict.",
+    "example": "There was tension between the two groups."
+  },
+  {
+    "word": "threshold",
+    "arabic": "عتبة / حد",
+    "english": "A point at which something begins or changes.",
+    "example": "He reached the threshold of success."
+  },
+  {
+    "word": "trace back",
+    "arabic": "يتتبّع أصل",
+    "english": "To find the origin of something.",
+    "example": "We can trace the tradition back to ancient times."
+  },
+  {
+    "word": "traction",
+    "arabic": "زخم / تقدّم",
+    "english": "Progress or grip.",
+    "example": "The new idea is gaining traction."
+  },
+  {
+    "word": "transcendence",
+    "arabic": "التعالي / التجاوز",
+    "english": "Going beyond normal limits.",
+    "example": "The experience gave him a feeling of transcendence."
+  },
+  {
+    "word": "tremble",
+    "arabic": "يرتجف",
+    "english": "To shake slightly.",
+    "example": "His hands began to tremble."
+  },
+  {
+    "word": "trivial",
+    "arabic": "تافه / غير مهم",
+    "english": "Not important.",
+    "example": "They argued about a trivial matter."
+  },
+  {
+    "word": "ultimate",
+    "arabic": "نهائي / أقصى",
+    "english": "Final or greatest.",
+    "example": "Our ultimate goal is success."
+  },
+  {
+    "word": "uncertainty",
+    "arabic": "عدم اليقين",
+    "english": "Lack of certainty.",
+    "example": "There is uncertainty about the future."
+  },
+  {
+    "word": "unfolding",
+    "arabic": "يتكشف / يتطور تدريجيًا",
+    "english": "Developing or happening gradually.",
+    "example": "We watched the story unfolding."
+  },
+  {
+    "word": "vantage",
+    "arabic": "موقع مناسب للرؤية / منظور",
+    "english": "A position that gives a good view.",
+    "example": "We watched the game from a good vantage point."
+  },
+  {
+    "word": "wander",
+    "arabic": "يتجوّل / يهيم",
+    "english": "To walk without a clear direction.",
+    "example": "We wandered around the city."
+  },
+  {
+    "word": "wit",
+    "arabic": "ذكاء / خفة ظل",
+    "english": "Clever and funny intelligence.",
+    "example": "His wit made everyone laugh."
+  },
+  {
+    "word": "wittily",
+    "arabic": "بذكاء وخفة ظل",
+    "english": "In a clever and funny way.",
+    "example": "She answered the question wittily."
   }
 ]
